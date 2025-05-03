@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdyte_docs=self.webpackChunkdyte_docs||[]).push([["64967"],{2722:function(e){e.exports=JSON.parse('{"tags":[{"label":"android-ui-kit","permalink":"/en/android/tags/android-ui-kit","count":2},{"label":"plugins","permalink":"/en/android/tags/plugins","count":2},{"label":"releasenotes","permalink":"/en/android/tags/releasenotes","count":1}]}')}}]);

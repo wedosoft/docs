@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdyte_docs=self.webpackChunkdyte_docs||[]).push([["40669"],{87272:function(e){e.exports=JSON.parse('{"tags":[{"label":"releasenotes","permalink":"/en/angular-ui-kit/tags/releasenotes","count":1}]}')}}]);
