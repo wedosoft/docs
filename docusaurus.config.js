@@ -661,9 +661,9 @@ const config = {
         ],
       },
       algolia: {
-        appId: 'HL0HSV62RK',
-        apiKey: '72ebf02146698733b7114c7b36da0945',
-        indexName: 'docs',
+        appId: 'JC1GQQSU1E',
+        apiKey: '5f6d1d53539025ae0119ca28783cdce0',
+        indexName: 'wedosoft',
         contextualSearch: true,
         searchParameters: {},
       },
