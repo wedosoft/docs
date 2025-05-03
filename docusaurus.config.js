@@ -10,12 +10,14 @@ const meta = {
   title: 'Dyte Docs',
   tagline:
     'Explore comprehensive documentation for Dyte, including guides, references, and best practices.',
-  url: 'https://docs.dyte.io',
+  url: 'https://docs.wedosoft.net',
   baseUrl: '/',
   favicon: '/favicon.ico',
+  organizationName: 'wedosoft', // GitHub 사용자/조직 이름
+  projectName: 'docs', // GitHub 저장소 이름
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ko',
+    locales: ['ko', 'en'],
   },
 };
 
