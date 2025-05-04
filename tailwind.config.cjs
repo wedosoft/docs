@@ -11,8 +11,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Inter"', ...fontFamily.sans],
-        jakarta: ['"Plus Jakarta Sans"', ...fontFamily.sans],
+        sans: ['"NanumSquare"', ...fontFamily.sans],
+        jakarta: ['"NanumSquare"', ...fontFamily.sans],
         mono: ['"Fira Code"', ...fontFamily.mono],
       },
       borderRadius: {
