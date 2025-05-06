@@ -661,9 +661,9 @@ const config = {
         ],
       },
       algolia: {
-        appId: 'JC1GQQSU1E',
-        apiKey: '5f6d1d53539025ae0119ca28783cdce0',
-        indexName: 'wedosoft',
+        appId: 'BH0WICMJKW',
+        apiKey: '2cf23afc29a56f65e83f7b508eb118af',
+        indexName: 'wedosoftio',
         contextualSearch: true,
         searchParameters: {},
       },
