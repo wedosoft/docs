@@ -77,9 +77,11 @@
       "tags": "android-core",
       "selectors_key": "android-core"
     },
-    "https://docs.wedosoft.net/"
+    "https://docs.wedosoft.net/",
+    "https://wedosoft.github.io/docs/"
   ],
   "stop_urls": [],
+  "pathsToFollow": ["https://docs.wedosoft.net"],
 
   "selectors": {
     "default": {

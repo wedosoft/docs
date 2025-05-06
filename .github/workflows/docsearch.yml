@@ -5,6 +5,9 @@ on:
     branches:
       - 'ci/docsearch'
       - main
+    paths:
+      - 'docsearch.config.json'
+      - '.github/workflows/docsearch.yml'
   schedule:
     - cron: '0 12 * * 1'
 

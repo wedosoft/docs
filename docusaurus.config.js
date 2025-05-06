@@ -666,6 +666,10 @@ const config = {
         indexName: 'wedosoftio',
         contextualSearch: true,
         searchParameters: {},
+        // CORS 정책 문제 해결을 위한 추가 설정
+        insights: false,
+        container: '#docsearch',
+        debug: false,
       },
     }),
 

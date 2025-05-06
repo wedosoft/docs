@@ -1,9 +1,11 @@
-name: Deploy Docusaurus to GitHub Pages
+name: Deploy Docusaurus to GitHub Pages (Build Only)
 
 on:
   push:
     branches:
       - main  # 또는 master 브랜치에 push 될 때만 동작
+    paths-ignore:
+      - 'docsearch.config.json'  # Algolia 설정 파일 변경시 이 워크플로우 실행 안함
 
 # 중복 실행 방지 설정: 같은 브랜치에 새로운 커밋이 push 되면 이전 워크플로우 취소
 concurrency:
@@ -13,6 +15,7 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # 이 워크플로우는 Algolia 인덱싱을 하지 않습니다 - 별도 docsearch.yml 워크플로우 사용
 
     steps:
       # GitHub 저장소 체크아웃
