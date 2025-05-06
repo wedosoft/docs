@@ -661,9 +661,9 @@ const config = {
         ],
       },
       algolia: {
-        appId: 'BH0WICMJKW',
-        apiKey: '2cf23afc29a56f65e83f7b508eb118af',
-        indexName: 'wedosoftio',
+        appId: '9T6ZL67IBN',
+        apiKey: '4e91c4f78e10df5187f48c0e15475206',
+        indexName: 'wedosoft',
         contextualSearch: true,
         searchParameters: {},
         // CORS 정책 문제 해결을 위한 추가 설정
