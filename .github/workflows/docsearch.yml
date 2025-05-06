@@ -7,10 +7,16 @@ on:
       - main
   schedule:
     - cron: '0 12 * * 1'
+
+# 중복 실행 방지 설정: 같은 브랜치에 새로운 커밋이 push 되면 이전 워크플로우 취소
+concurrency:
+  group: algolia-docsearch-${{ github.ref }}
+  cancel-in-progress: true
+  
 jobs:
   docsearch:
     runs-on: ubuntu-latest
-    if: github.repository == 'dyte-io/docs'
+    if: github.repository == 'wedosoft/docs'
     steps:
       - uses: actions/checkout@v2
 
