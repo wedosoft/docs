@@ -664,7 +664,7 @@ const config = {
         appId: '9T6ZL67IBN',
         apiKey: '351e7b8eb39c3dd129d2ff2440d01d81',
         indexName: 'docs',
-        contextualSearch: true,
+        contextualSearch: false,
         searchParameters: {},
         // CORS 정책 문제 해결을 위한 추가 설정
         insights: false,
