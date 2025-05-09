@@ -1,5 +1,5 @@
 {
-  "index_name": "wedosoftio",
+  "index_name": "docs",
   "sitemap_urls": ["https://docs.wedosoft.net/sitemap.xml"],
   "start_urls": [
     {
