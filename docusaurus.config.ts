@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'WedoSoft Documentation',
-  tagline: '고객 지원을 위한 기술 문서 포털',
+  title: '웨도소프트 기술 문서 포털',
+  tagline: 'IT 서비스 관리 솔루션을 위한 종합 가이드',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
