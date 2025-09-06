@@ -11,12 +11,12 @@ total_files: 20
 
 **경로**: `/docs/freshworks/freshservice/getting-started-with-freshservice/user-management/`
 **총 파일 수**: 20개
-**완료**: 16개
-**진행률**: 80%
+**완료**: 20개
+**진행률**: 100% ✅
 
-## ✅ 완료된 문서 (16개)
+## ✅ 완료된 문서 (20개)
 
-### 신규 템플릿 적용 완료 (15개)
+### 신규 템플릿 적용 완료 (20개)
 1. ✅ `adding-custom-fields-departments.md` - 부서 사용자 정의 필드
 2. ✅ `adding-custom-fields-users.md` - 사용자 사용자 정의 필드  
 3. ✅ `changing-requester-password.md` - 요청자 비밀번호 변경
@@ -32,16 +32,15 @@ total_files: 20
 13. ✅ `understanding-different-user-types.md` - 다양한 사용자 유형 이해
 14. ✅ `add-members-observers-agent-groups.md` - 상담원 그룹에 구성원/옵저버 추가
 15. ✅ `create-manage-requester-groups.md` - 요청자 그룹 생성 및 관리
-
-### 이미 새 템플릿 형식 (1개)
 16. ✅ `automatically-associating-contacts-companies.md` - 연락처-회사 자동 연결
+17. ✅ `csv-import-guidelines.md` - CSV 가져오기 지침
+18. ✅ `exporting-agent-information.md` - 상담원 정보 내보내기
+19. ✅ `finding-agent-user-id.md` - 상담원 사용자 ID 찾기
+20. ✅ `importing-agent-information.md` - 상담원 정보 가져오기
 
-## 🔄 작업 대기 중 (4개)
+## 🎉 섹션 완료
 
-17. ⏳ `csv-import-guidelines.md` - CSV 가져오기 지침
-18. ⏳ `exporting-agent-information.md` - 상담원 정보 내보내기
-19. ⏳ `finding-agent-user-id.md` - 상담원 사용자 ID 찾기
-20. ⏳ `importing-agent-information.md` - 상담원 정보 가져오기
+**user-management 섹션 100% 완료**
 
 ## 📋 신규 템플릿 구조
 

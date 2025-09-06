@@ -68,7 +68,25 @@ const sidebars: SidebarsConfig = {
                     // ✅ User Management 폴더 완성! (20개 문서 복구됨!)
                   ],
                 },
-                // 향후 추가: form-fields, fresh-themes, setting-up-freshservice 등 다른 폴더들
+                // Setting up Freshservice 폴더 (11개 문서)
+                {
+                  type: 'category',
+                  label: '⚙️ Freshservice 설정',
+                  collapsed: false,
+                  items: [
+                    'freshworks/freshservice/getting-started-with-freshservice/setting-up-freshservice/freshservice-onboarding-flow',
+                    'freshworks/freshservice/getting-started-with-freshservice/setting-up-freshservice/freshservice-system-requirements',
+                    'freshworks/freshservice/getting-started-with-freshservice/setting-up-freshservice/setting-up-custom-mailbox',
+                    'freshworks/freshservice/getting-started-with-freshservice/setting-up-freshservice/managing-agents-freshservice',
+                    'freshworks/freshservice/getting-started-with-freshservice/setting-up-freshservice/scanning-discovering-assets-network',
+                    'freshworks/freshservice/getting-started-with-freshservice/setting-up-freshservice/time-zones-supported',
+                    'freshworks/freshservice/getting-started-with-freshservice/setting-up-freshservice/languages-supported',
+                    'freshworks/freshservice/getting-started-with-freshservice/setting-up-freshservice/managing-service-catalog',
+                    'freshworks/freshservice/getting-started-with-freshservice/setting-up-freshservice/managing-sla-policy',
+                    // 향후 추가: configuring-business-hours, setting-up-sso
+                  ],
+                },
+                // 향후 추가: form-fields, fresh-themes 등 다른 폴더들
                 'freshworks/freshservice/getting-started/config-sets',
                 'freshworks/freshservice/getting-started/importing-assets',
               ],
