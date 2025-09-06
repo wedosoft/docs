@@ -1,114 +1,124 @@
 ---
 id: importing-requesters-csv
-title: CSV를 통한 요청자 가져오기
-sidebar_label: CSV를 통한 요청자 가져오기
+title: CSV 파일로 요청자 가져오기
+sidebar_label: CSV 파일로 요청자 가져오기
+sidebar_position: 4
 ---
 
-<div class="subtitle">
-  이 문서는 "CSV를 통한 요청자 가져오기(Importing Requesters from CSV)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
+<div className="subtitle">
+  이 문서는 CSV 파일을 사용하여 요청자를 일괄 가져오는 방법을 안내하는 문서입니다.
 </div>
 
 ## 개요
 
-요청자를 수동으로 하나씩 추가하는 대신, **CSV 파일**을 사용하여 기존 연락처 데이터를 일괄 가져올 수 있습니다. 이전 설정이나 애플리케이션에서 연락처를 CSV 파일로 내보내어 Freshservice에 업로드하면 됩니다.
+요청자를 수동으로 하나씩 추가하는 대신 기존 연락처 데이터를 CSV 파일을 통해 일괄 가져올 수 있습니다. 이전 시스템이나 애플리케이션에서 연락처를 CSV 파일로 내보내 Freshservice에 업로드하면 됩니다.
 
-이 기능은 신규 요청자 추가뿐만 아니라 **기존 요청자 프로필의 대량 업데이트**에도 사용할 수 있습니다.
+:::info 중요 사항
+- CSV 형식만 지원 (다른 형식 지원 안 함)
+- 기존 요청자 프로필의 대량 업데이트도 가능
+- 이메일 주소를 기준으로 중복 확인 및 업데이트
+:::
 
-## CSV 파일 요구사항
+## CSV 파일 준비 요구사항
 
-### 기본 요구사항
+### 1단계: 파일 형식 확인
 
-1. **CSV 형식**: 올바르게 형식화된 CSV 파일이어야 합니다 (다른 형식은 지원되지 않음)
-2. **헤더 행**: 첫 번째 행에는 필드명이 포함되어야 합니다 (Name, Email, Job Title, Description 등)
-3. **인코딩**: UTF-8 인코딩을 권장합니다
+다음 요구사항을 충족하는 CSV 파일을 준비해야 합니다:
 
-### 권장 필드 구성
+1. **올바른 CSV 형식**: 쉼표로 구분된 값 형식이어야 합니다.
+2. **헤더 행 필수**: 첫 번째 행에는 필드명이 포함되어야 합니다 (Name, Email, Job Title, Description 등).
 
-```csv
-Name,Email,Job Title,Phone,Mobile,Department,Company,Location,Active,Description
-김철수,kim@company.com,개발자,02-1234-5678,010-1234-5678,개발팀,본사,서울 본사,true,시니어 개발자
-이영희,lee@company.com,마케터,02-2345-6789,010-2345-6789,마케팅팀,본사,서울 본사,true,디지털 마케팅 담당
-```
+### 2단계: 필수 및 권장 필드
 
-## 요청자 가져오기 단계
+| 필드명 | 필수 여부 | 설명 | 예시 |
+|--------|-----------|------|------|
+| Name | 필수 | 요청자 전체 이름 | 김철수 |
+| Email | 필수 | 고유한 이메일 주소 | kim@company.com |
+| Job Title | 권장 | 직급 또는 직책 | 시니어 개발자 |
+| Phone | 선택 | 업무용 전화번호 | 02-1234-5678 |
+| Mobile | 선택 | 휴대폰 번호 | 010-1234-5678 |
+| Department | 권장 | 소속 부서 | 개발팀 |
+| Company | 선택 | 소속 회사 | 본사 |
+| Location | 선택 | 근무 위치 | 서울 본사 |
 
-### 1단계: 요청자 관리 페이지 접근
+## 요청자 가져오기 프로세스
 
-1. **관리자 → 사용자 관리 → 요청자**로 이동합니다.
-2. 계정에 여러 워크스페이스가 있는 경우:
-   - **관리자 → 전역 설정 → 사용자 관리 → 요청자**로 이동합니다.
+### 1단계: 가져오기 페이지 접속
 
-### 2단계: CSV 가져오기 시작
+**단일 워크스페이스인 경우:**
+**관리자 → 사용자 관리 → 요청자**로 이동합니다.
 
-1. **가져오기(Import)** 링크를 클릭합니다.
-2. **CSV에서 가져오기(Import from CSV)**를 선택합니다.
+**다중 워크스페이스인 경우:**
+**관리자 → 글로벌 설정 → 사용자 관리 → 요청자**로 이동합니다.
 
-### 3단계: CSV 파일 업로드
+**가져오기** 링크를 클릭하고 **CSV에서 가져오기**를 선택합니다.
 
-1. **파일 선택(Choose file)** 버튼을 클릭하여 CSV 파일을 선택합니다.
-2. 페이지에 표시된 지침을 읽고 **가져오기(Import)**를 클릭합니다.
+![CSV 가져오기 옵션](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/35631581/original/IF9o6-87YQpvnOQS-Wqzrr9prUNvrO9eBw.png?1509086975)
 
-### 4단계: 필드 매핑
+### 2단계: CSV 파일 업로드
 
-1. CSV 파일의 필드를 Freshservice의 해당 요청자 필드와 매핑합니다.
-2. 매핑이 완료되면 **가져오기(Import)** 버튼을 클릭합니다.
+1. **파일 선택** 버튼을 클릭하여 준비한 CSV 파일을 선택합니다.
+2. 페이지에 표시된 지침을 확인한 후 **가져오기** 버튼을 클릭합니다.
 
-### 5단계: 가져오기 결과 확인
+![CSV 파일 선택 화면](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/35631584/original/UstfSgJfJgHtmxUvazmKiIbKKEEFjrmNGg.png?1509086984)
 
-1. **관리자 → 사용자 관리 → 요청자**로 이동하여 새로운 요청자를 확인합니다.
-2. 티켓 생성 시에도 가져온 요청자들이 사용 가능합니다.
+### 3단계: 필드 매핑
 
-## 필드 매핑 가이드
+CSV 파일의 필드를 Freshservice의 해당 요청자 필드와 매핑합니다. 시스템이 자동으로 유사한 필드를 매핑하지만, 수동으로 조정할 수 있습니다.
 
-### 주요 필드 매핑 예시
+![필드 매핑 화면](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011179377/original/3esC6RF_Z3xOGMhm2fm-fLkFIoYqrIQIRQ.png?1710085545)
 
-| CSV 필드 | Freshservice 필드 | 설명 |
-|----------|-------------------|------|
-| Name | Full Name | 요청자의 전체 이름 |
-| Email | Email | 기본 이메일 주소 |
-| Job Title | Job Title | 직급 또는 직책 |
-| Phone | Work Phone | 업무용 전화번호 |
-| Mobile | Mobile Phone | 휴대폰 번호 |
-| Department | Department | 소속 부서 |
-| Company | Company | 소속 회사 |
-| Location | Location | 근무 위치 |
-| Active | Active | 계정 활성화 상태 |
+#### 중요한 필드 매핑 참고사항
+- **'active' 필드**: 요청자 프로필의 활성화/비활성화 상태를 나타냅니다.
+- **이메일 필드**: 중복 확인 및 업데이트의 기준이 됩니다.
 
-### 특수 필드 처리
+### 4단계: 가져오기 실행 및 확인
 
-#### Active 필드
-- **true**: 요청자 프로필이 활성화됨
-- **false**: 요청자 프로필이 비활성화됨
+매핑이 완료되면 **가져오기** 버튼을 클릭합니다.
 
-#### Reporting Manager 필드
-- **이메일 주소만 사용**: manager@company.com
-- **이름 사용 불가**: "김 관리자"와 같은 이름은 가져오기되지 않음
+![가져오기 결과 확인](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/35631594/original/lY-0QSNSj0N3oZi4eszpAo_q5z44FgPpAQ.png?1509087018)
 
-#### Location 필드
-- **사전 설정 필요**: 가져오기 전에 **관리자 → 위치**에서 미리 위치를 생성해야 함
-- **위치 미설정 시**: 해당 필드는 빈 값으로 처리됨
+완료 후 **관리자 → 사용자 관리 → 요청자**에서 새로운 요청자들을 확인할 수 있습니다. 가져온 요청자들은 티켓 생성 시에도 즉시 사용할 수 있습니다.
 
-## CSV 파일 작성 예시
+## 특별 주의사항
+
+### 보고 관리자 필드
+
+:::warning 보고 관리자 설정 주의
+**보고 관리자** 필드에는 반드시 이메일 주소를 사용해야 합니다. 이름을 사용하면 해당 필드가 가져오기되지 않습니다.
+
+✅ 올바른 예: `manager@company.com`  
+❌ 잘못된 예: `김 관리자`
+:::
+
+### 위치 정보 사전 설정
+
+:::warning 위치 사전 생성 필요
+가져오기 전에 **관리자 → 위치**에서 모든 위치를 미리 생성해야 합니다. 존재하지 않는 위치는 빈 값으로 처리됩니다.
+:::
+
+## CSV 파일 예시
 
 ### 기본 템플릿
-
 ```csv
-Name,Email,Job Title,Phone,Department,Company,Active
-김철수,kim@company.com,시니어 개발자,02-1234-5678,개발팀,본사,true
-이영희,lee@company.com,마케팅 매니저,02-2345-6789,마케팅팀,본사,true
-박민수,park@company.com,영업 담당,02-3456-7890,영업팀,본사,true
+Name,Email,Job Title,Phone,Department,Active
+김철수,kim@company.com,시니어 개발자,02-1234-5678,개발팀,true
+이영희,lee@company.com,마케팅 매니저,02-2345-6789,마케팅팀,true
+박민수,park@company.com,영업 담당,02-3456-7890,영업팀,true
 ```
 
-### 고급 필드 포함 템플릿
-
+### 확장 필드 포함 템플릿
 ```csv
-Name,Email,Job Title,Work Phone,Mobile Phone,Department,Company,Location,Reporting Manager,Active,Description
-김철수,kim@company.com,시니어 개발자,02-1234-5678,010-1234-5678,개발팀,본사,서울 본사,dev.manager@company.com,true,10년 경력의 백엔드 개발자
+Name,Email,Job Title,Work Phone,Mobile,Department,Company,Location,Reporting Manager,Active,Description
+김철수,kim@company.com,시니어 개발자,02-1234-5678,010-1234-5678,개발팀,본사,서울 본사,dev.manager@company.com,true,10년 경력 백엔드 개발자
 이영희,lee@company.com,마케팅 매니저,02-2345-6789,010-2345-6789,마케팅팀,본사,서울 본사,marketing.manager@company.com,true,디지털 마케팅 전문가
 ```
 
-### 대량 업데이트 템플릿
+## 대량 업데이트 활용
 
+이 가져오기 기능은 기존 요청자 프로필의 대량 업데이트에도 사용할 수 있습니다. 동일한 이메일 주소가 있는 경우 기존 데이터가 업데이트됩니다.
+
+### 업데이트 전용 템플릿
 ```csv
 Email,Department,Location,Active
 kim@company.com,신기술팀,판교 사무소,true
@@ -116,94 +126,7 @@ lee@company.com,브랜드팀,강남 사무소,true
 park@company.com,기업영업팀,서울 본사,false
 ```
 
-## 실무 활용 시나리오
-
-### 시나리오 1: 신규 시스템 마이그레이션
-```
-상황: 기존 고객 관리 시스템에서 Freshservice로 전환
-준비: 기존 고객 데이터를 CSV로 내보내기
-결과: 모든 고객 정보를 새 시스템으로 일괄 이전
-```
-
-### 시나리오 2: 조직 개편 반영
-```
-상황: 부서 통폐합으로 요청자 정보를 대량 업데이트
-준비: 변경된 부서 정보가 포함된 CSV 작성
-결과: 기존 요청자들의 부서 정보를 일괄 업데이트
-```
-
-### 시나리오 3: 신입사원 일괄 등록
-```
-상황: 대규모 신입사원 입사로 다수의 요청자 계정 생성 필요
-준비: 인사팀에서 제공한 신입사원 정보를 CSV로 정리
-결과: 모든 신입사원을 요청자로 일괄 등록
-```
-
-### 시나리오 4: 외부 고객사 등록
-```
-상황: 새로운 고객사와의 계약으로 다수의 외부 사용자 등록
-준비: 고객사에서 제공한 담당자 정보를 CSV로 구성
-결과: 외부 고객사 담당자들을 요청자로 일괄 등록
-```
-
-## 가져오기 전 체크리스트
-
-### 데이터 준비
-- [ ] CSV 파일 형식이 올바른지 확인
-- [ ] 첫 번째 행에 필드명이 정확히 입력되었는지 확인
-- [ ] 이메일 주소 형식이 유효한지 확인
-- [ ] 필수 필드가 모든 행에 포함되었는지 확인
-
-### 사전 설정 확인
-- [ ] 필요한 위치가 **관리자 → 위치**에서 미리 생성되었는지 확인
-- [ ] 부서와 회사가 시스템에 존재하는지 확인
-- [ ] 보고 관리자 이메일이 유효한지 확인
-
-### 백업 및 테스트
-- [ ] 기존 요청자 데이터 백업 완료
-- [ ] 소량 데이터로 테스트 가져오기 수행
-- [ ] 중복 데이터 처리 방식 확인
-
-## 주의사항 및 팁
-
-### 보고 관리자 설정
-
-> **이메일 주소 필수**
-> - 보고 관리자 필드에는 반드시 이메일 주소를 사용해야 합니다.
-> - 이름을 사용하면 해당 필드가 가져오기되지 않습니다.
-
-### 위치 정보 사전 설정
-
-> **위치 미리 생성 필요**
-> - 가져오기 전에 **관리자 → 위치**에서 모든 위치를 미리 생성해야 합니다.
-> - 존재하지 않는 위치는 빈 값으로 처리됩니다.
-
-### 기존 데이터 업데이트
-
-> **이메일 기준 업데이트**
-> - 동일한 이메일 주소가 있는 경우 기존 데이터가 업데이트됩니다.
-> - 중요한 기존 정보가 덮어쓰여질 수 있으므로 사전에 백업하세요.
-
-## 문제 해결
-
-### 일반적인 오류와 해결책
-
-| 오류 상황 | 원인 | 해결책 |
-|-----------|------|--------|
-| "Invalid file format" | CSV 형식 오류 | 파일을 올바른 CSV 형식으로 저장 |
-| "Missing required field" | 필수 필드 누락 | 필수 필드를 모든 행에 추가 |
-| "Invalid email format" | 잘못된 이메일 형식 | 이메일 주소 형식 재확인 |
-| "Location not found" | 존재하지 않는 위치 | 위치를 미리 생성하거나 기존 위치 사용 |
-
-### 부분적 가져오기 실패
-
-- **일부 행 실패**: 오류 메시지를 확인하여 해당 행 수정
-- **필드 매핑 오류**: 필드 매핑을 다시 확인하고 수정
-- **데이터 형식 오류**: 각 필드의 요구 형식에 맞게 데이터 수정
-
 ## 관련 문서
-
-- [CSV 가져오기 가이드라인](./csv-import-guidelines.md)
-- [요청자 관리](./managing-requesters.md)
-- [CSV를 통한 부서/회사 가져오기](./importing-departments-companies-csv.md)
-- [사용자 맞춤 필드 추가](./adding-custom-fields-users.md)
+- [요청자 관리 가이드](./managing-requesters)
+- [CSV 가져오기 가이드라인](./csv-import-guidelines)
+- [부서별 커스텀 필드 추가](./adding-custom-fields-departments)

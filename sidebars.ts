@@ -80,7 +80,7 @@ const sidebars: SidebarsConfig = {
               label: '🎫 IT 서비스 관리',
               collapsed: true,
               items: [
-                'freshworks/freshservice/it-service-management/freshworks-freshservice-it-service-management-saas-workflows',
+                'freshworks/freshservice/it-service-management/saas-workflows',
                 // 향후 추가: getting-started-with-tickets, ticket-actions, change-management 등
               ],
             },
@@ -101,7 +101,7 @@ const sidebars: SidebarsConfig = {
               label: '🏢 워크스페이스 관리',
               collapsed: true,
               items: [
-                'freshworks/freshservice/workspace-management/freshworks-freshservice-workspace-management-workspace-views',
+                'freshworks/freshservice/workspace-management/workspace-views',
                 // 향후 추가: workspaces, employee-onboarding, access-controls 등
               ],
             },
@@ -142,7 +142,7 @@ const sidebars: SidebarsConfig = {
               label: '🔐 보안 & 정책',
               collapsed: true,
               items: [
-                'freshworks/freshservice/security-and-policies/freshworks-freshservice-security-and-policies-spam-and-trash',
+                'freshworks/freshservice/security-and-policies/spam-and-trash',
                 // 향후 추가: sso, security, remote-authentication 등
               ],
             },

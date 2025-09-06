@@ -1,12 +1,12 @@
 ---
-id: finding-agent-user-id
-title: 상담원 사용자 ID 찾기
-sidebar_label: 상담원 사용자 ID 찾기
+sidebar_position: 18
 ---
 
-<div class="subtitle">
-  이 문서는 "상담원 사용자 ID 찾기(Finding Agent User ID)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+# 상담원 사용자 ID 찾기
+
+:::info 문서 목적
+이 문서는 상담원의 사용자 ID 또는 응답자 ID를 찾는 방법을 안내합니다.
+:::
 
 ## 개요
 
@@ -41,6 +41,8 @@ https://yourcompany.freshservice.com/admin/agents/12345678
 
 여기서 `12345678`이 **상담원 ID**입니다.
 
+![상담원 ID 확인](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/21003944/original/Agent_ID.jpg?1417524045)
+
 ### 3단계: 사용자 ID 조회
 
 1. URL 끝에 `.json`을 추가합니다:
@@ -51,6 +53,8 @@ https://yourcompany.freshservice.com/admin/agents/12345678
 2. **Enter 키**를 눌러 페이지를 로드합니다.
 
 3. JSON 형태의 데이터에서 **사용자 ID**를 확인할 수 있습니다.
+
+![사용자 ID 조회](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/21003965/original/User_ID.jpg?1417524164)
 
 ## 단계별 상세 가이드
 
@@ -133,21 +137,24 @@ https://yourcompany.freshservice.com/api/v2/agents
 
 ### 보안 고려사항
 
-> **접근 권한 확인**
-> - 상담원 정보에 접근하려면 적절한 관리자 권한이 필요합니다.
-> - 사용자 ID는 민감한 정보이므로 외부 노출을 주의하세요.
+:::warning 접근 권한 확인
+- 상담원 정보에 접근하려면 적절한 관리자 권한이 필요합니다.
+- 사용자 ID는 민감한 정보이므로 외부 노출을 주의하세요.
+:::
 
 ### 데이터 정확성
 
-> **ID 변경 불가**
-> - 사용자 ID는 시스템에서 자동 생성되며 변경할 수 없습니다.
-> - 상담원을 삭제 후 재생성하면 새로운 ID가 할당됩니다.
+:::tip ID 변경 불가
+- 사용자 ID는 시스템에서 자동 생성되며 변경할 수 없습니다.
+- 상담원을 삭제 후 재생성하면 새로운 ID가 할당됩니다.
+:::
 
 ### API 사용 시 주의사항
 
-> **API 제한사항**
-> - API 호출 시 적절한 인증이 필요합니다.
-> - 요청 제한(Rate Limit)을 준수해야 합니다.
+:::warning API 제한사항
+- API 호출 시 적절한 인증이 필요합니다.
+- 요청 제한(Rate Limit)을 준수해야 합니다.
+:::
 
 ## 문제 해결
 

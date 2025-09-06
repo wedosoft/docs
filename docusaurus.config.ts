@@ -64,8 +64,8 @@ const config: Config = {
     navbar: {
       logo: {
         alt: 'WedoSoft Logo',
-        src: 'img/logo_light.svg',
-        srcDark: 'img/logo_dark.svg',
+        src: 'img/logo-light.svg',
+        srcDark: 'img/logo-dark.svg',
       },
       items: [
         {

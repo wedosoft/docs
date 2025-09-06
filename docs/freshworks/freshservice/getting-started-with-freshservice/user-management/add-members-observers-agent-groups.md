@@ -1,75 +1,151 @@
-# Add Members/Observers to Agent Groups
+---
+sidebar_position: 15
+---
 
-> **Note:** If you have signed up on or after 12th December 2022, please refer to this section for managing agents.
+# 상담원 그룹에 구성원/옵저버 추가
 
-## Adding Agents to an Agent Group
+상담원 그룹에 구성원(Member)과 옵저버(Observer)를 추가하여 효율적인 팀 업무 분담과 협업 체계를 구축할 수 있습니다.
 
-Agents can be added as **Members** or **Observers** to an Agent Group within your IT service desk. For example, an HR agent can be added to the HR Agents Group as a Member to undertake all activities related to the HR department. This agent can also be added as an Observer in the IT Agents Group to follow up and have contextual information regarding employee fulfillment needs from the IT department.
+:::warning 버전 안내
+2022년 12월 12일 이후 가입한 경우, [새로운 상담원 관리 방식](https://support.freshservice.com/en/support/solutions/articles/50000005579)을 참조하세요.
+:::
 
-### Members
-Agents added as **Members** to a group can perform actions within the group based on their Role Scope & Permissions. They can view and access tickets, can be assigned tickets, and work on other items (tasks, problems, changes, releases, assets) that belong to the group.
+## 구성원 vs 옵저버 역할
 
-### Observers
-Agents added as **Observers** to a group can access tickets, assets, changes, and other items that the group owns, based on their Roles and Scope within the service desk. But, they cannot be assigned any work items within the group either explicitly, or by automatic Round Robin assignment.
+### 구성원 (Members)
+구성원으로 추가된 상담원은 그룹 내에서 역할 범위와 권한에 따라 모든 작업을 수행할 수 있습니다:
+- 티켓 조회 및 액세스
+- 티켓 할당 받기
+- 작업, 문제, 변경사항, 릴리스, 자산 등 그룹 소속 항목 처리
 
-> **Info:** Agents can be added as Observers only in the Enterprise pricing plan.
+### 옵저버 (Observers)  
+옵저버로 추가된 상담원은 모니터링 권한만 가집니다:
+- 그룹 소유 티켓, 자산, 변경사항 등 조회 가능
+- 명시적 할당이나 자동 라운드 로빈 할당 대상에서 제외
+- 역할과 범위에 따른 제한적 접근
 
-> **Tip:** Before you start adding agents to a group, it's important to create and manage an agent group. Learn how.
+:::info 플랜 제한사항
+옵저버 기능은 Enterprise 플랜에서만 사용 가능합니다.
+:::
 
-## To add agents to a group:
+:::tip 사전 준비
+상담원을 그룹에 추가하기 전에 먼저 [상담원 그룹 생성 및 관리](./create-manage-agent-groups)를 완료하세요.
+:::
 
-1. **Access the Admin Settings** using your account credentials.
+## 상담원 그룹에 구성원 추가
 
-2. Click **Agent Groups** under **User Management**.
-   - If your account has more than one workspace, navigate to **Admin > {Workspace Name} > User Management > Agent Groups**.
-   - By default, the agent groups will be listed.
+### 기본 설정 단계
 
-3. **Create a new group or edit existing:**
-   - If you're creating a new group, click the **Create New** button at the top-right and select **Agent Group**.
-   - Alternatively, you can click on the **Edit** button next to the group of your choice to add agents to an existing group.
+1. **관리자 설정 접근**
+   - 계정 자격 증명으로 관리자 설정에 접근합니다
 
-4. **Add agents:**
-   - Enter or select agents in the search field.
-   - Click the **Add** button.
-   - The agents will be listed below the search bar under their respective Member or Observer modes.
+2. **상담원 그룹 메뉴 이동**
+   - 사용자 관리 하위의 **상담원 그룹** 클릭
+   - 다중 워크스페이스 환경: **관리자 > {워크스페이스명} > 사용자 관리 > 상담원 그룹**
 
-### Important Notes:
+![상담원 그룹 목록](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007051593/original/6JHhA6e_SMVe675w8HzSn_TpnJXZp1yM6Q.png?1669882110)
 
-1. **Tickets will be automatically assigned to Members** when "Automatic ticket assignment" is enabled.
-2. **If the "Send Group Notifications to Observers" toggle is disabled**, the agent will not receive any notifications for tickets/tasks assigned to the group.
+### 그룹 생성 또는 편집
 
-## To change a member to an observer:
+3. **새 그룹 생성** (필요한 경우)
+   - 우측 상단 **새로 만들기** 버튼 클릭
+   - **상담원 그룹** 선택
 
-1. **Access the Admin Settings** using your account credentials.
+4. **기존 그룹 편집**
+   - 원하는 그룹 옆의 **편집** 버튼 클릭
 
-2. Click **Groups** under **User Management**.
-   - If your account has more than one workspace, navigate to **Admin > {Workspace Name} > User Management > Agent Groups**.
-   - By default, the agent groups will be listed.
+![그룹 편집 화면](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007051601/original/PZ9n5w4cTJ_FRrp4mNGWEdpFVSwQgtyBRg.png?1669882166)
 
-3. **Navigate to the Agents Section**
+### 상담원 추가
 
-4. **Convert the role:**
-   - Click on the **edit icon** next to the agent's name and click on **"Convert to Observer"**
-   - Alternatively, you can also hover over the Observer's name and click **Change to Member**.
+5. **상담원 검색 및 선택**
+   - 검색 필드에 상담원 이름 입력 또는 선택
+   - **추가** 버튼 클릭
+   - 상담원이 해당 역할(구성원/옵저버)로 목록에 표시됨
 
-## To remove/delete a member or observer:
+![상담원 추가 인터페이스](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001184988/original/awQvWz4h48vM6WM9L-5tqVTgmzXWkAju6w.png?1591104845)
 
-1. **Access the Admin Settings** using your account credentials.
+:::info 자동 할당 설정
+- **자동 티켓 할당** 활성화 시 구성원에게 티켓이 자동 할당됩니다
+- **옵저버에게 그룹 알림 보내기** 비활성화 시 옵저버는 그룹 관련 알림을 받지 않습니다
+:::
 
-2. Click **Groups** under **User Management**.
-   - If your account has more than one workspace, navigate to **Admin > {Workspace Name} > User Management > Agent Groups**.
-   - By default, the agent groups will be listed.
+## 구성원 역할 변경
 
-3. **Navigate to the Agents Section.**
-   - Agents will be listed as Members/Observers.
+### 구성원을 옵저버로 변경
 
-4. **Remove the agent:**
-   - Hover over the **delete icon** [🗑️].
-   - Click on the **delete icon** [🗑️] when it turns red.
+1. **관리자 설정** 접근
+2. **사용자 관리 > 상담원 그룹** 이동
+3. **상담원 섹션** 탐색
+4. **역할 변경**
+   - 상담원 이름 옆 **편집 아이콘** 클릭
+   - **옵저버로 변환** 선택
 
-## Best Practices
+### 옵저버를 구성원으로 변경
 
-- **Member vs Observer assignment:** Carefully consider whether an agent needs full access (Member) or just monitoring capabilities (Observer)
-- **Group organization:** Structure groups based on departments, skills, or responsibilities for better ticket management
-- **Permission alignment:** Ensure agent roles and group permissions are properly aligned
-- **Regular review:** Periodically review group memberships to maintain appropriate access levels
+- 옵저버 이름에 마우스 오버
+- **구성원으로 변경** 클릭
+
+![역할 변경 인터페이스](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007038858/original/f1smF-f2A22RdoGjV1jvrsoY3WGNVFaJ3w.png?1669777529)
+
+## 구성원/옵저버 제거
+
+### 제거 절차
+
+1. **관리자 설정** 접근
+2. **사용자 관리 > 상담원 그룹** 이동  
+3. **상담원 섹션** 탐색
+4. **상담원 제거**
+   - 삭제 아이콘에 마우스 오버
+   - 빨간색으로 변한 삭제 아이콘 클릭
+
+## 실무 활용 시나리오
+
+### 시나리오 1: IT 지원팀 구성
+**상황**: IT 부서에 전문 분야별 팀원 배치  
+**설정 방법**:
+- 네트워크 전문가 → IT 네트워크 그룹 구성원
+- 보안 담당자 → IT 보안 그룹 구성원 + IT 네트워크 그룹 옵저버
+- 관리자 → 모든 IT 그룹 옵저버
+
+**결과**: 전문성 유지하면서 부서 간 정보 공유 원활
+
+### 시나리오 2: 고객 지원 확대
+**상황**: 성수기 대비 임시 지원 인력 추가  
+**설정 방법**:
+- 정규 상담원 → 고객지원 그룹 구성원
+- 임시 인력 → 고객지원 그룹 옵저버 (훈련 목적)
+- 팀 리더 → 모든 관련 그룹 옵저버
+
+**결과**: 안전한 훈련 환경 제공과 점진적 권한 확대
+
+### 시나리오 3: 다부서 협업 프로젝트
+**상황**: HR-IT 연계 시스템 구축 프로젝트  
+**설정 방법**:
+- HR 담당자 → HR 그룹 구성원 + IT 프로젝트 그룹 옵저버
+- IT 개발자 → IT 개발 그룹 구성원 + HR 프로젝트 그룹 옵저버
+- 프로젝트 매니저 → 모든 관련 그룹 구성원
+
+**결과**: 부서별 전문성 유지하면서 프로젝트 투명성 확보
+
+## 모범 사례
+
+### 그룹 구성 원칙
+- **역할 기반 배치**: 업무 역할과 책임에 따른 그룹 구성
+- **점진적 권한 부여**: 신입자는 옵저버로 시작하여 구성원으로 승격
+- **교차 관찰**: 관련 부서 간 옵저버 설정으로 협업 강화
+
+### 권한 관리 팁
+- **정기 검토**: 분기별 그룹 구성원 및 권한 검토
+- **문서화**: 그룹별 역할과 책임 명확히 문서화
+- **피드백 수집**: 구성원들의 권한 관련 피드백 정기 수집
+
+:::success 설정 완료
+상담원 그룹 구성이 완료되었습니다. 이제 효율적인 팀 협업과 업무 분담이 가능합니다.
+:::
+
+## 관련 문서
+
+- [상담원 그룹 생성 및 관리](./create-manage-agent-groups)
+- [사용자 역할 및 권한 관리](./managing-user-roles-permissions)
+- [다양한 사용자 유형 이해](./understanding-different-user-types)

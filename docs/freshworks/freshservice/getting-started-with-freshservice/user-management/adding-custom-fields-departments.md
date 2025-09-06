@@ -1,76 +1,139 @@
-# Adding Custom Fields for Requester Departments
+---
+sidebar_position: 11
+---
 
-Different organizations have their own unique structure for their departments and related functions. Since each department is usually structured differently, a single set of generic fields may not be sufficient to describe a department. Agents often handle incidents and service requests specific to a department and would require more context to resolve the issue effectively.
+# 부서 커스텀 필드 추가
 
-**Department Fields in Freshservice** introduces more flexibility and enables customization in defining departments and thus provides additional context to agents regarding the incident or service request from a particular department.
+조직마다 고유한 부서 구조와 관련 기능을 가지고 있습니다. 각 부서는 일반적으로 다르게 구성되어 있기 때문에, 일반적인 필드만으로는 부서를 충분히 설명하지 못할 수 있습니다. 상담원들은 특정 부서와 관련된 인시던트와 서비스 요청을 처리할 때 문제를 효과적으로 해결하기 위해 더 많은 맥락 정보가 필요합니다.
 
-## Key use cases for adding custom fields
+**Freshservice의 부서 필드** 기능은 부서 정의에 더 많은 유연성과 사용자 정의를 가능하게 하여, 특정 부서의 인시던트나 서비스 요청에 대한 추가 맥락을 상담원에게 제공합니다.
 
-Some of the use cases that would entail the use of custom fields for departments:
+## 커스텀 필드 추가의 주요 사용 사례
 
-- **Extended department descriptions:** A service desk admin might need to extend existing department descriptions through custom fields to accommodate new details from a raised incident.
+### 조직 구조 관리
 
-- **Tool integration mapping:** An admin might be required to map company details from different tools (for example a CRM tool) into the service desk in order to have a consistent view of a particular set of entities across a spectrum of tools that are being utilized.
+- **부서 설명 확장**: 발생한 인시던트의 새로운 세부 사항을 수용하기 위해 커스텀 필드를 통해 기존 부서 설명을 확장
+- **인수 조직 지원**: 인수한 조직의 부서에 새로운 커스텀 필드를 도입
 
-- **Acquired organization support:** An admin might need to introduce new custom fields for departments of an acquired organization.
+### 시스템 통합
 
-- **Compliance requirements:** In order to meet specific compliance or regulatory norms, an admin might need to introduce new custom fields to existing departments.
+- **도구 통합 매핑**: CRM 도구 등 다른 도구의 회사 세부 정보를 서비스 데스크에 매핑하여 여러 도구에서 일관된 뷰 유지
+- **규정 준수 요구사항**: 특정 규정 준수나 규제 기준을 충족하기 위해 기존 부서에 새로운 커스텀 필드 도입
 
-## A quick guide to adding custom department fields or company fields (if you are an MSP)
+## 부서 커스텀 필드 추가 가이드
 
-### Step 1: Access Admin Console
+### 1단계: 관리자 콘솔 접근
 
-1. **Login to Freshservice** as an Admin.
+1. **관리자 권한**으로 Freshservice에 로그인합니다.
 
-2. Go to the **Admin console** and click on **Departments Fields**.
-   - If your account has more than one workspace, navigate to **Admin > Global Settings > User management > Department Fields**.
+2. **관리자 콘솔**로 이동하여 **부서 필드**를 클릭합니다.
 
-### Step 2: Select Field Type
+:::info 다중 워크스페이스 환경
+계정에 둘 이상의 워크스페이스가 있는 경우, **관리자 → 글로벌 설정 → 사용자 관리 → 부서 필드**로 이동합니다.
+:::
 
-Select the required field type from the following options:
+![부서 필드 설정 페이지](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007038787/original/WVKTABXz47PrZy97oHSdB2zNzQCA2aQz1A.png?1669776106)
 
-- **Single Line Text**
-- **Multi-Line Text**
-- **Checkbox**
-- **Number**
-- **Dropdown**
-- **Phone Number**
-- **URL**
-- **Date**
+### 2단계: 필드 유형 선택
 
-### Step 3: Add Field to Form
+다음 옵션 중에서 필요한 필드 유형을 선택합니다:
 
-You can **drag and drop** a field type to the form or just **click and position** it later.
+| 필드 유형 | 설명 | 사용 예시 |
+|-----------|------|-----------|
+| **한 줄 텍스트** | 짧은 텍스트 입력 | 부서 코드, 약칭 |
+| **여러 줄 텍스트** | 긴 텍스트 입력 | 부서 상세 설명 |
+| **체크박스** | 예/아니오 선택 | 중요 부서 여부 |
+| **숫자** | 숫자 입력 | 직원 수, 예산 |
+| **드롭다운** | 미리 정의된 옵션 선택 | 지역, 우선순위 |
+| **전화번호** | 전화번호 형식 | 부서 대표 번호 |
+| **URL** | 웹 주소 | 부서 웹사이트 |
+| **날짜** | 날짜 선택 | 설립일, 마지막 감사일 |
 
-### Step 4: Configure Field Properties
+### 3단계: 폼에 필드 추가
 
-1. After choosing the required field type, enter its **label**.
+- 필드 유형을 폼에 **드래그 앤 드롭**하거나
+- **클릭하여 나중에 위치를 조정**할 수 있습니다
 
-2. If the field should be made mandatory, enable the **"required when submitting the form"** checkbox.
+### 4단계: 필드 속성 구성
 
-### Step 5: Configure Dropdown Options (if applicable)
+![필드 속성 설정](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007038795/original/7mrGWFiQM5f9VocECliZ2sQesXZWrz-s0Q.png?1669776339)
 
-In case you are utilizing the **Dropdown** option, you can provide multiple choices.
+1. 필요한 필드 유형을 선택한 후 **레이블**을 입력합니다.
+2. 필드를 필수로 만들려면 **"폼 제출 시 필수"** 체크박스를 활성화합니다.
 
-### Step 6: Save Configuration
+### 5단계: 드롭다운 옵션 구성 (해당하는 경우)
 
-After you've added all the required fields, click **Done** and then click **Save**.
+**드롭다운** 옵션을 사용하는 경우 여러 선택지를 제공할 수 있습니다.
 
-## Important Notes
+![드롭다운 옵션 설정](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007038810/original/d-mTa7DueNCiQehEFrlQYkiEmvDtV3D9aQ.png?1669776396)
 
-- The newly added field(s) will be **available across departments/companies**.
-- In an **analytics data export**, only the Department Name field is available along with the Department's Last updated date and the Department Created date.
+### 6단계: 구성 저장
 
-## FAQ's
+필요한 모든 필드를 추가한 후 **완료**를 클릭하고 **저장**을 클릭합니다.
 
-### 1) Can we add multiple department heads while creating a department in Freshservice?
+## 실무 활용 시나리오
 
-By default, we can add only **one department Head**. Having multiple department heads for a single department could potentially create confusion or complications in terms of accountability and decision-making. To enforce a standard practice where each department has a designated head, Freshservice allows only one head per department.
+### 시나리오 1: 대기업 부서 관리
+**상황**: 여러 지역에 분산된 대기업의 부서별 특성 관리
+- **해결방법**: 지역, 규모, 특성별 커스텀 필드 추가
+- **필드 예시**: 지역(드롭다운), 직원 수(숫자), 특별 요구사항(텍스트)
 
-## Best Practices
+### 시나리오 2: 의료기관 부서 구성
+**상황**: 병원의 진료과별 특수 정보 관리
+- **해결방법**: 의료진 정보, 장비, 인증 관련 필드 추가
+- **필드 예시**: 전문의 수(숫자), 인증 만료일(날짜), 응급실 여부(체크박스)
 
-- **Plan your custom fields** before implementation to ensure they meet your organizational needs
-- **Use clear, descriptive labels** for custom fields to improve user experience
-- **Consider mandatory vs optional fields** carefully to balance data collection with user convenience
-- **Regular review** of custom fields to ensure they remain relevant and useful
-- **Document field purposes** for future reference and onboarding of new administrators
+### 시나리오 3: 제조업 부서 관리
+**상황**: 공장별 생산 부서의 안전 및 운영 정보 관리
+- **해결방법**: 안전 등급, 생산 라인, 인증 관련 커스텀 필드
+- **필드 예시**: 안전 등급(드롭다운), 생산 라인 수(숫자), 마지막 안전 점검일(날짜)
+
+## 모범 사례
+
+### 필드 설계 원칙
+
+:::tip 효과적인 필드 설계
+- **명확한 목적**: 각 커스텀 필드의 목적을 명확히 정의하세요
+- **사용자 친화적 레이블**: 이해하기 쉬운 설명적인 레이블 사용
+- **필수 vs 선택 필드**: 데이터 수집과 사용자 편의성의 균형을 고려
+- **정기적 검토**: 커스텀 필드의 관련성과 유용성을 정기적으로 검토
+:::
+
+### 구현 전 고려사항
+
+1. **조직 요구사항 분석**: 구현 전에 조직의 필요에 맞는 커스텀 필드 계획
+2. **문서화**: 향후 참조와 새로운 관리자의 온보딩을 위해 필드 목적 문서화
+3. **테스트 환경**: 프로덕션 적용 전 테스트 환경에서 충분한 검증
+4. **사용자 교육**: 새로운 필드에 대한 사용자 교육 계획 수립
+
+## 중요 참고사항
+
+:::info 데이터 가용성
+- 새로 추가된 필드는 **모든 부서/회사에서 사용 가능**합니다
+- **분석 데이터 내보내기**에서는 부서명 필드와 부서 마지막 업데이트 날짜, 부서 생성 날짜만 사용할 수 있습니다
+:::
+
+:::warning 부서장 제한사항
+기본적으로 **하나의 부서장만** 추가할 수 있습니다. 하나의 부서에 여러 부서장이 있으면 책임과 의사결정에서 혼란이나 복잡성이 발생할 수 있습니다. Freshservice는 각 부서가 지정된 부서장을 갖는 표준 관행을 시행하기 위해 부서당 한 명의 부서장만 허용합니다.
+:::
+
+## 자주 묻는 질문
+
+### Q: 부서 생성 시 여러 부서장을 추가할 수 있나요?
+
+A: 아니요, 기본적으로 **하나의 부서장만** 추가할 수 있습니다. 이는 책임과 의사결정의 명확성을 위한 정책입니다.
+
+### Q: 커스텀 필드를 나중에 수정할 수 있나요?
+
+A: 네, 언제든지 커스텀 필드의 속성을 수정하거나 새로운 필드를 추가할 수 있습니다. 단, 이미 입력된 데이터에 영향을 줄 수 있으므로 신중하게 변경하세요.
+
+### Q: 커스텀 필드가 API를 통해 접근 가능한가요?
+
+A: 네, 대부분의 커스텀 필드는 Freshservice API를 통해 접근하고 조작할 수 있습니다. 자세한 내용은 API 문서를 참조하세요.
+
+## 관련 문서
+
+- [사용자 커스텀 필드 추가](./adding-custom-fields-users)
+- [부서 및 회사 관리 기본 가이드](./managing-departments-companies)
+- [CSV를 통한 부서/회사 가져오기](./importing-departments-companies-csv)
+- [사용자 관리 모범 사례](./user-management-best-practices)

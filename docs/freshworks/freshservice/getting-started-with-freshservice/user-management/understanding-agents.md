@@ -1,13 +1,159 @@
 ---
-id: understanding-agents
-title: 상담원 유형 이해 가이드
-sidebar_label: 상담원 유형 이해 가이드
+sidebar_position: 1
 ---
 
-<div className="subtitle">
-  이 문서는 Freshservice에서 상담원의 유형과 특징을 이해하는 가이드입니다.
-</div>
+# 풀타임과 임시 상담원 이해
 
-## 개요
+Freshservice는 조직의 다양한 업무 패턴에 맞춰 **풀타임 상담원**과 **임시 상담원** 두 가지 상담원 유형을 제공합니다.
 
- Note: Applicable only for accounts in which workspaces have been enabled.     Click here for the account admin guide to managing agents and granting permissions.     Admins managing the service desk can define permissions for different roles and ensure agents have access to data and configurations needed to perform their roles.     Admins can create two types of roles:      Admin roles - Permissions needed to modify configurations within the admin section.     Agent roles - Permissions needed to run everyday service desk operations across modules like tickets, problems, changes etc.,     Built-in roles:   Freshservice is set up with default roles that help admins save the time and hassle of defining permissions and responsibilities pertaining to each role.     Built-in Admin roles:       Account Admin: If granted account-wide, the account admin has complete admin control over the service desk, including access to the account or billing-related information  Account admins have the privilege of creating/managing/deleting a workspace; they also have:     Complete access over their accounts’ admin settings (including plans, billing, managing account details etc.)     No access to data within a workspace unless explicitly given permission to access it via agent roles    Default access to the admin settings of any workspace that is added to their account    No access to restricted workspaces        Workspace Admin: Can configure all features through the Admin tab but is restricted from viewing Account or Billing related information      Note: This is a role that is added during the creation of a workspace. Adding an agent as a ‘Workspace admin’ will assign the below two roles by default:    Workspace admin role: that has all admin privileges    IT supervisor role: that has all data privileges          Built-in Agent roles:       IT Supervisors: Can perform all non-admin actions     Business Supervisors: Can work on Tickets, Projects, Solutions, and Announcements. Can view and manage reports     IT Agents: Can perform all non-admin actions except reporting     Business Agents: Can work on Tickets, Projects, Solutions, and Announcements. Cannot view reports     Problem Manager: Can view and respond to tickets and problems and modify their properties.     Change Manager: Can view and respond to tickets and changes and modify their properties.     Release Manager: Can view and respond to tickets and releases and modify their properties.     Configuration manager: Can access the CMDB to manage configuration items and manage tickets, problems, changes and releases.     Contract manager: Can perform all agent-related activities, view problems, change and have full access to the Contract module     IT Ops Agent: Can perform all agent-related activities, can view and manage alerts     Project Manager: Can view, create and manage projects     Project Member: Can view and work on projects     Procurement Manager: Can perform all agent-related activities and perform all activities on Purchase Order     Custom roles:        Navigate to Admin -> Global settings -> Roles and click on New Role.            Choose between an admin role or an agent role, and enter a name and description for the role.      Select the appropriate privileges under Tickets, Problems, Changes, Releases, Assets, Announcements, Solutions, and Reports for the agent role or under Administration for the Admin role.          Once you're done, click Save.      Custom roles can be created for the following modules: If you need to restrict an agent's actions, you can create a custom role based on the below module level and select only the respective permissions.  Tickets, Problems, Changes, Releases, Alerts, Inventory, Contracts, Purchase Orders, Onboarding requests, Offboarding requests, Projects, Workload, and Announcements.     Faq:     1. How can I grant other agents permission to create categories and folders in the Knowledge Base?      By default, the Account Admin and any custom Admin roles include this permission. To create a custom role, go to Global Settings / Admin > Roles > Create a New Role. Make sure the option to create categories and folders in the Knowledge Base is checked, along with any other necessary permissions for your use case. Then, assign the role to the respective Agent by navigating to Global Settings / Admin > Agents > under permissions.  
+:::info 중요 사항
+- 풀타임 상담원: 매월 고정 요금 청구
+- 임시 상담원: 로그인하는 날에만 데이 패스 사용
+- 임시 상담원은 무제한 추가 가능 (추가 월 요금 없음)
+:::
+
+## 풀타임 상담원 (Full-time Agents)
+
+### 특징
+풀타임 상담원은 매일 서비스 데스크에 로그인하여 직원 지원을 담당하는 핵심 상담원입니다.
+
+### 사용 사례
+- **헬프데스크 담당자**: 매일 티켓 처리
+- **IT 관리자**: 지속적인 시스템 모니터링 필요
+- **고객 서비스팀**: 정기적인 고객 응대 업무
+
+## 임시 상담원 (Occasional Agents)
+
+### 특징
+임시 상담원은 필요할 때만 불규칙하게 로그인하여 특정 작업을 모니터링하거나 참여하는 상담원입니다.
+
+### 사용 사례
+- **현장 기술자**: 방문 유지보수 시에만 로그인
+- **팀 매니저**: 특정 이슈 발생 시에만 참여
+- **개발팀**: 문제 해결이 필요한 경우에만 접근
+- **외부 전문가**: 프로젝트별 일시적 참여
+
+### 비용 효율성
+월 전체 비용을 지불하지 않고도 다른 부서 직원들이 필요할 때만 시스템에 접근할 수 있어 비용을 절약할 수 있습니다.
+
+## 임시 상담원 데이 패스 시스템
+
+### 데이 패스 작동 방식
+
+1. **무제한 추가**: 헬프데스크에 무제한으로 임시 상담원을 추가할 수 있으며, 매월 요금이 청구되지 않습니다.
+
+2. **데이 패스 사용**: 임시 상담원이 지원 포털에 로그인하는 날마다 하나의 데이 패스를 사용합니다.
+
+3. **대량 구매**: **관리자 → 데이 패스**에서 데이 패스를 대량으로 구매할 수 있습니다.
+
+### 로그인 프로세스
+
+임시 상담원이 상담원 포털에 액세스하는 과정:
+
+1. **알림 수신**: 임시 상담원이 상담원 포털에 대한 임시 액세스 알림을 받습니다.
+
+2. **확인 팝업**: 티켓을 클릭하거나 요청자 포털에서 상담원 포털로 전환할 때, 하루 액세스를 위해 데이 패스를 사용한다는 팝업이 표시됩니다.
+
+![임시 상담원 로그인 확인 화면](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013352792/original/JpoiS5ruqrdD_iahx0dPhIi3N4dS03G92Q.png?1728581140)
+
+3. **액세스 승인**: **진행** 버튼을 클릭하면 하루 동안 상담원 포털에 액세스할 수 있으며, Freshservice 계정에서 하루가 차감됩니다.
+
+### 데이 패스 유효 기간
+
+:::warning 중요한 제한 사항
+- **하루 단위**: 데이 패스는 하루 동안만 유효하며 하루 종료 시(00:00시)에 만료됩니다.
+- **시간대 기준**: 종료 시간(EOD)은 임시 상담원의 시간대를 기준으로 합니다.
+- **이월 불가**: 남은 시간은 다음 날로 이월되지 않습니다.
+- **만료 후 접근 불가**: 데이 패스가 만료된 후에는 임시 상담원이 로그인할 수 없습니다.
+:::
+
+## 데이 패스 요금표
+
+추가 데이 패스의 경우 플랜에 따라 $3~$18의 비용이 발생합니다.
+
+<table>
+<thead>
+<tr>
+<th style={{ textAlign: 'center', backgroundColor: '#2969b0', color: 'white' }}>플랜</th>
+<th style={{ textAlign: 'center', backgroundColor: '#2969b0', color: 'white' }}>USD</th>
+<th style={{ textAlign: 'center', backgroundColor: '#2969b0', color: 'white' }}>EUR</th>
+<th style={{ textAlign: 'center', backgroundColor: '#2969b0', color: 'white' }}>GBP</th>
+<th style={{ textAlign: 'center', backgroundColor: '#2969b0', color: 'white' }}>AUD</th>
+<th style={{ textAlign: 'center', backgroundColor: '#2969b0', color: 'white' }}>INR</th>
+<th style={{ textAlign: 'center', backgroundColor: '#2969b0', color: 'white' }}>BRL</th>
+<th style={{ textAlign: 'center', backgroundColor: '#2969b0', color: 'white' }}>ZAR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style={{ backgroundColor: '#2969b0', color: 'white' }}><strong>Starter</strong></td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>3</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>3</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>2</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>4</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>199</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>15</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>50</td>
+</tr>
+<tr>
+<td style={{ backgroundColor: '#2969b0', color: 'white' }}><strong>Growth</strong></td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>7</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>6</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>5</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>10</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>465</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>39</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>119</td>
+</tr>
+<tr>
+<td style={{ backgroundColor: '#2969b0', color: 'white' }}><strong>Pro</strong></td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>14</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>12</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>11</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>20</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>929</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>79</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>240</td>
+</tr>
+<tr>
+<td style={{ backgroundColor: '#2969b0', color: 'white' }}><strong>Enterprise</strong></td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>18</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>15</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>14</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>26</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>1195</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>100</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>305</td>
+</tr>
+<tr>
+<td style={{ backgroundColor: '#2969b0', color: 'white' }}><strong>Essentials</strong></td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>5</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>5</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>5</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>7</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>399</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>-</td>
+<td style={{ textAlign: 'center', backgroundColor: '#e6f2fe' }}>-</td>
+</tr>
+</tbody>
+</table>
+
+:::note 참고 사항
+- 모든 가격은 세금 별도입니다.
+- 비즈니스 상담원 애드온을 사용하는 상담원은 임시 상담원으로 추가할 수 없습니다.
+- Starter/Growth/Pro/Enterprise 플랜의 IT 상담원만 해당됩니다.
+:::
+
+## 추가 고려 사항
+
+### 권한 관리
+임시 상담원의 가시성 권한을 설정할 수 있으며, 서비스 데스크의 다양한 섹션에 대한 액세스를 제한할 수 있습니다.
+
+### API 키 사용
+:::warning API 키 사용 주의
+워크플로 자동화, 통합, 사용자 정의 앱 등에서 임시 상담원의 API 키를 사용하면 데이 패스가 소모됩니다.
+:::
+
+## 관련 문서
+- [상담원 역할과 권한 설정](./setting-agent-roles-permissions)
+- [상담원 그룹 생성 및 관리](./create-manage-agent-groups)

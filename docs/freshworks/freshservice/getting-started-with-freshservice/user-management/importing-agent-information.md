@@ -1,177 +1,213 @@
 ---
-id: importing-agent-information
-title: 상담원 정보 가져오기 가이드
-sidebar_label: 상담원 정보 가져오기 가이드
+sidebar_position: 13
 ---
 
-<div className="subtitle">
-  이 문서는 Freshservice에서 CSV 파일을 사용하여 상담원 정보를 일괄 가져오는 방법을 안내하는 문서입니다.
-</div>
+# 상담원 정보 가져오기
+
+Freshservice에서 CSV 파일을 사용하여 상담원 정보를 일괄 가져올 수 있습니다. 이전 시스템에서 상담원 데이터를 마이그레이션하거나 대량의 상담원을 효율적으로 등록할 때 유용합니다.
 
 ## 상담원 정보 가져오기 방법
 
 ### 1단계: 가져오기 페이지 접속
 
 **단일 워크스페이스:**
-- **Admin** → **User Management** → **Agents**로 이동한 후 **Import** 클릭
+- **관리자 → 사용자 관리 → 상담원**으로 이동한 후 **가져오기** 클릭
 
-**멀티 워크스페이스:**
-- **Admin** → **Global Settings** → **User Management** → **Agents**로 이동한 후 **Import** 클릭
+**다중 워크스페이스:**
+- **관리자 → 글로벌 설정 → 사용자 관리 → 상담원**으로 이동한 후 **가져오기** 클릭
 
 ![상담원 가져오기 버튼](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/38061766/original/wS35PbIZwEzuYAxYCqS7mLxoDrlM7nvKqw.png?1522912523)
 
 ### 2단계: CSV 파일 업로드
 
-1. "Import Agents" 패널이 화면에 표시됩니다
-2. CSV 파일을 선택하거나 파일 업로드 영역에 **드래그 앤 드롭**합니다
-3. **Upload** 버튼을 클릭합니다
+1. "상담원 가져오기" 패널이 화면에 표시됩니다.
+2. CSV 파일을 선택하거나 파일 업로드 영역에 **드래그 앤 드롭**합니다.
+3. **업로드** 버튼을 클릭합니다.
 
 :::warning 파일 형식 제한
-CSV 형식만 지원됩니다. 다른 형식은 지원되지 않습니다.
+CSV 형식만 지원됩니다. Excel(.xlsx), 텍스트(.txt) 등 다른 형식은 지원되지 않습니다.
 :::
 
 ![CSV 파일 업로드](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000691461/original/C51vmoeK_N8uC_xjr28NwhTaUL9ue9rWxQ.png?1581056647)
 
 ### 3단계: 필드 매핑
 
-1. 상담원 속성을 CSV 파일의 컬럼 헤더에 매핑합니다
-2. 매핑이 완료되면 **Import** 버튼을 클릭합니다
+1. 상담원 속성을 CSV 파일의 컬럼 헤더에 **매핑**합니다.
+2. 시스템이 자동으로 유사한 필드를 매핑하지만 수동으로 조정할 수 있습니다.
+3. 매핑이 완료되면 **가져오기** 버튼을 클릭합니다.
 
-### 4단계: 가져오기 완료
+![필드 매핑](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000691463/original/QyOs8zCyinPPE2yK9ICBrNVaSNLF9nn2mQ.png?1581056778)
 
-가져오기 프로세스가 완료되면 결과 요약이 표시됩니다.
+### 4단계: 결과 확인
 
-## 가져올 수 있는 필드
+가져오기 프로세스가 완료되면 **이메일로 결과 요약**을 받게 됩니다:
+- 성공적으로 가져온 상담원 수
+- 발생한 오류 및 실패한 항목 (해당하는 경우)
 
-<table>
-<thead>
-<tr><th>필드</th><th>설명</th><th>가능한 값</th></tr>
-</thead>
-<tbody>
-<tr>
-  <td><strong>Full Name</strong></td>
-  <td>상담원 이름</td>
-  <td>모든 텍스트</td>
-</tr>
-<tr>
-  <td><strong>Email</strong></td>
-  <td>기본 이메일 주소 (필수)</td>
-  <td>username@domain.ext 형식의 유효한 이메일 주소</td>
-</tr>
-<tr>
-  <td><strong>Occasional</strong></td>
-  <td>임시 상담원 또는 정규 상담원 구분</td>
-  <td>FALSE (정규 상담원)<br/>TRUE (임시 상담원)</td>
-</tr>
-<tr>
-  <td><strong>Title</strong></td>
-  <td>직함</td>
-  <td>모든 텍스트</td>
-</tr>
-<tr>
-  <td><strong>Work Phone</strong></td>
-  <td>직장 전화번호</td>
-  <td>모든 텍스트</td>
-</tr>
-<tr>
-  <td><strong>Mobile Phone</strong></td>
-  <td>휴대폰 번호</td>
-  <td>모든 텍스트</td>
-</tr>
-<tr>
-  <td><strong>Location</strong></td>
-  <td>상담원 위치</td>
-  <td>Admin → Asset Management → Locations의 위치명</td>
-</tr>
-<tr>
-  <td><strong>Reporting Manager</strong></td>
-  <td>보고 관리자의 기본 이메일 주소</td>
-  <td>username@domain.ext 형식의 유효한 이메일 주소<br/><em>(존재하지 않는 경우 요청자/연락처로 생성됨)</em></td>
-</tr>
-<tr>
-  <td><strong>Groups</strong></td>
-  <td>상담원이 속할 그룹 (복수 값 지원)</td>
-  <td>Admin → User Management → Groups → Agent Groups의 그룹명</td>
-</tr>
-<tr>
-  <td><strong>Roles</strong></td>
-  <td>상담원에게 할당할 기본 및 사용자 정의 역할 (복수 값 지원)</td>
-  <td><a href="https://support.freshservice.com/en/support/solutions/articles/50000005577-understanding-roles-for-agents" target="_blank">상담원 역할 이해하기</a></td>
-</tr>
-<tr>
-  <td><strong>Time Zone</strong><br/><em>(Growth, Pro, Enterprise 플랜)</em></td>
-  <td>상담원이 근무하는 시간대</td>
-  <td><a href="https://support.freshservice.com/support/solutions/articles/232302-list-of-time-zones-supported-in-freshservice" target="_blank">Freshservice 지원 시간대 목록</a></td>
-</tr>
-<tr>
-  <td><strong>Language</strong><br/><em>(Growth, Pro, Enterprise 플랜)</em></td>
-  <td>상담원에게 표시되는 Freshservice 인터페이스 언어</td>
-  <td><a href="https://support.freshservice.com/support/solutions/articles/232303-list-of-languages-supported-in-freshservice" target="_blank">Freshservice 지원 언어 목록</a></td>
-</tr>
-<tr>
-  <td><strong>Level</strong><br/><em>(리더보드 기능 활성화 시)</em></td>
-  <td>Arcade 모듈에서 상담원이 달성한 레벨</td>
-  <td>Beginner<br/>Intermediate<br/>Professional<br/>Expert<br/>Master<br/>Guru</td>
-</tr>
-</tbody>
-</table>
+## 가져올 수 있는 필드 정보
+
+### 기본 정보 필드
+
+| 필드명 | 설명 | 가능한 값 | 필수 여부 |
+|--------|------|-----------|-----------|
+| **이름** | 상담원의 이름 | 텍스트 형식 | 권장 |
+| **성** | 상담원의 성 | 텍스트 형식 | 권장 |
+| **이메일** | 기본 이메일 주소 | username@domain.ext | **필수** |
+| **임시 상담원** | 정규직/임시직 구분 | FALSE (정규), TRUE (임시) | 선택 |
+| **직급** | 직무 제목 | 텍스트 형식 | 선택 |
+| **업무용 전화** | 업무용 전화번호 | 텍스트 형식 | 선택 |
+| **휴대폰** | 휴대폰 번호 | 텍스트 형식 | 선택 |
+
+### 조직 정보 필드
+
+| 필드명 | 설명 | 가능한 값 | 필수 여부 |
+|--------|------|-----------|-----------|
+| **위치** | 상담원 근무 위치 | 관리자 → 자산 관리 → 위치에서 미리 생성된 위치명 | 선택 |
+| **보고 관리자** | 직속 상관의 이메일 | username@domain.ext (존재하지 않으면 요청자로 생성) | 선택 |
+| **그룹** | 소속 그룹 (복수 값 지원) | 관리자 → 사용자 관리 → 그룹 → 상담원 그룹의 그룹명 | 선택 |
+| **역할** | 할당될 역할 (복수 값 지원) | [상담원 역할 이해하기](https://support.freshservice.com/en/support/solutions/articles/50000005577) | 선택 |
+
+### 고급 설정 필드
+
+| 필드명 | 설명 | 가능한 값 | 플랜 제한 |
+|--------|------|-----------|-----------|
+| **시간대** | 상담원 근무 시간대 | [지원 시간대 목록](https://support.freshservice.com/support/solutions/articles/232302) | Growth/Pro/Enterprise |
+| **언어** | 인터페이스 언어 | [지원 언어 목록](https://support.freshservice.com/support/solutions/articles/232303) | Growth/Pro/Enterprise |
+| **레벨** | Arcade 모듈 달성 레벨 | 초보자, 중급자, 전문가, 숙련자, 마스터, 구루 | 리더보드 활성화 시 |
 
 ## CSV 파일 준비 가이드
 
-### 필수 요구사항
-
-- **파일 형식**: CSV (.csv)
-- **인코딩**: UTF-8 권장
-- **필수 필드**: Email (이메일 주소)
-
-### CSV 파일 예시
+### 기본 CSV 템플릿
 
 ```csv
-Full Name,Email,Occasional,Title,Work Phone,Mobile Phone,Location,Groups,Roles
-홍길동,hong@company.com,FALSE,시니어 상담원,02-1234-5678,010-1234-5678,서울 사무소,IT Support,Agent
-김영희,kim@company.com,TRUE,주니어 상담원,02-1234-5679,010-1234-5679,부산 사무소,HR Support,Agent
+이름,성,이메일,임시 상담원,직급,업무용 전화,휴대폰,위치,그룹,역할
+홍길동,홍,hong@company.com,FALSE,시니어 상담원,02-1234-5678,010-1234-5678,서울 본사,IT 지원팀,상담원
+김영희,김,kim@company.com,FALSE,팀 리더,02-1234-5679,010-1234-5679,부산 지사,고객 서비스팀,관리자
+이민수,이,lee@company.com,TRUE,파트타임 상담원,02-1234-5680,010-1234-5680,대구 지사,기술 지원팀,상담원
 ```
 
-### 복수 값 처리
+### 복수 값 처리 방법
 
-그룹이나 역할 같이 여러 값이 있는 경우 쉼표로 구분합니다:
+:::info 복수 값 입력 규칙
+**Excel에서 편집하는 경우:**
+```csv
+그룹,역할
+IT 지원팀, 네트워크 팀,상담원, 관리자
+```
+
+**텍스트 에디터에서 편집하는 경우:**
+```csv
+그룹,역할
+"IT 지원팀, 네트워크 팀","상담원, 관리자"
+```
+:::
+
+### 고급 템플릿 예시
 
 ```csv
-Groups,Roles
-"IT Support, Network Team","Agent, Supervisor"
+이름,성,이메일,직급,위치,그룹,역할,시간대,언어,보고 관리자
+박철수,박,park@company.com,기술 관리자,서울 본사,"IT팀, 보안팀","관리자, 상담원",Asia/Seoul,ko,manager@company.com
+최영희,최,choi@company.com,고객 서비스 담당,부산 지사,고객서비스팀,상담원,Asia/Seoul,ko,supervisor@company.com
 ```
+
+## 실무 활용 시나리오
+
+### 시나리오 1: 회사 인수 후 상담원 통합
+**상황**: A회사가 B회사를 인수하여 B회사 상담원을 Freshservice로 통합
+**해결방법**: B회사 HR 시스템에서 상담원 데이터를 CSV로 내보내고 표준 템플릿에 맞춰 변환 후 가져오기
+
+### 시나리오 2: 대규모 조직 개편
+**상황**: 부서 구조 변경으로 200명의 상담원 정보를 일괄 업데이트
+**해결방법**: 기존 데이터를 내보내고 새로운 조직 구조에 맞춰 수정 후 재가져오기
+
+### 시나리오 3: 신규 지사 개설
+**상황**: 새로운 지역 지사 개설로 50명의 신규 상담원을 한 번에 등록
+**해결방법**: 지사별 표준 템플릿을 사용하여 일관된 정보로 상담원 등록
 
 ## 가져오기 모범 사례
 
-### 사전 준비
+### 사전 준비 체크리스트
 
-1. **데이터 검증**: 이메일 주소 형식 및 중복 확인
-2. **참조 데이터 확인**: 그룹, 역할, 위치 등이 시스템에 존재하는지 확인
-3. **백업**: 기존 데이터 백업 후 진행
+:::tip 성공적인 가져오기를 위한 준비
+1. **참조 데이터 확인**
+   - 그룹, 역할, 위치가 시스템에 미리 생성되어 있는지 확인
+   - 보고 관리자의 이메일 주소가 정확한지 확인
 
-### 오류 방지
+2. **데이터 검증**
+   - 이메일 주소 형식 및 중복 확인
+   - 필수 필드 누락 여부 점검
+   - 특수 문자나 잘못된 형식 정리
 
-- **중복 이메일**: 이미 존재하는 이메일 주소 확인
-- **잘못된 참조**: 존재하지 않는 그룹이나 역할 참조 방지
-- **형식 오류**: 각 필드의 올바른 형식 준수
-
-### 대용량 처리
-
-- **배치 처리**: 대량의 데이터는 여러 번에 나누어 처리
-- **테스트 실행**: 소량의 테스트 데이터로 먼저 검증
-- **단계적 적용**: 부서별 또는 팀별로 단계적 가져오기
-
-:::info 유용한 팁
-- 가져오기 전에 소량의 테스트 데이터로 먼저 시도해보세요
-- 오류 발생 시 오류 메시지를 확인하여 문제를 해결하세요
-- 정기적인 데이터 동기화를 위해 자동화 도구 사용을 고려하세요
+3. **테스트 실행**
+   - 소량의 테스트 데이터로 먼저 시도
+   - 오류 패턴 파악 및 수정
 :::
 
-:::warning 주의사항
-- 가져오기는 되돌릴 수 없으므로 신중하게 진행하세요
-- 민감한 정보가 포함된 CSV 파일은 안전하게 보관하세요
-- 가져오기 후 데이터 정확성을 반드시 확인하세요
+### 오류 방지 전략
+
+1. **중복 처리**: 이메일 주소를 기준으로 중복 확인
+2. **참조 무결성**: 존재하지 않는 그룹이나 역할 참조 방지
+3. **형식 표준화**: 전화번호, 이메일 형식 통일
+4. **인코딩 문제**: UTF-8 인코딩으로 한글 깨짐 방지
+
+### 대용량 데이터 처리
+
+:::warning 대용량 데이터 가져오기 주의사항
+- **배치 처리**: 500명 이상인 경우 여러 번에 나누어 처리
+- **시간 고려**: 업무 시간 외에 진행하여 시스템 부하 최소화
+- **백업 필수**: 기존 데이터 백업 후 진행
+- **단계적 적용**: 부서별 또는 지역별로 단계적 가져오기
 :::
+
+## 문제 해결 가이드
+
+### 일반적인 오류
+
+#### 1. 이메일 주소 중복 오류
+**오류**: "Email already exists"
+**해결책**: 
+- 기존 상담원 목록에서 중복 이메일 확인
+- 중복된 경우 기존 상담원 정보 업데이트 고려
+
+#### 2. 잘못된 그룹/역할 참조
+**오류**: "Group/Role not found"
+**해결책**:
+- 관리자 설정에서 해당 그룹/역할이 존재하는지 확인
+- 대소문자 구분 및 정확한 이름 사용
+
+#### 3. 형식 오류
+**오류**: "Invalid email format"
+**해결책**:
+- 이메일 주소 형식 확인 (username@domain.ext)
+- 공백이나 특수문자 제거
+
+### 고급 문제 해결
+
+#### CSV 인코딩 문제
+한글이 깨져 보이는 경우:
+1. CSV 파일을 UTF-8 인코딩으로 저장
+2. Excel에서는 "CSV UTF-8" 형식으로 저장
+3. 메모장에서 "다른 이름으로 저장" → 인코딩: UTF-8 선택
+
+#### 복수 값 처리 오류
+그룹이나 역할이 제대로 할당되지 않는 경우:
+- 쉼표 뒤 공백 확인
+- 따옴표로 전체 값을 감쌌는지 확인
+- 각 값이 정확한 이름인지 확인
+
+## 자주 묻는 질문
+
+### Q: 가져오기 후 상담원이 로그인할 수 있나요?
+
+A: 가져온 상담원은 기본적으로 **비밀번호가 설정되지 않은 상태**입니다. 각 상담원에게 활성화 이메일을 보내거나 관리자가 임시 비밀번호를 설정해야 합니다.
+
+### Q: 기존 상담원 정보를 업데이트할 수 있나요?
+
+A: 네, 동일한 이메일 주소로 가져오기하면 기존 정보가 업데이트됩니다. 단, 신중하게 진행하세요.
+
+### Q: 대량 가져오기 시 권장 파일 크기는?
+
+A: 한 번에 **500명 이하**로 제한하는 것을 권장합니다. 더 많은 경우 여러 번에 나누어 진행하세요.
 
 ## 관련 문서
 
