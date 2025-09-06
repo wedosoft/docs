@@ -5,9 +5,10 @@ sidebar_label: Freshservice SLA 정책 관리
 sidebar_position: 9
 ---
 
-<div class="subtitle">
-  이 문서는 "Freshservice SLA 정책 관리(Managing SLA Policy in Freshservice)" 기능의 설정, 구성, 최적화 방법을 안내하는 문서입니다.
-</div>
+:::info 문서 목적
+이 문서는 "Freshservice SLA 정책 관리(Managing SLA Policy in Freshservice)" 기능의 설정, 구성, 최적화 방법을 안내하는 문서입니다.
+
+:::
 
 Freshservice SLA (Service Level Agreement) 정책은 IT 서비스의 품질을 보장하고 고객 기대치를 관리하는 핵심 도구입니다. 올바른 SLA 정책 설정을 통해 티켓 처리 시간을 체계적으로 관리하고 서비스 품질을 향상시킬 수 있습니다.
 

@@ -16,7 +16,7 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           웨도소프트 기술 문서 포털
         </Heading>
-        <p className="hero__subtitle">고객지원 및 IT 서비스 관리를 위한 종합 가이드</p>
+        <p className="hero__subtitle">Freshworks와 Monday.com으로 더 나은 비즈니스를</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -27,7 +27,15 @@ function HomepageHeader() {
             className="button button--primary button--lg"
             to="/freshworks/freshservice/getting-started/user-management/understanding-agents"
             style={{ marginLeft: '1rem' }}>
-            🔧 Freshservice 바로가기
+            🎧 Freshworks 둘러보기
+          </Link>
+        </div>
+        <div className={styles.buttons} style={{ marginTop: '1rem' }}>
+          <Link
+            className="button button--outline button--lg"
+            to="#"
+            style={{ opacity: 0.7, cursor: 'not-allowed' }}>
+            📋 Monday.com 준비중
           </Link>
         </div>
       </div>

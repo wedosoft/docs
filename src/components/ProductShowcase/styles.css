@@ -1,0 +1,14 @@
+/* Product Showcase Component Styles */
+.product-showcase {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin: 3rem 0;
+}
+
+@media (max-width: 996px) {
+    .product-showcase {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}

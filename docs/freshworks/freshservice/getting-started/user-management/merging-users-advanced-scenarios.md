@@ -4,9 +4,9 @@ title: 사용자 병합 고급 시나리오
 sidebar_label: 사용자 병합 고급 시나리오
 ---
 
-<div class="subtitle">
-  이 문서는 "사용자 병합 고급 시나리오(Merging Users Advanced Scenarios)" 기능의 복합적인 상황과 제한사항을 안내하는 문서입니다.
-</div>
+:::info 문서 목적
+이 문서는 "사용자 병합 고급 시나리오(Merging Users Advanced Scenarios)" 기능의 복합적인 상황과 제한사항을 안내하는 문서입니다.
+:::
 
 ## 개요
 

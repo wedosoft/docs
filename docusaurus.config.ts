@@ -91,7 +91,7 @@ const config: Config = {
             },
             {
               label: '사용자 관리',
-              to: '/freshworks/freshservice/getting-started-with-freshservice/user-management/understanding-agents',
+              to: '/freshworks/freshservice/getting-started/user-management/understanding-agents',
             },
           ],
         },

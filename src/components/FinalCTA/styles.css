@@ -1,0 +1,7 @@
+/* Final CTA Component Styles */
+.cta-final h2 {
+    margin-bottom: 2rem;
+    color: var(--ifm-color-emphasis-800);
+    font-size: 2rem;
+    font-weight: 700;
+}

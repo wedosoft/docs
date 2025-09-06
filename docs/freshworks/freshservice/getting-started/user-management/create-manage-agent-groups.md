@@ -4,9 +4,10 @@ title: 상담원 그룹 생성 및 관리 가이드
 sidebar_label: 상담원 그룹 생성 및 관리 가이드
 ---
 
-<div className="subtitle">
-  이 문서는 Freshservice에서 상담원 그룹을 생성, 편집, 삭제하는 방법을 안내하는 문서입니다.
-</div>
+:::info 문서 목적
+이 문서는 Freshservice에서 상담원 그룹을 생성, 편집, 삭제하는 방법을 안내하는 문서입니다.
+
+:::
 
 :::info 중요 공지
 2022년 12월 12일 이후에 가입한 경우, [이 섹션](https://support.freshservice.com/en/support/solutions/articles/50000005579)을 참조하여 상담원을 관리하세요.

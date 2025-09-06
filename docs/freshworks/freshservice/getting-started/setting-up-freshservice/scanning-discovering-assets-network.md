@@ -5,9 +5,10 @@ sidebar_label: 네트워크 자산 스캔 및 검색
 sidebar_position: 5
 ---
 
-<div class="subtitle">
-  이 문서는 "네트워크 자산 스캔 및 검색(Scanning and discovering assets in your network)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+:::info 문서 목적
+이 문서는 "네트워크 자산 스캔 및 검색(Scanning and discovering assets in your network)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
+
+:::
 
 Discovery Probe를 사용하면 네트워크의 모든 하드웨어 및 소프트웨어 자산을 스캔하고 검색할 수 있습니다. 새로운 항목을 식별하는 것 외에도 예약된 업데이트를 실행하여 자산 목록을 최신 상태로 유지합니다.
 

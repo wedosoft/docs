@@ -4,9 +4,10 @@ title: 사용자 맞춤 필드 추가
 sidebar_label: 사용자 맞춤 필드 추가
 ---
 
-<div class="subtitle">
-  이 문서는 "사용자 맞춤 필드(User Custom Fields)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+:::info 문서 목적
+이 문서는 "사용자 맞춤 필드(User Custom Fields)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
+
+:::
 
 ## 개요
 

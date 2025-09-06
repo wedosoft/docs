@@ -5,9 +5,10 @@ sidebar_label: Freshservice 서비스 카탈로그 관리
 sidebar_position: 8
 ---
 
-<div class="subtitle">
-  이 문서는 "Freshservice 서비스 카탈로그 관리(Managing Service Catalog in Freshservice)" 기능의 설정, 관리, 최적화 방법을 안내하는 문서입니다.
-</div>
+:::info 문서 목적
+이 문서는 "Freshservice 서비스 카탈로그 관리(Managing Service Catalog in Freshservice)" 기능의 설정, 관리, 최적화 방법을 안내하는 문서입니다.
+
+:::
 
 Freshservice 서비스 카탈로그는 조직 내 IT 서비스와 요청을 체계적으로 관리할 수 있는 중앙 집중식 플랫폼입니다. 이 문서는 서비스 아이템 생성부터 고급 관리 기능까지 포괄적인 가이드를 제공합니다.
 

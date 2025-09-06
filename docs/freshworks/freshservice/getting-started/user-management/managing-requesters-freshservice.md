@@ -4,9 +4,9 @@ title: Freshservice 요청자 관리
 sidebar_label: Freshservice 요청자 관리
 ---
 
-<div class="subtitle">
-  이 문서는 "Freshservice 요청자 관리(Managing Requesters in Freshservice)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+:::info 문서 목적
+이 문서는 Freshservice에서 요청자를 개별적으로 생성하고 관리하는 방법을 안내하는 문서입니다.
+:::
 
 ## 개요
 

@@ -4,9 +4,10 @@ title: 서비스 데스크 로그인 및 접근 설정
 sidebar_label: 서비스 데스크 로그인 및 접근 설정
 ---
 
-<div class="subtitle">
-  이 문서는 "서비스 데스크 로그인 및 접근 설정(Service Desk Login & Access)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+:::info 문서 목적
+이 문서는 "서비스 데스크 로그인 및 접근 설정(Service Desk Login & Access)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
+
+:::
 
 ## 개요
 

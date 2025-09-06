@@ -5,9 +5,10 @@ sidebar_label: Freshservice 에이전트 관리
 sidebar_position: 4
 ---
 
-<div class="subtitle">
-  이 문서는 "Freshservice 에이전트 관리(Managing Agents in Freshservice)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+:::info 문서 목적
+이 문서는 "Freshservice 에이전트 관리(Managing Agents in Freshservice)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
+
+:::
 
 Freshservice에서 모든 기술자와 관리자를 서비스 데스크에 에이전트로 추가할 수 있습니다. Admin 탭의 Agents 아이콘을 클릭하여 에이전트를 관리할 수 있습니다.
 

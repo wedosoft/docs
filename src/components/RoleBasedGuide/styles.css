@@ -1,0 +1,7 @@
+/* Role Based Guide Component Styles */
+.role-based-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}

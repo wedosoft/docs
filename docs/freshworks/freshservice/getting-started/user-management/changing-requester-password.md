@@ -4,9 +4,10 @@ title: 요청자 비밀번호 변경
 sidebar_label: 요청자 비밀번호 변경
 ---
 
-<div class="subtitle">
-  이 문서는 "요청자 비밀번호 변경(Changing Requester Password)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+:::info 문서 목적
+이 문서는 "요청자 비밀번호 변경(Changing Requester Password)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
+
+:::
 
 ## 개요
 

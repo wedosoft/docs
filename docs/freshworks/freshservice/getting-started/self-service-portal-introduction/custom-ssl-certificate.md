@@ -4,9 +4,9 @@ title: 사용자 지정 SSL 인증서 설정
 sidebar_label: 사용자 지정 SSL 인증서 설정
 ---
 
-<div class="subtitle">
-  이 문서는 "사용자 지정 SSL 인증서 설정(Custom SSL Certificate Configuration)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+::: info 문서 목적
+이 문서는 "사용자 지정 SSL 인증서 설정(Custom SSL Certificate Configuration)" 기능의 개념과 설정 방법을 안내합니다.
+:::
 
 ## 개요
 
