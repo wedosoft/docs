@@ -35,7 +35,7 @@
   width: auto !important;
 }
 
-/* Breadcrumb 여백 줄이기 */
+/* Breadcrumb 여백 줄이기 및 클릭 가능하게 만들기 */
 .theme-doc-breadcrumbs {
   margin-bottom: 0.5rem !important;
   padding: 0.25rem 0 !important;
