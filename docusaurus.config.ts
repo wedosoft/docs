@@ -85,11 +85,11 @@ const config: Config = {
           items: [
             {
               label: 'Freshservice 시작하기',
-              to: '/docs/freshworks/freshservice',
+              to: '/docs/intro',
             },
             {
               label: '사용자 관리',
-              to: '/docs/freshworks/freshservice/getting-started-with-freshservice/user-management',
+              to: '/docs/freshworks/freshservice/getting-started-with-freshservice/user-management/understanding-agents',
             },
           ],
         },

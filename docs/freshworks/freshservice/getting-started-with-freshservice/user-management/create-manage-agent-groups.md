@@ -201,4 +201,3 @@ sidebar_label: 상담원 그룹 생성 및 관리 가이드
 - [상담원 그룹에 멤버/옵저버 추가](./add-members-observers-agent-groups)
 - [상담원 역할 및 권한 설정](./setting-agent-roles-permissions)
 - [요청자 그룹 생성 및 관리](./create-manage-requester-groups)
-- [자동 티켓 할당 설정](../automation/automatic-ticket-assignment)

@@ -134,6 +134,4 @@ A: 네, 대부분의 커스텀 필드는 Freshservice API를 통해 접근하고
 ## 관련 문서
 
 - [사용자 커스텀 필드 추가](./adding-custom-fields-users)
-- [부서 및 회사 관리 기본 가이드](./managing-departments-companies)
 - [CSV를 통한 부서/회사 가져오기](./importing-departments-companies-csv)
-- [사용자 관리 모범 사례](./user-management-best-practices)

@@ -133,5 +133,3 @@ sidebar_position: 16
 ## 관련 문서
 
 - [상담원 그룹 생성 및 관리](./create-manage-agent-groups)
-- [사용자 역할 및 권한 관리](./managing-user-roles-permissions)
-- [다양한 사용자 유형 이해](./understanding-different-user-types)
