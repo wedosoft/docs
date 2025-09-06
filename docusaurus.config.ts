@@ -37,9 +37,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          routeBasePath: '/', // Remove /docs from URL
           // WedoSoft documentation repository
         },
         blog: {
+          routeBasePath: '/blog', // Explicitly set blog route
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -85,11 +87,11 @@ const config: Config = {
           items: [
             {
               label: 'Freshservice 시작하기',
-              to: '/docs/intro',
+              to: '/intro',
             },
             {
               label: '사용자 관리',
-              to: '/docs/freshworks/freshservice/getting-started-with-freshservice/user-management/understanding-agents',
+              to: '/freshworks/freshservice/getting-started-with-freshservice/user-management/understanding-agents',
             },
           ],
         },
