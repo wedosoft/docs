@@ -41,7 +41,7 @@ sidebar_position: 15
 
 2. **상담원 그룹 메뉴 이동**
    - 사용자 관리 하위의 **상담원 그룹** 클릭
-   - 다중 워크스페이스 환경: **관리자 > {워크스페이스명} > 사용자 관리 > 상담원 그룹**
+   - 다중 워크스페이스 환경: **관리자 > [워크스페이스명] > 사용자 관리 > 상담원 그룹**
 
 ![상담원 그룹 목록](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007051593/original/6JHhA6e_SMVe675w8HzSn_TpnJXZp1yM6Q.png?1669882110)
 
