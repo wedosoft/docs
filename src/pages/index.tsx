@@ -14,7 +14,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          웨도소프트 기술 문서 포털
+          위두소프트 기술 문서 포털
         </Heading>
         <p className="hero__subtitle">Freshworks와 Monday.com으로 더 나은 비즈니스를</p>
         <div className={styles.buttons}>

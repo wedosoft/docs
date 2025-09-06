@@ -116,13 +116,13 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'WedoSoft 홈페이지',
-              href: 'https://wedosoft.net',
+              label: '홈페이지',
+              href: 'https://www.wedosoft.net',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} WedoSoft. All rights reserved.`,
+      copyright: `Copyright © ${new Date().getFullYear()} We Do Soft Inc. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,
