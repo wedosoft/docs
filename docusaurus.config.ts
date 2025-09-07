@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: '웨도소프트 기술 문서 포털',
+  title: '위두소프트 기술 문서 포털',
   tagline: 'IT 서비스 관리 솔루션을 위한 종합 가이드',
   favicon: 'img/favicon.ico',
 
@@ -68,6 +68,7 @@ const config: Config = {
         alt: 'WedoSoft Logo',
         src: 'img/logo-light.svg',
         srcDark: 'img/logo-dark.svg',
+        href: '/intro',
       },
       items: [
         {

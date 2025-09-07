@@ -47,7 +47,7 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title="웨도소프트 기술 문서 포털"
+      title="위두소프트 기술 문서 포털"
       description="Freshworks, Monday.com 등 IT 서비스 관리 솔루션의 설정, 사용법, 문제해결 가이드">
       <HomepageHeader />
       <main>
