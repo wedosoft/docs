@@ -9,7 +9,33 @@ title: 마크다운 자동화 지침서
 sidebar_label: 자동화 지침서
 
 <div class="subtitle">
-  이 문서는 .md 기반 기술 문서를 자동 변환하는 작업에서 지켜야 할 작성 규칙과 스타일 지침을 정리한 내부용 가이드입니다.
+  이 문서는 📁 문서 저장 구조
+
+**콘텐츠 문서 (실제 고객 대상 문서):**
+
+docs/{{product_slug}}/{{category_slug}}/{{folder_slug}}/{{slug}}.md
+
+**프로젝트 관리 문서:**
+
+- **documents/**: 프로젝트 현황, 계획, 가이드라인 등 관리 문서
+- **scripts/**: 자동화 스크립트 및 변환 도구
+- **.github/instructions/**: 작업 지침 및 표준 문서
+
+	•	slug 규칙:
+	•	소문자
+	•	공백은 하이픈(-)
+	•	특수문자는 제거 또는 하이픈 치환
+	•	버전, 날짜, "final", "temp" 등 포함 금지
+
+예시:
+	•	"Create & Manage Users" → create-manage-users
+	•	"CSAT (Customer Satisfaction Survey)" → csat-customer-satisfaction-survey
+
+**파일 위치 결정 가이드:**
+	•	고객용 기술 문서 → docs/ 하위
+	•	프로젝트 관리 문서 → documents/
+	•	변환/처리 스크립트 → scripts/
+	•	작업 표준/지침 → .github/instructions/를 자동 변환하는 작업에서 지켜야 할 작성 규칙과 스타일 지침을 정리한 내부용 가이드입니다.
 </div>
 
 

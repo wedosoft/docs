@@ -6,16 +6,16 @@
 
 ### 1️⃣ 필수 읽기 (프로젝트 이해)
 ```
-1. project-status.md          - 현재 프로젝트 전체 현황
-2. work-guidelines.md          - 작업 지침 및 규칙  
-3. freshservice-masterplan.md - Freshservice 프로젝트 마스터플랜
+1. project-status.md                    - 현재 프로젝트 전체 현황
+2. work-guidelines.md                   - 작업 지침 및 규칙  
+3. ../.github/instructions/workspace-organization.md - 워크스페이스 조직화 규칙
+4. freshservice-masterplan.md          - Freshservice 프로젝트 마스터플랜
 ```
 
 ### 2️⃣ 상황별 참조
 ```
 - csv-conversion-guide.md     - CSV 변환 작업 가이드
 - mdx-troubleshooting.md      - MDX 오류 해결 가이드
-- folder-structure-guide.md   - 폴더 구조 및 파일 명명 규칙
 ```
 
 ## 🗂️ 문서 분류 체계
