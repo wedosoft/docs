@@ -1,0 +1,228 @@
+---
+id: understanding-dependent-fields
+title: 종속 필드 이해
+sidebar_label: 종속 필드 이해
+sidebar_position: 5
+---
+
+<div class="subtitle">
+  이 문서는 "Dependent Fields(종속 필드)" 기능의 개념과 활용 방법을 안내하는 문서입니다.
+</div>
+
+종속 필드는 더 깊이 있는 티켓 분류 체계를 구축하는 데 도움을 주는 기능입니다. 필드 선택 항목에 계층 구조를 도입하여 카테고리, 하위 카테고리 등으로 체계적으로 정리할 수 있습니다. 종속 필드를 통해 각 항목을 최대 3단계 수준의 카테고리로 중첩 구성할 수 있습니다.
+
+## 종속 필드의 개념
+
+### 계층적 분류의 필요성
+일반적인 드롭다운 필드는 평면적인 목록만 제공하지만, 종속 필드는 다음과 같은 계층적 구조를 만들 수 있습니다:
+
+**자산 분류 예시:**
+- **1차 카테고리**: 하드웨어, 소프트웨어, 네트워크
+- **2차 하위 카테고리**: 하드웨어 → 데스크톱, 노트북, 프린터
+- **3차 세부 분류**: 데스크톱 → 개별 자산 모델명
+
+### 종속 필드의 장점
+
+:::info 체계적인 정보 수집
+이러한 중첩 수준은 모든 서비스 요청에서 깊이 있는 정보를 캡처하고 티켓을 더 효과적으로 분류하는 데 도움을 줍니다.
+:::
+
+**주요 이점:**
+- **정확한 분류**: 단계별 선택을 통한 정밀한 카테고리 지정
+- **데이터 일관성**: 표준화된 계층 구조로 분류 품질 향상
+- **효율적인 검색**: 계층별 필터링을 통한 빠른 티켓 조회
+- **자동 라우팅**: 세분화된 분류를 통한 정확한 담당자 할당
+
+## 종속 필드 설정 방법
+
+### 1단계: Field Manager 접근
+
+**Admin Settings > Global Settings > Field Manager**로 이동합니다.
+
+:::info 특별한 경우의 접근 경로
+- **서비스 카탈로그**: Admin Settings > Global Settings > Service Catalog > Catalog Item
+- **개별 워크스페이스**: Admin Settings > Global Settings > Workspace Settings > Field Manager
+:::
+
+### 2단계: 티켓 필드 선택
+
+**Ticket Fields** 섹션을 선택합니다.
+
+### 3단계: 종속 필드 추가
+
+드래그 앤 드롭 영역에서 **Dependent field**를 티켓 폼으로 끌어다 놓습니다.
+
+![종속 필드 추가](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013332920/original/pOKCdx0fPbYLQCzufdSVrJxS6gl4Tbh2iQ.png?1728469528)
+
+### 4단계: 필드 속성 구성
+
+종속 필드의 속성을 설정합니다. 상담원과 고객에 대한 가시성, 편집 권한 및 기타 필드 동작을 선택할 수 있습니다.
+
+![필드 속성 설정](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013332963/original/YTLL2wz_69JiL1y02ixfxZ5AFgdRkZrqsw.png?1728469596)
+
+### 5단계: 계층 레이블 생성
+
+종속 필드의 3단계 계층구조에 대한 레이블 이름을 생성합니다.
+
+![계층 레이블 설정](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013332971/original/XkcOysfR4HmxzmhtVAVH4kWGltxf_-2tgg.png?1728469627)
+
+**예시:**
+- Category > Subcategory > Issue
+- Asset > Type > Model
+- Department > Team > Role
+
+### 6단계: 계층 구조 값 입력
+
+각 계층 수준의 값을 텍스트 박스에 입력합니다. **Tab 버튼**을 사용하여 값을 들여쓰기합니다.
+
+![계층 구조 입력](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013333060/original/IOvD63WGlLJD42OTIfXUF9Kou5MPR-YLNg.png?1728469884)
+
+#### 들여쓰기 규칙
+- **들여쓰기 없음**: 1단계 계층 (최상위 카테고리)
+- **Tab 1회**: 2단계 계층 (하위 카테고리)
+- **Tab 2회**: 3단계 계층 (세부 항목)
+
+### 7단계: 설정 완료
+
+1. **Done** 클릭하여 편집 완료
+2. **Save** 클릭하여 모든 필드 저장
+
+:::tip 대량 입력 팁
+대량의 종속 필드 목록이 있는 경우, 텍스트 에디터에서 탭 계층 구조로 정리한 후 종속 필드 편집기에 복사-붙여넣기할 수 있습니다.
+:::
+
+## 실무 활용 시나리오
+
+### 시나리오 1: IT 자산 관리
+**목표**: 하드웨어 자산의 체계적 분류
+
+**계층 구조:**
+```
+하드웨어
+	데스크톱
+		Dell OptiPlex 7090
+		HP EliteDesk 800
+		Lenovo ThinkCentre M720
+	노트북
+		Dell Latitude 5520
+		HP EliteBook 840
+		MacBook Pro 13"
+	프린터
+		HP LaserJet Pro
+		Canon PIXMA Series
+		Epson EcoTank
+소프트웨어
+	운영체제
+		Windows 11
+		macOS Monterey
+		Ubuntu 20.04
+	오피스 도구
+		Microsoft 365
+		Google Workspace
+		LibreOffice
+네트워크
+	라우터
+		Cisco ISR 4000
+		Ubiquiti Dream Machine
+	스위치
+		Cisco Catalyst 2960
+		Netgear ProSAFE
+```
+
+### 시나리오 2: 서비스 요청 분류
+**목표**: 서비스 데스크 요청의 정확한 분류
+
+**계층 구조:**
+```
+사용자 지원
+	계정 관리
+		계정 생성
+		비밀번호 재설정
+		권한 변경
+	소프트웨어 설치
+		업무용 소프트웨어
+		개발 도구
+		보안 소프트웨어
+시설 관리
+	사무실 환경
+		책상 배치
+		조명 조절
+		온도 조절
+	회의실 예약
+		대회의실
+		소회의실
+		화상회의실
+```
+
+### 시나리오 3: 문제 해결 분류
+**목표**: 기술적 문제의 세분화된 분류
+
+**계층 구조:**
+```
+연결 문제
+	인터넷 연결
+		WiFi 연결 불가
+		유선 연결 불가
+		속도 저하
+	VPN 연결
+		VPN 접속 실패
+		VPN 속도 저하
+		VPN 인증 오류
+애플리케이션 오류
+	웹 브라우저
+		크래시 문제
+		로딩 지연
+		호환성 문제
+	이메일 클라이언트
+		동기화 오류
+		첨부파일 문제
+		스팸 필터 오류
+```
+
+## 고급 활용 기법
+
+### 동적 분류 구조
+종속 필드를 사용하여 선택에 따라 다음 단계 옵션이 동적으로 변경되는 스마트한 분류 시스템을 구축할 수 있습니다.
+
+### 자동화 규칙과 연동
+:::warning 워크플로우 실행 순서
+워크스페이스 관리자는 해당 워크스페이스에 적용되는 글로벌 및 로컬 워크플로우 목록을 확인할 수 있습니다. 글로벌 워크플로우가 먼저 실행된 후 워크스페이스 수준 워크플로우가 실행되어 워크스페이스 수준 워크플로우가 글로벌 워크플로우보다 우선권을 갖습니다.
+
+**예시**: 글로벌 워크플로우는 제목/설명을 기반으로 티켓을 올바른 워크스페이스로 라우팅하도록 구성할 수 있습니다.
+:::
+
+### 보고서 및 분석 활용
+- **계층별 통계**: 각 계층 수준별 티켓 분포 분석
+- **트렌드 분석**: 시간별 카테고리 변화 추적
+- **성과 지표**: 분류별 해결 시간 및 만족도 측정
+
+## 모범 사례
+
+### 계층 구조 설계 원칙
+1. **논리적 순서**: 일반적인 것에서 구체적인 것 순으로 배치
+2. **균형잡힌 분산**: 각 카테고리별로 비슷한 수의 하위 항목 유지
+3. **확장 가능성**: 향후 추가될 수 있는 항목을 고려한 구조
+
+### 사용자 경험 고려사항
+- **직관적인 네이밍**: 사용자가 쉽게 이해할 수 있는 명확한 이름 사용
+- **적절한 깊이**: 너무 깊지 않은 적절한 계층 수준 유지
+- **일관성**: 유사한 유형의 분류에는 동일한 패턴 적용
+
+### 운영 및 유지보수
+- **정기적 검토**: 사용 패턴을 분석하여 불필요한 항목 제거
+- **사용자 피드백**: 실제 사용자의 의견을 반영한 구조 개선
+- **성능 모니터링**: 너무 복잡한 구조로 인한 성능 저하 방지
+
+## 관련 문서
+
+:::info 참조 문서 작업 방침
+이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
+현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
+:::
+
+<!-- 최종 작업 시 아래 형태로 추가:
+- [종속 필드 활용 가이드](./using-dependent-fields-tickets-problems-changes-releases)
+- [드롭다운 필드 설정](./setting-up-dropdown-fields)
+- [동적 섹션 활용](./using-dynamic-sections-ticket-forms)
+- [사용자 정의 필드 생성](./creating-custom-fields-ticket-problem-change-release-task-form)
+-->

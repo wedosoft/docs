@@ -9,8 +9,8 @@
 - **총 카테고리**: **20개**
 - **총 폴더**: **180개**  
 - **총 문서**: **1,557개**
-- **완료된 폴더**: 3개 
-- **전체 진행률**: **1.7%**
+- **완료된 폴더**: 6개 (User Management, Dark Mode, FreshThemes, Setting up Freshservice, Self Service Portal, Form fields and Form templates)
+- **전체 진행률**: **3.3%**
 
 ---
 
@@ -73,16 +73,16 @@
 - **Critical product announcements** ⏳
 - **Dark Mode** ✅
 - **Email Notifications** ⏳
-- **Form fields and Form templates** ⏳
+- **Form fields and Form templates** 🔄 (62.5% 완료 - 10/16)
 - **FreshThemes** ✅
 - **Freshworks Email Service Migration** ⏳
 - **How Search Works** ⏳
 - **Managing Notifications** ⏳
 - **New Sandbox** ⏳
 - **No code portal** ⏳
-- **Setting up Freshservice** ⏳
+- **Setting up Freshservice** ✅
 - **Single Sign On and Remote Authentication** ⏳
-- **Support Guide: Introduction to Self Service Portal** ⏳
+- **Support Guide: Introduction to Self Service Portal** ✅
 - **User Management** ✅
 
 ### 📁 8. How to Setup Apps and Integrations (3개 폴더) ⏳
