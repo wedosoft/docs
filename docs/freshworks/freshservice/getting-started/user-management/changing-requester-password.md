@@ -163,15 +163,19 @@ Error: Unable to update password
 3. 브라우저 개발자 도구에서 에러 로그 확인
 4. 기술 지원팀에 문의
 
-## 관련 기능 및 문서
+## 관련 문서
 
-### 연관 기능
-- [비밀번호 정책 설정](./password-policy-setup.md) - 전사 비밀번호 보안 정책 구성
-- [요청자 관리](./managing-requesters.md) - 요청자 계정 전반적 관리
-- [CSV를 통한 요청자 가져오기](./importing-requesters-csv.md) - 대량 요청자 등록
-- [상담원 역할 및 권한 설정](./setting-agent-roles-permissions.md) - 관리 권한 구성
+:::info 참조 문서 작업 방침
+이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
+현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
+:::
 
-### 추가 보안 설정
-- [스팸 및 휴지통 관리](../../../../freshservice/spam-and-trash.md) - 보안 정책 및 스팸 방지
+<!-- 최종 작업 시 아래 형태로 추가:
+- [비밀번호 정책 설정](./password-policy-setup) - 전사 비밀번호 보안 정책 구성
+- [요청자 관리](./managing-requesters) - 요청자 계정 전반적 관리
+- [CSV를 통한 요청자 가져오기](./importing-requesters-csv) - 대량 요청자 등록
+- [상담원 역할 및 권한 설정](./setting-agent-roles-permissions) - 관리 권한 구성
+- [스팸 및 휴지통 관리](../../../../freshservice/spam-and-trash) - 보안 정책 및 스팸 방지
+-->
 - [Freshservice 보안 가이드](https://support.freshservice.com/support/solutions/folders/50000005577) - 공식 보안 문서
 - [계정 보안 모범 사례](https://support.freshservice.com/support/solutions/articles/50000005578) - 계정 보안 강화

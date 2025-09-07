@@ -116,6 +116,17 @@ const sidebars: SidebarsConfig = {
               ],
             },
 
+            // PoC 가이드
+            {
+              type: 'category',
+              label: '🚀 PoC 가이드',
+              collapsed: false,
+              items: [
+                'freshworks/freshservice/poc-guides/comprehensive-poc-guide',
+                // 향후 추가: 단계별 가이드, 체크리스트 등
+              ],
+            },
+
             // IT 자산 관리 (Support Guide: IT Asset Management - 95개 문서)
             // {
             //   type: 'category',
