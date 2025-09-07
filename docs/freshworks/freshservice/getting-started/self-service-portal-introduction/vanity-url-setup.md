@@ -1,10 +1,10 @@
 ---
-id: vanity-url-setup
-title: 사용자 지정 URL 및 CNAME 설정
-sidebar_label: 사용자 지정 URL 및 CNAME 설정
+sidebar_position: 5
 ---
 
-::: info 문서 목적
+# 사용자 지정 URL 및 CNAME 설정
+
+:::info 문서 목적
 이 문서는 "사용자 지정 URL 및 CNAME 설정(Vanity URL & CNAME Setup)" 기능의 개념과 설정 방법을 안내합니다.
 :::
 

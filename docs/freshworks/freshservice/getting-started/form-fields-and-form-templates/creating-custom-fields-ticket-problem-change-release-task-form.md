@@ -1,13 +1,12 @@
 ---
-id: creating-custom-fields-ticket-problem-change-release-task-form
-title: 사용자 정의 필드 생성
-sidebar_label: 사용자 정의 필드 생성
 sidebar_position: 4
 ---
 
-<div class="subtitle">
-  이 문서는 "Custom Fields(사용자 정의 필드)" 기능의 개념과 생성 방법을 안내하는 문서입니다.
-</div>
+# 사용자 정의 필드 생성
+
+:::info 문서 목적
+이 문서는 "Custom Fields(사용자 정의 필드)" 기능의 개념과 생성 방법을 안내하는 문서입니다.
+:::
 
 Freshservice는 티켓, 문제, 변경, 릴리스와 관련된 작업을 효율적으로 관리할 수 있도록 작업(Task) 생성 기능을 제공합니다. 큰 작업을 작은 단위로 나누어 부서 간 협업을 통해 업무를 추진할 수 있으며, 비즈니스 유형이나 지원 프로세스에 맞는 사용자 정의 필드를 추가하여 작업 폼을 완전히 커스터마이징할 수 있습니다.
 

@@ -1,13 +1,12 @@
 ---
-id: setting-up-dropdown-fields
-title: 드롭다운 필드 설정
-sidebar_label: 드롭다운 필드 설정
 sidebar_position: 3
 ---
 
-<div class="subtitle">
-  이 문서는 "Dropdown Fields(드롭다운 필드)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+# 드롭다운 필드 설정
+
+:::info 문서 목적
+이 문서는 "Dropdown Fields(드롭다운 필드)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
+:::
 
 드롭다운 필드는 사용자가 미리 정의된 옵션 목록에서 값을 선택할 수 있도록 하는 필드 유형입니다. Freshservice에서 티켓, 문제, 변경, 릴리스에 모두 사용할 수 있으며, 서비스 카탈로그의 사용자 정의 필드를 만들 때도 활용할 수 있습니다.
 

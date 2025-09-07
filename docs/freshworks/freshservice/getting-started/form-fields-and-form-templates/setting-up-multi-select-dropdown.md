@@ -1,13 +1,12 @@
 ---
-id: setting-up-multi-select-dropdown
-title: 멀티 셀렉트 드롭다운 설정
-sidebar_label: 멀티 셀렉트 드롭다운 설정
 sidebar_position: 6
 ---
 
-<div class="subtitle">
-  이 문서는 "Multi-select Dropdown(멀티 셀렉트 드롭다운)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+# 다중 선택 드롭다운 설정
+
+:::info 문서 목적
+이 문서는 "Multi-select Dropdown(멀티 셀렉트 드롭다운)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
+:::
 
 멀티 셀렉트 드롭다운 필드는 사용자가 드롭다운에서 여러 옵션을 동시에 선택할 수 있는 기능을 제공합니다. Freshservice에서 티켓, 문제, 변경, 릴리스에 모두 사용할 수 있으며, 서비스 카탈로그의 사용자 정의 필드를 만들 때도 활용할 수 있습니다.
 

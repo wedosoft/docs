@@ -1,12 +1,11 @@
 ---
-id: chatbot-conversational-portal
-title: 셀프 서비스 포털 챗봇 설정
-sidebar_label: 셀프 서비스 포털 챗봇 설정
+sidebar_position: 1
 ---
+
+# 셀프 서비스 포털 챗봇 설정
 
 :::info 문서 목적
 이 문서는 "셀프 서비스 포털 챗봇 설정(Chatbot Conversational Portal)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-
 :::
 
 ## 개요

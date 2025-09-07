@@ -1,8 +1,8 @@
 ---
-id: merging-users-advanced-scenarios
-title: 사용자 병합 고급 시나리오
-sidebar_label: 사용자 병합 고급 시나리오
+sidebar_position: 8
 ---
+
+# 사용자 병합 고급 시나리오
 
 :::info 문서 목적
 이 문서는 "사용자 병합 고급 시나리오(Merging Users Advanced Scenarios)" 기능의 복합적인 상황과 제한사항을 안내하는 문서입니다.

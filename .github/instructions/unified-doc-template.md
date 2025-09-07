@@ -1,7 +1,7 @@
 ---
 title: 통합 문서 작성 템플릿
 version: 3.0
-date: 2025-01-06
+date: 2025-09-06
 applyTo: 'all-products'
 ---
 

@@ -1,13 +1,11 @@
 ---
-id: setting-up-custom-mailbox
-title: 사용자 정의 메일박스 설정
-sidebar_label: 사용자 정의 메일박스 설정
 sidebar_position: 3
 ---
 
+# 사용자 정의 메일박스 설정
+
 :::info 문서 목적
 이 문서는 "사용자 정의 메일박스 설정(Setting up a Custom mailbox)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-
 :::
 
 Freshservice의 서비스 데스크는 매일 수많은 이메일을 송수신하며, Freshservice의 이메일 서버가 모든 수신 및 발신 메일을 처리합니다. 필요에 따라 고객의 자체 메일 서버를 사용할 수도 있습니다.

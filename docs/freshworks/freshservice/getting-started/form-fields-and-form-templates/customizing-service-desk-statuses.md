@@ -1,13 +1,12 @@
 ---
-id: customizing-service-desk-statuses
-title: 서비스 데스크 상태 사용자 정의
-sidebar_label: 서비스 데스크 상태 사용자 정의
 sidebar_position: 9
 ---
 
-<div class="subtitle">
-  이 문서는 "서비스 데스크 상태(Service Desk Statuses)" 사용자 정의를 통해 조직의 워크플로우에 맞는 티켓 상태를 구성하는 방법을 안내하는 문서입니다.
-</div>
+# 서비스 데스크 상태 사용자 정의
+
+:::info 문서 목적
+이 문서는 "서비스 데스크 상태(Service Desk Statuses)" 사용자 정의를 통해 조직의 워크플로우에 맞는 티켓 상태를 구성하는 방법을 안내하는 문서입니다.
+:::
 
 ## 개요
 

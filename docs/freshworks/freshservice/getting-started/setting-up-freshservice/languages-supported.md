@@ -1,13 +1,11 @@
 ---
-id: languages-supported
-title: Freshservice 지원 언어 목록
-sidebar_label: Freshservice 지원 언어 목록
 sidebar_position: 7
 ---
 
+# Freshservice 지원 언어 목록
+
 :::info 문서 목적
 이 문서는 "Freshservice 지원 언어 목록(List of Languages Supported in Freshservice)" 및 CSV 파일을 통한 데이터 가져오기에서 사용할 수 있는 언어 코드 정보를 안내하는 문서입니다.
-
 :::
 
 Freshservice는 전 세계 다양한 언어를 지원하여 글로벌 IT 서비스 데스크 운영을 가능하게 합니다. 이 문서는 플랫폼에서 지원하는 언어 목록과 CSV 가져오기 시 사용해야 하는 언어 코드를 제공합니다.

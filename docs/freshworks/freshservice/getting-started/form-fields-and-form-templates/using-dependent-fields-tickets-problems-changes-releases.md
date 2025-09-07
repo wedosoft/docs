@@ -1,12 +1,12 @@
 ---
-id: using-dependent-fields-tickets-problems-changes-releases
-title: 종속 필드 활용 심화
-sidebar_label: 종속 필드 활용 심화
+sidebar_position: 11
 ---
 
-<div class="subtitle">
-  이 문서는 티켓, 문제, 변경, 릴리즈에서 "종속 필드(Dependent Fields)"를 실무에 활용하는 심화 방법을 안내하는 문서입니다.
-</div>
+# 종속 필드 활용 심화 가이드
+
+:::info 문서 목적
+이 문서는 티켓, 문제, 변경, 릴리즈에서 "종속 필드(Dependent Fields)"를 실무에 활용하는 심화 방법을 안내하는 문서입니다.
+:::
 
 ## 개요
 

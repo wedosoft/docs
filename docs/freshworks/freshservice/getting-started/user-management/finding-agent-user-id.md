@@ -70,15 +70,15 @@ https://[도메인].freshservice.com/admin/agents/[상담원ID]
 ### JSON 응답 예시
 
 ```json
-{
-  "agent": {
+&#123;
+  "agent": &#123;
     "id": 12345678,
     "user_id": 87654321,
     "email": "agent@company.com",
     "first_name": "김",
     "last_name": "상담원",
     ...
-  }
+  &#125;
 }
 ```
 

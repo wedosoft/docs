@@ -1,13 +1,11 @@
 ---
-id: time-zones-supported
-title: Freshservice 지원 시간대 목록
-sidebar_label: Freshservice 지원 시간대 목록
 sidebar_position: 6
 ---
 
+# Freshservice 지원 시간대 목록
+
 :::info 문서 목적
 이 문서는 "Freshservice 지원 시간대 목록(List of Time Zones Supported in Freshservice)" 및 CSV 파일을 통한 요청자 가져오기에서 사용할 수 있는 시간대 정보를 안내하는 문서입니다.
-
 :::
 
 Freshservice에서는 전 세계 다양한 시간대를 지원하여 글로벌 서비스 데스크 운영을 가능하게 합니다. 이 문서는 CSV 파일을 통해 [요청자를 가져올](https://support.freshservice.com/support/solutions/articles/210050-guidelines-to-importing-requesters-from-csv-files) 때 사용할 수 있는 시간대 목록을 제공합니다.

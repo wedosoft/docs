@@ -1,8 +1,8 @@
 ---
-id: merging-requesters
-title: 요청자 병합 가이드
-sidebar_label: 요청자 병합 가이드
+sidebar_position: 7
 ---
+
+# 요청자 병합 가이드
 
 :::info 문서 목적
 이 문서는 "요청자 병합(Merging Requesters)" 기능의 개념과 설정 방법을 안내하는 문서입니다.

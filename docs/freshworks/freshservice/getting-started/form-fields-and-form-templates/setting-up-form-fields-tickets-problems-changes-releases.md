@@ -35,7 +35,7 @@ Freshservice에서 티켓, 문제, 변경, 릴리즈 폼에 추가 필드를 설
 
 **다중 워크스페이스 환경**
 - **글로벌 설정**: Admin > Global Settings > Service Management > Service Desk Settings > Field Manager
-- **워크스페이스 설정**: Admin > Workspace Settings > {워크스페이스명} > Service Management > Service Desk Settings > Field Manager
+- **워크스페이스 설정**: Admin > Workspace Settings > &#123;워크스페이스명&#125; > Service Management > Service Desk Settings > Field Manager
 
 ### 2단계: 필드 유형 선택
 

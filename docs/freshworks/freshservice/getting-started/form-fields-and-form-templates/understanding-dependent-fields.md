@@ -1,13 +1,12 @@
 ---
-id: understanding-dependent-fields
-title: 종속 필드 이해
-sidebar_label: 종속 필드 이해
 sidebar_position: 5
 ---
 
-<div class="subtitle">
-  이 문서는 "Dependent Fields(종속 필드)" 기능의 개념과 활용 방법을 안내하는 문서입니다.
-</div>
+# 종속 필드 이해하기
+
+:::info 문서 목적
+이 문서는 "Dependent Fields(종속 필드)" 기능의 개념과 활용 방법을 안내하는 문서입니다.
+:::
 
 종속 필드는 더 깊이 있는 티켓 분류 체계를 구축하는 데 도움을 주는 기능입니다. 필드 선택 항목에 계층 구조를 도입하여 카테고리, 하위 카테고리 등으로 체계적으로 정리할 수 있습니다. 종속 필드를 통해 각 항목을 최대 3단계 수준의 카테고리로 중첩 구성할 수 있습니다.
 

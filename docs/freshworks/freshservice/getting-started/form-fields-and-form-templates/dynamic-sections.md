@@ -1,13 +1,12 @@
 ---
-id: dynamic-sections
-title: 동적 섹션 활용 가이드
-sidebar_label: 동적 섹션 활용 가이드
 sidebar_position: 8
 ---
 
-<div class="subtitle">
-  이 문서는 "동적 섹션(Dynamic Sections)" 기능을 활용하여 사용자 입력에 따라 변화하는 동적 티켓 폼을 구성하는 방법을 안내하는 문서입니다.
-</div>
+# 동적 섹션 활용 가이드
+
+:::info 문서 목적
+이 문서는 "동적 섹션(Dynamic Sections)" 기능을 활용하여 사용자 입력에 따라 변화하는 동적 티켓 폼을 구성하는 방법을 안내하는 문서입니다.
+:::
 
 ## 개요
 

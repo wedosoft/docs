@@ -1,13 +1,12 @@
 ---
-id: creating-ticket-change-template
-title: 티켓 및 변경 템플릿 생성
-sidebar_label: 티켓 및 변경 템플릿 생성
 sidebar_position: 7
 ---
 
-<div class="subtitle">
-  이 문서는 "Ticket and Change Templates(티켓 및 변경 템플릿)" 기능의 개념과 생성 방법을 안내하는 문서입니다.
-</div>
+# 티켓 및 변경 템플릿 생성
+
+:::info 문서 목적
+이 문서는 "Ticket and Change Templates(티켓 및 변경 템플릿)" 기능의 개념과 생성 방법을 안내하는 문서입니다.
+:::
 
 템플릿은 관리자가 새로운 티켓과 변경 폼을 특정 값으로 미리 채울 수 있도록 하는 기능입니다. 이는 자주 발생하는 티켓/변경에 대한 표준 운영 절차입니다. 템플릿을 사용하면 시간을 절약하고 표준 변경/티켓을 실행할 때 중복 작업을 제거할 수 있습니다.
 
@@ -54,7 +53,7 @@ sidebar_position: 7
 **Admin 탭 > Service Desk Settings > Form Templates**로 이동합니다.
 
 #### 다중 워크스페이스 환경
-**Admin > {워크스페이스 이름} > Service Management > Service Desk Settings > Form Templates**로 이동합니다.
+**Admin > &#123;워크스페이스 이름&#125; > Service Management > Service Desk Settings > Form Templates**로 이동합니다.
 
 ### 3단계: 새 템플릿 생성
 

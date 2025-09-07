@@ -10,10 +10,10 @@ total_files: 16
 ## 📊 진행 현황
 
 - **총 문서 수**: 16개
-- **완료된 문서**: 10개  
-- **진행률**: 62.5%
+- **완료된 문서**: 13개  
+- **진행률**: 81.25%
 
-## ✅ 완료된 문서 (10개)
+## ✅ 완료된 문서 (13개)
 
 1. **폼 필드 기본 설정** ✅ `setting-up-form-fields-tickets-problems-changes-releases.md`
 2. **티켓 필드 유형 이해** ✅ `understanding-different-types-ticket-fields.md`
@@ -25,22 +25,23 @@ total_files: 16
 8. **서비스 데스크 상태 사용자 정의** ✅ `customizing-service-desk-statuses.md`
 9. **동적 섹션 활용 가이드** ✅ `dynamic-sections.md`
 10. **멀티 셀렉트 드롭다운 설정** ✅ `setting-up-multi-select-dropdown.md`
+11. **종속 필드 활용 심화** ✅ `using-dependent-fields-tickets-problems-changes-releases.md`
+12. **리치 텍스트 섹션 설정** ✅ `setting-up-rich-text-sections-content-fields.md` (v3.0 템플릿)
+13. **비즈니스 규칙 문제 해결** ✅ `business-rules-troubleshooting-guide.md` (v3.0 템플릿)
 
-## 🔄 남은 작업 (6개)
+## 🔄 남은 작업 (3개)
 
 ### 우선순위별 남은 문서
-11. ⏳ **종속 필드 활용 심화** `using-dependent-fields-tickets-problems-changes-releases.md`
-12. ⏳ **리치 텍스트 섹션 설정** `setting-up-rich-text-sections-content-fields.md`
-13. ⏳ **비즈니스 규칙 문제 해결** `business-rules-troubleshooting-guide.md`
 14. ⏳ **비즈니스 규칙 사용 사례** `business-rules-usecases.md`
 15. ⏳ **동적 변경 폼 생성** `create-no-code-dynamic-change-forms-business-rules.md`
 16. ⏳ **필드 보관 및 삭제** `archive-delete-custom-ticket-field.md`
 
 ## 🎯 다음 작업 계획
 
-**다음 문서**: "Using dependent fields in tickets, problems, changes, and releases"
+**다음 문서**: "Business rules usecases"
 **예상 완료 시간**: 15-20분
 **완료 목표**: 오늘 중 전체 16개 문서 완료 (100%)
+**현재 진행률**: 81.25% �
 
 ## 🎯 작업 우선순위
 

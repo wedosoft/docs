@@ -1,7 +1,4 @@
 ---
-id: freshworks-freshservice-index
-title: Freshservice 시작하기
-sidebar_label: Freshservice
 sidebar_position: 1
 ---
 

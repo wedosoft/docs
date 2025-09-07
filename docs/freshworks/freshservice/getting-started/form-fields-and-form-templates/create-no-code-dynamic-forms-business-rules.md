@@ -1,13 +1,12 @@
 ---
-id: create-no-code-dynamic-forms-business-rules
-title: 노코드 동적 폼 생성
-sidebar_label: 노코드 동적 폼 생성
 sidebar_position: 10
 ---
 
-<div class="subtitle">
-  이 문서는 "No-code Dynamic Forms(노코드 동적 폼)" 기능을 비즈니스 규칙으로 구현하는 방법을 안내하는 문서입니다.
-</div>
+# 비즈니스 규칙을 통한 노코드 동적 폼 생성
+
+:::info 문서 목적
+이 문서는 "No-code Dynamic Forms(노코드 동적 폼)" 기능을 비즈니스 규칙으로 구현하는 방법을 안내하는 문서입니다.
+:::
 
 비즈니스 규칙을 활용하면 코딩 없이도 동적이고 지능적인 폼을 생성할 수 있습니다. 사용자 입력에 따라 필드가 나타나거나 사라지고, 조건에 따라 필수 필드가 변경되며, 데이터 검증을 자동으로 수행하는 고급 폼을 만들 수 있습니다.
 

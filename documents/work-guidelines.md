@@ -1,0 +1,242 @@
+# 📋 작업 지침서
+
+> **목적**: Freshservice 문서 변환 프로젝트의 표준 작업 절차 및 규칙
+
+## 🎯 기본 원칙
+
+### 1. 문서 품질 우선
+- **단순 번역 금지** → 실무 중심 리라이팅
+- **예시 중심 설명** → 추상적 설명 지양
+- **즉시 활용 가능** → 이론적 설명 최소화
+
+### 2. 일관성 유지
+- **표준 템플릿 준수** → v3.0 템플릿 사용
+- **명명 규칙 통일** → 파일/폴더 이름 규칙
+- **스타일 가이드 준수** → 마크다운 작성 규칙
+
+### 3. 자동화 우선
+- **수작업 최소화** → 스크립트/도구 활용
+- **재사용 가능한 코드** → 모듈화된 함수
+- **검증 자동화** → 빌드/품질 검사
+
+---
+
+## 📁 파일 및 폴더 규칙
+
+### 폴더 명명 규칙
+```bash
+# 올바른 예시
+form-fields/
+user-management/
+setting-up-freshservice/
+
+# 잘못된 예시
+Form_Fields/
+UserManagement/
+Setting Up Freshservice/
+```
+
+### 파일 명명 규칙
+```bash
+# 올바른 예시
+create-custom-fields.md
+configure-user-roles.md
+set-up-email-notifications.md
+
+# 잘못된 예시
+Create Custom Fields.md
+configureUserRoles.md
+set_up_email_notifications.md
+```
+
+### slug 생성 규칙
+```javascript
+// 변환 예시
+"Create & Manage Users" → "create-manage-users"
+"CSAT (Customer Satisfaction Survey)" → "csat-customer-satisfaction-survey"
+"Set Up Email Notifications" → "set-up-email-notifications"
+```
+
+---
+
+## 📝 문서 작성 표준
+
+### Frontmatter (v3.0 템플릿)
+```yaml
+---
+sidebar_position: 1
+---
+```
+
+### 제목 구조
+```markdown
+# 간결한 기능명
+
+<div class="subtitle">
+  이 문서는 "기능명(영문)" 기능의 개념과 설정 방법을 안내하는 문서입니다.
+</div>
+```
+
+### 섹션 구성 패턴
+```markdown
+## 기능 개요
+## 설정 방법
+### 1단계: 기본 설정
+### 2단계: 고급 설정
+## 사용 예시
+## 주의사항
+## 관련 문서
+```
+
+---
+
+## 🛠️ MDX 호환성 규칙
+
+### 한글 중괄호 처리
+```markdown
+# 잘못된 예시
+{워크스페이스명}
+{티켓번호}
+
+# 올바른 예시
+&#123;워크스페이스명&#125;
+&#123;티켓번호&#125;
+```
+
+### Freshservice 자리표시자
+```markdown
+# 잘못된 예시
+{{ticket.id}}
+{{user.name}}
+
+# 올바른 예시
+`{{ticket.id}}`
+`{{user.name}}`
+```
+
+### Style 속성 처리
+```markdown
+# 잘못된 예시
+<span style="color: red;">텍스트</span>
+
+# 올바른 예시
+<span style={{ color: 'red' }}>텍스트</span>
+```
+
+---
+
+## 🖼️ 이미지 및 미디어 처리
+
+### 이미지 링크
+```markdown
+# 표준 형식 (변경 금지)
+![설명](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155123456789/original/image.png)
+
+# 금지 형식
+<img src="..." />
+![설명](./images/image.png)
+![설명](../assets/image.png)
+```
+
+### 표(Table) 작성
+```markdown
+# 기본: Markdown 표
+| 자리표시자 | 설명 |
+|------------|------|
+| `{{ticket.id}}` | 티켓 고유 ID |
+
+# 복잡한 내용: HTML 표
+<table>
+<thead>
+<tr><th>기능</th><th>설명</th></tr>
+</thead>
+<tbody>
+<tr>
+  <td><code>&#123;&#123;ticket.id&#125;&#125;</code></td>
+  <td>티켓의 고유 식별번호<br/>예: T-12345</td>
+</tr>
+</tbody>
+</table>
+```
+
+---
+
+## 🔍 품질 검사 체크리스트
+
+### 문서 작성 후 필수 확인
+- [ ] **빌드 테스트**: `npm run build` 오류 없음
+- [ ] **링크 검증**: 모든 링크가 정상 작동
+- [ ] **이미지 확인**: 모든 이미지가 정상 표시
+- [ ] **MDX 호환성**: 중괄호, style 속성 확인
+- [ ] **사이드바 위치**: 논리적 순서 확인
+
+### 폴더 완료 후 필수 확인
+- [ ] **sidebars.ts 업데이트**: 새 폴더 구조 반영
+- [ ] **README 갱신**: 완료 현황 업데이트
+- [ ] **Git 커밋**: 의미 있는 커밋 메시지
+
+---
+
+## 🚨 자주 발생하는 실수
+
+### 1. 링크 관련
+❌ **하지 말 것**
+- 존재하지 않는 문서로 링크
+- 상대 경로 추측으로 링크 생성
+- 임시 또는 가정적 링크
+
+✅ **해야 할 것**
+- 모든 문서 완성 후 링크 작업
+- "관련 문서" 섹션만 미리 생성
+
+### 2. 이미지 관련
+❌ **하지 말 것**
+- 경로 단축 또는 변형
+- HTML img 태그 사용
+- style, class 속성 추가
+
+✅ **해야 할 것**
+- 원본 S3 URL 그대로 사용
+- Markdown 이미지 문법만 사용
+
+### 3. 파일명 관련
+❌ **하지 말 것**
+- 공백, 대문자, 특수문자 사용
+- 버전 번호나 날짜 포함
+- 임시 파일명 그대로 두기
+
+✅ **해야 할 것**
+- 케밥 케이스(kebab-case) 사용
+- 기능 중심 명명
+- 일관된 규칙 적용
+
+---
+
+## 🔄 워크플로우
+
+### 새 폴더 작업 시
+1. **폴더 구조 확인** → 기존 패턴 파악
+2. **문서 목록 작성** → 작업 범위 명확화
+3. **템플릿 적용** → v3.0 표준 적용
+4. **품질 검사** → 체크리스트 확인
+5. **사이드바 업데이트** → sidebars.ts 수정
+6. **문서화** → 진행 현황 업데이트
+
+### 기존 문서 수정 시
+1. **변경 이유 확인** → 필요성 검토
+2. **영향 범위 파악** → 관련 문서 확인
+3. **백업 생성** → Git 커밋
+4. **수정 및 테스트** → 빌드 확인
+5. **문서 업데이트** → 변경 사항 기록
+
+---
+
+## 📚 참고 자료
+
+- [프로젝트 현황](./project-status.md) - 전체 진행 상황
+- [MDX 문제해결](./mdx-troubleshooting.md) - 기술적 문제 해결
+- [마크다운 작성 지침](./.github/instructions/markdown-rewriting.instructions.md) - 상세 작성 규칙
+
+---
+
+> **💡 기억하세요**: 이 지침서는 작업 효율성과 품질을 위한 최소한의 규칙입니다. 새로운 상황이 발생하면 기존 원칙을 확장하여 대응하세요.

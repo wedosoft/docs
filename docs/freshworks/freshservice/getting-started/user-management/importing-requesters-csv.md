@@ -1,9 +1,8 @@
 ---
-id: importing-requesters-csv
-title: CSV 파일로 요청자 가져오기
-sidebar_label: CSV 파일로 요청자 가져오기
-sidebar_position: 4
+sidebar_position: 5
 ---
+
+# CSV 파일로 요청자 가져오기
 
 :::info 문서 목적
 이 문서는 CSV 파일을 사용하여 요청자를 일괄 가져오는 방법을 안내하는 문서입니다.
