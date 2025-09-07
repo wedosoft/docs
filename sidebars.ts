@@ -100,8 +100,6 @@ const sidebars: SidebarsConfig = {
                   ],
                 },
                 // 향후 추가: form-fields, fresh-themes 등 다른 폴더들
-                'freshservice/config-sets',
-                'freshservice/importing-assets',
               ],
             },
 
