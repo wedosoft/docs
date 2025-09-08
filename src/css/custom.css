@@ -860,7 +860,7 @@
   }
 }
 
-/* WedoSoft Logo Styling */
+/* Logo Styling */
 .navbar__logo img {
   height: 40px !important;
   width: auto !important;
@@ -1363,4 +1363,11 @@
 [data-theme='dark'] .card-button.disabled {
   background: #374151;
   color: #6b7280;
+}
+
+/* New added by Alan */
+.navbar__logo {
+  flex: 0 0 auto !important;
+  margin-left: 0.5rem !important;
+  height: auto;
 }

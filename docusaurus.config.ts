@@ -70,15 +70,7 @@ const config: Config = {
         srcDark: 'img/logo-dark.svg',
         href: '/intro',
       },
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Freshservice 가이드',
-        },
-        { to: '/blog', label: '블로그', position: 'left' },
-      ],
+      items: [],
     },
     footer: {
       style: 'dark',
