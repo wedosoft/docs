@@ -1,0 +1,852 @@
+[
+  {
+    "id": 50000000404,
+    "title": "What is a Scenario Automation ?",
+    "category_name": "Freshservice FAQs",
+    "folder_name": "Automations and Triggers",
+    "path": "/freshservice/freshservice-faqs/automations-and-triggers/what-is-a-scenario-automation-.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 440,
+      "images": 0,
+      "tables": 0,
+      "links": 0,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part4.csv"
+  },
+  {
+    "id": 50000006311,
+    "title": "How can we display more columns simultaneously in the Analytics dashboard view?",
+    "category_name": "Freshservice FAQs",
+    "folder_name": "Analytics FAQs",
+    "path": "/freshservice/freshservice-faqs/analytics-faqs/how-can-we-display-more-columns-simultaneously-in-the-analytics-dashboard-view.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 1025,
+      "images": 1,
+      "tables": 0,
+      "links": 0,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part4.csv"
+  },
+  {
+    "id": 50000000252,
+    "title": "Can you trigger an announcement once a change is deployed/released?",
+    "category_name": "Freshservice FAQs",
+    "folder_name": "Changes",
+    "path": "/freshservice/freshservice-faqs/changes/can-you-trigger-an-announcement-once-a-change-is-deployedreleased.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 466,
+      "images": 0,
+      "tables": 0,
+      "links": 0,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part3.csv"
+  },
+  {
+    "id": 50000000428,
+    "title": "How do I automatically close any resolved ticket after 48 hours?",
+    "category_name": "Freshservice FAQs",
+    "folder_name": "Automations and Triggers",
+    "path": "/freshservice/freshservice-faqs/automations-and-triggers/how-do-i-automatically-close-any-resolved-ticket-after-48-hours.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 1001,
+      "images": 1,
+      "tables": 0,
+      "links": 0,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part4.csv"
+  },
+  {
+    "id": 50000000452,
+    "title": "How to remove ticket link from agent replies?",
+    "category_name": "Freshservice FAQs",
+    "folder_name": "Email",
+    "path": "/freshservice/freshservice-faqs/email/how-to-remove-ticket-link-from-agent-replies.mdx",
+    "complexity_category": "medium",
+    "complexity_details": {
+      "length": 8130,
+      "images": 1,
+      "tables": 0,
+      "links": 0,
+      "lists": 1,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part4.csv"
+  },
+  {
+    "id": 50000000158,
+    "title": "Is it possible to have two tenants for SSO?",
+    "category_name": "Freshservice FAQs",
+    "folder_name": "SSO",
+    "path": "/freshservice/freshservice-faqs/sso/is-it-possible-to-have-two-tenants-for-sso.mdx",
+    "complexity_category": "medium",
+    "complexity_details": {
+      "length": 4627,
+      "images": 0,
+      "tables": 0,
+      "links": 9,
+      "lists": 1,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part3.csv"
+  },
+  {
+    "id": 50000000260,
+    "title": "Can I add custom Change Types?",
+    "category_name": "Freshservice FAQs",
+    "folder_name": "Changes",
+    "path": "/freshservice/freshservice-faqs/changes/can-i-add-custom-change-types.mdx",
+    "complexity_category": "medium",
+    "complexity_details": {
+      "length": 10736,
+      "images": 1,
+      "tables": 0,
+      "links": 0,
+      "lists": 1,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part3.csv"
+  },
+  {
+    "id": 50000000197,
+    "title": "How can the notification sent to the requester of a closed ticket be turned off in Freshservice?",
+    "category_name": "Freshservice FAQs",
+    "folder_name": "Problem",
+    "path": "/freshservice/freshservice-faqs/problem/how-can-the-notification-sent-to-the-requester-of-a-closed-ticket-be-turned-off-in-freshservice.mdx",
+    "complexity_category": "medium",
+    "complexity_details": {
+      "length": 3318,
+      "images": 1,
+      "tables": 0,
+      "links": 1,
+      "lists": 1,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part3.csv"
+  },
+  {
+    "id": 50000000625,
+    "title": "Can we associate a ticket to a change directly?",
+    "category_name": "Freshservice FAQs",
+    "folder_name": "Incidents & Service Request",
+    "path": "/freshservice/freshservice-faqs/incidents--service-request/can-we-associate-a-ticket-to-a-change-directly.mdx",
+    "complexity_category": "complex",
+    "complexity_details": {
+      "length": 16301,
+      "images": 1,
+      "tables": 0,
+      "links": 0,
+      "lists": 2,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part4.csv"
+  },
+  {
+    "id": 50000000402,
+    "title": "How can I automatically move emails from a specific sender with specific subject or body to the spam folder?",
+    "category_name": "Freshservice FAQs",
+    "folder_name": "Automations and Triggers",
+    "path": "/freshservice/freshservice-faqs/automations-and-triggers/how-can-i-automatically-move-emails-from-a-specific-sender-with-specific-subject-or-body-to-the-spam-folder.mdx",
+    "complexity_category": "complex",
+    "complexity_details": {
+      "length": 13306,
+      "images": 1,
+      "tables": 0,
+      "links": 0,
+      "lists": 1,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part4.csv"
+  },
+  {
+    "id": 50000000407,
+    "title": "How do I setup a Scenario Automation as an Admin?",
+    "category_name": "Freshservice FAQs",
+    "folder_name": "Automations and Triggers",
+    "path": "/freshservice/freshservice-faqs/automations-and-triggers/how-do-i-setup-a-scenario-automation-as-an-admin.mdx",
+    "complexity_category": "complex",
+    "complexity_details": {
+      "length": 13736,
+      "images": 1,
+      "tables": 0,
+      "links": 1,
+      "lists": 1,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part4.csv"
+  },
+  {
+    "id": 157151,
+    "title": "Inserting the right kBase article into your tickets using Suggested Solutions",
+    "category_name": "Support Guide: IT Service Management",
+    "folder_name": "Getting Started with Tickets",
+    "path": "/freshservice/support-guide-it-service-management/getting-started-with-tickets/inserting-the-right-kbase-article-into-your-tickets-using-suggested-solutions.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 1955,
+      "images": 0,
+      "tables": 0,
+      "links": 0,
+      "lists": 1,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part1.csv"
+  },
+  {
+    "id": 155580,
+    "title": "Adding Rollout and Backout plans to the changes",
+    "category_name": "Support Guide: IT Service Management",
+    "folder_name": "Change Management",
+    "path": "/freshservice/support-guide-it-service-management/change-management/adding-rollout-and-backout-plans-to-the-changes.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 3119,
+      "images": 0,
+      "tables": 0,
+      "links": 1,
+      "lists": 1,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part1.csv"
+  },
+  {
+    "id": 50000005609,
+    "title": "Best practices to create service items",
+    "category_name": "Support Guide: IT Service Management",
+    "folder_name": "Prepare",
+    "path": "/freshservice/support-guide-it-service-management/prepare/best-practices-to-create-service-items.mdx",
+    "complexity_category": "medium",
+    "complexity_details": {
+      "length": 4945,
+      "images": 0,
+      "tables": 0,
+      "links": 0,
+      "lists": 4,
+      "headers": 1
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part1.csv"
+  },
+  {
+    "id": 154961,
+    "title": "Forwarding tickets to a third party",
+    "category_name": "Support Guide: IT Service Management",
+    "folder_name": "Ticket Actions",
+    "path": "/freshservice/support-guide-it-service-management/ticket-actions/forwarding-tickets-to-a-third-party.mdx",
+    "complexity_category": "medium",
+    "complexity_details": {
+      "length": 6751,
+      "images": 2,
+      "tables": 0,
+      "links": 1,
+      "lists": 1,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part1.csv"
+  },
+  {
+    "id": 50000005610,
+    "title": "Pinning Servicebot on Microsoft Teams",
+    "category_name": "Support Guide: IT Service Management",
+    "folder_name": "Microsoft Teams",
+    "path": "/freshservice/support-guide-it-service-management/microsoft-teams/pinning-servicebot-on-microsoft-teams.mdx",
+    "complexity_category": "complex",
+    "complexity_details": {
+      "length": 10682,
+      "images": 3,
+      "tables": 0,
+      "links": 3,
+      "lists": 1,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part1.csv"
+  },
+  {
+    "id": 50000003636,
+    "title": "Rename Servicebot in Microsoft Teams",
+    "category_name": "Support Guide: IT Service Management",
+    "folder_name": "Microsoft Teams",
+    "path": "/freshservice/support-guide-it-service-management/microsoft-teams/rename-servicebot-in-microsoft-teams.mdx",
+    "complexity_category": "complex",
+    "complexity_details": {
+      "length": 19169,
+      "images": 5,
+      "tables": 0,
+      "links": 2,
+      "lists": 4,
+      "headers": 2
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part1.csv"
+  },
+  {
+    "id": 50000003059,
+    "title": "Getting started with FreshThemes",
+    "category_name": "Getting started with Freshservice",
+    "folder_name": "FreshThemes",
+    "path": "/freshservice/getting-started-with-freshservice/freshthemes/getting-started-with-freshthemes.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 2429,
+      "images": 1,
+      "tables": 0,
+      "links": 0,
+      "lists": 0,
+      "headers": 1
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part1.csv"
+  },
+  {
+    "id": 50000003065,
+    "title": "What is Handlebars JS?",
+    "category_name": "Getting started with Freshservice",
+    "folder_name": "FreshThemes",
+    "path": "/freshservice/getting-started-with-freshservice/freshthemes/what-is-handlebars-js.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 1407,
+      "images": 0,
+      "tables": 0,
+      "links": 2,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part2.csv"
+  },
+  {
+    "id": 154760,
+    "title": "Setting agent roles and permissions",
+    "category_name": "Getting started with Freshservice",
+    "folder_name": "User Management",
+    "path": "/freshservice/getting-started-with-freshservice/user-management/setting-agent-roles-and-permissions.mdx",
+    "complexity_category": "medium",
+    "complexity_details": {
+      "length": 6236,
+      "images": 2,
+      "tables": 0,
+      "links": 5,
+      "lists": 1,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part1.csv"
+  },
+  {
+    "id": 50000009282,
+    "title": "Discontinuation of Conversational UI",
+    "category_name": "Getting started with Freshservice",
+    "folder_name": "Support Guide: Introduction to Self Service Portal",
+    "path": "/freshservice/getting-started-with-freshservice/support-guide-introduction-to-self-service-portal/discontinuation-of-conversational-ui.mdx",
+    "complexity_category": "complex",
+    "complexity_details": {
+      "length": 8799,
+      "images": 0,
+      "tables": 1,
+      "links": 5,
+      "lists": 1,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part1.csv"
+  },
+  {
+    "id": 50000009587,
+    "title": "Why are field values not loading in Analytics filters?",
+    "category_name": "Platform",
+    "folder_name": "Analytics",
+    "path": "/freshservice/platform/analytics/why-are-field-values-not-loading-in-analytics-filters.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 780,
+      "images": 0,
+      "tables": 0,
+      "links": 0,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part2.csv"
+  },
+  {
+    "id": 164828,
+    "title": "Understanding the Helpdesk at a Glance Report",
+    "category_name": "Platform",
+    "folder_name": "Reporting",
+    "path": "/freshservice/platform/reporting/understanding-the-helpdesk-at-a-glance-report.mdx",
+    "complexity_category": "medium",
+    "complexity_details": {
+      "length": 4276,
+      "images": 0,
+      "tables": 2,
+      "links": 0,
+      "lists": 0,
+      "headers": 4
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part2.csv"
+  },
+  {
+    "id": 212804,
+    "title": "Reading Custom Reports",
+    "category_name": "Platform",
+    "folder_name": "Reporting",
+    "path": "/freshservice/platform/reporting/reading-custom-reports.mdx",
+    "complexity_category": "complex",
+    "complexity_details": {
+      "length": 14082,
+      "images": 6,
+      "tables": 0,
+      "links": 0,
+      "lists": 2,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part2.csv"
+  },
+  {
+    "id": 50000003614,
+    "title": "Sample usecase - Restart Windows Machine Remotely using Powershell",
+    "category_name": "Orchestration + SaaS Management Apps",
+    "folder_name": "Powershell",
+    "path": "/freshservice/orchestration--saas-management-apps/powershell/sample-usecase---restart-windows-machine-remotely-using-powershell.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 2367,
+      "images": 1,
+      "tables": 0,
+      "links": 0,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part5.csv"
+  },
+  {
+    "id": 50000003613,
+    "title": "Sample Usecase - Install Python on a Remote System",
+    "category_name": "Orchestration + SaaS Management Apps",
+    "folder_name": "Powershell",
+    "path": "/freshservice/orchestration--saas-management-apps/powershell/sample-usecase---install-python-on-a-remote-system.mdx",
+    "complexity_category": "medium",
+    "complexity_details": {
+      "length": 6949,
+      "images": 1,
+      "tables": 0,
+      "links": 2,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part5.csv"
+  },
+  {
+    "id": 50000003337,
+    "title": "Installation Guide for Box App (Orchestration + SaaS)",
+    "category_name": "Orchestration + SaaS Management Apps",
+    "folder_name": "Box",
+    "path": "/freshservice/orchestration--saas-management-apps/box/installation-guide-for-box-app-orchestration--saas.mdx",
+    "complexity_category": "complex",
+    "complexity_details": {
+      "length": 56302,
+      "images": 5,
+      "tables": 0,
+      "links": 5,
+      "lists": 15,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part5.csv"
+  },
+  {
+    "id": 196934,
+    "title": "Adding Depreciation to assets in Freshservice",
+    "category_name": "Support Guide: IT Asset Management",
+    "folder_name": "Get started with Assets",
+    "path": "/freshservice/support-guide-it-asset-management/get-started-with-assets/adding-depreciation-to-assets-in-freshservice.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 2861,
+      "images": 1,
+      "tables": 0,
+      "links": 0,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part2.csv"
+  },
+  {
+    "id": 164415,
+    "title": "Assigning assets to different users and departments",
+    "category_name": "Support Guide: IT Asset Management",
+    "folder_name": "Get started with Assets",
+    "path": "/freshservice/support-guide-it-asset-management/get-started-with-assets/assigning-assets-to-different-users-and-departments.mdx",
+    "complexity_category": "medium",
+    "complexity_details": {
+      "length": 6202,
+      "images": 3,
+      "tables": 0,
+      "links": 1,
+      "lists": 1,
+      "headers": 1
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part2.csv"
+  },
+  {
+    "id": 223850,
+    "title": "Asset Filters and Views",
+    "category_name": "Support Guide: IT Asset Management",
+    "folder_name": "Get started with Assets",
+    "path": "/freshservice/support-guide-it-asset-management/get-started-with-assets/asset-filters-and-views.mdx",
+    "complexity_category": "complex",
+    "complexity_details": {
+      "length": 56352,
+      "images": 10,
+      "tables": 0,
+      "links": 6,
+      "lists": 5,
+      "headers": 7
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part2.csv"
+  },
+  {
+    "id": 50000009771,
+    "title": "Enhanced Fair-Use Policy for On-Call Management",
+    "category_name": "IT Operations Management",
+    "folder_name": "On-Call Management",
+    "path": "/freshservice/it-operations-management/on-call-management/enhanced-fair-use-policy-for-on-call-management.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 3391,
+      "images": 0,
+      "tables": 0,
+      "links": 0,
+      "lists": 0,
+      "headers": 2
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part5.csv"
+  },
+  {
+    "id": 50000006184,
+    "title": "Making bulk updates to services",
+    "category_name": "IT Operations Management",
+    "folder_name": "Service Health Monitoring",
+    "path": "/freshservice/it-operations-management/service-health-monitoring/making-bulk-updates-to-services.mdx",
+    "complexity_category": "medium",
+    "complexity_details": {
+      "length": 3220,
+      "images": 1,
+      "tables": 0,
+      "links": 1,
+      "lists": 1,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part5.csv"
+  },
+  {
+    "id": 50000003458,
+    "title": "Integrate Google Cloud Monitoring with Freshservice Alert Management",
+    "category_name": "IT Operations Management",
+    "folder_name": "Monitoring Tools Integration",
+    "path": "/freshservice/it-operations-management/monitoring-tools-integration/integrate-google-cloud-monitoring-with-freshservice-alert-management.mdx",
+    "complexity_category": "complex",
+    "complexity_details": {
+      "length": 25520,
+      "images": 8,
+      "tables": 0,
+      "links": 1,
+      "lists": 3,
+      "headers": 5
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part5.csv"
+  },
+  {
+    "id": 50000010255,
+    "title": "Freshservice integration with Workable",
+    "category_name": "How to Setup Apps and Integrations",
+    "folder_name": "Connector Apps",
+    "path": "/freshservice/how-to-setup-apps-and-integrations/connector-apps/freshservice-integration-with-workable.mdx",
+    "complexity_category": "complex",
+    "complexity_details": {
+      "length": 65850,
+      "images": 9,
+      "tables": 1,
+      "links": 1,
+      "lists": 7,
+      "headers": 14
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part3.csv"
+  },
+  {
+    "id": 190604,
+    "title": "Freshservice integration with Freshbooks",
+    "category_name": "How to Setup Apps and Integrations",
+    "folder_name": "Extending Freshservice with Integrations",
+    "path": "/freshservice/how-to-setup-apps-and-integrations/extending-freshservice-with-integrations/freshservice-integration-with-freshbooks.mdx",
+    "complexity_category": "medium",
+    "complexity_details": {
+      "length": 1999,
+      "images": 3,
+      "tables": 0,
+      "links": 0,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part2.csv"
+  },
+  {
+    "id": 238117,
+    "title": "Add a Phone Channel to Your Service Desk with the Freshcaller Integration",
+    "category_name": "How to Setup Apps and Integrations",
+    "folder_name": "Extending Freshservice with Integrations",
+    "path": "/freshservice/how-to-setup-apps-and-integrations/extending-freshservice-with-integrations/add-a-phone-channel-to-your-service-desk-with-the-freshcaller-integration.mdx",
+    "complexity_category": "complex",
+    "complexity_details": {
+      "length": 8731,
+      "images": 5,
+      "tables": 0,
+      "links": 1,
+      "lists": 8,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part3.csv"
+  },
+  {
+    "id": 50000005659,
+    "title": "Restricted workspaces",
+    "category_name": "Enterprise Service Management",
+    "folder_name": "Workspaces",
+    "path": "/freshservice/enterprise-service-management/workspaces/restricted-workspaces.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 2715,
+      "images": 1,
+      "tables": 0,
+      "links": 0,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part2.csv"
+  },
+  {
+    "id": 50000005580,
+    "title": "Scope/Access levels for accounts with one Workspace",
+    "category_name": "Enterprise Service Management",
+    "folder_name": "Workspaces",
+    "path": "/freshservice/enterprise-service-management/workspaces/scopeaccess-levels-for-accounts-with-one-workspace.mdx",
+    "complexity_category": "medium",
+    "complexity_details": {
+      "length": 5085,
+      "images": 0,
+      "tables": 0,
+      "links": 2,
+      "lists": 1,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part2.csv"
+  },
+  {
+    "id": 50000003691,
+    "title": "Setting up autopilot for software projects",
+    "category_name": "Project & Workload Management",
+    "folder_name": "New Gen Project Management",
+    "path": "/freshservice/project--workload-management/new-gen-project-management/setting-up-autopilot-for-software-projects.mdx",
+    "complexity_category": "complex",
+    "complexity_details": {
+      "length": 3895,
+      "images": 4,
+      "tables": 0,
+      "links": 7,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part5.csv"
+  },
+  {
+    "id": 50000009487,
+    "title": "Agile Metrics in Project Tasks",
+    "category_name": "Project & Workload Management",
+    "folder_name": "New Gen Project Management",
+    "path": "/freshservice/project--workload-management/new-gen-project-management/agile-metrics-in-project-tasks.mdx",
+    "complexity_category": "medium",
+    "complexity_details": {
+      "length": 8556,
+      "images": 1,
+      "tables": 1,
+      "links": 0,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part5.csv"
+  },
+  {
+    "id": 234460,
+    "title": "Analyzing Impact Using Relationship Maps",
+    "category_name": "User Guide - Agent",
+    "folder_name": "Assets",
+    "path": "/freshservice/user-guide---agent/assets/analyzing-impact-using-relationship-maps.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 1576,
+      "images": 1,
+      "tables": 0,
+      "links": 0,
+      "lists": 1,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part5.csv"
+  },
+  {
+    "id": 207703,
+    "title": "Freshservice to discontinue support of SSLv3, switch to TLS",
+    "category_name": "Security and Policies",
+    "folder_name": "Network Security in Freshservice",
+    "path": "/freshservice/security-and-policies/network-security-in-freshservice/freshservice-to-discontinue-support-of-sslv3-switch-to-tls.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 2604,
+      "images": 0,
+      "tables": 0,
+      "links": 1,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part3.csv"
+  },
+  {
+    "id": 50000000206,
+    "title": "Freshworks Privacy - Update",
+    "category_name": "Policies and Data Protection",
+    "folder_name": "Policies",
+    "path": "/freshservice/policies-and-data-protection/policies/freshworks-privacy---update.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 2698,
+      "images": 0,
+      "tables": 0,
+      "links": 2,
+      "lists": 1,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part1.csv"
+  },
+  {
+    "id": 50000003968,
+    "title": "How to uninstall Freshplugs after configuring the modern alternative in your account?",
+    "category_name": "Freshservice L2",
+    "folder_name": "Modern alternatives for Freshplugs",
+    "path": "/freshservice/freshservice-l2/modern-alternatives-for-freshplugs/how-to-uninstall-freshplugs-after-configuring-the-modern-alternative-in-your-account.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 881,
+      "images": 2,
+      "tables": 0,
+      "links": 0,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part5.csv"
+  },
+  {
+    "id": 233760,
+    "title": "Solutions (Knowledge Base)",
+    "category_name": "User Guide - Admin",
+    "folder_name": "Solutions",
+    "path": "/freshservice/user-guide---admin/solutions/solutions-knowledge-base.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 1973,
+      "images": 0,
+      "tables": 0,
+      "links": 0,
+      "lists": 0,
+      "headers": 1
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part4.csv"
+  },
+  {
+    "id": 234485,
+    "title": "Announcements",
+    "category_name": "End User Guide",
+    "folder_name": "End user guide - overview",
+    "path": "/freshservice/end-user-guide/end-user-guide---overview/announcements.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 682,
+      "images": 1,
+      "tables": 0,
+      "links": 0,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part5.csv"
+  },
+  {
+    "id": 50000010279,
+    "title": "Introducing the Freshservice Support SDK",
+    "category_name": "Freshservice Mobile",
+    "folder_name": "Freshservice Support SDK for iOS and Android apps",
+    "path": "/freshservice/freshservice-mobile/freshservice-support-sdk-for-ios-and-android-apps/introducing-the-freshservice-support-sdk.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 1454,
+      "images": 0,
+      "tables": 0,
+      "links": 2,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part5.csv"
+  },
+  {
+    "id": 206585,
+    "title": "How to switch your Freshservice Service Desk to MSP (and back)",
+    "category_name": "Managed Service Provider",
+    "folder_name": "Freshservice for MSPs",
+    "path": "/freshservice/managed-service-provider/freshservice-for-msps/how-to-switch-your-freshservice-service-desk-to-msp-and-back.mdx",
+    "complexity_category": "complex",
+    "complexity_details": {
+      "length": 9632,
+      "images": 2,
+      "tables": 0,
+      "links": 1,
+      "lists": 2,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part3.csv"
+  },
+  {
+    "id": 50000005529,
+    "title": "How to get in touch with Support via Chat?",
+    "category_name": "Contact Support",
+    "folder_name": "Chat Support",
+    "path": "/freshservice/contact-support/chat-support/how-to-get-in-touch-with-support-via-chat.mdx",
+    "complexity_category": "medium",
+    "complexity_details": {
+      "length": 4767,
+      "images": 1,
+      "tables": 0,
+      "links": 0,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part5.csv"
+  },
+  {
+    "id": 50000005575,
+    "title": "Quick Start Guide Links",
+    "category_name": "Quick Start Guides",
+    "folder_name": "Quick Start Guide PDF Links",
+    "path": "/freshservice/quick-start-guides/quick-start-guide-pdf-links/quick-start-guide-links.mdx",
+    "complexity_category": "simple",
+    "complexity_details": {
+      "length": 1654,
+      "images": 0,
+      "tables": 0,
+      "links": 4,
+      "lists": 0,
+      "headers": 0
+    },
+    "source_file": "raw_data/merged_articles_links_replaced_freshservice_part5.csv"
+  }
+]

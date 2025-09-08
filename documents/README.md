@@ -4,30 +4,52 @@
 
 ## 📖 문서 읽기 순서 (신규 작업자용)
 
-### 1️⃣ 필수 읽기 (프로젝트 이해)
+### 1️⃣ 필수 읽기 (v2.0 프로세스 이해)
 ```
-1. project-status.md                    - 현재 프로젝트 전체 현황
-2. work-guidelines.md                   - 작업 지침 및 규칙  
-3. ../.github/instructions/workspace-organization.md - 워크스페이스 조직화 규칙
-4. freshservice-masterplan.md          - Freshservice 프로젝트 마스터플랜
+1. project-status.md                    - v2.0 프로세스 적용 현황
+2. work-guidelines.md                   - 확립된 작업 지침 및 품질 기준  
+3. csv-conversion-guide.md              - 복잡도 기반 변환 가이드
+4. freshservice-masterplan.md          - 전체 마스터플랜
 ```
 
 ### 2️⃣ 상황별 참조
 ```
-- csv-conversion-guide.md     - CSV 변환 작업 가이드
 - mdx-troubleshooting.md      - MDX 오류 해결 가이드
+- work-guidelines.md          - v2.0 표준 프로세스 상세 가이드
+```
+
+## 🆕 **v2.0 프로세스 핵심 사항** (2025.09.08 확립)
+
+### 🎯 **복잡도 기반 차별화 처리**
+```
+📊 자동 분석: SIMPLE(16.3%) → LOW(7.8%) → MEDIUM(15.7%) → HIGH(60.1%)
+🎯 맞춤 처리: 자동화 → 검토 → 반자동 → 수동작업
+⚡ 효율성: 376개 문서를 빠른 자동화로 처리
+```
+
+### 📋 **카테고리별 순차 작업**
+```
+1. 한 카테고리 완전 완료 후 다음 카테고리
+2. 폴더 구조 정확히 맞춤
+3. 복잡도 순서 준수 (SIMPLE → HIGH)
+4. 혼재 작업 절대 금지
+```
+
+### 📄 **확립된 표준 템플릿**
+```
+FAQ: 아코디언 형태 + 한국어 Q&A
+일반문서: 표준 MDX + 단계별 가이드
+품질검사: 개별 → 폴더 → 카테고리 단위
 ```
 
 ## 🗂️ 문서 분류 체계
 
 ### 📊 **프로젝트 현황** (Status)
-- `project-status.md` - 전체 프로젝트 현황 및 진행률
-- `completed-work.md` - 완료된 작업 목록
+- `project-status.md` - v2.0 프로세스 적용 현황 및 복잡도 분석 결과
 
 ### 📋 **작업 지침** (Guidelines)  
-- `work-guidelines.md` - 작업 규칙 및 표준
-- `csv-conversion-guide.md` - CSV → Markdown 변환 가이드
-- `folder-structure-guide.md` - 파일/폴더 구조 가이드
+- `work-guidelines.md` - v2.0 확립된 작업 표준 및 품질 관리
+- `csv-conversion-guide.md` - 복잡도 기반 변환 방법론
 
 ### 🚨 **문제 해결** (Troubleshooting)
 - `mdx-troubleshooting.md` - MDX 오류 해결 방법

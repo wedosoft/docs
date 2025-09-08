@@ -17,6 +17,58 @@ applyTo: 'all-products'
 - **모든 기능**: 사용자 관리, 자동화, 설정, 워크플로 등
 - **모든 작업**: 한국어 번역, 리라이팅, 신규 문서 작성
 
+## 📁 필수 디렉토리 구조
+
+모든 문서는 다음 5단계 구조를 **반드시** 따라야 합니다:
+
+```
+docs/{vendor}/{product}/{category}/{folder}/{article}
+```
+
+### 구조 설명 및 예시
+
+```
+docs/
+└── freshworks/              # 1. vendor (벤더명)
+    └── freshservice/         # 2. product (제품명)
+        ├── freshservice-faqs/           # 3. category (CSV의 category_name)
+        │   └── automations-and-triggers/    # 4. folder (CSV의 folder_name)
+        │       └── scenario-automations-email-attachment.md  # 5. article
+        └── apps-and-integrations/       # 3. category 
+            └── extending-freshservice-integrations/  # 4. folder
+                └── native-integrations-blossom.md    # 5. article
+```
+
+### 구조 규칙
+
+1. **vendor**: `freshworks` (고정)
+2. **product**: `freshservice`, `freshdesk` 등
+3. **category**: CSV의 `category_name`을 간단한 slug로 변환
+4. **folder**: CSV의 `folder_name`을 간단한 slug로 변환  
+5. **article**: 개별 문서 파일명 (slug 규칙 적용)
+
+### 카테고리/폴더 간소화 규칙
+
+**카테고리 변환 예시**:
+```
+"Freshservice FAQs" → "faqs"
+"How to Setup Apps and Integrations" → "apps"
+"Support Guide: IT Service Management" → "it-service-mgmt"
+"Getting started with Freshservice" → "getting-started"
+```
+
+**폴더 변환 예시**:
+```
+"Automations and Triggers" → "automations"
+"Extending Freshservice with Integrations" → "integrations"
+"Asset Management" → "assets"
+"Service Catalog" → "catalog"
+```
+
+:::warning 구조 준수 필수
+이 5단계 구조를 벗어나면 사이드바 네비게이션과 URL 구조가 깨집니다. 반드시 준수하세요.
+:::
+
 ## 📝 표준 템플릿
 
 ### 기본 구조
@@ -118,6 +170,41 @@ sidebar_position: 숫자  # 필수: 사이드바 순서
 - **H1 형식**: 명사형 선호 (예: `설정 방법` ❌ → `자동 분류 설정` ✅)
 - **간결함**: 3-6단어로 핵심만 표현
 - **일관성**: 동일한 제품군 내에서 제목 패턴 통일
+
+### 파일 및 폴더 Slug 규칙
+
+#### 카테고리/폴더명 Slug
+- **원칙**: 핵심 키워드만 추출, 3-4개 단어 이내
+- **형식**: 소문자 + 하이픈 연결
+```
+"Freshservice FAQs" → "freshservice-faqs"
+"How to Setup Apps and Integrations" → "apps-and-integrations"
+"Automations and Triggers" → "automations-and-triggers"
+"Asset Management" → "asset-management"
+```
+
+#### 문서 파일명 Slug  
+- **원칙**: 기능 중심, 질문형 → 기능 설명형 변환
+- **길이**: 3-5개 핵심 키워드만 사용
+- **형식**: 소문자 + 하이픈 + .md 확장자
+
+**예시 변환**:
+```
+원본: "If I choose Send Email to... or Add Note using Scenario Automations, would I have the option to add an attachment?"
+→ "scenario-automations-email-attachment.md"
+
+원본: "How do I automatically close any resolved ticket after 48 hours?"
+→ "auto-close-resolved-tickets-48hours.md"
+
+원본: "Are automations case sensitive when we use the Subject/Description contains?"
+→ "automations-case-sensitive-subject-description.md"
+```
+
+**Slug 생성 가이드라인**:
+1. 불필요한 단어 제거 (I, do, the, any, when, we, use 등)
+2. 핵심 기능/개념 키워드 추출
+3. 숫자는 유지 (48hours, 365days 등)
+4. 약어 사용 가능 (auto, config, mgmt 등)
 
 ### Callout 박스 활용
 

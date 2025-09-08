@@ -112,26 +112,26 @@ const sidebars: SidebarsConfig = {
             },
             {
               type: 'category',
-              label: '🎫 IT 서비스 관리',
+              label: '❓ FAQ',
               collapsed: true,
               items: [
-                'freshworks/freshservice/it-service-management/saas-workflows',
+                {
+                  type: 'category',
+                  label: '🤖 자동화 및 트리거',
+                  collapsed: true,
+                  items: [
+                    'freshworks/freshservice/faqs/automations/index',
+                  ],
+                },
               ],
             },
             {
               type: 'category',
-              label: '🏢 워크스페이스 관리',
+              label: '� 앱 & 통합',
               collapsed: true,
               items: [
-                'freshworks/freshservice/workspace-management/workspace-views',
-              ],
-            },
-            {
-              type: 'category',
-              label: '🔐 보안 & 정책',
-              collapsed: true,
-              items: [
-                'freshworks/freshservice/security-and-policies/spam-and-trash',
+                'freshworks/freshservice/apps-and-integrations/extending-freshservice-with-integrations/freshchat-app-id-token',
+                'freshworks/freshservice/apps-and-integrations/extending-freshservice-with-integrations/native-integrations-blossom',
               ],
             },
           ],

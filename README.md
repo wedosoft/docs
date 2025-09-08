@@ -2,15 +2,16 @@
 
 This webs# 📚 Freshservice 문서 포털
 
-> **목적**: CSV 데이터를 기반으로 Freshservice 기술문서를 Docusaurus 기반 웹사이트로 자동 변환
+> **목적**: CSV 데이터를 기반으로 Freshservice 기술문서를 Docusaurus 기반 웹사이트로 **수작업 변환** (품질 우선)
 
 이 웹사이트는 [Docusaurus](https://docusaurus.io/)를 사용하여 구축된 현대적인 정적 웹사이트입니다.
 
-## 🎯 프로젝트 개요
+## 🎯 프로젝트 현황 (2025.9.8 기준)
 
-- **총 문서 수**: 1,557개 (CSV 데이터 기준)
-- **현재 상태**: 1단계 완료 (74개 문서 v3.0 템플릿 적용)
-- **다음 단계**: CSV → Markdown 자동 변환 시스템 구축
+- **총 문서 수**: 1,557개 (CSV 데이터 확인됨)
+- **현재 완료**: **56개 문서** (3.6%) ✅
+- **작업 방식**: **수작업 변환** (품질 우선 접근법)
+- **다음 단계**: CSV 카테고리 분석 → 다음 50개 문서 변환
 
 ## 🚀 빠른 시작
 
@@ -55,44 +56,68 @@ npm run build
 
 ## 👋 신규 작업자 가이드
 
-### 1️⃣ 필수 읽기 순서
-```
-1. documents/README.md           - 전체 가이드 
-2. documents/project-status.md   - 현재 진행 현황
-3. documents/work-guidelines.md  - 작업 규칙
+### 🚀 **즉시 시작하기**
+```bash
+# 1. 프로젝트 현황 파악
+cat documents/project-status.md
+
+# 2. CSV 데이터 분석 (다음 작업 결정용)
+python3 scripts/analyze_csv_categories.py
+
+# 3. 기존 완성된 문서 품질 기준 확인
+ls docs/freshworks/freshservice/getting-started/
 ```
 
-### 2️⃣ 상황별 참조
+### 📖 **필수 읽기 순서**
 ```
-- documents/freshservice-masterplan.md - 전체 계획
-- documents/csv-conversion-guide.md    - 2단계 작업 가이드  
-- documents/mdx-troubleshooting.md     - 문제해결
+1. documents/project-status.md       - 실시간 프로젝트 현황 ⭐
+2. documents/work-guidelines.md      - 작업 규칙 및 표준
+3. documents/README.md               - 문서 폴더 가이드
+4. .github/instructions/             - 마크다운 작성 지침
 ```
+
+### 📊 **현재 완성된 고품질 문서** (56개)
+```
+docs/freshworks/freshservice/getting-started/
+├── form-fields-and-form-templates/  (16개) ✅
+├── user-management/                 (20개) ✅  
+├── setting-up-freshservice/         (9개) ✅
+└── self-service-portal-introduction/ (5개) ✅
+```
+**이 문서들을 품질 기준으로 활용하세요!**
 
 ## 🔧 주요 도구 및 스크립트
 
-### MDX 호환성 자동 처리
+### 📊 **CSV 데이터 분석**
 ```bash
-# 전체 폴더 처리
-python3 scripts/mdx_fixer.py docs/freshworks/freshservice/
+# 카테고리별 문서 분포 분석 (다음 작업 계획용)
+python3 scripts/analyze_csv_categories.py
 
-# 특정 폴더 처리  
-python3 scripts/mdx_fixer.py docs/freshworks/freshservice/user-management/
-
-# 단일 파일 처리
-python3 scripts/mdx_fixer.py docs/path/to/file.md
+# 결과: 카테고리별 문서 수, 복잡도, 우선순위 추천
 ```
 
-### 개발 및 테스트
+### 🛠️ **수작업 지원 도구**
 ```bash
-# 개발 서버 시작
+# MDX 호환성 자동 처리 (완성된 문서에 적용)
+python3 scripts/mdx_fixer.py docs/freshworks/freshservice/
+
+# 개발 서버 (실시간 미리보기)
 npm start
 
-# 빌드 테스트
+# 빌드 테스트 (품질 검증)
 npm run build
+```
 
-# MDX 호환성 검사
-python3 scripts/mdx_fixer.py docs/
+### 📋 **작업 체크리스트**
+```
+□ CSV에서 문서 선택
+□ HTML → Markdown 기본 변환
+□ 한국어 실무 중심 리라이팅  
+□ v3.0 템플릿 적용 (sidebar_position)
+□ 이미지 alt 텍스트 한국어화
+□ 콜아웃 및 구조 최적화
+□ MDX 호환성 확인
+□ 빌드 테스트 통과
 ```ilt using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ## 🚀 Quick Start
