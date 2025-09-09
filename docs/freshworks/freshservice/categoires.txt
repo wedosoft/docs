@@ -1,0 +1,276 @@
+➜  docs git:(main) ✗ source venv/bin/activate && python /Use
+rs/alan/GitHub/docs/scripts/extract_complete_categories.py a
+sset-management
+
+처리 중: merged_articles_links_replaced_freshservice_part1.csv
+
+처리 중: merged_articles_links_replaced_freshservice_part2.csv
+
+처리 중: merged_articles_links_replaced_freshservice_part3.csv
+
+처리 중: merged_articles_links_replaced_freshservice_part4.csv
+
+처리 중: merged_articles_links_replaced_freshservice_part5.csv
+
+=== 처리 결과 ===
+총 행 수: 1557
+처리된 행 수: 1557
+총 카테고리 수: 20
+총 폴더 수: 180
+
+=== 모든 카테고리 목록 ===
+ 1. Contact Support
+ 2. End User Guide
+ 3. Enterprise Service Management
+ 4. Freshservice FAQs
+ 5. Freshservice L2
+ 6. Freshservice Mobile
+ 7. Getting started with Freshservice
+ 8. How to Setup Apps and Integrations
+ 9. IT Operations Management
+10. Managed Service Provider
+11. Orchestration + SaaS Management Apps
+12. Platform
+13. Policies and Data Protection
+14. Project & Workload Management
+15. Quick Start Guides
+16. Security and Policies
+17. Support Guide: IT Asset Management
+18. Support Guide: IT Service Management
+19. User Guide - Admin
+20. User Guide - Agent
+
+=== 카테고리별 폴더 구조 ===
+
+📁 Contact Support (1개 폴더)
+  └── Chat Support
+
+📁 End User Guide (1개 폴더)
+  └── End user guide - overview
+
+📁 Enterprise Service Management (7개 폴더)
+  └── Access controls
+  └── Business Agent License
+  └── Document Management
+  └── Document Management - Use case library
+  └── Employee Onboarding and Offboarding
+  └── Service Desk Efficiency
+  └── Workspaces
+
+📁 Freshservice FAQs (28개 폴더)
+  └── API & Webhooks
+  └── Affliate Marketing
+  └── Agents and Groups
+  └── Analytics FAQs
+  └── Announcements
+  └── Asset Management
+  └── Automations and Triggers
+  └── Business Hours and SLAs
+  └── Changes
+  └── Email
+  └── Email Notifications
+  └── Feedback Widget
+  └── Gamification and Arcade
+  └── Incidents & Service Request
+  └── New-Gen Project Mgmt
+  └── Orchestration
+  └── Pricing FAQ
+  └── Priority Matrix
+  └── Problem
+  └── Release
+  └── Reports
+  └── SSO
+  └── Sandbox
+  └── Service Catalog
+  └── Service Desk FAQ
+  └── Tasks
+  └── Ticketing Workflow
+  └── Workspaces
+
+📁 Freshservice L2 (1개 폴더)
+  └── Modern alternatives for Freshplugs
+
+📁 Freshservice Mobile (3개 폴더)
+  └── App Configurations
+  └── Freshservice Support SDK for iOS and Android apps
+  └── Freshservice for Intune
+
+📁 Getting started with Freshservice (14개 폴더)
+  └── Critical product announcements
+  └── Dark Mode
+  └── Email Notifications
+  └── Form fields and Form templates
+  └── FreshThemes
+  └── Freshworks Email Service Migration
+  └── How Search Works
+  └── Managing Notifications
+  └── New Sandbox
+  └── No code portal
+  └── Setting up Freshservice
+  └── Single Sign On and Remote Authentication
+  └── Support Guide: Introduction to Self Service Portal
+  └── User Management
+
+📁 How to Setup Apps and Integrations (3개 폴더)
+  └── Connector Apps
+  └── DevOps Integrations
+  └── Extending Freshservice with Integrations
+
+📁 IT Operations Management (8개 폴더)
+  └── Alert Management
+  └── Major Incident Management
+  └── Monitoring Tools Integration
+  └── On-Call Management
+  └── Orchestration Centre
+  └── Orchestration Server
+  └── Service Health Monitoring
+  └── Status Page
+
+📁 Managed Service Provider (1개 폴더)
+  └── Freshservice for MSPs
+
+📁 Orchestration + SaaS Management Apps (48개 폴더)
+  └── AWS CloudFormation
+  └── AWS Lambda
+  └── AWS S3
+  └── Adobe Sign
+  └── Amazon EC2
+  └── Asana
+  └── Azure AD
+  └── Azure Blob Storage
+  └── Azure DevOps
+  └── BitBucket
+  └── Box
+  └── Docusign
+  └── Dropbox
+  └── Dropbox Orchestration App
+  └── Freshcaller
+  └── Freshdesk
+  └── GCP Functions
+  └── GSuite
+  └── GitHub
+  └── GitLab
+  └── Google Calendar
+  └── Google Chat
+  └── Google Cloud Platform
+  └── Google Cloud Storage
+  └── Google Drive
+  └── Google Sheets
+  └── Jenkins
+  └── Jira
+  └── JumpCloud
+  └── Microsoft 365
+  └── Microsoft Azure Cloud
+  └── Microsoft Exchange
+  └── Microsoft On-Premise Active Directory
+  └── Microsoft Onedrive
+  └── Microsoft Teams
+  └── Okta
+  └── OneLogin
+  └── Pagerduty
+  └── Powershell
+  └── SSH
+  └── Salesforce
+  └── Slack
+  └── Smartsheet
+  └── Trello
+  └── Twilio
+  └── Webex Teams
+  └── Workplace
+  └── Zoom
+
+📁 Platform (8개 폴더)
+  └── API V1 Deprecation
+  └── Analytics
+  └── Credential Store
+  └── Custom Objects
+  └── Freshworks Organization
+  └── Managing Freshservice Subscription
+  └── Reporting
+  └── Workflow Automator
+
+📁 Policies and Data Protection (5개 폴더)
+  └── Freshworks Neo Admin
+  └── HIPAA Compliance
+  └── Policies
+  └── Remote Authentication and Single Sign On
+  └── Security
+
+📁 Project & Workload Management (2개 폴더)
+  └── New Gen Project Management
+  └── Workload Management
+
+📁 Quick Start Guides (1개 폴더)
+  └── Quick Start Guide PDF Links
+
+📁 Security and Policies (7개 폴더)
+  └── Email Security
+  └── Freshworks Data Processing Addendum
+  └── GDPR - Freshservice
+  └── HIPAA Configuration guide
+  └── Helpdesk Security
+  └── Network Security in Freshservice
+  └── Policies
+
+📁 Support Guide: IT Asset Management (11개 폴더)
+  └── Contract Management
+  └── Discovery Agent
+  └── Discovery Probe
+  └── Freshservice Cloud Discovery
+  └── Get started with Asset Discovery
+  └── Get started with Assets
+  └── Managing Asset Relationships
+  └── Product Catalog
+  └── Purchase Order Management
+  └── SaaS management
+  └── Software Asset Management
+
+📁 Support Guide: IT Service Management (25개 폴더)
+  └── Approvals
+  └── Change Management
+  └── Collaborator
+  └── Dashboards
+  └── Freddy AI agent
+  └── Freddy Copilot
+  └── Freshservice Leaderboard
+  └── Getting Started with Tickets
+  └── How to use guides (Microsoft Teams)
+  └── How to use guides (Slack)
+  └── Incident management
+  └── Knowledge Base
+  └── Microsoft Teams
+  └── Observe
+  └── Prepare
+  └── Problem Management
+  └── Release Management
+  └── Return to Work
+  └── Service Catalog
+  └── Slack
+  └── Surveys
+  └── Task management
+  └── Ticket Actions
+  └── Ticket Automations
+  └── What's new
+
+📁 User Guide - Admin (10개 폴더)
+  └── Admin Settings
+  └── CMDB
+  └── Change Management
+  └── Getting Started
+  └── Incident Management
+  └── Problem Management
+  └── Release Management
+  └── Reports
+  └── Solutions
+  └── Troubleshooting Videos
+
+📁 User Guide - Agent (9개 폴더)
+  └── Assets
+  └── Changes
+  └── Contracts
+  └── Getting Started
+  └── Knowledge Base
+  └── Problems
+  └── Releases
+  └── Search
+  └── Support Guide: Introduction to Tickets

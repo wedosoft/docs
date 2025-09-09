@@ -1,0 +1,314 @@
+[
+  {
+    "title": "Can reports be scheduled to run on a timed schedule?",
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;\"><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Yes, reports can be scheduled to be run daily, weekly or monthly at the selected time. Once you're done creating a new report , save changes and click on 'schedule report' as shown in the below image to start scheduling the report</span><br><br><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50009549092/original/knZeP6xNyp-5aOfNC02wz-33ngeKIpIHuA.png?1695535754\" style=\"width: 516px;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"50009549092\"></span></p><p><br></p>",
+    "path": "/freshservice/freshservice-faqs/reports/can-reports-be-scheduled-to-run-on-a-timed-schedule.mdx",
+    "content_length": 815,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 209
+  },
+  {
+    "title": "How can scheduled reports be auto-emailed to recipients in say a PDF form?",
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Reports can be scheduled to be sent out to multiple people in PDF,CSV or XLS format by selecting the schedule option after saving a custom report created.</span></p><p><br></p><p dir=\"ltr\" style=\"line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><span style=\"border:none;display:inline-block;overflow:hidden;width:624px;height:497px;\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001069174/original/X3DPJPZBrJgSPXgRmWVYqtuoXUMD_1IXmg.png?1588851255\" width=\"624\" height=\"497\" class=\"fr-fic fr-dii\" data-attachment=\"[object Object]\" data-id=\"50001069174\"></span></span></p><p><br></p><p></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-can-scheduled-reports-be-auto-emailed-to-recipients-in-say-a-pdf-form.mdx",
+    "content_length": 904,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 210
+  },
+  {
+    "title": "Is it possible to create a report that shows sub-category & item?",
+    "description": "<p data-identifyelement=\"536\" dir=\"ltr\" style=\"line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;\"><span data-identifyelement=\"537\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Yes, you can go to Report-&gt;New Ticket Reports. Freshservice allows you to add ticket fields as additional columns to the report’s tabular data. You can select Category, subcategory and Items from the list of supported fields. But paragraph fields cannot be added into Reports.</span></p><p data-identifyelement=\"538\" dir=\"ltr\" style=\"line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50009292271/original/-KtxPCTf4cYTcrZYWwjzen7qKmTadLr2Jg.png?1693208822\" style=\"width: 402px;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"50009292271\"></p><p data-identifyelement=\"542\"><br data-identifyelement=\"543\"></p><p data-identifyelement=\"544\"><br data-identifyelement=\"545\"></p>",
+    "path": "/freshservice/freshservice-faqs/reports/is-it-possible-to-create-a-report-that-shows-sub-category--item.mdx",
+    "content_length": 1022,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 211
+  },
+  {
+    "title": "From which plan is scheduled reporting available?",
+    "description": "<p><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Scheduling the report option is available only for Pro and Enterprise plans.&nbsp;</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/from-which-plan-is-scheduled-reporting-available.mdx",
+    "content_length": 196,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 212
+  },
+  {
+    "title": "How to get a report with the exact time taken to resolve an incident?",
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">You can do that by navigating to Reports&gt;New report, selecting the filters ‘Ticket Type is Incident’ and ‘Resolution time in BHRS equals X’. </span></p><p><br></p><p dir=\"ltr\" style=\"line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><span style=\"border:none;display:inline-block;overflow:hidden;width:624px;height:231px;\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001069181/original/TKhtjnzX-vWzTArNLxOgZZfRnjKpx3bV7w.png?1588851329\" width=\"624\" height=\"231\" class=\"fr-fic fr-dii\" data-attachment=\"[object Object]\" data-id=\"50001069181\"></span></span></p><p><br></p><p><br></p><p></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-to-get-a-report-with-the-exact-time-taken-to-resolve-an-incident.mdx",
+    "content_length": 905,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 213
+  },
+  {
+    "title": "How to create a report with filter by Location?",
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt;\"><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">The requester location can be filtered out by creating a new custom report from Reports&gt;New reports&gt;drag and drop a 'Chart'&gt;Set metrics as 'Users' and selecting the filter requester location as required. Please refer the below image for setting up a report with filter by Location.</span><br><br><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008985086/original/fXOKpgdoiqrTkUYaSdrYX8NYrd7861qKuw.png?1690287860\" style=\"width: 282px;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"50008985086\"></span><br><br></p><p><br></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-to-create-a-report-with-filter-by-location.mdx",
+    "content_length": 864,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 214
+  },
+  {
+    "title": "How often do the reports get updated data?",
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt;\"><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><span dir=\"ltr\" style=\"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: medium; font-weight: 400; text-align: start; text-indent: 0px; display: inline !important;\">Any changes made in the Freshservice application, such as creating a new ticket or editing a field, will sync to the Analytics reports at regular intervals. <span dir=\"ltr\" style=\"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-size: medium; font-weight: 400; text-align: start; text-indent: 0px; display: inline !important;\">The sync usually completes in about 30 minutes but can occasionally take longer.</span></span></span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-often-do-the-reports-get-updated-data.mdx",
+    "content_length": 813,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 215
+  },
+  {
+    "title": "How is the Average First response time calculated in reports?",
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">The average first response time is calculated based on the time taken for the very first response to be sent by an Agent to a requester.</span><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><br></span><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Note: When you add a private note to a ticket since it is not visible to the requester,  it is not considered a first response.</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-is-the-average-first-response-time-calculated-in-reports.mdx",
+    "content_length": 622,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 216
+  },
+  {
+    "title": "How is the Average response time calculated in reports?",
+    "description": "<p><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Average response time is calculated as the average time taken by an agent to respond to a requester. This takes into consideration all agent-requester correspondence in the given period and not just the first response</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-is-the-average-response-time-calculated-in-reports.mdx",
+    "content_length": 321,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 217
+  },
+  {
+    "title": "How is the Average resolution time calculated in reports?",
+    "description": "<p data-identifyelement=\"416\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Average resolution time is the total time taken to resolve tickets during the selected time period divided by the number of tickets resolved in the selected time period.</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-is-the-average-resolution-time-calculated-in-reports.mdx",
+    "content_length": 300,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 218
+  },
+  {
+    "title": "How to generate a report on billable work done by an agent?",
+    "description": "<p><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">You can create a Time Sheet report for getting the billable work done by an agent. Navigate to Analytics -&gt; New Report -&gt; Drag and drop a chart -&gt; Enter 'Timesheet' in Metric and include 'Billable is true' , Agent name is 'agent_name' as shown in the below image. You change the agent name under edit, and you also have the option to group by company, date, agent, group, or name.</span><br><br><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008971425/original/YeOH8RRAUMkmrDJHqBGARQotmuQVfrbedw.png?1690198612\" style=\"width: 349px;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"50008971425\"></span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-to-generate-a-report-on-billable-work-done-by-an-agent.mdx",
+    "content_length": 887,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 219
+  },
+  {
+    "title": "How to get the ticket property fields data from a report?",
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;\"><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">You can construct report filters using default/custom ticket fields. Freshservice also allows you to add ticket fields as additional columns to the report’s tabular data. You can click on the 'gear icon' to add more fields by searching it in the column.</span></p><p><br></p><p dir=\"ltr\" style=\"line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><span style=\"border:none;display:inline-block;overflow:hidden;width:288px;height:494px;\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50009289018/original/DOciB5L0DKTeMeD-ZJKyty0DQ9JXjIZLjQ.png?1693156033\" style=\"width: 287px;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"50009289018\"></span></span></p><p><br></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-to-get-the-ticket-property-fields-data-from-a-report.mdx",
+    "content_length": 1010,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 220
+  },
+  {
+    "title": "How to get a report of overall trending in my service desk?",
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">You can use the default report,</span><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;\"> Service Desk At A Glance</span><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">. This report shows you a quick overview of the core metrics in your support and gives you a good idea of the overall trend in your ServiceDesk. </span></p><p><br></p><p></p><p data-identifyelement=\"575\"><span data-identifyelement=\"576\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"> </span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-to-get-a-report-of-overall-trending-in-my-service-desk.mdx",
+    "content_length": 752,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 221
+  },
+  {
+    "title": "How do I go about including the serial number of assets in the report?",
+    "description": "<p><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Create a new asset report. Since ‘Serial Number’ is only present for ‘Hardware’ assets, you must filter by <strong dir=\"ltr\">Root CI type as 'Hardware'’ and CI Type as 'Laptop'&nbsp;</strong>or any other CI type to get the serial number data.</span><br><br><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008971740/original/dp-HQGqigmO_s1cF73DNZqp0QMcbAxjv7A.png?1690199972\" style=\"width: 411px;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"50008971740\"></span><br><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><br></span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-do-i-go-about-including-the-serial-number-of-assets-in-the-report.mdx",
+    "content_length": 845,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 222
+  },
+  {
+    "title": "How to show all the assets that are not used by a user?",
+    "description": "<p><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Create a new Asset report and have “All Assets” selected under Asset type and then select the filter ‘Used by is none’.</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-to-show-all-the-assets-that-are-not-used-by-a-user.mdx",
+    "content_length": 223,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 223
+  },
+  {
+    "title": "How to export all of the customer satisfaction histories for an agent?",
+    "description": "<p data-identifyelement=\"524\" dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt;\"><span data-identifyelement=\"525\" dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">The 'Employee Satisfaction Report' in the curated reports has all the basic widgets that are required to get the satisfaction survey analysis. In addition to this, you could create a Custom Report to get the data on the basis of a Specific Agent.</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-to-export-all-of-the-customer-satisfaction-histories-for-an-agent.mdx",
+    "content_length": 471,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 224
+  },
+  {
+    "title": "How to select multiple groups when creating a custom report?",
+    "description": "<ol style=\"margin-bottom: 0px;\"><li dir=\"ltr\" style=\"list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">You can select the filter, groups “includes,” and have multiple groups set there.</span><br><br><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50009549121/original/5HeVBa9JL286DTg--p3RPygiQrKW4IShww.png?1695536572\" style=\"width: 221px;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"50009549121\"></span></p></li></ol><p><br></p><p><br></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-to-select-multiple-groups-when-creating-a-custom-report.mdx",
+    "content_length": 814,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 225
+  },
+  {
+    "title": "How to get a report of the softwares in the asset?",
+    "description": "<p><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Create a report by choosing ''Software'' as the metric and add the other filters according to your requirement and you can also make use of the ''group by'' filter there.</span><br><br><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008972379/original/zigC848tDGR9jIu8hVoG02EZYNhaM1mZQQ.png?1690202617\" style=\"width: 409px;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"50008972379\"></span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-to-get-a-report-of-the-softwares-in-the-asset.mdx",
+    "content_length": 668,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 226
+  },
+  {
+    "title": "How to get a report that shows the current state of the asset?",
+    "description": "<p><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Create a new asset report. Only Hardware and its child asset types have the ‘Asset state’ property. Therefore, filter by the appropriate asset type. ‘Asset state’ should now be available in the report filters. Use this to get the required data.</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-to-get-a-report-that-shows-the-current-state-of-the-asset.mdx",
+    "content_length": 348,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 227
+  },
+  {
+    "title": "How is the Number of Reopens calculated?",
+    "description": "<p><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">‘Number of Reopens’ is a metric that gives the total number of tickets that have been reopened from a closed or resolved status. (Ticket Status changed back from Resolved/Closed to Open). Create a New Report with a widget choosing ''Tickets'' as the metric and enter ''Reopen Count'' and choose the option according to your requirement.&nbsp;</span></p><p><br></p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008972434/original/DnPOEhz5z5hXtKh7J8JzXwGC9hkpzoiadA.png?1690202889\" style=\"width: 365px;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"50008972434\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><br></span><p></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-is-the-number-of-reopens-calculated.mdx",
+    "content_length": 844,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 228
+  },
+  {
+    "title": "How to pull reports of service requests that came in?",
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">You can use the report filter ‘Ticket type' is 'Service Request’ when creating a New report. </span></p><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><span style=\"border:none;display:inline-block;overflow:hidden;width:624px;height:132px;\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001069213/original/usNEhhdHWoVzAvOydCDfb70ILx0vK4wGBg.png?1588851556\" width=\"624\" height=\"132\" class=\"fr-fic fr-dii\" data-attachment=\"[object Object]\" data-id=\"50001069213\"></span></span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-to-pull-reports-of-service-requests-that-came-in.mdx",
+    "content_length": 776,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 229
+  },
+  {
+    "title": "What is the date range available for default and custom reports?",
+    "description": "<p><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">For default reports, it is from 2013-present. For custom reports it is from 2010-2023 </span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/what-is-the-date-range-available-for-default-and-custom-reports.mdx",
+    "content_length": 190,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 230
+  },
+  {
+    "title": "Why do I see the number of resolved tickets more than received in a report?",
+    "description": "<p><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">When a date range is selected, any ticket resolved in the date range will show up which is why sometimes, the count of resolved tickets appears to be more than received.</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/why-do-i-see-the-number-of-resolved-tickets-more-than-received-in-a-report.mdx",
+    "content_length": 273,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 231
+  },
+  {
+    "title": "What is the difference between Average Customer Interactions and Average Agent Interactions?",
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">The average number of interactions an agent requires to resolve the tickets is a measure of how well the agent knows the product or service, and how good he is at communicating that to the customer. </span><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">The average number of customer interactions for a particular customer’s tickets show whether the customer is a new user or a power user, or if she is a supportive/happy customer or a problematic/unhappy customer.</span></p><p dir=\"ltr\" style=\"line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;\"><br></p><p dir=\"ltr\" style=\"line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Tip - Ideally, you should have fewer agent and customer interactions on each ticket.</span></p><p><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><br></span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/what-is-the-difference-between-average-customer-interactions-and-average-agent-interactions.mdx",
+    "content_length": 1128,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 232
+  },
+  {
+    "title": "Does the response time in the ticket include weekends?",
+    "description": "<p><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">The report calculates the response time based on the Business hours of your servicedesk.</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/does-the-response-time-in-the-ticket-include-weekends.mdx",
+    "content_length": 192,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 233
+  },
+  {
+    "title": "What does the red and green arrow in the default reports signify and how is the percentile calculated?",
+    "description": "<p><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">The green and red arrows indicate the rise and fall of metrics in the current time range compared to the same duration in the past.</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/what-does-the-red-and-green-arrow-in-the-default-reports-signify-and-how-is-the-percentile-calculated.mdx",
+    "content_length": 235,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 234
+  },
+  {
+    "title": "How to find the first response status of a ticket for which there is no first response given?",
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">You can use the first response escalated filter under Reports&gt;New reports. </span></p><p><br></p><p dir=\"ltr\" style=\"line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><span style=\"border:none;display:inline-block;overflow:hidden;width:624px;height:153px;\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001069265/original/3TkheJFTsrO1LD7Q5sRsUArVJIQLCpg2Pg.png?1588851897\" width=\"624\" height=\"153\" class=\"fr-fic fr-dii\" data-attachment=\"[object Object]\" data-id=\"50001069265\"></span></span></p><p><br></p><p></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-to-find-the-first-response-status-of-a-ticket-for-which-there-is-no-first-response-given.mdx",
+    "content_length": 828,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 235
+  },
+  {
+    "title": "How to run report on Top 10 tickets with the oldest updates?",
+    "description": "<p><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Create a custom report with the appropriate filters selected to match your requirements. Add ‘Last Updated Time’ as a column in the report’s tabular data by using the ‘Add fields’ option.</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-to-run-report-on-top-10-tickets-with-the-oldest-updates.mdx",
+    "content_length": 291,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 236
+  },
+  {
+    "title": "Is it possible to filter a report by OS version?",
+    "description": "<p><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">We can populate a report based on the OS present in an asset of type Desktop/Laptop/Computer. Create a Custom Report with the asset type set to one of the above. OS should now be available as a report filter and you can use it to generate the required report.</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/is-it-possible-to-filter-a-report-by-os-version.mdx",
+    "content_length": 363,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 237
+  },
+  {
+    "title": "How are backlog tickets in the reports calculated?",
+    "description": "<p><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">This is a count of all the tickets in your service desk that are currently not in resolved/closed status. So setup a report by navigating to Analytics --&gt; New Report --&gt; Drag and drop a chart --&gt; Set the Date Range according to your requirement --&gt; Status does not include ''Closed and Resolved''. And you can group by Agent name or group name according to your requirement.&nbsp;</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-are-backlog-tickets-in-the-reports-calculated.mdx",
+    "content_length": 506,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 238
+  },
+  {
+    "title": "Who would have access to reports?",
+    "description": "<p><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Reports would be visible for all agents with the associated default agent role as Supervisor and above. Should your plan have custom agent roles, an agent who has been given the necessary privileges in the ‘Reports’ tab under ‘Roles-&gt;Permissions’ should have access. You can either set it up under 'Agent roles' and 'Admin roles'.</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/who-would-have-access-to-reports.mdx",
+    "content_length": 447,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 239
+  },
+  {
+    "title": "Why is there a difference between the ticket count taken in export and the report?",
+    "description": "<p><span dir=\"ltr\" style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">The export of the ticket count will include all the merged tickets, while the reports don’t include them. But incase there's a big difference between the widget from Reports or Dashboard and the export of tickets in your portal, please write to <a href=\"mailto:support@freshservice.com\">support@freshservice.com</a>&nbsp;.&nbsp;</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/why-is-there-a-difference-between-the-ticket-count-taken-in-export-and-the-report.mdx",
+    "content_length": 442,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 240
+  },
+  {
+    "title": "What tickets are taken into account for the count of Resolved Tickets in reports?",
+    "description": "<p><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">All the Resolved and Closed Tickets will be taken into account when calculating Resolved Tickets. </span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/what-tickets-are-taken-into-account-for-the-count-of-resolved-tickets-in-reports.mdx",
+    "content_length": 202,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 241
+  },
+  {
+    "title": "How do you calculate Resolution SLA%?",
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Resolution SLA% is the Number of tickets resolved within the SLA as a percentage of the total number of tickets resolved during the selected time period.</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-do-you-calculate-resolution-sla.mdx",
+    "content_length": 314,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 242
+  },
+  {
+    "title": "Are there any limitations in the drill-down option for the Reports?",
+    "description": "<p><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">A maximum of 4 additional filters(fields) can be applied in each report.</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/are-there-any-limitations-in-the-drill-down-option-for-the-reports.mdx",
+    "content_length": 176,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 243
+  },
+  {
+    "title": "Can report be generated for every custom fields created in an asset?",
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.38; text-align: justify; margin-bottom: 0pt;\"><span style=\"font-size: 16px; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Unfortunately, the custom fields cannot be reported in reports. </span><span style=\"font-size: 16px; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">But the same can be achieved in Analytics. First, you will have to select the asset type and the custom fields pertaining to those fields will be listed.</span></p><p dir=\"ltr\" style=\"line-height: 1.38; text-align: justify; margin-bottom: 0pt;\"><br></p><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><span style=\"border:none;display:inline-block;overflow:hidden;width:476px;height:375px;\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001069227/original/VxvW0x1d-iKzSsv_ZwKL4_l53tYjNLSF-g.png?1588851687\" width=\"476\" height=\"375\" class=\"fr-fic fr-dii\" data-attachment=\"[object Object]\" data-id=\"50001069227\"></span></span></p><p><br></p><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><span class=\"Apple-tab-span\">    </span></span></p><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><span class=\"Apple-tab-span\">    </span></span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/can-report-be-generated-for-every-custom-fields-created-in-an-asset.mdx",
+    "content_length": 1520,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 244
+  },
+  {
+    "title": "In reports, under tickets by source, how does the phone, portal and email is identified if I change the source manually on some tickets?",
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">Once you make the source change on some tickets this change will be reflected after the </span><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">report sync time. For example, If you have a ticket #1 and you have changed its source </span><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">from Email to portal then once the report sync time is crossed the ticket #1 will be under</span><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\"><span class=\"Apple-tab-span\"> </span></span><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;\">portal tickets count instead of Email.</span></p>",
+    "path": "/freshservice/freshservice-faqs/reports/in-reports-under-tickets-by-source-how-does-the-phone-portal-and-email-is-identified-if-i-change-the-source-manually-on-some-tickets.mdx",
+    "content_length": 889,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 245
+  },
+  {
+    "title": "How do you calculate FCR% in Analytic report?",
+    "description": "<p dir=\"ltr\">FCR% (First contact resolution %) is the percentage of tickets that were resolved after the initial contact was made by the customer. This means that the customer interaction must be 1 for resolved tickets, irrespective of the number of responses sent by the agent. The initial description of the ticket will not be considered as a customer's response.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><strong style=\"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);\">FCR% = % of Number of tickets resolved after the first contact made by the customer <em>divided by</em> the total number of tickets resolved in the selected time period.</strong></p>",
+    "path": "/freshservice/freshservice-faqs/reports/how-do-you-calculate-fcr-in-analytic-report.mdx",
+    "content_length": 649,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 246
+  },
+  {
+    "title": "Reports",
+    "description": "<h1 dir=\"ltr\">Reports</h1><p dir=\"ltr\"><br></p><p dir=\"ltr\">The Reports module in Freshservice contains a list of reports designed to give you insights on the efficiency of your service desk. The module contains 30+ reports split under three categories:&nbsp;</p><p><br></p><ul><li dir=\"ltr\"><p dir=\"ltr\">Incidents</p></li><li dir=\"ltr\"><p dir=\"ltr\">Changes</p></li><li dir=\"ltr\"><p dir=\"ltr\">Assets</p></li></ul><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50005204156/original/WxOSPKvMe0wkx1r6wSntGQdMIyLMDeMQ2w.png?1649417062\" style=\"width: auto;\" class=\"fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"50005204156\"></p><p dir=\"ltr\"></p><p><br></p><h3 dir=\"ltr\">Viewing a Report</h3><p dir=\"ltr\">When you click on a report, you will see all the necessary information in the form of a <strong>list, graph</strong>, or a <strong>chart</strong>.&nbsp;</p><p><br></p><p dir=\"ltr\">All reports are provided with the option to edit the date range for which you wish to see the data. In order to edit the time range,&nbsp;</p><p><br></p><ul><li dir=\"ltr\"><p dir=\"ltr\">Head to the <strong>Reports</strong> section and click on the report of your choice.&nbsp;</p></li><li dir=\"ltr\"><p dir=\"ltr\">Click on the <strong>Edit</strong> button. In some reports, you will see the option to choose the time period on the right side of the page.&nbsp;</p></li><li dir=\"ltr\"><p dir=\"ltr\">Choose the time frame for which you wish to see the data and click <strong>Done</strong>.&nbsp;</p></li></ul><p><br></p><ul><li dir=\"ltr\"><p dir=\"ltr\">You will then see the data for the chosen time range.&nbsp;</p></li><li dir=\"ltr\"><p dir=\"ltr\">If you wish to download the report in the form of PDF, click on <strong>Download as PDF</strong> button present on the top right corner.&nbsp;</p></li></ul><p dir=\"ltr\"><br></p><p><br></p><h3 dir=\"ltr\">Creating a new report</h3><p dir=\"ltr\"><br></p><p dir=\"ltr\">Apart from the reports listed by default, you can also create customized reports with parameters of your choice. To create a new report,&nbsp;</p><p><br></p><ul><li dir=\"ltr\"><p dir=\"ltr\">Head to the <strong>Reports</strong> section and click on <strong>New Report</strong> button present on the top right corner.&nbsp;</p></li><li dir=\"ltr\"><p dir=\"ltr\">Choose the module for which you wish to create report. In this case, you can choose between Ticket, Change and Asset.</p></li><li dir=\"ltr\"><p dir=\"ltr\">Provide a name and description for your report</p></li><li dir=\"ltr\"><p dir=\"ltr\">Choose the parameters for which you wish to run the report.&nbsp;</p></li><li dir=\"ltr\"><p dir=\"ltr\">Select other details such as the chart type and parameters you wish to display on the X-axis and the Y-axis</p></li><li dir=\"ltr\"><p dir=\"ltr\">Once done, click on <strong>Save &amp; Run Report</strong></p></li></ul><p><br></p><p dir=\"ltr\"></p><p><br></p><p><br></p><p><br></p>",
+    "path": "/freshservice/user-guide---admin/reports/reports.mdx",
+    "content_length": 2904,
+    "csv_file": "merged_articles_links_replaced_freshservice_part4.csv",
+    "row_index": 307
+  }
+]

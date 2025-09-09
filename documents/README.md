@@ -1,33 +1,34 @@
 # 📁 Documents 폴더 가이드
 
-> **목적**: 프로젝트 작업 문서와 가이드를 체계적으로 관리하는 폴더
+> **목적**: Freshservice FAQ 자동번역 프로젝트 문서 관리 폴더
 
 ## 📖 문서 읽기 순서 (신규 작업자용)
 
-### 1️⃣ 필수 읽기 (v2.0 프로세스 이해)
+### 1️⃣ 필수 읽기 (자동번역 시스템 이해)
 ```
-1. project-status.md                    - v2.0 프로세스 적용 현황
-2. work-guidelines.md                   - 확립된 작업 지침 및 품질 기준  
-3. csv-conversion-guide.md              - 복잡도 기반 변환 가이드
+1. project-status-v2.md                 - 자동번역 시스템 구축 현황
+2. work-guidelines.md                   - 번역 작업 지침 및 품질 기준  
+3. csv-conversion-guide.md              - 데이터 처리 가이드
 4. freshservice-masterplan.md          - 전체 마스터플랜
 ```
 
 ### 2️⃣ 상황별 참조
 ```
 - mdx-troubleshooting.md      - MDX 오류 해결 가이드
-- work-guidelines.md          - v2.0 표준 프로세스 상세 가이드
+- work-guidelines.md          - 번역 표준 프로세스 가이드
 ```
 
-## 🆕 **v2.0 프로세스 핵심 사항** (2025.09.08 확립)
+## 🆕 **자동번역 시스템 핵심** (2025.09.09 완성)
 
-### 🎯 **복잡도 기반 차별화 처리**
+### 🎯 **Google Translate API 기반 완전 자동화**
 ```
-📊 자동 분석: SIMPLE(16.3%) → LOW(7.8%) → MEDIUM(15.7%) → HIGH(60.1%)
-🎯 맞춤 처리: 자동화 → 검토 → 반자동 → 수동작업
-⚡ 효율성: 376개 문서를 빠른 자동화로 처리
+📊 문자 분석: 195만자 분석 완료 → 비용 산정: $19.50
+🤖 API 연동: Google Cloud Translation LLM 
+⚡ 처리 완료: 29개 FAQ 자동번역 (4개 카테고리)
+🔧 품질 관리: MDX 호환성 100% + 자동 오류 수정
 ```
 
-### 📋 **카테고리별 순차 작업**
+### 📋 **즉시 실행 가능한 상태**
 ```
 1. 한 카테고리 완전 완료 후 다음 카테고리
 2. 폴더 구조 정확히 맞춤

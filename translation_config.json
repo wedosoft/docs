@@ -1,0 +1,32 @@
+{
+  "translation": {
+    "api_provider": "google_translate",
+    "model": "nmt",
+    "preserve_formatting": true,
+    "target_languages": [
+      "ko"
+    ],
+    "quality_threshold": 75,
+    "max_chunk_size": 4000,
+    "rate_limit_delay": 0.1
+  },
+  "validation": {
+    "mdx_syntax_check": true,
+    "link_validation": true,
+    "length_ratio_check": true,
+    "terminology_consistency": true,
+    "max_errors_allowed": 0
+  },
+  "quality_management": {
+    "enable_scoring": true,
+    "require_human_review_threshold": 70,
+    "auto_retry_failed_translations": true,
+    "keep_translation_history": true
+  },
+  "deployment": {
+    "auto_deploy_threshold": 85,
+    "require_approval_below_threshold": true,
+    "backup_original_files": true,
+    "rollback_on_build_failure": true
+  }
+}

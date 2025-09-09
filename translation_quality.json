@@ -1,0 +1,19 @@
+{
+  "files": {
+    "sample.md": {
+      "file_path": "sample.md",
+      "content_hash": "b499a2faec6cd5ab46417b47c02dde7e",
+      "translation_date": "2025-09-09T11:07:44.913692",
+      "original_length": 35,
+      "translated_length": 25,
+      "validation_passed": true,
+      "validation_errors": [],
+      "quality_score": 100
+    }
+  },
+  "global_stats": {
+    "total_translations": 1,
+    "failed_validations": 0,
+    "last_updated": "2025-09-09T11:07:44.913752"
+  }
+}

@@ -1,53 +1,65 @@
-# 📋 작업 지침서 v2.0
+# 📋 작업 지침서 v3.0
 
-> **목적**: Freshservice 문서 변환 프로젝트의 표준 작업 절차 및 품질 관리 규칙
+> **목적**: Freshservice FAQ 자동번역 프로젝트의 표준 작업 절차 및 품질 관리 규칙
 
-## 🎯 확립된 작업 프로세스
+## 🎯 자동번역 시스템 작업 프로세스
 
-### 📊 **복잡도 기반 차별화 처리** (2025.09.08 확립)
+### 🤖 **Google Translate API 기반 완전 자동화** (2025.09.09 완성)
 
-#### 복잡도 분류 기준
+#### 자동번역 시스템 구성요소
 ```python
-# 자동 분석 기준
-- SIMPLE (0점): 순수 텍스트, 기본 서식만
-- LOW (1-4점): 간단한 리스트, 볼드 등 기본 서식
-- MEDIUM (5-9점): 이미지 1-2개, 간단한 테이블
-- HIGH (10점+): 이미지 3개+, 복잡한 테이블, 코드 블록
+# 핵심 스크립트 체계
+scripts/
+├── count_faq_chars.py          # 문자수 분석 (195만자 확인됨)
+├── test_translate_api.py       # API 테스트 및 검증
+├── translate_faqs.py           # 메인 번역 실행 스크립트
+├── fix_curly_braces.py         # MDX 오류 자동 수정
+├── advanced_translation_pipeline.py  # 향후 개선된 파이프라인
+└── translation_strategy.py     # 품질 관리 시스템
 
-# 점수 계산
-complexity_score = (
-    images * 5 +
-    tables * 4 + 
-    code_blocks * 3 +
-    lists * 2 +
-    links * 1 +
-    divs * 1
-)
+# 번역 품질 기준
+- Google Cloud Translation LLM 사용 ($10/million chars)
+- 청크 단위 처리 (4000자 단위)
+- YAML front matter 100% 보존
+- HTML 태그 및 마크다운 구조 유지
+- MDX 호환성 보장 (중괄호 이스케이프 등)
 ```
 
-#### 처리 방법별 가이드라인
-- **SIMPLE → 대량 자동화**: 기본 번역만으로 충분
-- **LOW → 자동화 + 간단 검토**: 서식 보존 확인
-- **MEDIUM → 반자동 처리**: 이미지/테이블 수동 보완
-- **HIGH → 수동 작업**: 원본 서식 완전 복원
+#### 번역 실행 프로세스
+```bash
+# 1단계: 전체 번역 실행
+cd /Users/alan/GitHub/docs
+python3 scripts/translate_faqs.py
 
-### 🏗️ **카테고리별 순차 작업** (확립된 원칙)
+# 2단계: MDX 오류 수정 (필요시)
+python3 scripts/fix_curly_braces.py
 
-#### 1. 카테고리 순서 결정
-```
-우선순위: 문서 수가 적은 카테고리부터
-1. USER-GUIDE---ADMIN (18개)
-2. USER-GUIDE---AGENT (38개)  
-3. SECURITY-AND-POLICIES (33개)
-4. 기타 대형 카테고리...
+# 3단계: 빌드 테스트
+npm run build
+
+# 4단계: 품질 검증
+python3 scripts/translation_strategy.py
 ```
 
-#### 2. 카테고리 내 작업 순서
+### 🏗️ **번역 후 품질 관리** (확립된 원칙)
+
+#### 1. 자동 검증 항목
 ```
-단계별 진행:
-1. 폴더별 정리 → 올바른 디렉토리 구조 생성
-2. 복잡도 순 처리 → SIMPLE → LOW → MEDIUM → HIGH
-3. 문서 타입별 형태 → FAQ = 아코디언, 일반 = 표준 MDX
+✅ MDX 문법 오류 제로
+✅ 빌드 성공 확인
+✅ YAML front matter 보존
+✅ HTML 태그 구조 유지
+✅ 링크 및 이미지 참조 보존
+```
+
+#### 2. 번역 품질 기준
+```
+자연스러운 한국어:
+- Google LLM 모델 사용으로 문맥 이해도 향상
+- 기술 용어의 적절한 한국어화
+- 문장 구조의 자연스러운 변환
+- 존댓말 일관성 유지
+```
 4. 빌드 테스트 → 카테고리 완료 후 필수 검증
 ```
 

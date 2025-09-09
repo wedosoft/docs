@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-FAQ 복잡도 분석기
-이미지, 테이블, 서식 등을 포함한 중요 문서와 단순 텍스트 문서를 구분
+FAQ 전용 복잡도 분석기
+Freshservice FAQs 카테고리만 분석하여 효율적인 작업 계획 수립
 """
 
 import pandas as pd
@@ -12,7 +12,7 @@ import html
 
 def analyze_content_complexity(html_content):
     """HTML 콘텐츠의 복잡도를 분석"""
-    if pd.isna(html_content) or html_content == '':
+    if pd.isna(html_content):
         return {
             'complexity_score': 0,
             'has_images': False,
@@ -86,39 +86,8 @@ def analyze_content_complexity(html_content):
         'processing_recommendation': processing_recommendation
     }
 
-def extract_categories_from_path(path):
-    """경로에서 카테고리 정보 추출"""
-    if pd.isna(path):
-        return 'unknown'
-    
-    path_str = str(path).lower()
-    
-    # 주요 카테고리 패턴 매칭
-    if 'automation' in path_str:
-        return 'automations'
-    elif 'change' in path_str:
-        return 'changes'
-    elif 'asset' in path_str:
-        return 'asset-management'
-    elif 'report' in path_str:
-        return 'reports'
-    elif 'ticket' in path_str:
-        return 'tickets'
-    elif 'service' in path_str:
-        return 'service-catalog'
-    elif 'project' in path_str:
-        return 'projects'
-    elif 'release' in path_str:
-        return 'releases'
-    elif 'problem' in path_str:
-        return 'problems'
-    elif 'user' in path_str or 'requester' in path_str:
-        return 'users'
-    else:
-        return 'misc'
-
-def analyze_all_faqs():
-    """모든 FAQ 파일을 분석하여 복잡도별로 분류"""
+def analyze_faq_only():
+    """FAQ 카테고리만 분석하여 복잡도별로 분류"""
     
     # CSV 파일들 읽기
     csv_files = [
@@ -134,22 +103,27 @@ def analyze_all_faqs():
     for csv_file in csv_files:
         try:
             df = pd.read_csv(csv_file)
-            print(f"처리 중: {csv_file} ({len(df)}개 항목)")
+            # FAQ 카테고리만 필터링
+            faq_df = df[df['category_name'] == 'Freshservice FAQs']
             
-            for idx, row in df.iterrows():
+            if len(faq_df) == 0:
+                print(f"처리 중: {csv_file} (FAQ 문서 없음)")
+                continue
+                
+            print(f"처리 중: {csv_file} (FAQ 문서 {len(faq_df)}개)")
+            
+            for idx, row in faq_df.iterrows():
                 title = str(row.get('title', ''))
                 description = str(row.get('description', ''))
                 html_content = str(row.get('description', ''))  # 실제 HTML은 description 컬럼에 있음
-                path = str(row.get('path', ''))
+                folder_name = str(row.get('folder_name', ''))
                 
                 # 복잡도 분석
                 complexity = analyze_content_complexity(html_content)
-                category = extract_categories_from_path(path)
                 
                 result = {
                     'title': title,
-                    'category': category,
-                    'path': path,
+                    'folder_name': folder_name,
                     'description_preview': description[:100] + '...' if len(description) > 100 else description,
                     **complexity
                 }
@@ -161,16 +135,16 @@ def analyze_all_faqs():
     
     return all_results
 
-def generate_summary_report(results):
-    """분석 결과 요약 리포트 생성"""
+def generate_faq_summary_report(results):
+    """FAQ 분석 결과 요약 리포트 생성"""
     
-    # 카테고리별 분류
-    by_category = {}
+    # 폴더별 분류
+    by_folder = {}
     for result in results:
-        category = result['category']
-        if category not in by_category:
-            by_category[category] = []
-        by_category[category].append(result)
+        folder = result['folder_name']
+        if folder not in by_folder:
+            by_folder[folder] = []
+        by_folder[folder].append(result)
     
     # 처리 방법별 분류
     manual_count = len([r for r in results if r['processing_recommendation'] == 'MANUAL'])
@@ -178,7 +152,7 @@ def generate_summary_report(results):
     auto_count = len([r for r in results if r['processing_recommendation'] == 'AUTO'])
     
     print("=" * 60)
-    print("📊 FAQ 복잡도 분석 결과")
+    print("📊 FAQ 전용 복잡도 분석 결과")
     print("=" * 60)
     print(f"총 FAQ 수: {len(results)}")
     print(f"🔥 수동 처리 필요: {manual_count}개 ({manual_count/len(results)*100:.1f}%)")
@@ -186,17 +160,30 @@ def generate_summary_report(results):
     print(f"🤖 자동 처리 가능: {auto_count}개 ({auto_count/len(results)*100:.1f}%)")
     print()
     
-    # 카테고리별 상세 분석
-    print("📋 카테고리별 분석:")
-    print("-" * 40)
+    # 폴더별 상세 분석 (자동 처리 가능한 순서대로)
+    print("📋 폴더별 분석 (자동 처리 가능 문서 많은 순):")
+    print("-" * 60)
     
-    for category, items in sorted(by_category.items(), key=lambda x: len(x[1]), reverse=True):
+    folder_stats = []
+    for folder, items in by_folder.items():
         manual = len([i for i in items if i['processing_recommendation'] == 'MANUAL'])
         review = len([i for i in items if i['processing_recommendation'] == 'REVIEW'])
         auto = len([i for i in items if i['processing_recommendation'] == 'AUTO'])
         
-        print(f"{category}: {len(items)}개")
-        print(f"  - 수동: {manual}개, 검토: {review}개, 자동: {auto}개")
+        folder_stats.append({
+            'folder': folder,
+            'total': len(items),
+            'auto': auto,
+            'review': review,
+            'manual': manual,
+            'auto_ratio': auto / len(items) * 100
+        })
+    
+    # 자동 처리 가능 비율 순으로 정렬
+    folder_stats.sort(key=lambda x: x['auto_ratio'], reverse=True)
+    
+    for stat in folder_stats:
+        print(f"{stat['folder'][:35]:35} | 자동:{stat['auto']:2}개 검토:{stat['review']:2}개 수동:{stat['manual']:2}개 | 총:{stat['total']:2}개 ({stat['auto_ratio']:4.1f}% 자동)")
     
     print()
     
@@ -204,7 +191,7 @@ def generate_summary_report(results):
     manual_items = [r for r in results if r['processing_recommendation'] == 'MANUAL']
     if manual_items:
         print("🔥 수동 처리 필요 항목들 (상위 10개):")
-        print("-" * 40)
+        print("-" * 60)
         
         for item in sorted(manual_items, key=lambda x: x['complexity_score'], reverse=True)[:10]:
             features = []
@@ -212,47 +199,45 @@ def generate_summary_report(results):
                 features.append(f"이미지 {item['image_count']}개")
             if item['has_tables']:
                 features.append("테이블")
-            if item['has_code_blocks']:
-                features.append("코드")
             if item['has_lists']:
                 features.append("목록")
             
-            print(f"- [{item['category']}] {item['title'][:50]}...")
-            print(f"  점수: {item['complexity_score']:.1f}, 특징: {', '.join(features)}")
-        print()
+            feature_text = ", ".join(features) if features else "긴 문서"
+            print(f"- [{item['folder_name']}] {item['title'][:40]}...")
+            print(f"  점수: {item['complexity_score']}, 특징: {feature_text}")
     
     return {
         'total': len(results),
         'manual': manual_count,
         'review': review_count,
         'auto': auto_count,
-        'by_category': by_category
+        'folder_stats': folder_stats
     }
 
-def save_detailed_results(results, output_file='faq_complexity_analysis.json'):
+def save_faq_results(results, output_file='faq_only_analysis.json'):
     """상세 분석 결과를 JSON 파일로 저장"""
-    output_path = Path(output_file)
-    
-    # JSON 직렬화를 위해 float 값 처리
-    for result in results:
-        result['complexity_score'] = float(result['complexity_score'])
-    
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
-    
-    print(f"📁 상세 분석 결과 저장: {output_path}")
+    try:
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(results, f, ensure_ascii=False, indent=2)
+        print(f"📁 상세 분석 결과 저장: {output_file}")
+    except Exception as e:
+        print(f"❌ 파일 저장 실패: {e}")
 
 if __name__ == "__main__":
-    print("🔍 FAQ 복잡도 분석 시작...")
+    print("🔍 FAQ 전용 복잡도 분석 시작...")
     
-    # 전체 분석 실행
-    results = analyze_all_faqs()
+    # FAQ만 분석 실행
+    results = analyze_faq_only()
+    
+    if not results:
+        print("❌ FAQ 문서를 찾을 수 없습니다.")
+        exit(1)
     
     # 요약 리포트 생성
-    summary = generate_summary_report(results)
+    summary = generate_faq_summary_report(results)
     
     # 상세 결과 저장
-    save_detailed_results(results)
+    save_faq_results(results)
     
-    print("\n✅ 분석 완료!")
+    print("\n✅ FAQ 분석 완료!")
     print(f"📊 요약: 수동 {summary['manual']}개, 검토 {summary['review']}개, 자동 {summary['auto']}개")

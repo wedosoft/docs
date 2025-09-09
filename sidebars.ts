@@ -116,22 +116,25 @@ const sidebars: SidebarsConfig = {
               collapsed: true,
               items: [
                 {
-                  type: 'category',
-                  label: '🤖 자동화 및 트리거',
-                  collapsed: true,
-                  items: [
-                    'freshworks/freshservice/faqs/automations/index',
-                  ],
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/api-webhooks/index',
+                  label: 'API & Webhooks',
                 },
-              ],
-            },
-            {
-              type: 'category',
-              label: '� 앱 & 통합',
-              collapsed: true,
-              items: [
-                'freshworks/freshservice/apps-and-integrations/extending-freshservice-with-integrations/freshchat-app-id-token',
-                'freshworks/freshservice/apps-and-integrations/extending-freshservice-with-integrations/native-integrations-blossom',
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/asset-management/index',
+                  label: '자산 관리',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/automations-triggers/index',
+                  label: '자동화 및 트리거',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/reports/index',
+                  label: '보고서',
+                },
               ],
             },
           ],
