@@ -118,7 +118,8 @@ npm run build
 □ 콜아웃 및 구조 최적화
 □ MDX 호환성 확인
 □ 빌드 테스트 통과
-```ilt using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+```
+ilt using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ## 🚀 Quick Start
 
@@ -136,7 +137,7 @@ $ yarn start
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-## � 프로젝트 구조
+##  프로젝트 구조
 
 ```
 ├── docs/                    # 사용자 문서 (Docusaurus)
@@ -146,7 +147,7 @@ This command starts a local development server and opens up a browser window. Mo
 └── src/                    # 사이트 소스 코드
 ```
 
-## �📝 Freshservice 문서 작업
+## 📝 Freshservice 문서 작업
 
 ### MDX 호환성 자동 처리
 새로운 CSV 문서를 추가하거나 MDX 오류가 발생할 때:
@@ -235,3 +236,5 @@ GitHub Pages 호스팅을 사용하는 경우, 이 명령어로 웹사이트를 
 ---
 
 > **💡 중요**: 신규 작업자는 반드시 `documents/` 폴더의 README부터 읽어주세요!
+
+*Workflow test trigger.*
