@@ -238,3 +238,4 @@ GitHub Pages 호스팅을 사용하는 경우, 이 명령어로 웹사이트를 
 > **💡 중요**: 신규 작업자는 반드시 `documents/` 폴더의 README부터 읽어주세요!
 
 *Workflow test trigger.*
+
