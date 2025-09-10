@@ -13,12 +13,12 @@ const config: Config = {
   url: 'https://wedosoft.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docs2',
+  baseUrl: '/docs',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'wedosoft', // Usually your GitHub org/user name.
-  projectName: 'docs2', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -93,11 +93,11 @@ const config: Config = {
           items: [
             {
               label: '고객 지원',
-              href: 'https://wedosoft.net/support',
+              href: 'https://support.wedosoft.net/',
             },
             {
               label: '문의하기',
-              href: 'https://wedosoft.net/contact',
+              href: 'https://wedosoft.freshdesk.com/support/tickets/new',
             },
           ],
         },
