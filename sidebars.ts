@@ -132,6 +132,11 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                   type: 'doc',
+                  id: 'freshworks/freshservice/faqs/incidents-service-requests/index',
+                  label: '인시던트 및 서비스 요청',
+                },
+                {
+                  type: 'doc',
                   id: 'freshworks/freshservice/faqs/reports/index',
                   label: '보고서',
                 },

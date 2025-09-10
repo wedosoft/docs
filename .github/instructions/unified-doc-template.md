@@ -11,6 +11,59 @@ applyTo: 'all-products'
 
 이 문서는 모든 제품(Freshservice, Freshdesk, Freshworks 등)의 기술 문서를 일관성 있게 작성하기 위한 통합 템플릿입니다.
 
+## 🚨 원본 서식 보존 - CRITICAL 지침
+
+### ⚠️ 필수 원칙: 원본 콘텐츠 완전 보존
+
+**모든 원본 콘텐츠를 반드시 보존해야 합니다:**
+
+- ✅ **이미지**: 모든 스크린샷, 다이어그램, 아이콘 그대로 보존
+- ✅ **테이블**: HTML 테이블 구조와 스타일 완전 보존  
+- ✅ **HTML 마크업**: 원본 HTML 구조와 포맷팅 유지
+- ✅ **링크**: 모든 내부/외부 링크 보존
+- ✅ **강조/스타일**: Bold, Italic, 색상 등 모든 서식 유지
+- ✅ **코드 블록**: 예제 코드와 설정값 그대로 보존
+
+### ❌ 금지사항
+
+- ❌ **완전 재작성**: 원본 내용을 완전히 새로 작성하지 말 것
+- ❌ **이미지 삭제**: 원본에 있는 이미지를 임의로 제거하지 말 것  
+- ❌ **테이블 단순화**: 복잡한 테이블을 간단하게 바꾸지 말 것
+- ❌ **HTML → Markdown 변환**: 손실 없이 보존 가능한 경우만 변환
+
+### ✅ 허용되는 작업
+
+- ✅ **구조 재정리**: FAQ 형식으로 섹션 재구성
+- ✅ **번역 및 개선**: 한국어 번역과 실무 중심 설명 추가
+- ✅ **콘텐츠 보강**: 원본 기반으로 추가 설명과 예시 보강
+- ✅ **UI 개선**: Docusaurus 컴포넌트로 가독성 향상
+
+### 📝 올바른 접근법
+
+**Before (잘못된 방법):**
+```markdown
+## Change 유형은 무엇인가요?
+Change는 Emergency, Normal, Standard 3가지가 있습니다...
+(완전히 새로 작성)
+```
+
+**After (올바른 방법):**
+```markdown
+## Change 유형은 무엇인가요?
+
+<p><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0);">
+Change Lifecycle is used to define and control the lifecycle of a change request based on the Change type...
+</span></p>
+
+<span style="border:none;display:inline-block;overflow:hidden;width:624px;height:327px;">
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001047228/original/cMvJwLsyccVH8ozNe4g1IjSdq4BOzS94Xg.png?1588534868" width="624" height="327" />
+</span>
+
+[원본 HTML과 이미지를 그대로 보존하면서 필요시 추가 설명만 보강]
+```
+
+이 지침을 따르지 않을 경우 **작업 재수행** 필요합니다.
+
 ## 🎯 적용 범위
 
 - **모든 제품**: Freshservice, Freshdesk, Freshworks, 기타 모든 제품
