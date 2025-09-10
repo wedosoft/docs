@@ -117,6 +117,11 @@ const sidebars: SidebarsConfig = {
               items: [
                 {
                   type: 'doc',
+                  id: 'freshworks/freshservice/faqs/agents-and-groups/index',
+                  label: '에이전트 및 그룹',
+                },
+                {
+                  type: 'doc',
                   id: 'freshworks/freshservice/faqs/api-webhooks/index',
                   label: 'API & Webhooks',
                 },
@@ -132,6 +137,11 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                   type: 'doc',
+                  id: 'freshworks/freshservice/faqs/changes/index',
+                  label: '변경 관리',
+                },
+                {
+                  type: 'doc',
                   id: 'freshworks/freshservice/faqs/incidents-service-requests/index',
                   label: '인시던트 및 서비스 요청',
                 },
@@ -139,6 +149,16 @@ const sidebars: SidebarsConfig = {
                   type: 'doc',
                   id: 'freshworks/freshservice/faqs/reports/index',
                   label: '보고서',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/sso/index',
+                  label: 'SSO 및 인증',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/ticketing-workflow/index',
+                  label: '티켓팅 워크플로우',
                 },
               ],
             },

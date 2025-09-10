@@ -11,6 +11,8 @@ Freshservice의 인시던트 및 서비스 요청 관리에 대한 자주 묻는
 
 ## 팀 허들의 고유 기능
 
+![Admin Security Settings](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007504089/original/xWuGQ2zcOimDLop_hgQ5KFNVqGUFwdtjvg.png)
+
 ### 1. 실시간 협업
 - **즉석 토론**: 티켓 해결을 위한 실시간 브레인스토밍
 - **빠른 의사결정**: 복잡한 문제에 대한 즉각적인 팀 협의
@@ -145,6 +147,8 @@ Freshservice의 인시던트 및 서비스 요청 관리에 대한 자주 묻는
 ```
 경로: Admin → General Settings → Helpdesk Settings
 ```
+
+![Organization Management Dashboard](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002090235/original/5sYD1HlhVY3pUmJ794nqXE8LsirD5FW0YA.png)
 
 1. **Admin 페이지 접속**
    - 관리자 권한으로 Freshservice에 로그인
@@ -290,6 +294,8 @@ Admin → Apps → Marketplace
 ```
 
 ## 주요 차이점
+
+![Password Policy Configuration](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002090171/original/RMt5HlTd1B6AOXxxMLuwGBabpkBlOJ8wEg.png)
 
 ### 1. 긴급성과 우선순위
 

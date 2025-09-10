@@ -51,7 +51,6 @@ Freshservice의 에이전트 및 그룹 관리에 대한 자주 묻는 질문들
 2. **Role** 드롭다운에서 적절한 역할을 할당합니다
 
 </div>
-</details>
 3. **Save**를 클릭하여 저장합니다
 
 </details>
@@ -639,6 +638,8 @@ Agent → Team Lead → Manager → Director
 - 고객 서비스 기초
 - 보안 정책 이해
 
+![Password Policy Settings](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008777662/original/bW6yKerORN4MvUcsMle-67DNiCi3W0kiSw.png?1688376090)
+
 중급 인증:
 - 고급 티켓 처리
 - 에스컬레이션 관리
@@ -898,6 +899,10 @@ Agent → Team Lead → Manager → Director
 - IP 화이트리스트
 - 세션 타임아웃 설정
 - 접속 로그 모니터링
+
+![Admin Security Settings](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000801699/original/UFfJVYNX7AnKNf4_-G7tFnUz5ez0uZblWg.png?1583309648)
+
+![IP Range Restriction Settings](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002098419/original/WFMb-xg9N3BqAptM-NF0cSvj_oxxhv27AA.png?1606301203)
 
 **2. 디바이스 관리:**
 - BYOD (Bring Your Own Device) 정책

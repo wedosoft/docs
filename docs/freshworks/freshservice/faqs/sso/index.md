@@ -72,10 +72,18 @@ SAML SSO 설정은 다음 단계로 진행됩니다:
 - SAML 2.0 선택 및 기본 정보 입력
 - Service Provider 메타데이터 다운로드
 
+![SSO Settings Screen](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000801700/original/v3EVn0FGLDKOIvDVP85y86CoVKCzhzzLOg.png)
+
+*Admin Security Settings에서 SSO 구성 진행*
+
 **2단계: IdP 설정**
 - IdP에서 새 애플리케이션 추가
 - Freshservice 메타데이터 업로드
 - 사용자 속성 매핑 구성
+
+![Admin Security Settings](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007504089/original/xWuGQ2zcOimDLop_hgQ5KFNVqGUFwdtjvg.png?1675315951)
+
+*Admin > Security Settings에서 보안 정책 및 인증 설정 관리*
 
 **3단계: 연동 테스트**
 - 테스트 사용자로 로그인 검증
@@ -130,7 +138,7 @@ OAuth는 특히 API 기반 통합에서 강력한 보안을 제공합니다.
 - Company: company, organization
 
 **사용자 정의 속성:**
-- Custom Field: custom_field_<field_name>
+- Custom Field: custom_field_`<field_name>`
 - 예시: Office Location → custom_field_office_location
 
 **매핑 설정 단계:**
@@ -182,6 +190,10 @@ MFA 설정 및 관리:
 2. MFA 정책 활성화
 3. 허용할 인증 방법 선택
 4. 사용자별 또는 그룹별 적용
+
+![Neo Admin Center Dashboard](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002090171/original/RMt5HlTd1B6AOXxxMLuwGBabpkBlOJ8wEg.png?1606215812)
+
+*Neo Admin Center에서 패스워드 정책 및 보안 설정 관리*
 
 **사용자 등록:**
 - 초기 로그인 시 MFA 설정 안내
@@ -809,6 +821,10 @@ SSO 재해 복구 계획:
 - 부서별 ID 관리자
 - 보안 정책 위원회
 - 감사 및 컴플라이언스 팀
+
+![Organization Management](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002090235/original/5sYD1HlhVY3pUmJ794nqXE8LsirD5FW0YA.png?1606216437)
+
+*Neo Admin Center를 통한 조직 전체 사용자 및 계정 관리*
 
 **정책 관리:**
 - 표준화된 ID 정책

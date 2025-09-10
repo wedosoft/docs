@@ -15,11 +15,15 @@ Freshservice Changes 모듈은 IT 인프라의 모든 변경사항을 체계적�
 - **리스크 평가**: 변경 영향도 및 위험도 분석
 - **변경 스케줄링**: 계획된 변경 일정 관리
 
+![Automation Rule Setup](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007901461/original/djkaPXInt9-dP0hMIJZVmUIXSgxt_qKJ2Q.png)
+
 **변경 관리의 이점:**
 - 계획되지 않은 다운타임 감소
 - 변경으로 인한 인시던트 예방
 - 규정 준수 및 감사 추적
 - 서비스 안정성 향상
+
+![Changes Management Dashboard](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002090168/original/RicE0KoLFYylGe-G68KXpyTJQ4gM5asNPQ.png)
 
 체계적인 변경 관리를 통해 IT 서비스의 안정성과 신뢰성을 보장할 수 있습니다.
 </details>
@@ -99,6 +103,8 @@ CAB 구성 및 운영 방법:
 3. 승인 규칙 설정
 4. 회의 스케줄 구성
 
+![Organization Management Dashboard](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002090235/original/5sYD1HlhVY3pUmJ794nqXE8LsirD5FW0YA.png)
+
 **승인 프로세스:**
 - 단계별 승인 권한 설정
 - 다수결 또는 만장일치 규칙
@@ -123,6 +129,8 @@ Standard Change 설정 및 관리:
 2. 새 Standard Change 템플릿 생성
 3. 표준 절차 및 체크리스트 정의
 4. 자동 승인 규칙 설정
+
+![Password Policy Settings](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002090171/original/RMt5HlTd1B6AOXxxMLuwGBabpkBlOJ8wEg.png)
 
 **관리 요소:**
 - **절차 문서**: 단계별 실행 가이드
@@ -1040,7 +1048,7 @@ Change 관리 베스트 프랙티스와 성공 전략:
 <details>
 <summary>33. Change 요청을 복제할 수 있나요?</summary>
 
-<p dir="ltr"><span style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px; color: rgb(0, 0, 0);">Yes,&nbsp;</span><span style="color: rgb(0, 0, 0);"><span dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px; font-weight: 400; text-align: start; text-indent: 0px; display: inline !important;">it is possible to clone a change request in Freshservice using marketplace apps. <span dir="ltr" style="font-weight: 400; text-align: start; text-indent: 0px; font-family: &quot;Helvetica Neue&quot;; display: inline !important;">To clone a change request, navigate to <strong>Admin &gt; Automation &amp; Productivity &gt; Apps</strong> and search for the app <strong>Clone Change Request</strong>.&nbsp;</span></span></span><br/><span style="color: rgb(0, 0, 0);"><span dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px; font-weight: 400; text-align: start; text-indent: 0px; display: inline !important;"><span dir="ltr" style="font-weight: 400; text-align: start; text-indent: 0px; font-family: &quot;Helvetica Neue&quot;; display: inline !important;">More information about the process can be found in the following in&nbsp;</span><a href="https://www.freshworks.com/apps/freshservice/clone_change_request" rel="noopener noreferrer" target="_blank">Clone Change Request - Freshservice Marketplace</a></span></span></p>
+Yes, it is possible to clone a change request in Freshservice using marketplace apps. To clone a change request, navigate to **Admin > Automation & Productivity > Apps** and search for the app **Clone Change Request**. More information about the process can be found in the following [Clone Change Request - Freshservice Marketplace](https://www.freshworks.com/apps/freshservice/clone_change_request).
 
 네, Freshservice에서는 마켓플레이스 앱을 사용하여 Change 요청을 복제할 수 있습니다.
 
@@ -1066,7 +1074,7 @@ Change 관리 베스트 프랙티스와 성공 전략:
 <details>
 <summary>34. Change 데이터를 가져오기(Import)할 수 있나요?</summary>
 
-<p dir="ltr" style="line-height: 1.8; margin-left: 36pt; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Changes can be imported through CSV file with the help of our Support team. </span></p>
+Changes can be imported through CSV file with the help of our Support team.
 
 네, Change 데이터는 CSV 파일을 통해 가져올 수 있으며, 이 과정에서 Freshservice 지원팀의 도움이 필요합니다.
 
@@ -1244,33 +1252,6 @@ Freshservice에서는 기본 상태 라벨을 직접 수정할 수는 없지만,
 - **댓글 권한**: 승인 시 코멘트 추가 가능
 - **첨부파일 접근**: 관련 문서 다운로드
 
-**설정 방법:**
-1. **Admin** → **Users** → **Requesters**에서 CAB 멤버 추가
-2. **Groups**에서 CAB 그룹 생성 및 멤버 할당
-3. **Change Approval** 설정에서 그룹 지정
-4. **Permissions**에서 접근 권한 세부 조정
-
-**보안 고려사항:**
-- 시간 제한: 승인 링크 유효 기간 설정
-- IP 제한: 특정 네트워크에서만 접근 허용
-- 감사 로그: 모든 외부 접근 기록
-
-</div>
-</details>
-- 패스워드 정책 적용
-
-**3. 이메일 기반 승인:**
-- 이메일 답장으로 승인 처리
-- "APPROVE" 또는 "REJECT" 키워드 사용
-- 승인 사유를 이메일 본문에 포함
-- 자동으로 시스템에 반영
-
-**권한 설정 옵션:**
-- **읽기 전용**: Change 내용 열람만 가능
-- **승인 권한**: 승인/거부 결정만 가능
-- **댓글 권한**: 승인시 코멘트 추가 가능
-- **첨부파일 접근**: 관련 문서 다운로드
-
 **보안 고려사항:**
 - **시간 제한**: 승인 링크 유효 기간 설정
 - **IP 제한**: 특정 네트워크에서만 접근 허용
@@ -1290,6 +1271,8 @@ Freshservice에서는 기본 상태 라벨을 직접 수정할 수는 없지만,
 4. **Permissions**에서 접근 권한 세부 조정
 
 외부 CAB 멤버의 참여를 통해 더욱 포괄적이고 전문적인 변경 관리 의사결정을 실현할 수 있습니다.
+
+</div>
 </details>
 
 <details>
@@ -1490,7 +1473,7 @@ MSP 환경에서의 체계적인 Change 승인 관리를 통해 보안과 효율
 **템플릿별 설정 요소:**
 
 **기본 정보 템플릿:**
-- **제목 패턴**: "[부서명] - [변경유형] - {날짜}"
+- **제목 패턴**: "[부서명] - [변경유형] - \{날짜\}"
 - **설명 템플릿**: 표준화된 변경 설명 양식
 - **카테고리**: 미리 정의된 카테고리 선택
 - **우선순위**: 변경 유형별 기본 우선순위

@@ -79,6 +79,8 @@ Field Manager를 통해 다음과 같이 커스터마이징할 수 있습니다:
 - **사용자 정의 필드 추가**: 조직 특성에 맞는 추가 필드
 - **필드 순서 조정**: 드래그앤드롭으로 필드 순서 변경
 
+![Field Manager Customization](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006764482/original/Pz6DadQYr-6gpmsMTxSZkIArKBdHREXlVg.png)
+
 이를 통해 조직의 특정 요구사항에 맞는 티켓 양식을 만들 수 있습니다.
 </details>
 
@@ -105,6 +107,8 @@ Field Manager를 통해 다음과 같이 커스터마이징할 수 있습니다:
 - **트리거 조건**: 언제 규칙이 실행될지 정의
 - **적용 조건**: 어떤 티켓에 적용될지 필터링
 - **액션**: 조건이 만족될 때 수행할 작업
+
+![Automation Rule Setup](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008638177/original/tI4mwb41NPVSV_0ooJMfb4I8pzB4X5sG0g.png)
 
 예시: 특정 키워드가 포함된 이메일은 자동으로 높은 우선순위로 설정하고 특정 그룹에 할당
 </details>
@@ -233,6 +237,10 @@ SLA 에스컬레이션은 다음과 같은 단계로 진행됩니다:
 - 하나의 티켓에 여러 개별 문제가 포함된 경우
 - 다른 팀에서 처리해야 할 부분이 있을 때
 - 서로 다른 우선순위로 처리해야 할 때
+
+![Ticket Management Views](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/35328568/original/AXwIxlG--zdnExt9c01mpIi9UHO9A-IOLA.png)
+
+이러한 기능들을 통해 효율적인 티켓 관리가 가능합니다.
 </details>
 
 <details>
