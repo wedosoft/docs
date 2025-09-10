@@ -20,4 +20,4 @@ yarn-debug.log*
 yarn-error.log*
 
 /venv
-/raw_datad
+/raw_data
