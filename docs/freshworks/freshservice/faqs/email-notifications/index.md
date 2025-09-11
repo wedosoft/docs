@@ -1,4 +1,11 @@
-# 이메일 알림 (Email Notifications) Freshservice의 이메일 알림 시스템에 대한 자주 묻는 질문들입니다. 총 10개의 FAQ를 포함하고 있습니다. import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; <details>
+# 이메일 알림 (Email Notifications) 
+
+Freshservice의 이메일 알림 시스템에 대한 자주 묻는 질문들입니다. 총 10개의 FAQ를 포함하고 있습니다. 
+
+import Tabs from '@theme/Tabs'; 
+import TabItem from '@theme/TabItem'; 
+
+<details>
 <summary>이메일 알림이 무엇인가요?</summary>
 
 이메일 알림은 티켓, 변경 사항, 자산 관리 등 Freshservice의 다양한 활동에 대해 사용자에게 자동으로 전송되는 이메일입니다. 중요한 업데이트를 놓치지 않도록 도와줍니다. **주요 알림 유형:** - 티켓 생성/업데이트 알림 - 할당 및 에스컬레이션 알림 - SLA 위반 경고 - 승인 요청 알림 - 변경 관리 알림
@@ -22,7 +29,7 @@
 <details>
 <summary>이메일 알림 템플릿을 사용자 정의할 수 있나요?</summary>
 
-예, 이메일 알림 템플릿을 완전히 사용자 정의할 수 있습니다: - **HTML 편집기**: 리치 텍스트 및 HTML 편집 지원 - **동적 콘텐츠**: 플레이스홀더를 사용한 동적 정보 삽입 - **브랜딩**: 회사 로고, 색상, 폰트 등 브랜드 요소 추가 - **다국어 지원**: 언어별 다른 템플릿 설정 - **조건부 콘텐츠**: 상황에 따라 다른 내용 표시 **사용 가능한 플레이스홀더:** - {{ticket.id}}, {{ticket.subject}} - {{requester.name}}, {{agent.name}} - {{ticket.status}}, {{ticket.priority}}
+예, 이메일 알림 템플릿을 완전히 사용자 정의할 수 있습니다: - **HTML 편집기**: 리치 텍스트 및 HTML 편집 지원 - **동적 콘텐츠**: 플레이스홀더를 사용한 동적 정보 삽입 - **브랜딩**: 회사 로고, 색상, 폰트 등 브랜드 요소 추가 - **다국어 지원**: 언어별 다른 템플릿 설정 - **조건부 콘텐츠**: 상황에 따라 다른 내용 표시 **사용 가능한 플레이스홀더:** - `{{ticket.id}}`, `{{ticket.subject}}` - `{{requester.name}}`, `{{agent.name}}` - `{{ticket.status}}`, `{{ticket.priority}}`
 
 </details>
 

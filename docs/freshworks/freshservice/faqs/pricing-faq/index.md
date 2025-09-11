@@ -1,4 +1,8 @@
-# Pricing FAQ 가격 정책 관련 자주 묻는 질문과 답변입니다. <details>
+# Pricing FAQ 
+
+가격 정책 관련 자주 묻는 질문과 답변입니다.
+
+<details>
 <summary>What is considered a chargeable managed asset in Freshservice?</summary>
 
 IT assets can be added to the Asset Management module in Freshservice through multiple channels. This includes: adding them manually importing from a CSV barcode scanning using the mobile app using the Discovery Probe or Agent to discover assets Any device discovered by the Discovery Probe or the Discovery Agent is considered a managed asset. This includes assets scanned using the SCCM integration in the Discovery Probe. A device is also considered a managed asset if it is added using other methods and is later updated using the discovery tools. Only the devices are considered managed assets and customers are not charged for the software discovered from these devices.
