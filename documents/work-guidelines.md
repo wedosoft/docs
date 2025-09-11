@@ -1,72 +1,41 @@
 # 📋 작업 지침서 v3.0
 
-> **목적**: Freshservice FAQ 자동번역 프로젝트의 표준 작업 절차 및 품질 관리 규칙
+> **목적**: Freshservice 문서 수작업 변환 프로젝트의 표준 작업 절차 및 품질 관리 규칙
 
-## 🎯 자동번역 시스템 작업 프로세스
+## 🎯 수작업 변환 작업 프로세스
 
-### 🤖 **Google Translate API 기반 완전 자동화** (2025.09.09 완성)
+### ✏️ **카테고리별 CSV 파일 기반 작업** (2025.09.11 확정)
 
-#### 자동번역 시스템 구성요소
-```python
-# 핵심 스크립트 체계
-scripts/
-├── count_faq_chars.py          # 문자수 분석 (195만자 확인됨)
-├── test_translate_api.py       # API 테스트 및 검증
-├── translate_faqs.py           # 메인 번역 실행 스크립트
-├── fix_curly_braces.py         # MDX 오류 자동 수정
-├── advanced_translation_pipeline.py  # 향후 개선된 파이프라인
-└── translation_strategy.py     # 품질 관리 시스템
-
-# 번역 품질 기준
-- Google Cloud Translation LLM 사용 ($10/million chars)
-- 청크 단위 처리 (4000자 단위)
-- YAML front matter 100% 보존
-- HTML 태그 및 마크다운 구조 유지
-- MDX 호환성 보장 (중괄호 이스케이프 등)
+#### 작업 파일 구조
+```
+categories/
+├── Freshservice_FAQs.csv (508개) - 우선 작업 대상
+├── Support_Guide_IT_Service_Management.csv (187개)
+├── Getting_started_with_Freshservice.csv (115개)
+├── Platform.csv (101개)
+└── 기타 16개 카테고리 파일
 ```
 
-#### 번역 실행 프로세스
-```bash
-# 1단계: 전체 번역 실행
-cd /Users/alan/GitHub/docs
-python3 scripts/translate_faqs.py
-
-# 2단계: MDX 오류 수정 (필요시)
-python3 scripts/fix_curly_braces.py
-
-# 3단계: 빌드 테스트
-npm run build
-
-# 4단계: 품질 검증
-python3 scripts/translation_strategy.py
+#### 작업 프로세스
+```
+1단계: 카테고리 CSV 파일 선택
+2단계: 문서 하나 선택 (ID, title, description 필드 확인)
+3단계: description 필드(HTML)에서 콘텐츠 추출
+4단계: HTML → Markdown 기본 변환
+5단계: 한국어 실무 중심 리라이팅
+6단계: v3.0 템플릿 적용 (sidebar_position)
+7단계: MDX 호환성 확인
+8단계: 완료 표시 (파일명 변경 또는 별도 관리)
 ```
 
-### 🏗️ **번역 후 품질 관리** (확립된 원칙)
-
-#### 1. 자동 검증 항목
+#### 수작업 변환의 장점
 ```
-✅ MDX 문법 오류 제로
-✅ 빌드 성공 확인
-✅ YAML front matter 보존
-✅ HTML 태그 구조 유지
-✅ 링크 및 이미지 참조 보존
+높은 품질 보장:
+- 기술 문서의 정확성 최우선
+- 한국 실무 환경에 맞는 자연스러운 번역
+- 문맥과 의도를 정확히 파악한 변환
+- Docusaurus 구조에 최적화된 형태
 ```
-
-#### 2. 번역 품질 기준
-```
-자연스러운 한국어:
-- Google LLM 모델 사용으로 문맥 이해도 향상
-- 기술 용어의 적절한 한국어화
-- 문장 구조의 자연스러운 변환
-- 존댓말 일관성 유지
-```
-4. 빌드 테스트 → 카테고리 완료 후 필수 검증
-```
-
-#### 3. 절대 규칙
-- **한 카테고리 완전 완료** 후 다음 카테고리 진행
-- **혼재 작업 금지**: 여러 카테고리 동시 작업 금지
-- **품질 검증**: 각 단계별 품질 검사 필수
 
 ---
 

@@ -122,6 +122,16 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                   type: 'doc',
+                  id: 'freshworks/freshservice/faqs/analytics-faqs/index',
+                  label: '분석 및 리포트',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/announcements/index',
+                  label: '공지사항',
+                },
+                {
+                  type: 'doc',
                   id: 'freshworks/freshservice/faqs/api-webhooks/index',
                   label: 'API & Webhooks',
                 },
@@ -137,8 +147,28 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                   type: 'doc',
+                  id: 'freshworks/freshservice/faqs/business-hours-slas/index',
+                  label: '업무 시간 및 SLA',
+                },
+                {
+                  type: 'doc',
                   id: 'freshworks/freshservice/faqs/changes/index',
                   label: '변경 관리',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/email/index',
+                  label: '이메일',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/email-notifications/index',
+                  label: '이메일 알림',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/feedback-widget/index',
+                  label: '피드백 위젯',
                 },
                 {
                   type: 'doc',
@@ -147,8 +177,53 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                   type: 'doc',
+                  id: 'freshworks/freshservice/faqs/new-gen-project-mgmt/index',
+                  label: '신세대 프로젝트 관리',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/orchestration/index',
+                  label: '오케스트레이션',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/pricing-faq/index',
+                  label: '가격 정책',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/priority-matrix/index',
+                  label: '우선순위 매트릭스',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/problems/index',
+                  label: '문제 관리',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/release/index',
+                  label: '릴리스 관리',
+                },
+                {
+                  type: 'doc',
                   id: 'freshworks/freshservice/faqs/reports/index',
                   label: '보고서',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/sandbox/index',
+                  label: '샌드박스',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/service-catalog/index',
+                  label: '서비스 카탈로그',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/service-desk-faq/index',
+                  label: '서비스 데스크 FAQ',
                 },
                 {
                   type: 'doc',
@@ -157,8 +232,18 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                   type: 'doc',
+                  id: 'freshworks/freshservice/faqs/tasks/index',
+                  label: '작업 관리',
+                },
+                {
+                  type: 'doc',
                   id: 'freshworks/freshservice/faqs/ticketing-workflow/index',
                   label: '티켓팅 워크플로우',
+                },
+                {
+                  type: 'doc',
+                  id: 'freshworks/freshservice/faqs/workspaces/index',
+                  label: '워크스페이스',
                 },
               ],
             },

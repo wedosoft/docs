@@ -2,16 +2,28 @@
 
 This webs# 📚 Freshservice 문서 포털
 
-> **목적**: CSV 데이터를 기반으로 Freshservice 기술문서를 Docusaurus 기반 웹사이트로 **수작업 변환** (품질 우선)
+> **목적**: CSV 데이터를 기반으로 Freshservice 기술문서를 Docus## 🔧 주요 도구 및 스크립트
+
+### 📊 **카테고리별 CSV 파일 시스템** (2025.09.11)
+```bash
+# 카테고리별로 분할된 CSV 파일들
+ls categories/*.csv
+
+# 각 카테고리별 문서 수 확인
+wc -l categories/*.csv
+
+# 작업할 문서 선택
+head -10 categories/Freshservice_FAQs.csv
+```로 **수작업 변환** (품질 우선)
 
 이 웹사이트는 [Docusaurus](https://docusaurus.io/)를 사용하여 구축된 현대적인 정적 웹사이트입니다.
 
-## 🎯 프로젝트 현황 (2025.9.8 기준)
+## 🎯 프로젝트 현황 (2025.9.11 기준)
 
 - **총 문서 수**: 1,557개 (CSV 데이터 확인됨)
-- **현재 완료**: **56개 문서** (3.6%) ✅
+- **현재 완료**: **64개 문서** (4.1%) ✅
 - **작업 방식**: **수작업 변환** (품질 우선 접근법)
-- **다음 단계**: CSV 카테고리 분석 → 다음 50개 문서 변환
+- **다음 단계**: CSV 카테고리 분석 → 다음 카테고리 변환
 
 ## 🚀 빠른 시작
 
@@ -76,27 +88,24 @@ ls docs/freshworks/freshservice/getting-started/
 4. .github/instructions/             - 마크다운 작성 지침
 ```
 
-### 📊 **현재 완성된 고품질 문서** (56개)
+### 📊 **현재 완성된 고품질 문서** (64개)
 ```
 docs/freshworks/freshservice/getting-started/
 ├── form-fields-and-form-templates/  (16개) ✅
 ├── user-management/                 (20개) ✅  
 ├── setting-up-freshservice/         (9개) ✅
 └── self-service-portal-introduction/ (5개) ✅
+
+docs/freshworks/freshservice/faqs/   (10개) ✅
+docs/freshworks/freshservice/apps-and-integrations/  (2개) ✅
+docs/freshworks/freshservice/poc-guides/  (1개) ✅
+docs/freshworks/freshservice/  (1개) ✅
 ```
 **이 문서들을 품질 기준으로 활용하세요!**
 
 ## 🔧 주요 도구 및 스크립트
 
-### 📊 **CSV 데이터 분석**
-```bash
-# 카테고리별 문서 분포 분석 (다음 작업 계획용)
-python3 scripts/analyze_csv_categories.py
-
-# 결과: 카테고리별 문서 수, 복잡도, 우선순위 추천
-```
-
-### 🛠️ **수작업 지원 도구**
+### ️ **수작업 지원 도구**
 ```bash
 # MDX 호환성 자동 처리 (완성된 문서에 적용)
 python3 scripts/mdx_fixer.py docs/freshworks/freshservice/
@@ -175,18 +184,18 @@ python3 scripts/mdx_fixer.py docs/path/to/file.md
 ## 📈 현재 진행 현황
 
 ### ✅ 1단계 완료 (2024년 12월)
-- **템플릿 표준화**: 74개 문서 v3.0 템플릿 적용 완료
+- **템플릿 표준화**: 64개 문서 v3.0 템플릿 적용 완료
 - **MDX 호환성**: 한글 중괄호 이스케이프 문제 해결
 - **문서 품질**: 일관된 형식 및 구조 확립
 
-### 🔄 2단계 준비 중 (2024년 12월 말 ~ 2025년 1월)
+### 🔄 2단계 준비 중 (2025년 1월)
 - **CSV 분석**: 5개 파일, 1,557개 문서 스키마 파악
-- **자동 변환**: Python 기반 대량 변환 시스템 개발
-- **품질 검증**: 자동화된 검증 및 테스트 체계 구축
+- **수작업 변환**: 품질 우선 카테고리별 순차 변환
+- **품질 검증**: 표준화된 검증 및 테스트 체계 운영
 
 ## 🎯 성과 지표
 
-- **완료율**: 4.8% (74/1,557 문서)
+- **완료율**: 4.1% (64/1,557 문서)
 - **품질**: 100% 빌드 성공률
 - **표준화**: v3.0 템플릿 완전 적용
 - **호환성**: MDX 오류 0건
