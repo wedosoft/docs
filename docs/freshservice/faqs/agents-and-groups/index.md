@@ -2,10 +2,10 @@
 
 Freshservice의 에이전트 및 그룹 관리에 대한 자주 묻는 질문들입니다.
 
+## 🚀 기본 관리
+
 <details>
 <summary><strong>에이전트를 추가하거나 삭제하는 방법은 무엇인가요?</strong></summary>
-
-<div>
 
 **에이전트 추가:**
 1. **Admin** > **People** > **Agents**로 이동합니다
@@ -22,13 +22,10 @@ Freshservice의 에이전트 및 그룹 관리에 대한 자주 묻는 질문들
 
 **참고:** 에이전트를 삭제하기 전에 해당 에이전트가 담당하던 티켓들을 다른 에이전트에게 재할당하는 것이 좋습니다.
 
-</div>
 </details>
 
 <details>
 <summary><strong>에이전트 역할(Agent Roles)과 권한을 어떻게 관리하나요?</strong></summary>
-
-<div>
 
 **기본 역할 유형:**
 - **Admin**: 모든 설정에 대한 전체 권한
@@ -48,162 +45,133 @@ Freshservice의 에이전트 및 그룹 관리에 대한 자주 묻는 질문들
 
 **권한 적용:**
 1. **Admin** > **People** > **Agents**에서 에이전트를 선택합니다
-2. **Role** 드롭다운에서 적절한 역할을 할당합니다
-
-</div>
-3. **Save**를 클릭하여 저장합니다
+2. **Roles** 탭에서 적절한 역할을 할당합니다
+3. **Save**를 클릭하여 변경사항을 저장합니다
 
 </details>
-
----
 
 <details>
 <summary><strong>그룹(Groups)을 생성하고 관리하는 방법은 무엇인가요?</strong></summary>
 
 **그룹 생성:**
-1. **Admin > People > Groups**로 이동합니다
+1. **Admin** > **People** > **Groups**로 이동합니다
 2. **New Group** 버튼을 클릭합니다
-3. 그룹 정보를 입력합니다:
-   - **Group Name**: 그룹명 (예: IT Support, HR Team)
-   - **Description**: 그룹 설명
-   - **Group Lead**: 그룹 리더 지정
-   - **Escalation**: 에스컬레이션 설정
+3. 그룹 이름과 설명을 입력합니다
+**그룹 생성:**
+1. **Admin** > **People** > **Groups**로 이동합니다
+2. **New Group** 버튼을 클릭합니다
+3. 그룹 이름과 설명을 입력합니다
+4. 그룹 리더를 지정합니다
+5. 그룹 구성원을 추가합니다
 
-**에이전트 할당:**
-1. 그룹을 생성한 후 **Members** 탭을 클릭합니다
-2. **Add Members** 버튼을 클릭합니다
-3. 추가할 에이전트를 선택합니다
-4. **Add**를 클릭하여 완료합니다
-
-**그룹 설정:**
-- **Auto-Assignment**: 라운드 로빈, 균등 분배, 기술 기반 등
-- **Working Hours**: 그룹별 업무 시간 설정
-- **SLA**: 그룹별 서비스 수준 계약
-- **Escalation Rules**: 자동 에스컬레이션 규칙
+**그룹 관리 기능:**
+- **에이전트 할당**: 여러 에이전트를 그룹에 추가/제거
+- **자동 할당**: 특정 조건에 따른 티켓 자동 할당 설정
+- **에스컬레이션**: 그룹 내 에스컬레이션 규칙 설정
+- **업무 시간**: 그룹별 운영 시간 설정
 
 </details>
 
----
+## ⚙️ 운영 설정
 
 <details>
 <summary><strong>에이전트의 업무 시간(Working Hours)을 어떻게 설정하나요?</strong></summary>
 
 **개별 에이전트 업무 시간 설정:**
-1. **Admin > People > Agents**에서 에이전트를 선택합니다
-2. **Working Hours** 탭을 클릭합니다
-3. 요일별로 근무 시간을 설정합니다:
-   - 시작 시간과 종료 시간
-   - 점심시간 또는 휴게시간
-   - 휴무일 설정
+1. **Admin** > **People** > **Agents**에서 에이전트를 선택합니다
+2. **Profile** 탭에서 **Working Hours** 섹션을 찾습니다
+3. 각 요일별로 근무 시간을 설정합니다
+4. 공휴일과 휴가 일정도 추가할 수 있습니다
 
 **그룹별 업무 시간 설정:**
-1. **Admin > People > Groups**에서 그룹을 선택합니다
-2. **Working Hours** 섹션에서 설정합니다
-3. 그룹 전체의 운영 시간을 정의합니다
+1. **Admin** > **People** > **Groups**에서 그룹을 선택합니다
+2. **Settings** 탭에서 **Business Hours**를 설정합니다
+3. SLA 계산과 자동 할당에 이 설정이 반영됩니다
 
-**업무 시간 영향:**
-- SLA 계산 시 업무 시간만 포함
-- 자동 응답 및 알림 스케줄링
-- 에스컬레이션 규칙 적용 시간
-- 보고서의 응답 시간 계산
-
-**휴일 설정:**
-1. **Admin > General Settings > Business Hours**로 이동합니다
-2. **Holidays** 탭에서 공휴일을 추가합니다
-3. 국가별 또는 지역별 휴일 설정이 가능합니다
+**타임존 관리:**
+- 글로벌 팀의 경우 각 에이전트의 타임존을 정확히 설정
+- 티켓 할당 시 에이전트의 현재 업무 시간을 고려
+- 에스컬레이션 규칙에서 업무 시간 외 처리 방법 정의
 
 </details>
-
----
 
 <details>
 <summary><strong>티켓 할당 규칙을 어떻게 설정하나요?</strong></summary>
 
-**자동 할당 방법:**
-
-**1. 라운드 로빈 (Round Robin):**
-- 그룹 내 에이전트들에게 순서대로 티켓 할당
-- 가장 공평한 분배 방식
-
-**2. 균등 분배 (Load Balancing):**
-- 현재 티켓 수가 가장 적은 에이전트에게 할당
-- 업무량 균형 유지
-
-**3. 기술 기반 (Skill-based):**
-- 에이전트의 전문 기술과 매칭하여 할당
-- 티켓 카테고리별 전문가 배정
-
-**할당 규칙 설정:**
-1. **Admin > Workflow Automator > Assignment Rules**로 이동합니다
-2. **New Assignment Rule**을 클릭합니다
-3. 조건을 설정합니다:
-   - 티켓 유형 (Incident, Service Request)
-   - 카테고리 또는 서브카테고리
+**자동 할당 설정:**
+1. **Admin** > **Automation** > **Dispatch'r Rules**로 이동합니다
+2. **New Rule**을 클릭하여 새 규칙을 생성합니다
+3. 할당 조건을 설정합니다:
+   - 티켓 카테고리
    - 우선순위 레벨
-   - 요청자의 부서나 위치
+   - 요청자 그룹
+   - 키워드 또는 태그
 
-4. 액션을 설정합니다:
-   - 특정 에이전트 할당
-   - 특정 그룹 할당
-   - 자동 할당 방식 선택
-
-**수동 할당:**
-- 티켓 상세 페이지에서 직접 에이전트 변경 가능
-- 그룹 이동 및 재할당 기능
-- 에스컬레이션을 통한 상위 레벨 할당
+**할당 방법:**
+- **Round Robin**: 그룹 내 에이전트에게 순차적으로 할당
+- **Load Balancing**: 현재 업무량을 고려한 균등 분배
+- **Skill-based**: 에이전트의 전문 분야에 따른 할당
+- **Manual**: 수동 할당 대기
 
 </details>
-
----
 
 <details>
 <summary><strong>에이전트의 서명(Signature)과 프로필을 어떻게 관리하나요?</strong></summary>
 
-**에이전트 프로필 설정:**
-1. 에이전트가 직접 프로필을 업데이트할 수 있는 항목:
-   - 개인 정보 (이름, 연락처)
-   - 프로필 사진
-   - 언어 설정
-   - 시간대 설정
+**개인 서명 설정:**
+1. 에이전트가 본인 프로필에 로그인합니다
+2. **Profile** > **Signature** 섹션으로 이동합니다
+3. 이메일 서명과 티켓 댓글 서명을 각각 설정할 수 있습니다
+4. HTML 형식을 지원하여 로고나 연락처 정보 포함 가능
 
-2. 관리자만 수정 가능한 항목:
-   - 이메일 주소
-   - 역할 및 권한
-   - 그룹 소속
-   - 업무 시간
-
-**이메일 서명 설정:**
-1. 개별 에이전트 서명:
-   - 에이전트가 **Profile Settings > Email Signature**에서 설정
-   - HTML 형식 지원
-   - 이미지 및 링크 포함 가능
-
-2. 그룹 공통 서명:
-   - **Admin > Email > Email Settings**에서 설정
-   - 그룹별로 다른 서명 템플릿 적용 가능
-   - 변수를 사용하여 동적 내용 포함
+**관리자 권한 서명 관리:**
+1. **Admin** > **People** > **Agents**에서 에이전트를 선택합니다
+2. **Profile** 탭에서 **Signature** 섹션을 편집합니다
+3. 회사 표준 서명 템플릿을 적용할 수 있습니다
 
 **서명 템플릿 예시:**
-```html
-Best regards,
-{{agent.name}}
-{{agent.title}}
-{{agent.phone}}
-{{agent.email}}
-{{company.name}}
+```
+[이름]
+[직책] | [부서]
+[회사명]
+📧 [이메일] | 📞 [전화번호]
+🌐 [웹사이트] | 📍 [위치]
 ```
 
-**프로필 사진 관리:**
-- 150x150 픽셀 권장
-- JPG, PNG 형식 지원
-- 최대 파일 크기: 1MB
+</details>
+
+## 📊 성과 및 모니터링
+
+<details>
+<summary><strong>에이전트별 성과 및 업무량을 어떻게 모니터링하나요?</strong></summary>
+
+**기본 성과 지표:**
+1. **Admin** > **Reports** > **Agent Performance**로 이동합니다
+2. 다음 지표들을 확인할 수 있습니다:
+   - 해결된 티켓 수
+   - 평균 해결 시간
+   - 고객 만족도 점수
+   - 첫 응답 시간
+   - SLA 준수율
+
+**상세 분석:**
+- **업무량 분포**: 에이전트별 티켓 처리량 비교
+- **시간별 분석**: 시간대별 활동 패턴 분석
+- **카테고리별 성과**: 특정 유형의 문제 해결 능력
+- **트렌드 분석**: 월별/분기별 성과 변화 추이
+
+**실시간 모니터링:**
+- **Dashboard** 뷰에서 현재 할당된 티켓 수 확인
+- 대기 중인 티켓과 응답 대기 시간 모니터링
+- 에이전트 온라인 상태와 가용성 확인
+- 긴급 티켓에 대한 즉시 알림 설정
 
 </details>
 
 ---
 
 <details>
-<summary><strong>에이전트별 성과 및 업무량을 어떻게 모니터링하나요?</strong></summary>
+<summary><strong>에이전트 성과 지표와 KPI는 어떻게 확인하나요?</strong></summary>
 
 **성과 지표 (KPIs):**
 
@@ -247,8 +215,6 @@ Best regards,
 
 </details>
 
----
-
 <details>
 <summary><strong>에이전트 그룹 간 티켓 이동 및 에스컬레이션은 어떻게 처리하나요?</strong></summary>
 
@@ -289,8 +255,6 @@ Level 1: Help Desk → Level 2: Technical Support → Level 3: Senior Engineers
 - 컨설테이션 모드 활용
 
 </details>
-
----
 
 <details>
 <summary><strong>에이전트 권한과 역할별 접근 제어는 어떻게 설정하나요?</strong></summary>
@@ -385,8 +349,6 @@ Level 1: Help Desk → Level 2: Technical Support → Level 3: Senior Engineers
 
 </details>
 
----
-
 <details>
 <summary><strong>다중 그룹 소속과 크로스 기능 팀 관리는 어떻게 하나요?</strong></summary>
 
@@ -425,8 +387,6 @@ Level 1: Help Desk → Level 2: Technical Support → Level 3: Senior Engineers
 - 성과 측정 및 보고
 
 </details>
-
----
 
 <details>
 <summary><strong>에이전트 성과 평가와 KPI 관리는 어떻게 수행하나요?</strong></summary>
@@ -487,8 +447,6 @@ Level 1: Help Desk → Level 2: Technical Support → Level 3: Senior Engineers
 
 </details>
 
----
-
 <details>
 <summary><strong>원격 근무와 하이브리드 팀 관리는 어떻게 하나요?</strong></summary>
 
@@ -541,8 +499,6 @@ Level 1: Help Desk → Level 2: Technical Support → Level 3: Senior Engineers
 - 접속 로그 모니터링
 
 </details>
-
----
 
 <details>
 <summary><strong>그룹별 SLA와 에스컬레이션 매트릭스는 어떻게 구성하나요?</strong></summary>
@@ -600,8 +556,6 @@ Agent → Team Lead → Manager → Director
 - 에스컬레이션 이유 분석
 
 </details>
-
----
 
 <details>
 <summary><strong>에이전트 교육과 인증 관리는 어떻게 수행하나요?</strong></summary>
@@ -672,8 +626,6 @@ Agent → Team Lead → Manager → Director
 
 </details>
 
----
-
 <details>
 <summary><strong>팀 간 협업과 지식 공유는 어떻게 촉진하나요?</strong></summary>
 
@@ -729,8 +681,6 @@ Agent → Team Lead → Manager → Director
 
 </details>
 
----
-
 <details>
 <summary><strong>에이전트 라이센스와 시트 관리는 어떻게 하나요?</strong></summary>
 
@@ -764,8 +714,6 @@ Agent → Team Lead → Manager → Director
 - 갱신 주기 관리
 
 </details>
-
----
 
 <details>
 <summary><strong>에이전트 자동화와 봇 통합 관리는 어떻게 설정하나요?</strong></summary>
@@ -813,8 +761,6 @@ Agent → Team Lead → Manager → Director
 - 처리 시간 단축 효과
 
 </details>
-
----
 
 <details>
 <summary><strong>다국어 지원과 글로벌 팀 관리는 어떻게 하나요?</strong></summary>
@@ -867,8 +813,6 @@ Agent → Team Lead → Manager → Director
 
 </details>
 
----
-
 <details>
 <summary><strong>에이전트 모바일 앱과 원격 액세스 관리는 어떻게 하나요?</strong></summary>
 
@@ -917,8 +861,6 @@ Agent → Team Lead → Manager → Director
 - 오프라인 작업 제한
 
 </details>
-
----
 
 <details>
 <summary><strong>에이전트 피드백과 개선 제안 시스템은 어떻게 운영하나요?</strong></summary>
@@ -973,8 +915,6 @@ Agent → Team Lead → Manager → Director
 
 </details>
 
----
-
 <details>
 <summary><strong>특수 상황 및 위기 대응 팀 관리는 어떻게 하나요?</strong></summary>
 
@@ -1024,8 +964,6 @@ Level 4 (Critical): 데이터 손실 또는 보안 침해
 
 </details>
 
----
-
 <details>
 <summary><strong>계약직과 외부 에이전트 관리는 어떻게 하나요?</strong></summary>
 
@@ -1071,8 +1009,6 @@ Level 4 (Critical): 데이터 손실 또는 보안 침해
 - 정기 보안 감사
 
 </details>
-
----
 
 <details>
 <summary><strong>에이전트 웰빙과 번아웃 방지는 어떻게 관리하나요?</strong></summary>
@@ -1125,8 +1061,6 @@ Level 4 (Critical): 데이터 손실 또는 보안 침해
 
 </details>
 
----
-
 <details>
 <summary><strong>에이전트 데이터 분석과 예측 분석은 어떻게 활용하나요?</strong></summary>
 
@@ -1177,8 +1111,6 @@ Level 4 (Critical): 데이터 손실 또는 보안 침해
 - 예측 모델 결과
 
 </details>
-
----
 
 <details>
 <summary><strong>에이전트 커리어 개발과 승진 경로는 어떻게 관리하나요?</strong></summary>
@@ -1248,8 +1180,6 @@ Technical Lead → Technical Manager → Technical Director
 
 </details>
 
----
-
 <details>
 <summary><strong>에이전트 백업과 대체 인력 관리는 어떻게 하나요?</strong></summary>
 
@@ -1301,8 +1231,6 @@ Technical Lead → Technical Manager → Technical Director
 - 보안 사고 대응
 
 </details>
-
----
 
 <details>
 <summary><strong>에이전트 컴플라이언스와 규정 준수는 어떻게 관리하나요?</strong></summary>
@@ -1358,7 +1286,9 @@ Technical Lead → Technical Manager → Technical Director
 ---
 
 <details>
-<summary><strong>에이전트 품질 보증과 QA 프로세스는 어떻게 운영하나요?</strong></summary>
+<summary>에이전트 품질 보증과 QA 프로세스</summary>
+
+**에이전트 품질 보증과 QA 프로세스는 어떻게 운영하나요?**
 
 **품질 보증 시스템:**
 
@@ -1414,12 +1344,12 @@ Technical Lead → Technical Manager → Technical Director
 - 교육 전문가
 - 프로세스 개선 담당자
 
-</details>
+
 
 ---
 
-<details>
-<summary><strong>에이전트 인센티브와 보상 시스템은 어떻게 설계하나요?</strong></summary>
+
+### 에이전트 인센티브와 보상 시스템은 어떻게 설계하나요?
 
 **보상 체계 설계:**
 
@@ -1484,7 +1414,9 @@ Technical Lead → Technical Manager → Technical Director
 ---
 
 <details>
-<summary><strong>에이전트 스케줄링과 교대 근무 관리는 어떻게 하나요?</strong></summary>
+<summary>에이전트 스케줄링과 교대 근무 관리</summary>
+
+**에이전트 스케줄링과 교대 근무 관리는 어떻게 하나요?**
 
 **스케줄링 시스템:**
 
@@ -1547,12 +1479,12 @@ Follow-the-Sun 모델:
 - 24시간 식음료 서비스
 - 교통편 지원
 
-</details>
+
 
 ---
 
-<details>
-<summary><strong>에이전트 소통과 내부 커뮤니케이션은 어떻게 향상시키나요?</strong></summary>
+
+### 에이전트 소통과 내부 커뮤니케이션은 어떻게 향상시키나요?
 
 **커뮤니케이션 채널:**
 
@@ -1630,7 +1562,9 @@ Follow-the-Sun 모델:
 ---
 
 <details>
-<summary><strong>에이전트 혁신과 개선 문화는 어떻게 조성하나요?</strong></summary>
+<summary>에이전트 혁신과 개선 문화</summary>
+
+**에이전트 혁신과 개선 문화는 어떻게 조성하나요?**
 
 **혁신 문화 구축:**
 
@@ -1708,7 +1642,3 @@ Follow-the-Sun 모델:
 </details>
 
 ---
-
-이제 **총 32개의 완전한 FAQ 섹션**이 완성되었습니다! 🎉
-
-이러한 포괄적인 Agents and Groups 관리 기능들을 통해 조직의 IT 서비스 데스크를 효율적이고 체계적으로 운영할 수 있습니다. 각 기능의 상세한 설정이나 문제 해결이 필요한 경우, Freshservice 관리자 권한을 가진 사용자가 해당 설정 페이지에서 추가 구성을 수행할 수 있습니다.

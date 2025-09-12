@@ -93,21 +93,8 @@ const config: Config = {
               to: '/intro',
             },
             {
-              label: '사용자 관리',
-              to: '/freshservice/getting-started/user-management/understanding-agents',
-            },
-          ],
-        },
-        {
-          title: '커뮤니티',
-          items: [
-            {
-              label: '고객 지원',
-              href: 'https://support.wedosoft.net/',
-            },
-            {
-              label: '문의하기',
-              href: 'https://wedosoft.freshdesk.com/support/tickets/new',
+              label: 'Freshservice FAQ',
+              to: '/freshservice/faqs/agents-and-groups',
             },
           ],
         },
@@ -115,8 +102,8 @@ const config: Config = {
           title: '더보기',
           items: [
             {
-              label: '블로그',
-              to: '/blog',
+              label: '고객 지원',
+              href: 'https://support.wedosoft.net/',
             },
             {
               label: '홈페이지',
