@@ -72,33 +72,31 @@ Change Lifecycle is used to define and control the lifecycle of a change request
 
 ## 📁 필수 디렉토리 구조
 
-모든 문서는 다음 5단계 구조를 **반드시** 따라야 합니다:
+모든 문서는 다음 4단계 구조를 **반드시** 따라야 합니다:
 
 ```
-docs/{vendor}/{product}/{category}/{folder}/{article}
+docs/{product}/{category}/{folder}/{article}
 ```
 
 ### 구조 설명 및 예시
 
 ```
 docs/
-└── freshworks/              # 1. vendor (벤더명)
-    └── freshservice/         # 2. product (제품명)
-        ├── freshservice-faqs/           # 3. category (CSV의 category_name)
-        │   └── automations-and-triggers/    # 4. folder (CSV의 folder_name)
-        │       └── scenario-automations-email-attachment.md  # 5. article
-        └── apps-and-integrations/       # 3. category 
-            └── extending-freshservice-integrations/  # 4. folder
-                └── native-integrations-blossom.md    # 5. article
+└── freshservice/         # 1. product (제품명)
+    ├── freshservice-faqs/           # 2. category (CSV의 category_name)
+    │   └── automations-and-triggers/    # 3. folder (CSV의 folder_name)
+    │       └── scenario-automations-email-attachment.md  # 4. article
+    └── apps-and-integrations/       # 2. category 
+        └── extending-freshservice-integrations/  # 3. folder
+            └── native-integrations-blossom.md    # 4. article
 ```
 
 ### 구조 규칙
 
-1. **vendor**: `freshworks` (고정)
-2. **product**: `freshservice`, `freshdesk` 등
-3. **category**: CSV의 `category_name`을 간단한 slug로 변환
-4. **folder**: CSV의 `folder_name`을 간단한 slug로 변환  
-5. **article**: 개별 문서 파일명 (slug 규칙 적용)
+1. **product**: `freshservice`, `freshdesk` 등
+2. **category**: CSV의 `category_name`을 간단한 slug로 변환
+3. **folder**: CSV의 `folder_name`을 간단한 slug로 변환  
+4. **article**: 개별 문서 파일명 (slug 규칙 적용)
 
 ### 카테고리/폴더 간소화 규칙
 
@@ -119,7 +117,7 @@ docs/
 ```
 
 :::warning 구조 준수 필수
-이 5단계 구조를 벗어나면 사이드바 네비게이션과 URL 구조가 깨집니다. 반드시 준수하세요.
+이 4단계 구조를 벗어나면 사이드바 네비게이션과 URL 구조가 깨집니다. 반드시 준수하세요.
 :::
 
 ## 📝 표준 템플릿
@@ -340,21 +338,23 @@ sidebar_position: 숫자  # 필수: 사이드바 순서
 - **친근하고 실용적**: 딱딱한 매뉴얼보다 실무 가이드 느낌
 - **구체적**: 추상적 설명보다 구체적 예시와 단계
 - **완결성**: 해당 문서만으로도 작업 완료 가능한 수준
+- **초보자 친화적**: 어려운 용어 뒤에는 괄호로 쉬운 설명 추가
+  - 예: "워크플로(업무 흐름)", "자동화 규칙(미리 설정한 동작)", "API(프로그램 간 연결 방법)"
 
 ## 🚀 제품별 적용 가이드
 
 ### Freshservice
-- **경로**: `/docs/freshworks/freshservice/`
+- **경로**: `/docs/freshservice/`
 - **특징**: IT 서비스 관리, 티켓 관리, 자산 관리
 - **주요 사용자**: IT 관리자, 헬프데스크 담당자
 
 ### Freshdesk
-- **경로**: `/docs/freshworks/freshdesk/`
+- **경로**: `/docs/freshdesk/`
 - **특징**: 고객 지원, 티켓 시스템, 지식베이스
 - **주요 사용자**: 고객 상담원, 지원팀 관리자
 
 ### 기타 제품
-- **경로**: `/docs/[제품군]/[제품명]/`
+- **경로**: `/docs/[제품명]/`
 - **특징**: 제품별 고유 기능에 맞게 템플릿 조정
 - **사용자**: 해당 제품 실무 담당자
 
