@@ -1,4 +1,4 @@
-# 신세대 프로젝트 관리 (New-Gen Project Mgmt)
+# New-Gen 프로젝트 관리
 
 Freshservice의 신세대 프로젝트 관리 기능에 대한 자주 묻는 질문들입니다. 총 10개의 FAQ를 포함하고 있습니다.
 

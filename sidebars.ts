@@ -13,7 +13,7 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'category',
-          label: '🚀 PoC 가이드',
+          label: '🧪 PoC 가이드',
           collapsed: true,
           items: [
             'freshservice/poc-guides/comprehensive-poc-guide',
@@ -172,7 +172,7 @@ const sidebars: SidebarsConfig = {
             {
               type: 'doc',
               id: 'freshservice/faqs/new-gen-project-mgmt/index',
-              label: '신세대 프로젝트 관리',
+              label: 'New-Gen 프로젝트 관리',
             },
             {
               type: 'doc',
