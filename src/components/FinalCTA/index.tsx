@@ -17,7 +17,7 @@ const ctaCards: CTACard[] = [
         icon: '🎧',
         title: 'Freshservice 시작하기',
         description: 'IT 서비스 관리의 모든 것',
-        link: '/freshworks/freshservice/getting-started/user-management/understanding-agents',
+        link: '/freshservice/getting-started/user-management/understanding-agents',
         type: 'primary'
     },
     {

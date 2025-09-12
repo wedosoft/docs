@@ -32,7 +32,7 @@ const roles: Role[] = [
         actions: [
             {
                 label: '📋 티켓 생성 가이드',
-                link: '/freshworks/freshservice/getting-started/user-management/understanding-agents',
+                link: '/freshservice/getting-started/user-management/understanding-agents',
                 icon: '📋',
                 type: 'primary'
             },

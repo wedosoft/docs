@@ -25,7 +25,7 @@ const freshworksProducts: SubProduct[] = [
         description: 'IT 서비스 관리 (ITSM)',
         features: ['헬프데스크 티켓 관리', 'IT 자산 및 인벤토리', '사용자 권한 관리', 'SLA 및 워크플로우'],
         status: 'available',
-        link: '/freshworks/freshservice/getting-started/user-management/understanding-agents'
+        link: '/freshservice/getting-started/user-management/understanding-agents'
     },
     {
         icon: '💬',

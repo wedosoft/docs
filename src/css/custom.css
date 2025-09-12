@@ -98,6 +98,107 @@
   transition: color 0.2s ease;
 }
 
+/* Search bar center positioning - Fix absolute centering */
+.navbar__inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.navbar__brand {
+  flex-shrink: 0;
+  z-index: 15;
+}
+
+.navbar__items--right {
+  flex-shrink: 0;
+  z-index: 15;
+}
+
+/* Position search at the navbar level for true centering */
+.navbar__inner .DocSearch {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 10 !important;
+  margin: 0 !important;
+}
+
+/* Remove search from left items */
+.navbar__items--left {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.navbar__items--left .DocSearch {
+  position: static !important;
+  transform: none !important;
+}
+
+/* Hide other left items to make room for centered search */
+.navbar__items--left>*:not(.DocSearch) {
+  display: none;
+}
+
+/* Target the Algolia search specifically */
+.DocSearch {
+  --docsearch-primary-color: var(--ifm-color-primary);
+  --docsearch-searchbox-background: rgba(50, 132, 214, 0.05);
+  --docsearch-searchbox-focus-background: #fff;
+}
+
+.DocSearch-Button {
+  width: 240px !important;
+  max-width: 280px;
+  border-radius: 20px !important;
+  border: 1px solid rgba(50, 132, 214, 0.2) !important;
+  background: rgba(50, 132, 214, 0.05) !important;
+  transition: all 0.2s ease !important;
+}
+
+.DocSearch-Button:hover {
+  background: rgba(50, 132, 214, 0.1) !important;
+  box-shadow: 0 2px 4px rgba(50, 132, 214, 0.1) !important;
+}
+
+[data-theme='dark'] .DocSearch-Button {
+  background: rgba(123, 180, 242, 0.1) !important;
+  border-color: rgba(123, 180, 242, 0.2) !important;
+}
+
+[data-theme='dark'] .DocSearch-Button:hover {
+  background: rgba(123, 180, 242, 0.15) !important;
+}
+
+@media (max-width: 996px) {
+  .navbar__items--left .DocSearch {
+    position: static;
+    transform: none;
+  }
+
+  .navbar__inner {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .DocSearch-Button {
+    width: 100% !important;
+    max-width: 240px;
+  }
+
+  .navbar__items--left>*:not(.DocSearch) {
+    display: flex;
+  }
+}
+
 .navbar__link:hover {
   color: var(--ifm-color-primary);
 }

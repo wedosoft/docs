@@ -70,7 +70,22 @@ const config: Config = {
         srcDark: 'img/logo-dark.svg',
         href: '/intro',
       },
-      items: [],
+      items: [
+        {
+          to: '/intro',
+          label: '문서',
+          position: 'left',
+        },
+        {
+          to: '/blog',
+          label: '블로그',
+          position: 'left',
+        },
+        {
+          type: 'search',
+          position: 'left',
+        },
+      ],
     },
     footer: {
       style: 'dark',
@@ -84,7 +99,7 @@ const config: Config = {
             },
             {
               label: '사용자 관리',
-              to: '/freshworks/freshservice/getting-started/user-management/understanding-agents',
+              to: '/freshservice/getting-started/user-management/understanding-agents',
             },
           ],
         },

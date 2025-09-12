@@ -14,7 +14,7 @@ const learningSteps: LearningStep[] = [
         step: '1️⃣',
         title: '기본 개념 이해',
         description: '에이전트와 요청자 이해하기',
-        link: '/freshworks/freshservice/getting-started/user-management/understanding-agents'
+        link: '/freshservice/getting-started/user-management/understanding-agents'
     },
     {
         step: '2️⃣',
