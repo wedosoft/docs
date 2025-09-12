@@ -2,17 +2,90 @@
 sidebar_position: 1
 ---
 
-# 분석 FAQ
+# 분석 및 리포트
 
-Freshservice의 분석 및 리포트 기능에 관련된 자주 묻는 질문들입니다.
-
-:::info 분석 모듈
 Freshservice의 분석 기능을 통해 티켓, 서비스 요청, 자산 등에 대한 데이터 분석과 리포트 생성이 가능합니다.
+
+:::info 분석 모듈 개요
+분석 모듈은 IT 서비스 관리의 성과를 측정하고 개선점을 파악할 수 있는 강력한 도구입니다. 
+대시보드와 리포트를 통해 실시간 데이터 분석이 가능하며, 다양한 언어로 리포트 확인이 가능합니다.
 :::
 
-## 분석 모듈에서 기본 리포트를 다른 언어로 볼 수 있나요?
+## 다국어 리포트 설정 방법
 
-<p dir="ltr"><span>Yes, you can view the default reports in the analytics module in a different language. Here's how to change the language settings:</span></p><p><br /></p><p><strong>Step 1: Access Language Settings</strong></p><ol><li><span><span>Navigate to <strong>Admin</strong> in your Freshservice account.</span></span></li><li><span><span>Go to <strong>General Settings</strong> > <strong>Helpdesk Settings</strong>.</span></span></li><li><span><span>Click on <strong>Manage Languages</strong> and update the language to your desired language.</span></span></li><li><span><span><strong>Save</strong> the changes.</span></span><br /><br /><span dir="ltr">The analytics module will now display all the default reports in the translated language.</span></li></ol><p><br /></p><p><strong>Important Notes:</strong></p><ul><li>Language changes affect the entire Freshservice interface, including analytics</li><li>Some technical terms may remain in English depending on localization coverage</li><li>Custom report names and descriptions will need to be manually updated</li><li>Date formats and number formats will also change according to the selected language locale</li></ul><p><br /></p><p><strong>Supported Languages:</strong></p><p>Freshservice supports multiple languages including English, Spanish, French, German, Italian, Portuguese, Dutch, Swedish, Danish, and more. Check the language settings page for the complete list of available languages.</p>
+### 분석 모듈 언어 변경
+
+### 분석 모듈 언어 변경
+
+예, 분석 모듈의 기본 리포트를 다양한 언어로 볼 수 있습니다.
+
+**1단계: 언어 설정 접근**
+1. **Admin** 메뉴로 이동
+2. **General Settings > Helpdesk Settings** 선택  
+3. **Manage Languages** 클릭하여 원하는 언어로 변경
+4. **저장** 버튼 클릭
+
+**결과**: 분석 모듈의 모든 기본 리포트가 선택한 언어로 표시됩니다.
+
+:::warning 언어 변경 시 주의사항
+- 언어 변경은 분석뿐만 아니라 Freshservice 전체 인터페이스에 적용됩니다
+- 지역화 범위에 따라 일부 기술 용어는 영어로 유지될 수 있습니다  
+- 사용자 정의 리포트 이름과 설명은 수동으로 업데이트해야 합니다
+- 날짜 형식과 숫자 형식도 선택한 언어 지역에 따라 변경됩니다
+:::
+
+### 지원 언어
+
+Freshservice는 다음과 같은 다양한 언어를 지원합니다:
+- 영어, 스페인어, 프랑스어, 독일어, 이탈리아어
+- 포르투갈어, 네덜란드어, 스웨덴어, 덴마크어 등
+
+:::tip 언어 설정 팁
+언어 설정 페이지에서 지원되는 전체 언어 목록을 확인할 수 있습니다.
+:::
+
+## 실무 활용 예시
+
+### 상황 1: 다국적 기업의 글로벌 리포트
+**목표**: 각 지역 관리자가 자국 언어로 리포트 확인
+**방법**:
+1. 지역별 관리자 계정에 해당 언어 설정
+2. 동일한 리포트 템플릿을 각 언어로 생성
+3. 정기적인 리포트 배포 자동화 설정
+
+**결과**: 언어 장벽 없는 효율적인 성과 관리
+
+### 상황 2: 다국어 고객 지원팀 운영
+**목표**: 각 언어권 팀별 성과 분석
+**방법**:
+1. 팀별 언어 설정을 통한 현지화된 리포트 생성
+2. 언어별 티켓 분류 및 응답 시간 분석
+3. 문화적 특성을 고려한 KPI 설정
+
+**결과**: 더욱 정확한 팀별 성과 측정 및 개선
+
+## 문제 해결
+
+### 자주 발생하는 문제
+
+#### 문제: 언어 변경 후 일부 항목이 여전히 영어로 표시됨
+**원인**: 해당 항목이 아직 지역화되지 않았거나 사용자 정의 설정
+**해결**: 
+1. 사용자 정의 필드나 리포트 이름을 수동으로 번역
+2. Freshservice 지원팀에 추가 지역화 요청
+3. 브라우저 캐시 삭제 후 재접속
+
+:::success 해결 완료
+언어 설정이 올바르게 적용되어 리포트가 선택한 언어로 표시됩니다.
+:::
+
+#### 문제: 날짜 형식이 예상과 다르게 표시됨
+**원인**: 언어 지역 설정에 따른 자동 형식 변경
+**해결**:
+1. 개별 사용자 프로필에서 날짜 형식 확인
+2. 필요시 관리자 설정에서 기본 형식 조정
+3. 리포트별 날짜 형식 사용자 정의 설정
+
 
 ---
 

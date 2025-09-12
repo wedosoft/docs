@@ -1,1 +1,248 @@
-# Release 릴리스 관리 관련 자주 묻는 질문과 답변입니다. <details><summary>What are the 4 release types?</summary><p ><span >The 4 types of release within Freshservice are Minor,Standard,Major and Emergency</span></p></details><details><summary>Can more than one change be associated to a release?</summary><p ><span >Yes, we would be able to associate more than one change to a release from the release ticket.</span></p><p ><br/></p><p ><span ><span ><span ><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000201498/original/2Sb5sX58SSSvmO0eNe-F_a3O9K51ljDSfg.png?1568767255" width="466" height="266" ></img></span></span></span><br/></p></details><details><summary>Can a requester view the release ticket?</summary><p ><span >No it is not possible for a requester to view the release ticket. It is only for agents.</span></p></details><details><summary>How do you run a report on Release?</summary><p ><span >Freshservice provides a comprehensive way to track and manage your releases. One of the useful features is the ability to run a report or create a widget on your releases. This can be done by following these simple steps:</span></p><ol><li ><span ><span ><span >Navigate to <strong>Reporting</strong> icon &gt; <strong>Analytics</strong> and click on <strong>New Report</strong>.</span></span></span></li><li ><span ><span ><span >Let's consider adding a Chart to our report. Drag and drop a <strong>Chart</strong> and <strong>expand</strong> the chart.</span></span></span></li><li ><span >Give your chart configuration a <strong>name</strong>.</span></li><li ><span ><span ><span >Under <strong>Metrics</strong> - choose <strong>Releases</strong> and <span >provide additional details based on your business requirement</span></span></span></span><span ><span ><span ><span >s.</span></span></span></span></li><li ><span ><span ><span ><span ></span></span></span></span><span ><span ><span >Click <strong>Apply</strong> to run the report.</span></span></span><br/><br/><span ><span ><span ><span ><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008259805/original/znc9y2P8pwgSNCnmb-iw8FBIfGVUHyPgnA.gif?1683108674" alt="Run a report on Release in Freshservice "></img></span></span></span></span><span ><span ><span ><br/><br/><span >You can also create a new report and add a widget from the list of <strong>pre-built widgets</strong> for releases. This makes it easy to keep track of all your releases in one place.</span></span></span></span><br/><br/><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008259847/original/QTVG6QpMA7g5ll9g0A3KP3Ascp-yS15eVg.gif?1683108815" alt="Run a report on Release in Freshservice "></img></li></ol><p ><br/><span ><span ><span >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br/></span></span></span></p><p ><span ><span ><span ><br/></span></span></span></p><p ><span ><span ><br/></span></span></p><p ><br/></p></details><details><summary>How can I add custom fields to the Release form in Freshservice?</summary><p ><span >Here are the steps to add a new field to the Release form in Freshservice:</span></p><ol ><li ><span ><span ><span >Navigate to <strong >Admin</strong> &gt; <strong >Service Management</strong> &gt; <strong >Service Desk Settings</strong> &gt; <strong >Field Manager</strong>.</span></span></span></li><li ><span ><span ><span >Click on the <strong >Release fields</strong> icon.</span></span></span></li><li ><span ><span ><span >Under the Release form tab</span><span >, choose the type of field you want to add from the drop-down menu (text, date, checkbox, etc.).</span></span></span></li><li ><span ><span ><span >Enter a <strong >label</strong> for the field and select whether it's a required field or not.</span></span></span></li><li ><span ><span ><span >Click <strong >Save</strong> to add the new field to the Release form.</span></span><br/></span><br/><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008069585/original/FqWuvqtv1mtlNLcsU6cHyYJMOkx3wpaUgQ.gif?1681104560" alt="Adding a new field to the Release form"></img><span ><span ><br/><br/>Your new field will now be available for use in the Release form.</span></span></li></ol><p ><br/></p></details> 
+---
+sidebar_position: 1
+---
+
+# 릴리스 관리
+
+Freshservice의 릴리스 관리 기능과 관련된 자주 묻는 질문과 답변입니다.
+
+:::info 릴리스 관리 개요
+릴리스 관리는 IT 서비스의 새로운 기능이나 업데이트를 계획, 개발, 테스트, 배포하는 전체 프로세스를 체계적으로 관리하는 기능입니다.
+변경 관리와 연계하여 안전하고 효율적인 서비스 개선을 지원합니다.
+:::
+
+## 릴리스 유형 관리
+
+### 4가지 릴리스 유형이란?
+
+Freshservice에서 제공하는 4가지 릴리스 유형과 각각의 특징 및 활용 방법을 설명합니다.
+
+**릴리스 유형별 특징**:
+
+| 유형 | 설명 | 승인 절차 | 적용 상황 |
+|------|------|-----------|-----------|
+| **Minor** | 소규모 업데이트나 버그 수정 | 간소화된 승인 | 패치, 소규모 기능 개선 |
+| **Standard** | 정기적인 기능 추가나 개선 | 표준 승인 프로세스 | 분기별 업데이트, 신규 기능 |
+| **Major** | 대규모 시스템 변경이나 업그레이드 | 엄격한 다단계 승인 | 시스템 전면 개편, 주요 버전 업그레이드 |
+| **Emergency** | 긴급 상황 대응을 위한 즉시 배포 | 사후 승인 또는 간소화 | 보안 패치, 긴급 버그 수정 |
+
+### 릴리스 유형별 관리 전략
+
+**Minor 릴리스 관리**:
+1. **빠른 승인 절차**: 기술팀 리더 승인만으로 진행
+2. **자동화된 배포**: CI/CD 파이프라인을 통한 자동 배포
+3. **최소 테스트**: 핵심 기능 테스트만 수행
+4. **롤백 준비**: 즉시 롤백 가능한 체계 구축
+
+**Major 릴리스 관리**:
+1. **상세한 계획**: 3-6개월 전부터 계획 수립
+2. **단계적 승인**: CAB(Change Advisory Board) 다단계 승인
+3. **포괄적 테스트**: 전체 시스템 통합 테스트 수행
+4. **점진적 배포**: 단계별 배포 및 영향도 모니터링
+
+:::warning 긴급 릴리스 주의사항
+Emergency 릴리스는 신속성이 중요하지만, 사후 검토와 문서화를 반드시 수행하여 향후 개선점을 도출해야 합니다.
+:::
+
+## 변경-릴리스 연계 관리
+
+### 릴리스에 다중 변경 연결
+
+하나의 릴리스에 여러 개의 변경(Change) 요청을 연결하여 통합적으로 관리하는 방법입니다.
+
+**다중 변경 연결 과정**:
+1. **릴리스 티켓 생성**: 전체 릴리스 계획 수립
+2. **변경 요청 식별**: 릴리스에 포함될 개별 변경 사항 목록화
+3. **변경 연결**: 릴리스 티켓에서 관련 변경 요청들을 연결
+4. **의존성 관리**: 변경 간의 순서와 의존성 정의
+5. **통합 승인**: 전체 릴리스에 대한 종합적 승인
+
+![릴리스-변경 연결](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000201498/original/2Sb5sX58SSSvmO0eNe-F_a3O9K51ljDSfg.png?1568767255)
+
+**연결의 장점**:
+- **일관된 관리**: 관련 변경들을 하나의 릴리스로 통합 관리
+- **의존성 추적**: 변경 간의 상호 의존성 시각적 관리
+- **리스크 평가**: 전체 릴리스의 종합적 리스크 분석
+- **일정 조율**: 모든 변경의 통합 일정 관리
+
+### 변경 우선순위 관리
+
+**변경 분류 기준**:
+1. **비즈니스 임팩트**: 사용자 영향도 및 비즈니스 가치
+2. **기술적 복잡도**: 구현 난이도 및 필요 리소스
+3. **리스크 수준**: 실패 시 영향 범위 및 심각도
+4. **의존성**: 다른 변경과의 선후 관계
+
+## 릴리스 가시성 및 권한
+
+### 요청자 릴리스 접근 권한
+
+릴리스 티켓은 에이전트 전용 기능으로, 일반 요청자는 직접 조회할 수 없습니다.
+
+**권한 구조**:
+- **에이전트**: 모든 릴리스 정보 접근 및 관리 가능
+- **요청자**: 직접 접근 불가, 관련 변경 요청을 통해 간접 확인
+- **관리자**: 전체 릴리스 관리 및 권한 설정
+
+**요청자 정보 제공 방안**:
+1. **변경 요청 연계**: 개별 변경 요청을 통한 정보 제공
+2. **공지사항 활용**: 중요한 릴리스 정보를 공지사항으로 안내
+3. **서비스 카탈로그**: 릴리스 관련 서비스 요청 템플릿 제공
+4. **대시보드 공유**: 릴리스 현황을 요약한 대시보드 제공
+
+:::tip 투명성 확보 방법
+요청자의 직접 접근은 제한되지만, 정기적인 릴리스 현황 보고서나 이메일 업데이트를 통해 필요한 정보를 제공할 수 있습니다.
+:::
+
+## 릴리스 리포팅
+
+### 릴리스 리포트 생성
+
+릴리스 활동을 추적하고 관리하는 포괄적인 리포트 생성 방법입니다.
+
+**1단계: 리포트 설정**
+1. **Reporting > Analytics**로 이동
+2. **New Report** 클릭
+3. **Chart** 위젯을 드래그 앤 드롭으로 추가
+4. 차트 확장 후 설정 시작
+
+**2단계: 릴리스 메트릭 구성**
+1. **차트 이름** 입력 (예: "월간 릴리스 현황")
+2. **Metrics** 섹션에서 **Releases** 선택
+3. 비즈니스 요구사항에 따른 세부 설정:
+   - 릴리스 유형별 분포
+   - 상태별 릴리스 수
+   - 기간별 릴리스 트렌드
+   - 성공률 및 실패율
+
+**3단계: 리포트 실행**
+1. **Apply** 버튼 클릭하여 리포트 생성
+2. 결과 확인 및 차트 형식 조정
+3. 필요시 추가 필터링 적용
+
+![릴리스 리포트 생성](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008259805/original/znc9y2P8pwgSNCnmb-iw8FBIfGVUHyPgnA.gif?1683108674)
+
+**사전 구축된 위젯 활용**:
+- **Pre-built Widgets**에서 릴리스 관련 위젯 선택
+- 즉시 사용 가능한 다양한 릴리스 분석 차트
+- 커스터마이징을 통한 조직별 특화 리포트
+
+![사전 구축 위젯](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008259847/original/QTVG6QpMA7g5ll9g0A3KP3Ascp-yS15eVg.gif?1683108815)
+
+### 리포트 활용 전략
+
+**정기 리포트 자동화**:
+1. **주간 현황**: 진행 중인 릴리스 상태 및 예정 릴리스
+2. **월간 분석**: 릴리스 성공률, 지연 원인, 개선점
+3. **분기별 리뷰**: 릴리스 전략 효과성 평가
+4. **연간 전략**: 릴리스 프로세스 개선 및 차년도 계획
+
+## 릴리스 커스터마이징
+
+### 릴리스 양식 사용자 정의
+
+릴리스 양식에 조직의 특정 요구사항에 맞는 사용자 정의 필드를 추가하는 방법입니다.
+
+**1단계: 필드 관리자 접근**
+1. **Admin > Service Management > Service Desk Settings**로 이동
+2. **Field Manager** 선택
+3. **Release fields** 아이콘 클릭
+
+**2단계: 사용자 정의 필드 추가**
+1. **Release form** 탭에서 필드 유형 선택:
+   - 텍스트 필드 (단일/다중행)
+   - 날짜/시간 필드
+   - 체크박스/라디오 버튼
+   - 드롭다운 선택 목록
+   - 숫자 필드
+
+2. **필드 속성 설정**:
+   - **Label**: 필드 표시 이름
+   - **Required**: 필수 입력 여부
+   - **Default Value**: 기본값 설정
+   - **Help Text**: 사용자 안내 텍스트
+
+**3단계: 필드 저장 및 적용**
+1. **Save** 버튼으로 필드 저장
+2. 릴리스 양식에 새 필드 자동 추가
+3. 기존 릴리스에는 영향 없음
+
+![릴리스 필드 추가](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008069585/original/FqWuvqtv1mtlNLcsU6cHyYJMOkx3wpaUgQ.gif?1681104560)
+
+### 실용적인 사용자 정의 필드 예시
+
+**비즈니스 관련 필드**:
+- **예상 비용**: 릴리스 구현에 필요한 예산
+- **비즈니스 임팩트**: 예상되는 비즈니스 효과
+- **ROI 기대치**: 투자 대비 예상 수익률
+- **고객 그룹**: 영향받는 고객 세그먼트
+
+**기술적 필드**:
+- **기술 스택**: 사용되는 기술 및 플랫폼
+- **테스트 범위**: 수행할 테스트 유형 및 범위
+- **롤백 계획**: 실패 시 롤백 절차
+- **의존성 시스템**: 연관된 외부 시스템
+
+## 실무 활용 예시
+
+### 상황 1: 대규모 ERP 업그레이드
+**목표**: 전사 ERP 시스템의 메이저 버전 업그레이드
+**방법**:
+1. **Major 릴리스** 유형으로 프로젝트 설정
+2. 20개의 개별 변경 요청을 릴리스에 연결
+3. 3단계 승인 프로세스 (기술팀 → IT 관리자 → 경영진)
+4. 6개월간의 단계적 배포 일정 수립
+
+**결과**: 체계적인 관리로 무중단 업그레이드 성공
+
+### 상황 2: 보안 취약점 긴급 패치
+**목표**: 발견된 보안 취약점의 신속한 패치 배포
+**방법**:
+1. **Emergency 릴리스** 유형으로 즉시 처리
+2. 최소한의 테스트로 신속한 배포
+3. 사후 CAB 리뷰를 통한 프로세스 검증
+4. 영향받은 시스템별 순차적 패치 적용
+
+**결과**: 24시간 내 전체 시스템 보안 패치 완료
+
+### 상황 3: 모바일 앱 정기 업데이트
+**목표**: 월간 모바일 앱 기능 개선 및 버그 수정
+**방법**:
+1. **Standard 릴리스** 유형으로 정기 배포
+2. 개발-테스트-배포의 표준화된 파이프라인
+3. A/B 테스트를 통한 점진적 배포
+4. 사용자 피드백 기반 개선사항 반영
+
+**결과**: 안정적인 월간 업데이트 사이클 구축
+
+## 문제 해결
+
+### 자주 발생하는 문제
+
+#### 문제: 릴리스 일정 지연 빈발
+**원인**: 변경 간 의존성 관리 부족 및 리소스 충돌
+**해결**:
+1. 상세한 의존성 매핑 및 시각화
+2. 리소스 할당 계획의 사전 검토
+3. 버퍼 시간을 포함한 현실적 일정 수립
+4. 정기적인 진행 상황 모니터링 및 조정
+
+:::success 해결 완료
+체계적인 의존성 관리와 현실적 일정 계획으로 릴리스 지연이 크게 감소합니다.
+:::
+
+#### 문제: 릴리스 실패 후 롤백 어려움
+**원인**: 사전 롤백 계획 부족 및 백업 전략 미비
+**해결**:
+1. 모든 릴리스에 대한 필수 롤백 계획 수립
+2. 자동화된 백업 및 복구 프로세스 구축
+3. 롤백 시나리오별 테스트 사전 수행
+4. 긴급 상황 대응팀 및 절차 사전 정의
+
+#### 문제: 스테이크홀더 간 소통 부족
+**원인**: 릴리스 정보 공유 체계 미비
+**해결**:
+1. 릴리스 현황 대시보드 구축 및 공유
+2. 정기적인 릴리스 상태 회의 개최
+3. 자동화된 알림 시스템 구축
+4. 릴리스 관련 문서화 표준 수립 

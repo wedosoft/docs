@@ -2,27 +2,175 @@
 sidebar_position: 1
 ---
 
-# 이메일 설정
+# 이메일 지원 채널 설정
 
-Freshservice의 이메일 지원 채널 설정과 관련된 자주 묻는 질문들입니다.
+이메일을 통해 티켓을 자동 생성하고 관리할 수 있는 이메일 지원 채널 설정 방법입니다.
 
-:::info 이메일 지원 채널
-이메일을 통해 티켓을 자동 생성하고 관리할 수 있는 기능입니다.
+:::info 이메일 지원 채널 개요
+고객이 이메일을 보내면 자동으로 티켓이 생성되어 체계적인 고객 지원이 가능합니다.
+다양한 이메일 서버와 연동하여 안정적인 티켓 생성 환경을 구축할 수 있습니다.
 :::
 
-## 서비스 데스크 이메일 주소 전달 규칙 설정 방법은?
+## 이메일 전달 규칙 설정
 
-<p>Setting up forwarding rules for your service desk email address ensures that emails sent to that address are properly routed to Freshservice for ticket creation and management. Here's how to configure these rules:</p><p><br /></p><p><strong>Step 1: Access Email Settings</strong></p><ul><li>Log into your Freshservice account as an admin</li><li>Navigate to <strong>Admin &gt; Email Settings &gt; Support Email</strong></li></ul><p><br /></p><p><strong>Step 2: Configure Forwarding Rules</strong></p><ul><li>Choose your email provider (Office 365, Gmail, Exchange, etc.)</li><li>Follow the specific setup instructions for your email system</li><li>Set up automatic forwarding to the Freshservice forwarding address provided</li></ul><p><br /></p><p><strong>Step 3: Test the Configuration</strong></p><ul><li>Send a test email to your service desk address</li><li>Verify that a ticket is created in Freshservice</li><li>Check that all email formatting and attachments are preserved</li></ul><p><br /></p><p><strong>Important Considerations:</strong></p><ul><li>Ensure your email forwarding preserves the original sender information</li><li>Configure any necessary spam filters to allow Freshservice emails</li><li>Set up proper authentication (SPF, DKIM) for email delivery</li></ul><p><br /></p><p>For detailed provider-specific instructions, refer to your email system's documentation or contact Freshservice support.</p>
+### 서비스 데스크 이메일 전달 구성
 
----
+### 서비스 데스크 이메일 전달 구성
 
-## 고객이 이메일을 보내서 티켓을 생성할 수 있는 이메일 주소 추가 방법은?
+서비스 데스크 이메일 주소에 전송된 이메일이 Freshservice로 적절히 라우팅되어 티켓 생성 및 관리가 이루어지도록 전달 규칙을 설정합니다.
 
-<p>Adding an email address that allows customers to create tickets by sending emails is a fundamental setup in Freshservice. Here's the complete process:</p><p><br /></p><p><strong>Step 1: Navigate to Email Settings</strong></p><ul><li>Go to <strong>Admin &gt; Email Settings &gt; Support Email</strong></li><li>Click on <strong>Add Email Address</strong> or <strong>New Support Email</strong></li></ul><p><br /></p><p><strong>Step 2: Configure the Email Address</strong></p><ul><li><strong>Email Address:</strong> Enter the email address customers will use (e.g., support@yourcompany.com)</li><li><strong>Department:</strong> Select which department will handle tickets from this email</li><li><strong>Group Assignment:</strong> Choose the default group for tickets</li><li><strong>Priority:</strong> Set default priority level for incoming tickets</li></ul><p><br /></p><p><strong>Step 3: Email Server Configuration</strong></p><p>Choose your setup method:</p><ul><li><strong>Option A - Email Forwarding:</strong> Forward emails to the Freshservice forwarding address</li><li><strong>Option B - IMAP/POP3:</strong> Configure direct email server access</li><li><strong>Option C - Office 365/Google Workspace:</strong> Use OAuth integration</li></ul><p><br /></p><p><strong>Step 4: Activation Process</strong></p><ul><li>Freshservice will send an activation email to your support address</li><li>Click the activation link in the email</li><li>Enter the activation code in your Freshservice admin panel</li><li>Verify the email address is marked as "Active"</li></ul><p><br /></p><p><strong>Step 5: Test Ticket Creation</strong></p><ul><li>Send a test email to your new support address</li><li>Check that a ticket is created with correct information</li><li>Verify that auto-responses are sent to customers</li></ul><p><br /></p><p><strong>Best Practices:</strong></p><ul><li>Use a professional, easy-to-remember email address</li><li>Set up email signatures and auto-responses</li><li>Configure email routing rules based on subject or content</li><li>Ensure proper email authentication (SPF, DKIM, DMARC)</li></ul>
+**1단계: 이메일 설정 접근**
+1. 관리자로 Freshservice 계정에 로그인
+2. **Admin > Email Settings > Support Email**로 이동
 
----
+**2단계: 전달 규칙 구성**
+1. 이메일 제공업체 선택 (Office 365, Gmail, Exchange 등)
+2. 해당 이메일 시스템의 특정 설정 지침 따르기
+3. 제공된 Freshservice 전달 주소로 자동 전달 설정
 
-## 서비스 데스크 이메일 주소 활성화 방법은?
+**3단계: 구성 테스트**
+1. 서비스 데스크 주소로 테스트 이메일 발송
+2. Freshservice에서 티켓 생성 확인
+3. 모든 이메일 형식과 첨부 파일이 보존되는지 확인
+
+:::warning 중요 고려사항
+- 이메일 전달이 원본 발신자 정보를 보존하는지 확인
+- Freshservice 이메일을 허용하도록 스팸 필터 구성
+- 이메일 전송을 위한 적절한 인증(SPF, DKIM) 설정
+:::
+
+:::tip 제공업체별 설정
+상세한 제공업체별 지침은 해당 이메일 시스템 문서를 참조하거나 Freshservice 지원팀에 문의하세요.
+:::
+
+## 고객 이메일 주소 추가
+
+### 티켓 생성용 이메일 주소 설정
+
+고객이 이메일을 보내서 티켓을 생성할 수 있는 이메일 주소를 추가하는 전체 과정입니다.
+
+**1단계: 이메일 설정으로 이동**
+1. **Admin > Email Settings > Support Email** 이동
+2. **Add Email Address** 또는 **New Support Email** 클릭
+
+**2단계: 이메일 주소 구성**
+- **이메일 주소**: 고객이 사용할 이메일 주소 입력 (예: support@yourcompany.com)
+- **부서**: 이 이메일에서 오는 티켓을 처리할 부서 선택
+- **그룹 할당**: 티켓의 기본 그룹 선택
+- **우선순위**: 들어오는 티켓의 기본 우선순위 수준 설정
+
+**3단계: 이메일 서버 구성**
+
+설정 방법을 선택하세요:
+
+| 옵션 | 설명 | 적합한 상황 |
+|------|------|-------------|
+| **이메일 전달** | Freshservice 전달 주소로 이메일 전달 | 기존 이메일 서버 유지 |
+| **IMAP/POP3** | 직접 이메일 서버 접근 구성 | 고급 제어가 필요한 경우 |
+| **OAuth 통합** | Office 365/Google Workspace 연동 | 클라우드 이메일 서비스 사용 |
+
+**4단계: 활성화 프로세스**
+1. Freshservice가 지원 주소로 활성화 이메일 발송
+2. 이메일의 활성화 링크 클릭
+3. Freshservice 관리자 패널에 활성화 코드 입력
+4. 이메일 주소가 "Active"로 표시되는지 확인
+
+**5단계: 티켓 생성 테스트**
+1. 새 지원 주소로 테스트 이메일 발송
+2. 올바른 정보로 티켓이 생성되는지 확인
+3. 고객에게 자동 응답이 발송되는지 확인
+
+:::tip 모범 사례
+- 전문적이고 기억하기 쉬운 이메일 주소 사용
+- 이메일 서명 및 자동 응답 설정
+- 제목이나 내용 기반의 이메일 라우팅 규칙 구성
+- 적절한 이메일 인증(SPF, DKIM, DMARC) 확인
+:::
+
+## 이메일 주소 활성화
+
+### 서비스 데스크 이메일 활성화 절차
+
+설정된 서비스 데스크 이메일 주소를 활성화하여 실제 티켓 생성이 가능하도록 하는 과정입니다.
+
+**1단계: 활성화 이메일 확인**
+1. Freshservice에서 지원 이메일 주소로 발송한 활성화 이메일 확인
+2. 스팸 폴더 포함하여 이메일 수신함 전체 검색
+3. 발신자: noreply@freshservice.com 또는 유사한 주소
+
+**2단계: 활성화 링크 클릭**
+1. 활성화 이메일 내의 **"Activate Email"** 링크 클릭
+2. 새 브라우저 창에서 Freshservice 활성화 페이지 열림
+3. 로그인이 필요한 경우 관리자 계정으로 로그인
+
+**3단계: 활성화 코드 입력**
+1. 이메일에 포함된 활성화 코드 복사
+2. Freshservice 관리자 패널의 이메일 설정으로 이동
+3. 해당 이메일 주소 옆의 활성화 코드 입력 필드에 붙여넣기
+4. **"Verify"** 또는 **"Activate"** 버튼 클릭
+
+**4단계: 활성화 상태 확인**
+1. 이메일 주소 목록에서 상태가 **"Active"**로 표시되는지 확인
+2. 녹색 체크 표시 또는 "활성화됨" 레이블 확인
+3. 필요시 페이지 새로고침
+
+:::success 활성화 완료
+이메일 주소가 성공적으로 활성화되어 고객 이메일로부터 티켓 생성이 가능합니다.
+:::
+
+## 실무 활용 예시
+
+### 상황 1: 다부서 지원 체계 구축
+**목표**: 부서별로 다른 이메일 주소를 통한 티켓 분류
+**방법**:
+1. 부서별 이메일 주소 설정 (it@company.com, hr@company.com)
+2. 각 이메일별 담당 그룹 자동 할당
+3. 부서별 특화된 자동 응답 메시지 설정
+4. 우선순위 및 SLA 규칙 차별화
+
+**결과**: 효율적인 업무 분산 및 전문화된 지원
+
+### 상황 2: 글로벌 고객 지원
+**목표**: 지역별 시간대를 고려한 이메일 지원 체계
+**방법**:
+1. 지역별 이메일 주소 설정 (asia@company.com, europe@company.com)
+2. 지역별 언어 설정 및 자동 응답
+3. 시간대별 에이전트 그룹 할당
+4. 이메일 서명에 현지 연락처 포함
+
+**결과**: 24시간 글로벌 고객 지원 체계 완성
+
+## 문제 해결
+
+### 자주 발생하는 문제
+
+#### 문제: 활성화 이메일이 도착하지 않음
+**원인**: 스팸 필터 또는 이메일 전달 설정 문제
+**해결**:
+1. 스팸/정크 메일 폴더 확인
+2. Freshservice 도메인을 화이트리스트에 추가
+3. 이메일 전달 규칙 재확인
+4. 관리자 패널에서 활성화 이메일 재발송
+
+:::success 해결 완료
+화이트리스트 등록 후 활성화 이메일이 정상 수신됩니다.
+:::
+
+#### 문제: 이메일로 티켓이 생성되지 않음
+**원인**: 전달 규칙 설정 오류 또는 인증 문제
+**해결**:
+1. 이메일 전달 설정 재확인
+2. SPF, DKIM 레코드 확인
+3. 방화벽 설정에서 Freshservice IP 허용
+4. 테스트 이메일로 단계별 확인
+
+#### 문제: 첨부 파일이 누락됨
+**원인**: 첨부 파일 크기 제한 또는 형식 제한
+**해결**:
+1. 첨부 파일 크기 제한 확인 (일반적으로 20MB)
+2. 허용된 파일 형식 확인
+3. 바이러스 검사 통과 여부 확인
+4. 압축 파일로 변환하여 재전송
 
 <p>Activating your service desk email address is crucial for enabling email-to-ticket functionality. Follow this step-by-step process:</p><p><br /></p><p><strong>Step 1: Initial Setup</strong></p><ul><li>Complete the email address configuration in <strong>Admin &gt; Email Settings</strong></li><li>Ensure your email forwarding or server settings are correct</li><li>Save the configuration</li></ul><p><br /></p><p><strong>Step 2: Activation Email</strong></p><ul><li>Freshservice automatically sends an activation email to your support address</li><li>Check your email inbox (and spam folder) for the activation message</li><li>The email will come from <strong>noreply@freshservice.com</strong></li></ul><p><br /></p><p><strong>Step 3: Complete Activation</strong></p><ul><li>Click the <strong>Activate Email Address</strong> link in the email</li><li>This redirects you to a Freshservice activation page</li><li>Enter the activation code shown in the email</li><li>Click <strong>Activate</strong> to complete the process</li></ul><p><br /></p><p><strong>Step 4: Verify Activation</strong></p><ul><li>Return to <strong>Admin &gt; Email Settings &gt; Support Email</strong></li><li>Check that your email address shows as <strong>"Active"</strong></li><li>Send a test email to verify ticket creation</li></ul><p><br /></p><p><strong>Troubleshooting Activation Issues:</strong></p><ul><li><strong>No activation email received:</strong> Check spam folders and email forwarding settings</li><li><strong>Activation link expired:</strong> Request a new activation email from the settings page</li><li><strong>Invalid activation code:</strong> Ensure you're using the latest activation email</li></ul><p><br /></p><p><strong>Manual Activation Alternative:</strong></p><p>If automated activation fails:</p><ul><li>Contact Freshservice support with your domain and email details</li><li>Provide proof of email ownership (DNS records or admin access)</li><li>Support team can manually activate your email address</li></ul>
 

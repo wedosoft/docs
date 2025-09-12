@@ -1,18 +1,162 @@
-# Pricing FAQ 
+---
+sidebar_position: 1
+---
 
-가격 정책 관련 자주 묻는 질문과 답변입니다.
+# 가격 정책
 
-<details>
-<summary>What is considered a chargeable managed asset in Freshservice?</summary>
+Freshservice의 라이선스, 과금, 요금제와 관련된 자주 묻는 질문과 답변입니다.
 
-IT assets can be added to the Asset Management module in Freshservice through multiple channels. This includes: adding them manually importing from a CSV barcode scanning using the mobile app using the Discovery Probe or Agent to discover assets Any device discovered by the Discovery Probe or the Discovery Agent is considered a managed asset. This includes assets scanned using the SCCM integration in the Discovery Probe. A device is also considered a managed asset if it is added using other methods and is later updated using the discovery tools. Only the devices are considered managed assets and customers are not charged for the software discovered from these devices.
+:::info 가격 정책 개요
+Freshservice는 조직의 규모와 필요에 따라 다양한 요금제를 제공합니다.
+에이전트 수, 기능 범위, 관리 자산 수에 따라 합리적인 비용 구조를 설계할 수 있습니다.
+:::
 
-</details>
+## 관리 자산 과금 정책
 
-<details>
-<summary>What's the difference between Full-Time and Occasional Agents?</summary>
+### 과금 대상 관리 자산이란?
 
-Full-time agents are the ones who take care of tickets on a regular basis. Occasional agents can be provided with day passes whenever they need to log in to Freshservice. In terms of pricing, you're charged for your Freshservice account based on the number of full-time agents in your service desk. You can purchase day passes (that are charged per day) for your occasional agents whenever required.
+Freshservice에서 과금 대상이 되는 관리 자산(Chargeable Managed Asset)의 정의와 범위를 설명합니다.
 
-</details>
+**관리 자산 추가 방법**:
+- **수동 추가**: 관리자가 직접 Asset Management 모듈에 추가
+- **CSV 가져오기**: 대량의 자산 정보를 파일로 일괄 등록  
+- **바코드 스캔**: 모바일 앱을 통한 바코드 스캔 등록
+- **Discovery Probe**: 자동 검색 도구를 통한 자산 발견
+- **Discovery Agent**: 네트워크 기반 자산 자동 탐지
+
+**과금 대상 기준**:
+1. **Discovery 도구로 발견된 모든 디바이스**
+   - Discovery Probe로 검색된 디바이스
+   - Discovery Agent로 탐지된 디바이스  
+   - SCCM 통합을 통해 스캔된 자산 포함
+
+2. **수동 등록 후 Discovery로 업데이트된 자산**
+   - 처음에는 수동 등록하였으나
+   - 이후 Discovery 도구로 정보가 업데이트된 디바이스
+
+:::warning 과금 제외 항목
+**소프트웨어는 과금 대상이 아닙니다**
+디바이스에서 발견된 소프트웨어 정보는 별도 과금되지 않으며, 오직 하드웨어 디바이스만 관리 자산으로 과금됩니다.
+:::
+
+### 자산 관리 비용 최적화
+
+**비용 효율적인 자산 관리 전략**:
+
+1. **선택적 관리**: 중요한 자산만 Discovery 도구로 관리
+2. **수동 관리 활용**: 간단한 자산은 수동 등록으로 관리
+3. **정기적인 검토**: 불필요한 관리 자산 식별 및 제거
+4. **그룹별 관리**: 부서별, 지역별로 관리 범위 조정
+
+## 에이전트 유형 및 과금
+
+### 정규직 vs. 임시 에이전트
+
+Freshservice의 에이전트 유형에 따른 과금 방식과 효율적인 라이선스 관리 방법입니다.
+
+**정규직 에이전트 (Full-Time Agents)**:
+- **정의**: 정기적으로 티켓을 처리하는 상시 근무 에이전트
+- **과금 방식**: 월간 구독 기준으로 과금
+- **포함 기능**: 모든 Freshservice 기능에 대한 전체 접근 권한
+- **적합한 대상**: IT 지원팀, 헬프데스크 담당자, 서비스 관리자
+
+**임시 에이전트 (Occasional Agents)**:
+- **정의**: 필요에 따라 간헐적으로 접근하는 에이전트
+- **과금 방식**: 일일 패스(Day Pass) 단위로 과금
+- **사용 시나리오**: 
+  - 외부 컨설턴트나 계약직 직원
+  - 임시 프로젝트 참여자
+  - 특정 상황에만 접근이 필요한 관리자
+
+### 라이선스 최적화 전략
+
+**1단계: 에이전트 유형 분석**
+1. **업무 패턴 분석**: 각 사용자의 Freshservice 접근 빈도 조사
+2. **역할 정의**: 상시 접근 vs. 간헐적 접근 필요성 구분
+3. **비용 계산**: 정규직 라이선스 vs. 일일 패스 비용 비교
+
+**2단계: 라이선스 배정**
+- **정규직 라이선스**: 월 15일 이상 접근하는 사용자
+- **일일 패스**: 월 5일 미만 접근하는 사용자  
+- **혼합 운영**: 피크 시즌에는 일시적으로 정규직 라이선스 증설
+
+:::tip 비용 절약 팁
+임시 에이전트를 위한 일일 패스는 필요할 때만 구매하여 불필요한 고정 비용을 절약할 수 있습니다.
+월간 접근 빈도가 낮은 사용자는 일일 패스가 더 경제적입니다.
+:::
+
+### 라이선스 관리 모범 사례
+
+**정기적인 라이선스 검토**:
+1. **월간 사용량 분석**: 각 에이전트의 실제 사용 패턴 모니터링
+2. **비활성 계정 정리**: 장기간 미사용 계정의 라이선스 회수
+3. **계절적 조정**: 비즈니스 주기에 따른 라이선스 수량 조정
+4. **역할 재배정**: 업무 변화에 따른 에이전트 유형 재분류
+
+**계정 관리 자동화**:
+- **자동 비활성화**: 일정 기간 미접속 시 자동 라이선스 해제
+- **승인 워크플로**: 새 라이선스 요청에 대한 승인 프로세스
+- **사용량 알림**: 라이선스 한도 도달 시 관리자 알림
+- **갱신 알림**: 라이선스 만료 전 자동 갱신 안내
+
+## 실무 활용 예시
+
+### 상황 1: 중소 IT 서비스 회사
+**목표**: 20명 규모 IT 팀의 비용 효율적인 라이선스 구성
+**방법**:
+- 핵심 헬프데스크 직원 10명: 정규직 라이선스
+- 개발팀 리더 5명: 임시 에이전트 (월 2-3일 접근)
+- 외부 컨설턴트 5명: 필요시 일일 패스 구매
+
+**결과**: 월간 라이선스 비용 40% 절감
+
+### 상황 2: 글로벌 제조업체
+**목표**: 다지역 자산 관리 및 지역별 비용 최적화
+**방법**:
+- 본사: 전체 자산에 대한 Discovery 도구 활용
+- 지사: 핵심 자산만 선별적 관리
+- 원격 사무소: 수동 등록으로 기본 관리
+
+**결과**: 관리 자산 수 60% 감소로 비용 대폭 절감
+
+### 상황 3: 계절성 비즈니스
+**목표**: 성수기/비수기에 따른 유연한 라이선스 운영
+**방법**:
+- 기본: 핵심 인력 10명 정규직 라이선스 유지
+- 성수기: 추가 인력 20명 임시 라이선스 활용
+- 비수기: 최소 인력으로 운영, 나머지는 일일 패스
+
+**결과**: 연간 라이선스 비용 30% 절감 및 유연성 확보
+
+## 문제 해결
+
+### 자주 발생하는 문제
+
+#### 문제: 예상보다 높은 자산 관리 비용
+**원인**: Discovery 도구가 의도치 않은 자산까지 탐지
+**해결**:
+1. Discovery 범위 재설정으로 필요한 자산만 탐지
+2. 불필요한 자산의 관리 대상 제외 설정
+3. 수동 관리와 자동 탐지의 적절한 혼합 운영
+4. 정기적인 자산 목록 검토 및 정리
+
+:::success 해결 완료
+Discovery 범위 조정으로 관리 자산 수가 적정 수준으로 조정됩니다.
+:::
+
+#### 문제: 라이선스 부족으로 인한 접근 제한
+**원인**: 예상보다 많은 사용자의 동시 접근 필요
+**해결**:
+1. 사용 패턴 분석으로 피크 시간대 파악
+2. 교대 근무나 시간대별 접근 권한 조정
+3. 긴급 상황을 위한 여유 라이선스 확보
+4. 일일 패스를 활용한 임시 접근 권한 제공
+
+#### 문제: 비용 관리의 어려움
+**원인**: 다양한 과금 요소로 인한 복잡한 비용 구조
+**해결**:
+1. 월간/분기별 정기 비용 리뷰 회의 개최
+2. 대시보드를 통한 실시간 사용량 모니터링
+3. 예산 대비 실제 사용량 분석 리포트 작성
+4. 비용 최적화 기회 식별 및 실행
 
