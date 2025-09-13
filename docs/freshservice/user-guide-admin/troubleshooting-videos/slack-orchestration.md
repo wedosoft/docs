@@ -10,7 +10,9 @@ sidebar_position: 1
 
 Freshservice와 Slack 통합을 통해 팀 협업을 강화하고 IT 지원 프로세스를 더욱 효율적으로 만들 수 있습니다. 실시간 알림, 티켓 관리, 팀 커뮤니케이션을 Slack 채널에서 직접 처리할 수 있습니다.
 
-<p>Slack Orchestration</p>
+:::info Slack 오케스트레이션 개요
+Slack을 통한 티켓 관리, 실시간 알림, 팀 협업을 위한 완전한 통합 솔루션입니다.
+:::
 
 ## 🎯 한국 기업 활용 시나리오
 
