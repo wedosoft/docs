@@ -196,8 +196,3 @@ sidebar_position: 4
 - 상담원들의 피드백을 정기적으로 수집하여 개선하세요
 :::
 
-## 관련 문서
-
-- [상담원 그룹에 멤버/옵저버 추가](./add-members-observers-agent-groups)
-- [상담원 역할 및 권한 설정](./setting-agent-roles-permissions)
-- [요청자 그룹 생성 및 관리](./create-manage-requester-groups)

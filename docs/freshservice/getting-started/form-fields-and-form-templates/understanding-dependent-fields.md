@@ -214,16 +214,3 @@ sidebar_position: 5
 - **사용자 피드백**: 실제 사용자의 의견을 반영한 구조 개선
 - **성능 모니터링**: 너무 복잡한 구조로 인한 성능 저하 방지
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [종속 필드 활용 가이드](./using-dependent-fields-tickets-problems-changes-releases)
-- [드롭다운 필드 설정](./setting-up-dropdown-fields)
-- [동적 섹션 활용](./using-dynamic-sections-ticket-forms)
-- [사용자 정의 필드 생성](./creating-custom-fields-ticket-problem-change-release-task-form)
--->

@@ -209,16 +209,3 @@ sidebar_position: 10
 
 요청자용 비즈니스 규칙이 최적으로 작동하려면 필드가 폼 필드에서 표시 가능하고 편집 가능하도록 구성되어야 해요.
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [비즈니스 규칙 사용 사례](./business-rules-usecases)
-- [비즈니스 규칙 문제 해결 가이드](./business-rules-troubleshooting-guide)
-- [사용자 정의 필드 생성](./creating-custom-fields-ticket-problem-change-release-task-form)
-- [종속 필드 이해](./understanding-dependent-fields)
--->

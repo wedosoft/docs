@@ -143,9 +143,3 @@ https://yourcompany.freshservice.com/api/v2/agents
 2. 상담원 ID가 유효한 숫자인지 확인
 3. URL 형식이 올바른지 재확인
 
-## 관련 문서
-
-- [상담원 정보 내보내기](./exporting-agent-information.md)
-- [상담원 역할 및 권한 설정](./setting-agent-roles-permissions.md)
-- [상담원 그룹 생성 및 관리](./create-manage-agent-groups.md)
-- [Freshservice API 문서](https://developers.freshservice.com/)

@@ -134,7 +134,3 @@ sidebar_position: 2
 - 워크스페이스 기능을 사용하는 경우 글로벌 설정과 워크스페이스별 설정을 구분해서 관리하세요.
 :::
 
-## 관련 문서
-- [풀타임과 임시 상담원 이해](./understanding-agents)
-- [상담원 그룹 생성 및 관리](./create-manage-agent-groups)
-- [상담원 정보 내보내기](./exporting-agent-information)

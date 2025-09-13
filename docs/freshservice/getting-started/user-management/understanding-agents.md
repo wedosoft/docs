@@ -158,6 +158,3 @@ Freshservice는 조직의 다양한 업무 패턴에 맞춰 **풀타임 상담�
 워크플로 자동화, 통합, 사용자 정의 앱 등에서 임시 상담원의 API 키를 사용하면 데이 패스가 소모돼요.
 :::
 
-## 관련 문서
-- [상담원 역할과 권한 설정](./setting-agent-roles-permissions)
-- [상담원 그룹 생성 및 관리](./create-manage-agent-groups)

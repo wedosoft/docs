@@ -146,9 +146,3 @@ A: 현재는 전체 상담원 정보가 내보내집니다. 특정 상담원만 
 
 A: 네, 상담원용으로 생성한 커스텀 필드도 선택 목록에 나타납니다. 필요한 커스텀 필드를 선택해서 내보낼 수 있어요.
 
-## 관련 문서
-
-- [상담원 정보 가져오기](./importing-agent-information)
-- [상담원 역할 및 권한 설정](./setting-agent-roles-permissions)
-- [상담원 그룹 생성 및 관리](./create-manage-agent-groups)
-- [CSV 가져오기 가이드라인](./csv-import-guidelines)

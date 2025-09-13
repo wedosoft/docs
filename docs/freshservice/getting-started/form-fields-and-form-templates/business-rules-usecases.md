@@ -157,16 +157,3 @@ Set 및 Remove 옵션 기능을 사용하여 특정 조건에서 드롭다운 �
 - 규칙 간의 충돌을 방지하기 위해 실행 순서를 고려하세요
 :::
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [비즈니스 규칙 설정 가이드](./business-rules-configuration)
-- [비즈니스 규칙 문제 해결](./business-rules-troubleshooting-guide)
-- [동적 폼 생성](./dynamic-forms)
-- [필드 관리](./field-management)
--->

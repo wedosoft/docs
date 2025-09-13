@@ -172,9 +172,3 @@ IT부서,정보기술 관리,"company.com,tech.company.com"
 - 성공한 행은 그대로 유지되므로 실패한 행만 별도로 처리
 - 오류 로그를 참조해서 구체적인 문제점 파악
 
-## 관련 문서
-
-- [CSV 가져오기 가이드라인](./csv-import-guidelines.md)
-- [CSV를 통한 요청자 가져오기](./importing-requesters-csv.md)
-- [요청자 관리](./managing-requesters.md)
-- [사용자 맞춤 필드 추가](./adding-custom-fields-users.md)

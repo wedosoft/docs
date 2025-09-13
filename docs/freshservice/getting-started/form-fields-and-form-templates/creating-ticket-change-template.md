@@ -142,16 +142,3 @@ sidebar_position: 7
 - **업데이트**: 프로세스 변경 시 관련 템플릿 즉시 수정
 - **피드백 수집**: 실제 사용자의 개선 의견 정기 수집
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [폼 필드 기본 설정](./setting-up-form-fields-tickets-problems-changes-releases)
-- [사용자 정의 필드 생성](./creating-custom-fields-ticket-problem-change-release-task-form)
-- [동적 섹션 활용](./using-dynamic-sections-ticket-forms)
-- [비즈니스 규칙 활용](./create-no-code-dynamic-forms-business-rules)
--->

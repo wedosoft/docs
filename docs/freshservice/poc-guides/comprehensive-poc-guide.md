@@ -377,21 +377,3 @@ Freshservice의 보안 기능과 외부 시스템 연동을 통해 안전하고 
 3주간의 체계적인 PoC를 통해 Freshservice의 핵심 기능을 모두 체험했습니다. 이제 조직의 IT 서비스 관리 효율성을 크게 향상시킬 수 있는 준비가 완료되었습니다.
 :::
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [Freshservice 시작 가이드](../getting-started)
-- [사용자 관리](../getting-started/user-management)
-- [자산 관리](../it-asset-management)
-- [워크플로 자동화](../it-service-management)
-- [ITIL 프로세스](../it-service-management)
--->
-
----
-
-**PoC 진행 중 궁금한 점이나 추가적인 문의사항이 있으시면 언제든지 말씀해 주세요. 성공적인 PoC 진행을 위해 최선을 다해 지원하겠습니다.**

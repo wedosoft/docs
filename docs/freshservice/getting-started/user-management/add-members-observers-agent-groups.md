@@ -124,8 +124,3 @@ sidebar_position: 15
 상담원 그룹 구성이 완료되었어요. 이제 효율적인 팀 협업과 업무 분담이 가능해요.
 :::
 
-## 관련 문서
-
-- [상담원 그룹 생성 및 관리](./create-manage-agent-groups)
-- [상담원 역할 및 권한 설정](./setting-agent-roles-permissions)
-- [상담원 이해하기](./understanding-agents)

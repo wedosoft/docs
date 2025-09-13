@@ -186,15 +186,3 @@ sidebar_position: 13
 위 가이드를 따라 체계적으로 접근하면 대부분의 비즈니스 규칙 문제를 해결할 수 있어요. 여전히 문제가 해결되지 않는 경우 Freshservice 지원팀에 문의하세요.
 :::
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [비즈니스 규칙 사용 사례](./business-rules-usecases)
-- [노코드 동적 폼 생성](./create-no-code-dynamic-forms-business-rules)
-- [워크플로우 자동화](./workflow-automation)
--->

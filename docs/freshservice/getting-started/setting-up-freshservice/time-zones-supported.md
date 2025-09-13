@@ -711,16 +711,3 @@ Jane Smith,jane@company.com,Pacific Time (US & Canada)
 - 일광절약시간 전환 시기에는 SLA 계산에 주의가 필요합니다
 :::
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가해요.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않어요.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [CSV 파일을 통한 요청자 가져오기 가이드](./importing-requesters-csv)
-- [사용자 프로필 관리](./user-profile-management)
-- [SLA 정책 설정](./sla-policy-configuration)
-- [비즈니스 시간 설정](./business-hours-configuration)
--->

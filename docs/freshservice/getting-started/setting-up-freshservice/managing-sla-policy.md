@@ -336,17 +336,3 @@ SLA 정책 목록에서 **드래그 앤 드롭**으로 순서 변경 가능
 ### TPCR 태스크 OLA 설정
 TPCR (Tickets, Problems, Changes, Releases) 내부 태스크에 대한 OLA 정책을 별도로 설정해서 내부 서비스 품질을 관리할 수 있어요.
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가해요.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않어요.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [비즈니스 시간 설정](./configuring-business-hours)
-- [워크플로우 자동화](./workflow-automation-setup)
-- [에스컬레이션 관리](./escalation-management)
-- [사용자 그룹 관리](./managing-user-groups)
-- [시간대 설정](./time-zones-supported)
--->

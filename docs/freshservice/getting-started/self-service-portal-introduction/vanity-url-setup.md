@@ -110,15 +110,3 @@ Freshservice.com 도메인으로 URL의 서브도메인을 변경하려면 다�
 - **DNS 검증**: 실시간 도메인 설정 상태 확인 가능
 :::
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [서비스 데스크 브랜딩 설정](./service-desk-branding)
-- [Custom SSL 인증서 설정](./custom-ssl-certificate)
-- [포털 접속 및 로그인](./portal-access-login)
--->

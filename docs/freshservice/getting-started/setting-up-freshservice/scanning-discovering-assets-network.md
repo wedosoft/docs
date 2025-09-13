@@ -161,16 +161,3 @@ Active Directory와의 연동은 사용자 관리를 자동화하고 일관성�
 - 스캔 로그를 모니터링하세요
 :::
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가해요.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않어요.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [자산 관리 개요](./asset-management-overview)
-- [CMDB 구성 및 관리](./cmdb-configuration)
-- [제품 카탈로그 관리](./product-catalog-management)
-- [네트워크 보안 설정](./network-security-configuration)
--->

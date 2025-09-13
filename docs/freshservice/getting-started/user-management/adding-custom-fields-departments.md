@@ -135,7 +135,3 @@ A: 네, 언제든지 커스텀 필드의 속성을 수정하거나 새로운 필
 
 A: 네, 대부분의 커스텀 필드는 Freshservice API를 통해 접근하고 조작할 수 있어요. 자세한 내용은 API 문서를 참조하세요.
 
-## 관련 문서
-
-- [사용자 커스텀 필드 추가](./adding-custom-fields-users)
-- [CSV를 통한 부서/회사 가져오기](./importing-departments-companies-csv)

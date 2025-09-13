@@ -306,17 +306,3 @@ María García,maria@company.es,es
 5. **지속적 관리**: 언어별 콘텐츠의 일관성 유지 및 업데이트
 :::
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가해요.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않어요.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [CSV 파일을 통한 사용자 가져오기 가이드](./importing-users-csv)
-- [사용자 프로필 관리](./user-profile-management)
-- [이메일 템플릿 다국어 설정](./email-templates-multilingual)
-- [Knowledge Base 다국어 관리](./knowledge-base-multilingual)
-- [시간대 설정 가이드](./time-zones-supported)
--->

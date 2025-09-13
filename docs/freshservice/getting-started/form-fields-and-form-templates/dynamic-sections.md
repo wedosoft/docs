@@ -156,16 +156,3 @@ sidebar_position: 8
 2. **의존 필드** 기능으로 대체를 검토해요
 3. 폼 구조 **재설계**를 통한 최적화를 고려해요
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [사용자 정의 필드 생성](./custom-fields-creation)
-- [의존 필드 설정](./dependent-fields-setup)
-- [자동화 규칙 활용](../automation/automation-rules)
-- [티켓 폼 관리](./ticket-form-management)
--->

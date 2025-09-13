@@ -280,16 +280,3 @@ Admin Settings > Global Settings > Workspace Settings > Field Manager
 > 
 > 과도하게 깊은 계층 구조는 사용자에게 혼란을 줄 수 있습니다. 3단계 이내로 유지하고, 각 단계별로 5-7개 이내의 옵션을 권장합니다.
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [종속 필드 이해](./understanding-dependent-fields)
-- [티켓 양식 커스터마이징](./ticket-form-customization)
-- [워크플로우 자동화](./workflow-automation)
-- [비즈니스 규칙 활용](./business-rules-usecases)
--->

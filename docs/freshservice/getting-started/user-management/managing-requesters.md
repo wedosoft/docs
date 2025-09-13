@@ -126,7 +126,3 @@ sidebar_position: 3
 - **일관된 명명 규칙**: 이름과 이메일 주소 형식 통일
 - **정확한 부서 정보**: 조직도 변경사항 즉시 반영
 
-## 관련 문서
-- [CSV 파일로 요청자 가져오기](./importing-requesters-csv)
-- [요청자 그룹 생성 및 관리](./create-manage-requester-groups)
-- [부서별 커스텀 필드 추가](./adding-custom-fields-departments)

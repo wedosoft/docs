@@ -265,8 +265,3 @@ jane@company.com,EMP002,HR,2024-02-01
 2. **특수문자 검증**: 옵션 값에 특수문자가 포함되어 문제가 없는지 확인
 3. **길이 제한**: 옵션 값이 너무 길지 않은지 확인
 
-## 관련 문서
-
-- [상담원 역할 및 권한 설정](./setting-agent-roles-permissions.md)
-- [요청자 관리](./managing-requesters.md)
-- [CSV를 통한 요청자 가져오기](./importing-requesters-csv.md)

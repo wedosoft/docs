@@ -199,9 +199,3 @@ A: 네, 동일한 이메일 주소로 가져오기하면 기존 정보가 업데
 
 A: 한 번에 **500명 이하**로 제한하는 것을 권장해요. 더 많은 경우 여러 번에 나누어 진행하세요.
 
-## 관련 문서
-
-- [상담원 정보 내보내기](./exporting-agent-information)
-- [상담원 역할 및 권한 설정](./setting-agent-roles-permissions)
-- [상담원 그룹 생성 및 관리](./create-manage-agent-groups)
-- [상담원 이해하기](./understanding-agents)

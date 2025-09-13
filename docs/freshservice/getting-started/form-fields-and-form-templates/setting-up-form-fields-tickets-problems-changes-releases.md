@@ -144,16 +144,3 @@ Freshservice에서 티켓, 문제, 변경, 릴리즈 폼에 추가 필드를 설
 - 비즈니스 규칙과 연계해서 동적 필드를 활용해요
 :::
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가해요.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않아요.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [티켓 필드 유형 이해](./understanding-different-types-ticket-fields)
-- [드롭다운 필드 설정](./setting-up-dropdown-fields)
-- [종속 필드 활용](./understanding-dependent-fields)
-- [비즈니스 규칙 연동](./business-rules-usecases)
--->

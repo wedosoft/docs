@@ -348,8 +348,3 @@ Freshworks 로그인을 활성화할 때 현재 정책이 언제 적용될지 �
 3. **정책 강화**: 더 엄격한 정책 임시 적용
 4. **사후 조치**: 보안 정책 전면 재검토
 
-## 관련 문서
-
-- [요청자 비밀번호 변경](./changing-requester-password)
-- [사용자 맞춤 필드 추가](./adding-custom-fields-users)
-- [상담원 역할과 권한 설정](./setting-agent-roles-permissions)

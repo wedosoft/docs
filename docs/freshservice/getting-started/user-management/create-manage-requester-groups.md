@@ -134,6 +134,3 @@ sidebar_position: 16
 요청자 그룹 설정이 완료되었어요. 이제 포털 내에서 선택적 권한 관리가 가능해요.
 :::
 
-## 관련 문서
-
-- [상담원 그룹 생성 및 관리](./create-manage-agent-groups)

@@ -157,9 +157,3 @@ Freshservice에서는 요청자를 **개별적으로 생성**하거나 **CSV 파
 > - 워크플로 자동화 설정 재검토 필요
 > - 자산 할당 상태 재확인 필요
 
-## 관련 문서
-
-- [CSV를 통한 요청자 가져오기](./importing-requesters-csv.md)
-- [요청자 그룹 생성 및 관리](./create-manage-requester-groups.md)
-- [사용자 맞춤 필드 추가](./adding-custom-fields-users.md)
-- [CSV 가져오기 가이드라인](./csv-import-guidelines.md)

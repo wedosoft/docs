@@ -125,7 +125,3 @@ lee@company.com,브랜드팀,강남 사무소,true
 park@company.com,기업영업팀,서울 본사,false
 ```
 
-## 관련 문서
-- [요청자 관리 가이드](./managing-requesters)
-- [CSV 가져오기 가이드라인](./csv-import-guidelines)
-- [부서별 커스텀 필드 추가](./adding-custom-fields-departments)

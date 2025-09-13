@@ -164,16 +164,3 @@ Freshservice는 기본적으로 4가지 티켓 상태를 제공하지만, 조직
 2. **위젯 재추가**: 삭제된 경우 대시보드에 위젯 다시 추가
 3. **데이터 새로고침**: 대시보드 데이터 갱신 확인
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [SLA 정책 설정](../sla/sla-policy-setup)
-- [자동화 규칙 활용](../automation/automation-rules)
-- [워크플로우 관리](../workflow/workflow-management)
-- [대시보드 커스터마이징](../dashboard/dashboard-customization)
--->

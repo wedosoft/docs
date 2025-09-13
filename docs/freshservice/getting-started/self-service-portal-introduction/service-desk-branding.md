@@ -69,15 +69,3 @@ sidebar_position: 4
 - **사용자 지정 URL**: 조직만의 고유한 지원 포털 주소 설정
 :::
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [Vanity URL 설정 가이드](./vanity-url-setup)
-- [FreshThemes 고급 설정](./fresh-themes-setup)
-- [포털 접속 및 로그인](./portal-access-login)
--->

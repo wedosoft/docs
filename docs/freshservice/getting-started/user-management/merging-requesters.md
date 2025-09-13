@@ -304,9 +304,3 @@ Freshservice는 이러한 중복 요청자들을 하나의 기본 항목으로 �
 - **모니터링 규칙**: 유사한 이름/이메일 자동 감지 알림
 - **표준 가이드라인**: 이메일 주소 작성 규칙 수립
 
-## 관련 문서
-
-- [요청자 관리 가이드](./managing-requesters)
-- [사용자 병합 고급 시나리오](./merging-users-advanced-scenarios)
-- [CSV를 통한 요청자 가져오기](./importing-requesters-csv)
-- [사용자 맞춤 필드 추가](./adding-custom-fields-users)
