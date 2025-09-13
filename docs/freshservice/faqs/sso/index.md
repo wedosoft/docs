@@ -96,42 +96,45 @@ Single Sign-On 구성에서 자주 발생하는 질문들과 실무에서 검증
 - 사용자 교육 계획
 - 백업 인증 방법 준비
 
-사전 계획을 통해 원활한 SSO 도입이 가능합니다.
+**성공 팁:** SSO 구성 전에 IdP 관리자와 사전 미팅을 통해 필요한 정보와 권한을 미리 확보하세요.
+
 </details>
 
 <details>
-<summary>4. SAML SSO는 어떻게 설정하나요?</summary>
+<summary><strong>SAML SSO는 어떻게 설정하나요?</strong></summary>
 
-SAML SSO 설정은 다음 단계로 진행됩니다:
+**체계적인 SAML SSO 구축 가이드:**
 
-**1단계: Freshservice 설정**
-- Admin > Security > SSO 메뉴 접근
-- SAML 2.0 선택 및 기본 정보 입력
-- Service Provider 메타데이터 다운로드
+**1️⃣ Freshservice 기본 설정**
+1. **Admin** > **Security** > **SSO** 메뉴 접근
+2. **SAML 2.0** 선택 및 기본 정보 입력
+3. **Service Provider 메타데이터** 다운로드
+4. 도메인 및 보안 설정 구성
 
 ![SSO Settings Screen](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000801700/original/v3EVn0FGLDKOIvDVP85y86CoVKCzhzzLOg.png)
 
-*Admin Security Settings에서 SSO 구성 진행*
-
-**2단계: IdP 설정**
-- IdP에서 새 애플리케이션 추가
-- Freshservice 메타데이터 업로드
-- 사용자 속성 매핑 구성
+**2️⃣ Identity Provider 설정**
+1. IdP에서 새 애플리케이션 추가 (예: Azure AD, Okta)
+2. Freshservice 메타데이터 업로드
+3. 사용자 속성 매핑 구성
+   - 이메일 → Email
+   - 이름 → First Name, Last Name
+   - 부서 → Department
 
 ![Admin Security Settings](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007504089/original/xWuGQ2zcOimDLop_hgQ5KFNVqGUFwdtjvg.png?1675315951)
 
-*Admin > Security Settings에서 보안 정책 및 인증 설정 관리*
+**3️⃣ 연동 테스트**
+- 테스트 사용자로 로그인 시나리오 검증
+- 사용자 속성이 정확히 매핑되는지 확인
+- 오류 발생 시 로그 분석 및 문제 해결
 
-**3단계: 연동 테스트**
-- 테스트 사용자로 로그인 검증
-- 속성 매핑 확인
-- 오류 발생 시 로그 분석
+**4️⃣ 프로덕션 배포**
+- 단계적 사용자 그룹별 활성화
+- 백업 로그인 방법 안내
+- 사용자 교육 및 지원 체계 구축
 
-**4단계: 프로덕션 배포**
-- 모든 사용자에게 SSO 활성화
-- 교육 및 지원 제공
+**성공 팁:** 프로덕션 적용 전 샌드박스 환경에서 충분한 테스트를 거쳐 예상치 못한 문제를 미리 발견하고 해결하세요.
 
-체계적인 접근을 통해 안정적인 SSO 구현이 가능합니다.
 </details>
 
 <details>
