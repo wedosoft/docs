@@ -1,6 +1,6 @@
 # 자동화 및 트리거
 
-Freshservice의 자동화 및 트리거 기능에 대한 자주 묻는 질문들입니다. 총 60개의 FAQ를 포함하고 있습니다.동화 및 트리거
+Freshservice의 자동화 및 트리거 기능에 대한 자주 묻는 질문들입니다. 총 60개의 FAQ를 포함하고 있습니다.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
