@@ -106,6 +106,101 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
+          label: '👨‍💼 관리자 가이드',
+          collapsed: true,
+          items: [
+            {
+              type: 'category',
+              label: '⚙️ 관리자 설정',
+              collapsed: true,
+              items: [
+                'freshservice/user-guide-admin/admin-settings/index',
+                'freshservice/user-guide-admin/admin-settings/general-settings',
+                'freshservice/user-guide-admin/admin-settings/user-management',
+                'freshservice/user-guide-admin/admin-settings/service-desk-productivity',
+                'freshservice/user-guide-admin/admin-settings/reorganization-renaming-admin',
+                'freshservice/user-guide-admin/admin-settings/asset-management',
+                'freshservice/user-guide-admin/admin-settings/export-service-desk-data',
+              ],
+            },
+            {
+              type: 'category',
+              label: '🎯 시작하기',
+              collapsed: true,
+              items: [
+                'freshservice/user-guide-admin/getting-started/index',
+              ],
+            },
+            {
+              type: 'category',
+              label: '📊 CMDB',
+              collapsed: true,
+              items: [
+                'freshservice/user-guide-admin/cmdb/index',
+              ],
+            },
+            {
+              type: 'category',
+              label: '🚀 릴리스 관리',
+              collapsed: true,
+              items: [
+                'freshservice/user-guide-admin/release-management/index',
+              ],
+            },
+            {
+              type: 'category',
+              label: '💡 솔루션 (지식 베이스)',
+              collapsed: true,
+              items: [
+                'freshservice/user-guide-admin/solutions/index',
+              ],
+            },
+            {
+              type: 'category',
+              label: '🔄 변경 관리',
+              collapsed: true,
+              items: [
+                'freshservice/user-guide-admin/change-management/index',
+              ],
+            },
+            {
+              type: 'category',
+              label: '📋 인시던트 관리',
+              collapsed: true,
+              items: [
+                'freshservice/user-guide-admin/incident-management/index',
+              ],
+            },
+            {
+              type: 'category',
+              label: '🔍 문제 관리',
+              collapsed: true,
+              items: [
+                'freshservice/user-guide-admin/problem-management/index',
+              ],
+            },
+            {
+              type: 'category',
+              label: '📈 보고서',
+              collapsed: true,
+              items: [
+                'freshservice/user-guide-admin/reports/index',
+              ],
+            },
+            {
+              type: 'category',
+              label: '🎥 문제 해결 동영상',
+              collapsed: true,
+              items: [
+                'freshservice/user-guide-admin/troubleshooting-videos/slack-orchestration',
+                'freshservice/user-guide-admin/troubleshooting-videos/microsoft-teams-orchestration',
+                'freshservice/user-guide-admin/troubleshooting-videos/microsoft-azure-orchestration',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
           label: '❓ FAQ',
           collapsed: true,
           items: [
