@@ -5,7 +5,7 @@ sidebar_position: 4
 # 상담원 그룹 생성 및 관리
 
 :::info 문서 목적
-이 문서는 Freshservice에서 상담원 그룹을 생성, 편집, 삭제하는 방법을 안내하는 문서입니다.
+이 문서는 Freshservice에서 상담원 그룹을 생성, 편집, 삭제하는 방법을 안내해요.
 :::
 
 :::info 중요 공지
@@ -14,7 +14,7 @@ sidebar_position: 4
 
 ## 개요
 
-상담원 그룹은 관련 업무를 수행하는 상담원들을 논리적으로 구성하는 방법입니다. 그룹을 통해 티켓 할당, 권한 관리, 업무 분배를 효율적으로 수행할 수 있습니다.
+상담원 그룹은 관련 업무를 수행하는 상담원들을 논리적으로 구성하는 방법이에요. 그룹을 통해 티켓 할당, 권한 관리, 업무 분배를 효율적으로 수행할 수 있어요.
 
 ### 상담원 그룹의 이점
 
@@ -27,7 +27,7 @@ sidebar_position: 4
 
 ### 1단계: 관리자 설정 접속
 
-계정 자격 증명을 사용하여 **Admin Settings**에 접속합니다.
+계정 자격 증명을 사용해서 **Admin Settings**에 접속해요.
 
 ### 2단계: 상담원 그룹 페이지 이동
 
@@ -35,7 +35,7 @@ sidebar_position: 4
 - **User Management** > **Agent Groups** 클릭
 
 **멀티 워크스페이스:**
-- **Admin** > **&#123;Workspace Name&#125;** > **User Management** > **Agent Groups**로 이동
+- **Admin** > **&#123;Workspace Name&#125;** > **User Management** > **Agent Groups**로 이동해요
 
 ### 3단계: 새 그룹 생성
 
@@ -44,7 +44,7 @@ sidebar_position: 4
 
 ### 4단계: 그룹 정보 입력
 
-다음 정보를 입력합니다:
+다음 정보를 입력해요:
 
 #### 기본 정보
 - **Group Name**: 그룹 이름 (예: "IT Support", "HR Team")
@@ -65,17 +65,17 @@ sidebar_position: 4
 
 ### 6단계: 설정 저장
 
-모든 설정을 완료한 후 **Save** 버튼을 클릭합니다.
+모든 설정을 완료한 후 **Save** 버튼을 클릭해요.
 
 ## 상담원 그룹 편집
 
 ### 1단계: 그룹 목록 접속
 
-**User Management** > **Agent Groups**에서 편집할 그룹을 찾습니다.
+**User Management** > **Agent Groups**에서 편집할 그룹을 찾아요.
 
 ### 2단계: 편집 모드 진입
 
-그룹 옆의 **Edit** 버튼을 클릭합니다.
+그룹 옆의 **Edit** 버튼을 클릭해요.
 
 ### 3단계: 설정 수정
 
