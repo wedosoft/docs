@@ -5,15 +5,15 @@ sidebar_position: 4
 # 사용자 정의 필드 생성
 
 :::info 문서 목적
-이 문서는 "Custom Fields(사용자 정의 필드)" 기능의 개념과 생성 방법을 안내하는 문서입니다.
+이 문서는 "Custom Fields(사용자 정의 필드)" 기능의 개념과 생성 방법을 안내해요.
 :::
 
-Freshservice는 티켓, 문제, 변경, 릴리스와 관련된 작업을 효율적으로 관리할 수 있도록 작업(Task) 생성 기능을 제공합니다. 큰 작업을 작은 단위로 나누어 부서 간 협업을 통해 업무를 추진할 수 있으며, 비즈니스 유형이나 지원 프로세스에 맞는 사용자 정의 필드를 추가하여 작업 폼을 완전히 커스터마이징할 수 있습니다.
+Freshservice는 티켓, 문제, 변경, 릴리스와 관련된 작업을 효율적으로 관리할 수 있도록 작업(Task) 생성 기능을 제공해요. 큰 작업을 작은 단위로 나누어 부서 간 협업을 통해 업무를 추진할 수 있으며, 비즈니스 유형이나 지원 프로세스에 맞는 사용자 정의 필드를 추가해서 작업 폼을 완전히 커스터마이징할 수 있어요.
 
 ## 사용자 정의 필드의 필요성
 
 ### 기본 작업 폼의 한계
-기본 작업 폼에는 다음과 같은 표준 필드들이 포함되어 있습니다:
+기본 작업 폼에는 다음과 같은 표준 필드들이 포함되어 있어요:
 - **제목** (Title)
 - **메모** (Note)
 - **그룹** (Group)
@@ -24,20 +24,20 @@ Freshservice는 티켓, 문제, 변경, 릴리스와 관련된 작업을 효율�
 
 ### 커스터마이징의 장점
 :::info 비즈니스 맞춤형 필드의 필요성
-표준 필드만으로는 조직의 특별한 업무 프로세스나 산업별 요구사항을 충족하기 어려울 수 있습니다. 사용자 정의 필드를 통해 조직의 고유한 워크플로우에 완벽하게 맞는 작업 관리 시스템을 구축할 수 있습니다.
+표준 필드만으로는 조직의 특별한 업무 프로세스나 산업별 요구사항을 충족하기 어려울 수 있어요. 사용자 정의 필드를 통해 조직의 고유한 워크플로우에 완벽하게 맞는 작업 관리 시스템을 구축할 수 있어요.
 :::
 
 ## 사용자 정의 필드 설정 방법
 
 ### 1단계: Field Manager 접근
 
-**Admin → Service Management → Service Desk Settings → Field Manager**로 이동합니다.
+**Admin → Service Management → Service Desk Settings → Field Manager**로 이동해요.
 
 ![Field Manager 접근](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007838232/original/R8omFCRr1VNX3kDmTdShngSb25sllEkPQA.png?1678706282)
 
 ### 2단계: 작업 필드 유형 선택
 
-다음 중에서 설정하고자 하는 작업 필드 유형을 선택합니다:
+다음 중에서 설정하고자 하는 작업 필드 유형을 선택해요:
 - **Ticket's Task Fields** - 티켓 작업 필드
 - **Problem's Task Fields** - 문제 작업 필드  
 - **Change's Task Fields** - 변경 작업 필드
@@ -47,7 +47,7 @@ Freshservice는 티켓, 문제, 변경, 릴리스와 관련된 작업을 효율�
 
 ### 3단계: 드래그 앤 드롭으로 필드 추가
 
-드래그 앤 드롭 필드 영역에서 원하는 필드 유형을 선택하여 작업 폼에 추가합니다.
+드래그 앤 드롭 필드 영역에서 원하는 필드 유형을 선택해서 작업 폼에 추가해요.
 
 ![필드 추가](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007838234/original/m6SA1yieYmOKHWSuuZbDdOeilzTOY8oxQg.png?1678706283)
 
@@ -55,7 +55,7 @@ Freshservice는 티켓, 문제, 변경, 릴리스와 관련된 작업을 효율�
 
 ![필드 유형 선택](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007838231/original/AJOwK6zHokykR8uqkdzNoUkd8Fy0bY-8TA.png?1678706282)
 
-Freshservice는 다양한 정보 유형과 수준을 캡처할 수 있는 여러 종류의 작업 필드를 제공합니다.
+Freshservice는 다양한 정보 유형과 수준을 캡처할 수 있는 여러 종류의 작업 필드를 제공해요.
 
 ### 필드 유형별 상세 안내
 
@@ -74,9 +74,9 @@ Freshservice는 다양한 정보 유형과 수준을 캡처할 수 있는 여러
 
 #### Single Line Text (한 줄 텍스트)
 :::tip 활용 팁
-- 짧은 식별 정보나 키워드에 적합
+- 짧은 식별 정보나 키워드에 적합해요
 - 작업당 최대 150개까지 추가 가능
-- 검색과 필터링이 용이함
+- 검색과 필터링이 용이해요
 :::
 
 #### Multiline Text (여러 줄 텍스트)
@@ -187,16 +187,3 @@ Problem, Change, Release 작업 필드도 동일한 방법으로 설정할 수 �
 - 불필요한 필드 제거
 - 사용자 피드백 기반 개선
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [폼 필드 기본 설정](./setting-up-form-fields-tickets-problems-changes-releases)
-- [다양한 티켓 필드 유형 이해](./understanding-different-types-ticket-fields)
-- [드롭다운 필드 설정](./setting-up-dropdown-fields)
-- [종속 필드 이해](./understanding-dependent-fields)
--->

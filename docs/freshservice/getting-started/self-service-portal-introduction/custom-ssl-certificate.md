@@ -5,29 +5,29 @@ sidebar_position: 2
 # 사용자 지정 SSL 인증서 설정
 
 :::info 문서 목적
-이 문서는 "사용자 지정 SSL 인증서 설정(Custom SSL Certificate Configuration)" 기능의 개념과 설정 방법을 안내합니다.
+이 문서는 "사용자 지정 SSL 인증서 설정(Custom SSL Certificate Configuration)" 기능의 개념과 설정 방법을 안내해요.
 :::
 
 ## 개요
 
-Freshservice는 freshservice.com 도메인에서 지원 포털을 사용하는 모든 사용자에게 기본 와일드카드 SSL을 제공합니다. 이는 가입 시 설정한 기본 Freshservice URL(예: yourcompany.freshservice.com)을 계속 사용하는 한 사용할 수 있습니다.
+Freshservice는 freshservice.com 도메인에서 지원 포털을 사용하는 모든 사용자에게 기본 와일드카드 SSL을 제공해요. 이는 가입 시 설정한 기본 Freshservice URL(예: yourcompany.freshservice.com)을 계속 사용하는 한 사용할 수 있어요.
 
-그러나 헬프데스크 포털에 사용자 지정 도메인 이름(예: helpdesk.yourcompany.com)을 지정한 경우에는 기본 SSL이 작동하지 않습니다. 이 경우 도메인 이름과 함께 Freshservice에서 제공하는 사용자 지정 SSL 인증서를 구성해야 합니다.
+그러나 헬프데스크 포털에 사용자 지정 도메인 이름(예: helpdesk.yourcompany.com)을 지정한 경우에는 기본 SSL이 작동하지 않아요. 이 경우 도메인 이름과 함께 Freshservice에서 제공하는 사용자 지정 SSL 인증서를 구성해야 해요.
 
 ## 사전 요구사항
 
-포털 URL을 사용자 지정 도메인으로 구성하기 전에 다음 사항을 확인해야 합니다:
+포털 URL을 사용자 지정 도메인으로 구성하기 전에 다음 사항을 확인해야 해요:
 
 ### 1. CNAME 레코드에서 프록시 비활성화
 
-DNS 공급업체/등록 기관이 CNAME 레코드에서 프록시를 자동으로 활성화하는 경우, 사용자 지정 도메인이 대기 상태로 유지될 수 있습니다. CNAME 레코드에서 프록시를 비활성화해야 합니다. Freshworks는 맞춤형 Cloudflare 설정을 사용하여 사용자 지정 호스트명에 대한 요청이 완전히 보호되도록 합니다.
+DNS 공급업체/등록 기관이 CNAME 레코드에서 프록시를 자동으로 활성화하는 경우, 사용자 지정 도메인이 대기 상태로 유지될 수 있어요. CNAME 레코드에서 프록시를 비활성화해야 해요. Freshworks는 맞춤형 Cloudflare 설정을 사용해서 사용자 지정 호스트명에 대한 요청이 완전히 보호되도록 해요.
 
 ### 2. Cloudflare 사용자를 위한 설정
 
-Cloudflare를 프록시/DNS 공급업체로 사용하는 경우 서브도메인을 일시적으로 차단해야 합니다:
+Cloudflare를 프록시/DNS 공급업체로 사용하는 경우 서브도메인을 일시적으로 차단해야 해요:
 
 1. **Cloudflare 대시보드에서 설정**
-   - `Overview > Quick Actions > Zone Hold`로 이동합니다
+   - `Overview > Quick Actions > Zone Hold`로 이동해요
 
 2. **서브도메인 차단 해제**
    - **"Also prevent subdomains"** 옵션의 체크를 해제합니다
@@ -122,15 +122,3 @@ Freshservice는 Let's Encrypt로 SSL을 제공합니다.
 - **자동 갱신**: Let's Encrypt를 통한 자동 인증서 갱신
 :::
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [사용자 지정 URL 및 CNAME 설정](./vanity-url-setup)
-- [서비스 데스크 브랜딩 설정](./service-desk-branding)
-- [포털 접속 및 로그인](./portal-access-login)
--->

@@ -5,10 +5,10 @@ sidebar_position: 7
 # 티켓 및 변경 템플릿 생성
 
 :::info 문서 목적
-이 문서는 "Ticket and Change Templates(티켓 및 변경 템플릿)" 기능의 개념과 생성 방법을 안내하는 문서입니다.
+티켓 및 변경 템플릿 기능의 개념과 생성 방법을 안내해요.
 :::
 
-템플릿은 관리자가 새로운 티켓과 변경 폼을 특정 값으로 미리 채울 수 있도록 하는 기능입니다. 이는 자주 발생하는 티켓/변경에 대한 표준 운영 절차입니다. 템플릿을 사용하면 시간을 절약하고 표준 변경/티켓을 실행할 때 중복 작업을 제거할 수 있습니다.
+템플릿은 새로운 티켓과 변경 폼을 특정 값으로 미리 채울 수 있게 해주는 기능이에요. 자주 발생하는 티켓/변경에 대한 표준 운영 절차로, 템플릿을 사용하면 시간을 절약하고 표준 변경/티켓을 실행할 때 중복 작업을 제거할 수 있어요.
 
 ## 템플릿의 필요성
 
@@ -27,7 +27,7 @@ sidebar_position: 7
 ### 권한 설정
 
 :::warning 필수 권한
-상담원이 티켓/변경 폼 템플릿을 생성하고 편집하려면 아래 강조 표시된 권한이 필요하며, 이는 Admin 역할의 일부입니다.
+상담원이 티켓/변경 폼 템플릿을 생성하고 편집하려면 아래 강조 표시된 권한이 필요하며, 이는 Admin 역할의 일부예요.
 :::
 
 ![필수 권한 설정](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011178255/original/XWj6AcDXeePKftsgeOEC51uwbxfHHA_C9A.png?1710006993)
@@ -37,27 +37,27 @@ sidebar_position: 7
 ### 접근 제한사항
 
 :::info 중요한 제한사항
-- **상담원 전용**: 티켓/변경 폼 템플릿은 상담원만 접근할 수 있으며, 요청자는 접근할 수 없습니다
-- **최대 생성 수**: 최대 200개의 티켓 폼을 생성할 수 있습니다
+- **상담원 전용**: 티켓/변경 폼 템플릿은 상담원만 접근할 수 있으며, 요청자는 접근할 수 없어요
+- **최대 생성 수**: 최대 200개의 티켓 폼을 생성할 수 있어요
 :::
 
 ## 새 티켓/변경 템플릿 생성 방법
 
 ### 1단계: 관리자 로그인
 
-관리자 계정으로 시스템에 로그인합니다.
+관리자 계정으로 시스템에 로그인해요.
 
 ### 2단계: Form Templates 접근
 
 #### 단일 워크스페이스 환경
-**Admin 탭 > Service Desk Settings > Form Templates**로 이동합니다.
+**Admin 탭 > Service Desk Settings > Form Templates**로 이동해요.
 
 #### 다중 워크스페이스 환경
-**Admin > &#123;워크스페이스 이름&#125; > Service Management > Service Desk Settings > Form Templates**로 이동합니다.
+**Admin > &#123;워크스페이스 이름&#125; > Service Management > Service Desk Settings > Form Templates**로 이동해요.
 
 ### 3단계: 새 템플릿 생성
 
-**New Template** 버튼을 클릭하고 **Ticket** 또는 **Change**를 선택하여 새 템플릿을 생성합니다.
+**New Template** 버튼을 클릭하고 **Ticket** 또는 **Change**를 선택해서 새 템플릿을 생성해요.
 
 ![새 템플릿 생성](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007039047/original/pKTmwSdlOSAk5fjUN9z2uIbmIklffj2t1g.png?1669781064)
 
@@ -68,12 +68,12 @@ sidebar_position: 7
 - **설명**: 템플릿의 용도와 사용 목적 설명
 
 #### 가시성 설정
-템플릿을 모든 상담원이 볼 수 있도록 할지, 또는 특정 그룹의 상담원만 볼 수 있도록 할지 선택할 수 있습니다. 이를 통해 적절한 상담원에게 템플릿의 가시성과 사용 가능성을 보장합니다.
+템플릿을 모든 상담원이 볼 수 있도록 할지, 또는 특정 그룹의 상담원만 볼 수 있도록 할지 선택할 수 있어요. 이를 통해 적절한 상담원에게 템플릿의 가시성과 사용 가능성을 보장해요.
 
 ### 5단계: 필드 값 사전 설정
 
 #### 포함 가능한 필드
-티켓/변경 템플릿에는 상담원에게 표시되는 모든 기본 및 사용자 정의 필드가 포함됩니다:
+티켓/변경 템플릿에는 상담원에게 표시되는 모든 기본 및 사용자 정의 필드가 포함돼요:
 - **계획 (Planning)**
 - **롤아웃 계획 (Roll out Plans)**
 - **백아웃 계획 (Back out Plans)**
@@ -86,14 +86,14 @@ sidebar_position: 7
 
 ### 6단계: 템플릿 저장
 
-모든 필요한 세부 정보를 입력한 후 **Save** 버튼을 클릭합니다.
+모든 필요한 세부 정보를 입력한 후 **Save** 버튼을 클릭해요.
 
 ### 7단계: 템플릿 수정
 
-폼 템플릿을 수정하고 싶다면, 업데이트가 필요한 템플릿을 선택하고 필요한 변경사항을 적용합니다.
+폼 템플릿을 수정하고 싶다면, 업데이트가 필요한 템플릿을 선택하고 필요한 변경사항을 적용해요.
 
 :::tip 응답 템플릿 활용
-템플릿을 생성할 때 canned responses(응답 템플릿)를 사용할 수도 있습니다.
+템플릿을 생성할 때 canned responses(응답 템플릿)를 사용할 수도 있어요.
 :::
 
 ![템플릿 생성 과정](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/35578448/original/GdNAoCLluUsEstEQyKAocek9TZ_qdsY6MA.gif?1508845548)
@@ -102,20 +102,20 @@ sidebar_position: 7
 
 ### 1단계: 새 폼 생성
 
-**New > Incident** 또는 **New > Change**를 클릭합니다.
+**New > Incident** 또는 **New > Change**를 클릭해요.
 
 ### 2단계: 템플릿 선택
 
-제목 옆의 **"Select a template"** 링크에서 기존 템플릿을 삽입하거나 평소와 같이 폼을 수동으로 작성할 수 있습니다.
+제목 옆의 **"Select a template"** 링크에서 기존 템플릿을 삽입하거나 평소와 같이 폼을 수동으로 작성할 수 있어요.
 
 ### 3단계: 템플릿 적용 주의사항
 
 :::warning 중요한 동작
-템플릿을 적용하면 모든 필드 값이 템플릿 필드 값으로 덮어씌워집니다.
+템플릿을 적용하면 모든 필드 값이 템플릿 필드 값으로 덮어씌워져요.
 
-**예시**: 상담원이 우선순위를 'High'로 설정한 후 우선순위가 'Low'로 설정된 템플릿을 적용하면, 결과 폼의 우선순위는 'Low'가 됩니다.
+**예시**: 상담원이 우선순위를 'High'로 설정한 후 우선순위가 'Low'로 설정된 템플릿을 적용하면, 결과 폼의 우선순위는 'Low'가 돼요.
 
-따라서 상담원이 수동으로 작성해야 하는 필드가 있다면 템플릿 적용 후에 작업해야 합니다.
+따라서 상담원이 수동으로 작성해야 하는 필드가 있다면 템플릿 적용 후에 작업해야 해요.
 :::
 
 ![템플릿 적용](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007039058/original/y2rj1EwvIBIFkuTe4BJHySw4mAex-qUu6A.png?1669781244)
@@ -142,16 +142,3 @@ sidebar_position: 7
 - **업데이트**: 프로세스 변경 시 관련 템플릿 즉시 수정
 - **피드백 수집**: 실제 사용자의 개선 의견 정기 수집
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [폼 필드 기본 설정](./setting-up-form-fields-tickets-problems-changes-releases)
-- [사용자 정의 필드 생성](./creating-custom-fields-ticket-problem-change-release-task-form)
-- [동적 섹션 활용](./using-dynamic-sections-ticket-forms)
-- [비즈니스 규칙 활용](./create-no-code-dynamic-forms-business-rules)
--->

@@ -4,11 +4,11 @@ sidebar_position: 7
 
 # Freshservice 지원 언어
 
-Freshservice는 전 세계 33개 언어를 지원하여 글로벌 IT 서비스 데스크 운영을 가능하게 합니다. 이 문서는 플랫폼에서 지원하는 언어 목록과 CSV 가져오기 시 사용해야 하는 언어 코드를 제공합니다.
+Freshservice는 전 세계 33개 언어를 지원해서 글로벌 IT 서비스 데스크 운영을 가능하게 해요. 이 문서는 플랫폼에서 지원하는 언어 목록과 CSV 가져오기 시 사용해야 하는 언어 코드를 제공해요.
 
 ## 개요
 
-Freshservice는 **33개 언어**를 지원하며, 각 언어는 표준 ISO 언어 코드를 사용합니다. 언어 설정은 사용자 인터페이스, 이메일 알림, 자동 응답 등 플랫폼 전체에 적용됩니다.
+Freshservice는 **33개 언어**를 지원하며, 각 언어는 표준 ISO 언어 코드를 사용해요. 언어 설정은 사용자 인터페이스, 이메일 알림, 자동 응답 등 플랫폼 전체에 적용돼요.
 
 :::info 언어 지원 범위
 - **사용자 인터페이스**: 모든 메뉴, 버튼, 라벨의 다국어 지원
@@ -232,20 +232,20 @@ María García,maria@company.es,es
 ## 언어별 특수 기능
 
 ### 우측에서 좌측 읽기 (RTL) 언어
-다음 언어들은 RTL(Right-to-Left) 읽기 방향을 지원합니다:
+다음 언어들은 RTL(Right-to-Left) 읽기 방향을 지원해요:
 
 - **Arabic** (`ar`): 완전한 RTL 인터페이스 지원
 - **Hebrew** (`he`): RTL 텍스트 방향 및 레이아웃 지원
 
 ### 복합 언어 코드
-일부 언어는 지역별 변형을 지원합니다:
+일부 언어는 지역별 변형을 지원해요:
 
 - **Spanish**: `es` (스페인), `es-LA` (라틴아메리카)
 - **Portuguese**: `pt-PT` (포르투갈), `pt-BR` (브라질)
 - **Chinese**: `zh-CN` (간체), `zh-TW` (번체)
 
 ### 확장 문자 지원
-다음 언어들은 특수 문자 및 유니코드를 완전 지원합니다:
+다음 언어들은 특수 문자 및 유니코드를 완전 지원해요:
 
 - **Asian Languages**: Korean, Japanese, Chinese (모든 변형)
 - **Cyrillic**: Russian, Ukrainian
@@ -306,17 +306,3 @@ María García,maria@company.es,es
 5. **지속적 관리**: 언어별 콘텐츠의 일관성 유지 및 업데이트
 :::
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [CSV 파일을 통한 사용자 가져오기 가이드](./importing-users-csv)
-- [사용자 프로필 관리](./user-profile-management)
-- [이메일 템플릿 다국어 설정](./email-templates-multilingual)
-- [Knowledge Base 다국어 관리](./knowledge-base-multilingual)
-- [시간대 설정 가이드](./time-zones-supported)
--->

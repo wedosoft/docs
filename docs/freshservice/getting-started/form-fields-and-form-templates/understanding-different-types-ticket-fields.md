@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # 티켓 필드 유형 이해
 
-Freshservice에서 제공하는 다양한 티켓 필드 유형을 이해하고 각 필드의 특성과 활용 방법을 알아봅니다.
+Freshservice에서 제공하는 다양한 티켓 필드 유형을 이해하고 각 필드의 특성과 활용 방법을 알아봐요.
 
 :::info 필드 분류
 - **기본 필드**: 시스템에서 제공하는 필수 필드 (삭제 불가)
@@ -14,7 +14,7 @@ Freshservice에서 제공하는 다양한 티켓 필드 유형을 이해하고 �
 
 ## 사용자 지정 필드 유형
 
-사용자 지정 필드를 통해 고객으로부터 필요한 정보를 체계적으로 수집할 수 있습니다.
+사용자 지정 필드를 통해 고객으로부터 필요한 정보를 체계적으로 수집할 수 있어요.
 
 ### 기본 입력 필드
 
@@ -263,16 +263,3 @@ Freshservice에서 제공하는 다양한 티켓 필드 유형을 이해하고 �
 - **검증 규칙**: 데이터 품질을 위한 입력 규칙 설정
 :::
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [폼 필드 기본 설정](./setting-up-form-fields-tickets-problems-changes-releases)
-- [드롭다운 필드 설정](./setting-up-dropdown-fields)
-- [종속 필드 활용](./understanding-dependent-fields)
-- [사용자 지정 필드 생성](./creating-custom-fields-ticket-problem-change-release-task-form)
--->

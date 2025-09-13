@@ -5,10 +5,10 @@ sidebar_position: 10
 # 비즈니스 규칙을 통한 노코드 동적 폼 생성
 
 :::info 문서 목적
-이 문서는 "No-code Dynamic Forms(노코드 동적 폼)" 기능을 비즈니스 규칙으로 구현하는 방법을 안내하는 문서입니다.
+비즈니스 규칙을 사용해서 코딩 없이 동적 폼을 구현하는 방법을 안내해요.
 :::
 
-비즈니스 규칙을 활용하면 코딩 없이도 동적이고 지능적인 폼을 생성할 수 있습니다. 사용자 입력에 따라 필드가 나타나거나 사라지고, 조건에 따라 필수 필드가 변경되며, 데이터 검증을 자동으로 수행하는 고급 폼을 만들 수 있습니다.
+비즈니스 규칙을 활용하면 코딩 없이도 동적이고 지능적인 폼을 생성할 수 있어요. 사용자 입력에 따라 필드가 나타나거나 사라지고, 조건에 따라 필수 필드가 변경되며, 데이터 검증을 자동으로 수행하는 고급 폼을 만들 수 있어요.
 
 ## 비즈니스 규칙의 핵심 기능
 
@@ -27,17 +27,17 @@ sidebar_position: 10
 
 ### 1단계: 비즈니스 규칙 생성 시작
 
-**Admin > Business rules for Forms > Create New Rule**로 이동합니다.
+**Admin > Business rules for Forms > Create New Rule**로 이동해요.
 
 ### 2단계: 규칙 유형 선택
 
-다음 중에서 적용할 폼 유형을 선택합니다:
+다음 중에서 적용할 폼 유형을 선택해요:
 - **Ticket** - 티켓 폼
 - **Service Item** - 서비스 아이템 폼
 
 ### 3단계: 조건 설정
 
-티켓 폼의 경우 다음 필드를 기반으로 조건을 구성할 수 있습니다:
+티켓 폼의 경우 다음 필드를 기반으로 조건을 구성할 수 있어요:
 
 #### 기본 조건 필드
 - **Logged-in user** - 로그인한 사용자
@@ -46,12 +46,12 @@ sidebar_position: 10
 
 #### 고급 조건 활용
 :::info 현재 티켓 조건
-현재 티켓 조건은 편집 폼에서만 적용되며, 티켓 유형과 기본 티켓의 요청 항목을 기반으로 조건을 생성할 수 있습니다.
+현재 티켓 조건은 편집 폼에서만 적용되며, 티켓 유형과 기본 티켓의 요청 항목을 기반으로 조건을 생성할 수 있어요.
 :::
 
 ### 4단계: 액션 정의
 
-조건이 충족될 때 수행할 액션을 선택합니다:
+조건이 충족될 때 수행할 액션을 선택해요:
 
 #### 필드 가시성 제어
 - **Show and Hide field** - 필드 표시/숨김
@@ -65,7 +65,7 @@ sidebar_position: 10
 - **Set and Remove Dropdown Options** - 드롭다운 옵션 설정/제거
 
 #### 추가 검증 옵션
-**Validate the form on submission**을 통해 폼 제출 시 사용자 정의 오류 메시지로 검증할 수 있습니다.
+**Validate the form on submission**을 통해 폼 제출 시 사용자 정의 오류 메시지로 검증할 수 있어요.
 
 ![비즈니스 규칙 액션 설정](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001424852/original/r4d51zA5m1i9tWoB9ZiRLNTQunNmzRtpGg.png?1594396245)
 
@@ -73,14 +73,14 @@ sidebar_position: 10
 
 ### 설정 방법
 
-1. **Admin > Business rules for Forms > Create New Rule**로 이동
-2. **Service Item** 옵션 선택
+1. **Admin > Business rules for Forms > Create New Rule**로 이동해요
+2. **Service Item** 옵션을 선택하세요
 
 ![서비스 아이템 규칙 생성](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013933330/original/Q64gTXBKTDjwUhEYyS15N3eRG68g1BolbA.png?1733387871)
 
 ### 조건 필드 구성
 
-다음 필드를 기반으로 조건을 설정합니다:
+다음 필드를 기반으로 조건을 설정해요:
 
 | 조건 필드 | 설명 |
 |-----------|------|
@@ -92,11 +92,11 @@ sidebar_position: 10
 
 ### 동적 날짜 조건 활용
 
-상대적이고 동적인 날짜 기반 조건을 서비스 요청에 구성할 수 있습니다.
+상대적이고 동적인 날짜 기반 조건을 서비스 요청에 구성할 수 있어요.
 
 ![동적 날짜 조건 예시](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003377108/original/EhZ1veFfPqUlSJm1KuLUtX9wxdUiyELo_g.png?1626333813)
 
-**실제 활용 예시**: 여행 신청 폼에서 시작 날짜가 종료 날짜보다 이전이고 현재 날짜보다 이후가 되도록 설정하여 소급 신청을 방지할 수 있습니다.
+**실제 활용 예시**: 여행 신청 폼에서 시작 날짜가 종료 날짜보다 이전이고 현재 날짜보다 이후가 되도록 설정해서 소급 신청을 방지할 수 있어요.
 
 ![여행 신청 폼 예시](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003377155/original/FWBjI00tXh7xhfCqokHlrkH5iFZd9rTasw.png?1626334043)
 
@@ -104,10 +104,10 @@ sidebar_position: 10
 
 ### "다른 사람을 위한 요청" 옵션 비활성화
 
-관리자는 비즈니스 규칙을 통해 **"Request for someone else"** 체크박스를 비활성화할 수 있습니다.
+관리자는 비즈니스 규칙을 통해 **"Request for someone else"** 체크박스를 비활성화할 수 있어요.
 
 #### 설정 방법
-**Actions > Disable > Search Requester**를 선택하여 특정 서비스 아이템에 적용합니다.
+**Actions > Disable > Search Requester**를 선택해서 특정 서비스 아이템에 적용해요.
 
 #### 규칙 동작
 - **서비스 아이템**: 사용자가 다른 사용자를 위해 서비스를 요청할 수 없음
@@ -117,7 +117,7 @@ sidebar_position: 10
 
 ### CC 추가 기능 차단
 
-서비스 아이템과 티켓 요청 생성 시 다른 사용자를 CC에 추가하는 것을 차단할 수 있습니다.
+서비스 아이템과 티켓 요청 생성 시 다른 사용자를 CC에 추가하는 것을 차단할 수 있어요.
 
 #### 적용 범위
 - **티켓**: 티켓 생성 및 편집 시 CC 추가 옵션 비활성화
@@ -131,17 +131,17 @@ sidebar_position: 10
 
 ### 1. Auto-Reverse If False (자동 역순 처리)
 
-조건이 충족되지 않을 때 액션을 자동으로 역순 처리합니다.
+조건이 충족되지 않을 때 액션을 자동으로 역순 처리해요.
 
-**예시**: 상태가 "해결됨"으로 변경될 때 특정 필드를 필수로 설정한 경우, 상태가 "해결됨"이 아닐 때 자동으로 해당 필드를 선택사항으로 변경합니다.
+**예시**: 상태가 "해결됨"으로 변경될 때 특정 필드를 필수로 설정한 경우, 상태가 "해결됨"이 아닐 때 자동으로 해당 필드를 선택사항으로 변경해요.
 
 :::tip 권장 설정
-추가 규칙 작성의 수고를 덜어주므로 모든 비즈니스 규칙에서 기본적으로 활성화하는 것을 권장합니다.
+추가 규칙 작성의 수고를 덜어주므로 모든 비즈니스 규칙에서 기본적으로 활성화하는 것을 권해요.
 :::
 
 ### 2. Enforce System-Wide (시스템 전체 적용)
 
-비즈니스 규칙을 모든 폼과 다음 작업에 적용합니다:
+비즈니스 규칙을 모든 폼과 다음 작업에 적용해요:
 - 일괄 작업을 통한 티켓 업데이트
 - 목록 보기 편집
 - 시나리오 자동화
@@ -158,7 +158,7 @@ sidebar_position: 10
 
 ### 규칙 실행 순서
 
-여러 비즈니스 규칙이 동일한 필드에 적용될 때 마지막에 실행되는 규칙이 우선됩니다. **Reorder** 기능을 사용하여 실행 순서를 변경할 수 있습니다.
+여러 비즈니스 규칙이 동일한 필드에 적용될 때 마지막에 실행되는 규칙이 우선돼요. **Reorder** 기능을 사용해서 실행 순서를 변경할 수 있어요.
 
 ## 제한사항 및 규모
 
@@ -202,23 +202,10 @@ sidebar_position: 10
 ### 검증 및 오류 메시지
 
 :::tip Pro Tip
-"Validate form on submission" 옵션에서 오류 메시지를 미리 테스트하여 시스템 내에서 어떻게 표시되는지 확인한 후 저장하세요.
+"Validate form on submission" 옵션에서 오류 메시지를 미리 테스트해서 시스템 내에서 어떻게 표시되는지 확인한 후 저장하세요.
 :::
 
 ### 필드 설정 권장사항
 
-요청자용 비즈니스 규칙이 최적으로 작동하려면 필드가 폼 필드에서 표시 가능하고 편집 가능하도록 구성되어야 합니다.
+요청자용 비즈니스 규칙이 최적으로 작동하려면 필드가 폼 필드에서 표시 가능하고 편집 가능하도록 구성되어야 해요.
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [비즈니스 규칙 사용 사례](./business-rules-usecases)
-- [비즈니스 규칙 문제 해결 가이드](./business-rules-troubleshooting-guide)
-- [사용자 정의 필드 생성](./creating-custom-fields-ticket-problem-change-release-task-form)
-- [종속 필드 이해](./understanding-dependent-fields)
--->

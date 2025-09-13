@@ -1,6 +1,6 @@
 # 자동화 및 트리거
 
-Freshservice의 자동화 및 트리거 기능에 대한 자주 묻는 질문들입니다. 총 60개의 FAQ를 포함하고 있습니다.
+업무 자동화와 트리거 설정에서 자주 발생하는 실무 질문들을 정리했습니다. 총 60개의 FAQ를 포함하고 있습니다.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -11,13 +11,13 @@ import TabItem from '@theme/TabItem';
 <div>
 
 **Workflow Automator:**
-- 티켓 생성, 티켓 업데이트와 같은 특정 이벤트를 수신하는 자동화 엔진입니다
-- Workflow Automator에서 지정된 특정 조건에 따라 특정 액션을 수행할 수 있습니다
+- 티켓 생성, 업데이트 등 특정 이벤트가 발생할 때 즉시 동작하는 자동화 엔진
+- 설정한 조건에 맞는 상황에서 자동으로 지정된 액션을 실행
 
 **Supervisor 자동화:**
-- 모든 티켓에 대해 한 시간에 한 번씩 실행됩니다
-- 시간 기반 업데이트를 바탕으로 작동합니다
-- 기존 티켓에 대한 "time since" 조건을 기반으로 업데이트를 할 때 사용할 수 있습니다
+- 모든 티켓을 1시간마다 스캔하여 동작
+- 시간 경과에 따른 자동화 처리에 특화
+- "일정 시간 후" 조건을 기반으로 한 업데이트에 활용
 
 </div>
 </details>
@@ -27,12 +27,12 @@ import TabItem from '@theme/TabItem';
 
 <div>
 
-Workflow Automator를 설정하려면:
+Workflow Automator 설정 방법:
 
-1. **Admin** > **Automation & Productivity** > **Automation** > **Workflow Automator**로 이동합니다
-2. **New Rule**을 클릭하여 새 규칙을 생성합니다
-3. 이벤트, 조건, 액션을 설정합니다
-4. 규칙을 저장하고 활성화합니다
+1. **Admin** > **Automation & Productivity** > **Automation** > **Workflow Automator**로 이동
+2. **New Rule** 클릭하여 새 규칙 생성
+3. 이벤트, 조건, 액션 설정
+4. 규칙 저장 후 활성화
 
 </div>
 </details>
@@ -42,16 +42,16 @@ Workflow Automator를 설정하려면:
 
 <div>
 
-Workflow Automator를 사용하여 다음과 같은 티켓 업데이트가 가능합니다:
+Workflow Automator로 다음과 같은 티켓 업데이트가 가능합니다:
 
 - **상태 변경**: 열림, 진행중, 해결됨 등
 - **우선순위 설정**: 낮음, 보통, 높음, 긴급
 - **담당자 지정**: 특정 에이전트나 그룹에 할당
 - **카테고리 설정**: 사전 정의된 카테고리로 분류
-- **태그 추가**: 식별 및 필터링을 위한 태그
-- **사용자 정의 필드 업데이트**: 비즈니스 요구사항에 맞는 필드
+- **태그 추가**: 식별 및 필터링용 태그
+- **사용자 정의 필드 업데이트**: 비즈니스 요구에 맞는 필드
 - **노트 추가**: 공개 또는 비공개 노트
-- **이메일 알림 발송**: 관련 당사자에게 알림
+- **이메일 알림 발송**: 관련자에게 알림
 
 </div>
 </details>

@@ -1,6 +1,6 @@
 # API & Webhooks
 
-Freshservice의 API와 웹훅 기능에 대한 포괄적인 가이드입니다. API를 통한 시스템 통합, 웹훅을 이용한 자동화, 그리고 관련 설정과 문제 해결 방법을 다룹니다.
+API와 웹훅을 활용한 시스템 통합부터 문제 해결까지, 실무에서 자주 발생하는 질문들과 해결 방법을 정리했습니다.
 
 <details>
 <summary>Microsoft Teams용 Servicebot의 업그레이드된 API로 업데이트 출시</summary>
@@ -11,34 +11,34 @@ Freshservice의 API와 웹훅 기능에 대한 포괄적인 가이드입니다. 
 
 ### 1. 전체 직장인을 위한 Servicebot 자동 설치
 
-직원들이 더 이상 Microsoft Teams 인스턴스에 봇을 수동으로 설치할 필요가 없습니다. 조직에서 Servicebot을 활성화하면 전체 직장인의 개별 Teams 인스턴스에 봇이 기본적으로 활성화됩니다.
+직원들이 Microsoft Teams에 봇을 수동으로 설치할 필요가 없어졌습니다. 조직에서 Servicebot을 활성화하면 모든 직원의 Teams에 자동으로 봇이 설치됩니다.
 
 [자세히 알아보기](https://support.freshservice.com/en/support/solutions/articles/50000005624-bring-richer-ticket-context-into-your-collaboration-tools)
 
-**참고:** MS Teams 인스턴스에서 Servicebot 앱을 차단하지 않았는지 확인하세요. 그렇지 않으면 자동 설치가 실패합니다.
+**참고:** MS Teams에서 Servicebot 앱을 차단하지 않았는지 확인하세요. 차단되어 있으면 자동 설치가 실패합니다.
 
 ### 2. 승인 및 티켓 대화 관리 개선
 
-앱 간 전환을 최소화하고 에이전트와 승인자가 Microsoft Teams에서 티켓을 관리하고 응답하는 데 필요한 모든 기능을 제공합니다.
+앱 간 전환을 줄이고 에이전트와 승인자가 Microsoft Teams 내에서 티켓을 효율적으로 관리할 수 있도록 개선되었습니다.
 
-티켓과 서비스 요청에 대한 더 나은 컨텍스트를 통해:
+향상된 티켓 및 서비스 요청 컨텍스트:
 
-- 동료 승인자가 취한 조치에 대한 컨텍스트와 함께 승인 관리
-- 티켓에 첨부된 최신 대화를 빠르게 확인
+- 승인 관리 시 동료 승인자의 조치 내역 확인 가능
+- 티켓에 첨부된 최신 대화를 빠르게 파악
 
 [자세히 알아보기](https://support.freshservice.com/en/support/solutions/articles/50000005624-bring-richer-ticket-context-into-your-collaboration-tools)
 
 ### 3. 에이전트에게 온콜 관리 알림 전달 (곧 출시)
 
-온콜 에이전트는 MS Teams 내에서 인시던트를 확인, 에스컬레이션 또는 해결하고 메모를 추가할 수 있습니다. 온콜 에이전트가 인시던트에 대해 조치를 취하면 전체 그룹과 이해관계자가 업데이트됩니다. 쉬운 협업이 신속한 인시던트 해결로 이어집니다.
+온콜 에이전트는 MS Teams에서 바로 인시던트를 확인, 에스컬레이션, 해결하고 메모를 추가할 수 있습니다. 온콜 에이전트가 인시던트 처리 시 전체 그룹과 이해관계자가 자동으로 업데이트됩니다. 원활한 협업을 통해 더 빠른 인시던트 해결이 가능합니다.
 
 [지금 앱 업데이트](https://www.freshworks.com/apps/freshservice/msteams-freshservice/)
 
-**참고:** 향후 모든 Servicebot 및 Virtual Agent 기능은 v2 API를 기반으로 구축될 예정입니다. 위에서 언급한 기능과 향후 추가될 기능을 활용하려면 Microsoft Teams, Freshservice 관리자 설정 또는 온콜 관리 모듈의 알림 탭에서 앱 업데이트를 승인하세요.
+**참고:** 앞으로 모든 Servicebot과 Virtual Agent 기능은 v2 API 기반으로 구축됩니다. 위의 기능들과 향후 추가될 기능을 사용하려면 Microsoft Teams, Freshservice 관리자 설정, 또는 온콜 관리 모듈의 알림 탭에서 앱 업데이트를 승인해야 합니다.
 
 ## 앱 업데이트 방법
 
-**참고:** Freshservice 관리자이면서 Azure 관리자인 경우에만 업데이트를 수행할 수 있습니다.
+**참고:** Freshservice 관리자이면서 Azure 관리자인 경우에만 업데이트를 실행할 수 있습니다.
 
 ### 모든 플랜
 

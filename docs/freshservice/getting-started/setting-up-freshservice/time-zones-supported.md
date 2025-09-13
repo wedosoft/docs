@@ -8,15 +8,15 @@ sidebar_position: 6
 이 문서는 "Freshservice 지원 시간대 목록(List of Time Zones Supported in Freshservice)" 및 CSV 파일을 통한 요청자 가져오기에서 사용할 수 있는 시간대 정보를 안내하는 문서입니다.
 :::
 
-Freshservice에서는 전 세계 다양한 시간대를 지원하여 글로벌 서비스 데스크 운영을 가능하게 합니다. 이 문서는 CSV 파일을 통해 [요청자를 가져올](https://support.freshservice.com/support/solutions/articles/210050-guidelines-to-importing-requesters-from-csv-files) 때 사용할 수 있는 시간대 목록을 제공합니다.
+Freshservice에서는 전 세계 다양한 시간대를 지원해서 글로벌 서비스 데스크 운영을 가능하게 해요. 이 문서는 CSV 파일을 통해 [요청자를 가져올](https://support.freshservice.com/support/solutions/articles/210050-guidelines-to-importing-requesters-from-csv-files) 때 사용할 수 있는 시간대 목록을 제공해요.
 
 ## 개요
 
-Freshservice는 140개 이상의 시간대를 지원하며, 각 시간대는 표준 IANA 시간대 식별자를 사용합니다. CSV 가져오기 시 **Import/Export에 제공할 값** 열의 값을 사용하여 시간대를 지정할 수 있습니다.
+Freshservice는 140개 이상의 시간대를 지원하며, 각 시간대는 표준 IANA 시간대 식별자를 사용해요. CSV 가져오기 시 **Import/Export에 제공할 값** 열의 값을 사용해서 시간대를 지정할 수 있어요.
 
 :::info 시간대 설정
 - 시간대 설정은 사용자별로 개별 구성 가능합니다
-- CSV 가져오기 시 시간대 정보를 함께 포함할 수 있습니다
+- CSV 가져오기 시 시간대 정보를 함께 포함할 수 있어요
 - 설정된 시간대는 티켓 생성 시간, SLA 계산 등에 영향을 줍니다
 :::
 
@@ -688,7 +688,7 @@ Jane Smith,jane@company.com,Pacific Time (US & Canada)
 :::tip 시간대 선택 가이드
 1. **정확한 지역 선택**: 동일한 UTC 오프셋이라도 일광절약시간(DST) 적용 여부가 다를 수 있습니다
 2. **DST 고려**: 일광절약시간을 적용하는 지역의 경우 해당 지역 시간대를 선택하세요
-3. **표준 형식 사용**: 표에 명시된 정확한 값을 사용하여 오류를 방지하세요
+3. **표준 형식 사용**: 표에 명시된 정확한 값을 사용해서 오류를 방지하세요
 :::
 
 ## 시간대 관련 기능
@@ -711,16 +711,3 @@ Jane Smith,jane@company.com,Pacific Time (US & Canada)
 - 일광절약시간 전환 시기에는 SLA 계산에 주의가 필요합니다
 :::
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [CSV 파일을 통한 요청자 가져오기 가이드](./importing-requesters-csv)
-- [사용자 프로필 관리](./user-profile-management)
-- [SLA 정책 설정](./sla-policy-configuration)
-- [비즈니스 시간 설정](./business-hours-configuration)
--->

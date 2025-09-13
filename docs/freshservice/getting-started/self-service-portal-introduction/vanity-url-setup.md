@@ -5,28 +5,28 @@ sidebar_position: 5
 # 사용자 지정 URL 및 CNAME 설정
 
 :::info 문서 목적
-이 문서는 "사용자 지정 URL 및 CNAME 설정(Vanity URL & CNAME Setup)" 기능의 개념과 설정 방법을 안내합니다.
+이 문서는 "사용자 지정 URL 및 CNAME 설정(Vanity URL & CNAME Setup)" 기능의 개념과 설정 방법을 안내해요.
 :::
 
 ## 개요
 
-Freshservice 계정 설정 후 `helpdesk.mycompany.com`과 같은 자체 도메인으로 지원 포털의 URL을 맞춤 설정할 수 있습니다. 이 기능을 통해 요청자와 지원 상담원이 브랜드화된 URL을 사용하여 지원 포털에 접근할 수 있어, 브랜드 정체성을 강화하고 고객과의 신뢰를 구축할 수 있습니다.
+Freshservice 계정 설정 후 `helpdesk.mycompany.com`과 같은 자체 도메인으로 지원 포털의 URL을 맞춤 설정할 수 있어요. 이 기능을 통해 요청자와 지원 상담원이 브랜드화된 URL을 사용해서 지원 포털에 접근할 수 있어, 브랜드 정체성을 강화하고 고객과의 신뢰를 구축할 수 있어요.
 
-이를 위해 DNS 영역 파일에서 CNAME 레코드를 생성하여 사용자 지정 URL을 Freshservice 도메인(mycompany.freshservice.com)으로 가리키도록 설정하면 됩니다.
+이를 위해 DNS 영역 파일에서 CNAME 레코드를 생성해서 사용자 지정 URL을 Freshservice 도메인(mycompany.freshservice.com)으로 가리키도록 설정하면 돼요.
 
 ## 일반 계정의 CNAME 설정
 
 ### 설정 단계
 
 1. **브랜딩 설정 페이지 이동**
-   - **Admin > Account Settings > Service Desk Rebranding**으로 이동합니다
+   - **Admin > Account Settings > Service Desk Rebranding**으로 이동해요
 
 2. **포털 정보 입력**
-   - **Settings** 섹션에서 원하는 **Service Desk 또는 Portal 이름**을 입력합니다
-   - 선택한 **Helpdesk 또는 Portal URL**을 입력합니다 (예: helpdesk.mycompany.com)
+   - **Settings** 섹션에서 원하는 **Service Desk 또는 Portal 이름**을 입력해요
+   - 선택한 **Helpdesk 또는 Portal URL**을 입력해요 (예: helpdesk.mycompany.com)
 
 3. **Custom SSL 옵션 활성화**
-   - 포털에 Custom SSL이 필요한 경우 **Add Custom SSL** 옵션을 클릭하여 보안 연결을 설정합니다
+   - 포털에 Custom SSL이 필요한 경우 **Add Custom SSL** 옵션을 클릭해서 보안 연결을 설정해요
 
 ![CNAME 설정 인터페이스](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008956514/original/7KLKtheGFr_x-_DYq7RAg6v6IV3j_FSY2A.png)
 
@@ -110,15 +110,3 @@ Freshservice.com 도메인으로 URL의 서브도메인을 변경하려면 다�
 - **DNS 검증**: 실시간 도메인 설정 상태 확인 가능
 :::
 
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [서비스 데스크 브랜딩 설정](./service-desk-branding)
-- [Custom SSL 인증서 설정](./custom-ssl-certificate)
-- [포털 접속 및 로그인](./portal-access-login)
--->
