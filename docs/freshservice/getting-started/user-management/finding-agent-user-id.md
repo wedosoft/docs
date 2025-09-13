@@ -5,12 +5,12 @@ sidebar_position: 18
 # 상담원 사용자 ID 찾기
 
 :::info 문서 목적
-이 문서는 상담원의 사용자 ID 또는 응답자 ID를 찾는 방법을 안내합니다.
+이 문서는 상담원의 사용자 ID 또는 응답자 ID를 찾는 방법을 안내해요.
 :::
 
 ## 개요
 
-Freshservice에서 상담원의 **사용자 ID(User ID)** 또는 **응답자 ID(Responder ID)**를 찾는 방법을 안내합니다. 이 ID는 API 연동, 자동화 스크립트, 고급 설정 등에서 필요한 고유 식별자입니다.
+Freshservice에서 상담원의 **사용자 ID(User ID)** 또는 **응답자 ID(Responder ID)**를 찾는 방법을 안내해요. 이 ID는 API 연동, 자동화 스크립트, 고급 설정 등에서 필요한 고유 식별자입니다.
 
 ## 사용자 ID vs 상담원 ID
 
@@ -28,13 +28,13 @@ Freshservice에서 상담원의 **사용자 ID(User ID)** 또는 **응답자 ID(
 
 ### 1단계: 상담원 프로필 페이지 접근
 
-1. **관리자 → 상담원**으로 이동합니다.
-2. ID를 찾으려는 **상담원의 이름**을 클릭합니다.
+1. **관리자 → 상담원**으로 이동해요.
+2. ID를 찾으려는 **상담원의 이름**을 클릭해요.
 3. 상담원 프로필 페이지가 열립니다.
 
 ### 2단계: 상담원 ID 확인
 
-브라우저 주소창의 URL을 확인합니다:
+브라우저 주소창의 URL을 확인해요:
 ```
 https://yourcompany.freshservice.com/admin/agents/12345678
 ```
@@ -45,14 +45,14 @@ https://yourcompany.freshservice.com/admin/agents/12345678
 
 ### 3단계: 사용자 ID 조회
 
-1. URL 끝에 `.json`을 추가합니다:
+1. URL 끝에 `.json`을 추가해요:
    ```
    https://yourcompany.freshservice.com/admin/agents/12345678.json
    ```
 
-2. **Enter 키**를 눌러 페이지를 로드합니다.
+2. **Enter 키**를 눌러 페이지를 로드해요.
 
-3. JSON 형태의 데이터에서 **사용자 ID**를 확인할 수 있습니다.
+3. JSON 형태의 데이터에서 **사용자 ID**를 확인할 수 있어요.
 
 ![사용자 ID 조회](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/21003965/original/User_ID.jpg?1417524164)
 
@@ -108,22 +108,22 @@ https://yourcompany.freshservice.com/api/v2/agents
 ### 보안 고려사항
 
 :::warning 접근 권한 확인
-- 상담원 정보에 접근하려면 적절한 관리자 권한이 필요합니다.
+- 상담원 정보에 접근하려면 적절한 관리자 권한이 필요해요.
 - 사용자 ID는 민감한 정보이므로 외부 노출을 주의하세요.
 :::
 
 ### 데이터 정확성
 
 :::tip ID 변경 불가
-- 사용자 ID는 시스템에서 자동 생성되며 변경할 수 없습니다.
-- 상담원을 삭제 후 재생성하면 새로운 ID가 할당됩니다.
+- 사용자 ID는 시스템에서 자동 생성되며 변경할 수 없어요.
+- 상담원을 삭제 후 재생성하면 새로운 ID가 할당돼요.
 :::
 
 ### API 사용 시 주의사항
 
 :::warning API 제한사항
-- API 호출 시 적절한 인증이 필요합니다.
-- 요청 제한(Rate Limit)을 준수해야 합니다.
+- API 호출 시 적절한 인증이 필요해요.
+- 요청 제한(Rate Limit)을 준수해야 해요.
 :::
 
 ## 문제 해결
