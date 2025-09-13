@@ -16,77 +16,21 @@ Freshservice는 더 쉬운 네비게이션과 간단한 관리자 컴포넌트 �
 
 ### 주요 메뉴 구조
 
-<table style="border-collapse: collapse; width: 100%;">
-<thead>
-<tr style="background-color: #f5f5f5;">
-<th style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">메뉴</th>
-<th style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">하위 메뉴</th>
-<th style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">관리자 컴포넌트</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">계정 설정</td>
-<td style="border: 1px solid #ddd; padding: 8px;">-</td>
-<td style="border: 1px solid #ddd; padding: 8px;">계정, 플랜 및 빌링, 워크스페이스 설정, 서비스 데스크 브랜딩, 서비스 데스크 보안, 샌드박스, 일일 패스, 감사 로그, 이메일 알림</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">사용자 관리</td>
-<td style="border: 1px solid #ddd; padding: 8px;">-</td>
-<td style="border: 1px solid #ddd; padding: 8px;">에이전트, 역할, 회사/부서, 회사/부서 필드, 연락처/요청자, 사용자 필드, CAB, 요청자 그룹, 에이전트 그룹</td>
-</tr>
-<tr>
-<td rowspan="3" style="border: 1px solid #ddd; padding: 8px;">채널</td>
-<td style="border: 1px solid #ddd; padding: 8px;">이메일</td>
-<td style="border: 1px solid #ddd; padding: 8px;">이메일 설정 및 메일함</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">채팅</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Freshchat, Virtual Agent, ChatBot</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">기타 채널</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Freshcaller, Freshdesk, 지원 포털, 피드백 위젯</td>
-</tr>
-<tr>
-<td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">서비스 관리</td>
-<td style="border: 1px solid #ddd; padding: 8px;">서비스 데스크 설정</td>
-<td style="border: 1px solid #ddd; padding: 8px;">비즈니스 시간, SLA 및 OLA 정책, 우선순위 매트릭스, 필드 관리자, 양식 템플릿, 양식 비즈니스 규칙, 태그, 만족도 조사, 종료 규칙, 변경 라이프사이클</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">서비스 요청 관리</td>
-<td style="border: 1px solid #ddd; padding: 8px;">서비스 카탈로그, 직원 온보딩</td>
-</tr>
-<tr>
-<td rowspan="3" style="border: 1px solid #ddd; padding: 8px;">자동화 및 생산성</td>
-<td style="border: 1px solid #ddd; padding: 8px;">자동화</td>
-<td style="border: 1px solid #ddd; padding: 8px;">워크플로 자동화, 감독자 규칙, 오케스트레이션 센터, 시나리오 자동화, 자격 증명</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">에이전트 생산성</td>
-<td style="border: 1px solid #ddd; padding: 8px;">미리 작성된 응답, 스케줄러, 필드 제안자, 응답 제안, 리더보드, 이메일 명령, 팀 허들</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">확장성</td>
-<td style="border: 1px solid #ddd; padding: 8px;">앱, 커스텀 객체</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">자산 관리</td>
-<td style="border: 1px solid #ddd; padding: 8px;">-</td>
-<td style="border: 1px solid #ddd; padding: 8px;">자산 유형 및 필드, 디스커버리, 클라우드 관리, SaaS 관리, 제품 카탈로그, 벤더, 벤더 필드, 소프트웨어 필드, 계약 유형, 구매 주문 필드, 위치, 자산 감가상각, 관계 유형</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">IT 운영 관리</td>
-<td style="border: 1px solid #ddd; padding: 8px;">-</td>
-<td style="border: 1px solid #ddd; padding: 8px;">알림 규칙, 모니터링 도구, 대기 스케줄</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">프로젝트 및 워크로드 관리</td>
-<td style="border: 1px solid #ddd; padding: 8px;">-</td>
-<td style="border: 1px solid #ddd; padding: 8px;">프로젝트 필드, 프로젝트 협업, JIRA 가져오기, DevOps 통합, 워크로드 관리</td>
-</tr>
-</tbody>
-</table>
+| 메뉴 | 하위 메뉴 | 관리자 컴포넌트 |
+|------|-----------|-----------------|
+| 계정 설정 | - | 계정, 플랜 및 빌링, 워크스페이스 설정, 서비스 데스크 브랜딩, 서비스 데스크 보안, 샌드박스, 일일 패스, 감사 로그, 이메일 알림 |
+| 사용자 관리 | - | 에이전트, 역할, 회사/부서, 회사/부서 필드, 연락처/요청자, 사용자 필드, CAB, 요청자 그룹, 에이전트 그룹 |
+| **채널** | 이메일 | 이메일 설정 및 메일함 |
+| | 채팅 | Freshchat, Virtual Agent, ChatBot |
+| | 기타 채널 | Freshcaller, Freshdesk, 지원 포털, 피드백 위젯 |
+| **서비스 관리** | 서비스 데스크 설정 | 비즈니스 시간, SLA 및 OLA 정책, 우선순위 매트릭스, 필드 관리자, 양식 템플릿, 양식 비즈니스 규칙, 태그, 만족도 조사, 종료 규칙, 변경 라이프사이클 |
+| | 서비스 요청 관리 | 서비스 카탈로그, 직원 온보딩 |
+| **자동화 및 생산성** | 자동화 | 워크플로 자동화, 감독자 규칙, 오케스트레이션 센터, 시나리오 자동화, 자격 증명 |
+| | 에이전트 생산성 | 미리 작성된 응답, 스케줄러, 필드 제안자, 응답 제안, 리더보드, 이메일 명령, 팀 허들 |
+| | 확장성 | 앱, 커스텀 객체 |
+| 자산 관리 | - | 자산 유형 및 필드, 디스커버리, 클라우드 관리, SaaS 관리, 제품 카탈로그, 벤더, 벤더 필드, 소프트웨어 필드, 계약 유형, 구매 주문 필드, 위치, 자산 감가상각, 관계 유형 |
+| IT 운영 관리 | - | 알림 규칙, 모니터링 도구, 대기 스케줄 |
+| 프로젝트 및 워크로드 관리 | - | 프로젝트 필드, 프로젝트 협업, JIRA 가져오기, DevOps 통합, 워크로드 관리 |
 
 ## 이름 변경 사항
 
@@ -94,72 +38,17 @@ Freshservice는 더 쉬운 네비게이션과 간단한 관리자 컴포넌트 �
 
 ### 주요 이름 변경 목록
 
-<table style="border-collapse: collapse; width: 100%;">
-<thead>
-<tr style="background-color: #f5f5f5;">
-<th style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">기존 이름</th>
-<th style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">기존 메뉴</th>
-<th style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">새 이름</th>
-<th style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">새 메뉴</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">Requesters Groups</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Groups</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Requester Groups</td>
-<td style="border: 1px solid #ddd; padding: 8px;">User Management</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">Agents Groups</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Groups</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Agent Groups</td>
-<td style="border: 1px solid #ddd; padding: 8px;">User Management</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">Email</td>
-<td style="border: 1px solid #ddd; padding: 8px;">General Settings</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Email settings and Mailboxes</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Channels > Email</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">Chat</td>
-<td style="border: 1px solid #ddd; padding: 8px;">General Settings</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Freshchat</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Channels > Chat</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">Phone</td>
-<td style="border: 1px solid #ddd; padding: 8px;">General Settings</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Freshdesk contact center</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Channels > Other channels</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">Customer satisfaction</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Service Desk productivity</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Satisfaction Survey</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Service Management > Service Desk Settings</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">Supervisor</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Service Desk productivity</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Supervisor Rules</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Automation and Productivity > Automation</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">Arcade</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Service Desk productivity</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Leaderboard</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Automation and Productivity > Agent productivity</td>
-</tr>
-<tr>
-<td style="border: 1px solid #ddd; padding: 8px;">Financial management</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Asset Management</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Asset Depreciation</td>
-<td style="border: 1px solid #ddd; padding: 8px;">Asset Management</td>
-</tr>
-</tbody>
-</table>
+| 기존 이름 | 기존 메뉴 | 새 이름 | 새 메뉴 |
+|-----------|-----------|---------|---------|
+| Requesters Groups | Groups | Requester Groups | User Management |
+| Agents Groups | Groups | Agent Groups | User Management |
+| Email | General Settings | Email settings and Mailboxes | Channels > Email |
+| Chat | General Settings | Freshchat | Channels > Chat |
+| Phone | General Settings | Freshdesk contact center | Channels > Other channels |
+| Customer satisfaction | Service Desk productivity | Satisfaction Survey | Service Management > Service Desk Settings |
+| Supervisor | Service Desk productivity | Supervisor Rules | Automation and Productivity > Automation |
+| Arcade | Service Desk productivity | Leaderboard | Automation and Productivity > Agent productivity |
+| Financial management | Asset Management | Asset Depreciation | Asset Management |
 
 ## 실무 활용 예시
 
@@ -242,14 +131,4 @@ Freshservice는 더 쉬운 네비게이션과 간단한 관리자 컴포넌트 �
 :::
 
 ## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [관리자 설정 개요](./index)
-- [사용자 관리 가이드](./user-management)
-- [자동화 설정 가이드](./service-desk-productivity)
 -->

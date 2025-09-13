@@ -14,29 +14,6 @@ Freshservice와 Slack 통합을 통해 팀 협업을 강화하고 IT 지원 프�
 Slack을 통한 티켓 관리, 실시간 알림, 팀 협업을 위한 완전한 통합 솔루션입니다.
 :::
 
-## 🎯 한국 기업 활용 시나리오
-
-### 시나리오 1: 스타트업 빠른 대응
-**회사**: 당근마켓 IT팀
-- **즉시 알림**: 긴급 티켓이 생성되면 #it-support 채널에 즉시 알림
-- **빠른 소통**: Slack에서 바로 티켓 상태 확인 및 댓글 추가
-- **모바일 대응**: 외부에서도 Slack 모바일 앱으로 즉시 대응
-- **투명한 협업**: 모든 팀원이 진행 상황을 실시간으로 공유
-
-### 시나리오 2: 중견기업 부서간 협업
-**회사**: NHN 기술지원팀
-- **부서별 채널**: #dev-support, #infra-alerts 등 부서별 전용 채널
-- **에스컬레이션**: 복잡한 문제는 전문팀 채널로 자동 에스컬레이션
-- **지식 공유**: 해결된 문제를 채널에 공유하여 팀 학습 효과
-- **워크플로 자동화**: Slack 명령어로 티켓 생성 및 처리
-
-### 시나리오 3: 대기업 운영센터
-**회사**: 카카오 인프라운영팀
-- **24시간 모니터링**: 시스템 알림을 Slack으로 실시간 수신
-- **교대 근무**: 근무 시간에 따라 다른 채널로 알림 라우팅
-- **대시보드 연동**: Slack에서 시스템 상태 대시보드 직접 확인
-- **인시던트 관리**: 주요 장애 시 전용 채널에서 통합 대응
-
 ## 🚀 Slack 통합 설정
 
 ### 기본 연동 설정
@@ -187,8 +164,3 @@ Slack을 통한 티켓 관리, 실시간 알림, 팀 협업을 위한 완전한 
 ```
 
 ## 🔗 관련 문서
-
-- [Microsoft Teams 오케스트레이션](./microsoft-teams-orchestration)
-- [Microsoft Azure 오케스트레이션](./microsoft-azure-orchestration)
-- [Service Desk Productivity](../admin-settings/service-desk-productivity)
-- [User Management](../admin-settings/user-management)

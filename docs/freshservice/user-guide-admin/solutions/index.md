@@ -10,31 +10,6 @@ sidebar_position: 1
 
 모든 서비스 데스크는 잘 관리되고 업데이트된 지식 베이스가 필요합니다. 지식 베이스는 일관된 응답 제공과 사용자 자가 해결을 통한 지원 부하 감소라는 두 가지 핵심 문제를 해결합니다.
 
-<h2 dir="ltr">Solutions</h2><p><br></p><p dir="ltr">Every service desk requires a well maintained knowledge base. A well maintained and updated knowledge base solves two of the biggest problems that take place every day. First, with all agents having access to a common place for sharing solutions, you can be sure that responses are consistent throughout. Second, since requesters have access to the knowledge base, they might find a solution even as they type out the problem to report it. As a result, your support load reduces making lives easier.</p><p dir="ltr"><br>With Freshservice, you can add both permanent solutions as well as temporary workarounds to your knowledge base from the <strong>Solutions</strong> tab.&nbsp;</p><p><br></p><p dir="ltr">You can make sure that all the information your agents come across everyday get documented properly into solution articles.</p><p dir="ltr">Once you have populated your knowledge base entries, you can setup your support portal to<br>"auto-suggest" solutions based on the requester's subject line before they submit a ticket.&nbsp;</p><p><br></p><p dir="ltr">You can enable auto-suggest from <strong>Admin → Customer Portal</strong>. You can also get Freshservice to suggest the best possible solutions in response to a ticket by using "Suggest Solutions" inside a ticket.</p><p dir="ltr">Solutions can be public or private. Public solutions are visible in the Self Service Portal and also appear in Search results. Private solutions are agent-only solutions used for internal knowledge sharing.</p><p dir="ltr">Solutions have a 3 level hierarchy: <strong>Category → Folder → Article<br></strong></p><p dir="ltr">Solutions can be of two types: &nbsp;<strong>Workaround</strong> and <strong>Permanent solutions.</strong></p><p dir="ltr">A Solution can have a <strong>Draft</strong> status when you are working on it and can be changed to Published<br>status once it is finished and reviewed.</p><p><br></p><p><br></p>
-
-## 🎯 한국 기업 활용 시나리오
-
-### 시나리오 1: 대기업 통합 지식 관리
-**회사**: 현대자동차 IT서비스센터
-- **다국어 지원**: 한국어, 영어, 중국어 솔루션 아티클 제공
-- **부서별 카테고리**: 생산, 영업, 연구개발 부서별 전용 솔루션
-- **자동 제안**: 티켓 제목 기반 관련 솔루션 자동 추천
-- **품질 관리**: 정기적 솔루션 검토 및 업데이트 프로세스
-
-### 시나리오 2: 금융권 고객 셀프서비스
-**회사**: KB국민은행 디지털채널팀
-- **고객 FAQ**: 인터넷뱅킹, 모바일앱 사용법 상세 가이드
-- **단계별 가이드**: 스크린샷과 함께 제공하는 상세 매뉴얼
-- **보안 가이드**: 피싱 메일 식별, 안전한 거래 방법 안내
-- **24시간 접근**: 고객이 언제든지 셀프서비스로 문제 해결
-
-### 시나리오 3: IT 서비스 회사 기술 문서
-**회사**: NHN 기술지원팀
-- **개발자 가이드**: API 사용법, 개발 환경 설정 가이드
-- **운영 매뉴얼**: 서버 관리, 배포 절차, 모니터링 방법
-- **트러블슈팅**: 자주 발생하는 문제와 해결 방법 정리
-- **버전 관리**: 서비스 업데이트에 따른 문서 버전 관리
-
 ## 💡 지식 베이스 구축 전략
 
 ### 솔루션 아티클 구조
@@ -218,8 +193,3 @@ IT 지원
 :::
 
 ## 🔗 관련 문서
-
-- [Admin Settings](../admin-settings/)
-- [User Management](../admin-settings/user-management)
-- [Reports](../reports/)
-- [Service Desk Productivity](../admin-settings/service-desk-productivity)

@@ -12,29 +12,6 @@ Freshservice와 Microsoft Azure 통합을 통해 클라우드 인프라 관리�
 
 <p>Microsoft Azure Orchestration</p>
 
-## 🎯 한국 기업 활용 시나리오
-
-### 시나리오 1: 클라우드 퍼스트 기업
-**회사**: 쿠팡 클라우드플랫폼팀
-- **자동 프로비저닝**: 개발팀 요청 시 Azure VM 자동 생성
-- **리소스 관리**: 사용하지 않는 리소스 자동 정리 및 비용 최적화
-- **보안 자동화**: Azure Security Center 알림과 자동 대응
-- **백업 관리**: 정기 백업 스케줄링 및 복원 프로세스 자동화
-
-### 시나리오 2: 하이브리드 클라우드 환경
-**회사**: LG전자 클라우드사업부
-- **온프레미스 연계**: Azure Arc를 통한 하이브리드 환경 관리
-- **데이터 동기화**: 온프레미스와 Azure 간 데이터 동기화 자동화
-- **재해복구**: Azure Site Recovery 기반 DR 시나리오 자동 실행
-- **네트워크 관리**: VPN 및 ExpressRoute 연결 모니터링
-
-### 시나리오 3: 엔터프라이즈 거버넌스
-**회사**: 삼성SDS 클라우드컨설팅
-- **리소스 거버넌스**: Azure Policy 기반 규정 준수 자동 검사
-- **비용 관리**: 예산 초과 알림 및 자동 리소스 제한
-- **태그 관리**: 리소스 태깅 정책 자동 적용
-- **액세스 제어**: RBAC 기반 권한 관리 자동화
-
 ## 🚀 Azure 통합 아키텍처
 
 ### 연동 구성도
@@ -347,8 +324,3 @@ catch {
 ```
 
 ## 🔗 관련 문서
-
-- [Slack 오케스트레이션](./slack-orchestration)
-- [Microsoft Teams 오케스트레이션](./microsoft-teams-orchestration)
-- [Asset Management](../admin-settings/asset-management)
-- [Change Management](../change-management/)

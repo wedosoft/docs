@@ -12,29 +12,6 @@ Freshservice와 Microsoft Teams 통합을 통해 Microsoft 365 환경에서 원�
 
 <p>Microsoft Teams Orchestration</p>
 
-## 🎯 한국 기업 활용 시나리오
-
-### 시나리오 1: 대기업 통합 오피스 환경
-**회사**: 삼성전자 IT지원센터
-- **Office 365 통합**: 기존 Teams 환경에서 바로 IT 지원 요청
-- **SSO 연동**: Azure AD 통합 인증으로 별도 로그인 불필요
-- **다국어 지원**: 해외 법인과의 글로벌 커뮤니케이션
-- **보안 준수**: 엔터프라이즈급 보안 정책 적용
-
-### 시나리오 2: 금융권 컴플라이언스 환경
-**회사**: 신한은행 IT운영팀
-- **보안 채널**: 민감한 정보 처리를 위한 프라이빗 Teams 채널
-- **감사 추적**: 모든 대화 내용 자동 기록 및 보관
-- **규정 준수**: 금융권 보안 정책에 맞는 데이터 처리
-- **백업 및 복구**: 중요 의사소통 내용 안전한 보관
-
-### 시나리오 3: 제조업 현장 지원
-**회사**: 현대자동차 생산기술팀
-- **모바일 지원**: 생산 현장에서 Teams 모바일로 즉시 지원 요청
-- **영상 통화**: 복잡한 문제는 Teams 화상회의로 원격 지원
-- **파일 공유**: OneDrive 연동으로 기술 문서 즉시 공유
-- **시프트 관리**: 교대 근무자 간 인수인계 체계
-
 ## 🚀 Teams 통합 설정
 
 ### 앱 설치 및 설정
@@ -247,8 +224,3 @@ Mission Critical
 ```
 
 ## 🔗 관련 문서
-
-- [Slack 오케스트레이션](./slack-orchestration)
-- [Microsoft Azure 오케스트레이션](./microsoft-azure-orchestration)
-- [User Management](../admin-settings/user-management)
-- [Service Desk Productivity](../admin-settings/service-desk-productivity)
