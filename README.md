@@ -59,9 +59,13 @@ npm run build
 │   └── mdx-troubleshooting.md # 🚨 MDX 문제해결
 ├── 📖 docs/                   # 사용자 문서 (Docusaurus)
 │   └── freshworks/freshservice/ # Freshservice 문서 (74개 완료)
+├── 📁 categories/             # **카테고리별 CSV 데이터** (20개 파일, 1,557개 문서)
+│   ├── README.md              # 📋 Categories 폴더 가이드
+│   ├── Freshservice_FAQs.csv  # 508개 문서 (최우선)
+│   ├── Getting_started_with_Freshservice.csv # 115개 문서
+│   └── [18개 추가 카테고리 CSV 파일]
 ├── 🛠️ scripts/                # 작업용 스크립트
 │   └── mdx_fixer.py          # MDX 호환성 자동 처리
-├── 📊 raw_data/               # 원본 CSV 데이터 (5개 파일, 1,557개 문서)
 ├── 🎨 src/                    # 사이트 소스 코드
 └── 🔧 .github/                # 작업 지침 및 템플릿
 ```
@@ -105,7 +109,22 @@ docs/freshworks/freshservice/  (1개) ✅
 
 ## 🔧 주요 도구 및 스크립트
 
-### ️ **수작업 지원 도구**
+### ⚡ **카테고리별 CSV 파일 시스템** (2025.09.11 완성)
+```bash
+# 카테고리별로 분할된 CSV 파일들 (20개)
+ls categories/*.csv
+
+# 각 카테고리별 문서 수 확인
+wc -l categories/*.csv
+
+# 작업할 카테고리 선택 및 미리보기
+head -10 categories/Freshservice_FAQs.csv
+
+# Categories 폴더 상세 가이드 확인
+cat categories/README.md
+```
+
+### 📊 **수작업 지원 도구**
 ```bash
 # MDX 호환성 자동 처리 (완성된 문서에 적용)
 python3 scripts/mdx_fixer.py docs/freshworks/freshservice/
