@@ -147,35 +147,6 @@ Freshservice에서는 다음과 같은 메일 서버 옵션을 제공합니다:
 
 설정 완료 후 **Save**를 클릭합니다.
 
-## 문제 해결
-
-### SMTP/IMAP 오류 해결 방법
-
-#### Microsoft 메일박스
-
-메일박스가 연결되지 않는 경우 다음 단계를 따르세요:
-
-1. O365 관리자 자격 증명으로 O365 Admin Center에 로그인합니다.
-2. **Users → Active Users**로 이동하여 사용자 정의 메일박스가 구성된 **이메일 주소**를 클릭합니다.
-3. 팝업 창에서 **Mail > Manage email apps**로 이동합니다.
-4. **IMAP, Authenticated SMTP** 및 아래 언급된 모든 항목이 활성화되어 있는지 확인합니다.
-
-![O365 설정 확인](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011854879/original/xZ5d9rWtknM9DhUHamv6cDrK1qlSPHjxTQ.png?1715863735)
-
-#### Google 및 기타 메일박스
-
-Google 또는 기타 메일박스 계정을 사용하는 경우, POP3, IMAP, SMTP 설정이 활성화되어 있는지 확인하세요.
-
-### 지속적인 문제 해결
-
-문제가 계속 관찰되는 경우 다음 지침에 따라 메일박스를 재구성하세요:
-
-:::warning 재구성 단계
-1. Org 포털에서 Default Freshworks 로그인이 활성화되어 있지 않은 경우 활성화합니다.
-2. **시크릿 창**에서 Freshservice에 접근하고 **SSO를 사용하지 않고** 로그인하여 브라우저가 활성 세션을 인식하지 않도록 합니다. 필요한 경우 비밀번호 찾기를 사용하세요.
-3. 로그인한 후, Sign in with Microsoft / Google / Other를 선택하여 문제를 해결하도록 재구성합니다.
-:::
-
 ## 주요 포인트
 
 :::success 설정 완료 체크리스트

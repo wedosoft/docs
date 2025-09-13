@@ -1,6 +1,6 @@
 # 비즈니스 시간 및 SLA (Business Hours and SLAs)
 
-Freshservice의 비즈니스 시간 및 SLA 설정에 대한 자주 묻는 질문들입니다. 총 10개의 FAQ를 포함하고 있습니다.
+Freshservice의 비즈니스 시간 및 SLA 설정에 대한 자주 묻는 질문들입니다.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

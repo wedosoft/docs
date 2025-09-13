@@ -1142,6 +1142,3 @@ Level 4 (Executive): 임원진만 접근
 
 </details>
 
----
-
-*이 가이드는 Freshservice의 서비스 카탈로그를 효과적으로 활용하는 데 도움이 됩니다.*

@@ -147,40 +147,6 @@ sidebar_position: 10
 - 시나리오 자동화
 - API 요청
 
-## 실무 활용 사례
-
-### 사례 1: 위치별 카테고리 표시
-
-사용자의 위치/부서/그룹에 따라 관련 카테고리만 표시하도록 설정합니다.
-
-![위치별 카테고리](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002943242/original/bXK4C2rviMwbTTOLRcuR6zDI_D5sG2byrw.png?1620208899)
-
-### 사례 2: 승인 대기 중 상태 제한
-
-티켓이 승인 대기 중일 때 상태 필드의 드롭다운 선택 항목을 제한합니다.
-
-![상태 제한](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002943258/original/vYzA3a4aj5zBDBTkzaygYaNfqeo1OHLrKw.png?1620209023)
-
-### 사례 3: 상태별 필수 필드 설정
-
-티켓 상태가 "대기 중"으로 업데이트될 때 추가 세부 정보 필드를 필수로 설정합니다.
-
-![필수 필드 설정](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001425587/original/mbObf75eFt95lLq0fe253zU_4m5bxIDUCg.png?1594405776)
-
-**결과**: 상담원이 추가 세부 정보를 입력하지 않고는 상태를 "대기 중"으로 변경할 수 없습니다.
-
-![검증 메시지](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001425114/original/eUljQKVRhbvV-uwIHi1qN_zrJYjnwtHz2w.png?1594399015)
-
-### 사례 4: 승인 대기 중 티켓 종료 방지
-
-승인 대기 중인 티켓이 종료되는 것을 방지합니다.
-
-![종료 방지 규칙](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001425227/original/iLvf8GGylVHoJqsf19PiNUzauVzXIaaEOg.png?1594400293)
-
-사용자 정의 상태를 사용하여 티켓이 승인 대기 중임을 표시하고, 상담원이 승인 대기 중인 티켓을 종료/해결하려고 하면 사용자가 구성한 사용자 정의 메시지와 함께 오류가 발생합니다.
-
-![사용자 정의 오류 메시지](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001424849/original/4qvaGLVVdWyWWuXTG3fhegnwLoA-o4RRzA.png?1594396242)
-
 ## 규칙 관리 및 운영
 
 ### 규칙 목록 관리

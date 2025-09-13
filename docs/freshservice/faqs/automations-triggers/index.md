@@ -2,8 +2,6 @@
 
 Freshservice의 자동화 및 트리거 기능에 대한 자주 묻는 질문들입니다. 총 60개의 FAQ를 포함하고 있습니다.동화 및 트리거
 
-Freshservice의 자동화 및 트리거 기능에 대한 자주 묻는 질문들입니다. 총 36개의 FAQ를 포함하고 있습니다 (진행 중).
-
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -1856,14 +1854,3 @@ API 연동 자동화 설정:
 
 </details>
 
----
-
-## 추가 리소스
-
-자동화 및 트리거에 대한 더 자세한 정보는 다음 리소스를 참조하세요:
-
-- [Freshservice 자동화 가이드](https://support.freshservice.com/en/support/solutions/folders/50000003793)
-- [워크플로우 자동화 모범 사례](https://support.freshservice.com/en/support/solutions/articles/50000004790)
-- [API 문서](https://api.freshservice.com/)
-
-이 FAQ는 지속적으로 업데이트되며, 새로운 기능이나 개선사항이 있을 때마다 추가됩니다.

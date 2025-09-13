@@ -52,37 +52,3 @@ Freshchat 계정과 Freshservice 계정에 모두 관리자 권한이 있어야 
 
 **결과**: 정상적인 채팅-티켓 연동 복구
 
-## 문제 해결
-
-### 자주 발생하는 문제
-
-#### 문제: 앱 ID나 토큰이 보이지 않음
-**원인**: Freshchat 관리자 권한 부족
-**해결**: 
-1. 계정 권한 확인 (Account Owner 또는 Admin 권한 필요)
-2. 다른 관리자에게 권한 요청
-3. Freshchat 고객지원팀 문의
-
-#### 문제: 토큰이 유효하지 않다는 오류
-**원인**: 토큰 만료 또는 복사 오류
-**해결**:
-1. Integration Settings에서 토큰 재생성
-2. 복사 시 공백이나 특수문자 포함 여부 확인
-3. 새로운 토큰으로 재설정
-
-:::success 통합 준비 완료
-앱 ID와 토큰을 성공적으로 확인했습니다. 이제 Freshservice에서 Freshchat 통합을 설정할 수 있습니다.
-:::
-
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [Freshchat 통합 설정 가이드](./freshchat-integration-setup)
-- [채팅 위젯 설정](./chat-widget-configuration)
-- [통합 문제 해결](./integration-troubleshooting)
--->

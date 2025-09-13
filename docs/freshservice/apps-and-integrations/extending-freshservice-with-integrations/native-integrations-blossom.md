@@ -67,34 +67,3 @@ MSP 모드에서는 ConnectWise, Autotask 같은 MSP 전용 PSA 도구와 QuickB
 
 **결과**: 효율적인 MSP 서비스 제공 체계
 
-## 문제 해결
-
-### 자주 발생하는 문제
-
-#### 문제: 통합 앱이 표시되지 않음
-**원인**: Blossom 플랜이 아니거나 관리자 권한 부족
-**해결**: 
-1. 플랜 상태 확인 (Admin → Account → Subscription)
-2. 관리자 권한 확인
-3. 브라우저 캐시 초기화
-
-:::success 통합 완료
-모든 네이티브 통합 앱이 정상적으로 표시되고 설정할 수 있습니다.
-:::
-
-#### 문제: MSP 전용 앱이 보이지 않음
-**원인**: Service Desk Mode로 설정되어 있음
-**해결**: Admin → General Settings에서 MSP Mode로 변경
-
-## 관련 문서
-
-:::info 참조 문서 작업 방침
-이 섹션은 모든 관련 문서가 생성된 후 최종 작업 단계에서 링크를 추가합니다.
-현재는 섹션 제목만 유지하고 broken links 방지를 위해 링크는 추가하지 않습니다.
-:::
-
-<!-- 최종 작업 시 아래 형태로 추가:
-- [통합 앱 설정 가이드](./integration-setup-guide)
-- [Slack 통합 상세 설정](./slack-integration)
-- [MSP 모드 설정](./msp-mode-configuration)
--->
