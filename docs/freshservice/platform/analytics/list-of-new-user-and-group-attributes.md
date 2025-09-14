@@ -145,14 +145,10 @@ Analytics 모듈에서는 향상된 리포팅을 위해 다양한 사용자 및 
 
 ### 속성 추가 절차
 
-<div className="procedure">
-  <ol>
-    <li><strong>관리자 → 사용자 관리 → 사용자 필드</strong> 또는 <strong>그룹 필드</strong>
-    <li>새 사용자 정의 필드 생성
-    <li>Analytics 동기화 대기 (40-60분)
-    <li>Analytics에서 새 속성 확인
-  </ol>
-</div>
+1. **관리자 → 사용자 관리 → 사용자 필드** 또는 **그룹 필드**
+2. 새 사용자 정의 필드 생성
+3. Analytics 동기화 대기 (40-60분)
+4. Analytics에서 새 속성 확인
 
 ### 속성 데이터 채우기
 
