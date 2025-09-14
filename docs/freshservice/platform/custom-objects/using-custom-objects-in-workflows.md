@@ -18,7 +18,7 @@ Reader Node는 워크플로 설정과 유지보수를 간소화하여 많은 관
 
 ## Reader Node 사용 방법
 
-[커스텀 객체를 생성](creating-custom-objects.md)한 후, 워크플로 자동화에서 Reader Node를 통해 저장된 데이터를 기반으로 작업을 수행할 수 있습니다.
+[커스텀 객체를 생성](creating-custom-objects.mdx)한 후, 워크플로 자동화에서 Reader Node를 통해 저장된 데이터를 기반으로 작업을 수행할 수 있습니다.
 
 Reader Node는 다음 4개 섹션으로 구성됩니다:
 
@@ -144,6 +144,6 @@ A: Record ID를 Filter By 옵션에서 사용하고 해당 룩업 필드와 매�
 
 ## 관련 문서
 
-- [커스텀 객체 생성하기](creating-custom-objects.md)
+- [커스텀 객체 생성하기](creating-custom-objects.mdx)
 - [커스텀 객체 룩업](lookups-to-custom-objects.md)
 - [커스텀 객체 가져오기/내보내기](importing-and-exporting-custom-objects.md)

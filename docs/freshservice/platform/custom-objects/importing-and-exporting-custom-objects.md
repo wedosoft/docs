@@ -57,7 +57,7 @@ sidebar_position: 3
 <p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">While importing into lookup fields, since look ups reference existing entities, ensure you use the following matching fields.</span></p>
 
 <div align="left" dir="ltr" style="margin-left:0pt;"><table style="border: none; border-collapse: collapse; width: 80%; table-layout: fixed; margin-right: calc(10%); margin-left: calc(10%);">
-<colgroup /><col /><col /></colgroup>
+<colgroup><col /><col /></colgroup>
 <tbody>
 <tr style="height:0pt;">
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; background-color: rgb(164, 194, 244);">

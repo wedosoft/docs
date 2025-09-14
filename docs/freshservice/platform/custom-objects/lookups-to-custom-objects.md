@@ -193,6 +193,6 @@ A:
 
 ## 관련 문서
 
-- [커스텀 객체 생성하기](creating-custom-objects.md)
+- [커스텀 객체 생성하기](creating-custom-objects.mdx)
 - [워크플로에서 커스텀 객체 활용하기](using-custom-objects-in-workflows.md)
 - [커스텀 객체 가져오기/내보내기](importing-and-exporting-custom-objects.md)

@@ -22,36 +22,36 @@
 <tr style="height: 0pt;">
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
 <p dir="ltr" style={{"lineHeight": "1.38", "textAlign": "center", "marginBottom": "0pt"}}>
-<span>**웹 요청 노드**</span> 
+**웹 요청 노드** 
 </p>
 </td>
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-<strong>웹훅</strong></span>
+<strong>웹훅</strong>
 </p>
 </td>
 </tr>
 <tr style="height: 0pt;">
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
 <p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
-JSON 파서로 요청의 응답 본문을 파싱하고 후속 노드에서 응답 출력을 참조합니다.</span>
+JSON 파서로 요청의 응답 본문을 파싱하고 후속 노드에서 응답 출력을 참조합니다.
 </p>
 </td>
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
 <p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
-웹훅에서 받은 응답을 기반으로 작업을 수행할 수 없습니다.</span>
+웹훅에서 받은 응답을 기반으로 작업을 수행할 수 없습니다.
 </p>
 </td>
 </tr>
 <tr style="height: 0pt;">
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
 <p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
-응답을 받은 후에만 다음 노드로 진행합니다.</span>
+응답을 받은 후에만 다음 노드로 진행합니다.
 </p>
 </td>
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
 <p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
-응답을 받지 못해도 후속 작업을 수행합니다.</span>
+응답을 받지 못해도 후속 작업을 수행합니다.
 </p>
 </td>
 </tr>
@@ -72,79 +72,79 @@ JSON 파서로 요청의 응답 본문을 파싱하고 후속 노드에서 응�
 <tr style="height: 0pt;">
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
 <p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
-<strong dir="ltr">인증 유형</strong></span>
+<strong dir="ltr">인증 유형</strong>
 </p>
 </td>
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 34.5001%;">
 <p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
-<strong>입력</strong></span>
+<strong>입력</strong>
 </p>
 </td>
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 41.1756%;">
 <p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
-<strong>설명</strong></span>
+<strong>설명</strong>
 </p>
 </td>
 </tr>
 <tr style="height: 0pt;">
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
 <p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
-Basic Auth</span>
+Basic Auth
 </p>
 </td>
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 34.5001%;">
 <p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
-<strong>사용자명</strong></span><span style="color: rgb(0, 0, 0); font-weight: 400;">: 이메일 주소</span>
+<strong>사용자명</strong>: 이메일 주소
 </p>
 <p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
-<strong>비밀번호</strong></span><span style="color: rgb(0, 0, 0); font-weight: 400;">: 비밀번호</span>
+<strong>비밀번호</strong>: 비밀번호
 </p>
 </td>
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 41.1756%;">
 <p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
-요청에 검증된 </span> <span style="color: rgb(0, 0, 0); font-weight: 700;"> <strong> 사용자명</strong> </span> <span dir="ltr" style="color: rgb(0, 0, 0); font-weight: 400;"> 과 </span> <span style="color: rgb(0, 0, 0); font-weight: 700;"> <strong> 비밀번호</strong> </span> <span style="color: rgb(0, 0, 0); font-weight: 400;"> 를 보내는 경우 <strong> Basic Auth</strong> 유형을 사용합니다.</span> 
+요청에 검증된   <strong> 사용자명</strong>   과   <strong> 비밀번호</strong>   를 보내는 경우 <strong> Basic Auth</strong> 유형을 사용합니다. 
 </p>
 <p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
-<strong>참고</strong>: Freshservice API 키 인증은 다음 값으로 기본 인증을 사용하여 수행할 수 있습니다.</span>
+<strong>참고</strong>: Freshservice API 키 인증은 다음 값으로 기본 인증을 사용하여 수행할 수 있습니다.
 </p>
 <p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
-사용자명: <strong> <API 키></strong> </span> <br /> 
-비밀번호: <strong> x</strong> </span> 
+사용자명: <strong> &lt;API 키&gt;</strong>  <br /> 
+비밀번호: <strong> x</strong>  
 </p>
 </td>
 </tr>
 <tr style="height: 0pt;">
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
 <p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
-API 키</span>
+API 키
 </p>
 </td>
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 34.5001%;">
 <p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
-<strong>키</strong></span><span style="color: rgb(0, 0, 0); font-weight: 400;">: Authorization</span><br />
-<strong>값</strong></span><span style="color: rgb(0, 0, 0); font-weight: 400;">: API 키</span>
+<strong>키</strong>: Authorization<br />
+<strong>값</strong>: API 키
 </p>
 </td>
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 41.1756%;">
 <p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
-인증을 위해 </span> <span style="color: rgb(0, 0, 0); font-weight: 700;"> <strong> API 키</strong> </span> <span dir="ltr" style="color: rgb(0, 0, 0); font-weight: 400;"> 가 필요한 애플리케이션에서 작업을 수행할 때 </span> <span style="color: rgb(0, 0, 0); font-weight: 700;"> <strong> API 키</strong> </span> <span style="color: rgb(0, 0, 0); font-weight: 400;"> 유형을 사용합니다.</span> 
+인증을 위해   <strong> API 키</strong>   가 필요한 애플리케이션에서 작업을 수행할 때   <strong> API 키</strong>   유형을 사용합니다. 
 </p>
 </td>
 </tr>
 <tr style="height: 0pt;">
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
 <p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
-No Auth</span>
+No Auth
 </p>
 </td>
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 34.5001%;">
 <p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
--</span>
+-
 </p>
 </td>
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 41.1756%;">
 <p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
-요청에 인증이 필요하지 않은 경우 </span> <span style="color: rgb(0, 0, 0); font-weight: 700;"> <strong> No Auth</strong> </span> <span style="color: rgb(0, 0, 0); font-weight: 400;"> 유형을 사용합니다.</span> 
+요청에 인증이 필요하지 않은 경우   <strong> No Auth</strong>   유형을 사용합니다. 
 </p>
 </td>
 </tr>
@@ -170,54 +170,54 @@ No Auth</span>
 <tr style="height: 16.5pt;">
 <td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-<strong>지역</strong></span>
+<strong>지역</strong>
 </p>
 </td>
 <td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 23.3226%;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-<strong>US</strong></span>
+<strong>US</strong>
 </p>
 </td>
 <td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 18.4799%;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-<strong>EUC</strong></span>
+<strong>EUC</strong>
 </p>
 </td>
 <td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 22.1216%;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-<strong>AU</strong></span>
+<strong>AU</strong>
 </p>
 </td>
 <td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 17.8505%;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-<strong>IND</strong></span>
+<strong>IND</strong>
 </p>
 </td>
 </tr>
 <tr style="height: 16.5pt;">
 <td rowspan="4" style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-IP 주소</span>
+IP 주소
 </p>
 </td>
 <td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 23.3226%;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-34.229.27.241</span>
+34.229.27.241
 </p>
 </td>
 <td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 18.4799%;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-3.64.157.0</span>
+3.64.157.0
 </p>
 </td>
 <td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 22.1216%;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-52.65.121.133</span>
+52.65.121.133
 </p>
 </td>
 <td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 17.8505%;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-13.233.211.108</span>
+13.233.211.108
 </p>
 </td>
 </tr>
@@ -240,34 +240,34 @@ IP 주소</span>
 <tr style="height: 16.5pt;">
 <td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-<strong>지역</strong></span>
+<strong>지역</strong>
 </p>
 </td>
 <td style="border-width: 0.5pt; border-style: solid; border-color: rgb(204, 204, 204) rgb(193, 199, 208) rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 20.9748%;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-<strong>US</strong></span>
+<strong>US</strong>
 </p>
 </td>
 <td style="border-width: 0.5pt; border-style: solid; border-color: rgb(204, 204, 204) rgb(193, 199, 208) rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 23.6324%;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-<strong>EUC</strong></span>
+<strong>EUC</strong>
 </p>
 </td>
 <td style="border-width: 0.5pt; border-style: solid; border-color: rgb(204, 204, 204) rgb(193, 199, 208) rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-<strong>AU</strong></span>
+<strong>AU</strong>
 </p>
 </td>
 <td style="border-width: 0.5pt; border-style: solid; border-color: rgb(204, 204, 204) rgb(193, 199, 208) rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-<strong>IND</strong></span>
+<strong>IND</strong>
 </p>
 </td>
 </tr>
 <tr style="height: 16.5pt;">
 <td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208) rgb(204, 204, 204) rgb(204, 204, 204); padding: 2pt; overflow: hidden; overflow-wrap: break-word;">
 <p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
-화이트리스트할 도메인명</span>
+화이트리스트할 도메인명
 </p>
 </td>
 <td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208) rgb(193, 199, 208) rgb(193, 199, 208) rgb(204, 204, 204); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 20.9748%;">
