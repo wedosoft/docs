@@ -4,7 +4,7 @@
 
 Freshservice 계정 관리자는 **관리자 → 계정 설정 → 요금제 및 결제**를 클릭할 수 있습니다. 계정에 여러 작업 공간이 있는 경우, **관리자 &gt; 전역 설정 &gt; 계정 설정 &gt; 요금제 및 결제**로 이동하세요. 새 탭이 열리면서 모든 구독 상세 정보가 표시됩니다. 계정 관리자는 이 페이지에서 요금제, 애드온, 결제 통화, 기간, 결제 정보, 청구 및 배송 주소를 확인할 수 있습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007710429/original/0PwtefycbjiCl_mcdIW6uIG14CcHgwapRQ.png?1677468893" width="602" height="356" style="border:none;display:inline-block;overflow:hidden;width:602px;height:356px;" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007710429/original/0PwtefycbjiCl_mcdIW6uIG14CcHgwapRQ.png?1677468893" width="602" height="356" style={{ border: "none", display: "inline-block", overflow: "hidden", width: "602px", height: "356px" }} />
 
 ## 구독 상세 정보 페이지 구성
 
@@ -20,7 +20,7 @@ Freshservice 계정 관리자는 **관리자 → 계정 설정 → 요금제 및
 - **구독 청구서 보기 링크**: "이 구독의 청구서 보기"를 클릭하면 현재 구독의 모든 청구서가 표시됩니다. 청구서 ID, 생성 및 만료일, 상태, 미납 금액 및 청구서 금액과 같은 청구서 정보를 확인하고 다운로드할 수도 있습니다.
 - **요금제 관리**: "요금제 관리"를 클릭하여 구독을 수정할 수 있습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007719340/original/LsOzWtF6xRt185fkjeHSxJlolg1F2OzQ7g.png?1677519702" style="width: auto;" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007719340/original/LsOzWtF6xRt185fkjeHSxJlolg1F2OzQ7g.png?1677519702" style={{ width: "auto" }} />
 
 ### 오른쪽 섹션 정보
 
@@ -30,7 +30,7 @@ Freshservice 계정 관리자는 **관리자 → 계정 설정 → 요금제 및
 - **결제 정보**: 현재 구독의 결제 세부 정보를 확인하고 변경할 수 있습니다.
 - **청구 및 배송 주소**: 청구 및 배송 주소를 확인하고 수정할 수 있습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007719394/original/H-JI68AmC8rqoh549zD2tGavotKCBPQNhg.png?1677520074" style="width: auto;" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007719394/original/H-JI68AmC8rqoh549zD2tGavotKCBPQNhg.png?1677520074" style={{ width: "auto" }} />
 
 ## 사용 예시
 

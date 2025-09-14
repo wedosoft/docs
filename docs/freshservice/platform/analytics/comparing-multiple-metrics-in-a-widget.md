@@ -14,26 +14,26 @@ Analytics 기능 향상을 통해 한 화면에서 여러 메트릭을 수집하
    - 원하는 위젯을 생성하거나 기존 위젯을 엽니다.
 
 2. **메트릭 추가**
-   - 오른쪽 패널에서 &lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000444939/original/zSA4y6qXuRxweZcahKt-xIXnn11qbhPZaw.png?1575024305" width="21" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50000444939" style="width: 19px; height: 18.0946px;" / /&gt; **메트릭**을 클릭하여 여러 메트릭을 추가합니다.
+   - 오른쪽 패널에서 <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000444939/original/zSA4y6qXuRxweZcahKt-xIXnn11qbhPZaw.png?1575024305" width="21" className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50000444939" style={{ width: "19px", height: "18.0946px" }}  /> **메트릭**을 클릭하여 여러 메트릭을 추가합니다.
    - **그룹화 기준** 필드에서 그룹화 기준을 선택할 수 있습니다.
 
 3. **메트릭 관리**
-   - 메트릭의 이름을 변경하려면 메트릭 오른쪽의 &lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000444940/original/hLmPwlDfxM2I0eg5HRBWK96I2VxPwh7wBA.png?1575024305" width="33" height="13" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50000444940" /&gt; 을 클릭하고 **이름 변경**을 선택합니다.
+   - 메트릭의 이름을 변경하려면 메트릭 오른쪽의 <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000444940/original/hLmPwlDfxM2I0eg5HRBWK96I2VxPwh7wBA.png?1575024305" width="33" height="13" className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50000444940" /> 을 클릭하고 **이름 변경**을 선택합니다.
    - 같은 메뉴에서 메트릭을 **복제**하거나 **삭제**할 수 있습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006284703/original/r4on1lEJ_vgYf3-3AIla62Se12kDIw955Q.png?1661764403" style="width: 617px;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50006284703" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006284703/original/r4on1lEJ_vgYf3-3AIla62Se12kDIw955Q.png?1661764403" style={{ width: "617px" }} class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50006284703" />
 
 ## 데이터 필터링 및 구성
 
 ### 필터 적용
-- 오른쪽의 필터 아이콘 &lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006284713/original/RE4bYiDGPhTIxGkIBnmTKK2u9nBe5pCMfA.png?1661764475" style="width: 37px;" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006284713" /&gt; 을 클릭하여 데이터를 필터링할 수 있습니다.
+- 오른쪽의 필터 아이콘 <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006284713/original/RE4bYiDGPhTIxGkIBnmTKK2u9nBe5pCMfA.png?1661764475" style={{ width: "37px" }} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006284713" /> 을 클릭하여 데이터를 필터링할 수 있습니다.
 - 위젯 레벨, 페이지 레벨 또는 리포트 레벨 필터를 추가합니다.
-- 정의된 필터 옆의 &lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006284775/original/IH8xdgIYo3lM_E5FJk7MpCfD9AVLKxuBsA.png?1661764751" style="width: 33px;" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006284775" /&gt; 아이콘을 클릭하여 일반 필터를 대화형 필터로 변환할 수 있습니다.
+- 정의된 필터 옆의 <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006284775/original/IH8xdgIYo3lM_E5FJk7MpCfD9AVLKxuBsA.png?1661764751" style={{ width: "33px" }} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006284775" /> 아이콘을 클릭하여 일반 필터를 대화형 필터로 변환할 수 있습니다.
 
 ### 순위 정렬
 데이터가 오름차순 또는 내림차순으로 정렬되는지를 결정하는 **순위 정렬**을 정의할 수도 있습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006284751/original/c660l1-vIC9HpEsUd2BB0IZ4yPvbbD7wow.png?1661764620" style="width: auto;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50006284751" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006284751/original/c660l1-vIC9HpEsUd2BB0IZ4yPvbbD7wow.png?1661764620" style={{ width: "auto" }} class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50006284751" />
 
 ## 적용 및 완료
 

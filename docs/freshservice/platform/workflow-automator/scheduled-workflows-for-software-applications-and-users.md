@@ -19,7 +19,7 @@ SaaS 기반 애플리케이션과 사용자 전반에 걸쳐 프로세스를 자
 2. 왼쪽 패널의 **모듈** 아래에서 **소프트웨어 사용자**를 선택합니다.
 3. **새 워크플로우**를 클릭합니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013460826/original/yXUO5GnWpKHILapJrkzlTOs6GoPVrBp13Q.png?1729575823" style="width: auto; max-width: 100%;" class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50013460826" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013460826/original/yXUO5GnWpKHILapJrkzlTOs6GoPVrBp13Q.png?1729575823" style={{ width: "auto", maxWidth: "100%" }} class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50013460826" />
 
 우측에 **새 워크플로우** 섹션이 열립니다.
 
@@ -27,20 +27,20 @@ SaaS 기반 애플리케이션과 사용자 전반에 걸쳐 프로세스를 자
 
 **참고**: **모듈** '소프트웨어 사용자'와 **워크플로우 유형** '예약된 워크플로우'가 기본적으로 선택됩니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013460835/original/NOK2rgGcHRLVCqR6R5or8KOyriFFk_NcbA.png?1729575851" style="width: auto; max-width: 100%;" class="fr-fil fr-dib fr-shadow" data-attachment="[object Object]" data-id="50013460835" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013460835/original/NOK2rgGcHRLVCqR6R5or8KOyriFFk_NcbA.png?1729575851" style={{ width: "auto", maxWidth: "100%" }} class="fr-fil fr-dib fr-shadow" data-attachment="[object Object]" data-id="50013460835" />
 
 5. **생성**을 클릭합니다.
 
 **예약된 이벤트** 페이지가 열립니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013460840/original/szk0zyzrcD0t1SY2dwiu-Eh4ICKzE3Q6kg.png?1729575888" style="width: 443px; max-width: 100%;" class="fr-fil fr-dib fr-shadow" data-attachment="[object Object]" data-id="50013460840" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013460840/original/szk0zyzrcD0t1SY2dwiu-Eh4ICKzE3Q6kg.png?1729575888" style={{ width: "443px", maxWidth: "100%" }} class="fr-fil fr-dib fr-shadow" data-attachment="[object Object]" data-id="50013460840" />
 
 6. 예약된 이벤트에 대한 관련 일정, 시간 및 시간대를 선택합니다.
 7. **저장 및 조건 추가**를 클릭합니다.
 
 **예약된 조건** 페이지가 열립니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013460866/original/JfvuRIu7-biBx55wz_oFCnVAqrCQ8WjTqg.png?1729575961" style="width: 443px; max-width: 100%;" class="fr-fil fr-dib fr-shadow" data-attachment="[object Object]" data-id="50013460866" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013460866/original/JfvuRIu7-biBx55wz_oFCnVAqrCQ8WjTqg.png?1729575961" style={{ width: "443px", maxWidth: "100%" }} class="fr-fil fr-dib fr-shadow" data-attachment="[object Object]" data-id="50013460866" />
 
 소프트웨어 필드, 소프트웨어 사용자 필드 및 사용자 필드를 기반으로 워크플로우 실행을 위한 다양한 조건을 추가할 수 있습니다.
 

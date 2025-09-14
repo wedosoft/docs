@@ -12,45 +12,45 @@
 
 ## 웹 요청 vs 웹훅
 
-<div align="left" dir="ltr" style="margin-left: 0pt;">
-<table style="border: none; border-collapse: collapse; table-layout: fixed; width: 468pt;">
+<div align="left" dir="ltr" style={{ marginLeft: "0pt" }}>
+<table style={{ border: "none", borderCollapse: "collapse", tableLayout: "fixed", width: "468pt" }}>
 <colgroup>
 <col />
 <col />
 </colgroup>
 <tbody>
-<tr style="height: 0pt;">
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<tr style={{ height: "0pt" }}>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
 <p dir="ltr" style={{"lineHeight": "1.38", "textAlign": "center", "marginBottom": "0pt"}}>
 **웹 요청 노드** 
 </p>
 </td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 <strong>웹훅</strong>
 </p>
 </td>
 </tr>
-<tr style="height: 0pt;">
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
+<tr style={{ height: "0pt" }}>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.2", marginBottom: "0pt" }}>
 JSON 파서로 요청의 응답 본문을 파싱하고 후속 노드에서 응답 출력을 참조합니다.
 </p>
 </td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.2", marginBottom: "0pt" }}>
 웹훅에서 받은 응답을 기반으로 작업을 수행할 수 없습니다.
 </p>
 </td>
 </tr>
-<tr style="height: 0pt;">
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
+<tr style={{ height: "0pt" }}>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.2", marginBottom: "0pt" }}>
 응답을 받은 후에만 다음 노드로 진행합니다.
 </p>
 </td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.2", marginBottom: "0pt" }}>
 응답을 받지 못해도 후속 작업을 수행합니다.
 </p>
 </td>
@@ -61,89 +61,91 @@ JSON 파서로 요청의 응답 본문을 파싱하고 후속 노드에서 응�
 
 ## 인증 유형
 
-<div align="left" dir="ltr" style="margin-left: 0pt;">
-<table style="border: none; border-collapse: collapse;">
+<div align="left" dir="ltr" style={{ marginLeft: "0pt" }}>
+<table style={{ border: "none", borderCollapse: "collapse" }}>
 <colgroup >
 <col width="157" />
 <col width="234" />
 <col width="261" />
 </colgroup>
 <tbody>
-<tr style="height: 0pt;">
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
+<tr style={{ height: "0pt" }}>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.2", textAlign: "center", marginBottom: "0pt" }}>
 <strong dir="ltr">인증 유형</strong>
 </p>
 </td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 34.5001%;">
-<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word", width: "34.5001%" }}>
+<p dir="ltr" style={{ lineHeight: "1.2", textAlign: "center", marginBottom: "0pt" }}>
 <strong>입력</strong>
 </p>
 </td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 41.1756%;">
-<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word", width: "41.1756%" }}>
+<p dir="ltr" style={{ lineHeight: "1.2", textAlign: "center", marginBottom: "0pt" }}>
 <strong>설명</strong>
 </p>
 </td>
 </tr>
-<tr style="height: 0pt;">
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
+<tr style={{ height: "0pt" }}>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.2", textAlign: "center", marginBottom: "0pt" }}>
 Basic Auth
 </p>
 </td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 34.5001%;">
-<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word", width: "34.5001%" }}>
+<p dir="ltr" style={{ lineHeight: "1.2", textAlign: "center", marginBottom: "0pt" }}>
 <strong>사용자명</strong>: 이메일 주소
 </p>
-<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
+<p dir="ltr" style={{ lineHeight: "1.2", textAlign: "center", marginBottom: "0pt" }}>
 <strong>비밀번호</strong>: 비밀번호
 </p>
 </td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 41.1756%;">
-<p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word", width: "41.1756%" }}>
+<p dir="ltr" style={{ lineHeight: "1.2", marginBottom: "0pt" }}>
 요청에 검증된   <strong> 사용자명</strong>   과   <strong> 비밀번호</strong>   를 보내는 경우 <strong> Basic Auth</strong> 유형을 사용합니다. 
 </p>
-<p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
+<p dir="ltr" style={{ lineHeight: "1.2", marginBottom: "0pt" }}>
 <strong>참고</strong>: Freshservice API 키 인증은 다음 값으로 기본 인증을 사용하여 수행할 수 있습니다.
 </p>
-<p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
-사용자명: <strong> &lt;API 키&gt;</strong>  <br /> 
+<p dir="ltr" style={{ lineHeight: "1.2", marginBottom: "0pt" }}>
+사용자명: <strong> &lt;API 키&gt;</strong>  
+ 
 비밀번호: <strong> x</strong>  
 </p>
 </td>
 </tr>
-<tr style="height: 0pt;">
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
+<tr style={{ height: "0pt" }}>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.2", textAlign: "center", marginBottom: "0pt" }}>
 API 키
 </p>
 </td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 34.5001%;">
-<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
-<strong>키</strong>: Authorization<br />
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word", width: "34.5001%" }}>
+<p dir="ltr" style={{ lineHeight: "1.2", textAlign: "center", marginBottom: "0pt" }}>
+<strong>키</strong>: Authorization
+
 <strong>값</strong>: API 키
 </p>
 </td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 41.1756%;">
-<p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word", width: "41.1756%" }}>
+<p dir="ltr" style={{ lineHeight: "1.2", marginBottom: "0pt" }}>
 인증을 위해   <strong> API 키</strong>   가 필요한 애플리케이션에서 작업을 수행할 때   <strong> API 키</strong>   유형을 사용합니다. 
 </p>
 </td>
 </tr>
-<tr style="height: 0pt;">
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
+<tr style={{ height: "0pt" }}>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.2", textAlign: "center", marginBottom: "0pt" }}>
 No Auth
 </p>
 </td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 34.5001%;">
-<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word", width: "34.5001%" }}>
+<p dir="ltr" style={{ lineHeight: "1.2", textAlign: "center", marginBottom: "0pt" }}>
 -
 </p>
 </td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 41.1756%;">
-<p dir="ltr" style="line-height: 1.2; margin-bottom: 0pt;">
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word", width: "41.1756%" }}>
+<p dir="ltr" style={{ lineHeight: "1.2", marginBottom: "0pt" }}>
 요청에 인증이 필요하지 않은 경우   <strong> No Auth</strong>   유형을 사용합니다. 
 </p>
 </td>
@@ -156,8 +158,8 @@ No Auth
 
 ### IP 주소 화이트리스트
 
-<div align="left" dir="ltr" style="margin-left: 0pt;">
-<table style="border: none; border-collapse: collapse; margin-right: calc(-4%); width: 104%;">
+<div align="left" dir="ltr" style={{ marginLeft: "0pt" }}>
+<table style={{ border: "none", borderCollapse: "collapse", marginRight: "calc(-4%)", width: "104%" }}>
 <colgroup >
 <col width="112" />
 <col width="134" />
@@ -167,56 +169,56 @@ No Auth
 <col width="37" />
 </colgroup>
 <tbody>
-<tr style="height: 16.5pt;">
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<tr style={{ height: "16.5pt" }}>
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 <strong>지역</strong>
 </p>
 </td>
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 23.3226%;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word", width: "23.3226%" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 <strong>US</strong>
 </p>
 </td>
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 18.4799%;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word", width: "18.4799%" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 <strong>EUC</strong>
 </p>
 </td>
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 22.1216%;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word", width: "22.1216%" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 <strong>AU</strong>
 </p>
 </td>
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 17.8505%;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word", width: "17.8505%" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 <strong>IND</strong>
 </p>
 </td>
 </tr>
-<tr style="height: 16.5pt;">
-<td rowspan="4" style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<tr style={{ height: "16.5pt" }}>
+<td rowspan="4" style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 IP 주소
 </p>
 </td>
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 23.3226%;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word", width: "23.3226%" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 34.229.27.241
 </p>
 </td>
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 18.4799%;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word", width: "18.4799%" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 3.64.157.0
 </p>
 </td>
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 22.1216%;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word", width: "22.1216%" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 52.65.121.133
 </p>
 </td>
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 17.8505%;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word", width: "17.8505%" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 13.233.211.108
 </p>
 </td>
@@ -227,8 +229,8 @@ IP 주소
 
 ### 온프레미스 오케스트레이션 서버용 도메인 화이트리스트
 
-<div align="left" dir="ltr" style="margin-left: 0pt;">
-<table style="border: none; border-collapse: collapse;">
+<div align="left" dir="ltr" style={{ marginLeft: "0pt" }}>
+<table style={{ border: "none", borderCollapse: "collapse" }}>
 <colgroup >
 <col width="119" />
 <col width="142" />
@@ -237,56 +239,56 @@ IP 주소
 <col width="126" />
 </colgroup>
 <tbody>
-<tr style="height: 16.5pt;">
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<tr style={{ height: "16.5pt" }}>
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 <strong>지역</strong>
 </p>
 </td>
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(204, 204, 204) rgb(193, 199, 208) rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 20.9748%;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(204, 204, 204) rgb(193, 199, 208) rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word", width: "20.9748%" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 <strong>US</strong>
 </p>
 </td>
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(204, 204, 204) rgb(193, 199, 208) rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 23.6324%;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(204, 204, 204) rgb(193, 199, 208) rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word", width: "23.6324%" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 <strong>EUC</strong>
 </p>
 </td>
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(204, 204, 204) rgb(193, 199, 208) rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(204, 204, 204) rgb(193, 199, 208) rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 <strong>AU</strong>
 </p>
 </td>
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(204, 204, 204) rgb(193, 199, 208) rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(204, 204, 204) rgb(193, 199, 208) rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 <strong>IND</strong>
 </p>
 </td>
 </tr>
-<tr style="height: 16.5pt;">
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208) rgb(204, 204, 204) rgb(204, 204, 204); padding: 2pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<tr style={{ height: "16.5pt" }}>
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(193, 199, 208) rgb(204, 204, 204) rgb(204, 204, 204)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 화이트리스트할 도메인명
 </p>
 </td>
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208) rgb(193, 199, 208) rgb(193, 199, 208) rgb(204, 204, 204); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 20.9748%;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(193, 199, 208) rgb(193, 199, 208) rgb(193, 199, 208) rgb(204, 204, 204)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word", width: "20.9748%" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 <a href="http://freshservice-us.freshorchestrator.com/">freshservice-us.freshorchestrator.com</a>
 </p>
 </td>
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word; width: 23.6324%;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word", width: "23.6324%" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 <a href="http://freshservice-eu.freshorchestrator.com">freshservice-eu.freshorchestrator.com</a>
 </p>
 </td>
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 <a href="http://freshservice-au.freshorchestrator.com">freshservice-au.freshorchestrator.com</a>
 </p>
 </td>
-<td style="border-width: 0.5pt; border-style: solid; border-color: rgb(193, 199, 208); padding: 2pt; overflow: hidden; overflow-wrap: break-word;">
-<p dir="ltr" style="line-height: 1.38; text-align: center; margin-bottom: 0pt;">
+<td style={{ borderWidth: "0.5pt", borderStyle: "solid", borderColor: "rgb(193, 199, 208)", padding: "2pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p dir="ltr" style={{ lineHeight: "1.38", textAlign: "center", marginBottom: "0pt" }}>
 <a href="http://freshservice-ind.freshorchestrator.com">freshservice-ind.freshorchestrator.com</a>
 </p>
 </td>
@@ -323,13 +325,13 @@ IP 주소
 
 **웹 요청 테스트** 작업을 수행하고 샘플 응답 본문을 클립보드에 복사합니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003572964/original/ou6Uc6eTNqyZZnUXBZEZENfwBGcjCrq7IQ.gif?1628850387" style="width: auto;" class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50003572964" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003572964/original/ou6Uc6eTNqyZZnUXBZEZENfwBGcjCrq7IQ.gif?1628850387" style={{ width: "auto" }} class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50003572964" />
 
 ### 4단계
 
 **JSON 파서 노드**를 캔버스에 끌어다 놓습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565330/original/OvBiw7cqZ4kss_dMlUIlaE48hQe_a4211A.png?1628765122" width="624" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565330" style="width: 574px; height: 268.303px;" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565330/original/OvBiw7cqZ4kss_dMlUIlaE48hQe_a4211A.png?1628765122" width="624" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565330" style={{ width: "574px", height: "268.303px" }} />
 
 ### 5단계
 
@@ -349,7 +351,7 @@ Microsoft AD에서 작업을 수행하려면 **앱 노드**를 캔버스에 끌�
 
 **이름** 페이로드 전체에 각각의 사용자 정의 사용자 필드 플레이스홀더(**SamAccountName**)를 사용합니다. 새 비밀번호는 파서 필드에 정의된 출력에서 가져올 수 있습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003572946/original/6C-Y4bJwdrjAHrvwo6y_0BQKIoG4ta3Lxg.gif?1628850215" style="width: auto;" class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50003572946" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003572946/original/6C-Y4bJwdrjAHrvwo6y_0BQKIoG4ta3Lxg.gif?1628850215" style={{ width: "auto" }} class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50003572946" />
 
 **팁**: [Discovery Probe](https://support.freshservice.com/support/solutions/articles/221819-mapping-active-directory-fields-while-importing-requesters-through-freshservice-probe)를 사용하여 SamAccountName을 Freshservice의 사용자 정의 사용자 필드와 동기화할 수 있습니다.
 

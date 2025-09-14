@@ -18,7 +18,7 @@
 
 저장된 신용카드로 온라인 결제를 하지 않고 결제 모듈에서 '오프라인 결제' 태그로 식별되는 경우 오프라인 결제 고객입니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008699704/original/QFDPqlpfNUDY19kfHAPQJGmWN-lPC26i3w.png?1687499713" width="324" height="190" style="border:1pt solid #000000;display:inline-block;overflow:hidden;width:324px;height:190px;" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008699704/original/QFDPqlpfNUDY19kfHAPQJGmWN-lPC26i3w.png?1687499713" width="324" height="190" style={{ border: "1pt solid #000000", display: "inline-block", overflow: "hidden", width: "324px", height: "190px" }} />
 
 ### UBX 모듈이란?
 

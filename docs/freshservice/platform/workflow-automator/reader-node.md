@@ -6,7 +6,7 @@
 
 서비스 요청 항목을 기반으로 서비스 요청을 라우팅하려고 한다고 가정해 보겠습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002005187/original/znDDhD8MDuwjB-ePWbl-OHWQK7HjPQDxvQ.png?1604846149" style="width: 509px;" class="fr-dib fr-bordered fr-fir" data-attachment="[object Object]" data-id="50002005187" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002005187/original/znDDhD8MDuwjB-ePWbl-OHWQK7HjPQDxvQ.png?1604846149" style={{ width: "509px" }} class="fr-dib fr-bordered fr-fir" data-attachment="[object Object]" data-id="50002005187" />
 
 리더 노드는 사용자 정의 객체에서 정보를 읽고 워크플로우에서 참조하는 데 사용됩니다. 사용자 정의 객체에서 워크플로우로 레코드를 읽어오는 조건을 만들 수 있습니다.
 
@@ -14,18 +14,18 @@
 
 ## 리더 노드 사용 전후 비교
 
-<table class="fr-no-borders" style="width: 100%;">
+<table class="fr-no-borders" style={{ width: "100%" }}>
 <tbody>
 <tr>
-<td style="width: 50%; text-align: center;">
+<td style={{ width: "50%", textAlign: "center" }}>
 <p>**리더 노드 사용 전**</p>
 <p>이미지를 클릭하여 확대</p>
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002005183/original/MTqDCi5bqLcD5UfdqD3HP6I7_jidWQgsAQ.jpeg?1604845933" class="fr-dib fr-bordered" data-id="50002005183" style="width: 491px;" data-attachment="[object Object]" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002005183/original/MTqDCi5bqLcD5UfdqD3HP6I7_jidWQgsAQ.jpeg?1604845933" class="fr-dib fr-bordered" data-id="50002005183" style={{ width: "491px" }} data-attachment="[object Object]" />
 </td>
-<td style="width: 50%;">
+<td style={{ width: "50%" }}>
 <p>**리더 노드 사용 후**</p>
 <p>이미지를 클릭하여 확대</p>
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002005184/original/0UhJlKCXEECW8-4i9wnbMv0IprTPQ-dXoA.png?1604845987" style="width: auto;" class="fr-fil fr-dib fr-bordered" data-attachment="[object Object]" data-id="50002005184" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002005184/original/0UhJlKCXEECW8-4i9wnbMv0IprTPQ-dXoA.png?1604845987" style={{ width: "auto" }} class="fr-fil fr-dib fr-bordered" data-attachment="[object Object]" data-id="50002005184" />
 </td>
 </tr>
 </tbody>

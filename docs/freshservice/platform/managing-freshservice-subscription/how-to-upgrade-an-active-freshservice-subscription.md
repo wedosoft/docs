@@ -32,7 +32,7 @@
 8. **업데이트 확인**
    구독 변경 요청이 성공적으로 처리되면 확인 메시지와 함께 업데이트된 구독 세부 정보가 표시됩니다. 청구서를 보려면 "이 구독의 청구서 보기"를 클릭하세요.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007726928/original/Wz4xd30NNjgipwcIccOvCnT2OWwyoxnjnw.gif?1677584906" style="width: auto;" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007726928/original/Wz4xd30NNjgipwcIccOvCnT2OWwyoxnjnw.gif?1677584906" style={{ width: "auto" }} />
 
 ## 사용 예시
 
