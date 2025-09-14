@@ -119,7 +119,7 @@ Ask Freddy는 자연어 처리를 통해 Analytics 위젯을 생성하는 AI 기
     <li><strong>그룹화 기준</strong> 선택 (에이전트, 우선순위, 상태 등)</li>
     <li><strong>필터 조건</strong> 설정 (선택사항)</li>
     <li><strong>차트 유형</strong> 선택</li>
-    <li>결과 미리보기 후 생성</strong> 버튼 클릭</li>
+    <li><strong>결과 미리보기 후 생성</strong> 버튼 클릭</li>
 </ol>
 </div>
 
