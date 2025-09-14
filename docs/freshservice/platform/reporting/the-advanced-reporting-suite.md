@@ -6,35 +6,35 @@ Freshservice의 고급 리포팅 기능은 Blossom 플랜에서 사용할 수 �
 
 고급 리포팅 스위트에서 제공하는 리포트는 다음과 같습니다:
 
-<p>&lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/29695703/original/blob1475583832145.png?1475583832" class="inline-image fr-dii fr-draggable" data-id="29695703" />&lt;/p>
+<p>&lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/29695703/original/blob1475583832145.png?1475583832" class="inline-image fr-dii fr-draggable" data-id="29695703" /></p>
 
 ## 사용 가능한 리포트
 
 <table>
 <tbody>
 <tr>
-<td>&lt;b>리포트 이름&lt;/b>&lt;/td>
-<td>&lt;b>기능 설명&lt;/b>&lt;/td>
+<td>&lt;b>리포트 이름&lt;/b></td>
+<td>&lt;b>기능 설명&lt;/b></td>
 </tr>
 <tr>
-<td>상담원 티켓 요약&lt;/td>
-<td>헬프데스크의 각 상담원에 대한 일반적인 정보를 보여줍니다.&lt;/td>
+<td>상담원 티켓 요약</td>
+<td>헬프데스크의 각 상담원에 대한 일반적인 정보를 보여줍니다.</td>
 </tr>
 <tr>
-<td>그룹 티켓 요약&lt;/td>
-<td>헬프데스크의 각 그룹에 대한 일반적인 정보를 보여줍니다.&lt;/td>
+<td>그룹 티켓 요약</td>
+<td>헬프데스크의 각 그룹에 대한 일반적인 정보를 보여줍니다.</td>
 </tr>
 <tr>
-<td>서비스 데스크 한눈에 보기&lt;/td>
-<td>전체 헬프데스크에 대한 더 구체적인 정보를 보여줍니다.&lt;/td>
+<td>서비스 데스크 한눈에 보기</td>
+<td>전체 헬프데스크에 대한 더 구체적인 정보를 보여줍니다.</td>
 </tr>
 <tr>
-<td>타임시트 리포트&lt;/td>
-<td>상담원들이 생성한 모든 시간 기록을 수집하여 한 곳에 표시합니다.&lt;/td>
+<td>타임시트 리포트</td>
+<td>상담원들이 생성한 모든 시간 기록을 수집하여 한 곳에 표시합니다.</td>
 </tr>
 <tr>
-<td>고객 만족도 리포트&lt;/td>
-<td>모든 상담원이 수집한 만족도 점수를 집계하여 한 곳에 표시합니다.&lt;/td>
+<td>고객 만족도 리포트</td>
+<td>모든 상담원이 수집한 만족도 점수를 집계하여 한 곳에 표시합니다.</td>
 </tr>
 </tbody>
 </table>

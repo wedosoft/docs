@@ -35,10 +35,10 @@ Freddy Insights를 통해 의사결정자들에게 대화형 방식으로 적절
 
 <div className="procedure">
   <ol>
-- &lt;strong>관리자 → Freddy AI → Freddy&lt;/strong>로 이동
-- &lt;strong>Freddy Insights&lt;/strong> 토글 활성화
-- 24시간 대기 후 인사이트 이용 가능
-  </ol>
+    <li><strong>관리자 → Freddy AI → Freddy</strong>로 이동</li>
+    <li><strong>Freddy Insights</strong> 토글 활성화</li>
+    <li>24시간 대기 후 인사이트 이용 가능</li>
+</ol>
 </div>
 
 ### 권한 설정
@@ -81,12 +81,12 @@ Freddy Insights를 통해 의사결정자들에게 대화형 방식으로 적절
 **프로세스**:
 <div className="procedure">
   <ol>
-- &lt;strong>인사이트 클릭&lt;/strong>: "트렌딩 직원 이슈 식별" 선택
-- &lt;strong>이슈 확인&lt;/strong>: 직원들이 자주 보고한 상위 이슈 검토
-- &lt;strong>상세 정보 보기&lt;/strong>: 특정 이슈의 티켓 수와 샘플 티켓 확인
-- &lt;strong>솔루션 아티클 생성&lt;/strong>: "이를 방지할 솔루션 아티클 생성 도움" 클릭
-- &lt;strong>검토 및 게시&lt;/strong>: Freddy가 생성한 아티클 검토 후 게시
-  </ol>
+    <li><strong>인사이트 클릭</strong>: "트렌딩 직원 이슈 식별" 선택</li>
+    <li><strong>이슈 확인</strong>: 직원들이 자주 보고한 상위 이슈 검토</li>
+    <li><strong>상세 정보 보기</strong>: 특정 이슈의 티켓 수와 샘플 티켓 확인</li>
+    <li><strong>솔루션 아티클 생성</strong>: "이를 방지할 솔루션 아티클 생성 도움" 클릭</li>
+    <li><strong>검토 및 게시</strong>: Freddy가 생성한 아티클 검토 후 게시</li>
+</ol>
 </div>
 
 **효과**:
@@ -101,12 +101,12 @@ Freddy Insights를 통해 의사결정자들에게 대화형 방식으로 적절
 **분석 과정**:
 <div className="procedure">
   <ol>
-- &lt;strong>인사이트 선택&lt;/strong>: 티켓 볼륨 증가 인사이트 클릭
-- &lt;strong>트렌드 확인&lt;/strong>: Freddy가 제공하는 티켓 볼륨 트렌드 그래프 검토
-- &lt;strong>세부 분석 요청&lt;/strong>: "지난 주 에이전트 그룹별 생성된 티켓" 질의
-- &lt;strong>추가 드릴다운&lt;/strong>: "네트워크 그룹 티켓의 카테고리별 분포" 요청
-- &lt;strong>근본 원인 파악&lt;/strong>: 특정 카테고리나 그룹의 문제점 식별
-  </ol>
+    <li><strong>인사이트 선택</strong>: 티켓 볼륨 증가 인사이트 클릭</li>
+    <li><strong>트렌드 확인</strong>: Freddy가 제공하는 티켓 볼륨 트렌드 그래프 검토</li>
+    <li><strong>세부 분석 요청</strong>: "지난 주 에이전트 그룹별 생성된 티켓" 질의</li>
+    <li><strong>추가 드릴다운</strong>: "네트워크 그룹 티켓의 카테고리별 분포" 요청</li>
+    <li><strong>근본 원인 파악</strong>: 특정 카테고리나 그룹의 문제점 식별</li>
+</ol>
 </div>
 
 **활용 결과**:

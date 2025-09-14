@@ -89,11 +89,8 @@ description: "Freshservice의 새롭게 개선된 Analytics In-product 홈페이
 **원클릭 작업**:
 <div className="procedure">
   <ol>
-    <li><strong>새 리포트 생성</strong>: 빈 리포트에서 시작</li>
-    <li><strong>템플릿 사용</strong>: 사전 구성된 템플릿 활용</li>
-    <li><strong>데이터 가져오기</strong>: 외부 데이터 연동</li>
-    <li><strong>위젯 탐색</strong>: 갤러리에서 위젯 찾기</li>
-  </ol>
+
+</ol>
 </div>
 
 ## 새로운 기능 사용법
@@ -103,12 +100,8 @@ description: "Freshservice의 새롭게 개선된 Analytics In-product 홈페이
 **개인화 프로세스**:
 <div className="procedure">
   <ol>
-    <li><strong>홈페이지 접속</strong> 후 "대시보드 커스터마이징" 클릭</li>
-    <li><strong>역할 선택</strong>: 관리자, 에이전트, 분석가 등</li>
-    <li><strong>관심 영역</strong> 선택: 티켓, 자산, 변경 관리 등</li>
-    <li><strong>자동 위젯 배치</strong> 확인 및 조정</li>
-    <li><strong>저장</strong>하여 개인화된 대시보드 완성</li>
-  </ol>
+
+</ol>
 </div>
 
 ### 2. AI 추천 활용
@@ -250,11 +243,8 @@ description: "Freshservice의 새롭게 개선된 Analytics In-product 홈페이
 **자동 마이그레이션**:
 <div className="procedure">
   <ol>
-    <li><strong>기존 리포트 백업</strong> 자동 생성</li>
-    <li><strong>새 인터페이스 적용</strong> 및 호환성 확인</li>
-    <li><strong>깨진 링크나 위젯</strong> 자동 수정 시도</li>
-    <li><strong>사용자 알림</strong> 및 수정 필요 항목 안내</li>
-  </ol>
+
+</ol>
 </div>
 
 ### 설정 이전

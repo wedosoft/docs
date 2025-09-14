@@ -4,27 +4,27 @@ Freshservice의 변경 리포트는 Estate 플랜에서만 사용할 수 있으�
 
 ## 변경 리포트 개요
 
-<p>&lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/29696008/original/blob1475584713449.png?1475584713" class="inline-image fr-dii fr-draggable" data-id="29696008" />&lt;/p>
+<p>&lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/29696008/original/blob1475584713449.png?1475584713" class="inline-image fr-dii fr-draggable" data-id="29696008" /></p>
 
 ## 포함된 리포트
 
 <table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:1px solid #afafaf;width:100%;">
 <tbody>
 <tr>
-<td>&lt;strong>리포트 이름&lt;/strong>&lt;/td>
-<td>&lt;strong>기능 설명&lt;/strong>&lt;/td>
+<td>&lt;strong>리포트 이름</strong></td>
+<td>&lt;strong>기능 설명</strong></td>
 </tr>
 <tr>
-<td>유형별 변경&lt;/td>
-<td>변경 유형을 기반으로 한 변경의 수를 보여줍니다&lt;/td>
+<td>유형별 변경</td>
+<td>변경 유형을 기반으로 한 변경의 수를 보여줍니다</td>
 </tr>
 <tr>
-<td>변경 요청 승인 리포트&lt;/td>
-<td>승인된 변경 요청 대비 거부된 변경 요청의 비율을 보여줍니다&lt;/td>
+<td>변경 요청 승인 리포트</td>
+<td>승인된 변경 요청 대비 거부된 변경 요청의 비율을 보여줍니다</td>
 </tr>
 <tr>
-<td>상태별 변경&lt;/td>
-<td>변경 생명주기의 다양한 단계에 있는 변경의 수를 보여줍니다&lt;/td>
+<td>상태별 변경</td>
+<td>변경 생명주기의 다양한 단계에 있는 변경의 수를 보여줍니다</td>
 </tr>
 </tbody>
 </table>
