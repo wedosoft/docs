@@ -35,7 +35,7 @@ JSON 파서 노드의 **소스**를 이전 노드(예: 앱 작업, 웹 요청 �
 
 **예시:**
 - 첫 번째 자산만 필터링: `$.ticket.assets[0]`
-- 중간 영향도를 가진 자산 이름 필터링: `$.ticket.assets[?(@.impact<2)].name`
+- 중간 영향도를 가진 자산 이름 필터링: `$.ticket.assets[?(@.impact&lt;2)].name`
 
 ### 5. 후속 노드에서 출력 사용
 
@@ -58,12 +58,12 @@ GSuite, Okta, JIRA 등의 앱 작업에서 반환되는 사용자 정의 속성�
 
 ### 기본 필드 접근
 ```json
-{
-  "user": {
+&#123;
+  "user": &#123;
     "name": "홍길동",
     "email": "hong@example.com"
-  }
-}
+  &#125;
+&#125;
 ```
 - 사용자 이름: `$.user.name`
 - 이메일: `$.user.email`
@@ -82,12 +82,12 @@ GSuite, Okta, JIRA 등의 앱 작업에서 반환되는 사용자 정의 속성�
 
 ### 조건부 필터링
 ```json
-{
+&#123;
   "assets": [
-    {"name": "서버A", "status": "active"},
-    {"name": "서버B", "status": "inactive"}
+    &#123;"name": "서버A", "status": "active"&#125;,
+    &#123;"name": "서버B", "status": "inactive"&#125;
   ]
-}
+&#125;
 ```
 - 활성 자산만: `$.assets[?(@.status=='active')]`
 - 활성 자산의 이름: `$.assets[?(@.status=='active')].name`

@@ -4,35 +4,35 @@ Freshservice의 자산 리포트는 Garden 플랜부터 사용할 수 있으며,
 
 ## 자산 리포트 개요
 
-<p><img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/29695994/original/blob1475584648613.png?1475584650" alt="blob1475584648613.png" class="fr-dii fr-draggable" /></p>
+<p>&lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/29695994/original/blob1475584648613.png?1475584650" alt="blob1475584648613.png" class="fr-dii fr-draggable" />&lt;/p>
 
 ## 포함된 리포트
 
 <table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:1px solid #afafaf;width:100%;">
 <tbody>
 <tr>
-<td><strong>리포트 이름</strong></td>
-<td><strong>기능 설명</strong></td>
+<td>&lt;strong>리포트 이름&lt;/strong>&lt;/td>
+<td>&lt;strong>기능 설명&lt;/strong>&lt;/td>
 </tr>
 <tr>
-<td>인시던트 연관 자산</td>
-<td>자산과 연관된 인시던트 수를 기반으로 자산을 보여줍니다</td>
+<td>인시던트 연관 자산&lt;/td>
+<td>자산과 연관된 인시던트 수를 기반으로 자산을 보여줍니다&lt;/td>
 </tr>
 <tr>
-<td>상태별 하드웨어 자산</td>
-<td>모든 하드웨어 자산의 현재 상태를 보여줍니다</td>
+<td>상태별 하드웨어 자산&lt;/td>
+<td>모든 하드웨어 자산의 현재 상태를 보여줍니다&lt;/td>
 </tr>
 <tr>
-<td>자산 유형별 자산</td>
-<td>자산 유형을 기반으로 모든 자산을 보여줍니다</td>
+<td>자산 유형별 자산&lt;/td>
+<td>자산 유형을 기반으로 모든 자산을 보여줍니다&lt;/td>
 </tr>
 <tr>
-<td>위치별 자산</td>
-<td>위치를 기반으로 모든 자산을 보여줍니다</td>
+<td>위치별 자산&lt;/td>
+<td>위치를 기반으로 모든 자산을 보여줍니다&lt;/td>
 </tr>
 <tr>
-<td>제품별 자산</td>
-<td>제품을 기반으로 한 자산의 수를 보여줍니다</td>
+<td>제품별 자산&lt;/td>
+<td>제품을 기반으로 한 자산의 수를 보여줍니다&lt;/td>
 </tr>
 </tbody>
 </table>

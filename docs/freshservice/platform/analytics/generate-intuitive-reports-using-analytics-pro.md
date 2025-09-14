@@ -51,23 +51,23 @@ Analytics에 접근하려면 좌측 사이드바의 Reports 아이콘에 마우�
 
 <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006242220/original/akf0wdClT4T6nuyFmsCdS5yWuK00EZx3Hg.png?1661247460" style="width: 663px;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50006242220" />
 
-- **Help** <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006242658/original/9B6Aqcz4kdiXaoMmN8sX8NOhFvJgeAwtZQ.png?1661249464" style="width: 29px;" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006242658" />에는 모듈 탐색을 쉽게 도와주는 특별 투어와 FAQ가 포함되어 있습니다.
+- **Help** &lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006242658/original/9B6Aqcz4kdiXaoMmN8sX8NOhFvJgeAwtZQ.png?1661249464" style="width: 29px;" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006242658" /&gt; 에는 모듈 탐색을 쉽게 도와주는 특별 투어와 FAQ가 포함되어 있습니다.
 
-- **Share** <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006242709/original/L9RFwKhXWHlgj1_sP4T54yC7DZISE0zgLw.png?1661249649" style="width: 29px;" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006242709" />는 analytics에 접근 권한이 있는 다른 사용자와 리포트를 공유하는 데 사용됩니다.
+- **Share** &lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006242709/original/L9RFwKhXWHlgj1_sP4T54yC7DZISE0zgLw.png?1661249649" style="width: 29px;" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006242709" /&gt; 는 analytics에 접근 권한이 있는 다른 사용자와 리포트를 공유하는 데 사용됩니다.
 
-- **Export, Schedule, Subscribe** <img data-id="50000505239" class="fr-fic fr-dii" height="21" width="24" src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000505239/original/FNm9Z_9533lDOq3OerU8Oe3lvq5M4QV97A.png?1576646972" />는 현재 리포트를 PDF 파일로 이메일로 내보내거나, 정기적으로 본인이나 다른 사람의 이메일로 전송하도록 예약하거나 구독하는 데 사용됩니다.
+- **Export, Schedule, Subscribe** &lt;img data-id="50000505239" class="fr-fic fr-dii" height="21" width="24" src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000505239/original/FNm9Z_9533lDOq3OerU8Oe3lvq5M4QV97A.png?1576646972" /&gt; 는 현재 리포트를 PDF 파일로 이메일로 내보내거나, 정기적으로 본인이나 다른 사람의 이메일로 전송하도록 예약하거나 구독하는 데 사용됩니다.
 
-- **Present** <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006242727/original/fg54ltp7Giw_jcBObHFnNodGPUilah76qg.png?1661249729" style="width: 23px;" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006242727" />는 리포트를 발표하기 위한 전체 화면 프레젠테이션 모드를 활성화합니다. Exit 아이콘을 클릭하여 전체 화면 모드에서 나올 수 있습니다.
+- **Present** &lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006242727/original/fg54ltp7Giw_jcBObHFnNodGPUilah76qg.png?1661249729" style="width: 23px;" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006242727" /&gt; 는 리포트를 발표하기 위한 전체 화면 프레젠테이션 모드를 활성화합니다. Exit 아이콘을 클릭하여 전체 화면 모드에서 나올 수 있습니다.
 
 #### 리포트 구성 옵션
 
 - 위젯을 더 추가하려면 화면 오른쪽 상단의 **+ADD WIDGET** 버튼을 클릭합니다.
 
-- **Configure** <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006242953/original/AoFAka14RbaNX-EVul2L1OQloQpZL-tfVw.png?1661250776" style="width: 19px;" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006242953" />는 리포트의 레이아웃과 그리드 설정을 구성하는 데 사용됩니다. 기본적으로 리포트와 위젯의 레이아웃은 16 X 9입니다.
+- **Configure** &lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006242953/original/AoFAka14RbaNX-EVul2L1OQloQpZL-tfVw.png?1661250776" style="width: 19px;" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006242953" /&gt; 는 리포트의 레이아웃과 그리드 설정을 구성하는 데 사용됩니다. 기본적으로 리포트와 위젯의 레이아웃은 16 X 9입니다.
 
-- **Filter** <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006242778/original/1D1CBWDiWPUVPUBvJ4u-FVmg8XsKY032pg.png?1661249953" style="width: 20px;" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006242778" />는 기준에 따라 위젯 필터, 페이지 필터 또는 리포트 필터를 추가하는 데 사용됩니다.
+- **Filter** &lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006242778/original/1D1CBWDiWPUVPUBvJ4u-FVmg8XsKY032pg.png?1661249953" style="width: 20px;" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006242778" /&gt; 는 기준에 따라 위젯 필터, 페이지 필터 또는 리포트 필터를 추가하는 데 사용됩니다.
 
-- **Style** <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006242840/original/rDs6e3qvaNBD6gmBhPgqZ4cHqcVAHreKJw.png?1661250245" style="width: 20px;" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006242840" />는 위젯에 스타일과 설명을 추가하는 데 사용됩니다. 개별 위젯에 스타일을 추가하면서 위젯 설명도 여기서 추가할 수 있습니다.
+- **Style** &lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006242840/original/rDs6e3qvaNBD6gmBhPgqZ4cHqcVAHreKJw.png?1661250245" style="width: 20px;" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006242840" /&gt; 는 위젯에 스타일과 설명을 추가하는 데 사용됩니다. 개별 위젯에 스타일을 추가하면서 위젯 설명도 여기서 추가할 수 있습니다.
 
 <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006242607/original/hZdR-0vnRzgLwJB3U3YlbZ-msHpuhNX5SQ.png?1661249164" style="width: 662px;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50006242607" />
 
@@ -98,7 +98,7 @@ Analytics 모듈에서 지원하는 다양한 위젯을 사용하여 과거 데�
 
 <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006243004/original/YBCvOrWVuu6loYsuXPhgN_HKcaAuLXBoFA.png?1661251112" style="width: 355px;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50006243004" />
 
-위젯을 편집하거나 수정하려면 **expand** 아이콘 <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006243033/original/jlR6gHnrPT7LTpIUP7vhPg_V3tAMC9Ry7g.png?1661251233" style="width: auto;" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006243033" />를 클릭합니다.
+위젯을 편집하거나 수정하려면 **expand** 아이콘 &lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006243033/original/jlR6gHnrPT7LTpIUP7vhPg_V3tAMC9Ry7g.png?1661251233" style="width: auto;" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006243033" /&gt; 를 클릭합니다.
 
 ### 차트 유형 변경하기
 
@@ -117,7 +117,7 @@ Analytics 모듈에서 지원하는 다양한 위젯을 사용하여 과거 데�
 
 ### 1. 리포트의 기반 데이터나 필드 컬럼을 어떻게 볼 수 있나요?
 
-Analytics 모듈로 이동하여 해당 **Analytics 리포트 > 기반 데이터가 필요한 위젯 확장 > Summary Table 옆의 Underlying Data**를 선택합니다. 리포트 편집 옵션을 클릭하여 기반 데이터에 추가 필드를 추가할 수도 있습니다.
+Analytics 모듈로 이동하여 해당 **Analytics 리포트 &gt; 기반 데이터가 필요한 위젯 확장 > Summary Table 옆의 Underlying Data**를 선택합니다. 리포트 편집 옵션을 클릭하여 기반 데이터에 추가 필드를 추가할 수도 있습니다.
 
 ### 2. 특정 서비스 카탈로그 아이템의 모든 사용자 정의 필드 정보가 포함된 리포트를 생성하려면?
 

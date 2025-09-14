@@ -40,18 +40,17 @@ Freshservice Analytics의 고급 기능을 활용하여 비즈니스 인사이�
 
 #### 성과 지표 조합
 ```
-고객 만족 지수 = (CSAT 점수 × 0.4) + (해결 시간 점수 × 0.3) + (첫 응답 시간 점수 × 0.3)
+고객 만족 지수  = (CSAT 점수 × 0.4) + (해결 시간 점수 × 0.3) + (첫 응답 시간 점수 × 0.3)
 
 여기서:
-- CSAT 점수 = (실제 CSAT / 5) × 100
-- 해결 시간 점수 = (목표 해결 시간 / 실제 해결 시간) × 100
-- 첫 응답 시간 점수 = (목표 응답 시간 / 실제 응답 시간) × 100
+- CSAT 점수  = (실제 CSAT / 5) × 100
+- 해결 시간 점수  = (목표 해결 시간 / 실제 해결 시간) × 100
+- 첫 응답 시간 점수  = (목표 응답 시간 / 실제 응답 시간) × 100
 ```
 
 #### 비율 기반 메트릭
 ```
-에이전트 효율성 지수 = 
-(해결된 티켓 수 / 할당된 티켓 수) × 
+에이전트 효율성 지수  = (해결된 티켓 수 / 할당된 티켓 수) × 
 (평균 고객 만족도 / 5) × 
 (목표 해결 시간 / 평균 해결 시간)
 ```
@@ -112,9 +111,9 @@ Freshservice Analytics의 고급 기능을 활용하여 비즈니스 인사이�
 #### 조건부 필터
 ```sql
 CASE 
-  WHEN priority = 'High' AND created_date > DATE_SUB(NOW(), INTERVAL 24 HOUR) 
+  WHEN priority  = 'High' AND created_date > DATE_SUB(NOW(), INTERVAL 24 HOUR) 
   THEN 'Critical_Recent'
-  WHEN priority = 'High' 
+  WHEN priority  = 'High' 
   THEN 'Critical_Old'
   ELSE 'Normal'
 END as ticket_category
@@ -129,8 +128,8 @@ END as ticket_category
 ### 사용자 세그멘테이션
 
 #### 행동 기반 세그멘테이션
-- **파워 유저**: 월 평균 티켓 생성 수 > 임계값
-- **가끔 사용자**: 분기별 티켓 생성 < 임계값  
+- **파워 유저**: 월 평균 티켓 생성 수 &gt; 임계값
+- **가끔 사용자**: 분기별 티켓 생성 &lt; 임계값  
 - **신규 사용자**: 계정 생성 후 90일 이내
 - **VIP 고객**: 특별 지원 등급 또는 높은 비즈니스 가치
 

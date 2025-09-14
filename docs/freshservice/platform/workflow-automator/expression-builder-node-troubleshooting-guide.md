@@ -92,12 +92,12 @@
 ### 범위 관련 오류
 
 #### 1641: 음수 인덱스
-**오류 메시지**: Operator '%s' : Second operand's value must be >= 0.  
+**오류 메시지**: Operator '%s' : Second operand's value must be &gt; =  0.  
 **설명**: 문자열 인덱스가 음수일 때 발생합니다.  
 **예시**: `substring('test', -1, 3)` → `substring('test', 0, 3)`
 
 #### 1642: 인덱스 범위 초과
-**오류 메시지**: Operator '%s' : Third operand's value must be &lt;= first operand's length.  
+**오류 메시지**: Operator '%s' : Third operand's value must be &lt; =  first operand's length.  
 **설명**: 문자열 길이를 초과하는 인덱스를 사용할 때 발생합니다.  
 **예시**: `substring('test', 3, 7)` → `substring('test', 3, 4)`
 
@@ -107,17 +107,17 @@
 **예시**: `substring('test', 2, 1)` → `substring('test', 1, 3)`
 
 #### 1661: 문자 인덱스 범위 오류
-**오류 메시지**: Operator '%s' : Second operand's value must be >= 0 and < first operand's length.  
+**오류 메시지**: Operator '%s' : Second operand's value must be &gt; =  0 and &lt;  first operand's length.  
 **설명**: 문자열에서 존재하지 않는 위치의 문자를 가져오려 할 때 발생합니다.  
 **예시**: `charAt('test', 4)` → `charAt('test', 3)`
 
 #### 1681: 삼각함수 범위 오류
-**오류 메시지**: Operator '%s' : Operand's value must be >= -1 and <= 1.  
+**오류 메시지**: Operator '%s' : Operand's value must be &gt; = -1 and &lt; =  1.  
 **설명**: 역삼각함수의 입력값이 유효 범위를 벗어날 때 발생합니다.  
 **예시**: `asin(54.8)` → `asin(0.5)`
 
 #### 1741: 길이 범위 오류
-**오류 메시지**: Operator '%s' : Operand value must be >=1 and <=18.  
+**오류 메시지**: Operator '%s' : Operand value must be &gt; =  1 and &lt;=18.  
 **설명**: `randomNumberOfLength` 함수에서 유효하지 않은 길이를 지정할 때 발생합니다.  
 **예시**: `randomNumberOfLength(19)` → `randomNumberOfLength(10)`
 

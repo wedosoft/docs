@@ -96,7 +96,7 @@
 
 ### 조건 함수
 - **if(condition, trueValue, falseValue)**: 조건에 따라 값을 반환합니다
-  - 예시: `if(age >= 18, 'Adult', 'Minor')`
+  - 예시: `if(age &gt; =  18, 'Adult', 'Minor')`
 - **isNull(value)**: 값이 null인지 확인합니다
   - 예시: `isNull(description)` → true/false
 - **isEmpty(str)**: 문자열이 비어있는지 확인합니다
@@ -114,13 +114,13 @@
 
 ### 사례 1: 직원 입사일 기반 티켓 마감일 설정
 ```
-addDays('{{ticket.ri_5_cf_start_date_iso}}', 12)
+addDays('``{{ticket.ri_5_cf_start_date_iso}}``', 12)
 ```
 직원의 입사일에 12일을 추가하여 온보딩 티켓의 마감일을 설정합니다.
 
 ### 사례 2: 요청자와 승인자 동일 여부 확인
 ```
-'{{ticket.actual_requester.reporting_manager.name}}' == '{{ticket.requester.name}}'
+'``{{ticket.actual_requester.reporting_manager.name}}``' == '``{{ticket.requester.name}}``'
 ```
 보고 관리자와 요청자가 동일한지 확인하여 승인 프로세스를 건너뛸지 결정합니다.
 
@@ -158,7 +158,7 @@ trim(upper(department))
    - 예시: `'2024-01-15'`, `'Freshservice'`
 
 3. **플레이스홀더 사용**: 워크플로우 컨텍스트의 값을 사용할 때는 플레이스홀더를 활용합니다.
-   - 예시: `'{{ticket.requester.name}}'`
+   - 예시: `'``{{ticket.requester.name}}``'`
 
 4. **함수 중첩**: 함수를 중첩하여 복잡한 계산을 수행할 수 있습니다.
    - 예시: `addDays(max(startDate, today()), 30)`

@@ -8,7 +8,7 @@
 
 1. **왼쪽 사이드바에서 Analytics를 클릭합니다.**
 
-2. **상단 오른쪽 모서리의 설정 아이콘** <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006284854/original/m_iFCyxeM38St8cNXdgJxCjvhs0gUSUVYg.png?1661765075" style="width: auto;" class="fr-fic fr-dii" /> **을 클릭하고 데이터 내보내기를 선택합니다.**
+2. **상단 오른쪽 모서리의 설정 아이콘** &lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006284854/original/m_iFCyxeM38St8cNXdgJxCjvhs0gUSUVYg.png?1661765075" style="width: auto;" class="fr-fic fr-dii" /&gt; **을 클릭하고 데이터 내보내기를 선택합니다.**
 
 3. **상단 오른쪽 모서리의 내보내기 생성을 클릭하여 데이터 내보내기를 예약합니다.**
 

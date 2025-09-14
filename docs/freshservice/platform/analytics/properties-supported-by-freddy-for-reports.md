@@ -12,284 +12,284 @@ Freshservice는 간단히 질문을 던지는 것만으로 즉석 리포트를 �
 
 ### Tickets (티켓)
 
-<table border="1" style={{borderCollapse: 'collapse', width: '100%'}}>
+<table border="1" style=``{{borderCollapse: 'collapse', width: '100%'}}``>
 <thead>
-<tr style={{backgroundColor: '#08c7fb', fontWeight: 'bold', color: '#000', textAlign: 'center'}}>
-<td rowSpan="13" style={{border: '3px solid #08c7fb', padding: '4px'}}>Tickets</td>
-<td style={{border: '3px solid #08c7fb', padding: '4px'}}>Property Type</td>
-<td colSpan="4" style={{border: '3px solid #08c7fb', padding: '4px'}}>Properties</td>
+<tr style=``{{backgroundColor: '#08c7fb', fontWeight: 'bold', color: '#000', textAlign: 'center'}}``>
+<td rowSpan="13" style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Tickets&lt;/td>
+<td style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Property Type&lt;/td>
+<td colSpan="4" style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Properties&lt;/td>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td rowSpan="2" style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>General</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>ID</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Priority</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Impact</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Urgency</td>
+<td rowSpan="2" style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>General&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>ID&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Priority&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Impact&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Urgency&lt;/td>
 </tr>
 <tr>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Source</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Subject</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Status</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Type</td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Source&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Subject&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Status&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Type&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Sub Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Item Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Sub Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Item Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Service Request Properties</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Service Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Service Item</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Service Request Properties&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Service Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Service Item&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Status</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Approval status</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Resolution Status</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>First Response Status</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Status&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Approval status&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Resolution Status&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>First Response Status&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td rowSpan="2" style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Time</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>First Response time in Bhrs</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>First Response Time in Chrs</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Avg Response Time in Bhrs</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Avg Response Time in Chrs</td>
+<td rowSpan="2" style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Time&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>First Response time in Bhrs&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>First Response Time in Chrs&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Avg Response Time in Bhrs&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Avg Response Time in Chrs&lt;/td>
 </tr>
 <tr>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>First Response Due In</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Resolution Time in Bhrs</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>First Response Due In&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Resolution Time in Bhrs&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td rowSpan="2" style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Created Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Assigned Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Resolved Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Closed Date</td>
+<td rowSpan="2" style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Created Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Assigned Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Resolved Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Closed Date&lt;/td>
 </tr>
 <tr>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>First Response Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Due By</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>First Response Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Due By&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td rowSpan="3" style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Agent Reassign Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Group Reassign Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Agent Reply Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Customer Reply Count</td>
+<td rowSpan="3" style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Agent Reassign Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Group Reassign Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Agent Reply Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Customer Reply Count&lt;/td>
 </tr>
 <tr>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Associated Assets Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Child Tickets Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Private Notes Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Public Notes Count</td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Associated Assets Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Child Tickets Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Private Notes Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Public Notes Count&lt;/td>
 </tr>
 <tr>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Task Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Reopen Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Task Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Reopen Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Total</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Total Cost</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Total Quantity</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Total&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Total Cost&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Total Quantity&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 </tbody>
 </table>
 
 ### Changes (변경)
 
-<table border="1" style={{borderCollapse: 'collapse', width: '100%', marginTop: '20px'}}>
+<table border="1" style=``{{borderCollapse: 'collapse', width: '100%', marginTop: '20px'}}``>
 <thead>
-<tr style={{backgroundColor: '#08c7fb', fontWeight: 'bold', color: '#000', textAlign: 'center'}}>
-<td rowSpan="9" style={{border: '3px solid #08c7fb', padding: '4px'}}>Changes</td>
-<td style={{border: '3px solid #08c7fb', padding: '4px'}}>Property Type</td>
-<td colSpan="4" style={{border: '3px solid #08c7fb', padding: '4px'}}>Properties</td>
+<tr style=``{{backgroundColor: '#08c7fb', fontWeight: 'bold', color: '#000', textAlign: 'center'}}``>
+<td rowSpan="9" style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Changes&lt;/td>
+<td style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Property Type&lt;/td>
+<td colSpan="4" style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Properties&lt;/td>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td rowSpan="2" style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>General</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>ID</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Priority</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Impact</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Risk</td>
+<td rowSpan="2" style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>General&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>ID&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Priority&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Impact&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Risk&lt;/td>
 </tr>
 <tr>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Status</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Subject</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Type</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Status&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Subject&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Type&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Sub Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Item Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Sub Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Item Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Status</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Approval Status</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Status&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Approval Status&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Time</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Resolution Time in Bhrs</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Time&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Resolution Time in Bhrs&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td rowSpan="2" style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Created Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Assigned Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Planned Start Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Planned End Date</td>
+<td rowSpan="2" style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Created Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Assigned Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Planned Start Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Planned End Date&lt;/td>
 </tr>
 <tr>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Approved Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Closed Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Approved Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Closed Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Status Since</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>In Planning since</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Pending Release Since</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Pending Review Since</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Status Since&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>In Planning since&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Pending Release Since&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Pending Review Since&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Incidents Initiated Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Incidents Caused Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Associated Problem Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Associated Asset Count</td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Incidents Initiated Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Incidents Caused Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Associated Problem Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Associated Asset Count&lt;/td>
 </tr>
 </tbody>
 </table>
 
 ### Problems (문제)
 
-<table border="1" style={{borderCollapse: 'collapse', width: '100%', marginTop: '20px'}}>
+<table border="1" style=``{{borderCollapse: 'collapse', width: '100%', marginTop: '20px'}}``>
 <thead>
-<tr style={{backgroundColor: '#08c7fb', fontWeight: 'bold', color: '#000', textAlign: 'center'}}>
-<td rowSpan="5" style={{border: '3px solid #08c7fb', padding: '4px'}}>Problems</td>
-<td style={{border: '3px solid #08c7fb', padding: '4px'}}>Property Type</td>
-<td colSpan="4" style={{border: '3px solid #08c7fb', padding: '4px'}}>Properties</td>
+<tr style=``{{backgroundColor: '#08c7fb', fontWeight: 'bold', color: '#000', textAlign: 'center'}}``>
+<td rowSpan="5" style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Problems&lt;/td>
+<td style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Property Type&lt;/td>
+<td colSpan="4" style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Properties&lt;/td>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td rowSpan="2" style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>General</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>ID</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Priority</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Impact</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Status</td>
+<td rowSpan="2" style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>General&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>ID&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Priority&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Impact&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Status&lt;/td>
 </tr>
 <tr>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Subject</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Subject&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Sub Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Item Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Sub Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Item Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Created Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Assigned Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Closed Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Due By</td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Created Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Assigned Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Closed Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Due By&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Associated Assets Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Associated Ticket Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Associated Assets Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Associated Ticket Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 </tbody>
 </table>
 
 ### Release (릴리스)
 
-<table border="1" style={{borderCollapse: 'collapse', width: '100%', marginTop: '20px'}}>
+<table border="1" style=``{{borderCollapse: 'collapse', width: '100%', marginTop: '20px'}}``>
 <thead>
-<tr style={{backgroundColor: '#08c7fb', fontWeight: 'bold', color: '#000', textAlign: 'center'}}>
-<td rowSpan="7" style={{border: '3px solid #08c7fb', padding: '4px'}}>Release</td>
-<td style={{border: '3px solid #08c7fb', padding: '4px'}}>Property Type</td>
-<td colSpan="4" style={{border: '3px solid #08c7fb', padding: '4px'}}>Properties</td>
+<tr style=``{{backgroundColor: '#08c7fb', fontWeight: 'bold', color: '#000', textAlign: 'center'}}``>
+<td rowSpan="7" style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Release&lt;/td>
+<td style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Property Type&lt;/td>
+<td colSpan="4" style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Properties&lt;/td>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td rowSpan="2" style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>General</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>ID</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Priority</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Status</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Subject</td>
+<td rowSpan="2" style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>General&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>ID&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Priority&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Status&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Subject&lt;/td>
 </tr>
 <tr>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Type</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Type&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Sub Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Item Category</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Sub Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Item Category&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td rowSpan="2" style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Created Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Assigned Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Planned Start Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Planned End Date</td>
+<td rowSpan="2" style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Created Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Assigned Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Planned Start Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Planned End Date&lt;/td>
 </tr>
 <tr>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Closed Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Closed Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Status</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Approval Status</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Status&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Approval Status&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Associated Assets Count</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Associated Assets Count&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 </tbody>
 </table>
@@ -298,47 +298,47 @@ Freshservice는 간단히 질문을 던지는 것만으로 즉석 리포트를 �
 
 위에서 언급한 속성 외에도 다음 속성들을 위의 모듈과 연관시켜 Freddy에게 질문을 던질 수 있습니다.
 
-<table border="1" style={{borderCollapse: 'collapse', width: '100%', marginTop: '20px'}}>
+<table border="1" style=``{{borderCollapse: 'collapse', width: '100%', marginTop: '20px'}}``>
 <thead>
-<tr style={{backgroundColor: '#08c7fb', fontWeight: 'bold', color: '#000', textAlign: 'center'}}>
-<td rowSpan="6" style={{border: '3px solid #08c7fb', padding: '4px'}}>Association</td>
-<td style={{border: '3px solid #08c7fb', padding: '4px'}}>Property</td>
-<td colSpan="4" style={{border: '3px solid #08c7fb', padding: '4px'}}>Sub-Properties</td>
+<tr style=``{{backgroundColor: '#08c7fb', fontWeight: 'bold', color: '#000', textAlign: 'center'}}``>
+<td rowSpan="6" style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Association&lt;/td>
+<td style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Property&lt;/td>
+<td colSpan="4" style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Sub-Properties&lt;/td>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Agent Group</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Name</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Ticket Assignment Type</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Agent Group&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Name&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Ticket Assignment Type&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td rowSpan="3" style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Agent/Requester</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Name</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Address</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Location</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Language</td>
+<td rowSpan="3" style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Agent/Requester&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Name&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Address&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Location&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Language&lt;/td>
 </tr>
 <tr>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Job Title</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Time Zone</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>User Type</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>User Scope</td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Job Title&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Time Zone&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>User Type&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>User Scope&lt;/td>
 </tr>
 <tr>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Mobile</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Phone</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Mobile&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Phone&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Department</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Name</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Department&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Name&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 </tbody>
 </table>
@@ -347,49 +347,49 @@ Freshservice는 간단히 질문을 던지는 것만으로 즉석 리포트를 �
 
 다음은 Freddy가 Tasks에 대한 질문을 처리하기 위해 지원하는 속성들입니다.
 
-<table border="1" style={{borderCollapse: 'collapse', width: '100%', marginTop: '20px'}}>
+<table border="1" style=``{{borderCollapse: 'collapse', width: '100%', marginTop: '20px'}}``>
 <thead>
-<tr style={{backgroundColor: '#08c7fb', fontWeight: 'bold', color: '#000', textAlign: 'center'}}>
-<td rowSpan="2" style={{border: '3px solid #08c7fb', padding: '4px'}}>Task</td>
-<td style={{border: '3px solid #08c7fb', padding: '4px'}}>Property Type</td>
-<td colSpan="4" style={{border: '3px solid #08c7fb', padding: '4px'}}>Properties</td>
+<tr style=``{{backgroundColor: '#08c7fb', fontWeight: 'bold', color: '#000', textAlign: 'center'}}``>
+<td rowSpan="2" style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Task&lt;/td>
+<td style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Property Type&lt;/td>
+<td colSpan="4" style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Properties&lt;/td>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>General</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>ID</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Status</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Module</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Task Title</td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>General&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>ID&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Status&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Module&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Task Title&lt;/td>
 </tr>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Created Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Closed Date</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Due By</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Created Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Closed Date&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Due By&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 </tbody>
 </table>
 
 ### Task 연관 속성
 
-<table border="1" style={{borderCollapse: 'collapse', width: '100%', marginTop: '10px'}}>
+<table border="1" style=``{{borderCollapse: 'collapse', width: '100%', marginTop: '10px'}}``>
 <thead>
-<tr style={{backgroundColor: '#08c7fb', fontWeight: 'bold', color: '#000', textAlign: 'center'}}>
-<td rowSpan="2" style={{border: '3px solid #08c7fb', padding: '4px'}}>Association</td>
-<td style={{border: '3px solid #08c7fb', padding: '4px'}}>Property</td>
-<td colSpan="4" style={{border: '3px solid #08c7fb', padding: '4px'}}>Sub-Properties</td>
+<tr style=``{{backgroundColor: '#08c7fb', fontWeight: 'bold', color: '#000', textAlign: 'center'}}``>
+<td rowSpan="2" style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Association&lt;/td>
+<td style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Property&lt;/td>
+<td colSpan="4" style=``{{border: '3px solid #08c7fb', padding: '4px'}}``>Sub-Properties&lt;/td>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style={{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}>Agent Group</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Name</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}>Ticket Assignment Type</td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
-<td style={{border: '1px solid #08c7fb', padding: '4px'}}></td>
+<td style=``{{border: '2px solid #08c7fb', padding: '4px', fontWeight: 'bold', textAlign: 'center'}}``>Agent Group&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Name&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px', textAlign: 'center'}}``>Ticket Assignment Type&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
+<td style=``{{border: '1px solid #08c7fb', padding: '4px'}}``>&lt;/td>
 </tr>
 </tbody>
 </table>

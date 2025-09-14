@@ -89,10 +89,10 @@ description: "Freshservice의 새롭게 개선된 Analytics In-product 홈페이
 **원클릭 작업**:
 <div className="procedure">
   <ol>
-    <li><strong>새 리포트 생성</strong>: 빈 리포트에서 시작
-    <li><strong>템플릿 사용</strong>: 사전 구성된 템플릿 활용
-    <li><strong>데이터 가져오기</strong>: 외부 데이터 연동
-    <li><strong>위젯 탐색</strong>: 갤러리에서 위젯 찾기
+- &lt;strong>새 리포트 생성&lt;/strong>: 빈 리포트에서 시작
+- &lt;strong>템플릿 사용&lt;/strong>: 사전 구성된 템플릿 활용
+- &lt;strong>데이터 가져오기&lt;/strong>: 외부 데이터 연동
+- &lt;strong>위젯 탐색&lt;/strong>: 갤러리에서 위젯 찾기
   </ol>
 </div>
 
@@ -103,11 +103,11 @@ description: "Freshservice의 새롭게 개선된 Analytics In-product 홈페이
 **개인화 프로세스**:
 <div className="procedure">
   <ol>
-    <li><strong>홈페이지 접속</strong> 후 "대시보드 커스터마이징" 클릭
-    <li><strong>역할 선택</strong>: 관리자, 에이전트, 분석가 등
-    <li><strong>관심 영역</strong> 선택: 티켓, 자산, 변경 관리 등
-    <li><strong>자동 위젯 배치</strong> 확인 및 조정
-    <li><strong>저장</strong>하여 개인화된 대시보드 완성
+- &lt;strong>홈페이지 접속&lt;/strong> 후 "대시보드 커스터마이징" 클릭
+- &lt;strong>역할 선택&lt;/strong>: 관리자, 에이전트, 분석가 등
+- &lt;strong>관심 영역&lt;/strong> 선택: 티켓, 자산, 변경 관리 등
+- &lt;strong>자동 위젯 배치&lt;/strong> 확인 및 조정
+- &lt;strong>저장&lt;/strong>하여 개인화된 대시보드 완성
   </ol>
 </div>
 
@@ -250,10 +250,10 @@ description: "Freshservice의 새롭게 개선된 Analytics In-product 홈페이
 **자동 마이그레이션**:
 <div className="procedure">
   <ol>
-    <li><strong>기존 리포트 백업</strong> 자동 생성
-    <li><strong>새 인터페이스 적용</strong> 및 호환성 확인
-    <li><strong>깨진 링크나 위젯</strong> 자동 수정 시도
-    <li><strong>사용자 알림</strong> 및 수정 필요 항목 안내
+- &lt;strong>기존 리포트 백업&lt;/strong> 자동 생성
+- &lt;strong>새 인터페이스 적용&lt;/strong> 및 호환성 확인
+- &lt;strong>깨진 링크나 위젯&lt;/strong> 자동 수정 시도
+- &lt;strong>사용자 알림&lt;/strong> 및 수정 필요 항목 안내
   </ol>
 </div>
 

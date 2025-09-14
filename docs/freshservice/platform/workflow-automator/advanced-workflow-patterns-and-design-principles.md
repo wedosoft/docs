@@ -63,11 +63,11 @@ $10,001-50,000: 부서장 승인
 $50,001+: CFO 승인
 
 구현:
-IF budget <= 1000
+IF budget &lt; =  1000
     THEN auto_approve()
-ELSE IF budget <= 10000
+ELSE IF budget &lt; =  10000
     THEN send_to_team_leader()
-ELSE IF budget <= 50000
+ELSE IF budget &lt; =  50000
     THEN send_to_department_head()
 ELSE
     THEN send_to_cfo()
@@ -124,7 +124,7 @@ ELSE
 #### 변경 요청 상태 관리
 ```javascript
 // 상태 전이 규칙
-const changeRequestStates = {
+const changeRequestStates  = {
     "Draft": ["Submitted", "Cancelled"],
     "Submitted": ["Under Review", "Rejected"],
     "Under Review": ["Approved", "Needs Info", "Rejected"],
@@ -149,7 +149,7 @@ function validateStateTransition(currentState, newState) {
 #### 스킬 기반 티켓 라우팅
 ```javascript
 // 상담원 스킬 매트릭스
-const agentSkills = {
+const agentSkills  = {
     "john.doe": ["windows", "office365", "networking"],
     "jane.smith": ["linux", "database", "security"],
     "mike.wilson": ["hardware", "mobile", "printing"]
@@ -157,11 +157,11 @@ const agentSkills = {
 
 // 티켓 키워드 분석
 function analyzeTicketKeywords(ticket) {
-    const keywords = extractKeywords(ticket.description);
-    const skillScores = {};
+    const keywords  =  extractKeywords(ticket.description);
+    const skillScores  = {};
     
     for (const [agent, skills] of Object.entries(agentSkills)) {
-        skillScores[agent] = calculateSkillMatch(keywords, skills);
+        skillScores[agent] =  calculateSkillMatch(keywords, skills);
     }
     
     return findBestMatch(skillScores);
@@ -173,19 +173,19 @@ function analyzeTicketKeywords(ticket) {
 #### 성과 기반 프로세스 조정
 ```javascript
 // 상담원 성과 모니터링
-function adjustWorkflowBasedOnPerformance(agentId) {
-    const performance = getAgentPerformance(agentId);
+function adjustWorkflowBasedOnPerformance(agentId) &#123;
+    const performance  =  getAgentPerformance(agentId);
     
-    if (performance.avgResolutionTime > threshold) {
+    if (performance.avgResolutionTime > threshold) &#123;
         // 복잡한 티켓을 다른 상담원에게 라우팅
         return "route_to_senior_agent";
-    } else if (performance.customerSatisfaction > 4.5) {
+    &#125; else if (performance.customerSatisfaction > 4.5) &#123;
         // VIP 고객 티켓 우선 배정
         return "assign_vip_tickets";
-    }
+    &#125;
     
     return "standard_routing";
-}
+&#125;
 ```
 
 ## 고급 데이터 처리 패턴
@@ -215,16 +215,16 @@ Load (적재):
 #### 대용량 데이터 처리
 ```javascript
 // 배치 처리 워크플로우
-function processBulkData(dataSet) {
-    const batchSize = 100;
-    const batches = chunkArray(dataSet, batchSize);
+function processBulkData(dataSet) &#123;
+    const batchSize  =  100;
+    const batches  =  chunkArray(dataSet, batchSize);
     
-    for (const batch of batches) {
+    for (const batch of batches) &#123;
         processWorkflowBatch(batch);
         // 시스템 부하 방지를 위한 지연
         sleep(1000);
-    }
-}
+    &#125;
+&#125;
 ```
 
 ## 오류 처리 및 복구 전략
@@ -234,24 +234,24 @@ function processBulkData(dataSet) {
 #### 외부 서비스 오류 처리
 ```javascript
 class CircuitBreaker {
-    constructor(threshold = 5, timeout = 60000) {
-        this.threshold = threshold;
-        this.timeout = timeout;
-        this.failureCount = 0;
-        this.state = 'CLOSED'; // CLOSED, OPEN, HALF_OPEN
-        this.nextAttempt = Date.now();
+    constructor(threshold  =  5, timeout  =  60000) {
+        this.threshold  =  threshold;
+        this.timeout  =  timeout;
+        this.failureCount  =  0;
+        this.state  = 'CLOSED'; // CLOSED, OPEN, HALF_OPEN
+        this.nextAttempt  =  Date.now();
     }
     
     async execute(operation) {
         if (this.state === 'OPEN') {
-            if (Date.now() < this.nextAttempt) {
+            if (Date.now() &lt;  this.nextAttempt) {
                 throw new Error('Circuit breaker is OPEN');
             }
-            this.state = 'HALF_OPEN';
+            this.state  = 'HALF_OPEN';
         }
         
         try {
-            const result = await operation();
+            const result  =  await operation();
             this.onSuccess();
             return result;
         } catch (error) {
@@ -266,14 +266,14 @@ class CircuitBreaker {
 
 #### 지수 백오프 재시도
 ```javascript
-async function retryWithExponentialBackoff(operation, maxRetries = 3) {
-    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+async function retryWithExponentialBackoff(operation, maxRetries  =  3) {
+    for (let attempt  =  1; attempt &lt; =  maxRetries; attempt++) {
         try {
             return await operation();
         } catch (error) {
             if (attempt === maxRetries) throw error;
             
-            const delay = Math.pow(2, attempt) * 1000; // 2^n seconds
+            const delay  =  Math.pow(2, attempt) * 1000; // 2^n seconds
             await sleep(delay);
         }
     }
@@ -287,18 +287,18 @@ async function retryWithExponentialBackoff(operation, maxRetries = 3) {
 #### 메모이제이션 패턴
 ```javascript
 // 자주 조회되는 데이터 캐싱
-const cache = new Map();
+const cache  =  new Map();
 
 function getCachedUserInfo(userId) {
     if (cache.has(userId)) {
         return cache.get(userId);
     }
     
-    const userInfo = fetchUserInfo(userId);
+    const userInfo  =  fetchUserInfo(userId);
     cache.set(userId, userInfo);
     
     // 캐시 만료 설정 (30분)
-    setTimeout(() => cache.delete(userId), 1800000);
+    setTimeout(() = > cache.delete(userId), 1800000);
     
     return userInfo;
 }
@@ -309,17 +309,17 @@ function getCachedUserInfo(userId) {
 #### 이벤트 기반 비동기 처리
 ```javascript
 // 무거운 작업을 백그라운드에서 처리
-async function handleTicketCreation(ticket) {
+async function handleTicketCreation(ticket) &#123;
     // 즉시 응답
     acknowledgeTicketCreation(ticket);
     
     // 백그라운드 처리
     scheduleAsyncTasks([
-        () => analyzeTicketContent(ticket),
-        () => updateStatistics(ticket),
-        () => sendNotifications(ticket)
+        () = > analyzeTicketContent(ticket),
+        () = > updateStatistics(ticket),
+        () = > sendNotifications(ticket)
     ]);
-}
+&#125;
 ```
 
 ## 모니터링 및 관찰 가능성
@@ -329,7 +329,7 @@ async function handleTicketCreation(ticket) {
 #### 구조화된 로깅
 ```javascript
 function logWorkflowExecution(workflowId, step, data, context) {
-    const logEntry = {
+    const logEntry  = {
         timestamp: new Date().toISOString(),
         workflowId: workflowId,
         step: step,
@@ -350,7 +350,7 @@ function logWorkflowExecution(workflowId, step, data, context) {
 
 #### 성과 지표 추적
 ```javascript
-const metrics = {
+const metrics  = {
     workflowExecutions: 0,
     successfulExecutions: 0,
     failedExecutions: 0,

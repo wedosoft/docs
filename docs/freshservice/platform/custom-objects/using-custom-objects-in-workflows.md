@@ -13,7 +13,7 @@ Reader Node는 워크플로 설정과 유지보수를 간소화하여 많은 관
 ## Reader Node 소개
 
 <div align="center">
-  <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004949349/original/jBOBTtTWUEvskDivTlXJZbTvtA0mNb3Xfg.png?1646830515" width="298" height="318" alt="Reader Node" style={{border: '1px solid #ddd', borderRadius: '4px'}} / />
+  <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004949349/original/jBOBTtTWUEvskDivTlXJZbTvtA0mNb3Xfg.png?1646830515" width="298" height="318" alt="Reader Node" style=``{{border: '1px solid #ddd', borderRadius: '4px'}}`` / />
 </div>
 
 ## Reader Node 사용 방법
@@ -32,7 +32,7 @@ Reader Node는 다음 4개 섹션으로 구성됩니다:
 표준 또는 커스텀 Freshservice 객체를 지정합니다.
 
 <div align="center">
-  <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004949343/original/-l9zHnmAtseYPPug0Vb1ai6l5oBBc9yg2Q.png?1646830513" width="320" height="254" alt="Read From" style={{border: '1px solid #ddd', borderRadius: '4px'}} / />
+  <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004949343/original/-l9zHnmAtseYPPug0Vb1ai6l5oBBc9yg2Q.png?1646830513" width="320" height="254" alt="Read From" style=``{{border: '1px solid #ddd', borderRadius: '4px'}}`` / />
 </div>
 
 ### Filters
@@ -40,7 +40,7 @@ Reader Node는 다음 4개 섹션으로 구성됩니다:
 커스텀 객체 필드를 필터링하고 레코드를 읽을 조건을 생성합니다.
 
 <div align="center">
-  <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004949346/original/4EbSz65KmMxKWH4BN0k_t4WiVX_IDJpHbw.png?1646830514" width="334" height="277" alt="Filters" style={{border: '1px solid #ddd', borderRadius: '4px'}} / />
+  <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004949346/original/4EbSz65KmMxKWH4BN0k_t4WiVX_IDJpHbw.png?1646830514" width="334" height="277" alt="Filters" style=``{{border: '1px solid #ddd', borderRadius: '4px'}}`` / />
 </div>
 
 ### Sort By
@@ -48,7 +48,7 @@ Reader Node는 다음 4개 섹션으로 구성됩니다:
 조건에 맞는 레코드가 여러 개인 경우 Reader Node는 첫 번째 레코드만 반환합니다. Sort By 옵션으로 레코드를 정렬하여 올바른 첫 번째 레코드가 선택되도록 합니다.
 
 <div align="center">
-  <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004949344/original/pnriWtwGS7jJHB2mTQYdP5dWVb4Js4lKmg.png?1646830513" width="314" height="294" alt="Sort By" style={{border: '1px solid #ddd', borderRadius: '4px'}} / />
+  <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004949344/original/pnriWtwGS7jJHB2mTQYdP5dWVb4Js4lKmg.png?1646830513" width="314" height="294" alt="Sort By" style=``{{border: '1px solid #ddd', borderRadius: '4px'}}`` / />
 </div>
 
 ### Preview Results
@@ -60,7 +60,7 @@ Preview Results는 플레이스홀더에서는 작동하지 않습니다.
 :::
 
 <div align="center">
-  <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004949345/original/aK_eOhhf3auMmga3VhxZqzMt4Psm_2khAQ.png?1646830513" width="347" height="323" alt="Preview Results" style={{border: '1px solid #ddd', borderRadius: '4px'}} / />
+  <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004949345/original/aK_eOhhf3auMmga3VhxZqzMt4Psm_2khAQ.png?1646830513" width="347" height="323" alt="Preview Results" style=``{{border: '1px solid #ddd', borderRadius: '4px'}}`` / />
 </div>
 
 #### 워크플로 설정
@@ -73,8 +73,8 @@ Preview Results는 플레이스홀더에서는 작동하지 않습니다.
 
 :::info 다중 워크스페이스 환경
 계정에 워크스페이스가 여러 개인 경우:
-- 글로벌 워크플로 수정: **Admin > 글로벌 설정 > 자동화 및 생산성 > 자동화 > 워크플로 자동화**
-- 워크스페이스 수준 워크플로 수정: **Admin > 워크스페이스 설정 > [워크스페이스 이름] > 자동화 및 생산성 > 자동화 > 워크플로 자동화**
+- 글로벌 워크플로 수정: **Admin > 글로벌 설정 &gt; 자동화 및 생산성 &gt; 자동화 &gt; 워크플로 자동화**
+- 워크스페이스 수준 워크플로 수정: **Admin > 워크스페이스 설정 > [워크스페이스 이름] > 자동화 및 생산성 &gt; 자동화 &gt; 워크플로 자동화**
 :::
 
 3. **Reader Node 추가**: 커스텀 객체에서 정보를 읽기 위해 Reader Node를 드래그앤드롭
@@ -119,7 +119,7 @@ Preview Results는 플레이스홀더에서는 작동하지 않습니다.
 
 ## Reader Node 출력 활용
 
-각 워크플로의 Reader Node는 **R1**, **R2**와 같은 고유 식별자를 가집니다. Reader Node의 출력은 단일 레코드이며, 값은 **<Reader ID>.<객체 필드>** 형태로 참조됩니다.
+각 워크플로의 Reader Node는 **R1**, **R2**와 같은 고유 식별자를 가집니다. Reader Node의 출력은 단일 레코드이며, 값은 **&lt;Reader ID>.&lt;객체 필드>** 형태로 참조됩니다.
 
 **예시**: `R1.위치`, `R2.관리자`
 

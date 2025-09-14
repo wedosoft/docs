@@ -84,7 +84,7 @@ def extract_incremental_data(table_name, last_sync_time):
     """
     증분 데이터 추출 함수
     """
-    query = f"""
+    query  =  f"""
     SELECT * FROM {table_name} 
     WHERE modified_date > '{last_sync_time}'
     OR created_date > '{last_sync_time}'
@@ -101,15 +101,15 @@ def clean_ticket_data(raw_data):
     """
     티켓 데이터 정제 함수
     """
-    cleaned_data = []
+    cleaned_data  = []
     
     for record in raw_data:
         # NULL 값 처리
-        record['priority'] = record['priority'] or 'Medium'
-        record['category'] = record['category'] or 'General'
+        record['priority'] =  record['priority'] or 'Medium'
+        record['category'] =  record['category'] or 'General'
         
         # 데이터 형식 표준화
-        record['created_at'] = standardize_datetime(record['created_at'])
+        record['created_at'] =  standardize_datetime(record['created_at'])
         
         # 데이터 검증
         if validate_record(record):
@@ -125,20 +125,20 @@ def apply_business_rules(ticket_data):
     비즈니스 규칙 적용
     """
     # SLA 계산
-    ticket_data['sla_breached'] = calculate_sla_breach(
+    ticket_data['sla_breached'] =  calculate_sla_breach(
         ticket_data['created_at'],
         ticket_data['resolved_at'],
         ticket_data['priority']
     )
     
     # 응답 시간 계산
-    ticket_data['first_response_time'] = calculate_first_response_time(
+    ticket_data['first_response_time'] =  calculate_first_response_time(
         ticket_data['created_at'],
         ticket_data['first_response_at']
     )
     
     # 고객 세그먼트 분류
-    ticket_data['customer_segment'] = classify_customer_segment(
+    ticket_data['customer_segment'] =  classify_customer_segment(
         ticket_data['requester_id']
     )
     
@@ -157,7 +157,7 @@ SELECT
     AVG(CASE WHEN resolved_at IS NOT NULL 
         THEN TIMESTAMPDIFF(HOUR, created_at, resolved_at) 
         END) as avg_resolution_time,
-    COUNT(CASE WHEN sla_breached = 1 THEN 1 END) as sla_breach_count
+    COUNT(CASE WHEN sla_breached  =  1 THEN 1 END) as sla_breach_count
 FROM processed_tickets
 GROUP BY DATE(created_at), priority, category;
 ```
@@ -171,7 +171,7 @@ def load_data_batch(data, table_name, batch_size=1000):
     배치 단위 데이터 로딩
     """
     for i in range(0, len(data), batch_size):
-        batch = data[i:i + batch_size]
+        batch  =  data[i:i + batch_size]
         
         try:
             insert_batch(table_name, batch)
@@ -189,13 +189,13 @@ def stream_real_time_data():
     """
     실시간 데이터 스트리밍 처리
     """
-    kafka_consumer = create_kafka_consumer('freshservice-events')
+    kafka_consumer  =  create_kafka_consumer('freshservice-events')
     
     for message in kafka_consumer:
-        event_data = json.loads(message.value)
+        event_data  =  json.loads(message.value)
         
         # 실시간 변환
-        transformed_data = transform_real_time_event(event_data)
+        transformed_data  =  transform_real_time_event(event_data)
         
         # 즉시 로드
         load_to_analytics_db(transformed_data)
@@ -228,7 +228,7 @@ def validate_data_types(record, field_types):
     for field, expected_type in field_types.items():
         if field in record:
             if not isinstance(record[field], expected_type):
-                record[field] = convert_type(record[field], expected_type)
+                record[field] =  convert_type(record[field], expected_type)
 ```
 
 #### 참조 무결성 검증
@@ -236,7 +236,7 @@ def validate_data_types(record, field_types):
 -- 외래 키 제약 조건 검사
 SELECT t.id, t.assigned_to
 FROM tickets t
-LEFT JOIN agents a ON t.assigned_to = a.id
+LEFT JOIN agents a ON t.assigned_to  =  a.id
 WHERE t.assigned_to IS NOT NULL 
 AND a.id IS NULL;
 ```
@@ -249,12 +249,12 @@ def detect_statistical_anomalies(data, column):
     """
     통계적 방법을 사용한 이상값 탐지
     """
-    mean = np.mean(data[column])
-    std = np.std(data[column])
-    threshold = 3 * std
+    mean  =  np.mean(data[column])
+    std  =  np.std(data[column])
+    threshold  =  3 * std
     
-    anomalies = data[
-        (data[column] < mean - threshold) | 
+    anomalies  =  data[
+        (data[column] &lt;  mean - threshold) | 
         (data[column] > mean + threshold)
     ]
     
@@ -267,10 +267,10 @@ def detect_business_rule_violations(ticket_data):
     """
     비즈니스 규칙 위반 탐지
     """
-    violations = []
+    violations  = []
     
     # 해결 시간이 생성 시간보다 이른 경우
-    if ticket_data['resolved_at'] < ticket_data['created_at']:
+    if ticket_data['resolved_at'] &lt;  ticket_data['created_at']:
         violations.append("Invalid resolution time")
     
     # 우선순위와 해결 시간 불일치
@@ -315,7 +315,7 @@ CREATE MATERIALIZED VIEW hourly_ticket_stats AS
 SELECT 
     DATE_FORMAT(created_at, '%Y-%m-%d %H:00:00') as hour_bucket,
     COUNT(*) as ticket_count,
-    COUNT(CASE WHEN priority = 'Critical' THEN 1 END) as critical_count,
+    COUNT(CASE WHEN priority  = 'Critical' THEN 1 END) as critical_count,
     AVG(TIMESTAMPDIFF(MINUTE, created_at, first_response_at)) as avg_response_time
 FROM tickets
 GROUP BY DATE_FORMAT(created_at, '%Y-%m-%d %H:00:00');
@@ -325,15 +325,15 @@ GROUP BY DATE_FORMAT(created_at, '%Y-%m-%d %H:00:00');
 ```python
 class AnalyticsCache:
     def __init__(self):
-        self.cache = {}
-        self.cache_ttl = {}
+        self.cache  = {}
+        self.cache_ttl  = {}
     
     def get_cached_result(self, query_hash):
         """
         캐시된 쿼리 결과 조회
         """
         if query_hash in self.cache:
-            if time.time() < self.cache_ttl[query_hash]:
+            if time.time() &lt;  self.cache_ttl[query_hash]:
                 return self.cache[query_hash]
             else:
                 # 만료된 캐시 제거
@@ -346,8 +346,8 @@ class AnalyticsCache:
         """
         쿼리 결과 캐싱
         """
-        self.cache[query_hash] = result
-        self.cache_ttl[query_hash] = time.time() + ttl_seconds
+        self.cache[query_hash] =  result
+        self.cache_ttl[query_hash] =  time.time() + ttl_seconds
 ```
 
 ## 실시간 스트리밍 처리
@@ -360,7 +360,7 @@ def setup_kafka_producer():
     """
     Kafka 프로듀서 설정
     """
-    producer = KafkaProducer(
+    producer  =  KafkaProducer(
         bootstrap_servers=['kafka1:9092', 'kafka2:9092'],
         value_serializer=lambda v: json.dumps(v).encode('utf-8'),
         compression_type='gzip'
@@ -371,7 +371,7 @@ def publish_ticket_event(producer, event_type, ticket_data):
     """
     티켓 이벤트 발행
     """
-    event = {
+    event  = {
         'event_type': event_type,
         'timestamp': datetime.utcnow().isoformat(),
         'data': ticket_data
@@ -391,18 +391,18 @@ def process_real_time_analytics():
     """
     실시간 분석 처리
     """
-    spark = SparkSession.builder.appName("FreshserviceAnalytics").getOrCreate()
-    ssc = StreamingContext(spark.sparkContext, 10)  # 10초 배치
+    spark  =  SparkSession.builder.appName("FreshserviceAnalytics").getOrCreate()
+    ssc  =  StreamingContext(spark.sparkContext, 10)  # 10초 배치
     
     # Kafka에서 스트림 생성
-    kafka_stream = KafkaUtils.createDirectStream(
+    kafka_stream  =  KafkaUtils.createDirectStream(
         ssc, 
         ['ticket-events'], 
         {"metadata.broker.list": "kafka1:9092,kafka2:9092"}
     )
     
     # 실시간 집계 처리
-    ticket_counts = kafka_stream.map(lambda x: json.loads(x[1])) \
+    ticket_counts  =  kafka_stream.map(lambda x: json.loads(x[1])) \
                                .map(lambda event: (event['data']['priority'], 1)) \
                                .reduceByKey(lambda a, b: a + b)
     
@@ -420,7 +420,7 @@ def process_real_time_analytics():
 ```python
 class ETLMonitor:
     def __init__(self):
-        self.metrics = {
+        self.metrics  = {
             'extract_count': 0,
             'transform_count': 0,
             'load_count': 0,
@@ -432,8 +432,8 @@ class ETLMonitor:
         """
         ETL 단계 완료 로깅
         """
-        self.metrics[f'{stage}_count'] = count
-        self.metrics['processing_time'] += duration
+        self.metrics[f'{stage}_count'] =  count
+        self.metrics['processing_time'] + =  duration
         
         # 성능 임계값 체크
         if duration > self.get_threshold(stage):
@@ -449,14 +449,14 @@ def check_data_quality_and_alert():
     데이터 품질 체크 및 알림
     """
     # 데이터 완결성 체크
-    missing_data_pct = calculate_missing_data_percentage()
+    missing_data_pct  =  calculate_missing_data_percentage()
     if missing_data_pct > 5:  # 5% 이상 누락
         send_alert(f"High missing data percentage: {missing_data_pct}%")
     
     # 데이터 지연 체크
-    latest_data_time = get_latest_data_timestamp()
-    current_time = datetime.utcnow()
-    delay_minutes = (current_time - latest_data_time).total_seconds() / 60
+    latest_data_time  =  get_latest_data_timestamp()
+    current_time  =  datetime.utcnow()
+    delay_minutes  = (current_time - latest_data_time).total_seconds() / 60
     
     if delay_minutes > 30:  # 30분 이상 지연
         send_alert(f"Data processing delayed by {delay_minutes} minutes")

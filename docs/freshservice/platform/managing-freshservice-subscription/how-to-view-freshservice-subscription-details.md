@@ -2,7 +2,7 @@
 
 ## Freshservice 구독 상세 정보 보기
 
-Freshservice 계정 관리자는 **관리자 → 계정 설정 → 요금제 및 결제**를 클릭할 수 있습니다. 계정에 여러 작업 공간이 있는 경우, **관리자 > 전역 설정 > 계정 설정 > 요금제 및 결제**로 이동하세요. 새 탭이 열리면서 모든 구독 상세 정보가 표시됩니다. 계정 관리자는 이 페이지에서 요금제, 애드온, 결제 통화, 기간, 결제 정보, 청구 및 배송 주소를 확인할 수 있습니다.
+Freshservice 계정 관리자는 **관리자 → 계정 설정 → 요금제 및 결제**를 클릭할 수 있습니다. 계정에 여러 작업 공간이 있는 경우, **관리자 &gt; 전역 설정 &gt; 계정 설정 &gt; 요금제 및 결제**로 이동하세요. 새 탭이 열리면서 모든 구독 상세 정보가 표시됩니다. 계정 관리자는 이 페이지에서 요금제, 애드온, 결제 통화, 기간, 결제 정보, 청구 및 배송 주소를 확인할 수 있습니다.
 
 <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007710429/original/0PwtefycbjiCl_mcdIW6uIG14CcHgwapRQ.png?1677468893" width="602" height="356" style="border:none;display:inline-block;overflow:hidden;width:602px;height:356px;" / />
 

@@ -43,50 +43,50 @@
 <tbody>
 <tr style="height:0pt;">
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 36%;">
-<p style="line-height: 1.2; margin-bottom: 0pt; text-align: center;"><strong>모듈</strong></p>
+<p style="line-height: 1.2; margin-bottom: 0pt; text-align: center;">&lt;strong>모듈&lt;/strong>&lt;/p>
 </td>
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 64%;">
-<p style="line-height: 1.2; text-align: center; margin-bottom: 0pt;"><strong>조건 평가 기준</strong></p>
+<p style="line-height: 1.2; text-align: center; margin-bottom: 0pt;">&lt;strong>조건 평가 기준&lt;/strong>&lt;/p>
 </td>
 </tr>
 <tr style="height:0pt;">
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">티켓, 작업</p>
+<p style="line-height: 1.2; margin-bottom: 0pt;">티켓, 작업&lt;/p>
 </td>
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">예약된 워크플로우는 지난 6개월 내에 생성된 <strong>미완료 티켓</strong>에서 실행되며, <strong>완료 및 해결된 티켓은 제외</strong>하고 최대 10,000개의 매칭 레코드로 제한됩니다.</p>
-</td>
-</tr>
-<tr style="height:0pt;">
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">변경</p>
-</td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">지난 6개월 내에 생성된 <strong>미완료 변경</strong>에서 평가되며 최대 10,000개의 매칭 레코드로 제한됩니다.</p>
+<p style="line-height: 1.2; margin-bottom: 0pt;">예약된 워크플로우는 지난 6개월 내에 생성된 <strong>미완료 티켓&lt;/strong>에서 실행되며, <strong>완료 및 해결된 티켓은 제외&lt;/strong>하고 최대 10,000개의 매칭 레코드로 제한됩니다.&lt;/p>
 </td>
 </tr>
 <tr style="height:0pt;">
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">문제</p>
+<p style="line-height: 1.2; margin-bottom: 0pt;">변경&lt;/p>
 </td>
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">지난 6개월 내에 생성된 <strong>미완료 문제</strong>에서 평가되며 최대 10,000개의 매칭 레코드로 제한됩니다.</p>
-</td>
-</tr>
-<tr style="height:0pt;">
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">릴리스</p>
-</td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">지난 6개월 내에 생성된 <strong>미완료 릴리스</strong>에서 평가되며 최대 10,000개의 매칭 레코드로 제한됩니다.</p>
+<p style="line-height: 1.2; margin-bottom: 0pt;">지난 6개월 내에 생성된 <strong>미완료 변경&lt;/strong>에서 평가되며 최대 10,000개의 매칭 레코드로 제한됩니다.&lt;/p>
 </td>
 </tr>
 <tr style="height:0pt;">
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">자산</p>
+<p style="line-height: 1.2; margin-bottom: 0pt;">문제&lt;/p>
 </td>
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">휴지통을 제외한 인벤토리의 <strong>모든 자산</strong>에서 평가됩니다.</p>
+<p style="line-height: 1.2; margin-bottom: 0pt;">지난 6개월 내에 생성된 <strong>미완료 문제&lt;/strong>에서 평가되며 최대 10,000개의 매칭 레코드로 제한됩니다.&lt;/p>
+</td>
+</tr>
+<tr style="height:0pt;">
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<p style="line-height: 1.2; margin-bottom: 0pt;">릴리스&lt;/p>
+</td>
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<p style="line-height: 1.2; margin-bottom: 0pt;">지난 6개월 내에 생성된 <strong>미완료 릴리스&lt;/strong>에서 평가되며 최대 10,000개의 매칭 레코드로 제한됩니다.&lt;/p>
+</td>
+</tr>
+<tr style="height:0pt;">
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<p style="line-height: 1.2; margin-bottom: 0pt;">자산&lt;/p>
+</td>
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<p style="line-height: 1.2; margin-bottom: 0pt;">휴지통을 제외한 인벤토리의 <strong>모든 자산&lt;/strong>에서 평가됩니다.&lt;/p>
 </td>
 </tr>
 </tbody>

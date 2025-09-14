@@ -28,7 +28,7 @@ Analytics에 네 가지 새로운 차트 유형이 도입되었습니다:
 - 배경과 테두리를 추가하여 차트 스타일을 지정할 수 있습니다.
 - 리포트 화면에서 또는 위젯을 사용자 정의하는 동안 차트 스타일을 선택할 수 있습니다.
 
-<iframe src="https://fast.wistia.net/embed/iframe/7dv07zvl1m" title="Analytics의 빈 위젯 생성 동영상" frameborder="0" class="wistia_embed fr-draggable" name="wistia_embed" allowfullscreen="" width="640" height="360" sandbox="allow-scripts allow-forms allow-same-origin allow-presentation"></iframe>
+<iframe src="https://fast.wistia.net/embed/iframe/7dv07zvl1m" title="Analytics의 빈 위젯 생성 동영상" frameborder="0" class="wistia_embed fr-draggable" name="wistia_embed" allowfullscreen="" width="640" height="360" sandbox="allow-scripts allow-forms allow-same-origin allow-presentation">&lt;/iframe>
 
 ## 리포트의 텍스트 서식 및 스타일링
 

@@ -12,7 +12,7 @@ Freshservice의 Analytics 모듈을 사용하면 서비스 데스크를 위한 �
 1. Freshservice 계정에 로그인하고 왼쪽 사이드바에서 **Analytics**를 클릭합니다.
 
 ### 2. 데이터 내보내기 설정
-1. Analytics 내에서 왼쪽 하단 모서리의 설정 아이콘 <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006284854/original/m_iFCyxeM38St8cNXdgJxCjvhs0gUSUVYg.png?1661765075" style="width: auto; font-family: 'Helvetica Neue';" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006284854" />을 클릭하고 **데이터 내보내기**를 선택합니다.
+1. Analytics 내에서 왼쪽 하단 모서리의 설정 아이콘 &lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006284854/original/m_iFCyxeM38St8cNXdgJxCjvhs0gUSUVYg.png?1661765075" style="width: auto; font-family: 'Helvetica Neue';" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006284854" /&gt; 을 클릭하고 **데이터 내보내기**를 선택합니다.
 
 2. 오른쪽 상단 모서리에 있는 **내보내기 생성** 옵션을 클릭하여 데이터 내보내기를 예약합니다.
 
@@ -46,9 +46,9 @@ Freshservice의 Analytics 모듈에서 파일을 내보내는 링크가 포함�
 <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000539163/original/qvW8_ZgEBCSwpkjVVLWithiP83c4eeiKww.png?1578032999" width="600" height="338" class="fr-fic fr-bordered fr-dib" data-id="50000539163" style="font-family: 'Helvetica Neue';" />
 
 ### 2단계: Power BI에서 데이터 가져오기
-1. Power BI Desktop에 로그인하고 <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000535728/original/o9ljnQo-mFgPiDT6bvoQwJqc31lLKp-wbQ.png?1577959575" width="24" class="fr-fic fr-dii" data-id="50000535728" style="width: 20px; height: 20.8333px; font-family: 'Helvetica Neue';" /> **데이터 가져오기**를 클릭합니다.
+1. Power BI Desktop에 로그인하고 &lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000535728/original/o9ljnQo-mFgPiDT6bvoQwJqc31lLKp-wbQ.png?1577959575" width="24" class="fr-fic fr-dii" data-id="50000535728" style="width: 20px; height: 20.8333px; font-family: 'Helvetica Neue';" /&gt; **데이터 가져오기**를 클릭합니다.
 
-2. 데이터 가져오기 창에서 <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000535729/original/j83FkGfv7qPFRjsHclgF5m53XmxeG4wL8g.png?1577959575" width="21" class="fr-fic fr-dii" data-id="50000535729" style="width: 16px; height: 17.5238px; font-family: 'Helvetica Neue';" /> **웹**을 선택하고 **연결**을 클릭합니다.
+2. 데이터 가져오기 창에서 &lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000535729/original/j83FkGfv7qPFRjsHclgF5m53XmxeG4wL8g.png?1577959575" width="21" class="fr-fic fr-dii" data-id="50000535729" style="width: 16px; height: 17.5238px; font-family: 'Helvetica Neue';" /&gt; **웹**을 선택하고 **연결**을 클릭합니다.
 
 <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000539166/original/lZvaZWIr0RvlN0WWim2LvvT_epuBFIEI6Q.png?1578033008" width="624" height="351" class="fr-fic fr-bordered fr-dib" data-id="50000539166" style="font-family: 'Helvetica Neue';" />
 

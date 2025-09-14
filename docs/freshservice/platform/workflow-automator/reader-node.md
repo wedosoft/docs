@@ -18,12 +18,12 @@
 <tbody>
 <tr>
 <td style="width: 50%; text-align: center;">
-<p><strong>리더 노드 사용 전</strong></p>
+<p>**리더 노드 사용 전**</p>
 <p>이미지를 클릭하여 확대</p>
 <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002005183/original/MTqDCi5bqLcD5UfdqD3HP6I7_jidWQgsAQ.jpeg?1604845933" class="fr-dib fr-bordered" data-id="50002005183" style="width: 491px;" data-attachment="[object Object]" />
 </td>
 <td style="width: 50%;">
-<p><strong>리더 노드 사용 후</strong></p>
+<p>**리더 노드 사용 후**</p>
 <p>이미지를 클릭하여 확대</p>
 <img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002005184/original/0UhJlKCXEECW8-4i9wnbMv0IprTPQ-dXoA.png?1604845987" style="width: auto;" class="fr-fil fr-dib fr-bordered" data-attachment="[object Object]" data-id="50002005184" />
 </td>

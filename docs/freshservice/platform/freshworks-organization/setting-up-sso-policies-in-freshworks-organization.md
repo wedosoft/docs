@@ -55,17 +55,16 @@ SSO 정책은 조직 내 모든 Freshworks 제품에 대한 인증 방식을 정
 
 #### 고급 설정
 
-```xml
-<!-- 속성 매핑 예시 -->
+```xml &lt; !-- 속성 매핑 예시 -->
 <saml:AttributeStatement>
   <saml:Attribute Name="email">
-    <saml:AttributeValue>user@company.com</saml:AttributeValue>
+    <saml:AttributeValue>user@company.com&lt;/saml:AttributeValue>
   </saml:Attribute>
   <saml:Attribute Name="firstName">
-    <saml:AttributeValue>홍길동</saml:AttributeValue>
+    <saml:AttributeValue>홍길동&lt;/saml:AttributeValue>
   </saml:Attribute>
   <saml:Attribute Name="department">
-    <saml:AttributeValue>개발팀</saml:AttributeValue>
+    <saml:AttributeValue>개발팀&lt;/saml:AttributeValue>
   </saml:Attribute>
 </saml:AttributeStatement>
 ```
@@ -121,13 +120,13 @@ SSO 정책은 조직 내 모든 Freshworks 제품에 대한 인증 방식을 정
     "alg": "RS256",
     "typ": "JWT"
   },
-  "payload": {
+  "payload": &#123;
     "iss": "company-sso",
     "sub": "user123",
     "email": "user@company.com",
     "name": "홍길동",
     "exp": 1234567890
-  }
+  &#125;
 }
 ```
 

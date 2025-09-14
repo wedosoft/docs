@@ -46,11 +46,11 @@ Analytics 데이터 내보내기는 리포트 데이터를 외부 시스템으�
 
 **행 수**: 가장 큰 영향 요인
 ```
-처리 시간 = 기본 시간 + (행 수 × 0.002초)
+처리 시간  =  기본 시간 + (행 수 × 0.002초)
 
 예시:
-- 10,000행: 5분 + (10,000 × 0.002초) = 약 5.3분
-- 100,000행: 15분 + (100,000 × 0.002초) = 약 18.3분
+- 10,000행: 5분 + (10,000 × 0.002초) =  약 5.3분
+- 100,000행: 15분 + (100,000 × 0.002초) =  약 18.3분
 ```
 
 **열 수**: 추가 처리 시간 발생
@@ -65,7 +65,7 @@ Analytics 데이터 내보내기는 리포트 데이터를 외부 시스템으�
 - 3개 이상 모듈: 50-100% 추가 시간
 
 **필터 조건**:
-- 단순 필터 (=, >, < ): 시간 증가 미미
+- 단순 필터 ( = , >, &lt; ): 시간 증가 미미
 - 복잡한 필터 (LIKE, IN): 10-20% 시간 증가
 - 다중 조건 필터: 20-40% 시간 증가
 
@@ -130,7 +130,7 @@ Analytics 데이터 내보내기는 리포트 데이터를 외부 시스템으�
 **대용량 데이터 분할**:
 ```javascript
 // 월별 분할 예시
-for (let month = 1; month <= 12; month++) {
+for (let month  =  1; month &lt; =  12; month++) {
   exportData({
     dateRange: `2024-${month.toString().padStart(2, '0')}-01 to 2024-${month.toString().padStart(2, '0')}-31`,
     filename: `tickets_2024_${month.toString().padStart(2, '0')}.csv`
@@ -143,10 +143,10 @@ for (let month = 1; month <= 12; month++) {
 **설정 방법**:
 <div className="procedure">
   <ol>
-    <li><strong>Analytics → 데이터 내보내기</strong>로 이동
-    <li><strong>증분 내보내기</strong> 옵션 선택
-    <li><strong>마지막 내보내기 이후 변경 사항만</strong> 체크
-    <li>일정 설정 (일간, 주간 권장)
+- &lt;strong>Analytics → 데이터 내보내기&lt;/strong>로 이동
+- &lt;strong>증분 내보내기&lt;/strong> 옵션 선택
+- &lt;strong>마지막 내보내기 이후 변경 사항만&lt;/strong> 체크
+- 일정 설정 (일간, 주간 권장)
   </ol>
 </div>
 
@@ -172,11 +172,11 @@ for (let month = 1; month <= 12; month++) {
 
 **처리 속도 측정**:
 ```
-처리 속도 = 총 행 수 / 총 처리 시간(초)
+처리 속도  =  총 행 수 / 총 처리 시간(초)
 
 예시:
 - 50,000행을 1,200초(20분)에 처리
-- 처리 속도 = 50,000 / 1,200 = 약 42행/초
+- 처리 속도  =  50,000 / 1,200  =  약 42행/초
 ```
 
 **효율성 지표**:
@@ -221,11 +221,11 @@ for (let month = 1; month <= 12; month++) {
 **진단 체크리스트**:
 <div className="procedure">
   <ol>
-    <li><strong>데이터 크기</strong> 확인 (행 수, 열 수)
-    <li><strong>필터 조건</strong> 복잡도 검토
-    <li><strong>시스템 부하</strong> 상태 확인
-    <li><strong>네트워크 상태</strong> 점검
-    <li><strong>이전 성공 사례</strong>와 비교
+- &lt;strong>데이터 크기&lt;/strong> 확인 (행 수, 열 수)
+- &lt;strong>필터 조건&lt;/strong> 복잡도 검토
+- &lt;strong>시스템 부하&lt;/strong> 상태 확인
+- &lt;strong>네트워크 상태&lt;/strong> 점검
+- &lt;strong>이전 성공 사례&lt;/strong>와 비교
   </ol>
 </div>
 
