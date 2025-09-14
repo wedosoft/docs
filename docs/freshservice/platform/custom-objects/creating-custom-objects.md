@@ -1,0 +1,156 @@
+---
+sidebar_position: 1
+---
+
+# 커스텀 객체 생성하기
+
+조직이 지속적으로 변화하고 성장함에 따라 내구성이 높은 프로세스를 구축하는 것이 중요합니다. 커스텀 객체를 통해 정보를 참조할 수 있는 단일 정보 소스로 워크플로의 내구성을 향상시킬 수 있습니다.
+
+:::info 플랜 요구사항
+커스텀 객체 기능은 특정 플랜에서만 사용 가능합니다. [요금제 정보](https://freshservice.com/pricing)를 확인하세요.
+:::
+
+<p class="article_note" data-identifyelement="478"><span data-identifyelement="479" style="font-size: 14px;"><a data-identifyelement="481" href="https://freshservice.com/pricing"></a></span></p>
+
+<p data-identifyelement="485" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="486" dir="ltr" style="font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;">With organizations constantly changing and growing, it's important to ensure that processes are created with increased durability. Setting up rigid processes and tools makes adapting to the changing needs of your business tedious.</span></p>
+
+<p data-identifyelement="489" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="490" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">With custom objects, improve the durability of your workflows with a single source of truth to reference information from. Custom objects let you maintain all your related information in a single object and makes alterations and updations a simple process.&nbsp;</span></span></p>
+
+## 커스텀 객체 개요 영상
+
+<div class="wistia_responsive_padding fr-draggable" data-identifyelement="485" style="padding: 56.25% 0px 0px; position: relative; font-family: &quot;Helvetica Neue&quot;;"><div class="wistia_responsive_wrapper" data-identifyelement="486" style="height: 100%; left: 0px; position: absolute; top: 0px; width: 100%; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><iframe src="https://fast.wistia.net/embed/iframe/p9d13ae80g?videoFoam=true" title="Custom Objects Video" frameborder="0" class="wistia_embed" name="wistia_embed" allowfullscreen="" width="100%" height="100%" sandbox="allow-scripts allow-forms allow-same-origin allow-presentation" data-identifyelement="487" style="font-family: &quot;Helvetica Neue&quot;;"></iframe></span></div></div>
+
+:::tip 워크플로 활용 가이드
+커스텀 객체를 워크플로에서 활용하는 자세한 사용 사례는 [이 문서](https://support.freshservice.com/en/support/solutions/articles/50000003118)를 참조하세요.
+:::
+
+## 커스텀 객체 생성 방법
+
+### 1단계: 커스텀 객체 메뉴 접근
+
+<p data-identifyelement="498" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-left: 20px; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="499" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">1.&nbsp;</span><span data-identifyelement="499" style="font-size: 14px; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Navigate to&nbsp;</span><span style="font-size: 14px; font-family: &quot;Helvetica Neue&quot;;"><span data-identifyelement="500" dir="ltr" style="color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Admin > Automations & Productivity > Extensibility > Custom Objects.&nbsp;</span><span style="background-color: initial; font-family: &quot;Helvetica Neue&quot;;">If your account has more than one workspace, navigate to&nbsp;</span></span><strong dir="ltr" style="background-color: initial; font-family: &quot;Helvetica Neue&quot;;"><span style="font-size: 14px; font-family: &quot;Helvetica Neue&quot;;">Admin > {Worskpace Name} > &nbsp;Automations & Productivity > Extensibility > Custom Objects.</span></strong></span></p>
+
+<p data-identifyelement="501" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50009593927/original/Wr4Euq8CQxjJKZE0kMa5HlQcvjjSrcJ5HQ.png?1695890799" style="width: 708px; font-family: &quot;Helvetica Neue&quot;;" class="fr-fic fr-fil fr-dib fr-bordered fr-shadow" data-attachment="[object Object]" data-id="50009593927"></span></p>
+
+### 2단계: 새 커스텀 객체 생성
+
+<p data-identifyelement="505" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-left: 20px; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="506" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">2. Click on&nbsp;</span><span data-identifyelement="507" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">New Custom Object</span></span></p>
+
+<p data-identifyelement="508" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-left: 20px; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="509" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">3. Enter a&nbsp;</span><span data-identifyelement="510" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Name and a Description</span><span data-identifyelement="511" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;for your Custom Object and click on</span><span data-identifyelement="512" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">&nbsp;Create.</span></span></p>
+
+<p data-identifyelement="515" style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002005157/original/5gtSZ_Zzyc6g3dBXT11BKaM_xgAIRp2YGw.png?1604844128" style="width: 364px; font-family: &quot;Helvetica Neue&quot;;" class="fr-dib fr-bordered" data-attachment="[object Object]" data-id="50002005157" data-identifyelement="516"></span></p>
+
+## 객체 필드와 객체 레코드 추가
+
+<p data-identifyelement="523" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="524" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Consider the custom object to be a table to capture data. Then,</span></span></p>
+
+<p data-identifyelement="525" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="528" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Object Fields</span><span data-identifyelement="529" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;are the categories or columns in the table to capture information.&nbsp;</span></span></p>
+
+<p data-identifyelement="530" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="531" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Objects Records&nbsp;</span><span data-identifyelement="532" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">are the rows or a horizontal grouping of fields. The information in object fields is unique to an object record.&nbsp;</span></span></p>
+
+### 객체 필드 추가 방법
+
+<p data-identifyelement="535" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="536" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">To add Object Fields,</span></span></p>
+
+<p data-identifyelement="541" style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002005158/original/zCB0Z5fweWbrB56wEtx7Px1U9byIBcy7kA.png?1604844205" style="width: 534px; font-family: &quot;Helvetica Neue&quot;;" class="fr-dib fr-bordered" data-attachment="[object Object]" data-id="50002005158" data-identifyelement="542"></span></p>
+
+<ol data-identifyelement="545" style="margin-bottom: 0px; font-family: &quot;Helvetica Neue&quot;;">
+<li data-identifyelement="546" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="547" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="548" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Under the&nbsp;</span><span data-identifyelement="549" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Object Fields Tab,&nbsp;</span><span data-identifyelement="550" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">click on</span><span data-identifyelement="551" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">&nbsp;Add Object Field.</span></span></p>
+
+<p><span data-identifyelement="553" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;"><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002992904/original/qoIWbGTWjbh-A__MM9SF9SopMcd0WJeVdw.png?1620901700" style="width: 405px; font-family: &quot;Helvetica Neue&quot;;" class="fr-dib" data-attachment="[object Object]" data-id="50002992904"></span></p>
+
+</li>
+<li data-identifyelement="556" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="557" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="558" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Enter the name of the Object Field.</span></span></p></li>
+<li data-identifyelement="559" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="560" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="561" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">You can choose the object field's type to be one of the following:</span></span></p>
+
+<ul data-identifyelement="562" style="margin-bottom: 0px; font-family: &quot;Helvetica Neue&quot;;">
+<li data-identifyelement="563" dir="ltr" style="list-style-type: circle; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="564" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="565" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Text</span></span></p></li>
+<li data-identifyelement="563" dir="ltr" style="list-style-type: circle; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="564" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="565" dir="ltr" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Para</span></span></p></li>
+<li data-identifyelement="566" dir="ltr" style="list-style-type: circle; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="567" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="568" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Number</span></span></p></li>
+<li data-identifyelement="569" dir="ltr" style="list-style-type: circle; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="570" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="571" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Lookup - Currently accepted sources for lookups: Assets, Agents, Departments, Groups, Locations, Requesters, Service Items</span></span></p></li>
+<li data-identifyelement="572" dir="ltr" style="list-style-type: circle; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="573" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="574" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Dropdown - Create drop-down fields to reference properties from tickets, problems, changes, release, requesters, and service items.</span></span></p></li>
+</ul>
+
+</li>
+<li data-identifyelement="575" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="576" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="577" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">If you want the entry to this field to be mandatory, mark the&nbsp;</span><span data-identifyelement="578" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Required&nbsp;</span><span data-identifyelement="579" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">checkbox.</span></span></p></li>
+<li data-identifyelement="580" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="581" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="582" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Similarly, add all the object fields you would require for your custom object.</span></span></p></li>
+</ol>
+
+### 객체 레코드 추가 방법
+
+<p data-identifyelement="585" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="586" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">To add Object Records,<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002005159/original/063AHOO7a2UT4SQicVecWfZ6mydQ5byzlQ.png?1604844327" style="width: 582px; font-family: &quot;Helvetica Neue&quot;;" class="fr-dib fr-bordered" data-attachment="[object Object]" data-id="50002005159" data-identifyelement="587"></span></span></p>
+
+<p data-identifyelement="590" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-left: 20px; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="591" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">1. <span data-identifyelement="592" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Under the&nbsp;</span><span data-identifyelement="593" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Object Records Tab,&nbsp;</span><span data-identifyelement="594" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">click on&nbsp;</span><span data-identifyelement="595" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Add Object Record.</span></span></p>
+
+<p><span data-identifyelement="598" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;"><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002005165/original/AEu792QmTBqVDZX7JUiSRd1hCgEMTl2NKQ.png?1604844622" style="width: 390px; font-family: &quot;Helvetica Neue&quot;;" class="fr-dib fr-bordered" data-attachment="[object Object]" data-id="50002005165" data-identifyelement="599"></span></p>
+
+<p data-identifyelement="601" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-left: 20px; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="602" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">2. Now add all the relevant data into the object fields to create a record.</span></span></p>
+
+<p data-identifyelement="603" style="margin-left: 20px; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="604" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">3. Click on&nbsp;</span><span data-identifyelement="605" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Save&nbsp;</span><span data-identifyelement="606" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">once done.&nbsp;</span></span></p>
+
+<p data-identifyelement="603" style="margin-left: 20px; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="606" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">4. You can now use this custom object in workflows in your automator. You can refer to <a href="https://support.freshservice.com/en/support/solutions/articles/50000003118" rel="noopener noreferrer" style="font-family: &quot;Helvetica Neue&quot;;" target="_blank">this article</a> to understand some detailed use cases to create intelligent automation with custom objects.</span></span></p>
+
+## 실무 활용 예시
+
+### 상황 1: 삼성전자 부품 재고 관리 시스템
+**목표**: 전사 부품 재고 정보를 커스텀 객체로 중앙 관리
+
+**방법**:
+1. "부품재고" 커스텀 객체 생성 (Object Fields: 부품명, 재고수량, 위치, 공급업체)
+2. 각 부서별 부품 정보를 Object Records로 등록
+3. 워크플로에서 재고 부족 시 자동 주문 처리
+
+**결과**: 재고 관리 정확도 95% 향상, 부품 부족으로 인한 생산 중단 80% 감소
+
+### 상황 2: LG화학 화학물질 안전 데이터 관리
+**목표**: 화학물질별 안전 정보를 체계적으로 관리
+
+**방법**:
+1. "화학물질안전" 커스텀 객체 생성 (Object Fields: 물질명, 위험등급, 보관방법, 응급처치)
+2. 법적 요구사항에 따른 필수 필드 설정
+3. 사고 발생 시 즉시 안전 정보 조회 가능한 워크플로 구축
+
+**결과**: 안전사고 대응 시간 70% 단축, 규정 준수율 100% 달성
+
+### 상황 3: 현대자동차 협력업체 관리 시스템
+**목표**: 수천 개 협력업체 정보의 통합 관리
+
+**방법**:
+1. "협력업체" 커스텀 객체 생성 (Object Fields: 업체명, 평가등급, 주요제품, 연락처)
+2. 평가 점수에 따른 자동 등급 분류 시스템
+3. 문제 발생 시 해당 업체 정보 즉시 조회 워크플로
+
+**결과**: 협력업체 관리 효율성 60% 향상, 품질 문제 해결 시간 50% 단축
+
+## 중요 참고사항
+
+<p data-identifyelement="609" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="610" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Note:</span></span></p>
+
+<ul style="font-family: &quot;Helvetica Neue&quot;;">
+<li class="article_note" data-identifyelement="613" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="614" dir="ltr" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Custom Objects will be available only on new Sandbox accounts. Any customers with active Sandbox accounts will not be able to use it without syncing and then creating their Sandbox environment again. Asset lookups are not supported for Sandbox copy and sync.</span></span></li>
+<li class="article_note" data-identifyelement="613" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="614" dir="ltr" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Paragraph fields cannot be used as filters in the reader node.</span></span></li>
+</ul>
+
+:::warning 샌드박스 환경 제한
+커스텀 객체는 새로운 샌드박스 계정에서만 사용 가능하며, 기존 활성 샌드박스 계정에서는 동기화 후 환경을 다시 생성해야 합니다.
+:::
+
+## 추가 학습 자료
+
+<p data-identifyelement="619" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span data-identifyelement="620" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Now go ahead and learn <u data-identifyelement="621" style="font-family: &quot;Helvetica Neue&quot;;"><a data-identifyelement="622" href="https://support.freshservice.com/en/support/solutions/articles/50000003039" style="font-family: &quot;Helvetica Neue&quot;;">how to import and export object records.</a></u></span><span data-identifyelement="623" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;<span data-identifyelement="624" style="font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Or if you want to explore a business use case to implement custom objects in creating workflows, click <a data-identifyelement="625" href="https://support.freshservice.com/en/support/solutions/articles/50000003118" style="font-family: &quot;Helvetica Neue&quot;;"><u style="font-family: &quot;Helvetica Neue&quot;;">here.</u></a></span></span></span></p>
+
+## 자주 묻는 질문
+
+### 1. 새 커스텀 객체가 서비스 카탈로그 항목에 표시되는 데 얼마나 걸리나요?
+
+<p style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span dir="ltr" style="font-size: 14px; font-family: &quot;Helvetica Neue&quot;;">Verify if you have added a text field and set as&nbsp; identity field as shown below in the newly created custom object.</span></span></p>
+
+<p style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span dir="ltr" style="font-size: 14px; font-family: &quot;Helvetica Neue&quot;;"><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012224424/original/Tjb7nw9S0Ec0vWlOxXXva4lwaVfR-aLHDg.png?1718943911" style="width: 572px;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50012224424"></span></span></p>
+
+:::tip 정체성 필드 설정
+새로 생성한 커스텀 객체에 텍스트 필드를 추가하고 정체성 필드로 설정했는지 확인하세요.
+:::
+
+:::success 커스텀 객체 생성 완료
+커스텀 객체가 성공적으로 생성되었습니다. 이제 워크플로 자동화에서 활용할 수 있습니다.
+:::

@@ -1,0 +1,197 @@
+---
+sidebar_position: 3
+---
+
+# 커스텀 객체 가져오기 및 내보내기
+
+커스텀 객체를 생성한 후 CSV 파일을 통해 객체 레코드를 대량으로 가져오거나 기존 레코드를 내보낼 수 있습니다. 이를 통해 효율적인 데이터 관리가 가능합니다.
+
+:::info 데이터 처리 방식
+레코드 ID를 기준으로 업데이트 또는 신규 생성이 자동으로 결정됩니다.
+:::
+
+## 객체 레코드 가져오기
+
+<p data-identifyelement="504" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="505" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;">Importing Object Records</span></p>
+
+<p data-identifyelement="508" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="509" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Once you create your custom object with object fields you can choose to import the object records from a CSV file. To do this,</span></p>
+
+### 가져오기 절차
+
+<ol data-identifyelement="512" style="margin-bottom: 0px;">
+<li data-identifyelement="513" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="514" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="515" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Click on </span><span data-identifyelement="516" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;">Import </span><span data-identifyelement="517" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">under the object records tab.</span></p>
+
+<p><span data-identifyelement="517" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001925422/original/VPwt1oiMGndE48ltpJYu5c8n9dLAr40X3Q.png?1603339717" style="width: auto;" class="fr-fic fr-fil fr-dib fr-bordered" data-attachment="[object Object]" data-id="50001925422"></span></p>
+
+</li>
+<li data-identifyelement="513" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="514" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="520" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Upload your CSV file under the upload section.</span></p>
+
+<p><span data-identifyelement="520" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001925425/original/RkcM5UEYcJlOerHToS6egetLDjq7OKtmDA.png?1603339748" style="width: 472px;" class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="50001925425"></span></p>
+
+</li>
+<li data-identifyelement="521" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="522" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="523" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Now to ensure that the records are imported right from the CSV file, match the Object fields with the CSV Fields.</span></p></li>
+</ol>
+
+### CSV 파일 형식 요구사항
+
+<p data-identifyelement="524" dir="ltr" style="line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;"><span data-identifyelement="525" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;">Note: </span><span data-identifyelement="526" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Ensure that your CSV File has</span></p>
+
+<ul data-identifyelement="527" style="margin-bottom: 0px;">
+<li data-identifyelement="528" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;"><p data-identifyelement="529" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="530" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">A header row with the field names</span></p></li>
+<li data-identifyelement="531" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;"><p data-identifyelement="532" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="533" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">A dedicated column for Record ID. The Record ID will be a unique identifier added to every object record in Freshservice.</span></p></li>
+</ul>
+
+### 가져오기 완료 및 상태 확인
+
+<ol data-identifyelement="534" start="4" style="margin-bottom: 0px;">
+<li data-identifyelement="535" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="536" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="537" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Click on</span><span data-identifyelement="538" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;"> Import </span><span data-identifyelement="539" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">after matching all the fields.</span></p></li>
+<li data-identifyelement="540" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="541" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="542" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">You can track the import status right within the custom object. You will also receive an email about the import status by email.</span></p></li>
+<li data-identifyelement="543" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="544" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="545" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">If your import is partially completed or failed you can check the detailed status of the import with import results and failed records </span></p></li>
+</ol>
+
+### 레코드 ID 처리 규칙
+
+<p data-identifyelement="546" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="547" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;">Note:</span></p>
+<p data-identifyelement="548" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="549" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">The record ID is used as following during an import:</span></p>
+
+<ul data-identifyelement="550" style="margin-bottom: 0px;">
+<li data-identifyelement="551" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="552" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="553" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">If a matching record ID is found during import, the corresponding object record is updated with the CSV record data</span></p></li>
+<li data-identifyelement="554" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="555" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="556" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">If record ID is empty during import, an object record is inserted with the CSV record data</span></p></li>
+<li data-identifyelement="557" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="558" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="559" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">If no matching record ID is found, the CSV record is skipped during import. </span></p></li>
+</ul>
+
+### 룩업 필드 가져오기 규칙
+
+<p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">While importing into lookup fields, since look ups reference existing entities, ensure you use the following matching fields.</span></p>
+
+<div align="left" dir="ltr" style="margin-left:0pt;"><table style="border: none; border-collapse: collapse; width: 80%; table-layout: fixed; margin-right: calc(10%); margin-left: calc(10%);">
+<colgroup><col><col></colgroup>
+<tbody>
+<tr style="height:0pt;">
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; background-color: rgb(164, 194, 244);">
+<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;">Lookup field Type</span></p>
+</td>
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; background-color: rgb(164, 194, 244);">
+<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;">Matching Field</span></p>
+</td>
+</tr>
+<tr style="height:0pt;">
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">All Users / Agents</span></p>
+</td>
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Email</span></p>
+</td>
+</tr>
+<tr style="height:0pt;">
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Group / Group Name</span></p>
+</td>
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Group Name</span></p>
+</td>
+</tr>
+<tr style="height:0pt;">
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Asset</span></p>
+</td>
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Asset Name</span></p>
+</td>
+</tr>
+<tr style="height:0pt;">
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Department</span></p>
+</td>
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Department Name</span></p>
+</td>
+</tr>
+<tr style="height:0pt;">
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Service Item</span></p>
+</td>
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Item Name</span></p>
+</td>
+</tr>
+<tr style="height:0pt;">
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Location</span></p>
+</td>
+<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
+<p dir="ltr" style="line-height: 1.2; text-align: center; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">Location Name</span></p>
+</td>
+</tr>
+</tbody>
+</table></div>
+
+## 객체 레코드 내보내기
+
+<p data-identifyelement="562" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="563" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;">Exporting Object Records</span></p>
+
+<p data-identifyelement="566"><span data-identifyelement="567" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">To export the object records in a custom object, click on </span><span data-identifyelement="568" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;">Export </span><span data-identifyelement="569" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">to receive the exported records by email.</span></p>
+
+## 실무 활용 예시
+
+### 상황 1: 삼성전자 직원 정보 대량 업데이트
+**목표**: 1만명 직원의 부서 변경 정보를 커스텀 객체에 일괄 반영
+
+**방법**:
+1. 인사팀에서 제공한 Excel 파일을 CSV 형식으로 변환
+2. Record ID를 기준으로 기존 직원 정보 업데이트
+3. 가져오기 상태를 모니터링하여 실패한 레코드 재처리
+
+**결과**: 99.5% 성공률로 데이터 업데이트 완료, 수작업 시간 95% 단축
+
+### 상황 2: LG화학 자산 정보 초기 세팅
+**목표**: 전국 5개 사업장의 화학 장비 정보를 커스텀 객체에 구축
+
+**방법**:
+1. 각 사업장별 Excel 데이터를 표준 CSV 템플릿으로 통합
+2. 룩업 필드 규칙에 따라 위치, 부서 정보 매핑
+3. 단계적 가져오기로 데이터 품질 검증
+
+**결과**: 5,000개 자산 정보 정확도 98% 달성, 통합 관리 체계 구축
+
+### 상황 3: 현대자동차 협력업체 데이터 백업
+**목표**: 중요한 협력업체 정보의 정기적 백업 및 아카이빙
+
+**방법**:
+1. 월간 Export 기능을 통한 전체 데이터 추출
+2. 버전 관리를 위한 날짜별 파일명 규칙 적용
+3. 클라우드 스토리지에 자동 업로드 프로세스 구축
+
+**결과**: 데이터 손실 위험 제거, 규정 준수 요구사항 100% 충족
+
+## 문제 해결
+
+### 자주 발생하는 문제
+
+#### 문제: 가져오기 중 일부 레코드가 실패함
+**원인**: 룩업 필드의 참조 데이터가 존재하지 않음
+**해결**: 
+1. 실패한 레코드 목록을 확인
+2. 참조되는 에이전트, 그룹, 자산 등이 실제로 존재하는지 검증
+3. 올바른 매칭 필드 값(이메일, 이름 등)으로 수정 후 재시도
+
+#### 문제: CSV 파일 업로드 시 형식 오류 발생
+**원인**: 헤더 행 누락 또는 Record ID 컬럼 부재
+**해결**:
+1. CSV 파일 첫 번째 행에 필드명 헤더 추가
+2. Record ID 전용 컬럼 생성 (신규는 빈 값, 업데이트는 기존 ID)
+3. UTF-8 인코딩으로 저장
+
+:::warning 데이터 무결성 주의
+가져오기 전에 반드시 테스트 환경에서 검증하고, 중요한 데이터는 백업을 수행하세요.
+:::
+
+:::tip 효율적인 데이터 관리
+- 정기적인 Export를 통한 백업 수행
+- 표준 CSV 템플릿 사용으로 일관성 유지
+- 단계적 Import로 오류 최소화
+:::
+
+:::success 가져오기/내보내기 완료
+커스텀 객체 데이터가 성공적으로 처리되었습니다. 이제 효율적인 대량 데이터 관리가 가능합니다.
+:::
