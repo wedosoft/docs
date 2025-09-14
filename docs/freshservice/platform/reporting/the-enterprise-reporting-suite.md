@@ -4,7 +4,7 @@ Freshservice의 엔터프라이즈 리포팅 스위트는 Garden, Estate, ESM �
 
 ## 엔터프라이즈 리포팅 스위트 개요
 
-<p><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/29695741/original/blob1475583938918.png?1475583939" class="inline-image fr-dii fr-draggable" data-id="29695741"></p>
+<p><img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/29695741/original/blob1475583938918.png?1475583939" class="inline-image fr-dii fr-draggable" data-id="29695741" /></p>
 
 ## 포함된 리포트
 

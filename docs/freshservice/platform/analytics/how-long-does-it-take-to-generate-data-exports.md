@@ -143,10 +143,10 @@ for (let month = 1; month <= 12; month++) {
 **설정 방법**:
 <div className="procedure">
   <ol>
-    <li><strong>Analytics → 데이터 내보내기</strong>로 이동</li>
-    <li><strong>증분 내보내기</strong> 옵션 선택</li>
-    <li><strong>마지막 내보내기 이후 변경 사항만</strong> 체크</li>
-    <li>일정 설정 (일간, 주간 권장)</li>
+    <li><strong>Analytics → 데이터 내보내기</strong>로 이동
+    <li><strong>증분 내보내기</strong> 옵션 선택
+    <li><strong>마지막 내보내기 이후 변경 사항만</strong> 체크
+    <li>일정 설정 (일간, 주간 권장)
   </ol>
 </div>
 
@@ -221,11 +221,11 @@ for (let month = 1; month <= 12; month++) {
 **진단 체크리스트**:
 <div className="procedure">
   <ol>
-    <li><strong>데이터 크기</strong> 확인 (행 수, 열 수)</li>
-    <li><strong>필터 조건</strong> 복잡도 검토</li>
-    <li><strong>시스템 부하</strong> 상태 확인</li>
-    <li><strong>네트워크 상태</strong> 점검</li>
-    <li><strong>이전 성공 사례</strong>와 비교</li>
+    <li><strong>데이터 크기</strong> 확인 (행 수, 열 수)
+    <li><strong>필터 조건</strong> 복잡도 검토
+    <li><strong>시스템 부하</strong> 상태 확인
+    <li><strong>네트워크 상태</strong> 점검
+    <li><strong>이전 성공 사례</strong>와 비교
   </ol>
 </div>
 

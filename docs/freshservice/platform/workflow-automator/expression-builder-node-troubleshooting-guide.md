@@ -97,7 +97,7 @@
 **예시**: `substring('test', -1, 3)` → `substring('test', 0, 3)`
 
 #### 1642: 인덱스 범위 초과
-**오류 메시지**: Operator '%s' : Third operand's value must be <= first operand's length.  
+**오류 메시지**: Operator '%s' : Third operand's value must be &lt;= first operand's length.  
 **설명**: 문자열 길이를 초과하는 인덱스를 사용할 때 발생합니다.  
 **예시**: `substring('test', 3, 7)` → `substring('test', 3, 4)`
 

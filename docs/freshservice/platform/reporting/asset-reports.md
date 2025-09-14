@@ -4,7 +4,7 @@ Freshservice의 자산 리포트는 Garden 플랜부터 사용할 수 있으며,
 
 ## 자산 리포트 개요
 
-<p><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/29695994/original/blob1475584648613.png?1475584650" alt="blob1475584648613.png" class="fr-dii fr-draggable"></p>
+<p><img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/29695994/original/blob1475584648613.png?1475584650" alt="blob1475584648613.png" class="fr-dii fr-draggable" /></p>
 
 ## 포함된 리포트
 

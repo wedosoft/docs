@@ -18,18 +18,17 @@ sidebar_position: 3
 
 ### 가져오기 절차
 
-<ol data-identifyelement="512" style="margin-bottom: 0px;">
-<li data-identifyelement="513" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="514" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="515" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">객체 레코드 탭 아래의 </span><span data-identifyelement="516" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;">가져오기</span><span data-identifyelement="517" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">를 클릭하세요.</span></p>
+1. 객체 레코드 탭 아래의 **가져오기**를 클릭하세요.
 
-<p><span data-identifyelement="517" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001925422/original/VPwt1oiMGndE48ltpJYu5c8n9dLAr40X3Q.png?1603339717" style="width: auto;" class="fr-fic fr-fil fr-dib fr-bordered" data-attachment="[object Object]" data-id="50001925422"></span></p>
+   ![가져오기 버튼](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001925422/original/VPwt1oiMGndE48ltpJYu5c8n9dLAr40X3Q.png?1603339717)
 
-</li>
+
 <li data-identifyelement="513" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="514" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="520" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">업로드 섹션에서 CSV 파일을 업로드하세요.</span></p>
 
-<p><span data-identifyelement="520" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001925425/original/RkcM5UEYcJlOerHToS6egetLDjq7OKtmDA.png?1603339748" style="width: 472px;" class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="50001925425"></span></p>
+<p><span data-identifyelement="520" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001925425/original/RkcM5UEYcJlOerHToS6egetLDjq7OKtmDA.png?1603339748" style="width: 472px;" class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="50001925425" /></span></p>
 
-</li>
-<li data-identifyelement="521" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="522" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="523" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">이제 CSV 파일에서 레코드가 올바르게 가져와지도록 하기 위해 객체 필드를 CSV 필드와 매칭하세요.</span></p></li>
+
+<li data-identifyelement="521" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="522" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="523" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">이제 CSV 파일에서 레코드가 올바르게 가져와지도록 하기 위해 객체 필드를 CSV 필드와 매칭하세요.</span></p>
 </ol>
 
 ### CSV 파일 형식 요구사항
@@ -37,16 +36,16 @@ sidebar_position: 3
 <p data-identifyelement="524" dir="ltr" style="line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;"><span data-identifyelement="525" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;">참고: </span><span data-identifyelement="526" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">CSV 파일에 다음 사항이 있는지 확인하세요</span></p>
 
 <ul data-identifyelement="527" style="margin-bottom: 0px;">
-<li data-identifyelement="528" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;"><p data-identifyelement="529" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="530" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">필드 이름이 있는 헤더 행</span></p></li>
-<li data-identifyelement="531" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;"><p data-identifyelement="532" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="533" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">레코드 ID 전용 열. 레코드 ID는 Freshservice의 모든 객체 레코드에 추가되는 고유 식별자입니다.</span></p></li>
+<li data-identifyelement="528" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;"><p data-identifyelement="529" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="530" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">필드 이름이 있는 헤더 행</span></p>
+<li data-identifyelement="531" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;"><p data-identifyelement="532" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="533" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">레코드 ID 전용 열. 레코드 ID는 Freshservice의 모든 객체 레코드에 추가되는 고유 식별자입니다.</span></p>
 </ul>
 
 ### 가져오기 완료 및 상태 확인
 
 <ol data-identifyelement="534" start="4" style="margin-bottom: 0px;">
-<li data-identifyelement="535" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="536" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="537" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">모든 필드를 매칭한 후</span><span data-identifyelement="538" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;"> 가져오기</span><span data-identifyelement="539" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">를 클릭하세요.</span></p></li>
-<li data-identifyelement="540" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="541" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="542" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">커스텀 객체 내에서 바로 가져오기 상태를 추적할 수 있습니다. 가져오기 상태에 대한 이메일도 받게 됩니다.</span></p></li>
-<li data-identifyelement="543" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="544" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="545" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">가져오기가 부분적으로 완료되거나 실패한 경우 가져오기 결과와 실패한 레코드로 가져오기의 자세한 상태를 확인할 수 있습니다 </span></p></li>
+<li data-identifyelement="535" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="536" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="537" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">모든 필드를 매칭한 후</span><span data-identifyelement="538" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;"> 가져오기</span><span data-identifyelement="539" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">를 클릭하세요.</span></p>
+<li data-identifyelement="540" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="541" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="542" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">커스텀 객체 내에서 바로 가져오기 상태를 추적할 수 있습니다. 가져오기 상태에 대한 이메일도 받게 됩니다.</span></p>
+<li data-identifyelement="543" dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="544" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="545" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">가져오기가 부분적으로 완료되거나 실패한 경우 가져오기 결과와 실패한 레코드로 가져오기의 자세한 상태를 확인할 수 있습니다 </span></p>
 </ol>
 
 ### 레코드 ID 처리 규칙
@@ -55,9 +54,9 @@ sidebar_position: 3
 <p data-identifyelement="548" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="549" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">The record ID is used as following during an import:</span></p>
 
 <ul data-identifyelement="550" style="margin-bottom: 0px;">
-<li data-identifyelement="551" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="552" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="553" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">If a matching record ID is found during import, the corresponding object record is updated with the CSV record data</span></p></li>
-<li data-identifyelement="554" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="555" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="556" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">If record ID is empty during import, an object record is inserted with the CSV record data</span></p></li>
-<li data-identifyelement="557" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="558" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="559" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">If no matching record ID is found, the CSV record is skipped during import. </span></p></li>
+<li data-identifyelement="551" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="552" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="553" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">If a matching record ID is found during import, the corresponding object record is updated with the CSV record data</span></p>
+<li data-identifyelement="554" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="555" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="556" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">If record ID is empty during import, an object record is inserted with the CSV record data</span></p>
+<li data-identifyelement="557" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"><p data-identifyelement="558" dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span data-identifyelement="559" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">If no matching record ID is found, the CSV record is skipped during import. </span></p>
 </ul>
 
 ### 룩업 필드 가져오기 규칙
@@ -65,7 +64,7 @@ sidebar_position: 3
 <p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;">While importing into lookup fields, since look ups reference existing entities, ensure you use the following matching fields.</span></p>
 
 <div align="left" dir="ltr" style="margin-left:0pt;"><table style="border: none; border-collapse: collapse; width: 80%; table-layout: fixed; margin-right: calc(10%); margin-left: calc(10%);">
-<colgroup><col><col></colgroup>
+<colgroup><col /><col /></colgroup>
 <tbody>
 <tr style="height:0pt;">
 <td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; background-color: rgb(164, 194, 244);">

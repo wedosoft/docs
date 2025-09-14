@@ -69,9 +69,9 @@ description: "Freshservice Analytics에서 사용자 정의 메트릭과 속성�
 
 <div className="procedure">
   <ol>
-    <li><strong>목적 명확화</strong>: 메트릭으로 측정하고자 하는 것이 무엇인지 정의</li>
-    <li><strong>계산 공식 설계</strong>: 필요한 데이터 요소와 계산 방법 결정</li>
-    <li><strong>기준값 설정</strong>: 성과 평가를 위한 목표치나 기준값 정의</li>
+    <li><strong>목적 명확화</strong>: 메트릭으로 측정하고자 하는 것이 무엇인지 정의
+    <li><strong>계산 공식 설계</strong>: 필요한 데이터 요소와 계산 방법 결정
+    <li><strong>기준값 설정</strong>: 성과 평가를 위한 목표치나 기준값 정의
   </ol>
 </div>
 
@@ -79,9 +79,9 @@ description: "Freshservice Analytics에서 사용자 정의 메트릭과 속성�
 
 <div className="procedure">
   <ol>
-    <li><strong>필요한 데이터 식별</strong>: 계산에 필요한 모든 데이터 요소 확인</li>
-    <li><strong>데이터 품질 검증</strong>: 데이터의 정확성과 완전성 확인</li>
-    <li><strong>데이터 가용성 확인</strong>: Analytics에서 해당 데이터에 접근 가능한지 확인</li>
+    <li><strong>필요한 데이터 식별</strong>: 계산에 필요한 모든 데이터 요소 확인
+    <li><strong>데이터 품질 검증</strong>: 데이터의 정확성과 완전성 확인
+    <li><strong>데이터 가용성 확인</strong>: Analytics에서 해당 데이터에 접근 가능한지 확인
   </ol>
 </div>
 

@@ -144,9 +144,9 @@ GROUP BY month
 **교차 검증**:
 <div className="procedure">
   <ol>
-    <li><strong>여러 리포트 비교</strong>: 다른 방식으로 생성된 리포트와 비교</li>
-    <li><strong>수동 샘플 확인</strong>: 일부 티켓을 수동으로 확인</li>
-    <li><strong>전체 합계 검증</strong>: 전체 티켓 수와 부분합 비교</li>
+    <li><strong>여러 리포트 비교</strong>: 다른 방식으로 생성된 리포트와 비교
+    <li><strong>수동 샘플 확인</strong>: 일부 티켓을 수동으로 확인
+    <li><strong>전체 합계 검증</strong>: 전체 티켓 수와 부분합 비교
   </ol>
 </div>
 

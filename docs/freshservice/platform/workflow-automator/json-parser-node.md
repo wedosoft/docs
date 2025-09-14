@@ -10,7 +10,7 @@ JSON 파서 노드를 사용하면 워크플로우 컨텍스트 내에서 모든
 
 워크플로우 캔버스에 JSON 파서 노드를 끌어다 놓으면 다음과 같은 구성 옵션이 표시됩니다:
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003121855/original/GPtnYkIg7iO8k9LTu_kDs76egq9LozU8vA.png?1622699360" style="width: auto;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50003121855">
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003121855/original/GPtnYkIg7iO8k9LTu_kDs76egq9LozU8vA.png?1622699360" style="width: auto;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50003121855" />
 
 **왼쪽:** 페이로드의 소스와 샘플 JSON 페이로드가 구성됩니다  
 **오른쪽:** 출력을 자동으로 생성하거나 JSON path 표현식을 사용하여 수동으로 구성할 수 있습니다
@@ -39,7 +39,7 @@ JSON 파서 노드의 **소스**를 이전 노드(예: 앱 작업, 웹 요청 �
 
 ### 5. 후속 노드에서 출력 사용
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003121877/original/litu3FyYnd1r0iwnY_UxQb5M4vnKpU7P_g.png?1622699488" style="width: auto;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50003121877">
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003121877/original/litu3FyYnd1r0iwnY_UxQb5M4vnKpU7P_g.png?1622699488" style="width: auto;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50003121877" />
 
 JSON 파서 노드에서 구성된 출력을 후속 노드에서 참조하고 사용할 수 있습니다.
 

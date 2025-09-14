@@ -10,7 +10,7 @@ Freshservice Analytics의 새로운 승인 모듈은 모든 승인에 소요되�
 - 승인에 소요된 시간(캘린더 시간 기준 - 평균, 최소, 최대, 합계)
 - 승인 대기 이후 경과 시간(캘린더 시간 기준 - 평균, 최소, 최대, 합계)
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006286365/original/soBzGwjZdPeIgWg1Wvj13HqDd7XZy1EiwQ.png?1661775014" style="width: 296px; border: 1px solid #ccc;">
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006286365/original/soBzGwjZdPeIgWg1Wvj13HqDd7XZy1EiwQ.png?1661775014" style="width: 296px; border: 1px solid #ccc;" />
 
 이러한 메트릭 외에도 승인 및 승인자와 관련된 많은 속성이 있으며, 사용자는 이를 필터 및 그룹화에 사용하여 다양한 수준에서 메트릭을 추적할 수 있습니다.
 
@@ -24,7 +24,7 @@ Freshservice Analytics의 새로운 승인 모듈은 모든 승인에 소요되�
 
 3. **새 차트 위젯 옵션이 화면에 나타납니다.**
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006286412/original/zO-_aX3JcejXfnsFpfdtB9OTkoFJfvv3GQ.png?1661775265" style="width: 377px; border: 1px solid #ccc;">
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006286412/original/zO-_aX3JcejXfnsFpfdtB9OTkoFJfvv3GQ.png?1661775265" style="width: 377px; border: 1px solid #ccc;" />
 
 4. **확장 옵션을 클릭하여 위젯 구성 페이지를 엽니다.**
 
@@ -32,11 +32,11 @@ Freshservice Analytics의 새로운 승인 모듈은 모든 승인에 소요되�
 
 6. **위젯 페이지에서 메트릭을 검색하거나 메트릭 옵션을 스크롤하여 계산하려는 메트릭을 찾습니다.**
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006286451/original/_EmiDyc_U_xVxHzCZkvvfM8U_jV5hIom2w.png?1661775543" style="width: 309px;">
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006286451/original/_EmiDyc_U_xVxHzCZkvvfM8U_jV5hIom2w.png?1661775543" style="width: 309px;" />
 
 7. **메트릭을 선택하고 심층 분석을 위한 필터 및 그룹화 옵션을 추가합니다.**
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006286472/original/GGsCs-C0LShB5xwtgr_-K6LlE2C9CrBxgA.png?1661775652" style="width: 589px;">
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006286472/original/GGsCs-C0LShB5xwtgr_-K6LlE2C9CrBxgA.png?1661775652" style="width: 589px;" />
 
 8. **적용 및 저장을 클릭합니다.**
 
