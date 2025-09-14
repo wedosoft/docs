@@ -11,8 +11,8 @@ Freshservice의 변경 리포트는 Estate 플랜에서만 사용할 수 있으�
 <table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:1px solid #afafaf;width:100%;">
 <tbody>
 <tr>
-<td>&lt;strong>리포트 이름</strong></td>
-<td>&lt;strong>기능 설명</strong></td>
+<td><strong>리포트 이름</strong></td>
+<td><strong>기능 설명</strong></td>
 </tr>
 <tr>
 <td>유형별 변경</td>

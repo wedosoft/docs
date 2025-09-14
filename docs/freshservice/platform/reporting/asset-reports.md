@@ -11,8 +11,8 @@ Freshservice의 자산 리포트는 Garden 플랜부터 사용할 수 있으며,
 <table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:1px solid #afafaf;width:100%;">
 <tbody>
 <tr>
-<td>&lt;strong>리포트 이름</strong></td>
-<td>&lt;strong>기능 설명</strong></td>
+<td><strong>리포트 이름</strong></td>
+<td><strong>기능 설명</strong></td>
 </tr>
 <tr>
 <td>인시던트 연관 자산</td>

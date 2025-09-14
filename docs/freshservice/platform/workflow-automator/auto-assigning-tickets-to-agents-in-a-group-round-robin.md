@@ -12,33 +12,33 @@
 
 두 번째 방법은 간단하고 설정이 매우 쉽습니다. 헬프데스크의 모든 그룹에 대해 "자동 티켓 할당" 옵션을 켜면 모든 것이 저절로 처리됩니다. 티켓은 라운드 로빈 순서로 그룹의 모든 에이전트에게 분배됩니다. 이렇게 하면 모든 에이전트가 동일한 수의 티켓을 답변하게 됩니다.
 
-**관리자 &gt; 사용자 관리 &gt; 에이전트 그룹**으로 이동하기만 하면 됩니다.
+**관리자 > 사용자 관리 > 에이전트 그룹**으로 이동하기만 하면 됩니다.
 
 **계정에 여러 워크스페이스가 있는 경우:**
 
-전역 워크플로를 수정하려면 **관리자 &gt; 전역 설정 &gt; 사용자 관리 &gt; 에이전트 그룹**으로 이동합니다.
+전역 워크플로를 수정하려면 **관리자 > 전역 설정 > 사용자 관리 > 에이전트 그룹**으로 이동합니다.
 
-워크스페이스 수준 워크플로를 수정하려면 **관리자 &gt; 워크스페이스 설정 > [워크스페이스 이름] > 사용자 관리 &gt; 에이전트 그룹**으로 이동합니다.
+워크스페이스 수준 워크플로를 수정하려면 **관리자 > 워크스페이스 설정 > [워크스페이스 이름] > 사용자 관리 > 에이전트 그룹**으로 이동합니다.
 
 이제 라운드 로빈 할당을 켜고자 하는 그룹을 열고 **자동** 라디오 버튼을 클릭합니다.
 
 이를 수행하는 방법에 대한 자세한 지침은 여기에서 찾을 수 있습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004108697/original/H_o7gs_N5evn7tBfJTsf8r_n3kiDQOAtmQ.png?1636384165" style="width: auto;" className="fr-fil fr-dib" data-attachment="[object Object]" data-id="50004108697" / />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004108697/original/H_o7gs_N5evn7tBfJTsf8r_n3kiDQOAtmQ.png?1636384165" style="width: auto;" className="fr-fil fr-dib" data-attachment="[object Object]" data-id="50004108697" />
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004036126/original/UHoFVYRKFPYzvgmp-rHT8NsBjZEJqR9PnQ.png?1635320942" style="width: auto;" className="fr-fil fr-dib" data-attachment="[object Object]" data-id="50004036126" / />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004036126/original/UHoFVYRKFPYzvgmp-rHT8NsBjZEJqR9PnQ.png?1635320942" style="width: auto;" className="fr-fil fr-dib" data-attachment="[object Object]" data-id="50004036126" />
 
 ### 라운드 로빈 활성화 방법
 
-프로필 아이콘 클릭 &gt; 자동 할당 티켓 활성화
+프로필 아이콘 클릭 > 자동 할당 티켓 활성화
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011900137/original/p8H_AU3fdukSGLUmnFLLftq8mlp6fdaMqA.png?1716298139" style="width: 200px;" className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50011900137" / />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011900137/original/p8H_AU3fdukSGLUmnFLLftq8mlp6fdaMqA.png?1716298139" style="width: 200px;" className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50011900137" />
 
 ## 방법 2: 워크플로 자동화를 사용한 티켓 자동 할당
 
 이 방법은 지원 팀에 각각 특정 영역에서 잘 작업하는 에이전트 그룹이 있을 때 특히 유용합니다. 워크플로 규칙을 만들고 전문 분야에 따라 티켓을 제공하는 것이 합리적입니다. 전문 영역의 키워드를 찾아 티켓의 제목이나 설명을 기반으로 티켓을 할당할 수 있습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000045065/original/PHZOUgwbYk5by7BCikR7tsmx8y8RvrUylA.png?1564038600" style="width: auto;" className="fr-dib fr-bordered" data-id="50000045065" / />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000045065/original/PHZOUgwbYk5by7BCikR7tsmx8y8RvrUylA.png?1564038600" style="width: auto;" className="fr-dib fr-bordered" data-id="50000045065" />
 
 이는 지원 팀이 몇 가지 유형의 문제만 처리할 수 있을 때 상황을 처리하는 좋은 방법입니다. 그룹의 에이전트 수에 따라 설정하기 어려울 수 있습니다. 특정 워크플로 규칙을 수동으로 생성해야 하기 때문입니다.
 
@@ -54,21 +54,21 @@
 
 **2. 자동 할당 티켓이 작동하지 않는 경우 이 문제를 해결하는 방법은?**
 
-해당 에이전트 그룹(**관리자/해당 워크스페이스 &gt; 에이전트 그룹**)에 대해 자동 할당 설정이 활성화되어 있고 에이전트의 프로필에서 "자동 할당 티켓" 체크박스가 활성화되어 있는지 확인하세요.
+해당 에이전트 그룹(**관리자/해당 워크스페이스 > 에이전트 그룹**)에 대해 자동 할당 설정이 활성화되어 있고 에이전트의 프로필에서 "자동 할당 티켓" 체크박스가 활성화되어 있는지 확인하세요.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011900138/original/JMd-F7IF8etPWfmEdLJY1zukEB0h5OzeIA.png?1716298146" style="width: 226px;" className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50011900138" / />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011900138/original/JMd-F7IF8etPWfmEdLJY1zukEB0h5OzeIA.png?1716298146" style="width: 226px;" className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50011900138" />
 
 **3. 내 에이전트 중 한 명이 '자동 할당 티켓' 또는 라운드 로빈이 활성화되어 있는지 확인하는 방법은? 누군가에게 티켓 자동 할당에서 사용자를 추가하거나 제거할 수 있는 액세스 권한을 부여하는 방법은?**
 
 이 작업에는 에이전트에 대해 할당된 에이전트 가용성 관리 액세스 권한이 있는 관리자 수준 권한이 필요합니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011900837/original/yDjlUZI07V9z9c-27GH1pmvqEWJUMXCMdA.png?1716299801" style="width: 698px;" className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50011900837" / />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011900837/original/yDjlUZI07V9z9c-27GH1pmvqEWJUMXCMdA.png?1716299801" style="width: 698px;" className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50011900837" />
 
-대시보드로 이동하여 **세 개의 점 &gt; 편집 &gt; 에이전트 가용성 위젯 선택 &gt; 라운드 로빈이 활성화된 그룹 선택 &gt; 저장**을 클릭합니다.
+대시보드로 이동하여 **세 개의 점 > 편집 > 에이전트 가용성 위젯 선택 > 라운드 로빈이 활성화된 그룹 선택 > 저장**을 클릭합니다.
 
 생성된 위젯에서 **자세한 정보**를 클릭하면 에이전트의 라운드 로빈을 개별적으로 관리할 수 있습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011900288/original/3Y6bF7g8B-OTkVpW2Cb8vIlEpjKkXwG1mg.png?1716298430" style="width: 226px;" className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50011900288" / />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011900288/original/3Y6bF7g8B-OTkVpW2Cb8vIlEpjKkXwG1mg.png?1716298430" style="width: 226px;" className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50011900288" />
 
 **4. 에이전트가 로그인할 때 자동 티켓 할당/라운드 로빈 상태가 재설정되나요?**
 
@@ -86,4 +86,4 @@
 
 대시보드로 이동하여 라운드 로빈을 활성화 또는 비활성화할 수 있는 에이전트 가용성 위젯을 클릭하세요. (권한에 대해서는 FAQ 2를 참조하세요)
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012030199/original/9Nf5zp9DMjgwueRqCmI-RicDWvVm8RZW4Q.png?1717418199" style="width: 678px;" className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50012030199" / />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012030199/original/9Nf5zp9DMjgwueRqCmI-RicDWvVm8RZW4Q.png?1717418199" style="width: 678px;" className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50012030199" />

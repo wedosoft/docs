@@ -7,7 +7,7 @@
 ### 단계별 구독 업그레이드 절차
 
 1. **구독 관리 페이지 접근**
-   Freshservice 계정 관리자는 **관리자 → 계정 설정 → 요금제 및 결제**를 클릭하여 구독 상세 정보를 확인할 수 있습니다. 계정에 여러 작업 공간이 있는 경우, **관리자 &gt; 전역 설정 &gt; 계정 설정 &gt; 요금제 및 결제**로 이동하세요. 또는 "모든 구독" 페이지의 구독 목록에서 특정 구독을 클릭하여 세부 정보를 확인할 수 있습니다.
+   Freshservice 계정 관리자는 **관리자 → 계정 설정 → 요금제 및 결제**를 클릭하여 구독 상세 정보를 확인할 수 있습니다. 계정에 여러 작업 공간이 있는 경우, **관리자 > 전역 설정 > 계정 설정 > 요금제 및 결제**로 이동하세요. 또는 "모든 구독" 페이지의 구독 목록에서 특정 구독을 클릭하여 세부 정보를 확인할 수 있습니다.
 
 2. **구독 편집 시작**
    구독 상세 정보 페이지에서 왼쪽 섹션의 "요금제 및 사용자"에 대해 "**편집**"을 클릭하거나, 하단의 **요금제 관리** 버튼을 클릭하여 구독 세부 정보를 수정합니다.
@@ -32,7 +32,7 @@
 8. **업데이트 확인**
    구독 변경 요청이 성공적으로 처리되면 확인 메시지와 함께 업데이트된 구독 세부 정보가 표시됩니다. 청구서를 보려면 "이 구독의 청구서 보기"를 클릭하세요.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007726928/original/Wz4xd30NNjgipwcIccOvCnT2OWwyoxnjnw.gif?1677584906" style="width: auto;" / />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007726928/original/Wz4xd30NNjgipwcIccOvCnT2OWwyoxnjnw.gif?1677584906" style="width: auto;" />
 
 ## 사용 예시
 
