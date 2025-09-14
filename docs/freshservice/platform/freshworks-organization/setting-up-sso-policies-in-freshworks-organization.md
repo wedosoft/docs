@@ -167,49 +167,6 @@ SSO 정책은 조직 내 모든 Freshworks 제품에 대한 인증 방식을 정
 
 ## 🏢 실무 활용 예시
 
-### 상황 1: 삼성전자 SAML 통합
-**목표**: Active Directory Federation Services를 통한 통합 인증
-
-**구성**:
-```xml
-<!-- AD FS 클레임 규칙 -->
-c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname"]
-=> issue(Type = "email", Value = c.Value + "@samsung.com");
-
-c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname"]
-=> issue(Type = "firstName", Value = c.Value);
-```
-
-**결과**: 15,000명 직원의 원클릭 접근, IT 지원 요청 70% 감소
-
-### 상황 2: LG화학 Google Workspace 연동
-**목표**: Google 계정을 활용한 seamless 인증
-
-**구성**:
-- 도메인 제한: `@lgchem.com`
-- 자동 그룹 매핑: Google Groups → Freshworks 그룹
-- 2FA 강제 적용
-
-**결과**: 신규 직원 온보딩 시간 80% 단축
-
-### 상황 3: 현대자동차 하이브리드 환경
-**목표**: 내부 직원(SAML) + 협력업체(OAuth) 동시 지원
-
-**구성**:
-```yaml
-정책 1 - 내부 직원:
-  방식: SAML 2.0
-  도메인: "@hyundai.com"
-  IdP: Hyundai AD FS
-
-정책 2 - 협력업체:
-  방식: Google OAuth
-  도메인 제한: 없음
-  승인 프로세스: 관리자 승인 필요
-```
-
-**결과**: 복합 사용자 환경에서 99.9% 인증 성공률 달성
-
 ## ⚠️ 보안 고려사항
 
 ### 인증서 관리

@@ -117,36 +117,6 @@ openid email profile
 
 ## 🏢 실무 활용 예시
 
-### 상황 1: 삼성SDS Active Directory 통합
-**목표**: 기존 AD FS 기반 SSO를 Freshworks Organization SAML로 마이그레이션
-
-**방법**:
-1. AD FS에서 새로운 Relying Party Trust 구성
-2. 클레임 규칙을 Freshworks Organization 요구사항에 맞게 수정
-3. 단계별 사용자 그룹 마이그레이션 수행
-
-**결과**: 사용자 인증 시간 50% 단축, 관리 복잡성 70% 감소
-
-### 상황 2: LG전자 Google Workspace 연동
-**목표**: Google SSO를 중앙집중식 OAuth 2.0으로 통합
-
-**방법**:
-1. Google Cloud Console에서 새 OAuth 2.0 클라이언트 생성
-2. 조직별 도메인 제한 설정
-3. 자동 사용자 프로비저닝 활성화
-
-**결과**: 신규 직원 계정 생성 시간 80% 단축, IT 지원 요청 60% 감소
-
-### 상황 3: 현대모비스 다중 IdP 환경
-**목표**: 본사와 계열사의 서로 다른 IdP를 통합 관리
-
-**방법**:
-1. Freshworks Organization에서 다중 SSO 정책 생성
-2. 도메인별 라우팅 규칙 설정
-3. 계열사별 차별화된 액세스 제어 구현
-
-**결과**: 계열사 간 협업 효율성 40% 향상, 보안 관리 일관성 달성
-
 ## ⚠️ 주의사항 및 문제 해결
 
 ### 일반적인 문제
