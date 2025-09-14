@@ -12,51 +12,51 @@ Freshservice의 Analytics는 모든 고객에게 두 가지 플랜으로 제공�
 <table style="border: 1px solid #000; border-collapse: collapse; width: 100%;">
 <thead>
 <tr style="background-color: #a4c2f4;">
-<th style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold;">기능&lt;/th>
-<th style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold;">Analytics Basic&lt;/th>
-<th style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold;">Analytics Pro&lt;/th>
+<th style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold;">기능</th>
+<th style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold;">Analytics Basic</th>
+<th style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold;">Analytics Pro</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">요금제&lt;/td>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">모든 플랜에서 사용 가능&lt;/td>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">Pro, Enterprise 플랜에서 사용 가능&lt;/td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">요금제</td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">모든 플랜에서 사용 가능</td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">Pro, Enterprise 플랜에서 사용 가능</td>
 </tr>
 <tr>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">리포트&lt;/td>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">큐레이션된 리포트&lt;/td>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">큐레이션된 리포트 및 사용자 정의 리포트&lt;/td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">리포트</td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">큐레이션된 리포트</td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">큐레이션된 리포트 및 사용자 정의 리포트</td>
 </tr>
 <tr>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">필터&lt;/td>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">런타임 전용&lt;/td>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">고급 필터&lt;/td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">필터</td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">런타임 전용</td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">고급 필터</td>
 </tr>
 <tr>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">리포트 내보내기&lt;/td>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">큐레이션된 리포트만&lt;/td>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">모든 리포트&lt;/td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">리포트 내보내기</td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">큐레이션된 리포트만</td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">모든 리포트</td>
 </tr>
 <tr>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">메트릭 구성&lt;/td>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">아니오&lt;/td>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">예&lt;/td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">메트릭 구성</td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">아니오</td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">예</td>
 </tr>
 <tr>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">그룹화 기능&lt;/td>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">아니오&lt;/td>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">예&lt;/td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">그룹화 기능</td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">아니오</td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">예</td>
 </tr>
 <tr>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">Ask Freddy&lt;/td>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">아니오&lt;/td>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">예&lt;/td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">Ask Freddy</td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">아니오</td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">예</td>
 </tr>
 <tr>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">프레젠테이션 모드&lt;/td>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">아니오&lt;/td>
-<td style="border: 1px solid #000; padding: 8px; text-align: center;">예&lt;/td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">프레젠테이션 모드</td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">아니오</td>
+<td style="border: 1px solid #000; padding: 8px; text-align: center;">예</td>
 </tr>
 </tbody>
 </table>
