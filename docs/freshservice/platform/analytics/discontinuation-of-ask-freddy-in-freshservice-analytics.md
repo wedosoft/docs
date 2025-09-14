@@ -81,12 +81,12 @@ Ask Freddy는 자연어 처리를 통해 Analytics 위젯을 생성하는 AI 기
 **사용 방법**:
 <div className="procedure">
   <ol>
-    <li><strong>Analytics → 새 리포트</strong>로 이동
-    <li><strong>갤러리</strong> 탭 선택
-    <li>원하는 모듈(티켓, 자산 등) 선택
-    <li>적합한 위젯 템플릿 찾기
-    <li>드래그 앤 드롭으로 리포트에 추가
-  </ol>
+    <li><strong>Analytics → 새 리포트</strong>로 이동</li>
+    <li><strong>갤러리</strong> 탭 선택</li>
+    <li>원하는 모듈(티켓, 자산 등) 선택</li>
+    <li>적합한 위젯 템플릿 찾기</li>
+    <li>드래그 앤 드롭으로 리포트에 추가</li>
+</ol>
 </div>
 
 ### 2. 검색 기반 위젯 찾기
@@ -114,13 +114,13 @@ Ask Freddy는 자연어 처리를 통해 Analytics 위젯을 생성하는 AI 기
 **사용 과정**:
 <div className="procedure">
   <ol>
-    <li><strong>분석하고 싶은 모듈</strong> 선택 (티켓, 자산 등)
-    <li><strong>측정하고 싶은 항목</strong> 선택 (수량, 시간, 비율 등)
-    <li><strong>그룹화 기준</strong> 선택 (에이전트, 우선순위, 상태 등)
-    <li><strong>필터 조건</strong> 설정 (선택사항)
-    <li><strong>차트 유형</strong> 선택
-    <li>결과 미리보기 후 <strong>생성</strong> 버튼 클릭
-  </ol>
+    <li><strong>분석하고 싶은 모듈</strong> 선택 (티켓, 자산 등)</li>
+    <li><strong>측정하고 싶은 항목</strong> 선택 (수량, 시간, 비율 등)</li>
+    <li><strong>그룹화 기준</strong> 선택 (에이전트, 우선순위, 상태 등)</li>
+    <li><strong>필터 조건</strong> 설정 (선택사항)</li>
+    <li><strong>차트 유형</strong> 선택</li>
+    <li><strong>결과 미리보기 후 생성</strong> 버튼 클릭</li>
+</ol>
 </div>
 
 ### 4. 커뮤니티 위젯 공유
@@ -146,29 +146,29 @@ Freshservice에서 제공하는 자동 마이그레이션 도구를 통해 기�
 **1단계: 기존 쿼리 분석**
 <div className="procedure">
   <ol>
-    <li>현재 사용 중인 Ask Freddy 쿼리 목록 확인
-    <li>각 쿼리의 비즈니스 목적 파악
-    <li>생성되는 데이터의 중요도 평가
-  </ol>
+    <li>현재 사용 중인 Ask Freddy 쿼리 목록 확인</li>
+    <li>각 쿼리의 비즈니스 목적 파악</li>
+    <li>생성되는 데이터의 중요도 평가</li>
+</ol>
 </div>
 
 **2단계: 대체 위젯 찾기**
 <div className="procedure">
   <ol>
-    <li>갤러리에서 유사한 위젯 검색
-    <li>필요시 위젯 수정 및 커스터마이징
-    <li>데이터 정확성 검증
-  </ol>
+    <li>갤러리에서 유사한 위젯 검색</li>
+    <li>필요시 위젯 수정 및 커스터마이징</li>
+    <li>데이터 정확성 검증</li>
+</ol>
 </div>
 
 **3단계: 리포트 업데이트**
 <div className="procedure">
   <ol>
-    <li>기존 리포트에서 Ask Freddy 위젯 제거
-    <li>새로운 표준 위젯으로 교체
-    <li>필터 및 설정 조정
-    <li>이해관계자에게 변경사항 공지
-  </ol>
+    <li>기존 리포트에서 Ask Freddy 위젯 제거</li>
+    <li>새로운 표준 위젯으로 교체</li>
+    <li>필터 및 설정 조정</li>
+    <li>이해관계자에게 변경사항 공지</li>
+</ol>
 </div>
 
 ## 일반적인 Ask Freddy 쿼리 대안

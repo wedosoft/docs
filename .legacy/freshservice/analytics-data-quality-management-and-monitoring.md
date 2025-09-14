@@ -82,7 +82,7 @@ GROUP BY field_name
 **일일 품질 대시보드**:
 ```javascript
 // 데이터 품질 지표 예시
-const qualityMetrics = {
+const qualityMetrics  = {
   accuracy: {
     score: 98.5,
     threshold: 95,
@@ -180,7 +180,7 @@ function standardizeCategory(category) {
 
 // 우선순위 표준화
 function normalizePriority(priority) {
-  const priorityMap = {
+  const priorityMap  = {
     'critical': 'Critical',
     'urgent': 'High', 
     'normal': 'Medium',
@@ -222,7 +222,7 @@ function normalizePriority(priority) {
 ```yaml
 alerts:
   - name: "Critical Quality Drop"
-    condition: "quality_score < 75"
+    condition: "quality_score &lt; 75"
     frequency: "immediate"
     recipients: ["admin@company.com"]
   
@@ -247,11 +247,11 @@ alerts:
 **단계적 접근**:
 <div className="procedure">
   <ol>
-    <li><strong>이상 징후 탐지</strong>: 자동화된 모니터링으로 문제 식별
-    <li><strong>근본 원인 분석</strong>: 데이터 소스부터 최종 리포트까지 추적
-    <li><strong>영향 범위 평가</strong>: 문제가 미치는 비즈니스 영향 측정
-    <li><strong>우선순위 결정</strong>: 심각도와 영향도에 따른 처리 순서
-  </ol>
+    <li><strong>이상 징후 탐지</strong>: 자동화된 모니터링으로 문제 식별</li>
+    <li><strong>근본 원인 분석</strong>: 데이터 소스부터 최종 리포트까지 추적</li>
+    <li><strong>영향 범위 평가</strong>: 문제가 미치는 비즈니스 영향 측정</li>
+    <li><strong>우선순위 결정</strong>: 심각도와 영향도에 따른 처리 순서</li>
+</ol>
 </div>
 
 ### 2. 개선 실행

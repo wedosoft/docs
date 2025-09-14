@@ -6,15 +6,15 @@ Freshservice의 고급 리포팅 기능은 Blossom 플랜에서 사용할 수 �
 
 고급 리포팅 스위트에서 제공하는 리포트는 다음과 같습니다:
 
-<p><img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/29695703/original/blob1475583832145.png?1475583832" class="inline-image fr-dii fr-draggable" data-id="29695703" /></p>
+<p>&lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/29695703/original/blob1475583832145.png?1475583832" class="inline-image fr-dii fr-draggable" data-id="29695703" /></p>
 
 ## 사용 가능한 리포트
 
 <table>
 <tbody>
 <tr>
-<td><b>리포트 이름</b></td>
-<td><b>기능 설명</b></td>
+<td>&lt;b>리포트 이름&lt;/b></td>
+<td>&lt;b>기능 설명&lt;/b></td>
 </tr>
 <tr>
 <td>상담원 티켓 요약</td>

@@ -27,7 +27,7 @@
 7. **활성화 확인**
    활성화가 성공적으로 완료되면 확인 메시지가 표시되고, 구독 상태가 "활성"으로 표시됩니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007724686/original/XXjegbh6qSbBc5Hf5LXzmhadPh_iqmiqaQ.gif?1677574701" style="width: auto;" / />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007724686/original/XXjegbh6qSbBc5Hf5LXzmhadPh_iqmiqaQ.gif?1677574701" style={{ width: "auto" }} />
 
 ## 사용 예시
 

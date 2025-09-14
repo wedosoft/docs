@@ -19,7 +19,7 @@ SaaS 기반 애플리케이션과 사용자 전반에 걸쳐 프로세스를 자
 2. 왼쪽 패널의 **모듈** 아래에서 **소프트웨어 사용자**를 선택합니다.
 3. **새 워크플로우**를 클릭합니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013460826/original/yXUO5GnWpKHILapJrkzlTOs6GoPVrBp13Q.png?1729575823" style="width: auto; max-width: 100%;" class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50013460826" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013460826/original/yXUO5GnWpKHILapJrkzlTOs6GoPVrBp13Q.png?1729575823" style={{ width: "auto", maxWidth: "100%" }} class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50013460826" />
 
 우측에 **새 워크플로우** 섹션이 열립니다.
 
@@ -27,20 +27,20 @@ SaaS 기반 애플리케이션과 사용자 전반에 걸쳐 프로세스를 자
 
 **참고**: **모듈** '소프트웨어 사용자'와 **워크플로우 유형** '예약된 워크플로우'가 기본적으로 선택됩니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013460835/original/NOK2rgGcHRLVCqR6R5or8KOyriFFk_NcbA.png?1729575851" style="width: auto; max-width: 100%;" class="fr-fil fr-dib fr-shadow" data-attachment="[object Object]" data-id="50013460835" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013460835/original/NOK2rgGcHRLVCqR6R5or8KOyriFFk_NcbA.png?1729575851" style={{ width: "auto", maxWidth: "100%" }} class="fr-fil fr-dib fr-shadow" data-attachment="[object Object]" data-id="50013460835" />
 
 5. **생성**을 클릭합니다.
 
 **예약된 이벤트** 페이지가 열립니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013460840/original/szk0zyzrcD0t1SY2dwiu-Eh4ICKzE3Q6kg.png?1729575888" style="width: 443px; max-width: 100%;" class="fr-fil fr-dib fr-shadow" data-attachment="[object Object]" data-id="50013460840" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013460840/original/szk0zyzrcD0t1SY2dwiu-Eh4ICKzE3Q6kg.png?1729575888" style={{ width: "443px", maxWidth: "100%" }} class="fr-fil fr-dib fr-shadow" data-attachment="[object Object]" data-id="50013460840" />
 
 6. 예약된 이벤트에 대한 관련 일정, 시간 및 시간대를 선택합니다.
 7. **저장 및 조건 추가**를 클릭합니다.
 
 **예약된 조건** 페이지가 열립니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013460866/original/JfvuRIu7-biBx55wz_oFCnVAqrCQ8WjTqg.png?1729575961" style="width: 443px; max-width: 100%;" class="fr-fil fr-dib fr-shadow" data-attachment="[object Object]" data-id="50013460866" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013460866/original/JfvuRIu7-biBx55wz_oFCnVAqrCQ8WjTqg.png?1729575961" style={{ width: "443px", maxWidth: "100%" }} class="fr-fil fr-dib fr-shadow" data-attachment="[object Object]" data-id="50013460866" />
 
 소프트웨어 필드, 소프트웨어 사용자 필드 및 사용자 필드를 기반으로 워크플로우 실행을 위한 다양한 조건을 추가할 수 있습니다.
 
@@ -52,10 +52,10 @@ SaaS 기반 애플리케이션과 사용자 전반에 걸쳐 프로세스를 자
 
 | 일정 유형 | 일정 옵션 |
 |----------|----------|
-| 매일 | 일정 유형이 **매일**인 경우:<br /><br />각 드롭다운에서 **시간**과 **시간대** 기본 설정을 선택합니다. |
-| 매주 | 일정 유형이 **매주**인 경우:<br /><br />1. **시간**과 **시간대** 기본 설정을 선택합니다.<br />2. **요일** 드롭다운에서 워크플로우를 실행할 요일을 선택합니다 (예: **월요일**).<br /><br />**참고**: 여러 요일을 선택할 수 있습니다. |
-| 매월 | 일정 유형이 **매월**인 경우:<br /><br />1. **시간**과 **시간대** 기본 설정을 선택합니다.<br />2. **월 날짜** 드롭다운에서 워크플로우를 실행할 월의 날짜를 선택합니다.<br />3. **월** 드롭다운에서 워크플로우를 실행할 월을 선택합니다 (예: **1월**).<br /><br />**참고**: 여러 월을 선택할 수 있습니다. |
-| 한 번 | 일정 유형이 **한 번**인 경우:<br /><br />1. **시간**과 **시간대** 기본 설정을 선택합니다.<br />2. **날짜** 필드에서 특정 날짜를 선택합니다. |
+| 매일 | 일정 유형이 **매일**인 경우:&lt;br />&lt;br />각 드롭다운에서 **시간**과 **시간대** 기본 설정을 선택합니다. |
+| 매주 | 일정 유형이 **매주**인 경우:&lt;br />&lt;br />1. **시간**과 **시간대** 기본 설정을 선택합니다.&lt;br />2. **요일** 드롭다운에서 워크플로우를 실행할 요일을 선택합니다 (예: **월요일**).&lt;br />&lt;br />**참고**: 여러 요일을 선택할 수 있습니다. |
+| 매월 | 일정 유형이 **매월**인 경우:&lt;br />&lt;br />1. **시간**과 **시간대** 기본 설정을 선택합니다.&lt;br />2. **월 날짜** 드롭다운에서 워크플로우를 실행할 월의 날짜를 선택합니다.&lt;br />3. **월** 드롭다운에서 워크플로우를 실행할 월을 선택합니다 (예: **1월**).&lt;br />&lt;br />**참고**: 여러 월을 선택할 수 있습니다. |
+| 한 번 | 일정 유형이 **한 번**인 경우:&lt;br />&lt;br />1. **시간**과 **시간대** 기본 설정을 선택합니다.&lt;br />2. **날짜** 필드에서 특정 날짜를 선택합니다. |
 
 ### 예약 조건 추가
 
@@ -65,9 +65,9 @@ SaaS 기반 애플리케이션과 사용자 전반에 걸쳐 프로세스를 자
 
 | 필드 유형 | 필드 이름 | 연산자 |
 |----------|----------|--------|
-| 소프트웨어 필드 | 다음과 같은 소프트웨어 필드를 사용하여 조건을 추가할 수 있습니다:<br /><br />*소프트웨어 이름*, *상태*, *카테고리*, *유형*, *사용자 수*, *설치 수*, *계약 가치*, *소스*, *관리자 (이메일)*, *게시자*, *작업 공간* | 조건에 절대값 또는 동적 값을 사용할 수 있습니다:<br /><br />*포함*, *중 하나 포함*, *포함하지 않음*, *이다*, *아니다*, *포함*, *포함하지 않음*, *이 단어들 중 하나 포함*, *이 단어들 모두 포함하지 않음*, *로 시작*, *로 끝남*, *비어있음*, *비어있지 않음*, *보다 큼*, *보다 작음*, *이상*, *이하*, *속함*, *선택됨*, *선택되지 않음*<br /><br />또는 조건에 상대값을 사용할 수 있습니다:<br /><br />*정확히 'x'일 전*, *정확히 'x'일 후*, *적어도 'x'일 전*, *적어도 'x'일 후*, *정확히 'x'일 전이 아님*, *정확히 'x'일 후가 아님*, *적어도 'x'일 전이 아님*, *적어도 'x'일 후가 아님* |
-| 소프트웨어 사용자 필드 | 다음과 같은 소프트웨어 사용자 필드를 사용하여 조건을 추가할 수 있습니다:<br /><br />*사용자 이름*, *사용자 이메일*, *사용률 %*, *부서 이름*, *상태*, *소스*, *첫 번째 확인*, *마지막 확인*, *할당된 날짜*, *계약* | |
-| 사용자 필드 | 다음과 같은 사용자 필드를 사용하여 조건을 추가할 수 있습니다:<br /><br />*사용자 이름*, *사용자 이메일*, *사용자 직급*, *사용자 시간대*, *사용자 언어*, *사용자 위치*, *부서 이름*, *보고 관리자*, *요청자 그룹*, *VIP 사용자*, *직원 코드* | |
+| 소프트웨어 필드 | 다음과 같은 소프트웨어 필드를 사용하여 조건을 추가할 수 있습니다:&lt;br />&lt;br />*소프트웨어 이름*, *상태*, *카테고리*, *유형*, *사용자 수*, *설치 수*, *계약 가치*, *소스*, *관리자 (이메일)*, *게시자*, *작업 공간* | 조건에 절대값 또는 동적 값을 사용할 수 있습니다:&lt;br />&lt;br />*포함*, *중 하나 포함*, *포함하지 않음*, *이다*, *아니다*, *포함*, *포함하지 않음*, *이 단어들 중 하나 포함*, *이 단어들 모두 포함하지 않음*, *로 시작*, *로 끝남*, *비어있음*, *비어있지 않음*, *보다 큼*, *보다 작음*, *이상*, *이하*, *속함*, *선택됨*, *선택되지 않음*&lt;br />&lt;br />또는 조건에 상대값을 사용할 수 있습니다:&lt;br />&lt;br />*정확히 'x'일 전*, *정확히 'x'일 후*, *적어도 'x'일 전*, *적어도 'x'일 후*, *정확히 'x'일 전이 아님*, *정확히 'x'일 후가 아님*, *적어도 'x'일 전이 아님*, *적어도 'x'일 후가 아님* |
+| 소프트웨어 사용자 필드 | 다음과 같은 소프트웨어 사용자 필드를 사용하여 조건을 추가할 수 있습니다:&lt;br />&lt;br />*사용자 이름*, *사용자 이메일*, *사용률 %*, *부서 이름*, *상태*, *소스*, *첫 번째 확인*, *마지막 확인*, *할당된 날짜*, *계약* | |
+| 사용자 필드 | 다음과 같은 사용자 필드를 사용하여 조건을 추가할 수 있습니다:&lt;br />&lt;br />*사용자 이름*, *사용자 이메일*, *사용자 직급*, *사용자 시간대*, *사용자 언어*, *사용자 위치*, *부서 이름*, *보고 관리자*, *요청자 그룹*, *VIP 사용자*, *직원 코드* | |
 
 **참고**: 소프트웨어 사용자 워크플로우를 생성하고 이벤트 및 조건 일정을 설정한 후에는 다른 작업 수행, 레코드 읽기, JSON 객체 구문 분석, 웹 요청을 통한 타사 시스템 통합, 특정 작업 수행을 위한 표현식 구축을 할 수 있습니다.
 
@@ -83,7 +83,7 @@ SaaS 기반 애플리케이션 및 사용자를 위한 예약된 워크플로우
 
 - 지난 60일 동안 로그인하지 않은 사용자
 - 마지막 확인 날짜가 적어도 지난 90일인 사용자
-- 회의 주최 (&gt;40분) &lt;= 0인 사용자
+- 회의 주최 (&gt;40분) &lt; =  0인 사용자
 
 **이 워크플로우를 생성하려면:**
 
@@ -113,7 +113,7 @@ h. (다음 조건을 추가하려면) **새 조건 추가**를 클릭합니다. 
 8. 이제 **앱** 노드를 (왼쪽 패널에서) 조건 블록에 끌어다 놓습니다.
 
 a. 앱 목록에서 **Zoom - Orch**를 선택합니다. 그런 다음 **이메일로 사용자 비활성화**를 선택합니다.
-b. **페이로드** 아래 **이메일** 옆의 **{+}** 아이콘을 클릭합니다.
+b. **페이로드** 아래 **이메일** 옆의 **&#123;+&#125;** 아이콘을 클릭합니다.
 c. **사용자** > **사용자 이메일**을 선택합니다. 그런 다음 **플레이스홀더** 대화상자를 닫습니다.
 
 9. **완료**를 클릭합니다.

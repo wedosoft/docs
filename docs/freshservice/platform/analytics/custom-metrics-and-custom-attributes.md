@@ -22,13 +22,13 @@ description: "Freshservice Analytics에서 사용자 정의 메트릭과 속성�
 **예시**:
 ```
 예시 1: 에이전트 효율성
-= (해결된 티켓 수) / (할당된 티켓 수) × 100
+ = (해결된 티켓 수) / (할당된 티켓 수) × 100
 
 예시 2: 평균 해결 비용
-= (총 운영 비용) / (해결된 티켓 수)
+ = (총 운영 비용) / (해결된 티켓 수)
 
 예시 3: 고객 만족 비율
-= (CSAT 4-5점 응답 수) / (총 CSAT 응답 수) × 100
+ = (CSAT 4-5점 응답 수) / (총 CSAT 응답 수) × 100
 ```
 
 #### 2. 조건부 메트릭
@@ -38,13 +38,13 @@ description: "Freshservice Analytics에서 사용자 정의 메트릭과 속성�
 **예시**:
 ```
 예시 1: 긴급 티켓 해결 시간
-= IF(우선순위 = "긴급", 해결 시간, NULL)
+ =  IF(우선순위  = "긴급", 해결 시간, NULL)
 
 예시 2: VIP 고객 만족도
-= IF(고객 유형 = "VIP", CSAT 점수, NULL)
+ =  IF(고객 유형  = "VIP", CSAT 점수, NULL)
 
 예시 3: 업무 시간 외 티켓 수
-= IF(생성 시간 NOT IN 업무시간, 1, 0)
+ =  IF(생성 시간 NOT IN 업무시간, 1, 0)
 ```
 
 #### 3. 시계열 메트릭
@@ -54,13 +54,13 @@ description: "Freshservice Analytics에서 사용자 정의 메트릭과 속성�
 **예시**:
 ```
 예시 1: 월별 증가율
-= (이번 달 티켓 수 - 지난 달 티켓 수) / 지난 달 티켓 수 × 100
+ = (이번 달 티켓 수 - 지난 달 티켓 수) / 지난 달 티켓 수 × 100
 
 예시 2: 누적 해결 티켓
-= SUM(해결된 티켓 수) OVER (ORDER BY 날짜)
+ =  SUM(해결된 티켓 수) OVER (ORDER BY 날짜)
 
 예시 3: 이동 평균 해결 시간
-= AVG(해결 시간) OVER (ORDER BY 날짜 ROWS 6 PRECEDING)
+ =  AVG(해결 시간) OVER (ORDER BY 날짜 ROWS 6 PRECEDING)
 ```
 
 ### 사용자 정의 메트릭 생성 과정
@@ -69,31 +69,31 @@ description: "Freshservice Analytics에서 사용자 정의 메트릭과 속성�
 
 <div className="procedure">
   <ol>
-    <li><strong>목적 명확화</strong>: 메트릭으로 측정하고자 하는 것이 무엇인지 정의
-    <li><strong>계산 공식 설계</strong>: 필요한 데이터 요소와 계산 방법 결정
-    <li><strong>기준값 설정</strong>: 성과 평가를 위한 목표치나 기준값 정의
-  </ol>
+    <li><strong>목적 명확화</strong>: 메트릭으로 측정하고자 하는 것이 무엇인지 정의</li>
+    <li><strong>계산 공식 설계</strong>: 필요한 데이터 요소와 계산 방법 결정</li>
+    <li><strong>기준값 설정</strong>: 성과 평가를 위한 목표치나 기준값 정의</li>
+</ol>
 </div>
 
 #### 2단계: 데이터 소스 확인
 
 <div className="procedure">
   <ol>
-    <li><strong>필요한 데이터 식별</strong>: 계산에 필요한 모든 데이터 요소 확인
-    <li><strong>데이터 품질 검증</strong>: 데이터의 정확성과 완전성 확인
-    <li><strong>데이터 가용성 확인</strong>: Analytics에서 해당 데이터에 접근 가능한지 확인
-  </ol>
+    <li><strong>필요한 데이터 식별</strong>: 계산에 필요한 모든 데이터 요소 확인</li>
+    <li><strong>데이터 품질 검증</strong>: 데이터의 정확성과 완전성 확인</li>
+    <li><strong>데이터 가용성 확인</strong>: Analytics에서 해당 데이터에 접근 가능한지 확인</li>
+</ol>
 </div>
 
 #### 3단계: 메트릭 구현
 
 ```javascript
 // 예시: 사용자 정의 메트릭 생성 (JavaScript 기반)
-const customMetrics = {
+const customMetrics  = &#123;
   // 에이전트 생산성 메트릭
   agentProductivity: function(resolvedTickets, assignedTickets) {
     return assignedTickets > 0 ? (resolvedTickets / assignedTickets) * 100 : 0;
-  },
+  &#125;,
   
   // 고객 만족 지수
   customerSatisfactionIndex: function(csat5, csat4, totalResponses) {
@@ -191,8 +191,7 @@ const customMetrics = {
 
 **구현 예시**:
 ```
-고객 성공 지수 = 
-  (CSAT 평균 점수 × 0.4) + 
+고객 성공 지수  = (CSAT 평균 점수 × 0.4) + 
   (재문의 비율 × -0.3) + 
   (해결 시간 준수율 × 0.3)
 ```
@@ -267,9 +266,9 @@ const customMetrics = {
 ```javascript
 // 동적 가중치를 적용한 메트릭
 function dynamicPriorityScore(ticket) {
-  const timeWeight = getTimeBasedWeight(ticket.createdDate);
-  const customerWeight = getCustomerTierWeight(ticket.customer);
-  const impactWeight = getImpactWeight(ticket.impact);
+  const timeWeight  =  getTimeBasedWeight(ticket.createdDate);
+  const customerWeight  =  getCustomerTierWeight(ticket.customer);
+  const impactWeight  =  getImpactWeight(ticket.impact);
   
   return (timeWeight + customerWeight + impactWeight) / 3;
 }
@@ -282,8 +281,8 @@ function dynamicPriorityScore(ticket) {
 ```javascript
 // 간단한 선형 회귀 기반 예측
 function predictTicketVolume(historicalData, forecastPeriod) {
-  const trend = calculateTrend(historicalData);
-  const seasonality = calculateSeasonality(historicalData);
+  const trend  =  calculateTrend(historicalData);
+  const seasonality  =  calculateSeasonality(historicalData);
   
   return trend * forecastPeriod + seasonality;
 }
@@ -295,19 +294,19 @@ function predictTicketVolume(historicalData, forecastPeriod) {
 
 ```javascript
 // 임계값 모니터링
-const alertMetrics = {
-  slaBreachRate: {
+const alertMetrics  = &#123;
+  slaBreachRate: &#123;
     threshold: 5, // 5% 초과 시 알림
     condition: 'greater_than',
     notification: 'email'
-  },
+  &#125;,
   
-  avgResolutionTime: {
+  avgResolutionTime: &#123;
     threshold: 24, // 24시간 초과 시 알림
     condition: 'greater_than',
     notification: 'slack'
-  }
-};
+  &#125;
+&#125;;
 ```
 
 ## 제한사항 및 고려사항

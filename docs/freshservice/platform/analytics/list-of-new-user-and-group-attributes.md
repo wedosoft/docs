@@ -119,10 +119,10 @@ Analytics 모듈에서는 향상된 리포팅을 위해 다양한 사용자 및 
 
 ```
 예시 필터:
-- User.Department = "IT"
-- Group.Type = "Support Team"  
-- User.Active = True
-- Group.Auto Assignment = True
+- User.Department  = "IT"
+- Group.Type  = "Support Team"  
+- User.Active  =  True
+- Group.Auto Assignment  =  True
 ```
 
 ### 그룹화 및 분석

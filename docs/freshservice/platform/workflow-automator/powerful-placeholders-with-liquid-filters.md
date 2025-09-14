@@ -16,13 +16,13 @@ Liquid 필터의 전체 목록은 [여기](https://shopify.github.io/liquid/basi
 
 **1.1** 'Vishal Abraham'을 Azure AD에서 'vabraham@domainname.com'으로 사용자 생성 - liquid 필터 사용
 
-{{ "{{ticket.ri_49_cf_employee_first_name | first}}" }} {{ "{{ticket.ri_49_cf_employee_last_name}}" }}@domainname.com
+``{{ "{{ticket.ri_49_cf_employee_first_name | first}}``" }} ``{{ "{{ticket.ri_49_cf_employee_last_name}}``" }}@domainname.com
 
 **1.2** **truncate** 필터를 사용하여 문자열에서 처음 3글자 추출
 
-{{ticket.ri_49_cf_employee_first_name | **truncate:3 ,''**}}
+`{{ticket.ri_49_cf_employee_first_name | truncate:3 ,''}}`
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002706324/original/LzhknwNWKZS7EV0nor7kYcBj02iNMaXdNQ.png?1616562538" style="width: auto;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50002706324" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002706324/original/LzhknwNWKZS7EV0nor7kYcBj02iNMaXdNQ.png?1616562538" style={{ width: "auto" }} class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50002706324" />
 
 ## 예시 2: 대소문자 변환
 
@@ -30,29 +30,33 @@ Slack 채널을 티켓 ID(예: inc-123)로 생성합니다.
 
 여기서 문제는 Slack이 채널명에 대해 소문자 형식만 허용하므로 **downcase** liquid 필터를 사용하여 티켓 ID를 변환해야 한다는 것입니다.
 
-{{ticket.id | **downcase**}}
+``{{ticket.id | **downcase**}}``
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002706335/original/g4l2NFkUaeGqFFBftb3bgicIRLwc8ygduQ.png?1616562595" style="width: auto;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50002706335" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002706335/original/g4l2NFkUaeGqFFBftb3bgicIRLwc8ygduQ.png?1616562595" style={{ width: "auto" }} class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50002706335" />
 
 ## 예시 3: 수학 연산
 
 **times** 필터를 사용하여 비용과 수량의 간단한 곱셈을 수행합니다.
 
-{{ticket.quantity | **times**: ticket.cost}}
+``{{ticket.quantity | **times**: ticket.cost}}``
 
 ## 예시 4: 텍스트 분할
 
 **split** 필터를 사용하여 텍스트 덩어리에서 n번째 항목을 추출합니다.
 
-{% assign value = {{A2.meta.system_message}} | **split**: ' ' %}{{value[n-1]}}
+```
+{% assign value = "{{A2.meta.system_message}}" | split: ' ' %}{{value[n-1]}}
+```
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002706339/original/sx0fL90KJ11et4N328iBrAeGSrQFErgEEg.png?1616562636" style="width: auto;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50002706339" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002706339/original/sx0fL90KJ11et4N328iBrAeGSrQFErgEEg.png?1616562636" style={{ width: "auto" }} class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50002706339" />
 
 ## 예시 5: 쉼표로 구분된 값 처리
 
 **split** 필터를 사용하여 쉼표로 구분된 값 목록에서 n번째 항목을 추출합니다.
 
-{% assign value = {{ticket.associated_asset_names}} | **split**: ',' %}{{value[n-1]}}
+```
+{% assign value = "{{ticket.associated_asset_names}}" | split: ',' %}{{value[n-1]}}
+```
 
 ## 예시 6: Google 캘린더 이벤트 생성
 
@@ -60,9 +64,9 @@ Google 캘린더 이벤트 생성의 경우 날짜-시간 형식을 RFC 3339 호
 
 이는 **date** liquid 필터를 사용하여 수행할 수 있습니다.
 
-{{change.planned_start_date | date: '%Y-%m-%dT%H:%M:%S'}}
+``{{change.planned_start_date | date: '%Y-%m-%dT%H:%M:%S'}}``
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002706359/original/FFJzPTNnwZQ025c0rv16YMJZRzc9S6YeuQ.png?1616562891" style="width: auto;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50002706359" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002706359/original/FFJzPTNnwZQ025c0rv16YMJZRzc9S6YeuQ.png?1616562891" style={{ width: "auto" }} class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50002706359" />
 
 ## 예시 7: HTML 콘텐츠 정리
 
@@ -72,16 +76,16 @@ sanitize_html Liquid 플레이스홀더를 사용하여 HTML 콘텐츠를 정리
 
 예를 들어:
 
-**{{ticket.description}}** 결과:
+**`{{ticket.description}}`** 결과:
 
 ```
-"<div style='font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;'>\n<div>This is test.</div>\n</div>"
+"&lt;div style={{ fontSize: "14px", fontFamily: "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif" }}>\n&lt;div>This is test.&lt;/div>\n&lt;/div>"
 ```
 
-**{{ticket.description | sanitize_html}}** 결과:
+**`{{ticket.description | sanitize_html}}`** 결과:
 
 ```
-"<div style='font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, \\\"Segoe UI\\\", Roboto, \\\"Helvetica Neue\\\", Arial, sans-serif;'>\\n<div>This is test.</div>\\n</div>"
+"&lt;div style={{ fontSize: "14px", fontFamily: "-apple-system, BlinkMacSystemFont, \\\\\"Segoe UI\\\\\", Roboto, \\\\\"Helvetica Neue\\\\\", Arial, sans-serif" }}>\\n&lt;div>This is test.&lt;/div>\\n&lt;/div>"
 ```
 
 따라서 API 요청 본문 내에서 사용할 수 있습니다.

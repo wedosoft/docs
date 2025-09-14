@@ -18,7 +18,7 @@
 
 예약된 워크플로우는 **예약된 이벤트**를 기반으로 구성되고 **필수** **예약된 조건**을 가진다는 점을 제외하고는 일반 이벤트 기반 워크플로우와 모든 동일한 기능을 갖습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006155146/original/uEuNg-HvbGPTBqJUhr6rabfC7cGNZ3KyTQ.gif?1660160332" style="width: auto;" class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50006155146" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006155146/original/uEuNg-HvbGPTBqJUhr6rabfC7cGNZ3KyTQ.gif?1660160332" style={{ width: "auto" }} class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50006155146" />
 
 ### 1. 예약된 이벤트
 
@@ -39,54 +39,54 @@
 
 예약된 워크플로우를 실행하기 전에 다음 조건을 검토하는 것이 좋습니다.
 
-<table style="border:none;border-collapse:collapse; width: 100%;">
+<table style={{ border: "none", borderCollapse: "collapse", width: "100%" }}>
 <tbody>
-<tr style="height:0pt;">
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 36%;">
-<p style="line-height: 1.2; margin-bottom: 0pt; text-align: center;"><strong>모듈</strong></p>
+<tr style={{ height: "0pt" }}>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word", width: "36%" }}>
+<p style={{ lineHeight: "1.2", marginBottom: "0pt", textAlign: "center" }}><strong>모듈</strong></p>
 </td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; width: 64%;">
-<p style="line-height: 1.2; text-align: center; margin-bottom: 0pt;"><strong>조건 평가 기준</strong></p>
-</td>
-</tr>
-<tr style="height:0pt;">
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">티켓, 작업</p>
-</td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">예약된 워크플로우는 지난 6개월 내에 생성된 <strong>미완료 티켓</strong>에서 실행되며, <strong>완료 및 해결된 티켓은 제외</strong>하고 최대 10,000개의 매칭 레코드로 제한됩니다.</p>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word", width: "64%" }}>
+<p style={{ lineHeight: "1.2", textAlign: "center", marginBottom: "0pt" }}><strong>조건 평가 기준</strong></p>
 </td>
 </tr>
-<tr style="height:0pt;">
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">변경</p>
+<tr style={{ height: "0pt" }}>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p style={{ lineHeight: "1.2", marginBottom: "0pt" }}>티켓, 작업</p>
 </td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">지난 6개월 내에 생성된 <strong>미완료 변경</strong>에서 평가되며 최대 10,000개의 매칭 레코드로 제한됩니다.</p>
-</td>
-</tr>
-<tr style="height:0pt;">
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">문제</p>
-</td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">지난 6개월 내에 생성된 <strong>미완료 문제</strong>에서 평가되며 최대 10,000개의 매칭 레코드로 제한됩니다.</p>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p style={{ lineHeight: "1.2", marginBottom: "0pt" }}>예약된 워크플로우는 지난 6개월 내에 생성된 <strong>미완료 티켓</strong>에서 실행되며, <strong>완료 및 해결된 티켓은 제외</strong>하고 최대 10,000개의 매칭 레코드로 제한됩니다.</p>
 </td>
 </tr>
-<tr style="height:0pt;">
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">릴리스</p>
+<tr style={{ height: "0pt" }}>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p style={{ lineHeight: "1.2", marginBottom: "0pt" }}>변경</p>
 </td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">지난 6개월 내에 생성된 <strong>미완료 릴리스</strong>에서 평가되며 최대 10,000개의 매칭 레코드로 제한됩니다.</p>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p style={{ lineHeight: "1.2", marginBottom: "0pt" }}>지난 6개월 내에 생성된 <strong>미완료 변경</strong>에서 평가되며 최대 10,000개의 매칭 레코드로 제한됩니다.</p>
 </td>
 </tr>
-<tr style="height:0pt;">
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">자산</p>
+<tr style={{ height: "0pt" }}>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p style={{ lineHeight: "1.2", marginBottom: "0pt" }}>문제</p>
 </td>
-<td style="border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word;">
-<p style="line-height: 1.2; margin-bottom: 0pt;">휴지통을 제외한 인벤토리의 <strong>모든 자산</strong>에서 평가됩니다.</p>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p style={{ lineHeight: "1.2", marginBottom: "0pt" }}>지난 6개월 내에 생성된 <strong>미완료 문제</strong>에서 평가되며 최대 10,000개의 매칭 레코드로 제한됩니다.</p>
+</td>
+</tr>
+<tr style={{ height: "0pt" }}>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p style={{ lineHeight: "1.2", marginBottom: "0pt" }}>릴리스</p>
+</td>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p style={{ lineHeight: "1.2", marginBottom: "0pt" }}>지난 6개월 내에 생성된 <strong>미완료 릴리스</strong>에서 평가되며 최대 10,000개의 매칭 레코드로 제한됩니다.</p>
+</td>
+</tr>
+<tr style={{ height: "0pt" }}>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p style={{ lineHeight: "1.2", marginBottom: "0pt" }}>자산</p>
+</td>
+<td style={{ borderWidth: "1pt", borderStyle: "solid", borderColor: "rgb(0, 0, 0)", padding: "5pt", overflow: "hidden", overflowWrap: "break-word" }}>
+<p style={{ lineHeight: "1.2", marginBottom: "0pt" }}>휴지통을 제외한 인벤토리의 <strong>모든 자산</strong>에서 평가됩니다.</p>
 </td>
 </tr>
 </tbody>
@@ -114,7 +114,7 @@
 
 ### 사례 1: 자산 보증 만료 10일 전 리마인더 알림
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006155124/original/HYLgZkNv4I3SuzUQ6rjn4IV94Qoc6gJ8hw.png?1660160144" style="width: auto;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50006155124" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006155124/original/HYLgZkNv4I3SuzUQ6rjn4IV94Qoc6gJ8hw.png?1660160144" style={{ width: "auto" }} class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50006155124" />
 
 1. **Admin → 자동화 및 생산성 → 자동화 → 워크플로우 자동화**로 이동합니다.
 2. **새 워크플로우**를 클릭하고 사이드바 창에서 **예약된 워크플로우**를 선택합니다.

@@ -25,22 +25,26 @@ Freshservice는 이러한 중복 요청자들을 하나의 기본 항목으로 �
 <tbody>
 <tr>
   <td>여러 이메일 사용</td>
-  <td>kim@company.com<br/>kim.cheolsu@company.com</td>
+  <td>kim@company.com
+kim.cheolsu@company.com</td>
   <td>동일인이 2개 계정으로 분리</td>
 </tr>
 <tr>
   <td>개인/업무 이메일 혼용</td>
-  <td>kim@company.com<br/>kim.personal@gmail.com</td>
+  <td>kim@company.com
+kim.personal@gmail.com</td>
   <td>업무와 개인 요청 분산</td>
 </tr>
 <tr>
   <td>이메일 주소 변경</td>
-  <td>구: kim@oldcompany.com<br/>신: kim@newcompany.com</td>
+  <td>구: kim@oldcompany.com
+신: kim@newcompany.com</td>
   <td>이직 후 기존 이력 단절</td>
 </tr>
 <tr>
   <td>오타 또는 변형</td>
-  <td>kim@company.com<br/>kim@compnay.com</td>
+  <td>kim@company.com
+kim@compnay.com</td>
   <td>실수로 인한 중복 생성</td>
 </tr>
 </tbody>

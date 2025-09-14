@@ -7,7 +7,7 @@
 ### 단계별 구독 다운그레이드 절차
 
 1. **구독 관리 페이지 접근**
-   Freshservice 계정 관리자는 **관리자 → 계정 설정 → 요금제 및 결제**를 클릭하여 구독 상세 정보를 확인할 수 있습니다. 계정에 여러 작업 공간이 있는 경우, **관리자 > 전역 설정 > 계정 설정 > 요금제 및 결제**로 이동하세요. 또는 "모든 구독" 페이지의 구독 목록에서 특정 구독을 클릭하여 세부 정보를 확인할 수 있습니다.
+   Freshservice 계정 관리자는 **관리자 → 계정 설정 → 요금제 및 결제**를 클릭하여 구독 상세 정보를 확인할 수 있습니다. 계정에 여러 작업 공간이 있는 경우, **관리자 &gt; 전역 설정 &gt; 계정 설정 &gt; 요금제 및 결제**로 이동하세요. 또는 "모든 구독" 페이지의 구독 목록에서 특정 구독을 클릭하여 세부 정보를 확인할 수 있습니다.
 
 2. **구독 편집 시작**
    구독 상세 정보 페이지에서 왼쪽 섹션의 "요금제 및 사용자"에 대해 "**편집**"을 클릭하거나, 하단의 **요금제 관리** 버튼을 클릭하여 구독 세부 정보를 수정합니다.
@@ -33,7 +33,7 @@
 9. **예약된 변경 취소 (선택사항)**
    예약된 구독 변경 요청을 제거하려면 **요청 취소**를 클릭하세요. 예약된 구독 변경이 제거되면 확인 메시지가 표시됩니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007724990/original/jy9unTtCrGuGYqv5mvTOYVJVRbj_MmhS1g.gif?1677575667" style="width: 556px;" / />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007724990/original/jy9unTtCrGuGYqv5mvTOYVJVRbj_MmhS1g.gif?1677575667" style={{ width: "556px" }} />
 
 **참고**: 다운그레이드와 관련하여 문제가 있는 경우, [support@freshservice.com](mailto:support@freshservice.com)으로 이메일을 보내거나 계정 매니저에게 연락하시기 바랍니다.
 

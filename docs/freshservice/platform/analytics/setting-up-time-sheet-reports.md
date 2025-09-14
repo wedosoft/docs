@@ -21,7 +21,7 @@ Freshservice의 타임시트 리포트를 사용하면 상담원이 기록한 �
 ### 3. 위젯 구성
 위젯의 **구성** 섹션에서 타임시트 리포트를 생성할 메트릭을 선택합니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000467036/original/OuQQPg3fR1-Rmkc9fwcQ_99W-KLABoa9Zg.png?1575624963" width="624" height="388" class="fr-fic fr-bordered fr-dib" data-attachment="[object Object]" data-id="50000467036" style="font-family: 'Helvetica Neue';" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000467036/original/OuQQPg3fR1-Rmkc9fwcQ_99W-KLABoa9Zg.png?1575624963" width="624" height="388" class="fr-fic fr-bordered fr-dib" data-attachment="[object Object]" data-id="50000467036" style={{ fontFamily: "Helvetica Neue" }} />
 
 ### 4. 필터 및 그룹화 설정
 - 특정 매개변수를 기반으로 타임시트 데이터를 필터링하려면 **필터** 및 **그룹화 기준** 섹션에서 선택할 수 있습니다.
@@ -41,7 +41,7 @@ Freshservice의 타임시트 리포트를 사용하면 상담원이 기록한 �
 3. 리포트를 보낼 이메일 주소를 추가하고 관련 제목 줄과 이메일 본문을 추가합니다.
 4. 완료되면 **적용**을 클릭합니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000467035/original/e9UWz9XTQU1zINKtuNYBwgBClDKyx2Y2PQ.png?1575624962" width="495" height="406" class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="50000467035" style="font-family: 'Helvetica Neue';" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000467035/original/e9UWz9XTQU1zINKtuNYBwgBClDKyx2Y2PQ.png?1575624962" width="495" height="406" class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="50000467035" style={{ fontFamily: "Helvetica Neue" }} />
 
 ## 활용 방안
 

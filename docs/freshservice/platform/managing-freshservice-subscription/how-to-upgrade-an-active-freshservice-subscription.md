@@ -21,7 +21,7 @@
 5. **비례 배분 거래 값 확인**
    **비례 배분 거래 값**은 현재 결제 기간의 나머지 기간 동안 요청된 구독 변경에 대해 지불해야 할 추가 금액을 표시합니다.
 
-   **예시**: 현재 Enterprise 월간 요금제에서 1명의 에이전트(150달러 지불)를 사용하고 있고, 현재 결제 기간 중간에 에이전트 수를 2명으로 늘리는 경우, 비례 배분 값은 0.5 × 에이전트 라이선스 비용(= 0.5 × 150 = 75달러)이 됩니다.
+   **예시**: 현재 Enterprise 월간 요금제에서 1명의 에이전트(150달러 지불)를 사용하고 있고, 현재 결제 기간 중간에 에이전트 수를 2명으로 늘리는 경우, 비례 배분 값은 0.5 × 에이전트 라이선스 비용( =  0.5 × 150  =  75달러)이 됩니다.
 
 6. **구독 요약 검토**
    오른쪽의 구독 요약 섹션을 검토하세요. 총 비용은 구독의 다음 결제 금액을 표시합니다.
@@ -32,7 +32,7 @@
 8. **업데이트 확인**
    구독 변경 요청이 성공적으로 처리되면 확인 메시지와 함께 업데이트된 구독 세부 정보가 표시됩니다. 청구서를 보려면 "이 구독의 청구서 보기"를 클릭하세요.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007726928/original/Wz4xd30NNjgipwcIccOvCnT2OWwyoxnjnw.gif?1677584906" style="width: auto;" / />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007726928/original/Wz4xd30NNjgipwcIccOvCnT2OWwyoxnjnw.gif?1677584906" style={{ width: "auto" }} />
 
 ## 사용 예시
 

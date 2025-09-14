@@ -10,7 +10,7 @@ JSON 파서 노드를 사용하면 워크플로우 컨텍스트 내에서 모든
 
 워크플로우 캔버스에 JSON 파서 노드를 끌어다 놓으면 다음과 같은 구성 옵션이 표시됩니다:
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003121855/original/GPtnYkIg7iO8k9LTu_kDs76egq9LozU8vA.png?1622699360" style="width: auto;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50003121855" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003121855/original/GPtnYkIg7iO8k9LTu_kDs76egq9LozU8vA.png?1622699360" style={{ width: "auto" }} class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50003121855" />
 
 **왼쪽:** 페이로드의 소스와 샘플 JSON 페이로드가 구성됩니다  
 **오른쪽:** 출력을 자동으로 생성하거나 JSON path 표현식을 사용하여 수동으로 구성할 수 있습니다
@@ -35,11 +35,11 @@ JSON 파서 노드의 **소스**를 이전 노드(예: 앱 작업, 웹 요청 �
 
 **예시:**
 - 첫 번째 자산만 필터링: `$.ticket.assets[0]`
-- 중간 영향도를 가진 자산 이름 필터링: `$.ticket.assets[?(@.impact<2)].name`
+- 중간 영향도를 가진 자산 이름 필터링: `$.ticket.assets[?(@.impact&lt;2)].name`
 
 ### 5. 후속 노드에서 출력 사용
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003121877/original/litu3FyYnd1r0iwnY_UxQb5M4vnKpU7P_g.png?1622699488" style="width: auto;" class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50003121877" />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003121877/original/litu3FyYnd1r0iwnY_UxQb5M4vnKpU7P_g.png?1622699488" style={{ width: "auto" }} class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50003121877" />
 
 JSON 파서 노드에서 구성된 출력을 후속 노드에서 참조하고 사용할 수 있습니다.
 
@@ -58,12 +58,12 @@ GSuite, Okta, JIRA 등의 앱 작업에서 반환되는 사용자 정의 속성�
 
 ### 기본 필드 접근
 ```json
-{
-  "user": {
+&#123;
+  "user": &#123;
     "name": "홍길동",
     "email": "hong@example.com"
-  }
-}
+  &#125;
+&#125;
 ```
 - 사용자 이름: `$.user.name`
 - 이메일: `$.user.email`
@@ -82,12 +82,12 @@ GSuite, Okta, JIRA 등의 앱 작업에서 반환되는 사용자 정의 속성�
 
 ### 조건부 필터링
 ```json
-{
+&#123;
   "assets": [
-    {"name": "서버A", "status": "active"},
-    {"name": "서버B", "status": "inactive"}
+    &#123;"name": "서버A", "status": "active"&#125;,
+    &#123;"name": "서버B", "status": "inactive"&#125;
   ]
-}
+&#125;
 ```
 - 활성 자산만: `$.assets[?(@.status=='active')]`
 - 활성 자산의 이름: `$.assets[?(@.status=='active')].name`

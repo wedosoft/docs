@@ -32,7 +32,7 @@
 
 #### 레거시 리포트의 모습
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50005444819/original/Cf-XMFaCKlG9sSQJUTtiFieu_9-qUL2Zsg.png?1652335565" alt="Legacy Report Example" width="624" height="353" / />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50005444819/original/Cf-XMFaCKlG9sSQJUTtiFieu_9-qUL2Zsg.png?1652335565" alt="Legacy Report Example" width="624" height="353" />
 
 **특징:**
 - 전통적인 리포트 레이아웃
@@ -41,7 +41,7 @@
 
 #### Analytics 모듈의 마이그레이션된 리포트
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50005444817/original/4gfZrVajMgGSHSRkXDEO376ByZH5UMbqww.png?1652335564" alt="Analytics Migrated Report" width="624" height="296" / />
+<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50005444817/original/4gfZrVajMgGSHSRkXDEO376ByZH5UMbqww.png?1652335564" alt="Analytics Migrated Report" width="624" height="296" />
 
 **특징:**
 - 모던한 대시보드 스타일

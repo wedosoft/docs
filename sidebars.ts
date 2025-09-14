@@ -345,7 +345,6 @@ const sidebars: SidebarsConfig = {
                   collapsed: true,
                   items: [
                     'freshservice/platform/analytics/understanding-the-service-desk-at-a-glance-report',
-                    'freshservice/platform/analytics/analytics-data-quality-management-and-monitoring',
                     'freshservice/platform/analytics/analytics-data-warehouse-and-etl-processes',
                     'freshservice/platform/analytics/common-reports-using-analytics',
                     'freshservice/platform/analytics/comparing-multiple-metrics-in-a-widget',

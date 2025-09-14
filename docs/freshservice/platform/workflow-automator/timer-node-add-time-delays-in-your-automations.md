@@ -120,7 +120,7 @@ if(priority == 'Critical', 30,
 
 ```
 동적 지연 표현식:
-if(hour(now()) >= 18 || hour(now()) < 9, 
+if(hour(now()) &gt; =  18 || hour(now()) &lt; 9, 
    minutesUntilNextWorkday(), 
    60)
 

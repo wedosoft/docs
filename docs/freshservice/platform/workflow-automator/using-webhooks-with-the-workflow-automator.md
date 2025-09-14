@@ -17,7 +17,7 @@
 
 ### 1. 워크플로 자동화에서 웹훅 추가
 
-1. **관리자 > 워크플로 자동화**로 이동
+1. **관리자 &gt; 워크플로 자동화**로 이동
 2. 새 워크플로를 생성하거나 기존 워크플로 편집
 3. **작업** 섹션에서 **웹훅 호출** 선택
 4. 다음 정보 입력:
@@ -30,18 +30,18 @@
 
 ```json
 {
-  "ticket_id": "{{ticket.id}}",
-  "subject": "{{ticket.subject}}",
-  "description": "{{ticket.description}}",
-  "status": "{{ticket.status}}",
-  "priority": "{{ticket.priority}}",
+  "ticket_id": "``{{ticket.id}}``",
+  "subject": "``{{ticket.subject}}``",
+  "description": "``{{ticket.description}}``",
+  "status": "``{{ticket.status}}``",
+  "priority": "``{{ticket.priority}}``",
   "requester": {
-    "email": "{{ticket.requester.email}}",
-    "name": "{{ticket.requester.name}}"
+    "email": "``{{ticket.requester.email}}``",
+    "name": "``{{ticket.requester.name}}``"
   },
-  "assigned_agent": "{{ticket.agent.name}}",
-  "created_at": "{{ticket.created_at}}",
-  "updated_at": "{{ticket.updated_at}}"
+  "assigned_agent": "``{{ticket.agent.name}}``",
+  "created_at": "``{{ticket.created_at}}``",
+  "updated_at": "``{{ticket.updated_at}}``"
 }
 ```
 
@@ -51,7 +51,7 @@
 
 **Slack 알림 예시:**
 ```json
-{
+&#123;
   "text": "새 긴급 티켓이 생성되었습니다",
   "attachments": [
     {
@@ -59,22 +59,22 @@
       "fields": [
         {
           "title": "티켓 ID",
-          "value": "{{ticket.id}}",
+          "value": "{{ticket.id&#125;}",
           "short": true
         },
-        {
+        &#123;
           "title": "제목",
-          "value": "{{ticket.subject}}",
+          "value": "{{ticket.subject&#125;}",
           "short": true
         },
-        {
+        &#123;
           "title": "요청자",
-          "value": "{{ticket.requester.email}}",
+          "value": "{{ticket.requester.email&#125;}",
           "short": true
         },
-        {
+        &#123;
           "title": "우선순위",
-          "value": "{{ticket.priority}}",
+          "value": "{{ticket.priority&#125;}",
           "short": true
         }
       ]
@@ -89,11 +89,11 @@
 
 ```json
 {
-  "customer_email": "{{ticket.requester.email}}",
-  "last_interaction": "{{ticket.created_at}}",
-  "issue_type": "{{ticket.category}}",
-  "priority_level": "{{ticket.priority}}",
-  "assigned_representative": "{{ticket.agent.email}}"
+  "customer_email": "``{{ticket.requester.email}}``",
+  "last_interaction": "``{{ticket.created_at}}``",
+  "issue_type": "``{{ticket.category}}``",
+  "priority_level": "``{{ticket.priority}}``",
+  "assigned_representative": "``{{ticket.agent.email}}``"
 }
 ```
 
@@ -103,10 +103,10 @@
 
 ```json
 {
-  "asset_id": "{{ticket.asset.tag}}",
-  "incident_reported": "{{ticket.created_at}}",
-  "issue_description": "{{ticket.description}}",
-  "reporter": "{{ticket.requester.name}}",
+  "asset_id": "``{{ticket.asset.tag}}``",
+  "incident_reported": "``{{ticket.created_at}}``",
+  "issue_description": "``{{ticket.description}}``",
+  "reporter": "``{{ticket.requester.name}}``",
   "status": "under_maintenance"
 }
 ```
@@ -178,7 +178,7 @@
 
 ### 웹훅 실행 로그 확인
 
-1. **관리자 > 워크플로 자동화 > 실행 로그**에서 웹훅 상태 확인
+1. **관리자 &gt; 워크플로 자동화 &gt; 실행 로그**에서 웹훅 상태 확인
 2. 실패한 웹훅의 오류 메시지 분석
 3. 성공률 및 응답 시간 모니터링
 
