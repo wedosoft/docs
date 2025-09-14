@@ -187,16 +187,6 @@ const sidebars: SidebarsConfig = {
                 'freshservice/user-guide-admin/reports/index',
               ],
             },
-            {
-              type: 'category',
-              label: '🎥 문제 해결 동영상',
-              collapsed: true,
-              items: [
-                'freshservice/user-guide-admin/troubleshooting-videos/slack-orchestration',
-                'freshservice/user-guide-admin/troubleshooting-videos/microsoft-teams-orchestration',
-                'freshservice/user-guide-admin/troubleshooting-videos/microsoft-azure-orchestration',
-              ],
-            },
           ],
         },
         {
