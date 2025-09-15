@@ -12,25 +12,25 @@
 
 ### 사용자 정의 객체 1 (CO 1) - 기본 데이터 소스
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013443208/original/F93q4cb37U9Op_S2aKGy7ivdL8wSxnZstw.png?1729432494" width="624" height="185" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50013443208" style={{ maxWidth: "100%" }} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013443208/original/F93q4cb37U9Op_S2aKGy7ivdL8wSxnZstw.png?1729432494" width="624" height="185" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50013443208" style={{ maxWidth: "100%" }} />
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013443209/original/FPQId1OKM58VT59mlPMMepqHIUy_RcnoZg.png?1729432496" width="624" height="180" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50013443209" style={{ maxWidth: "100%" }} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013443209/original/FPQId1OKM58VT59mlPMMepqHIUy_RcnoZg.png?1729432496" width="624" height="180" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50013443209" style={{ maxWidth: "100%" }} />
 
 ### 사용자 정의 객체 2 (CO 2) - 종속 객체
 
 CO 2는 종속 객체로 CO 1에서 값을 조회합니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013443207/original/ONNhRJM2fpUvZn0y3CQa_QueJRuGugf7WA.png?1729432494" width="624" height="157" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50013443207" style={{ maxWidth: "100%" }} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013443207/original/ONNhRJM2fpUvZn0y3CQa_QueJRuGugf7WA.png?1729432494" width="624" height="157" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50013443207" style={{ maxWidth: "100%" }} />
 
 리더 노드에서 CO 2를 사용하여 CO 1에서 값을 읽는 워크플로우를 고려해보세요.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013443210/original/JIKOdCyp3oOunoy27pycLS946-hMF1tTXw.png?1729432498" width="624" height="205" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50013443210" style={{ maxWidth: "100%" }} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013443210/original/JIKOdCyp3oOunoy27pycLS946-hMF1tTXw.png?1729432498" width="624" height="205" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50013443210" style={{ maxWidth: "100%" }} />
 
 ## 이전 동작
 
 이전에는 리더 노드가 CO 2에 접근할 때, 요청자 1과 요청자 2와 같은 필드에 대해 가져온 값이 동일했습니다. 예를 들어, 실제 데이터와 관계없이 **마지막으로 수정된** CO 레코드 값을 노드가 읽어서 요청자 1과 요청자 2 모두에 대해 Read_Write 값이 가져와졌습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013443212/original/f346iQP0MOgMtHfaOLKmhWATX078quBsPw.png?1729432499" width="624" height="349" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50013443212" style={{ maxWidth: "100%" }} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013443212/original/f346iQP0MOgMtHfaOLKmhWATX078quBsPw.png?1729432499" width="624" height="349" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50013443212" style={{ maxWidth: "100%" }} />
 
 ## 현재 동작
 
@@ -38,7 +38,7 @@ CO 2는 종속 객체로 CO 1에서 값을 조회합니다.
 
 다음 리더 노드 출력은 요청자 1과 요청자 2에 대해 서로 다른 값(Read와 Write)을 보여줍니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013443211/original/z-pkOfRwbX-pulgKgRQxGPUVQ8QeQWanLQ.png?1729432498" width="624" height="332" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50013443211" style={{ maxWidth: "100%" }} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50013443211/original/z-pkOfRwbX-pulgKgRQxGPUVQ8QeQWanLQ.png?1729432498" width="624" height="332" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50013443211" style={{ maxWidth: "100%" }} />
 
 ## 수정 후 구성 변경사항
 

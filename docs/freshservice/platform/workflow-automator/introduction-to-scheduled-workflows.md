@@ -18,22 +18,22 @@
 
 예약된 워크플로우는 **예약된 이벤트**를 기반으로 구성되고 **필수** **예약된 조건**을 가진다는 점을 제외하고는 일반 이벤트 기반 워크플로우와 모든 동일한 기능을 갖습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006155146/original/uEuNg-HvbGPTBqJUhr6rabfC7cGNZ3KyTQ.gif?1660160332" style={{ width: "auto" }} class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50006155146" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006155146/original/uEuNg-HvbGPTBqJUhr6rabfC7cGNZ3KyTQ.gif?1660160332" style={{ width: "auto" }} class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50006155146" />
 
 ### 1. 예약된 이벤트
 
 → 지정된 **일정**, **시간**, **시간대**를 기반으로 워크플로우가 언제 실행되어야 하는지 정의합니다  
 → 일정은 **한 번**, **매일**, **매월** 또는 **매주** 기준으로 설정할 수 있습니다
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006155038/original/PkE5IVd2DAlr9YE5L-Z1foJ2YuCtc-Yhww.png?1660159272" width="437" height="309" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006155038" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006155038/original/PkE5IVd2DAlr9YE5L-Z1foJ2YuCtc-Yhww.png?1660159272" width="437" height="309" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006155038" />
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006155039/original/9Dkla9__wR5VOohC12L5GHJdxxKlBgon6Q.png?1660159272" width="455" height="306" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006155039" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006155039/original/9Dkla9__wR5VOohC12L5GHJdxxKlBgon6Q.png?1660159272" width="455" height="306" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006155039" />
 
 ### 2. 예약된 조건
 
 워크플로우가 실행되어야 하는 레코드를 필터링할 수 있습니다. 예: 마감일이 정확히 2일 남은 티켓만 처리
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006155037/original/h_YTFd9YtJxaQ-HMWvzdbGUDoajUSLe-Fg.png?1660159269" width="624" height="340" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006155037" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006155037/original/h_YTFd9YtJxaQ-HMWvzdbGUDoajUSLe-Fg.png?1660159269" width="624" height="340" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006155037" />
 
 ## 예약된 조건 실행
 
@@ -94,11 +94,11 @@
 
 **참고**: 티켓의 승인 상태와 관계없이 예약된 워크플로우는 이제 '승인 상태: 요청됨'으로 라벨이 지정된 모든 티켓에 대해 실행됩니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50009988613/original/wBVH1CXdVvBhIWhVM47xAPdyoWOqBsASeg.png?1699449908" width="624" height="156" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50009988613" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50009988613/original/wBVH1CXdVvBhIWhVM47xAPdyoWOqBsASeg.png?1699449908" width="624" height="156" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50009988613" />
 
 예약된 워크플로우에서 승인 대기 중인 티켓을 제외하려면 워크플로우에서 다음 조건을 사용하세요.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50009988626/original/AssFpQ7_-uDPmTehVtIQ0i7DUuTGHMgP1w.png?1699449959" width="602" height="273" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50009988626" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50009988626/original/AssFpQ7_-uDPmTehVtIQ0i7DUuTGHMgP1w.png?1699449959" width="602" height="273" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50009988626" />
 
 ## 예약된 워크플로우 실행 가이드라인
 
@@ -114,7 +114,7 @@
 
 ### 사례 1: 자산 보증 만료 10일 전 리마인더 알림
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006155124/original/HYLgZkNv4I3SuzUQ6rjn4IV94Qoc6gJ8hw.png?1660160144" style={{ width: "auto" }} class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50006155124" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006155124/original/HYLgZkNv4I3SuzUQ6rjn4IV94Qoc6gJ8hw.png?1660160144" style={{ width: "auto" }} class="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50006155124" />
 
 1. **Admin → 자동화 및 생산성 → 자동화 → 워크플로우 자동화**로 이동합니다.
 2. **새 워크플로우**를 클릭하고 사이드바 창에서 **예약된 워크플로우**를 선택합니다.
@@ -125,7 +125,7 @@
 
 ### 사례 2: 직원 입사일 2일 전 작업 자동화
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006155082/original/XamL0vXr-cIDXKRpx7B01SrhgaIT_YdH8A.png?1660159468" width="624" height="245" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006155082" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006155082/original/XamL0vXr-cIDXKRpx7B01SrhgaIT_YdH8A.png?1660159468" width="624" height="245" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50006155082" />
 
 1. **Admin → 자동화 및 생산성 → 자동화 → 워크플로우 자동화**로 이동합니다.
 2. **새 워크플로우**를 클릭하고 **예약된 워크플로우**를 선택합니다.

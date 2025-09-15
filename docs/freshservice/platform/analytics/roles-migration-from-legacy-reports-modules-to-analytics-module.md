@@ -83,7 +83,7 @@ Analytics 모듈에서 마이그레이션된 역할과 다른 액세스를 부�
 
 ### 역할 설정 위치
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50005444787/original/5dlK-BPyi6ysp2JIXgopY5AZyhjD6djWFQ.png?1652335176" alt="Analytics 역할 설정" width="624" height="429" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50005444787/original/5dlK-BPyi6ysp2JIXgopY5AZyhjD6djWFQ.png?1652335176" alt="Analytics 역할 설정" width="624" height="429" />
 
 ## 마이그레이션 체크리스트
 

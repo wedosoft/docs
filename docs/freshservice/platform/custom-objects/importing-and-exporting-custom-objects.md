@@ -24,7 +24,7 @@ sidebar_position: 3
 
 - <p data-identifyelement="514" dir="ltr" style={{ lineHeight: "1.38", marginBottom: "0pt" }}><span data-identifyelement="520" style={{ fontSize: "11pt", fontFamily: "Arial", color: "rgb(0, 0, 0)", fontWeight: "400" }}>업로드 섹션에서 CSV 파일을 업로드하세요.</span></p>
 
-<p><span data-identifyelement="520" style={{ fontSize: "11pt", fontFamily: "Arial", color: "rgb(0, 0, 0)", fontWeight: "400" }}><img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001925425/original/RkcM5UEYcJlOerHToS6egetLDjq7OKtmDA.png?1603339748" style={{ width: "472px" }} class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="50001925425" /></span></p>
+<p><span data-identifyelement="520" style={{ fontSize: "11pt", fontFamily: "Arial", color: "rgb(0, 0, 0)", fontWeight: "400" }}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001925425/original/RkcM5UEYcJlOerHToS6egetLDjq7OKtmDA.png?1603339748" style={{ width: "472px" }} class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="50001925425" /></span></p>
 
 - <p data-identifyelement="522" dir="ltr" style={{ lineHeight: "1.38", marginBottom: "0pt" }}><span data-identifyelement="523" style={{ fontSize: "11pt", fontFamily: "Arial", color: "rgb(0, 0, 0)", fontWeight: "400" }}>이제 CSV 파일에서 레코드가 올바르게 가져와지도록 하기 위해 객체 필드를 CSV 필드와 매칭하세요.</span></p>
 

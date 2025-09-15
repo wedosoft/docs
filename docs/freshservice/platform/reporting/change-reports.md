@@ -4,7 +4,7 @@ Freshservice의 변경 리포트는 Estate 플랜에서만 사용할 수 있으�
 
 ## 변경 리포트 개요
 
-<p>&lt;img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/29696008/original/blob1475584713449.png?1475584713" class="inline-image fr-dii fr-draggable" data-id="29696008" /></p>
+<p>&lt;img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/29696008/original/blob1475584713449.png?1475584713" class="inline-image fr-dii fr-draggable" data-id="29696008" /></p>
 
 ## 포함된 리포트
 

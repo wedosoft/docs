@@ -30,7 +30,7 @@
 8. **업데이트된 구독 확인**
    구독 변경 요청이 처리되면 구독 상세 정보 페이지에서 업데이트된 구독 세부 정보를 확인할 수 있습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007724291/original/Q9vKz8qdojyYtlPXsFd7xaA7fJ_jtOoAlg.gif?1677572836" style={{ width: "auto" }} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007724291/original/Q9vKz8qdojyYtlPXsFd7xaA7fJ_jtOoAlg.gif?1677572836" style={{ width: "auto" }} />
 
 ## 사용 예시
 

@@ -33,7 +33,7 @@
 9. **예약된 변경 취소 (선택사항)**
    예약된 구독 변경 요청을 제거하려면 **요청 취소**를 클릭하세요. 예약된 구독 변경이 제거되면 확인 메시지가 표시됩니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007724990/original/jy9unTtCrGuGYqv5mvTOYVJVRbj_MmhS1g.gif?1677575667" style={{ width: "556px" }} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007724990/original/jy9unTtCrGuGYqv5mvTOYVJVRbj_MmhS1g.gif?1677575667" style={{ width: "556px" }} />
 
 **참고**: 다운그레이드와 관련하여 문제가 있는 경우, [support@freshservice.com](mailto:support@freshservice.com)으로 이메일을 보내거나 계정 매니저에게 연락하시기 바랍니다.
 

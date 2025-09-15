@@ -6,7 +6,7 @@
 
 웹 요청 노드를 사용하면 워크플로우 자동화에서 REST API를 사용하는 모든 타사 시스템으로 API 요청을 발생시킬 수 있습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565309/original/3jX6xAWgi06hqS7PCcJgUVyZcXCAmVJqZg.png?1628764803" width="324" height="336" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565309" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565309/original/3jX6xAWgi06hqS7PCcJgUVyZcXCAmVJqZg.png?1628764803" width="324" height="336" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565309" />
 
 요청에서 반환된 상태 코드를 후속 조건 노드에서 참조하여 요청의 성공 또는 실패에 따라 분기할 수도 있습니다.
 
@@ -307,43 +307,43 @@ IP 주소
 
 **이벤트 블록**에서 **티켓 생성됨**을 선택하고 **조건 블록**에서 **비밀번호 재설정**을 위한 서비스 항목을 선택합니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565316/original/1F3JpcxyPmkNJS3pKgcC3KGjdGfqwX1E2A.png?1628764879" width="624" height="251" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565316" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565316/original/1F3JpcxyPmkNJS3pKgcC3KGjdGfqwX1E2A.png?1628764879" width="624" height="251" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565316" />
 
 웹 요청 노드를 캔버스에 끌어다 놓아 사용자 정의 API 요청을 트리거하고 **인증 유형**을 **No Auth**로 설정합니다.
 
 **참고**: [오케스트레이션 서버](https://support.freshservice.com/en/support/solutions/articles/50000003259-setting-up-the-orchestration-server)의 도움으로 온프레미스 네트워크로 요청을 라우팅할 수 있습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565321/original/W8j1fKHjNDHTmxkjHwcv5BD4PCX2nJzr5g.png?1628764971" width="624" height="269" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565321" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565321/original/W8j1fKHjNDHTmxkjHwcv5BD4PCX2nJzr5g.png?1628764971" width="624" height="269" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565321" />
 
 ### 2단계
 
 상태 코드는 조건 블록에서 **2XX 응답**에 대해 확인하여 이 요청이 성공했는지 확인할 수 있습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565326/original/Y8v2Y-2Xvpgdy5mag28WUEhCjgky_N98dw.png?1628765037" width="624" height="225" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565326" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565326/original/Y8v2Y-2Xvpgdy5mag28WUEhCjgky_N98dw.png?1628765037" width="624" height="225" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565326" />
 
 ### 3단계
 
 **웹 요청 테스트** 작업을 수행하고 샘플 응답 본문을 클립보드에 복사합니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003572964/original/ou6Uc6eTNqyZZnUXBZEZENfwBGcjCrq7IQ.gif?1628850387" style={{ width: "auto" }} class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50003572964" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003572964/original/ou6Uc6eTNqyZZnUXBZEZENfwBGcjCrq7IQ.gif?1628850387" style={{ width: "auto" }} class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50003572964" />
 
 ### 4단계
 
 **JSON 파서 노드**를 캔버스에 끌어다 놓습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565330/original/OvBiw7cqZ4kss_dMlUIlaE48hQe_a4211A.png?1628765122" width="624" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565330" style={{ width: "574px", height: "268.303px" }} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565330/original/OvBiw7cqZ4kss_dMlUIlaE48hQe_a4211A.png?1628765122" width="624" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565330" style={{ width: "574px", height: "268.303px" }} />
 
 ### 5단계
 
 **소스**를 웹 노드 요청의 출력에 매핑합니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565332/original/LLYBwVJrgwZrOnIL9j1DLoOOFGTAxNv0gg.png?1628765159" width="562" height="296" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565332" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565332/original/LLYBwVJrgwZrOnIL9j1DLoOOFGTAxNv0gg.png?1628765159" width="562" height="296" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565332" />
 
 ### 6단계
 
 샘플 응답 본문을 페이로드 섹션에 붙여넣고 **출력 생성** 버튼을 눌러 페이로드 입력의 스키마를 기반으로 출력을 자동으로 생성합니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565368/original/MWQz75U0ZtSbbUTmp9Oa3ABe11-Mxe_APA.png?1628765426" width="507" height="262" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565368" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565368/original/MWQz75U0ZtSbbUTmp9Oa3ABe11-Mxe_APA.png?1628765426" width="507" height="262" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565368" />
 
 ### 7단계
 
@@ -351,7 +351,7 @@ Microsoft AD에서 작업을 수행하려면 **앱 노드**를 캔버스에 끌�
 
 **이름** 페이로드 전체에 각각의 사용자 정의 사용자 필드 플레이스홀더(**SamAccountName**)를 사용합니다. 새 비밀번호는 파서 필드에 정의된 출력에서 가져올 수 있습니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003572946/original/6C-Y4bJwdrjAHrvwo6y_0BQKIoG4ta3Lxg.gif?1628850215" style={{ width: "auto" }} class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50003572946" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003572946/original/6C-Y4bJwdrjAHrvwo6y_0BQKIoG4ta3Lxg.gif?1628850215" style={{ width: "auto" }} class="fr-fil fr-dib" data-attachment="[object Object]" data-id="50003572946" />
 
 **팁**: [Discovery Probe](https://support.freshservice.com/support/solutions/articles/221819-mapping-active-directory-fields-while-importing-requesters-through-freshservice-probe)를 사용하여 SamAccountName을 Freshservice의 사용자 정의 사용자 필드와 동기화할 수 있습니다.
 
@@ -359,9 +359,9 @@ Microsoft AD에서 작업을 수행하려면 **앱 노드**를 캔버스에 끌�
 
 마지막으로 **계정 잠금 해제**하고 새 비밀번호와 함께 요청자에게 이메일을 보냅니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565405/original/KMii1zZJDLWYRkazY-Paqz4HTg6DL5YRHQ.png?1628765646" width="624" height="257" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565405" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565405/original/KMii1zZJDLWYRkazY-Paqz4HTg6DL5YRHQ.png?1628765646" width="624" height="257" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565405" />
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565407/original/FN-0UlWmbcqEnvLteACeCcBTp_YSQGnqOA.png?1628765659" width="624" height="264" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565407" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003565407/original/FN-0UlWmbcqEnvLteACeCcBTp_YSQGnqOA.png?1628765659" width="624" height="264" class="fr-fic fr-dii" data-attachment="[object Object]" data-id="50003565407" />
 
 웹 요청 노드를 사용하여 더 많은 것을 설정할 수 있습니다.
 

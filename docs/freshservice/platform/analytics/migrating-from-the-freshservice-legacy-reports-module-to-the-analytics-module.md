@@ -8,7 +8,7 @@ Analytics와 리포팅은 모든 조직이 팀에서 데이터 기반 의사결�
 
 기존 리포트를 잃을까 걱정되시나요? 걱정하지 마세요. Freshservice가 여러분의 노력 없이도 레거시 리포트 모듈의 모든 리포트를 Analytics 모듈로 마이그레이션해드립니다.
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50005444723/original/0J9w7NYZUcSaZ6xIf24kuOgRdD6HUck3AQ.png?1652334518" alt="Migration Overview" width="511" height="336" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50005444723/original/0J9w7NYZUcSaZ6xIf24kuOgRdD6HUck3AQ.png?1652334518" alt="Migration Overview" width="511" height="336" />
 
 ## 영향을 받는 대상
 
@@ -22,11 +22,11 @@ Analytics Pro를 통해 리포트 작성 시간을 줄이고 결과 활용에 �
 
 **이전: 레거시 리포트 모듈의 리포트**
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50005444819/original/Cf-XMFaCKlG9sSQJUTtiFieu_9-qUL2Zsg.png?1652335565" alt="Legacy Reports" width="624" height="353" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50005444819/original/Cf-XMFaCKlG9sSQJUTtiFieu_9-qUL2Zsg.png?1652335565" alt="Legacy Reports" width="624" height="353" />
 
 **이후: Analytics 모듈의 리포트 (마이그레이션된 리포트)**
 
-<img src="https:/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50005444817/original/4gfZrVajMgGSHSRkXDEO376ByZH5UMbqww.png?1652335564" alt="Analytics Reports" width="624" height="296" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50005444817/original/4gfZrVajMgGSHSRkXDEO376ByZH5UMbqww.png?1652335564" alt="Analytics Reports" width="624" height="296" />
 
 > **참고**: 마이그레이션으로 인한 약간의 데이터 불일치가 있을 수 있습니다 (문서 후반부에서 상세 설명).
 
@@ -50,7 +50,7 @@ Analytics Pro를 통해 리포트 작성 시간을 줄이고 결과 활용에 �
 
 | 날짜 | 이벤트 |
 |-----|-------|
-| **2022년 6월** | • 레거시 리포트 모듈에서 리포트 및 스케줄 생성 및 편집 기능 비활성화&lt;br/>• 새로운 리포트, 스케줄, 내보내기는 **Analytics** 모듈을 활용해야 함&lt;br/>• 기존 리포트의 Analytics 모듈로의 단계적 마이그레이션 시작&lt;br/>• 레거시 리포트 모듈에서 생성된 모든 스케줄은 비활성화 상태로 Analytics 모듈로 마이그레이션 |
+| **2022년 6월** | • 레거시 리포트 모듈에서 리포트 및 스케줄 생성 및 편집 기능 비활성화<br />• 새로운 리포트, 스케줄, 내보내기는 **Analytics** 모듈을 활용해야 함<br />• 기존 리포트의 Analytics 모듈로의 단계적 마이그레이션 시작<br />• 레거시 리포트 모듈에서 생성된 모든 스케줄은 비활성화 상태로 Analytics 모듈로 마이그레이션 |
 
 </div>
 
@@ -60,7 +60,7 @@ Analytics Pro를 통해 리포트 작성 시간을 줄이고 결과 활용에 �
 
 | 날짜 | 이벤트 |
 |-----|-------|
-| **2022년 11월** | • 레거시 리포트 모듈 완전 지원 중단&lt;br/>• 레거시 리포트 모듈에서 마이그레이션된 스케줄이 Analytics 모듈에서 활성화&lt;br/>• 역할이 Analytics로 마이그레이션 |
+| **2022년 11월** | • 레거시 리포트 모듈 완전 지원 중단<br />• 레거시 리포트 모듈에서 마이그레이션된 스케줄이 Analytics 모듈에서 활성화<br />• 역할이 Analytics로 마이그레이션 |
 
 </div>
 
@@ -90,7 +90,7 @@ Analytics Pro를 통해 리포트 작성 시간을 줄이고 결과 활용에 �
 | 항목 | 설명 |
 |-----|------|
 | **병합된 티켓** | Analytics 모듈(및 사용자 정의 리포트)에 포함되지 않음 |
-| **데이터 새로 고침 빈도** | • 기본 리포트: 1일&lt;br/>• 사용자 정의 리포트: 4시간&lt;br/>• Analytics 모듈: 30분 |
+| **데이터 새로 고침 빈도** | • 기본 리포트: 1일<br />• 사용자 정의 리포트: 4시간<br />• Analytics 모듈: 30분 |
 
 </div>
 
