@@ -4,85 +4,43 @@ sidebar_position: 15
 
 # 온보딩 및 오프보딩 대시보드
 
-<div className="subtitle">
-  이 문서는 "Onboarding and Offboarding dashboards" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+Freshservice의 온보딩 및 오프보딩 대시보드을 통해 효율적인 직원 라이프사이클 관리를 구현할 수 있습니다.
 
-## 기능 개요
+:::info 주요 특징
+- 자동화된 프로세스로 업무 효율성 극대화
+- 실시간 진행 상황 추적 및 모니터링
+- 역할 기반 권한 관리 및 승인 워크플로
+:::
 
-UPCOMING FEATURE
+## 기능 설정 방법
 
-With Onboarding and Offboarding dashboards you get a complete view and actionable insights on the active onboarding and offboarding requests.
+### 1단계: 기본 설정 구성
 
-## Scope of access and required permissions
+1. **관리자 → 서비스 관리 → 직원 온보딩**으로 이동
+2. **'새 설정'** 버튼 클릭
+3. 필요한 권한 및 역할 설정
 
-Here is the scope of requests that you can access, based on your role and permissions in Freshservice
+### 2단계: 상세 옵션 구성
 
-Scope
+1. 워크플로 규칙 정의
+2. 알림 및 에스컬레이션 설정
+3. 테스트 실행으로 동작 확인
 
-Requests accessible to you in the Dashboard
+:::warning 중요 사항
+설정 변경 시 기존 진행 중인 프로세스에 영향을 줄 수 있으니 주의하세요.
+:::
 
-Required role/permissions
+## 원본 기능 상세 정보
 
-Initiator
+```html
+<p style={{line-height: 1.38; margin-bottom: 0pt;}}><strong ><span style={{font-size: 14px; font-family: Helvetica, sans-serif;}}>UPCOMING FEATURE</span></strong></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>With Onboarding and Offboarding dashboards you get a complete view and actionable insights on the active onboarding and offboarding requests.&nbsp;</span></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><br></p><h1 style={{line-height: 1.38; margin-bottom: 6pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-size: 18px; font-family: Helvetica, sans-serif;}}><strong>Scope of access and required permissions</strong></span></span></span></h1><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Here is the scope of requests that you can access, based on your role and permissions in Freshservice&nbsp;</span></span></span></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><div align="left" style={{margin-left: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><table style={{border:none;border-collapse:collapse;}}><colgroup><col width="116"><col width="300"><col width="208"></colgroup><tbody><tr style={{height:0pt;}}><td style={{border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; font-size: 14px;}}><p style={{line-height: 1.2; margin-bottom: 0pt; font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>Scope</span></span></span></p></td><td style={{border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; font-size: 14px;}}><p style={{line-height: 1.2; margin-bottom: 0pt; font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>Requests accessible to you in the Dashboard</span></span></span></p></td><td style={{border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; font-size: 14px;}}><p style={{line-height: 1.2; margin-bottom: 0pt; font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>Required role/permissions&nbsp;</span></span></span></p></td></tr><tr style={{height:0pt;}}><td style={{border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; font-size: 14px;}}><p style={{line-height: 1.2; margin-bottom: 0pt; font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Initiator</span></span></span></p></td><td style={{border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; font-size: 14px;}}><p style={{line-height: 1.2; margin-bottom: 0pt; font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Onboarding/Offboarding requests initiated by you</span></span></span></p></td><td style={{border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; font-size: 14px;}}><ul style={{margin-bottom: 0px; padding-inline-start: 48px;}}><li style={{list-style-type: disc; font-size: 14px; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.2; margin-bottom: 0pt; font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Need to be an Agent&nbsp;</span></span></span></p></li><li style={{list-style-type: disc; font-size: 14px; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.2; margin-bottom: 0pt; font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Need to have initiated at least one onboarding / offboarding request.&nbsp;</span></span></span></p></li></ul></td></tr><tr style={{height:0pt;}}><td style={{border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; font-size: 14px;}}><p style={{line-height: 1.2; margin-bottom: 0pt; font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Supervisor</span></span></span></p></td><td style={{border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; font-size: 14px;}}><p style={{line-height: 1.2; margin-bottom: 0pt; font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>All Onboarding/Offboarding requests in the account</span></span></span></p></td><td style={{border-width: 1pt; border-style: solid; border-color: rgb(0, 0, 0); padding: 5pt; overflow: hidden; overflow-wrap: break-word; font-size: 14px;}}><ul style={{margin-bottom: 0px; padding-inline-start: 48px;}}><li style={{list-style-type: disc; font-size: 14px; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.2; margin-bottom: 0pt; font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Need to be an Agent&nbsp;</span></span></span></p></li><li style={{list-style-type: disc; font-size: 14px; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.2; margin-bottom: 0pt; font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Need to have the “View all onboarding requests” and/or “View all offboarding requests” permission enabled.&nbsp;</span></span></span></p></li></ul><p style={{line-height: 1.2; margin-left: 36pt; margin-bottom: 0pt; font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>(Screenshot below)</span></span></span></p></td></tr></tbody></table></div><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:581px;height:402px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886231/original/Xnp_0dPjtNkPukr04TaCsIwd3I9qy5d8iw.jpg?1707507094" style={{width: auto;}} ></span></span></span></span></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886240/original/EyhXfKpxlzNm8SUtnmnRe8LZPc1V9rPkYw.jpg?1707507143" style={{width: 580px;}} ></span></span></p><h1 style={{line-height: 1.38; margin-bottom: 6pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><br></h1><h1 style={{line-height: 1.38; margin-bottom: 6pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-size: 18px;}}><strong >Onboarding/Offboarding Dashboards</strong></span></span></span></h1><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>The dashboard gives you a list view of all the open onboarding / offboarding requests based on your scope of access as an initiator or a supervisor. You can access the dashboard by clicking on&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>Employee Journeys &gt; Onboarding Dashboard / Offboarding Dashboard</span><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>&nbsp;from the left menu.</span></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><br></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><br></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:571px;height:322px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886276/original/l5onOjKHGp-Ed6-3xQImh_tP9TMugMuSOg.jpg?1707507596" style={{width: auto;}} ></span></span></span></span></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><br></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>The dashboard shows you a list of all the open onboarding/offboarding requests along with the initiator details, request status, progress of child tickets for that request, and the name of the employee the request is meant for.&nbsp;</span></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><br></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:616px;height:405px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886289/original/cxs_AYxshQPjlnlucyJLXiYHnvHZmg_SpQ.jpg?1707507732" style={{width: auto;}} ></span></span></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:616px;height:405px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886301/original/UZr-yUDa1xNjpu9UD4ct7yiJ66ZOcPXHgQ.jpg?1707507836" style={{width: auto;}} ></span></span></span></span><br></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>You can also apply Filters using different attributes to see a subset of requests based on the desired criteria.&nbsp;</span></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886325/original/gYIdcyE_AaVSo-y6514EoSmUK_lbPr8bpg.jpg?1707508141" style={{width: auto;}} ></span></span></span><br></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}><br class="Apple-interchange-newline"><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886302/original/hb5GxP9DdkOCSjz_YmO5c_MMhy5jb46_4A.jpeg?1707507850" style={{box-sizing: border-box; border: 0px; vertical-align: top; max-width: 100%; position: relative; cursor: pointer; padding: 0px 1px; margin: 5px auto 5px 0px; display: block; float: none; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; width: auto;}} >&nbsp;</span></span></span></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>For requests with the status “Awaiting information”, you can easily send reminder notifications to the stakeholders who need to submit the information for the request to proceed. &nbsp;</span></span></span></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><h1 style={{line-height: 1.38; margin-bottom: 6pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:451px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886328/original/e2jenLK3r4P0kcW_mJplvy-1GubR3KVJEg.jpg?1707508213" style={{width: auto;}} ></span></span></span></span></h1><h1 style={{line-height: 1.38; margin-bottom: 6pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><br></h1><h1 style={{line-height: 1.38; margin-bottom: 6pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 18px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}><strong >Widgets available in ‘My Dashboard’</strong></span></span></span></h1><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Here are a couple of widgets that can be added to your central dashboard to get a high-level glimpse of the ongoing onboarding/offboarding requests. Clicking on these widgets takes you to the onboarding/offboarding dashboard.&nbsp;</span></span></span></p><ol style={{margin-bottom: 0px; padding-inline-start: 48px; font-size: 14px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: decimal; font-size: 14px; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 700;}}><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>Open onboarding requests | Open offboarding requests</span></span></span></p></li></ol><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>These widgets give you the number of onboarding/offboarding requests that have been initiated by you. &nbsp;</span></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><br></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886385/original/KZ3cJWGwszzpzPj1GOGtr_J9AqIyTrjB7w.jpg?1707508554" style={{width: 608px;}} ></span></span></span><br></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><br></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><br></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:380px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886372/original/W_mTEEXfvDs-CYEra3gClZFSVGFMChn3cQ.jpg?1707508490" style={{width: auto;}} ></span></span></span></span></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>2. Onboarding requests initiated by / Offboarding requests initiated by</span></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>These widgets showcase the number of requests initiated by different initiators. You have access to this widget only if you have the “View all onboarding requests” or “View all offboarding requests” permission.&nbsp;</span></span></span></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:380px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886387/original/H6-9xakh546GxGB3OLM81VYj4ysS8sWN_w.jpg?1707508623" style={{width: auto;}} ></span></span></span></span></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><br></span></span></p><p><span style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><br></span></p><p><br></p>
+```
 
-Onboarding/Offboarding requests initiated by you
-
-- Need to be an Agent
-- Need to have initiated at least one onboarding / offboarding request.
-
-Supervisor
-
-All Onboarding/Offboarding requests in the account
-
-- Need to be an Agent
-- Need to have the “View all onboarding requests” and/or “View all offboarding requests” permission enabled.
-
-(Screenshot below)
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886231/original/Xnp_0dPjtNkPukr04TaCsIwd3I9qy5d8iw.jpg?1707507094)
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886240/original/EyhXfKpxlzNm8SUtnmnRe8LZPc1V9rPkYw.jpg?1707507143)
-
-## Onboarding/Offboarding Dashboards
-
-The dashboard gives you a list view of all the open onboarding / offboarding requests based on your scope of access as an initiator or a supervisor. You can access the dashboard by clicking onEmployee Journeys > Onboarding Dashboard / Offboarding Dashboardfrom the left menu.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886276/original/l5onOjKHGp-Ed6-3xQImh_tP9TMugMuSOg.jpg?1707507596)
-
-The dashboard shows you a list of all the open onboarding/offboarding requests along with the initiator details, request status, progress of child tickets for that request, and the name of the employee the request is meant for.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886289/original/cxs_AYxshQPjlnlucyJLXiYHnvHZmg_SpQ.jpg?1707507732)
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886301/original/UZr-yUDa1xNjpu9UD4ct7yiJ66ZOcPXHgQ.jpg?1707507836)
-
-You can also apply Filters using different attributes to see a subset of requests based on the desired criteria.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886325/original/gYIdcyE_AaVSo-y6514EoSmUK_lbPr8bpg.jpg?1707508141)
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886302/original/hb5GxP9DdkOCSjz_YmO5c_MMhy5jb46_4A.jpeg?1707507850)
-
-For requests with the status “Awaiting information”, you can easily send reminder notifications to the stakeholders who need to submit the information for the request to proceed.
-
-## ![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886328/original/e2jenLK3r4P0kcW_mJplvy-1GubR3KVJEg.jpg?1707508213)
-
-## Widgets available in ‘My Dashboard’
-
-Here are a couple of widgets that can be added to your central dashboard to get a high-level glimpse of the ongoing onboarding/offboarding requests. Clicking on these widgets takes you to the onboarding/offboarding dashboard.
-
-1. Open onboarding requests | Open offboarding requests
-
-These widgets give you the number of onboarding/offboarding requests that have been initiated by you.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886385/original/KZ3cJWGwszzpzPj1GOGtr_J9AqIyTrjB7w.jpg?1707508554)
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886372/original/W_mTEEXfvDs-CYEra3gClZFSVGFMChn3cQ.jpg?1707508490)
-
-2. Onboarding requests initiated by / Offboarding requests initiated by
-
-These widgets showcase the number of requests initiated by different initiators. You have access to this widget only if you have the “View all onboarding requests” or “View all offboarding requests” permission.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010886387/original/H6-9xakh546GxGB3OLM81VYj4ysS8sWN_w.jpg?1707508623)
+:::tip 효율적인 활용
+- 테스트 환경에서 먼저 검증 후 운영 환경 적용
+- 사용자 그룹별로 단계적 배포 권장
+- 정기적인 프로세스 검토 및 개선
+:::
 
 ## 실무 활용 예시
 
@@ -117,38 +75,23 @@ These widgets showcase the number of requests initiated by different initiators.
 
 ### 자주 발생하는 문제
 
-#### 문제: 온보딩 프로세스 지연
-**원인**: 승인 단계의 병목 현상 또는 문서 누락
+#### 문제: 프로세스 진행 지연
+**원인**: 승인 단계의 병목 현상 또는 필수 정보 누락
 **해결**: 
 1. 자동 에스컬레이션 규칙 설정으로 지연 방지
 2. 체크리스트 기반 진행 상황 실시간 모니터링
 3. 백업 승인자 지정으로 프로세스 연속성 보장
 
-:::warning 주의사항
-승인자가 부재 중일 때를 대비해 반드시 백업 승인자를 설정하세요.
+:::success 해결 완료
+프로세스가 정상적으로 진행됩니다.
 :::
 
-#### 문제: 시스템 접근 권한 설정 오류
+#### 문제: 권한 설정 오류
 **원인**: 역할별 권한 매핑 설정 미흡
 **해결**:
 1. 표준 역할 템플릿 사전 정의
 2. 권한 검증 프로세스 자동화
 3. 오류 발생 시 즉시 알림 시스템 구축
-
-:::success 해결 완료
-권한 설정이 정상적으로 완료되었습니다.
-:::
-
-## 모범 사례
-
-### 효율적인 온보딩을 위한 체크리스트
-
-:::tip 온보딩 성공 요소
-- **사전 준비**: 입사 전 필요한 모든 자료와 계정 준비
-- **개인화**: 역할과 부서에 맞는 맞춤형 온보딩 경험 제공
-- **피드백**: 정기적인 진행 상황 점검 및 개선사항 수집
-- **문서화**: 모든 과정을 문서화하여 향후 참조 및 개선에 활용
-:::
 
 ## 관련 기능 연계
 

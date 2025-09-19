@@ -4,73 +4,43 @@ sidebar_position: 11
 
 # 직원 오프보딩
 
-<div className="subtitle">
-  이 문서는 "Employee Offboarding" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+Freshservice의 직원 오프보딩을 통해 효율적인 직원 라이프사이클 관리를 구현할 수 있습니다.
 
-## 기능 개요
+:::info 주요 특징
+- 자동화된 프로세스로 업무 효율성 극대화
+- 실시간 진행 상황 추적 및 모니터링
+- 역할 기반 권한 관리 및 승인 워크플로
+:::
 
-The process of managing the termination of employment is usually a complex and multi-functional process that involves multiple departments.
+## 기능 설정 방법
 
-Freshservice Employee Offboarding module streamlines different offboarding workflows and ensures complete compliance and a smooth experience for both employees and admins. It reduces administrative overhead, increases efficiency, and helps organizations maintain a strong and secure exit process.
+### 1단계: 기본 설정 구성
 
-Let’s see how it works
+1. **관리자 → 서비스 관리 → 직원 온보딩**으로 이동
+2. **'새 설정'** 버튼 클릭
+3. 필요한 권한 및 역할 설정
 
-## How to set up the Employee Offboard flow for your organization? (For admins)
+### 2단계: 상세 옵션 구성
 
-Here are the steps:
+1. 워크플로 규칙 정의
+2. 알림 및 에스컬레이션 설정
+3. 테스트 실행으로 동작 확인
 
-- Go to Global Settings > Service Request Management > Employee offboarding
+:::warning 중요 사항
+설정 변경 시 기존 진행 중인 프로세스에 영향을 줄 수 있으니 주의하세요.
+:::
 
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008565226/original/tLWiULmI7-S4vMWF8Oy6gdvFjKMX2kJKyQ.png?1686212058)
+## 원본 기능 상세 정보
 
-- Read through the preparatory steps in the window that appears on the screen.
+```html
+<p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>The process of managing the termination of employment is usually a complex and multi-functional process that involves multiple departments.&nbsp;</span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Freshservice Employee Offboarding module streamlines different offboarding workflows and ensures complete compliance and a smooth experience for both employees and admins. It reduces administrative overhead, increases efficiency, and helps organizations maintain a strong and secure exit process.&nbsp;</span></span></span></p><p style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Let’s see how it works</span></span></span></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><h1 style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14pt; color: rgb(0, 0, 0); font-weight: 700;}}>How to set up the Employee Offboard flow for your organization? (For admins)&nbsp;</span></span></h1><h1 style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><br></h1><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>Here are the steps:&nbsp;</span></span></p><ul style={{margin-bottom: 0px; padding-inline-start: 48px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>Go to Global Settings &gt; Service Request Management &gt; Employee offboarding&nbsp;</span></span></p></li></ul><p style={{line-height: 1.38; margin-bottom: 0pt;}}><br></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:341px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008565226/original/tLWiULmI7-S4vMWF8Oy6gdvFjKMX2kJKyQ.png?1686212058" width="624" height="341" ></span></span></span></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><ul style={{margin-bottom: 0px; padding-inline-start: 48px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>Read through the preparatory steps in the window that appears on the screen.&nbsp;</span></span></p></li></ul><p style={{line-height: 1.38; margin-bottom: 0pt;}}><br></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:341px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008899433/original/fmXc0dvvRtC2_Ui21rOFvoQ7dePQ7pjKyA.png?1689442403" style={{width: auto;}} ></span></span></span></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><ul style={{margin-bottom: 0px; padding-inline-start: 48px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>Click on&nbsp;</span><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>Continue</span><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>&nbsp;to kickstart the steps to set up offboarding&nbsp;</span></span></span></p></li><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>The first step is to define who will be the&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>initiator</span></span><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>&nbsp;of a typical offboarding request. Eg: You can choose HR Business Partner as the initiator. You would also need to choose the groups that the initiator belongs to.&nbsp;</span></span></p></li></ul><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:341px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008899425/original/C7-KAC2uvF8R3P-33r_ttZhPTMB3SxcXog.png?1689442001" style={{width: auto;}} ></span></span></span></p><ul style={{margin-bottom: 0px; padding-inline-start: 48px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>The next step is to</span><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>&nbsp;configure the form for the initiator</span></span><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>&nbsp;(HR Business partner in our example). Use the form builder interface to customize the fields. Click on ‘Continue’ once you are done.&nbsp;</span></span></p></li></ul><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:415px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008899426/original/DGMX8Khn6FWbQRSZue-2YGFe_o6AyU_OFA.png?1689442041" style={{width: auto;}} ></span></span></span></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><ul style={{margin-bottom: 0px; padding-inline-start: 48px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>Choose whether you want to automatically detect assets and software mapped to the employee being offboarded. If you mark this flag as on, the system will automatically create tickets for asset retrieval and software access revoking.</span></span></p></li><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>You would also have the option to add another stakeholder (apart from the offboarding initiator). This stakeholder will indicate if the assets and software should be reclaimed or transferred to someone else.</span></span></p></li></ul><p style={{line-height: 1.38; margin-bottom: 0pt;}}><br></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:415px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008899427/original/KGjVYn3p4Vl41amiQT8gfTrYmricpQoJ5g.png?1689442119" style={{width: auto;}} ></span></span></span></p><ul style={{margin-bottom: 0px; padding-inline-start: 48px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>Set up the form for the second stakeholder (Reporting manager in our case)&nbsp;</span></span></p></li></ul><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:596px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008899428/original/RxHKLVnfK4hCSsPkwZ2hrOxMWPWTqdartA.png?1689442213" style={{width: auto;}} ></span></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><br></p><ul style={{margin-bottom: 0px; padding-inline-start: 48px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>In the next step, you can customize the email that is sent to the second stakeholder (reporting manager) upon the initiation of an offboarding request.&nbsp;</span></span></p></li></ul><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400;}}><br></span></span></p><p><br></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:464px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008899429/original/Xki_xFw2EqLVdpiCU8axR8ZPLVLK7XGKUA.png?1689442259" style={{width: auto;}} ></span></span></span></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><ul style={{margin-bottom: 0px; padding-inline-start: 48px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>In the next step, you can configure how tickets and child tickets will be created for asset retrieval and software access removal.&nbsp;</span></span></p></li></ul><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:533px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008899431/original/qVNUhw1pNrNmSQU6HyZtNvl6Xl-cpaFlnQ.png?1689442291" style={{width: auto;}} ></span></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><br></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><h1 style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14pt; color: rgb(0, 0, 0); font-weight: 700;}}>How to initiate an offboarding request? (For initiators)&nbsp;</span></span></h1><ul style={{margin-bottom: 0px; padding-inline-start: 48px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>As an initiator (HR business partner in our example), you can go to your service portal, search for the corresponding service catalog item for Offboarding, and place a request.&nbsp;</span></span></p></li></ul><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14pt; color: rgb(0, 0, 0); font-weight: 700;}}><span style={{border:none;display:inline-block;overflow:hidden;width:413px;height:341px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008565233/original/d1SofbkclPU3oynWvQp9o1yOidc-aJgnnA.png?1686212061" width="413" height="341" ></span></span></span></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><ul style={{margin-bottom: 0px; padding-inline-start: 48px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>Fill in the offboarding form to initiate the onboarding process.&nbsp;</span></span></p></li></ul><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 700;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:479px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008565230/original/STR3guvjPXy6vcG-Pvdb9P-JRJq60hrpsg.png?1686212060" width="624" height="479" ></span>&nbsp;</span></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><br></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 700;}}>Faq</span></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><br></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 700;}}>1.&nbsp;</span><strong>T</strong><strong>he Off-boarding option is not showing on the portal. How can I fix this?</strong></p><div class="flex flex-grow flex-col max-w-full"><div class="min-h-[20px] text-message flex flex-col items-start whitespace-pre-wrap break-words [.text-message+&amp;]:mt-5 juice:w-full juice:items-end overflow-x-auto gap-2" data-message-author-role="assistant" data-message-id="b9c77627-b968-4828-95dc-4da171f653d0" ><div class="flex w-full flex-col gap-1 juice:empty:hidden juice:first:pt-[3px]"><div class="markdown prose w-full break-words dark:prose-invert dark"></div></div></div></div><div class="mt-1 flex gap-3 empty:hidden juice:-ml-3"><div class="items-center justify-start rounded-xl p-1 flex"><div class="flex items-center"><div class="flex"></div><span data-state="closed"><div class="flex items-center pb-0.5 juice:pb-0"><br></div></span></div></div></div><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0);}}>Navigate to Global Settings <strong>Admin &gt; Employee offboarding &gt; Add Initiator</strong> check if the respective <strong>group</strong> is added here to make the request visible in the portal.</span></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><br></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 700;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012059940/original/uYuRXAhuFrTwRjxlAItE_1PvqWx8ehtEyw.png?1717588359" style={{width: 588px;}} ></span><br></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><br></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><br></p>
+```
 
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008899433/original/fmXc0dvvRtC2_Ui21rOFvoQ7dePQ7pjKyA.png?1689442403)
-
-- Click onContinueto kickstart the steps to set up offboarding
-- The first step is to define who will be theinitiatorof a typical offboarding request. Eg: You can choose HR Business Partner as the initiator. You would also need to choose the groups that the initiator belongs to.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008899425/original/C7-KAC2uvF8R3P-33r_ttZhPTMB3SxcXog.png?1689442001)
-
-- The next step is toconfigure the form for the initiator(HR Business partner in our example). Use the form builder interface to customize the fields. Click on ‘Continue’ once you are done.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008899426/original/DGMX8Khn6FWbQRSZue-2YGFe_o6AyU_OFA.png?1689442041)
-
-- Choose whether you want to automatically detect assets and software mapped to the employee being offboarded. If you mark this flag as on, the system will automatically create tickets for asset retrieval and software access revoking.
-- You would also have the option to add another stakeholder (apart from the offboarding initiator). This stakeholder will indicate if the assets and software should be reclaimed or transferred to someone else.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008899427/original/KGjVYn3p4Vl41amiQT8gfTrYmricpQoJ5g.png?1689442119)
-
-- Set up the form for the second stakeholder (Reporting manager in our case)
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008899428/original/RxHKLVnfK4hCSsPkwZ2hrOxMWPWTqdartA.png?1689442213)
-
-- In the next step, you can customize the email that is sent to the second stakeholder (reporting manager) upon the initiation of an offboarding request.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008899429/original/Xki_xFw2EqLVdpiCU8axR8ZPLVLK7XGKUA.png?1689442259)
-
-- In the next step, you can configure how tickets and child tickets will be created for asset retrieval and software access removal.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008899431/original/qVNUhw1pNrNmSQU6HyZtNvl6Xl-cpaFlnQ.png?1689442291)
-
-## How to initiate an offboarding request? (For initiators)
-
-- As an initiator (HR business partner in our example), you can go to your service portal, search for the corresponding service catalog item for Offboarding, and place a request.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008565233/original/d1SofbkclPU3oynWvQp9o1yOidc-aJgnnA.png?1686212061)
-
-- Fill in the offboarding form to initiate the onboarding process.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008565230/original/STR3guvjPXy6vcG-Pvdb9P-JRJq60hrpsg.png?1686212060)
-
-Faq
-
-1.The Off-boarding option is not showing on the portal. How can I fix this?
-
-Navigate to Global SettingsAdmin > Employee offboarding > Add Initiatorcheck if the respectivegroupis added here to make the request visible in the portal.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012059940/original/uYuRXAhuFrTwRjxlAItE_1PvqWx8ehtEyw.png?1717588359)
+:::tip 효율적인 활용
+- 테스트 환경에서 먼저 검증 후 운영 환경 적용
+- 사용자 그룹별로 단계적 배포 권장
+- 정기적인 프로세스 검토 및 개선
+:::
 
 ## 실무 활용 예시
 
@@ -105,38 +75,23 @@ Navigate to Global SettingsAdmin > Employee offboarding > Add Initiatorcheck if 
 
 ### 자주 발생하는 문제
 
-#### 문제: 온보딩 프로세스 지연
-**원인**: 승인 단계의 병목 현상 또는 문서 누락
+#### 문제: 프로세스 진행 지연
+**원인**: 승인 단계의 병목 현상 또는 필수 정보 누락
 **해결**: 
 1. 자동 에스컬레이션 규칙 설정으로 지연 방지
 2. 체크리스트 기반 진행 상황 실시간 모니터링
 3. 백업 승인자 지정으로 프로세스 연속성 보장
 
-:::warning 주의사항
-승인자가 부재 중일 때를 대비해 반드시 백업 승인자를 설정하세요.
+:::success 해결 완료
+프로세스가 정상적으로 진행됩니다.
 :::
 
-#### 문제: 시스템 접근 권한 설정 오류
+#### 문제: 권한 설정 오류
 **원인**: 역할별 권한 매핑 설정 미흡
 **해결**:
 1. 표준 역할 템플릿 사전 정의
 2. 권한 검증 프로세스 자동화
 3. 오류 발생 시 즉시 알림 시스템 구축
-
-:::success 해결 완료
-권한 설정이 정상적으로 완료되었습니다.
-:::
-
-## 모범 사례
-
-### 효율적인 온보딩을 위한 체크리스트
-
-:::tip 온보딩 성공 요소
-- **사전 준비**: 입사 전 필요한 모든 자료와 계정 준비
-- **개인화**: 역할과 부서에 맞는 맞춤형 온보딩 경험 제공
-- **피드백**: 정기적인 진행 상황 점검 및 개선사항 수집
-- **문서화**: 모든 과정을 문서화하여 향후 참조 및 개선에 활용
-:::
 
 ## 관련 기능 연계
 

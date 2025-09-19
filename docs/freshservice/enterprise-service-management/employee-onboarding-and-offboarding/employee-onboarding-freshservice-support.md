@@ -4,98 +4,43 @@ sidebar_position: 1
 
 # 직원 온보딩 도움말 가이드
 
-<div className="subtitle">
-  이 문서는 "Get help with Employee Onboarding - Freshservice Support" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+Freshservice의 직원 온보딩 도움말 가이드을 통해 효율적인 직원 라이프사이클 관리를 구현할 수 있습니다.
 
-## 기능 개요
+:::info 주요 특징
+- 자동화된 프로세스로 업무 효율성 극대화
+- 실시간 진행 상황 추적 및 모니터링
+- 역할 기반 권한 관리 및 승인 워크플로
+:::
 
-You've landed on our support article. If you are looking to learn about Employee Onboarding in Freshservice, Check out our [Employee Onboarding page](https://www.freshworks.com/freshservice/features/employee-onboarding/).
+## 기능 설정 방법
 
-Employees’ satisfaction is the key focus of every organization, and onboarding hires is a key opportunity to make a good impression. A streamlined and centralized onboarding process enables quicker induction of hires into their roles so that they can start contributing value to the organization with ease.
+### 1단계: 기본 설정 구성
 
-With the[Employee Onboarding](https://freshservice.com/solutions/hr)Module in Freshservice, onboard your hires in a single click by setting up a seamless process for your stakeholders to contribute and collaborate. You can predefine role-specific onboarding kits and quickly manage and route your onboarding tasks to the right teams to get your hires up and running right from day one.
+1. **관리자 → 서비스 관리 → 직원 온보딩**으로 이동
+2. **'새 설정'** 버튼 클릭
+3. 필요한 권한 및 역할 설정
 
-### How can you raise an Onboarding Request?
+### 2단계: 상세 옵션 구성
 
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001283974/original/mruylSH-fJR5Ng6mjKXB_HwuT2ywYk-dYA.gif?1592393813)
+1. 워크플로 규칙 정의
+2. 알림 및 에스컬레이션 설정
+3. 테스트 실행으로 동작 확인
 
-- To raise an onboarding request, click onOnboard an Employeefrom the support portal. For example, if you’re an HR Manager looking to initiate an onboarding request, you can raise it here.
-- Fill in the hire’s details, and the stakeholders to whom you need to forward the onboarding request. For example, you can forward your onboarding request to the reporting manager for further information or approvals. ClickSubmit and Continue.
-- Based on the hire’s profile, you’ll see service items that you can provide for the hires. Choose the onboarding items and clickSubmit.
-- Once all stakeholders process the onboarding request, it is routed as child tickets to the respective departments.
+:::warning 중요 사항
+설정 변경 시 기존 진행 중인 프로세스에 영향을 줄 수 있으니 주의하세요.
+:::
 
-#### Getting Started with the Onboarding Module
+## 원본 기능 상세 정보
 
-- Navigate toAdmin > Service Management > Service request management > Employee Onboarding
-- Click onLet’s goto set up your onboarding process.
+```html
+<pre class="fd-callout fd-callout--info"><strong ><span style={{color: rgb(0, 0, 0); font-family: Arial; font-size: 13px; font-weight: normal; text-align: left; text-indent: 0px; text-decoration-skip-ink: none;}}>You've landed on our support article. If you are looking to learn about Employee Onboarding in Freshservice, Check out our&nbsp;</span><a class="waffle-rich-text-link" href="https://www.freshworks.com/freshservice/features/employee-onboarding/" style={{color: rgb(17, 85, 204); font-family: Arial; font-size: 13px; font-weight: normal; text-align: left; text-indent: 0px; text-decoration-skip-ink: none;}}>Employee Onboarding page</a><span style={{color: rgb(0, 0, 0); font-family: Arial; font-size: 13px; font-weight: normal; text-align: left; text-indent: 0px; text-decoration-skip-ink: none;}}>.</span></strong></pre><p style={{line-height: 1.38; margin-bottom: 0pt;}}><br><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Employees’ satisfaction is the key focus of every organization, and onboarding hires is a key opportunity to make a good impression. A streamlined and centralized onboarding process enables quicker induction of hires into their roles so that they can start contributing value to the organization with ease.&nbsp;</span></span></span></p><p ><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><br ></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>With the <a href="https://freshservice.com/solutions/hr">Employee Onboarding</a> Module in Freshservice, onboard your hires in a single click by setting up a seamless process for your stakeholders to contribute and collaborate. You can predefine role-specific onboarding kits and quickly manage and route your onboarding tasks to the right teams to get your hires up and running right from day one.&nbsp;</span></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><br ></span></span></p><h2 style={{line-height: 1.38; margin-bottom: 4pt;}}><span style={{font-size: 18px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(67, 67, 67); font-weight: 400;}}>How can you raise an Onboarding Request?</span></span></span></h2><p ><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><br ></span></span></p><p ><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(67, 67, 67); font-weight: 400;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001283974/original/mruylSH-fJR5Ng6mjKXB_HwuT2ywYk-dYA.gif?1592393813" style={{width: auto;}} ></span> <br ></span></span></p><p ><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><br ></span></span></p><ul style={{margin-bottom: 0px;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>To raise an onboarding request, click on&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>Onboard an Employee&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>from the support portal. For example, if you’re an HR Manager looking to initiate an onboarding request, you can raise it here.</span></span></span></p></li><li style={{list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Fill in the hire’s details, and the stakeholders to whom you need to forward the onboarding request. For example, you can forward your onboarding request to the reporting manager for further information or approvals. Click&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>Submit and Continue.</span></span></span></p></li><li style={{list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Based on the hire’s profile, you’ll see service items that you can provide for the hires. Choose the onboarding items and click&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>Submit.</span></span></span></p></li><li style={{list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Once all stakeholders process the onboarding request, it is routed as child tickets to the respective departments.</span></span></span></p></li></ul><p ><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><br ></span></span></p><h3 style={{line-height: 1.38; margin-bottom: 4pt;}}><span style={{font-size: 18px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(67, 67, 67); font-weight: 400;}}>Getting Started with the Onboarding Module</span></span></span></h3><p ><br ></p><p ><span style={{font-size: 18px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(67, 67, 67); font-weight: 400;}}><span ><iframe width="640" height="360" src="https://www.youtube.com/embed/ZsIaEz0ZvXc?&amp;feature=youtu.be&amp;wmode=opaque" frameborder="0" allowfullscreen="" sandbox="allow-scripts allow-forms allow-same-origin allow-presentation" ></iframe></span></span></span></span><br ></p><p ><br ></p><ul style={{margin-bottom: 0px;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Navigate to&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>Admin &gt; Service Management &gt; Service request management &gt; Employee Onboarding</span></span></span></p></li><li ><p ><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Click on&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>Let’s go&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>to set up your onboarding process.&nbsp;</span></span></span></p></li></ul><p ><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><br ></span></span></p><p ><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}><br ></span></span></span></p><h3 style={{line-height: 1.38; margin-bottom: 4pt;}}><span style={{font-size: 18px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(67, 67, 67); font-weight: 400;}}>Setting up the Onboarding Process</span></span></span></h3><h3 style={{line-height: 1.38; margin-bottom: 4pt;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(67, 67, 67); font-weight: 400;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Before you get started, to ensure you have all the required information in place about your onboarding process, we have a step 0.</span></span></span></span></h3><p ><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><br ></span></span></p><h3 style={{line-height: 1.38; margin-left: 8px; margin-bottom: 4pt;}}><span style={{font-size: 16px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(67, 67, 67); font-weight: 400;}}>Step 0: Onboarding Essentials&nbsp;</span></span></span></h3><p ><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><br ></span></span></p><p ><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(67, 67, 67); font-weight: 400;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001293426/original/NPkP6zJ33JvlLsDesJNN2VfnFprElWdeZQ.png?1592483053" style={{width: 453px;}} ></span> <br ></span></span></p><p ><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><br ></span></span></p><p style={{line-height: 1.38; margin-left: 8px; margin-bottom: 0pt;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Before you start setting up an onboarding process, it would be helpful to have the following information in place about your onboarding process:</span></span></span></p><ul style={{margin-bottom: 0px;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Identify the key contributors in your onboarding process.</span></span></span></p></li><li style={{list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Define and determine the role your stakeholders will play in your onboarding process.</span></span></span></p></li><li style={{list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>List out the items your hires will need based on their roles.&nbsp;</span></span></span></p></li><li style={{list-style-type: disc; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Click on&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>I’m ready</span><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>&nbsp;to set up the onboarding process.</span></span></span></span></p></li></ul><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><br ></span></span></p><h3 style={{box-sizing: border-box; font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-weight: 400; line-height: 1.38; color: rgb(0, 0, 0); margin-bottom: 4pt; margin-left: 0px; font-size: 1.17em; text-align: start; text-indent: 0px;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica Neue;}}><span style={{box-sizing: border-box; color: rgb(67, 67, 67); font-weight: 400;}}><span style={{box-sizing: border-box; color: rgb(0, 0, 0); font-weight: 400;}}>Setting up the Onboarding Module is a simple, four-step process. Here are the four steps involved in setting it up.&nbsp;</span></span></span></span></h3><h3 style={{box-sizing: border-box; font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-weight: 400; line-height: 1.38; color: rgb(0, 0, 0); margin-bottom: 4pt; margin-left: 0px; font-size: 1.17em; text-align: start; text-indent: 0px;}}><span style={{box-sizing: border-box; font-size: 14px;}}><span style={{box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;;}}><span style={{box-sizing: border-box; color: rgb(67, 67, 67); font-weight: 400;}}><span style={{box-sizing: border-box; color: rgb(0, 0, 0); font-weight: 400;}}>Do check out the articles linked to each step to understand how to set them up.</span></span></span></span></h3><p ><br ></p><p style={{margin-left: 20px;}}><a href="https://support.freshservice.com/en/support/solutions/articles/50000002363"><span style={{font-size: 14px;}}>Step 1: Add Stakeholders</span></a></p><p style={{margin-left: 20px;}}><span style={{font-size: 14px;}}><a href="https://support.freshservice.com/en/support/solutions/articles/50000002364">Step 2: Build Onboarding Kits</a></span></p><p style={{margin-left: 20px;}}><span style={{font-size: 14px;}}><a href="https://support.freshservice.com/en/support/solutions/articles/50000002365">Step 3: Create Onboarding Tickets</a></span></p><p style={{margin-left: 20px;}}><a href="https://support.freshservice.com/en/support/solutions/articles/50000002366"><span style={{font-size: 14px;}}>Step 4: Modify Approvals</span></a></p><p style={{margin-left: 20px;}}><br></p><h3 style={{box-sizing: border-box; font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-weight: 400; line-height: 1.38; color: rgb(0, 0, 0); margin-bottom: 4pt; margin-left: 0px; font-size: 1.17em; text-indent: 0px; text-align: start;}}><span style={{box-sizing: border-box; font-size: 14px;}}><span style={{box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;;}}><span style={{box-sizing: border-box; color: rgb(67, 67, 67); font-weight: 400;}}><span style={{box-sizing: border-box; color: rgb(0, 0, 0); font-weight: 400;}}><strong>Faq's</strong></span></span></span></span><strong><br><br><span style={{box-sizing: border-box; font-size: 14px;}}><span style={{box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;;}}><span style={{box-sizing: border-box; color: rgb(67, 67, 67);}}><span style={{box-sizing: border-box; color: rgb(0, 0, 0);}}>1. How to export all onboarding or joiners tickets report?</span></span></span></span></strong></h3><p><br></p><p><span style={{box-sizing: border-box; font-size: 14px;}}><span style={{box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;;}}><span style={{box-sizing: border-box; color: rgb(67, 67, 67); font-weight: 400;}}><span style={{box-sizing: border-box; color: rgb(0, 0, 0); font-weight: 400;}}>Navigate to the <strong>Analytics module &gt; Create a new report</strong> <strong>and drag and drop a chat widget &gt;</strong><strong>&nbsp;Use the metric as employee onboarding</strong> and add additional filters if required. From the underlying data, you will be able to add additional information about the ticket fields.</span></span></span></span><br><br><span style={{box-sizing: border-box; font-size: 14px;}}><span style={{box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;;}}><span style={{box-sizing: border-box; color: rgb(67, 67, 67); font-weight: 400;}}><span style={{box-sizing: border-box; color: rgb(0, 0, 0); font-weight: 400;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011927740/original/xsrFyz_k9eBRi2JdlGSayjEPGph2n7qypw.png?1716464394" style={{width: 254px;}} ></span></span></span></span></p><p><br></p><p><span style={{box-sizing: border-box; font-size: 14px;}}><span style={{box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;;}}><span style={{box-sizing: border-box; color: rgb(67, 67, 67); font-weight: 400;}}><span style={{box-sizing: border-box; color: rgb(0, 0, 0); font-weight: 400;}}><strong >2. How to check the pending or processing employee onboarding requests within the system?&nbsp;</strong></span></span></span></span></p><p><br></p><p ><span style={{box-sizing: border-box; font-size: 14px;}}><span style={{box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;;}}><span style={{box-sizing: border-box; color: rgb(67, 67, 67); font-weight: 400;}}><span style={{box-sizing: border-box; color: rgb(0, 0, 0); font-weight: 400;}}>You can review the list of onboarding requests within the <strong>E</strong><strong>mployee Journeys</strong>, including those in statuses such as <strong>Awaiting Information, Cancelled, Being Processed, and Closed.</strong></span></span></span></span></p><p><br></p><p><br></p><p><span style={{box-sizing: border-box; font-size: 14px;}}><span style={{box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;;}}><span style={{box-sizing: border-box; color: rgb(67, 67, 67); font-weight: 400;}}><span style={{box-sizing: border-box; color: rgb(0, 0, 0); font-weight: 400;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011928803/original/3xxkqsgsyD_vlHwBJgGur-HrtGx13EuLEg.png?1716468378" style={{width: 178px;}} ></span></span></span></span></p><p ><br></p><p ><strong >3. Which role is required to build out the employee onboarding form? or&nbsp;</strong><br><br></p><p >To build out employee onboarding forms in Freshservice, the role of an Admin is required to be configured.</p><p ><br></p><p ><strong >4. Is it possible for another manager to approve an onboarding request?</strong></p><p ><br></p><p >This is not possible at the moment, you would need to cancel the existing request and create a new request linked to the respective reporting manager.</p><p ><br></p><p ><strong >5. Can a user with a business agent license see the onboarding journey?</strong><br><br>Can leverage employee onboarding. However, the administration can only be managed by Pro and Enterprise agents. Kindly click <a href="https://support.freshservice.com/en/support/solutions/articles/50000008911">here</a> to learn more about features that are accessible to business agents.</p><p ><br></p><p ><strong>4. Can the employee onboarding be accessed from the agent portal?</strong></p><p ><br></p><p >The onboarding tickets can be raised only from the support portal ( Click on your profile icon &gt; Support Portal).</p><p ><br></p><p ><strong >5. How to view the previous employee onboarding requests that are requested?</strong></p><p ><br></p><p >Click on your profile icon and navigate to the <strong>support portal</strong>. Then, click on the three lines at the top left side of the portal and select "<strong>Employee Onboarding</strong>." Here, you can view the requests based on their <strong>status</strong>.</p><p ><br></p><p ><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012073309/original/zKW_pVZ1-9YW2Etguw2aW0t0d8qzufVPbg.png?1717666559" style={{width: 217px;}} ></p><p ><br></p><p ><strong >6. I'm having trouble viewing the build kits as a Stakeholder/HR Manager/Reporting Manager. How can this be resolved?</strong></p><p ><br></p><p >Go to <strong>Global Settings &gt; Admin &gt; Employee Onboarding &gt; Build Kits</strong> and check who has visibility access, only the respective stakeholder will be able to access it.</p><p ><br></p><p ><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012090120/original/6jnf9Df5rXTzeakRoTHMXx-3OaIXAWoF8g.png?1717764804" style={{width: 698px;}} ></p><p ><br></p><p ><strong >7. How can I resolve the error "Kit Update Failed"?</strong></p><p ><br></p><p >In order for the kit to be updated in the onboarding module you are requested to have the number of items below <strong>30</strong>.</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>
+```
 
-#### Setting up the Onboarding Process
-
-#### Before you get started, to ensure you have all the required information in place about your onboarding process, we have a step 0.
-
-#### Step 0: Onboarding Essentials
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001293426/original/NPkP6zJ33JvlLsDesJNN2VfnFprElWdeZQ.png?1592483053)
-
-Before you start setting up an onboarding process, it would be helpful to have the following information in place about your onboarding process:
-
-- Identify the key contributors in your onboarding process.
-- Define and determine the role your stakeholders will play in your onboarding process.
-- List out the items your hires will need based on their roles.
-- Click onI’m readyto set up the onboarding process.
-
-#### Setting up the Onboarding Module is a simple, four-step process. Here are the four steps involved in setting it up.
-
-#### Do check out the articles linked to each step to understand how to set them up.
-
-[Step 1: Add Stakeholders](https://support.freshservice.com/en/support/solutions/articles/50000002363)
-
-[Step 2: Build Onboarding Kits](https://support.freshservice.com/en/support/solutions/articles/50000002364)
-
-[Step 3: Create Onboarding Tickets](https://support.freshservice.com/en/support/solutions/articles/50000002365)
-
-[Step 4: Modify Approvals](https://support.freshservice.com/en/support/solutions/articles/50000002366)
-
-#### Faq's1. How to export all onboarding or joiners tickets report?
-
-Navigate to theAnalytics module > Create a new reportand drag and drop a chat widget >Use the metric as employee onboardingand add additional filters if required. From the underlying data, you will be able to add additional information about the ticket fields.![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011927740/original/xsrFyz_k9eBRi2JdlGSayjEPGph2n7qypw.png?1716464394)
-
-2. How to check the pending or processing employee onboarding requests within the system?
-
-You can review the list of onboarding requests within theEmployee Journeys, including those in statuses such asAwaiting Information, Cancelled, Being Processed, and Closed.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011928803/original/3xxkqsgsyD_vlHwBJgGur-HrtGx13EuLEg.png?1716468378)
-
-3. Which role is required to build out the employee onboarding form? or
-
-To build out employee onboarding forms in Freshservice, the role of an Admin is required to be configured.
-
-4. Is it possible for another manager to approve an onboarding request?
-
-This is not possible at the moment, you would need to cancel the existing request and create a new request linked to the respective reporting manager.
-
-5. Can a user with a business agent license see the onboarding journey?Can leverage employee onboarding. However, the administration can only be managed by Pro and Enterprise agents. Kindly click[here](https://support.freshservice.com/en/support/solutions/articles/50000008911)to learn more about features that are accessible to business agents.
-
-4. Can the employee onboarding be accessed from the agent portal?
-
-The onboarding tickets can be raised only from the support portal ( Click on your profile icon > Support Portal).
-
-5. How to view the previous employee onboarding requests that are requested?
-
-Click on your profile icon and navigate to thesupport portal. Then, click on the three lines at the top left side of the portal and select "Employee Onboarding." Here, you can view the requests based on theirstatus.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012073309/original/zKW_pVZ1-9YW2Etguw2aW0t0d8qzufVPbg.png?1717666559)
-
-6. I'm having trouble viewing the build kits as a Stakeholder/HR Manager/Reporting Manager. How can this be resolved?
-
-Go toGlobal Settings > Admin > Employee Onboarding > Build Kitsand check who has visibility access, only the respective stakeholder will be able to access it.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012090120/original/6jnf9Df5rXTzeakRoTHMXx-3OaIXAWoF8g.png?1717764804)
-
-7. How can I resolve the error "Kit Update Failed"?
-
-In order for the kit to be updated in the onboarding module you are requested to have the number of items below30.
+:::tip 효율적인 활용
+- 테스트 환경에서 먼저 검증 후 운영 환경 적용
+- 사용자 그룹별로 단계적 배포 권장
+- 정기적인 프로세스 검토 및 개선
+:::
 
 ## 실무 활용 예시
 
@@ -130,38 +75,23 @@ In order for the kit to be updated in the onboarding module you are requested to
 
 ### 자주 발생하는 문제
 
-#### 문제: 온보딩 프로세스 지연
-**원인**: 승인 단계의 병목 현상 또는 문서 누락
+#### 문제: 프로세스 진행 지연
+**원인**: 승인 단계의 병목 현상 또는 필수 정보 누락
 **해결**: 
 1. 자동 에스컬레이션 규칙 설정으로 지연 방지
 2. 체크리스트 기반 진행 상황 실시간 모니터링
 3. 백업 승인자 지정으로 프로세스 연속성 보장
 
-:::warning 주의사항
-승인자가 부재 중일 때를 대비해 반드시 백업 승인자를 설정하세요.
+:::success 해결 완료
+프로세스가 정상적으로 진행됩니다.
 :::
 
-#### 문제: 시스템 접근 권한 설정 오류
+#### 문제: 권한 설정 오류
 **원인**: 역할별 권한 매핑 설정 미흡
 **해결**:
 1. 표준 역할 템플릿 사전 정의
 2. 권한 검증 프로세스 자동화
 3. 오류 발생 시 즉시 알림 시스템 구축
-
-:::success 해결 완료
-권한 설정이 정상적으로 완료되었습니다.
-:::
-
-## 모범 사례
-
-### 효율적인 온보딩을 위한 체크리스트
-
-:::tip 온보딩 성공 요소
-- **사전 준비**: 입사 전 필요한 모든 자료와 계정 준비
-- **개인화**: 역할과 부서에 맞는 맞춤형 온보딩 경험 제공
-- **피드백**: 정기적인 진행 상황 점검 및 개선사항 수집
-- **문서화**: 모든 과정을 문서화하여 향후 참조 및 개선에 활용
-:::
 
 ## 관련 기능 연계
 

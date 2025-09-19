@@ -4,26 +4,43 @@ sidebar_position: 2
 
 # 대량 직원 온보딩 처리
 
-<div className="subtitle">
-  이 문서는 "Bulk Employee Onboarding in Freshservice" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+Freshservice의 대량 직원 온보딩 처리을 통해 효율적인 직원 라이프사이클 관리를 구현할 수 있습니다.
 
-## 기능 개요
+:::info 주요 특징
+- 자동화된 프로세스로 업무 효율성 극대화
+- 실시간 진행 상황 추적 및 모니터링
+- 역할 기반 권한 관리 및 승인 워크플로
+:::
 
-Onboarding new employees can be a time-consuming task for HR representatives. However, with the bulk onboard feature, HR representatives can onboard multiple employees at once.Here is a step-by-step guide on how to use the bulk onboard feature:
+## 기능 설정 방법
 
-- Go to the self-service portal and click onEmployee Onboarding
-- Click on theBulk Onboard![Bulk employee onboarding](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012297522/original/8q6RkLuoD1IuOaSSx7DysaB_XZM9L_-XKQ.png?1719554236)
-- In the screen that follows, click onUpload CSVand upload the CSV file that contains details of all the employees.
+### 1단계: 기본 설정 구성
 
-NOTE: You can import up to 100 rows per bulk import, with a maximum CSV file size of 10 MB
+1. **관리자 → 서비스 관리 → 직원 온보딩**으로 이동
+2. **'새 설정'** 버튼 클릭
+3. 필요한 권한 및 역할 설정
 
-- Once you’re done, clickNext.
+### 2단계: 상세 옵션 구성
 
-- Choose the date format and map fields from your CSV file in the map fields section. After matching the necessary fields, clickImport![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012297523/original/aP3v2cryUmYoycKndXIuxYRotgY_e5XnjQ.png?1719554236)
-- Now, all the employee details will be imported into the onboarding module. You will also get a report on the total number of created and rejected during the process.
+1. 워크플로 규칙 정의
+2. 알림 및 에스컬레이션 설정
+3. 테스트 실행으로 동작 확인
 
-The process automatically creates an onboarding request for each candidate, and an email will be automatically triggered to every employee and to their respective reporting managers.
+:::warning 중요 사항
+설정 변경 시 기존 진행 중인 프로세스에 영향을 줄 수 있으니 주의하세요.
+:::
+
+## 원본 기능 상세 정보
+
+```html
+<p style={{font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: &quot;Helvetica Neue&quot;; font-size: 16px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; text-align: start; text-indent: 0px; font-family: &quot;Helvetica Neue&quot;; display: inline !important;}}>Onboarding new employees can be a time-consuming task for HR representatives. However, with the bulk onboard feature, HR representatives can onboard multiple employees at once.&nbsp;</span></span><br><br><span style={{font-family: &quot;Helvetica Neue&quot;; font-size: 16px;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; text-align: start; text-indent: 0px; font-family: &quot;Helvetica Neue&quot;; display: inline !important;}}>Here is a step-by-step guide on how to use the bulk onboard feature:</span><br style={{font-family: &quot;Helvetica Neue&quot;;}}></span></p><ul style={{font-family: &quot;Helvetica Neue&quot;; font-size: 16px;}}><li style={{font-family: &quot;Helvetica Neue&quot;; font-size: 16px;}}><p style={{font-family: &quot;Helvetica Neue&quot;; font-size: 16px;}}><span style={{font-size: 16px;}}><span style={{font-family: Helvetica Neue;}}>Go to the self-service portal and click on <strong style={{font-family: &quot;Helvetica Neue&quot;;}}>Employee Onboarding</strong></span></span></p></li><li style={{font-family: &quot;Helvetica Neue&quot;; font-size: 16px;}}><p style={{font-family: &quot;Helvetica Neue&quot;; font-size: 16px;}}><span style={{font-size: 16px;}}><span style={{font-family: Helvetica Neue;}}>Click on the <strong style={{font-family: &quot;Helvetica Neue&quot;;}}>Bulk Onboard</strong></span></span><br><br><span style={{font-size: 16px;}}><span style={{font-family: Helvetica Neue;}}><strong style={{font-family: &quot;Helvetica Neue&quot;;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012297522/original/8q6RkLuoD1IuOaSSx7DysaB_XZM9L_-XKQ.png?1719554236" alt="Bulk employee onboarding" style={{box-sizing: content-box; border: 1px solid rgb(204, 204, 204); max-width: 100%; cursor: pointer; padding: 0px 1px; margin-bottom: 5px; margin-left: auto; display: block; color: rgb(0, 0, 0); font-family: &quot;Helvetica Neue&quot;; font-size: 16px; font-weight: 400; text-indent: 0px; width: auto; text-align: center;}} ></strong></span></span><br></p></li><li style={{font-family: &quot;Helvetica Neue&quot;; font-size: 16px;}}><p style={{font-family: &quot;Helvetica Neue&quot;; font-size: 16px;}}><span style={{font-size: 16px;}}><span style={{font-family: Helvetica Neue;}}>In the screen that follows, click on <strong style={{font-family: &quot;Helvetica Neue&quot;;}}>Upload CSV</strong> and upload the CSV file that contains details of all the employees.</span></span></p></li></ul><pre class="fd-callout fd-callout--note" style={{font-family: Helvetica, sans-serif;}}><strong ><span style={{font-size: 14px;}}>NOTE:&nbsp;</span></strong><span style={{font-size: 14px;}}>You can import up to 100 rows per bulk import, with a maximum CSV file size of 10 MB</span></pre><br><ul><li><span style={{font-size: 16px;}}><span style={{font-family: Helvetica Neue;}}>Once you’re done, click <strong style={{font-family: &quot;Helvetica Neue&quot;;}}>Next</strong>.</span></span></li></ul><ul><li style={{font-family: &quot;Helvetica Neue&quot;; font-size: 16px;}}><p style={{font-family: &quot;Helvetica Neue&quot;; font-size: 16px;}}><span style={{font-size: 16px;}}><span style={{font-family: Helvetica Neue;}}>Choose the date format and map fields from your CSV file in the map fields section. After matching the necessary fields, click <strong style={{font-family: &quot;Helvetica Neue&quot;;}}>Import</strong></span></span><br><br><span style={{font-size: 16px;}}><span style={{font-family: Helvetica Neue;}}><strong style={{font-family: &quot;Helvetica Neue&quot;;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012297523/original/aP3v2cryUmYoycKndXIuxYRotgY_e5XnjQ.png?1719554236" style={{box-sizing: border-box; border: 0px; max-width: 100%; cursor: pointer; padding: 0px 1px; margin-bottom: 5px; margin-left: 0px; display: block; text-align: left; width: auto; font-family: &quot;Helvetica Neue&quot;;}} ></strong></span></span><br></p></li><li style={{font-family: &quot;Helvetica Neue&quot;; font-size: 16px;}}><span style={{box-sizing: border-box; font-size: 16px;}}><span style={{box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;;}}>Now, all the employee details will be imported into the onboarding module. You will also get a report on the total number of created and rejected during the process.</span></span><br><br></li></ul><div rel="clipboard_data"><p style={{font-family: &quot;Helvetica Neue&quot;; font-size: 16px;}}><span style={{font-size: 16px;}}><span style={{font-family: Helvetica Neue;}}>The process automatically creates an onboarding request for each candidate, and an email will be automatically triggered to every employee and to their respective reporting managers.</span></span></p><span style={{font-family: &quot;Helvetica Neue&quot;; font-size: 16px;}}><br></span></div><p><br></p>
+```
+
+:::tip 효율적인 활용
+- 테스트 환경에서 먼저 검증 후 운영 환경 적용
+- 사용자 그룹별로 단계적 배포 권장
+- 정기적인 프로세스 검토 및 개선
+:::
 
 ## 실무 활용 예시
 
@@ -58,38 +75,23 @@ The process automatically creates an onboarding request for each candidate, and 
 
 ### 자주 발생하는 문제
 
-#### 문제: 온보딩 프로세스 지연
-**원인**: 승인 단계의 병목 현상 또는 문서 누락
+#### 문제: 프로세스 진행 지연
+**원인**: 승인 단계의 병목 현상 또는 필수 정보 누락
 **해결**: 
 1. 자동 에스컬레이션 규칙 설정으로 지연 방지
 2. 체크리스트 기반 진행 상황 실시간 모니터링
 3. 백업 승인자 지정으로 프로세스 연속성 보장
 
-:::warning 주의사항
-승인자가 부재 중일 때를 대비해 반드시 백업 승인자를 설정하세요.
+:::success 해결 완료
+프로세스가 정상적으로 진행됩니다.
 :::
 
-#### 문제: 시스템 접근 권한 설정 오류
+#### 문제: 권한 설정 오류
 **원인**: 역할별 권한 매핑 설정 미흡
 **해결**:
 1. 표준 역할 템플릿 사전 정의
 2. 권한 검증 프로세스 자동화
 3. 오류 발생 시 즉시 알림 시스템 구축
-
-:::success 해결 완료
-권한 설정이 정상적으로 완료되었습니다.
-:::
-
-## 모범 사례
-
-### 효율적인 온보딩을 위한 체크리스트
-
-:::tip 온보딩 성공 요소
-- **사전 준비**: 입사 전 필요한 모든 자료와 계정 준비
-- **개인화**: 역할과 부서에 맞는 맞춤형 온보딩 경험 제공
-- **피드백**: 정기적인 진행 상황 점검 및 개선사항 수집
-- **문서화**: 모든 과정을 문서화하여 향후 참조 및 개선에 활용
-:::
 
 ## 관련 기능 연계
 

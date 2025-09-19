@@ -4,33 +4,43 @@ sidebar_position: 9
 
 # 하위 티켓 간 정보 전달
 
-<div className="subtitle">
-  이 문서는 "Passing information between Employee Onboarding child tickets" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+Freshservice의 하위 티켓 간 정보 전달을 통해 효율적인 직원 라이프사이클 관리를 구현할 수 있습니다.
 
-## 기능 개요
+:::info 주요 특징
+- 자동화된 프로세스로 업무 효율성 극대화
+- 실시간 진행 상황 추적 및 모니터링
+- 역할 기반 권한 관리 및 승인 워크플로
+:::
 
-Once you have configured the child tickets in your employee onboarding settings and defined which one is a predecessor and which one is a successor, you can use the Workflow Automator to pass information from a predecessor ticket to a successor ticket.
+## 기능 설정 방법
 
-Here's how you can do it:
+### 1단계: 기본 설정 구성
 
-1. Identify the predecessor ticket with the help of Event and Condition blocks. In this case, we've defined them as follows:
+1. **관리자 → 서비스 관리 → 직원 온보딩**으로 이동
+2. **'새 설정'** 버튼 클릭
+3. 필요한 권한 및 역할 설정
 
-Event: Service Request is updated
+### 2단계: 상세 옵션 구성
 
-Condition 1: Source is Employee Onboarding
+1. 워크플로 규칙 정의
+2. 알림 및 에스컬레이션 설정
+3. 테스트 실행으로 동작 확인
 
-Condition 2: Subject includes the keyword: Workstation Allocation
+:::warning 중요 사항
+설정 변경 시 기존 진행 중인 프로세스에 영향을 줄 수 있으니 주의하세요.
+:::
 
-Condition 3: Status is changed to Resolved
+## 원본 기능 상세 정보
 
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004667270/original/kxH4nO4SAcxs2lpEj5CL1x22jEgOGq0E9g.png?1643816584)
+```html
+<p ><br></p><p >Once you have configured the child tickets in your employee onboarding settings and defined which one is a predecessor and which one is a successor, you can use the Workflow Automator to pass information from a predecessor ticket to a successor ticket.</p><p ><br></p><p >Here's how you can do it:</p><p ><br></p><p >1. Identify the predecessor ticket with the help of Event and Condition blocks. In this case, we've defined them as follows:</p><p ><br></p><p >Event: Service Request is updated</p><p ><br></p><p >Condition 1: Source is Employee Onboarding</p><p >Condition 2: Subject includes the keyword: Workstation Allocation</p><p >Condition 3: Status is changed to Resolved</p><p ><br></p><p ><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004667270/original/kxH4nO4SAcxs2lpEj5CL1x22jEgOGq0E9g.png?1643816584" style={{width: auto;}} ></p><p ><br></p><p ><br></p><p ><br></p><p >2. Add an action block and choose the desired action. In the example below, as we wish to update successor tickets with the details of workspace allocation, we're updating their workspace location field with the help of a placeholder from the predecessor ticket. We're applying this action by choosing "Associated Successor Tickets" from the dropdown at the top.</p><p ><br></p><p ><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004667286/original/NorK4BzikiLanJ90Q5BJ7I78fziMlt-5TA.png?1643816688" style={{width: auto;}} ></p><p ><br></p><p ><br></p><p >And that's how you can apply any action on a predecessor ticket's successor tickets.</p><p ><br></p><p ><br></p>
+```
 
-2. Add an action block and choose the desired action. In the example below, as we wish to update successor tickets with the details of workspace allocation, we're updating their workspace location field with the help of a placeholder from the predecessor ticket. We're applying this action by choosing "Associated Successor Tickets" from the dropdown at the top.
-
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004667286/original/NorK4BzikiLanJ90Q5BJ7I78fziMlt-5TA.png?1643816688)
-
-And that's how you can apply any action on a predecessor ticket's successor tickets.
+:::tip 효율적인 활용
+- 테스트 환경에서 먼저 검증 후 운영 환경 적용
+- 사용자 그룹별로 단계적 배포 권장
+- 정기적인 프로세스 검토 및 개선
+:::
 
 ## 실무 활용 예시
 
@@ -65,38 +75,23 @@ And that's how you can apply any action on a predecessor ticket's successor tick
 
 ### 자주 발생하는 문제
 
-#### 문제: 온보딩 프로세스 지연
-**원인**: 승인 단계의 병목 현상 또는 문서 누락
+#### 문제: 프로세스 진행 지연
+**원인**: 승인 단계의 병목 현상 또는 필수 정보 누락
 **해결**: 
 1. 자동 에스컬레이션 규칙 설정으로 지연 방지
 2. 체크리스트 기반 진행 상황 실시간 모니터링
 3. 백업 승인자 지정으로 프로세스 연속성 보장
 
-:::warning 주의사항
-승인자가 부재 중일 때를 대비해 반드시 백업 승인자를 설정하세요.
+:::success 해결 완료
+프로세스가 정상적으로 진행됩니다.
 :::
 
-#### 문제: 시스템 접근 권한 설정 오류
+#### 문제: 권한 설정 오류
 **원인**: 역할별 권한 매핑 설정 미흡
 **해결**:
 1. 표준 역할 템플릿 사전 정의
 2. 권한 검증 프로세스 자동화
 3. 오류 발생 시 즉시 알림 시스템 구축
-
-:::success 해결 완료
-권한 설정이 정상적으로 완료되었습니다.
-:::
-
-## 모범 사례
-
-### 효율적인 온보딩을 위한 체크리스트
-
-:::tip 온보딩 성공 요소
-- **사전 준비**: 입사 전 필요한 모든 자료와 계정 준비
-- **개인화**: 역할과 부서에 맞는 맞춤형 온보딩 경험 제공
-- **피드백**: 정기적인 진행 상황 점검 및 개선사항 수집
-- **문서화**: 모든 과정을 문서화하여 향후 참조 및 개선에 활용
-:::
 
 ## 관련 기능 연계
 

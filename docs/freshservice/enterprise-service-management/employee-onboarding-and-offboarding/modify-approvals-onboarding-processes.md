@@ -4,27 +4,43 @@ sidebar_position: 6
 
 # 온보딩 승인 프로세스 수정
 
-<div className="subtitle">
-  이 문서는 "Modify Approvals for Onboarding Processes" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+Freshservice의 온보딩 승인 프로세스 수정을 통해 효율적인 직원 라이프사이클 관리를 구현할 수 있습니다.
 
-## 기능 개요
+:::info 주요 특징
+- 자동화된 프로세스로 업무 효율성 극대화
+- 실시간 진행 상황 추적 및 모니터링
+- 역할 기반 권한 관리 및 승인 워크플로
+:::
 
-Every service desk has multiple approval workflows configured to work under various scenarios. But, you might want to configure approvals differently when it comes to your onboarding requests.
+## 기능 설정 방법
 
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001284519/original/z0lF_BbUccfrKPgusRMgmU830ptKGfEyKg.png?1592397359)
+### 1단계: 기본 설정 구성
 
-To configure your approvals,
+1. **관리자 → 서비스 관리 → 직원 온보딩**으로 이동
+2. **'새 설정'** 버튼 클릭
+3. 필요한 권한 및 역할 설정
 
-- You can choose to skip approval emails and auto-approve tickets.
-- Tickets will be auto-approved by the selected stakeholders if they are a part of your workflows
-- Map the following fields from the onboarding form to route auto-approvals and approval emails to the right stakeholders.Reporting Manager’s Email AddressEmployee’s Team
-- Reporting Manager’s Email Address
-- Employee’s Team
+### 2단계: 상세 옵션 구성
 
-Great work! You now have an onboarding process in place. Hit thetoggle in the top right corner of your onboarding module toEnableyour onboarding process.
+1. 워크플로 규칙 정의
+2. 알림 및 에스컬레이션 설정
+3. 테스트 실행으로 동작 확인
 
-To understand how to raise an onboarding request from the end-user portal, check out the article[here](https://support.freshservice.com/en/support/solutions/articles/239003).
+:::warning 중요 사항
+설정 변경 시 기존 진행 중인 프로세스에 영향을 줄 수 있으니 주의하세요.
+:::
+
+## 원본 기능 상세 정보
+
+```html
+<p style={{line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;}}>Every service desk has multiple approval workflows configured to work under various scenarios. But, you might want to configure approvals differently when it comes to your onboarding requests.&nbsp;</span></p><p style={{line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><br style={{font-family: &quot;Helvetica Neue&quot;;}}></span></span></p><p style={{line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}><span style={{border: none; display: inline-block; overflow: hidden; width: 624px; height: 352px; font-family: &quot;Helvetica Neue&quot;;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001284519/original/z0lF_BbUccfrKPgusRMgmU830ptKGfEyKg.png?1592397359" width="624" height="352" style={{font-family: &quot;Helvetica Neue&quot;;}}></span></span></span></span></p><p style={{font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><br style={{font-family: &quot;Helvetica Neue&quot;;}}></span></span></p><p style={{line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>To configure your approvals,</span></span></span></p><ul style={{margin-bottom: 0px; font-family: &quot;Helvetica Neue&quot;;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 700; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>You can choose to skip approval emails and auto-approve tickets.</span></span></span></p></li><li style={{list-style-type: disc; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>Tickets will be auto-approved by the selected stakeholders if they are a part of your workflows</span></span></span></p></li><li style={{list-style-type: disc; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>Map the following fields from the onboarding form to route auto-approvals and approval emails to the right stakeholders.</span></span></span></p><ul style={{margin-bottom: 0px; font-family: &quot;Helvetica Neue&quot;;}}><ul style={{margin-bottom: 0px; font-family: &quot;Helvetica Neue&quot;;}}><li style={{list-style-type: square; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>Reporting Manager’s Email Address&nbsp;</span></span></span></p></li><li style={{list-style-type: square; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>Employee’s Team<br style={{font-family: &quot;Helvetica Neue&quot;;}}></span><br style={{font-family: &quot;Helvetica Neue&quot;;}}></span></span></p></li></ul></ul></li></ul><p style={{font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>Great work! You now have an onboarding process in place. Hit the<strong style={{font-family: &quot;Helvetica Neue&quot;;}}>&nbsp;</strong>toggle in the top right corner of your onboarding module to <strong style={{font-family: &quot;Helvetica Neue&quot;;}}>Enable&nbsp;</strong>your onboarding process. </span></span></span></p><p style={{font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><br style={{font-family: &quot;Helvetica Neue&quot;;}}></span></p><p style={{font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><br style={{font-family: &quot;Helvetica Neue&quot;;}}></span></p><p><span style={{font-family: Helvetica Neue;}}>To understand how to raise an onboarding request from the end-user portal, check out the article <a href="https://support.freshservice.com/en/support/solutions/articles/239003" style={{font-family: &quot;Helvetica Neue&quot;;}}>here</a>.</span></p>
+```
+
+:::tip 효율적인 활용
+- 테스트 환경에서 먼저 검증 후 운영 환경 적용
+- 사용자 그룹별로 단계적 배포 권장
+- 정기적인 프로세스 검토 및 개선
+:::
 
 ## 실무 활용 예시
 
@@ -59,38 +75,23 @@ To understand how to raise an onboarding request from the end-user portal, check
 
 ### 자주 발생하는 문제
 
-#### 문제: 온보딩 프로세스 지연
-**원인**: 승인 단계의 병목 현상 또는 문서 누락
+#### 문제: 프로세스 진행 지연
+**원인**: 승인 단계의 병목 현상 또는 필수 정보 누락
 **해결**: 
 1. 자동 에스컬레이션 규칙 설정으로 지연 방지
 2. 체크리스트 기반 진행 상황 실시간 모니터링
 3. 백업 승인자 지정으로 프로세스 연속성 보장
 
-:::warning 주의사항
-승인자가 부재 중일 때를 대비해 반드시 백업 승인자를 설정하세요.
+:::success 해결 완료
+프로세스가 정상적으로 진행됩니다.
 :::
 
-#### 문제: 시스템 접근 권한 설정 오류
+#### 문제: 권한 설정 오류
 **원인**: 역할별 권한 매핑 설정 미흡
 **해결**:
 1. 표준 역할 템플릿 사전 정의
 2. 권한 검증 프로세스 자동화
 3. 오류 발생 시 즉시 알림 시스템 구축
-
-:::success 해결 완료
-권한 설정이 정상적으로 완료되었습니다.
-:::
-
-## 모범 사례
-
-### 효율적인 온보딩을 위한 체크리스트
-
-:::tip 온보딩 성공 요소
-- **사전 준비**: 입사 전 필요한 모든 자료와 계정 준비
-- **개인화**: 역할과 부서에 맞는 맞춤형 온보딩 경험 제공
-- **피드백**: 정기적인 진행 상황 점검 및 개선사항 수집
-- **문서화**: 모든 과정을 문서화하여 향후 참조 및 개선에 활용
-:::
 
 ## 관련 기능 연계
 

@@ -4,44 +4,43 @@ sidebar_position: 5
 
 # 온보딩 티켓 생성
 
-<div className="subtitle">
-  이 문서는 "Creating Onboarding Tickets" 기능의 개념과 설정 방법을 안내하는 문서입니다.
-</div>
+Freshservice의 온보딩 티켓 생성을 통해 효율적인 직원 라이프사이클 관리를 구현할 수 있습니다.
 
-## 기능 개요
+:::info 주요 특징
+- 자동화된 프로세스로 업무 효율성 극대화
+- 실시간 진행 상황 추적 및 모니터링
+- 역할 기반 권한 관리 및 승인 워크플로
+:::
 
-When an onboarding request is raised, you might want to split and assign tasks between various teams. For example, if there are IT services and HR services that have to be provided as a part of an onboarding request, you will have to assign these subtasks to respective teams.
+## 기능 설정 방법
 
-To enable this, you can create the parent and child tickets which will be created as a part of the onboarding request.
+### 1단계: 기본 설정 구성
 
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001284479/original/6BR2rg6J6_GIIthPGmfAUrtu3Ch3xV7Zog.png?1592397029)
+1. **관리자 → 서비스 관리 → 직원 온보딩**으로 이동
+2. **'새 설정'** 버튼 클릭
+3. 필요한 권한 및 역할 설정
 
-Creating Child Tickets
+### 2단계: 상세 옵션 구성
 
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001284484/original/gagwT2jcMnA85J-EWeLXH0kTTGH0pIX5TQ.gif?1592397051)
+1. 워크플로 규칙 정의
+2. 알림 및 에스컬레이션 설정
+3. 테스트 실행으로 동작 확인
 
-- Click onCreate Child Ticket.
-- InAssign to, choose which Agent group you want to assign this ticket to.
-- Add fields from the Onboarding form to include information about the hires in your ticket.
-- Now add the onboarding items that have to be provided as a part of this child ticket. You can choose items from the service items you’ve added to the onboarding kits in the previous steps.
-- Click onCreateto create the child ticket.
+:::warning 중요 사항
+설정 변경 시 기존 진행 중인 프로세스에 영향을 줄 수 있으니 주의하세요.
+:::
 
-Editing the Parent Ticket
+## 원본 기능 상세 정보
 
-![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001295553/original/3dBshTmyBEDAI_oOX6RoeHiDHUl-YQrOpg.png?1592496070)
+```html
+<p style={{line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;}}>When an onboarding request is raised, you might want to split and assign tasks between various teams. For example, if there are IT services and HR services that have to be provided as a part of an onboarding request, you will have to assign these subtasks to respective teams.</span></p><p style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><br style={{font-family: &quot;Helvetica Neue&quot;;}}></span></span></p><p style={{line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>To enable this, you can create the parent and child tickets which will be created as a part of the onboarding request.&nbsp;</span></span></span></p><p style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><br style={{font-family: &quot;Helvetica Neue&quot;;}}></span></span></p><p style={{line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}><span style={{border: none; display: inline-block; overflow: hidden; width: 624px; height: 352px; font-family: &quot;Helvetica Neue&quot;;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001284479/original/6BR2rg6J6_GIIthPGmfAUrtu3Ch3xV7Zog.png?1592397029" width="624" height="352" style={{font-family: &quot;Helvetica Neue&quot;;}}></span></span></span></span></p><p style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><br style={{font-family: &quot;Helvetica Neue&quot;;}}></span></span></p><p style={{line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;}}>Creating Child Tickets &nbsp;</span></span></span></p><p style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><br style={{font-family: &quot;Helvetica Neue&quot;;}}></span></span></p><p style={{line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;}}><span style={{border: none; display: inline-block; overflow: hidden; width: 624px; height: 304px; font-family: &quot;Helvetica Neue&quot;;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001284484/original/gagwT2jcMnA85J-EWeLXH0kTTGH0pIX5TQ.gif?1592397051" width="624" height="304" style={{font-family: &quot;Helvetica Neue&quot;;}}></span></span></span></span></p><ul style={{margin-bottom: 0px; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><li style={{list-style-type: disc; font-size: 14px; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>Click on&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;}}>Create Child Ticket.&nbsp;</span></span></span></p></li><li style={{list-style-type: disc; font-size: 14px; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>In&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;}}>Assign to</span><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>, choose which Agent group you want to assign this ticket to.</span></span></span></p></li><li style={{list-style-type: disc; font-size: 14px; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>Add fields from the Onboarding form to include information about the hires in your ticket.</span></span></span></p></li><li style={{list-style-type: disc; font-size: 14px; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>Now add the onboarding items that have to be provided as a part of this child ticket. You can choose items from the service items you’ve added to the onboarding kits in the previous steps.&nbsp;</span></span></span></p></li><li style={{list-style-type: disc; font-size: 14px; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>Click on&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;}}>Create&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>to create the child ticket.<br style={{font-family: &quot;Helvetica Neue&quot;;}}><br style={{font-family: &quot;Helvetica Neue&quot;;}}></span></span></span></p></li></ul><p style={{line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;}}>Editing the Parent Ticket</span></span></span></p><p style={{line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><br style={{font-family: &quot;Helvetica Neue&quot;;}}></span></span></p><p style={{line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001295553/original/3dBshTmyBEDAI_oOX6RoeHiDHUl-YQrOpg.png?1592496070" style={{width: 497px; font-family: &quot;Helvetica Neue&quot;;}} ></span><br style={{font-family: &quot;Helvetica Neue&quot;;}}></span></span></p><ul style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><li style={{list-style-type: disc; font-size: 14px; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>Click on <span style={{border: none; display: inline-block; overflow: hidden; width: 27px; height: 25px; font-family: &quot;Helvetica Neue&quot;;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001284474/original/RAB8j2jIsO-rfByw05vE-8ut1v28ZPVUzg.png?1592397025" width="27" height="25" style={{font-family: &quot;Helvetica Neue&quot;;}}></span>on the parent ticket to the edit.</span></span></span></p></li><li style={{list-style-type: disc; font-size: 14px; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>In&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;}}>Assign to</span><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>, choose which Agent group you want to assign this ticket to.</span></span></span></p></li><li style={{list-style-type: disc; font-size: 14px; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>Add fields from the Onboarding form to include information about the hires in your ticket.</span></span></span></p></li><li style={{list-style-type: disc; font-size: 14px; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400; margin-left: 36pt;}}><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>Now add the onboarding items that have to be provided as a part of this child ticket. All service items you’ve added to the onboarding kits in the previous steps will be automatically included to this ticket. Click on&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;}}>Save&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;}}>to create the child ticket.</span></span></span></p></li></ul><p style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><span style={{font-family: Helvetica Neue;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><br style={{font-family: &quot;Helvetica Neue&quot;;}}></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}>Your onboarding tickets are good to go! Now, go ahead and <a href="https://support.freshservice.com/en/support/solutions/articles/50000002366" style={{font-family: &quot;Helvetica Neue&quot;;}}>Modify Approvals</a> in Step 4.</span></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><br></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><strong>Faq:</strong></span></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><strong><br></strong></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}><strong >1. Where can I find the onboarding ticket fields of the stakeholders?</strong></span></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><br></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px; font-family: &quot;Helvetica Neue&quot;;}}>Navigate to <strong>Admin / Global Settings &gt; Employee Onboarding &gt;</strong> Under <strong >Add Stakeholders</strong> after clicking on the respective stakeholder you will be able to view their fields.</span></p><p ><br ></p>
+```
 
-- Click on![기능 스크린샷](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001284474/original/RAB8j2jIsO-rfByw05vE-8ut1v28ZPVUzg.png?1592397025)on the parent ticket to the edit.
-- InAssign to, choose which Agent group you want to assign this ticket to.
-- Add fields from the Onboarding form to include information about the hires in your ticket.
-- Now add the onboarding items that have to be provided as a part of this child ticket. All service items you’ve added to the onboarding kits in the previous steps will be automatically included to this ticket. Click onSaveto create the child ticket.
-
-Your onboarding tickets are good to go! Now, go ahead and[Modify Approvals](https://support.freshservice.com/en/support/solutions/articles/50000002366)in Step 4.
-
-Faq:
-
-1. Where can I find the onboarding ticket fields of the stakeholders?
-
-Navigate toAdmin / Global Settings > Employee Onboarding >UnderAdd Stakeholdersafter clicking on the respective stakeholder you will be able to view their fields.
+:::tip 효율적인 활용
+- 테스트 환경에서 먼저 검증 후 운영 환경 적용
+- 사용자 그룹별로 단계적 배포 권장
+- 정기적인 프로세스 검토 및 개선
+:::
 
 ## 실무 활용 예시
 
@@ -76,38 +75,23 @@ Navigate toAdmin / Global Settings > Employee Onboarding >UnderAdd Stakeholdersa
 
 ### 자주 발생하는 문제
 
-#### 문제: 온보딩 프로세스 지연
-**원인**: 승인 단계의 병목 현상 또는 문서 누락
+#### 문제: 프로세스 진행 지연
+**원인**: 승인 단계의 병목 현상 또는 필수 정보 누락
 **해결**: 
 1. 자동 에스컬레이션 규칙 설정으로 지연 방지
 2. 체크리스트 기반 진행 상황 실시간 모니터링
 3. 백업 승인자 지정으로 프로세스 연속성 보장
 
-:::warning 주의사항
-승인자가 부재 중일 때를 대비해 반드시 백업 승인자를 설정하세요.
+:::success 해결 완료
+프로세스가 정상적으로 진행됩니다.
 :::
 
-#### 문제: 시스템 접근 권한 설정 오류
+#### 문제: 권한 설정 오류
 **원인**: 역할별 권한 매핑 설정 미흡
 **해결**:
 1. 표준 역할 템플릿 사전 정의
 2. 권한 검증 프로세스 자동화
 3. 오류 발생 시 즉시 알림 시스템 구축
-
-:::success 해결 완료
-권한 설정이 정상적으로 완료되었습니다.
-:::
-
-## 모범 사례
-
-### 효율적인 온보딩을 위한 체크리스트
-
-:::tip 온보딩 성공 요소
-- **사전 준비**: 입사 전 필요한 모든 자료와 계정 준비
-- **개인화**: 역할과 부서에 맞는 맞춤형 온보딩 경험 제공
-- **피드백**: 정기적인 진행 상황 점검 및 개선사항 수집
-- **문서화**: 모든 과정을 문서화하여 향후 참조 및 개선에 활용
-:::
 
 ## 관련 기능 연계
 
