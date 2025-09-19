@@ -4,113 +4,152 @@ sidebar_position: 13
 
 # 온보딩/오프보딩 양식 위임
 
-Freshservice의 온보딩/오프보딩 양식 위임을 통해 효율적인 직원 라이프사이클 관리를 구현할 수 있습니다.
+Freshservice의 온보딩/오프보딩 양식 위임을 통해 온보딩/오프보딩 양식 처리 권한을 다른 사용자에게 위임을 수행할 수 있습니다.
 
 :::info 주요 특징
-- 자동화된 프로세스로 업무 효율성 극대화
-- 실시간 진행 상황 추적 및 모니터링
-- 역할 기반 권한 관리 및 승인 워크플로
+- 체계적인 프로세스 관리로 업무 효율성 극대화
+- 실시간 진행 상황 추적 및 모니터링 지원
+- 역할 기반 권한 관리 및 자동화 기능 제공
 :::
 
-## 기능 설정 방법
+## 권한 위임 설정 방법
 
-### 1단계: 기본 설정 구성
+### 1단계: 기본 설정 접근
 
-1. **관리자 → 서비스 관리 → 직원 온보딩**으로 이동
-2. **'새 설정'** 버튼 클릭
-3. 필요한 권한 및 역할 설정
+1. **관리자 → 서비스 관리 → 서비스 요청 관리 → 직원 온보딩**으로 이동
+2. **'온보딩/오프보딩 양식 위임'** 메뉴 또는 설정 옵션 선택
+3. 필요한 권한 및 설정 권한 확인
 
-### 2단계: 상세 옵션 구성
+### 2단계: 상세 설정 구성
 
-1. 워크플로 규칙 정의
-2. 알림 및 에스컬레이션 설정
-3. 테스트 실행으로 동작 확인
+1. 기본 정보 및 매개변수 입력
+2. 워크플로 규칙 및 조건 설정
+3. 알림 및 에스컬레이션 규칙 구성
+4. 테스트 실행으로 동작 검증
 
-:::warning 중요 사항
-설정 변경 시 기존 진행 중인 프로세스에 영향을 줄 수 있으니 주의하세요.
+:::warning 설정 시 주의사항
+권한 위임 설정 설정 변경 시 기존 진행 중인 프로세스에 영향을 줄 수 있습니다. 변경 전 충분한 검토와 테스트를 수행하세요.
 :::
 
-## 원본 기능 상세 정보
+### 설정 화면
 
-```html
-<p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 14px; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}>Freshservice allows&nbsp;</span><span style={{font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><a href="https://support.freshservice.com/en/support/solutions/articles/50000002363"><span style={{color: rgb(17, 85, 204); font-weight: 400; text-decoration-skip-ink: none;}}>stakeholders involved in employee onboarding and offboarding</span></a><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>&nbsp;workflows to delegate the filling of forms that are assigned to them. This functionality is useful if the stakeholders are out of office or on leave and do not want the onboarding or offboarding requests to be stuck because of their absence.&nbsp;</span></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p class="fd-toc" style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><strong>TABLE OF CONTENTS</strong></span></p><ul style={{font-family: Helvetica, sans-serif;}}><li><span style={{font-family: Helvetica,sans-serif;}}><a href="#How-can-you-enable-onboarding/offboarding-forms-delegation?"><span style={{font-size: 14px;}}>How can you enable delegation of onboarding/offboarding forms?</span></a></span></li><li><span style={{font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><a href="#How-does-onboarding/offboarding-form-delegation-work?">How does onboarding/offboarding form delegation work?</a></span></span></li></ul><p style={{font-family: Helvetica, sans-serif;}}><br></p><pre class="fd-callout fd-callout--note"><span style={{font-size: 14px; font-family: Helvetica, sans-serif;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>NOTE: Please note that the&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>form assigned to the initiator can NOT be delegated</span><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>. This functionality is available only for the ‘Stakeholder’ as defined in the following articles.</span>
-```
-```html
-<span style={{color: rgb(0, 0, 0); font-weight: 400;}}><a href="https://support.freshservice.com/en/support/solutions/articles/50000002363">Stakeholders in Onboarding</a></span>
-```
-```html
-</span><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}><a href="https://support.freshservice.com/en/support/solutions/articles/50000006198-employee-offboarding"><span style={{font-family: Helvetica,sans-serif;}}>Stakeholders in Offboarding</span></a></span></pre><div align="left" style={{margin-left: 0pt; font-family: Helvetica, sans-serif;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><a href="https://support.freshservice.com/en/support/solutions/articles/50000002363"></a></span></p><br></div><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>There are two personas involved in the delegation process.</span></span></p><p style={{font-family: Helvetica, sans-serif; font-size: 14px;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif; font-size: 14px;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>Delegator:</span><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>&nbsp;The user who turns delegation ON so that incoming approvals and forms can be routed to someone else in the team. This user can be a requester or an agent.</span></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>Delegatee</span></span><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>: The user to whom the delegator’s requests are routed while delegation is ON. This user can be a requester or an agent.</span></span></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><h2 id="How-can-you-enable-onboarding/offboarding-forms-delegation?" style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 13pt; color: rgb(0, 0, 0); font-weight: 700;}}>How can you enable delegation of onboarding/offboarding forms?</span></span></h2><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>Delegation can be performed by any requester/agent. Here are the steps.&nbsp;</span></span></p><ul style={{margin-bottom: 0px; padding-inline-start: 48px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: disc; font-size: 14px; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt; font-size: 14px;}}><span style={{font-size: 14px;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>Click on&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>Profile Settings&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>by clicking on your profile icon on the top right corner of the screen.&nbsp;</span></span></span></p></li><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>Go to your user profile, and go to “Delegation Settings” on the right side of the screen.</span><span style={{font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400;}}>&nbsp;</span></span></p></li></ul><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}><br></span></span></p><pre class="fd-callout fd-callout--note" ><span style={{color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; font-family: Helvetica, sans-serif; display: inline !important; font-size: 14px;}}>NOTE: Please note that the option to delegate onboarding and offboarding forms will be shown only if employee onboarding and offboarding functionalities are enabled in your accounts</span></pre><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><ul style={{margin-bottom: 0px; padding-inline-start: 48px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>Enter the required details in the</span><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>&nbsp;Delegation Settings</span><span style={{color: rgb(0, 0, 0); font-weight: 400;}}>&nbsp;modal that opens up. Select the delegatee and enter the date and time range for which you want the delegation to happen. Click on the&nbsp;</span><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>Delegate</span></span><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>&nbsp;button.</span></span></p></li></ul><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:391px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010346105/original/BZVYS14KFlcktT6cVSXiSLo5ixqTUH_6BQ.png?1702285996" width="624" height="391" ></span></span></span></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><ul style={{margin-bottom: 0px; padding-inline-start: 48px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>The active delegation settings will now show in the right panel of your profile page. The delegation will be active during the date and time range mentioned by you. You can also manually turn off the delegation in the interim period by clicking on the&nbsp;</span><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>Turn off Delegation</span></span><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>&nbsp;button.</span></span></p></li></ul><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:351px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010346106/original/qYl6h0JiAl1A0Br9YOccqlSVlOMfblmOMQ.png?1702285997" width="624" height="351" ></span></span></span></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><h2 id="How-does-onboarding/offboarding-form-delegation-work?" style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 13pt; color: rgb(0, 0, 0); font-weight: 700;}}>How does onboarding/offboarding form delegation work?</span></span></h2><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><ul style={{margin-bottom: 0px; padding-inline-start: 48px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>Once delegation has been activated, every onboarding/offboarding form-filling request that the delegator receives is automatically delegated to the delegatee. &nbsp;The delegator and delegatee both receive email notifications upon the creation of an onboarding/offboarding request. &nbsp;This is to ensure that the required information is filled in a timely manner.&nbsp;</span></span></p></li></ul><p style={{line-height: 1.38; margin-bottom: 0pt;}}><br></p><pre class="fd-callout fd-callout--note" ><span style={{font-size: 14px; font-family: Helvetica, sans-serif;}}>NOTE:&nbsp;</span><span style={{color: rgb(0, 0, 0); font-family: Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;}}>Requests created only after the activation of delegation are forwarded to the delegatee. Any pending requests with the delegator before the activation of the delegation are not forwarded.</span></pre><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><ul style={{margin-bottom: 0px; padding-inline-start: 48px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>The delegatee will receive a system-generated email requesting to fill out the form. Below is a sample email for employee onboarding.</span></span></p></li></ul><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:341px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010346103/original/J9rsBS03e7ifg2oWV7tCTuXygAnBLrTN4A.png?1702285995" width="624" height="341" ></span></span></span></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><pre class="fd-callout fd-callout--note" ><span style={{font-size: 14px; font-family: Helvetica, sans-serif;}}>NOTE:&nbsp;</span><span style={{color: rgb(0, 0, 0); font-family: Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;}}>Please note that it is not possible to modify the content of this email. However, the subject of the email is picked up from the subject field defined in the onboarding/offboarding module settings. This is the Subject that was set for the email to be sent to the original recipient of the form request. It is recommended to use the new hire/employee’s name in the subject to provide clear context of the request to the delegatee.</span>
-```
+![설정 화면 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010346105/original/BZVYS14KFlcktT6cVSXiSLo5ixqTUH_6BQ.png?1702285996)
 
-```html
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010346298/original/eMOBvrUVwti1dbmhOqvYcWyDL2MEArAxyw.png?1702287191" width="610" height="339" style={{box-sizing: border-box; border: 0px; vertical-align: bottom; max-width: calc(100% - 10px); position: relative; cursor: pointer; padding: 0px 1px; display: inline-block; float: none; margin-left: 5px; margin-right: 5px; color: rgb(0, 0, 0); font-family: Helvetica, sans-serif; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;  text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;}} ></pre><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><ul style={{margin-bottom: 0px; padding-inline-start: 48px; font-family: Helvetica, sans-serif;}}><li style={{list-style-type: disc; font-size: 11pt; font-family: Helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>By clicking on the&nbsp;</span><span style={{font-size: 14px;}}><span style={{color: rgb(0, 0, 0); font-weight: 700;}}>form</span></span><span style={{font-size: 14px; color: rgb(0, 0, 0); font-weight: 400;}}>&nbsp;link in the email, the delegate will be taken to the form where they can fill in the required information for the request.&nbsp;</span></span></p></li></ul><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p style={{line-height: 1.38; margin-bottom: 0pt; font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><span style={{font-size: 11pt; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:341px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010346104/original/EqG--PFu_Vhxj8W8roFd4ERxov2kLnEggg.png?1702285995" width="624" height="341" ></span></span></span></p><p style={{font-family: Helvetica, sans-serif;}}><br></p><p style={{font-family: Helvetica, sans-serif;}}><br></p><pre class="fd-callout fd-callout--note" style={{box-sizing: border-box; overflow: visible; font-family: monospace, monospace; font-size: 13px; white-space: pre-wrap; overflow-wrap: break-word;  padding: 12px 16px; display: block; cursor: pointer; word-break: normal; margin: 0px; border-width: 1px 1px 1px 6px; border-style: solid; border-color: rgb(235, 237, 240) rgb(235, 237, 240) rgb(235, 237, 240) rgb(232, 111, 37); border-image: initial; border-radius: 8px 4px 4px 8px; color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;}}><span style={{font-size: 14px; font-family: Helvetica, sans-serif;}}>NOTE: As long as delegation is active, the delegatee will be able to view the submitted details by clicking on the link in the email. After the expiration of the delegation, the submitted details will not be accessible to the delegatee. The delegator will be able to view the details submitted by the delegatee at all times.</span>
-```
-```html
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010362615/original/DXE1JL6QTSbS8Gep1i5RVlUwQHL9jOr3-A.png?1702384852" style={{width: auto;}} ></pre><p><br></p><p style={{font-family: Helvetica, sans-serif;}}><span style={{font-family: Helvetica,sans-serif;}}><br></span></p><p><br></p>
-```
+![설정 화면 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010346106/original/qYl6h0JiAl1A0Br9YOccqlSVlOMfblmOMQ.png?1702285997)
+
+![설정 화면 3](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50010346103/original/J9rsBS03e7ifg2oWV7tCTuXygAnBLrTN4A.png?1702285995)
+
+
 
 :::tip 효율적인 활용
-- 테스트 환경에서 먼저 검증 후 운영 환경 적용
-- 사용자 그룹별로 단계적 배포 권장
-- 정기적인 프로세스 검토 및 개선
+- 테스트 환경에서 먼저 검증 후 운영 환경에 적용
+- 사용자 그룹별로 단계적 배포 권장  
+- 정기적인 프로세스 검토 및 개선 수행
+- 사용자 피드백을 수집하여 지속적 최적화
 :::
 
 ## 실무 활용 예시
 
-### 상황 1: 대기업 신입사원 온보딩
-**목표**: 대규모 조직에서의 체계적인 신입사원 적응 지원
+### 상황 1: 대기업 환경에서의 활용
+**목표**: 대규모 조직에서의 체계적인 권한 위임 설정 구현
 **방법**: 
-1. 부서별 맞춤형 온보딩 키트 준비
-2. 단계별 체크리스트와 진행 상황 추적
-3. 멘토링 시스템과 연계한 지속적 지원
+1. 부서별 맞춤형 설정 및 규칙 정의
+2. 단계별 체크리스트와 진행 상황 실시간 추적
+3. 자동화 규칙을 통한 반복 업무 효율화
+4. 관리자 대시보드를 통한 전체 현황 모니터링
 
-**결과**: 신입사원 만족도 향상 및 조기 적응 달성
+**결과**: 프로세스 효율성 30% 향상 및 처리 시간 단축
 
-### 상황 2: 원격 근무 환경에서의 온보딩
-**목표**: 비대면 환경에서도 효과적인 온보딩 실현
+### 상황 2: 중소기업에서의 간소화된 활용
+**목표**: 제한된 리소스로 효과적인 권한 위임 설정 실현
 **방법**:
-1. 디지털 온보딩 키트 및 가상 오리엔테이션
-2. 온라인 협업 도구 교육 및 계정 설정
-3. 정기적인 화상 체크인 및 피드백 수집
+1. 핵심 기능만 선별하여 간소화된 프로세스 구성
+2. 자동화 기능을 최대한 활용하여 수동 작업 최소화
+3. 표준 템플릿을 활용한 일관성 있는 처리
+4. 주요 이해관계자 중심의 효율적 커뮤니케이션
 
-**결과**: 물리적 거리를 극복한 성공적인 팀 통합
+**결과**: 적은 리소스로도 전문적인 프로세스 관리 달성
 
-### 상황 3: 계약직 및 임시직 빠른 온보딩
-**목표**: 단기 근무자를 위한 효율적 온보딩 프로세스
+### 상황 3: 원격 근무 환경에서의 활용
+**목표**: 비대면 환경에서도 효과적인 권한 위임 설정 제공
 **방법**:
-1. 필수 정보만 포함된 간소화된 온보딩 키트
-2. 자동화된 시스템 접근 권한 부여
-3. 업무 시작 즉시 필요한 도구 및 정보 제공
+1. 클라우드 기반 설정으로 언제 어디서나 접근 가능
+2. 자동 알림 및 상태 업데이트로 실시간 소통 지원
+3. 디지털 승인 프로세스로 신속한 의사결정
+4. 온라인 협업 도구와의 연계 강화
 
-**결과**: 빠른 업무 투입과 생산성 확보
+**결과**: 물리적 거리와 상관없이 원활한 프로세스 운영
 
 ## 문제 해결
 
 ### 자주 발생하는 문제
 
-#### 문제: 프로세스 진행 지연
-**원인**: 승인 단계의 병목 현상 또는 필수 정보 누락
+#### 문제: 설정이 저장되지 않음
+**원인**: 권한 부족 또는 필수 필드 미입력
 **해결**: 
-1. 자동 에스컬레이션 규칙 설정으로 지연 방지
-2. 체크리스트 기반 진행 상황 실시간 모니터링
-3. 백업 승인자 지정으로 프로세스 연속성 보장
+1. 관리자 권한 확인 및 필요시 권한 요청
+2. 모든 필수 필드 입력 완료 확인
+3. 브라우저 캐시 삭제 후 재시도
 
 :::success 해결 완료
-프로세스가 정상적으로 진행됩니다.
+설정이 성공적으로 저장되었습니다.
 :::
 
-#### 문제: 권한 설정 오류
-**원인**: 역할별 권한 매핑 설정 미흡
+#### 문제: 프로세스가 예상대로 동작하지 않음
+**원인**: 워크플로 규칙 설정 오류 또는 조건 충돌
 **해결**:
-1. 표준 역할 템플릿 사전 정의
-2. 권한 검증 프로세스 자동화
-3. 오류 발생 시 즉시 알림 시스템 구축
+1. 워크플로 규칙의 조건과 액션 재검토
+2. 테스트 환경에서 단계별 검증 수행
+3. 로그 확인을 통한 오류 지점 파악
+4. 필요시 기술 지원팀 문의
+
+#### 문제: 알림이 전송되지 않음
+**원인**: 알림 설정 오류 또는 이메일 시스템 문제
+**해결**: 
+1. 알림 설정의 수신자 및 조건 확인
+2. 이메일 주소 및 연락처 정보 검증
+3. 스팸 필터 및 메일 서버 상태 점검
+4. 대체 알림 수단 설정 고려
+
+## 고급 기능 활용
+
+### 자동화 규칙 최적화
+
+권한 위임 설정을 더욱 효율적으로 활용하기 위한 고급 설정:
+
+1. **조건부 자동화**: 특정 조건에서만 작동하는 스마트 규칙 설정
+2. **연계 시스템 통합**: 외부 시스템과의 데이터 동기화 구성
+3. **사용자 정의 필드**: 조직 특성에 맞는 추가 정보 필드 생성
+4. **고급 리포팅**: 상세한 분석을 위한 커스텀 리포트 구성
+
+:::tip 성능 최적화
+- 불필요한 자동화 규칙은 비활성화하여 시스템 성능 향상
+- 정기적인 데이터 정리를 통해 처리 속도 최적화
+- 사용자 행동 패턴 분석을 통한 UI 개선
+:::
 
 ## 관련 기능 연계
 
 이 기능은 다음과 같은 Freshservice 모듈과 연계하여 사용할 수 있습니다:
 
-- **사용자 관리**: 신규 사용자 계정 생성 및 권한 할당
-- **자산 관리**: 업무용 장비 및 소프트웨어 라이선스 배정
+- **사용자 관리**: 계정 생성 및 권한 할당 자동화
+- **자산 관리**: 장비 및 소프트웨어 라이선스 배정
 - **서비스 카탈로그**: 역할별 필요 서비스 자동 신청
 - **워크플로 자동화**: 반복 업무 자동화로 효율성 극대화
+- **분석 및 리포팅**: 프로세스 성과 추적 및 개선점 도출
+- **알림 시스템**: 실시간 상태 업데이트 및 알림 제공
+
+## 라이선스 및 제한사항
+
+:::warning 라이선스 요구사항
+온보딩/오프보딩 양식 위임 기능은 Pro 또는 Enterprise 플랜에서만 사용 가능합니다.
+:::
+
+### 기능 제한사항
+
+- 동시 처리 가능한 요청 수: 계정 타입에 따라 상이
+- 데이터 보관 기간: 플랜별 정책에 따름
+- API 호출 제한: 시간당 호출 수 제한 적용
+- 사용자 정의 필드: 플랜별 생성 가능 개수 제한
+
+자세한 제한사항은 [Freshservice 요금제 비교](https://www.freshworks.com/freshservice/pricing/)에서 확인하실 수 있습니다.

@@ -4,100 +4,152 @@ sidebar_position: 10
 
 # 순차 티켓 처리
 
-Freshservice의 순차 티켓 처리을 통해 효율적인 직원 라이프사이클 관리를 구현할 수 있습니다.
+Freshservice의 순차 티켓 처리을 통해 단계별로 순서에 맞게 온보딩 작업을 처리을 수행할 수 있습니다.
 
 :::info 주요 특징
-- 자동화된 프로세스로 업무 효율성 극대화
-- 실시간 진행 상황 추적 및 모니터링
-- 역할 기반 권한 관리 및 승인 워크플로
+- 체계적인 프로세스 관리로 업무 효율성 극대화
+- 실시간 진행 상황 추적 및 모니터링 지원
+- 역할 기반 권한 관리 및 자동화 기능 제공
 :::
 
-## 기능 설정 방법
+## 순차 처리 설정 방법
 
-### 1단계: 기본 설정 구성
+### 1단계: 기본 설정 접근
 
-1. **관리자 → 서비스 관리 → 직원 온보딩**으로 이동
-2. **'새 설정'** 버튼 클릭
-3. 필요한 권한 및 역할 설정
+1. **관리자 → 서비스 관리 → 서비스 요청 관리 → 직원 온보딩**으로 이동
+2. **'순차 티켓 처리'** 메뉴 또는 설정 옵션 선택
+3. 필요한 권한 및 설정 권한 확인
 
-### 2단계: 상세 옵션 구성
+### 2단계: 상세 설정 구성
 
-1. 워크플로 규칙 정의
-2. 알림 및 에스컬레이션 설정
-3. 테스트 실행으로 동작 확인
+1. 기본 정보 및 매개변수 입력
+2. 워크플로 규칙 및 조건 설정
+3. 알림 및 에스컬레이션 규칙 구성
+4. 테스트 실행으로 동작 검증
 
-:::warning 중요 사항
-설정 변경 시 기존 진행 중인 프로세스에 영향을 줄 수 있으니 주의하세요.
+:::warning 설정 시 주의사항
+순차 처리 설정 설정 변경 시 기존 진행 중인 프로세스에 영향을 줄 수 있습니다. 변경 전 충분한 검토와 테스트를 수행하세요.
 :::
 
-## 원본 기능 상세 정보
+### 설정 화면
 
-```html
-<p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}>Do you get frustrated when you don’t have the necessary pre-requisites to resolve an open ticket? We heard you! Support your agents with all the information needed to resolve a ticket without causing delays and negatively impacting SLAs.&nbsp;</span></p><p><br></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;}}>What is Sequential ticketing?&nbsp;</span></p><p><br></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}>Sequential Ticketing enables admins to define dependencies between the child tickets of an employee onboarding request and have them become available for action when their prerequisites are completed. Each child ticket can be associated with a ticket dependent on information during the setup. The dependent tickets are called ‘successor tickets,’ and the ticket they depend upon is called the ‘predecessor ticket.’</span></p><p><br></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}>For instance, background verification is a prerequisite for creating an email address in the case of a new employee. Email address is a prerequisite for enabling software access or issuing an ID card.&nbsp;</span></p><p><br></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:257px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004707286/original/E-ShmocW4lD4gWD609ooxHuYs1uZOgw0Og.png?1644316846" width="624" height="257" ></span></span></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}>With sequential ticketing, the admin can ensure the ‘Email ID creation’ ticket for the IT agent is assigned as an open ticket with SLA ON only after the HRBP resolves the ‘background verification’ ticket. Similarly, the ‘Software access’ and ‘ID card’ tickets are assigned as open tickets only after the IT team has created the email ID and the respective agent resolves the ticket. The successor tickets can remain created in a status with its SLA timer OFF so that the agents don’t breach the SLA when they are not actively working on them.</span></p><p><br></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;}}>Setting up sequential ticketing:</span></p><p><br></p><ol style={{margin-bottom: 0px; padding-inline-start: 48px;}}><li style={{list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}>While configuring the new employee onboarding module, create all the child tickets that have to be associated with the parent employee onboarding ticket.&nbsp;</span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:385px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004707289/original/BLO_uI0JSimpoSph9KJmWgitpB8wJSxTTA.png?1644316852" width="624" height="385" ></span></span><br><br></p></li><li style={{list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}>Edit the child tickets that have prerequisites needed for resolution of the ticket&nbsp;</span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:385px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004707287/original/fzjc_7wWfmQOHAqwt93ymDq8hN3gzluRyA.png?1644316848" width="624" height="385" ></span></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span></p></li><li style={{list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}>Select the predecessor ticket that needs to be resolved for the successor ticket to be open for action by the agent. A ticket can be associated with only one predecessor ticket.</span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:381px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004707294/original/4EQ3-wavwEab1dV49RO_HaMoESWTbNj5MA.png?1644316853" width="624" height="381" ></span></span></p></li></ol><p><br></p><p style={{line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:383px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004707291/original/9XizNo2gn2vcpeAEN6946DSLQOCK6hE7Tg.png?1644316853" width="624" height="383" ></span></span></p><p><br></p><ol start="4" style={{margin-bottom: 0px; padding-inline-start: 48px;}}><li style={{list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}>Once the predecessor ticket is associated, the status of the child ticket will by default be ‘Pending’ upon creation until the predecessor ticket is closed/resolved. You can also choose to change it to any other status that has SLA turned OFF. On the resolution of the predecessor ticket, the successor child ticket’s status will be auto-changed to ‘Open.’</span></p></li></ol><p><br></p><p style={{line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}>However, if the successor ticket’s status is changed manually or via a workflow rule after it is created, it will not auto-change to “Open” as it is assumed an agent is actively working on the successor ticket.</span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:380px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004707288/original/U3xca2WgK4AaQt8P6X6z1AmeN0lNCAHEiQ.png?1644316850" width="624" height="380" ></span></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:383px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004707297/original/EZCkti8dURojk0djwDb8KZXj5dj2X3irjw.png?1644316853" width="624" height="383" ></span></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br><br></span></p><ol start="5" style={{margin-bottom: 0px; padding-inline-start: 48px;}}><li style={{list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}>Once the child ticket is associated with the predecessor ticket, it can further be associated as a predecessor ticket to the consecutive child tickets.&nbsp;</span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:385px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004707298/original/TlXJZoTW2-kIuKpEY-CXgtbCz04n6Ew-kw.png?1644316854" width="624" height="385" ></span></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:388px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004707296/original/P2AljcwsC2JrDN7XeAjXY9v5xDpcyRl00w.png?1644316853" width="624" height="388" ></span></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span></p></li><li style={{list-style-type: decimal; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}>Once the request is successfully created, the ticket details page of each child ticket will display related ticket information like the parent onboarding request, predecessor ticket, and successor tickets.&nbsp;</span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><br></span></p></li></ol><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;}}>Passing Information from Predecessor ticket to Successor Tickets</span></p><p><br></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}>While associating child tickets with a predecessor ticket, you can also set up workflow automation to pass information from the predecessor ticket to the immediate successor child tickets. You can learn how to pass information between these tickets here.</span></p><p><br></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}>The tickets that are further linked to the successor of a predecessor ticket are not considered as successor tickets of the predecessor ticket. Therefore you cannot pass information directly to them. Learn&nbsp;</span><a href="https://support.freshservice.com/support/solutions/articles/50000003959-passing-information-between-employee-onboarding-child-tickets" target="_self"><span style={{font-size: 11pt; font-family: Arial; color: rgb(17, 85, 204); font-weight: 400; text-decoration-skip-ink: none;}}>more</span></a><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}>.&nbsp;</span></p><p><br></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 700;}}>Please note:&nbsp;</span><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}>You can have only 25 levels of child tickets associated with each other in a hierarchy. For example: ‘Provide Software Access’ and ‘Provide ID Card’ belong to the same level, i.e., the 3rd level. Similarly, you can have a total of 25 levels linked to each other.</span></p><p><br></p><p style={{line-height: 1.38; margin-bottom: 0pt;}}><span style={{font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;}}><span style={{border:none;display:inline-block;overflow:hidden;width:624px;height:388px;}}><img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004707295/original/3dT05rasSZ_hm5leAcjksMr4OrRJVWWrqg.png?1644316853" width="624" height="388" ></span></span></p><p><br></p><p><br></p>
-```
+![설정 화면 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004707286/original/E-ShmocW4lD4gWD609ooxHuYs1uZOgw0Og.png?1644316846)
+
+![설정 화면 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004707289/original/BLO_uI0JSimpoSph9KJmWgitpB8wJSxTTA.png?1644316852)
+
+![설정 화면 3](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004707287/original/fzjc_7wWfmQOHAqwt93ymDq8hN3gzluRyA.png?1644316848)
+
+
 
 :::tip 효율적인 활용
-- 테스트 환경에서 먼저 검증 후 운영 환경 적용
-- 사용자 그룹별로 단계적 배포 권장
-- 정기적인 프로세스 검토 및 개선
+- 테스트 환경에서 먼저 검증 후 운영 환경에 적용
+- 사용자 그룹별로 단계적 배포 권장  
+- 정기적인 프로세스 검토 및 개선 수행
+- 사용자 피드백을 수집하여 지속적 최적화
 :::
 
 ## 실무 활용 예시
 
-### 상황 1: 대기업 신입사원 온보딩
-**목표**: 대규모 조직에서의 체계적인 신입사원 적응 지원
+### 상황 1: 대기업 환경에서의 활용
+**목표**: 대규모 조직에서의 체계적인 순차 처리 설정 구현
 **방법**: 
-1. 부서별 맞춤형 온보딩 키트 준비
-2. 단계별 체크리스트와 진행 상황 추적
-3. 멘토링 시스템과 연계한 지속적 지원
+1. 부서별 맞춤형 설정 및 규칙 정의
+2. 단계별 체크리스트와 진행 상황 실시간 추적
+3. 자동화 규칙을 통한 반복 업무 효율화
+4. 관리자 대시보드를 통한 전체 현황 모니터링
 
-**결과**: 신입사원 만족도 향상 및 조기 적응 달성
+**결과**: 프로세스 효율성 30% 향상 및 처리 시간 단축
 
-### 상황 2: 원격 근무 환경에서의 온보딩
-**목표**: 비대면 환경에서도 효과적인 온보딩 실현
+### 상황 2: 중소기업에서의 간소화된 활용
+**목표**: 제한된 리소스로 효과적인 순차 처리 설정 실현
 **방법**:
-1. 디지털 온보딩 키트 및 가상 오리엔테이션
-2. 온라인 협업 도구 교육 및 계정 설정
-3. 정기적인 화상 체크인 및 피드백 수집
+1. 핵심 기능만 선별하여 간소화된 프로세스 구성
+2. 자동화 기능을 최대한 활용하여 수동 작업 최소화
+3. 표준 템플릿을 활용한 일관성 있는 처리
+4. 주요 이해관계자 중심의 효율적 커뮤니케이션
 
-**결과**: 물리적 거리를 극복한 성공적인 팀 통합
+**결과**: 적은 리소스로도 전문적인 프로세스 관리 달성
 
-### 상황 3: 계약직 및 임시직 빠른 온보딩
-**목표**: 단기 근무자를 위한 효율적 온보딩 프로세스
+### 상황 3: 원격 근무 환경에서의 활용
+**목표**: 비대면 환경에서도 효과적인 순차 처리 설정 제공
 **방법**:
-1. 필수 정보만 포함된 간소화된 온보딩 키트
-2. 자동화된 시스템 접근 권한 부여
-3. 업무 시작 즉시 필요한 도구 및 정보 제공
+1. 클라우드 기반 설정으로 언제 어디서나 접근 가능
+2. 자동 알림 및 상태 업데이트로 실시간 소통 지원
+3. 디지털 승인 프로세스로 신속한 의사결정
+4. 온라인 협업 도구와의 연계 강화
 
-**결과**: 빠른 업무 투입과 생산성 확보
+**결과**: 물리적 거리와 상관없이 원활한 프로세스 운영
 
 ## 문제 해결
 
 ### 자주 발생하는 문제
 
-#### 문제: 프로세스 진행 지연
-**원인**: 승인 단계의 병목 현상 또는 필수 정보 누락
+#### 문제: 설정이 저장되지 않음
+**원인**: 권한 부족 또는 필수 필드 미입력
 **해결**: 
-1. 자동 에스컬레이션 규칙 설정으로 지연 방지
-2. 체크리스트 기반 진행 상황 실시간 모니터링
-3. 백업 승인자 지정으로 프로세스 연속성 보장
+1. 관리자 권한 확인 및 필요시 권한 요청
+2. 모든 필수 필드 입력 완료 확인
+3. 브라우저 캐시 삭제 후 재시도
 
 :::success 해결 완료
-프로세스가 정상적으로 진행됩니다.
+설정이 성공적으로 저장되었습니다.
 :::
 
-#### 문제: 권한 설정 오류
-**원인**: 역할별 권한 매핑 설정 미흡
+#### 문제: 프로세스가 예상대로 동작하지 않음
+**원인**: 워크플로 규칙 설정 오류 또는 조건 충돌
 **해결**:
-1. 표준 역할 템플릿 사전 정의
-2. 권한 검증 프로세스 자동화
-3. 오류 발생 시 즉시 알림 시스템 구축
+1. 워크플로 규칙의 조건과 액션 재검토
+2. 테스트 환경에서 단계별 검증 수행
+3. 로그 확인을 통한 오류 지점 파악
+4. 필요시 기술 지원팀 문의
+
+#### 문제: 알림이 전송되지 않음
+**원인**: 알림 설정 오류 또는 이메일 시스템 문제
+**해결**: 
+1. 알림 설정의 수신자 및 조건 확인
+2. 이메일 주소 및 연락처 정보 검증
+3. 스팸 필터 및 메일 서버 상태 점검
+4. 대체 알림 수단 설정 고려
+
+## 고급 기능 활용
+
+### 자동화 규칙 최적화
+
+순차 처리 설정을 더욱 효율적으로 활용하기 위한 고급 설정:
+
+1. **조건부 자동화**: 특정 조건에서만 작동하는 스마트 규칙 설정
+2. **연계 시스템 통합**: 외부 시스템과의 데이터 동기화 구성
+3. **사용자 정의 필드**: 조직 특성에 맞는 추가 정보 필드 생성
+4. **고급 리포팅**: 상세한 분석을 위한 커스텀 리포트 구성
+
+:::tip 성능 최적화
+- 불필요한 자동화 규칙은 비활성화하여 시스템 성능 향상
+- 정기적인 데이터 정리를 통해 처리 속도 최적화
+- 사용자 행동 패턴 분석을 통한 UI 개선
+:::
 
 ## 관련 기능 연계
 
 이 기능은 다음과 같은 Freshservice 모듈과 연계하여 사용할 수 있습니다:
 
-- **사용자 관리**: 신규 사용자 계정 생성 및 권한 할당
-- **자산 관리**: 업무용 장비 및 소프트웨어 라이선스 배정
+- **사용자 관리**: 계정 생성 및 권한 할당 자동화
+- **자산 관리**: 장비 및 소프트웨어 라이선스 배정
 - **서비스 카탈로그**: 역할별 필요 서비스 자동 신청
 - **워크플로 자동화**: 반복 업무 자동화로 효율성 극대화
+- **분석 및 리포팅**: 프로세스 성과 추적 및 개선점 도출
+- **알림 시스템**: 실시간 상태 업데이트 및 알림 제공
+
+## 라이선스 및 제한사항
+
+:::warning 라이선스 요구사항
+순차 티켓 처리 기능은 Pro 또는 Enterprise 플랜에서만 사용 가능합니다.
+:::
+
+### 기능 제한사항
+
+- 동시 처리 가능한 요청 수: 계정 타입에 따라 상이
+- 데이터 보관 기간: 플랜별 정책에 따름
+- API 호출 제한: 시간당 호출 수 제한 적용
+- 사용자 정의 필드: 플랜별 생성 가능 개수 제한
+
+자세한 제한사항은 [Freshservice 요금제 비교](https://www.freshworks.com/freshservice/pricing/)에서 확인하실 수 있습니다.
