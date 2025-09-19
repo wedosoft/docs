@@ -153,3 +153,4 @@ Freshservice의 순차 티켓 처리을 통해 단계별로 순서에 맞게 온
 - 사용자 정의 필드: 플랜별 생성 가능 개수 제한
 
 자세한 제한사항은 [Freshservice 요금제 비교](https://www.freshworks.com/freshservice/pricing/)에서 확인하실 수 있습니다.
+

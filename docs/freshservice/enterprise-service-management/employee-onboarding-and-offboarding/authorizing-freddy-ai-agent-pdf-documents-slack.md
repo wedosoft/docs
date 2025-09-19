@@ -162,3 +162,4 @@ Slack에서 Freddy AI 문서 제공 설정 기능은 Pro 또는 Enterprise 플�
 - 사용자 정의 필드: 플랜별 생성 가능 개수 제한
 
 자세한 제한사항은 [Freshservice 요금제 비교](https://www.freshworks.com/freshservice/pricing/)에서 확인하실 수 있습니다.
+

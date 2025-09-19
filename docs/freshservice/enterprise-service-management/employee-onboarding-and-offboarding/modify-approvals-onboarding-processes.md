@@ -149,3 +149,4 @@ Freshservice의 온보딩 승인 프로세스 수정을 통해 온보딩 승인 
 - 사용자 정의 필드: 플랜별 생성 가능 개수 제한
 
 자세한 제한사항은 [Freshservice 요금제 비교](https://www.freshworks.com/freshservice/pricing/)에서 확인하실 수 있습니다.
+

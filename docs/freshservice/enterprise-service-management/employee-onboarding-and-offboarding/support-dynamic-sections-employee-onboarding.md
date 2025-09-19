@@ -153,3 +153,4 @@ Freshservice의 동적 섹션 지원을 통해 사용자 선택에 따라 필요
 - 사용자 정의 필드: 플랜별 생성 가능 개수 제한
 
 자세한 제한사항은 [Freshservice 요금제 비교](https://www.freshworks.com/freshservice/pricing/)에서 확인하실 수 있습니다.
+
