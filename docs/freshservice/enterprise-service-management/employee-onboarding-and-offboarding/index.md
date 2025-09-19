@@ -25,9 +25,9 @@ Freshservice의 직원 온보딩 및 오프보딩 모듈을 활용하여 신입�
 
 ## 시작하기
 
-1. **[직원 온보딩 도움말 가이드](./직원-온보딩-도움말-가이드)** - 기본 개념과 시작 방법
-2. **[온보딩 키트 구축](./온보딩-키트-구축)** - 맞춤형 온보딩 자료 준비
-3. **[직원 오프보딩](./직원-오프보딩)** - 안전한 퇴사 처리 방법
+1. **[직원 온보딩 도움말 가이드](./employee-onboarding-freshservice-support)** - 기본 개념과 시작 방법
+2. **[온보딩 키트 구축](./building-onboarding-kits)** - 맞춤형 온보딩 자료 준비
+3. **[직원 오프보딩](./employee-offboarding)** - 안전한 퇴사 처리 방법
 
 :::info 라이선스 요구사항
 Employee Onboarding & Offboarding 기능은 Pro 또는 Enterprise 플랜에서 사용 가능합니다.
