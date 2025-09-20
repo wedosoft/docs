@@ -141,6 +141,16 @@ const sidebars: SidebarsConfig = {
             },
             {
               type: 'category',
+              label: '🛒 ITSM 서비스 카탈로그',
+              collapsed: true,
+              items: [
+                'freshservice/itsm/service-catalog/service-item-configuration',
+                'freshservice/itsm/service-catalog/service-request-workflow',
+                'freshservice/itsm/service-catalog/approval-workflow-design',
+              ],
+            },
+            {
+              type: 'category',
               label: '🚀 릴리스 관리',
               collapsed: true,
               items: [
