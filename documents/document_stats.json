@@ -1,0 +1,706 @@
+{
+  "total_categories": 20,
+  "total_folders": 193,
+  "total_articles": 1557,
+  "categories": {
+    "Policies and Data Protection": {
+      "folder_count": 5,
+      "article_count": 29,
+      "folders": {
+        "Remote Authentication and Single Sign On": {
+          "article_count": 4
+        },
+        "Security": {
+          "article_count": 12
+        },
+        "Policies": {
+          "article_count": 9
+        },
+        "HIPAA Compliance": {
+          "article_count": 1
+        },
+        "Freshworks Neo Admin": {
+          "article_count": 3
+        }
+      }
+    },
+    "Support Guide: IT Service Management": {
+      "folder_count": 25,
+      "article_count": 187,
+      "folders": {
+        "Incident management": {
+          "article_count": 11
+        },
+        "Getting Started with Tickets": {
+          "article_count": 25
+        },
+        "Problem Management": {
+          "article_count": 6
+        },
+        "Change Management": {
+          "article_count": 15
+        },
+        "Release Management": {
+          "article_count": 4
+        },
+        "Knowledge Base": {
+          "article_count": 12
+        },
+        "Task management": {
+          "article_count": 6
+        },
+        "Ticket Automations": {
+          "article_count": 5
+        },
+        "Freshservice Leaderboard": {
+          "article_count": 1
+        },
+        "Service Catalog": {
+          "article_count": 9
+        },
+        "Ticket Actions": {
+          "article_count": 22
+        },
+        "Collaborator": {
+          "article_count": 5
+        },
+        "Dashboards": {
+          "article_count": 3
+        },
+        "Return to Work": {
+          "article_count": 5
+        },
+        "Freddy AI agent": {
+          "article_count": 15
+        },
+        "Prepare": {
+          "article_count": 2
+        },
+        "Microsoft Teams": {
+          "article_count": 5
+        },
+        "Slack": {
+          "article_count": 5
+        },
+        "Observe": {
+          "article_count": 2
+        },
+        "How to use guides (Microsoft Teams)": {
+          "article_count": 2
+        },
+        "How to use guides (Slack)": {
+          "article_count": 3
+        },
+        "What's new": {
+          "article_count": 4
+        },
+        "Approvals": {
+          "article_count": 4
+        },
+        "Freddy Copilot": {
+          "article_count": 14
+        },
+        "Surveys": {
+          "article_count": 2
+        }
+      }
+    },
+    "Getting started with Freshservice": {
+      "folder_count": 14,
+      "article_count": 115,
+      "folders": {
+        "User Management": {
+          "article_count": 19
+        },
+        "Form fields and Form templates": {
+          "article_count": 16
+        },
+        "Email Notifications": {
+          "article_count": 5
+        },
+        "Support Guide: Introduction to Self Service Portal": {
+          "article_count": 10
+        },
+        "Single Sign On and Remote Authentication": {
+          "article_count": 4
+        },
+        "Setting up Freshservice": {
+          "article_count": 11
+        },
+        "Managing Notifications": {
+          "article_count": 2
+        },
+        "Critical product announcements": {
+          "article_count": 8
+        },
+        "How Search Works": {
+          "article_count": 1
+        },
+        "New Sandbox": {
+          "article_count": 15
+        },
+        "Freshworks Email Service Migration": {
+          "article_count": 4
+        },
+        "FreshThemes": {
+          "article_count": 13
+        },
+        "No code portal": {
+          "article_count": 6
+        },
+        "Dark Mode": {
+          "article_count": 1
+        }
+      }
+    },
+    "Enterprise Service Management": {
+      "folder_count": 7,
+      "article_count": 69,
+      "folders": {
+        "Access controls": {
+          "article_count": 9
+        },
+        "Service Desk Efficiency": {
+          "article_count": 10
+        },
+        "Employee Onboarding and Offboarding": {
+          "article_count": 15
+        },
+        "Workspaces": {
+          "article_count": 22
+        },
+        "Business Agent License": {
+          "article_count": 5
+        },
+        "Document Management": {
+          "article_count": 3
+        },
+        "Document Management - Use case library": {
+          "article_count": 5
+        }
+      }
+    },
+    "Support Guide: IT Asset Management": {
+      "folder_count": 11,
+      "article_count": 95,
+      "folders": {
+        "Get started with Assets": {
+          "article_count": 23
+        },
+        "Managing Asset Relationships": {
+          "article_count": 3
+        },
+        "Contract Management": {
+          "article_count": 4
+        },
+        "Discovery Agent": {
+          "article_count": 9
+        },
+        "Discovery Probe": {
+          "article_count": 20
+        },
+        "Get started with Asset Discovery": {
+          "article_count": 4
+        },
+        "Software Asset Management": {
+          "article_count": 3
+        },
+        "Purchase Order Management": {
+          "article_count": 7
+        },
+        "Product Catalog": {
+          "article_count": 1
+        },
+        "SaaS management": {
+          "article_count": 10
+        },
+        "Freshservice Cloud Discovery": {
+          "article_count": 11
+        }
+      }
+    },
+    "Platform": {
+      "folder_count": 8,
+      "article_count": 101,
+      "folders": {
+        "Reporting": {
+          "article_count": 18
+        },
+        "Analytics": {
+          "article_count": 38
+        },
+        "Workflow Automator": {
+          "article_count": 26
+        },
+        "Custom Objects": {
+          "article_count": 4
+        },
+        "Freshworks Organization": {
+          "article_count": 5
+        },
+        "Credential Store": {
+          "article_count": 1
+        },
+        "API V1 Deprecation": {
+          "article_count": 2
+        },
+        "Managing Freshservice Subscription": {
+          "article_count": 7
+        }
+      }
+    },
+    "How to Setup Apps and Integrations": {
+      "folder_count": 3,
+      "article_count": 87,
+      "folders": {
+        "Extending Freshservice with Integrations": {
+          "article_count": 60
+        },
+        "DevOps Integrations": {
+          "article_count": 6
+        },
+        "Connector Apps": {
+          "article_count": 21
+        }
+      }
+    },
+    "Security and Policies": {
+      "folder_count": 7,
+      "article_count": 33,
+      "folders": {
+        "Helpdesk Security": {
+          "article_count": 13
+        },
+        "Network Security in Freshservice": {
+          "article_count": 6
+        },
+        "GDPR - Freshservice": {
+          "article_count": 2
+        },
+        "Freshworks Data Processing Addendum": {
+          "article_count": 1
+        },
+        "HIPAA Configuration guide": {
+          "article_count": 1
+        },
+        "Policies": {
+          "article_count": 3
+        },
+        "Email Security": {
+          "article_count": 7
+        }
+      }
+    },
+    "Managed Service Provider": {
+      "folder_count": 1,
+      "article_count": 5,
+      "folders": {
+        "Freshservice for MSPs": {
+          "article_count": 5
+        }
+      }
+    },
+    "Freshservice FAQs": {
+      "folder_count": 28,
+      "article_count": 508,
+      "folders": {
+        "Pricing FAQ": {
+          "article_count": 2
+        },
+        "Service Desk FAQ": {
+          "article_count": 4
+        },
+        "API & Webhooks": {
+          "article_count": 16
+        },
+        "Changes": {
+          "article_count": 51
+        },
+        "Feedback Widget": {
+          "article_count": 13
+        },
+        "Agents and Groups": {
+          "article_count": 32
+        },
+        "Problem": {
+          "article_count": 26
+        },
+        "New-Gen Project Mgmt": {
+          "article_count": 10
+        },
+        "SSO": {
+          "article_count": 23
+        },
+        "Tasks": {
+          "article_count": 15
+        },
+        "Ticketing Workflow": {
+          "article_count": 25
+        },
+        "Automations and Triggers": {
+          "article_count": 59
+        },
+        "Priority Matrix": {
+          "article_count": 3
+        },
+        "Announcements": {
+          "article_count": 3
+        },
+        "Email": {
+          "article_count": 22
+        },
+        "Asset Management": {
+          "article_count": 45
+        },
+        "Release": {
+          "article_count": 5
+        },
+        "Service Catalog": {
+          "article_count": 34
+        },
+        "Incidents & Service Request": {
+          "article_count": 16
+        },
+        "Business Hours and SLAs": {
+          "article_count": 10
+        },
+        "Email Notifications": {
+          "article_count": 10
+        },
+        "Reports": {
+          "article_count": 38
+        },
+        "Gamification and Arcade": {
+          "article_count": 5
+        },
+        "Sandbox": {
+          "article_count": 13
+        },
+        "Orchestration": {
+          "article_count": 1
+        },
+        "Affliate Marketing": {
+          "article_count": 1
+        },
+        "Workspaces": {
+          "article_count": 18
+        },
+        "Analytics FAQs": {
+          "article_count": 8
+        }
+      }
+    },
+    "User Guide - Admin": {
+      "folder_count": 10,
+      "article_count": 18,
+      "folders": {
+        "Getting Started": {
+          "article_count": 1
+        },
+        "Admin Settings": {
+          "article_count": 7
+        },
+        "Incident Management": {
+          "article_count": 1
+        },
+        "Problem Management": {
+          "article_count": 1
+        },
+        "Change Management": {
+          "article_count": 1
+        },
+        "Release Management": {
+          "article_count": 1
+        },
+        "CMDB": {
+          "article_count": 1
+        },
+        "Solutions": {
+          "article_count": 1
+        },
+        "Reports": {
+          "article_count": 1
+        },
+        "Troubleshooting Videos": {
+          "article_count": 3
+        }
+      }
+    },
+    "User Guide - Agent": {
+      "folder_count": 9,
+      "article_count": 38,
+      "folders": {
+        "Getting Started": {
+          "article_count": 3
+        },
+        "Support Guide: Introduction to Tickets": {
+          "article_count": 19
+        },
+        "Problems": {
+          "article_count": 3
+        },
+        "Changes": {
+          "article_count": 4
+        },
+        "Releases": {
+          "article_count": 1
+        },
+        "Assets": {
+          "article_count": 2
+        },
+        "Contracts": {
+          "article_count": 1
+        },
+        "Knowledge Base": {
+          "article_count": 4
+        },
+        "Search": {
+          "article_count": 1
+        }
+      }
+    },
+    "End User Guide": {
+      "folder_count": 1,
+      "article_count": 6,
+      "folders": {
+        "End user guide - overview": {
+          "article_count": 6
+        }
+      }
+    },
+    "IT Operations Management": {
+      "folder_count": 8,
+      "article_count": 95,
+      "folders": {
+        "Alert Management": {
+          "article_count": 17
+        },
+        "Monitoring Tools Integration": {
+          "article_count": 28
+        },
+        "Orchestration Centre": {
+          "article_count": 2
+        },
+        "Orchestration Server": {
+          "article_count": 5
+        },
+        "On-Call Management": {
+          "article_count": 19
+        },
+        "Service Health Monitoring": {
+          "article_count": 6
+        },
+        "Major Incident Management": {
+          "article_count": 10
+        },
+        "Status Page": {
+          "article_count": 8
+        }
+      }
+    },
+    "Project & Workload Management": {
+      "folder_count": 2,
+      "article_count": 47,
+      "folders": {
+        "New Gen Project Management": {
+          "article_count": 37
+        },
+        "Workload Management": {
+          "article_count": 10
+        }
+      }
+    },
+    "Orchestration + SaaS Management Apps": {
+      "folder_count": 48,
+      "article_count": 98,
+      "folders": {
+        "Google Chat": {
+          "article_count": 2
+        },
+        "Microsoft On-Premise Active Directory": {
+          "article_count": 2
+        },
+        "GitHub": {
+          "article_count": 2
+        },
+        "Google Calendar": {
+          "article_count": 2
+        },
+        "Zoom": {
+          "article_count": 5
+        },
+        "Slack": {
+          "article_count": 5
+        },
+        "Dropbox": {
+          "article_count": 1
+        },
+        "Microsoft 365": {
+          "article_count": 1
+        },
+        "GSuite": {
+          "article_count": 2
+        },
+        "Okta": {
+          "article_count": 2
+        },
+        "Azure AD": {
+          "article_count": 4
+        },
+        "Microsoft Exchange": {
+          "article_count": 2
+        },
+        "Microsoft Teams": {
+          "article_count": 3
+        },
+        "AWS CloudFormation": {
+          "article_count": 2
+        },
+        "OneLogin": {
+          "article_count": 2
+        },
+        "Amazon EC2": {
+          "article_count": 3
+        },
+        "Salesforce": {
+          "article_count": 1
+        },
+        "Docusign": {
+          "article_count": 2
+        },
+        "Google Sheets": {
+          "article_count": 2
+        },
+        "Box": {
+          "article_count": 2
+        },
+        "Google Drive": {
+          "article_count": 2
+        },
+        "Google Cloud Platform": {
+          "article_count": 2
+        },
+        "Microsoft Azure Cloud": {
+          "article_count": 1
+        },
+        "Workplace": {
+          "article_count": 3
+        },
+        "Jira": {
+          "article_count": 2
+        },
+        "Jenkins": {
+          "article_count": 2
+        },
+        "JumpCloud": {
+          "article_count": 2
+        },
+        "AWS Lambda": {
+          "article_count": 2
+        },
+        "GitLab": {
+          "article_count": 2
+        },
+        "Azure DevOps": {
+          "article_count": 1
+        },
+        "Smartsheet": {
+          "article_count": 2
+        },
+        "Powershell": {
+          "article_count": 6
+        },
+        "AWS S3": {
+          "article_count": 2
+        },
+        "SSH": {
+          "article_count": 1
+        },
+        "Twilio": {
+          "article_count": 2
+        },
+        "Freshdesk": {
+          "article_count": 1
+        },
+        "Trello": {
+          "article_count": 1
+        },
+        "Webex Teams": {
+          "article_count": 1
+        },
+        "Microsoft Onedrive": {
+          "article_count": 1
+        },
+        "Azure Blob Storage": {
+          "article_count": 1
+        },
+        "Adobe Sign": {
+          "article_count": 2
+        },
+        "Freshcaller": {
+          "article_count": 2
+        },
+        "Google Cloud Storage": {
+          "article_count": 2
+        },
+        "GCP Functions": {
+          "article_count": 1
+        },
+        "Asana": {
+          "article_count": 2
+        },
+        "Dropbox Orchestration App": {
+          "article_count": 2
+        },
+        "BitBucket": {
+          "article_count": 1
+        },
+        "Pagerduty": {
+          "article_count": 2
+        }
+      }
+    },
+    "Freshservice L2": {
+      "folder_count": 1,
+      "article_count": 18,
+      "folders": {
+        "Modern alternatives for Freshplugs": {
+          "article_count": 18
+        }
+      }
+    },
+    "Contact Support": {
+      "folder_count": 1,
+      "article_count": 1,
+      "folders": {
+        "Chat Support": {
+          "article_count": 1
+        }
+      }
+    },
+    "Quick Start Guides": {
+      "folder_count": 1,
+      "article_count": 1,
+      "folders": {
+        "Quick Start Guide PDF Links": {
+          "article_count": 1
+        }
+      }
+    },
+    "Freshservice Mobile": {
+      "folder_count": 3,
+      "article_count": 6,
+      "folders": {
+        "Freshservice for Intune": {
+          "article_count": 1
+        },
+        "Freshservice Support SDK for iOS and Android apps": {
+          "article_count": 4
+        },
+        "App Configurations": {
+          "article_count": 1
+        }
+      }
+    }
+  }
+}
