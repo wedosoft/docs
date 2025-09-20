@@ -191,6 +191,18 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
+          label: '🔧 IT Service Management',
+          collapsed: true,
+          items: [
+            {
+              type: 'doc',
+              id: 'freshservice/itsm/knowledge-base/index',
+              label: '📚 지식베이스 관리',
+            },
+          ],
+        },
+        {
+          type: 'category',
           label: '❓ FAQ',
           collapsed: true,
           items: [
