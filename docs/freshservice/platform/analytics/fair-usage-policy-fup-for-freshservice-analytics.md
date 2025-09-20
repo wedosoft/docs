@@ -1,8 +1,16 @@
+---
+sidebar_position: 1
+---
+
 # Freshservice Analytics Fair Usage Policy (FUP)
 
-## 개요
-
 Freshservice Analytics의 Fair Usage Policy는 모든 사용자에게 최적의 성능과 서비스 품질을 보장하기 위해 마련되었습니다. 이 정책은 시스템 리소스의 공정한 사용을 보장하고 과도한 사용으로 인한 서비스 영향을 방지합니다.
+
+:::info 주요 정보
+- 이 기능을 사용하기 전에 필요한 권한과 설정을 확인하세요
+- 단계별 접근을 통해 안정적으로 구현하는 것을 권장합니다
+:::
+
 
 ## Fair Usage Policy 세부 사항
 

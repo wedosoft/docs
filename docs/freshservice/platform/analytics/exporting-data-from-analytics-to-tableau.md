@@ -107,3 +107,27 @@ Tableau와 Freshservice를 통합하면 실행 가능한 인사이트를 사용�
 <div style={{ textAlign: "center" }}>
 <img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001982889/original/EFYYZPA64rl9mmCpbp5BAFurWNb_TiO2NA.png?1604414688" width="624" height="391" />
 </div>
+
+## 실무 활용 예시
+
+### 상황 1: 월간 IT 성과 보고서 자동화
+**목표**: 경영진 보고용 월간 IT 성과 대시보드를 Tableau로 자동화
+**방법**: 
+1. **데이터 연동**: Freshservice Analytics에서 SLA, 만족도, 해결율 데이터 추출
+2. **Tableau 통합**: 웹 데이터 커넥터로 실시간 데이터 연결
+3. **자동 새로고침**: 매일 자동 데이터 업데이트 설정
+
+**결과**: 보고서 작성 시간 90% 단축, 실시간 성과 모니터링 가능
+
+### 상황 2: 부서별 IT 비용 분석 대시보드
+**목표**: 부서별 IT 지원 비용과 효율성을 시각화
+**방법**: 
+1. **다차원 분석**: 부서, 서비스 유형, 시간별 다차원 데이터 추출
+2. **고급 시각화**: Tableau의 히트맵과 트렌드 차트로 패턴 분석
+3. **드릴다운**: 세부 티켓 정보까지 탐색 가능한 구조 구성
+
+**결과**: 부서별 최적화 포인트 식별, IT 예산 배정 효율성 개선
+
+:::success 통합 완료
+Tableau와 Freshservice Analytics 연동으로 강력한 BI 환경 구축
+:::

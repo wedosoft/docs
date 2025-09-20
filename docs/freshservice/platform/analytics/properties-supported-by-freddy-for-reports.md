@@ -6,6 +6,12 @@ sidebar_position: 5
 
 Freshservice는 간단히 질문을 던지는 것만으로 즉석 리포트를 생성할 수 있는 Ask Freddy 기능을 제공합니다. 현재 이 기능은 다음 모듈을 쿼리하는 데 사용할 수 있습니다: **Tickets, Problems, Changes, Release, Tasks**.
 
+:::info 주요 정보
+- 이 기능을 사용하기 전에 필요한 권한과 설정을 확인하세요
+- 단계별 접근을 통해 안정적으로 구현하는 것을 권장합니다
+:::
+
+
 다음은 Freddy가 Ticket, Problem, Change, Release 모듈을 쿼리하기 위해 지원하는 속성들입니다.
 
 ## 주요 모듈별 지원 속성

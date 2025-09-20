@@ -1,13 +1,18 @@
 ---
 title: "Freshservice Analytics에서 Ask Freddy 기능 중단"
 description: "Freshservice Analytics에서 Ask Freddy 기능이 중단되는 배경과 대안을 알아보세요."
+sidebar_position: 1
 ---
 
 # Freshservice Analytics에서 Ask Freddy 기능 중단
 
 이 문서는 Freshservice Analytics 모듈에서 Ask Freddy 기능이 중단되는 배경과 그에 따른 대안을 설명합니다.
 
-## 개요
+:::info 주요 정보
+- 이 기능을 사용하기 전에 필요한 권한과 설정을 확인하세요
+- 단계별 접근을 통해 안정적으로 구현하는 것을 권장합니다
+:::
+
 
 Ask Freddy는 자연어 처리를 통해 Analytics 위젯을 생성하는 AI 기반 기능이었습니다. 그러나 기술적 개선과 사용자 경험 향상을 위해 이 기능이 단계적으로 중단되고 있습니다.
 
