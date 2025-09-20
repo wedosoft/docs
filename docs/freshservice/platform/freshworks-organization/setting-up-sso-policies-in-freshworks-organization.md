@@ -28,6 +28,12 @@ SSO 정책은 조직 내 모든 Freshworks 제품에 대한 인증 방식을 정
 
 ## 🚀 SSO 정책 설정 방법
 
+:::tip SSO 정책 설정
+단계별로 차근차근 설정하면 복잡해 보이는 SSO 구성도 쉽게 완료할 수 있습니다.
+:::
+
+### 1단계: Freshworks Organization 접근
+
 ### 1단계: Freshworks Organization 접속
 
 1. [https://organization.myfreshworks.com](https://organization.myfreshworks.com) 접속

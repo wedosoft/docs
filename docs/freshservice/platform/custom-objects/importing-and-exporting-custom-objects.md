@@ -18,6 +18,10 @@ sidebar_position: 3
 
 ### 가져오기 절차
 
+:::tip 대량 데이터 처리
+CSV 가져오기를 통해 수백 개의 레코드를 한 번에 처리할 수 있어 효율적입니다.
+:::
+
 1. 객체 레코드 탭 아래의 **가져오기**를 클릭하세요.
 
    ![가져오기 버튼](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50001925422/original/VPwt1oiMGndE48ltpJYu5c8n9dLAr40X3Q.png?1603339717)
@@ -29,6 +33,10 @@ sidebar_position: 3
 - <p data-identifyelement="522" dir="ltr" style={{ lineHeight: "1.38", marginBottom: "0pt" }}><span data-identifyelement="523" style={{ fontSize: "11pt", fontFamily: "Arial", color: "rgb(0, 0, 0)", fontWeight: "400" }}>이제 CSV 파일에서 레코드가 올바르게 가져와지도록 하기 위해 객체 필드를 CSV 필드와 매칭하세요.</span></p>
 
 ### CSV 파일 형식 요구사항
+
+:::warning 파일 형식 주의사항
+CSV 파일 형식이 올바르지 않으면 가져오기에 실패할 수 있습니다.
+:::
 
 <p data-identifyelement="524" dir="ltr" style={{ lineHeight: "1.38", marginLeft: "36pt", marginBottom: "0pt" }}><span data-identifyelement="525" style={{ fontSize: "11pt", fontFamily: "Arial", color: "rgb(0, 0, 0)", fontWeight: "700" }}>참고: </span><span data-identifyelement="526" style={{ fontSize: "11pt", fontFamily: "Arial", color: "rgb(0, 0, 0)", fontWeight: "400" }}>CSV 파일에 다음 사항이 있는지 확인하세요</span></p>
 

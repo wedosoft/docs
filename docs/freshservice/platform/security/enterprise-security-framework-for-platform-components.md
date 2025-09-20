@@ -1,8 +1,16 @@
-# Enterprise Security Framework for Platform Components
+---
+sidebar_position: 1
+---
+
+# 기업 보안 프레임워크
+
+Freshservice Platform의 자동화, 분석, 사용자 정의 객체 등 핵심 구성요소들은 기업 환경에서 안전하고 신뢰할 수 있는 방식으로 운영되어야 합니다.
+
+:::info 보안 프레임워크 개요
+이 문서는 Platform 전반에 걸친 종합 보안 프레임워크와 기업급 보안 모범 사례를 제시합니다.
+:::
 
 ## 개요
-
-Freshservice Platform의 자동화, 분석, 사용자 정의 객체 등 핵심 구성요소들은 기업 환경에서 안전하고 신뢰할 수 있는 방식으로 운영되어야 합니다. 이 문서는 Platform 전반에 걸친 보안 프레임워크와 모범 사례를 제시합니다.
 
 ## 보안 아키텍처 개요
 
@@ -28,6 +36,10 @@ Freshservice Platform의 자동화, 분석, 사용자 정의 객체 등 핵심 �
 
 ### 2. Zero Trust 보안 원칙
 
+:::warning 보안 기본 원칙
+Zero Trust 모델에서는 어떤 것도 신뢰하지 않고 모든 것을 검증합니다.
+:::
+
 #### 신뢰하지 않고 검증 (Never Trust, Always Verify)
 ```
 모든 접근 요청에 대한 검증:
@@ -41,6 +53,10 @@ Freshservice Platform의 자동화, 분석, 사용자 정의 객체 등 핵심 �
 ## Platform별 보안 요구사항
 
 ### 1. Workflow Automator 보안
+
+:::tip 워크플로우 보안 활용
+워크플로우 자동화 시 보안 정책을 사전에 정의하여 안전한 실행 환경을 구축하세요.
+:::
 
 #### 워크플로우 실행 보안
 워크플로우가 실행될 때 안전한 실행 환경을 보장합니다:
@@ -59,6 +75,10 @@ Freshservice Platform의 자동화, 분석, 사용자 정의 객체 등 핵심 �
 ```
 
 ### 2. Analytics 데이터 보안
+
+:::warning 개인정보 보호 필수
+Analytics 데이터 처리 시 GDPR/CCPA 등 개인정보 보호 규정 준수가 필수입니다.
+:::
 
 #### 데이터 분류 및 보호
 ```
@@ -135,6 +155,10 @@ API 남용 및 서비스 거부 공격 방지:
 - **Content-Type 검증**: 올바른 미디어 타입 확인
 
 ## 감사 및 모니터링
+
+:::success 지속적 모니터링
+보안은 일회성이 아닌 지속적인 모니터링과 개선을 통해 유지됩니다.
+:::
 
 ### 1. 종합적인 로깅 전략
 
