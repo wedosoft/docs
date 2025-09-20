@@ -1,3 +1,7 @@
+---
+sidebar_position: 14
+---
+
 # 웹 요청 노드
 
 서비스 데스크가 조직에서 사용되는 여러 도구 중 운영의 중심이 되면서, 서비스 데스크를 에코시스템과 원활하게 통합하는 것이 필수적입니다. **웹 요청 노드**를 통해 이제 [오케스트레이션 센터](https://support.freshservice.com/en/support/solutions/articles/50000002961-introducing-orchestration-center)에서 통합할 수 없는 시스템을 포함하여 모든 종류의 타사 시스템과 통합할 수 있습니다.

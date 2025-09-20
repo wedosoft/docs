@@ -1,4 +1,8 @@
-# A Guide to Automation in Freshservice
+---
+sidebar_position: 1
+---
+
+# Freshservice 자동화 종합 가이드
 
 ## 개요
 
