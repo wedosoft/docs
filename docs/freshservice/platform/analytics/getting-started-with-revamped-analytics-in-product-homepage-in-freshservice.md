@@ -1,15 +1,16 @@
 ---
-title: "개선된 Analytics In-product 홈페이지 시작하기"
-description: "Freshservice의 새롭게 개선된 Analytics In-product 홈페이지를 사용하는 방법을 알아보세요."
+sidebar_position: 5
 ---
 
 # 개선된 Analytics In-product 홈페이지 시작하기
 
-이 문서는 Freshservice에서 새롭게 개선된 Analytics In-product 홈페이지의 주요 기능과 사용 방법을 설명합니다.
+Freshservice에서 새롭게 개선된 Analytics In-product 홈페이지의 주요 기능과 사용 방법을 설명합니다.
+
+:::info 새로운 Analytics 경험
+새로운 Analytics 홈페이지는 사용자 경험을 크게 개선하여 더 직관적이고 효율적인 데이터 분석 환경을 제공합니다.
+:::
 
 ## 개요
-
-새로운 Analytics 홈페이지는 사용자 경험을 크게 개선하여 더 직관적이고 효율적인 데이터 분석 환경을 제공합니다. 개선된 인터페이스와 새로운 기능들을 통해 더 빠르고 정확한 인사이트를 얻을 수 있습니다.
 
 ## 주요 개선사항
 
@@ -56,6 +57,10 @@ description: "Freshservice의 새롭게 개선된 Analytics In-product 홈페이
 - 실시간 필터 미리보기
 
 ## 새로운 홈페이지 둘러보기
+
+:::tip 인터페이스 탐색
+새로운 인터페이스에 익숙해지는 가장 좋은 방법은 각 영역을 차례로 탐색해보는 것입니다.
+:::
 
 ### 메인 대시보드
 
@@ -263,6 +268,10 @@ description: "Freshservice의 새롭게 개선된 Analytics In-product 홈페이
 
 ## 교육 및 지원
 
+:::info 학습 리소스
+새로운 기능에 빠르게 적응하기 위해 제공되는 다양한 학습 리소스를 적극 활용하세요.
+:::
+
 ### 온보딩 프로세스
 
 **단계별 튜토리얼**:
@@ -286,3 +295,7 @@ description: "Freshservice의 새롭게 개선된 Analytics In-product 홈페이
 - **이메일 지원**: support@freshservice.com
 
 새로운 Analytics 홈페이지를 통해 더 효율적이고 인사이트가 풍부한 데이터 분석 경험을 누리시기 바랍니다.
+
+:::success 새로운 경험 시작
+개선된 Analytics 홈페이지로 더 빠르고 정확한 데이터 인사이트를 얻으며, 향상된 사용자 경험을 누려보세요.
+:::
