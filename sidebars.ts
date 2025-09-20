@@ -191,6 +191,21 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
+          label: '🔧 ITSM 프로세스',
+          collapsed: true,
+          items: [
+            {
+              type: 'category',
+              label: '📋 인시던트 관리',
+              collapsed: true,
+              items: [
+                'freshservice/itsm/incident-management/index',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
           label: '❓ FAQ',
           collapsed: true,
           items: [
