@@ -1,12 +1,20 @@
-# Analytics 플랫폼으로 시작하기
+---
+sidebar_position: 2
+---
 
-### 모든 사람을 위한 서비스 데스크의 전체적인 개요
+# Analytics 플랫폼 설정
 
-Analytics를 통해 데이터를 심층 분석하고 비즈니스에 특화된 인사이트를 얻으세요. Analytics는 모든 사람을 위해 구축된 플랫폼으로, 추적하고 싶은 메트릭을 결정하고, 원하는 방식으로 보고, 단 한 줄의 코드도 작성하지 않고도 이를 구현할 수 있습니다.
+Analytics 플랫폼을 통해 데이터를 심층 분석하고 비즈니스 특화 인사이트를 확보할 수 있습니다.
 
-## 어떤 플랜을 제공하나요?
+:::info Analytics 플랫폼 특징
+코드 작성 없이도 원하는 메트릭을 추적하고 시각화할 수 있는 직관적인 분석 도구입니다.
+:::
 
-Freshservice의 Analytics는 모든 고객에게 두 가지 플랜으로 제공됩니다:
+## 플랜별 기능 비교
+
+:::warning 플랜 제한사항
+Analytics Pro의 고급 기능은 Pro 및 Enterprise 플랜에서만 사용 가능합니다.
+:::
 
 <div style={{ overflowX: "auto" }}>
 <table style={{ border: "1px solid #000", borderCollapse: "collapse", width: "100%" }}>
@@ -61,6 +69,10 @@ Freshservice의 Analytics는 모든 고객에게 두 가지 플랜으로 제공�
 </tbody>
 </table>
 </div>
+
+:::tip 플랜 선택 가이드
+기본적인 분석 기능이 필요하면 Analytics Basic으로 시작하고, 고급 커스터마이징이 필요한 경우 Analytics Pro로 업그레이드하세요.
+:::
 
 자세한 정보는 [요금제 페이지](https://content-fs.freshworks.com/service-management-features)를 참조하세요.
 

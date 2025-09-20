@@ -1,6 +1,14 @@
-# Analytics Basic 시작하기
+---
+sidebar_position: 1
+---
 
-Freshservice Analytics Basic은 서비스 데스크 성과를 분석하고 개선하기 위한 필수적인 도구입니다. 이 가이드를 통해 Analytics의 기본 기능을 이해하고 효과적으로 활용하는 방법을 알아보겠습니다.
+# Analytics Basic 설정
+
+Freshservice Analytics Basic을 통해 서비스 데스크 성과를 분석하고 데이터 기반 의사결정을 내릴 수 있습니다.
+
+:::info Analytics Basic 개요
+모든 플랜에서 사용 가능한 기본 분석 기능으로, 핵심 서비스 데스크 지표를 시각화하여 제공합니다.
+:::
 
 ## Analytics Basic이란?
 
@@ -19,21 +27,25 @@ Analytics Basic은 Freshservice의 기본 분석 기능으로, 서비스 데스�
 - **대시보드**: 여러 위젯을 조합한 종합 대시보드
 - **필터링**: 기간, 부서, 우선순위별 데이터 필터링
 
-## 시작하기
+## Analytics Basic 활용 방법
 
-### 1단계: Analytics 접근하기
-1. Freshservice 포털에 로그인
+### 1단계: Analytics 접근
+1. Freshservice 포털에 로그인합니다
 2. 좌측 메뉴에서 **Reports** 클릭
 3. **Analytics** 선택
 
-### 2단계: 첫 번째 리포트 생성하기
+:::warning 권한 확인
+Analytics 접근을 위해서는 관리자 권한 또는 별도 권한 설정이 필요할 수 있습니다.
+:::
+
+### 2단계: 첫 번째 리포트 생성
 1. **New Report** 버튼 클릭
 2. 리포트 이름 입력
 3. 원하는 위젯 선택 및 추가
 4. 데이터 범위 설정
 5. **Save** 클릭
 
-### 3단계: 대시보드 구성하기
+### 3단계: 대시보드 구성
 1. 생성된 리포트에서 **Edit** 클릭
 2. 추가 위젯을 드래그하여 배치
 3. 레이아웃 조정
