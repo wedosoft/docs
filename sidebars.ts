@@ -161,6 +161,13 @@ const sidebars: SidebarsConfig = {
               collapsed: true,
               items: [
                 'freshservice/user-guide-admin/change-management/index',
+                'freshservice/user-guide-admin/change-management/change-request-creation-process',
+                'freshservice/user-guide-admin/change-management/change-approval-workflow',
+                'freshservice/user-guide-admin/change-management/change-implementation-deployment',
+                'freshservice/user-guide-admin/change-management/change-testing-validation',
+                'freshservice/user-guide-admin/change-management/change-communication-stakeholder',
+                'freshservice/user-guide-admin/change-management/change-monitoring-post-implementation',
+                'freshservice/user-guide-admin/change-management/change-types-standards',
               ],
             },
             {
