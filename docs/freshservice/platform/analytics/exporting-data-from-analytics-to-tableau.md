@@ -1,6 +1,14 @@
+---
+sidebar_position: 16
+---
+
 # Analytics에서 Tableau로 데이터 내보내기
 
-### Freshservice의 Analytics 모듈을 사용하여 서비스 데스크의 직관적인 리포트를 생성할 수 있습니다. Tableau와 Freshservice를 통합하면 실행 가능한 인사이트를 사용하여 비즈니스 성과를 이끄는 광범위한 대시보드와 리포트로 분석을 확장할 수 있습니다.
+Freshservice의 Analytics 모듈을 사용하여 서비스 데스크의 직관적인 리포트를 생성할 수 있습니다.
+
+:::info Tableau 통합 활용
+Tableau와 Freshservice를 통합하면 실행 가능한 인사이트를 사용하여 비즈니스 성과를 이끄는 광범위한 대시보드와 리포트로 분석을 확장할 수 있습니다.
+:::
 
 ## Analytics에서 내보내기를 예약하는 방법
 
