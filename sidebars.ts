@@ -191,6 +191,28 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
+          label: '🎯 ITSM 실무 가이드',
+          collapsed: true,
+          items: [
+            {
+              type: 'category',
+              label: '🤖 티켓 자동화',
+              collapsed: true,
+              items: [
+                'freshservice/itsm/ticket-automations/workflow-automator-vs-supervisor-automation',
+                'freshservice/itsm/ticket-automations/workflow-automator-setup-guide',
+                'freshservice/itsm/ticket-automations/scenario-automation-setup-guide',
+                'freshservice/itsm/ticket-automations/auto-note-email-setup',
+                'freshservice/itsm/ticket-automations/auto-ticket-reopen-interaction',
+                'freshservice/itsm/ticket-automations/bulk-ticket-processing-spam-classification',
+                'freshservice/itsm/ticket-automations/ticket-type-auto-update-classification',
+                'freshservice/itsm/ticket-automations/automation-performance-optimization-troubleshooting',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
           label: '❓ FAQ',
           collapsed: true,
           items: [
