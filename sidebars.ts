@@ -191,6 +191,24 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
+          label: '🎯 ITSM (IT Service Management)',
+          collapsed: true,
+          items: [
+            {
+              type: 'category',
+              label: '🎬 티켓 액션',
+              collapsed: true,
+              items: [
+                'freshservice/itsm/ticket-actions/index',
+                'freshservice/itsm/ticket-actions/automatic-ticket-assignment',
+                'freshservice/itsm/ticket-actions/automatic-status-management',
+                'freshservice/itsm/ticket-actions/workflow-automation-patterns',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
           label: '❓ FAQ',
           collapsed: true,
           items: [
