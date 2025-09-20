@@ -191,6 +191,29 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
+          label: '🔧 ITSM 프로세스',
+          collapsed: true,
+          items: [
+            {
+              type: 'category',
+              label: '📋 인시던트 관리',
+              collapsed: true,
+              items: [
+                'freshservice/itsm/incident-management/index',
+                'freshservice/itsm/incident-management/incident-detection-logging',
+                'freshservice/itsm/incident-management/incident-classification-prioritization',
+                'freshservice/itsm/incident-management/incident-investigation-diagnosis',
+                'freshservice/itsm/incident-management/incident-resolution-recovery',
+                'freshservice/itsm/incident-management/major-incident-management',
+                'freshservice/itsm/incident-management/incident-communication-updates',
+                'freshservice/itsm/incident-management/incident-closure-review',
+                'freshservice/itsm/incident-management/incident-metrics-sla-reporting',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
           label: '❓ FAQ',
           collapsed: true,
           items: [
