@@ -1,3 +1,7 @@
+---
+sidebar_position: 22
+---
+
 # 샘플 사용 사례 - 웹 요청 노드를 호출하여 티켓 세부 정보를 가져오고 이를 기반으로 작업 수행하기
 
 [웹 요청 노드](https://support.freshservice.com/en/support/solutions/articles/50000003705-web-request-node)를 사용하여 Freshservice 티켓 세부 정보를 가져오는 샘플 GET 요청을 호출하고 [JSON 파서 노드](https://support.freshservice.com/en/support/solutions/articles/50000003708-json-parser-node)를 사용하여 응답 본문을 파싱하고 이를 기반으로 작업을 수행합니다.
