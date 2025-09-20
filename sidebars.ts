@@ -176,7 +176,7 @@ const sidebars: SidebarsConfig = {
               label: '🔍 문제 관리',
               collapsed: true,
               items: [
-                'freshservice/user-guide-admin/problem-management/index',
+                'freshservice/itsm/problem-management/index',
               ],
             },
             {
