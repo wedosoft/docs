@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 6
 ---
 
 # 서비스 카탈로그 승인 워크플로우 설계

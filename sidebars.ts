@@ -144,9 +144,15 @@ const sidebars: SidebarsConfig = {
               label: '🛒 ITSM 서비스 카탈로그',
               collapsed: true,
               items: [
-                'freshservice/itsm/service-catalog/service-item-configuration',
-                'freshservice/itsm/service-catalog/service-request-workflow',
-                'freshservice/itsm/service-catalog/approval-workflow-design',
+                'freshservice/itsm/service-catalog/index',
+                'freshservice/itsm/service-catalog/service-catalog-design-structure',
+                'freshservice/itsm/service-catalog/service-item-creation-management',
+                'freshservice/itsm/service-catalog/request-fulfillment-automation',
+                'freshservice/itsm/service-catalog/service-catalog-user-experience',
+                'freshservice/itsm/service-catalog/service-approval-governance',
+                'freshservice/itsm/service-catalog/service-analytics-reporting',
+                'freshservice/itsm/service-catalog/service-lifecycle-maintenance',
+                'freshservice/itsm/service-catalog/service-integration-external-systems',
               ],
             },
             {
