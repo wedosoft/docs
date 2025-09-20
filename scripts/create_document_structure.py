@@ -22,25 +22,15 @@ import re
 
 
 def clean_html_description(description: str) -> str:
-    """HTML 태그를 제거하고 텍스트만 추출"""
+    """HTML 설명을 그대로 유지 (HTML 태그 포함)"""
     if not description:
         return ""
     
-    # HTML 엔티티 디코드
+    # HTML 엔티티 디코드만 수행
     description = html.unescape(description)
     
-    # HTML 태그 제거
-    description = re.sub(r'<[^>]+>', '', description)
-    
-    # 여러 공백을 하나로 정리
-    description = re.sub(r'\s+', ' ', description)
-    
-    # 앞뒤 공백 제거
+    # 앞뒤 공백만 제거
     description = description.strip()
-    
-    # 너무 긴 경우 150자로 제한
-    if len(description) > 150:
-        description = description[:147] + "..."
     
     return description
 
@@ -85,8 +75,8 @@ def process_csv_files(csv_pattern: str) -> Dict[str, Any]:
                     except (ValueError, TypeError):
                         position = 0
                     
-                    # HTML에서 깨끗한 설명 추출
-                    clean_desc = clean_html_description(description)
+                    # HTML 설명을 그대로 유지
+                    html_desc = clean_html_description(description)
                     
                     # 문서 구조에 추가
                     if category_name not in document_structure:
@@ -99,7 +89,7 @@ def process_csv_files(csv_pattern: str) -> Dict[str, Any]:
                     article = {
                         "title": title,
                         "position": position,
-                        "description": clean_desc
+                        "description": html_desc
                     }
                     
                     document_structure[category_name][folder_name].append(article)
@@ -158,6 +148,62 @@ def generate_summary_stats(structure: Dict[str, Any]) -> Dict[str, Any]:
     return stats
 
 
+def create_category_slug(category_name: str) -> str:
+    """카테고리명을 파일명에 적합한 slug로 변환"""
+    # 특수 문자 제거 및 소문자 변환
+    slug = category_name.lower()
+    
+    # 공백을 하이픈으로 변환
+    slug = re.sub(r'\s+', '-', slug)
+    
+    # 특수 문자 제거 (알파벳, 숫자, 하이픈만 유지)
+    slug = re.sub(r'[^a-z0-9\-]', '', slug)
+    
+    # 연속된 하이픈을 하나로 정리
+    slug = re.sub(r'-+', '-', slug)
+    
+    # 앞뒤 하이픈 제거
+    slug = slug.strip('-')
+    
+    return slug
+
+
+def save_category_json_files(document_structure: Dict[str, Any], output_dir: str):
+    """각 카테고리별로 별도의 JSON 파일 생성"""
+    
+    os.makedirs(output_dir, exist_ok=True)
+    
+    category_files = []
+    
+    for category_name, folders in document_structure.items():
+        # 카테고리명을 파일명으로 변환
+        category_slug = create_category_slug(category_name)
+        filename = f"{category_slug}.json"
+        filepath = os.path.join(output_dir, filename)
+        
+        # 카테고리 구조 (폴더 → 아티클)
+        category_data = folders
+        
+        try:
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(category_data, f, ensure_ascii=False, indent=2)
+            
+            category_files.append({
+                'category': category_name,
+                'slug': category_slug,
+                'filename': filename,
+                'folder_count': len(folders),
+                'article_count': sum(len(articles) for articles in folders.values())
+            })
+            
+            print(f"✅ {filename} 생성 완료 ({len(folders)}개 폴더, {sum(len(articles) for articles in folders.values())}개 아티클)")
+            
+        except Exception as e:
+            print(f"❌ {filename} 생성 실패: {e}")
+    
+    return category_files
+
+
 def main():
     """메인 실행 함수"""
     
@@ -181,30 +227,44 @@ def main():
     # 통계 정보 생성
     stats = generate_summary_stats(document_structure)
     
-    # JSON 출력 파일 경로
-    output_file = os.path.join(repo_root, "documents", "document_structure.json")
+    # 카테고리별 JSON 파일 생성
+    output_dir = os.path.join(repo_root, "documents", "categories")
+    print(f"\n=== 카테고리별 JSON 파일 생성 ===")
+    category_files = save_category_json_files(document_structure, output_dir)
+    
+    # 통계 파일 저장
     stats_file = os.path.join(repo_root, "documents", "document_stats.json")
     
-    # JSON 파일로 저장
     try:
-        # 메인 문서 구조 저장
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(document_structure, f, ensure_ascii=False, indent=2)
-        
-        print(f"\n✅ 문서 구조 JSON 파일 생성 완료: {output_file}")
-        
         # 통계 정보 저장
         with open(stats_file, 'w', encoding='utf-8') as f:
             json.dump(stats, f, ensure_ascii=False, indent=2)
         
-        print(f"✅ 통계 정보 JSON 파일 생성 완료: {stats_file}")
+        print(f"\n✅ 통계 정보 JSON 파일 생성 완료: {stats_file}")
+        
+        # 카테고리 파일 목록 저장
+        category_index = {
+            "total_categories": len(category_files),
+            "categories": category_files
+        }
+        
+        index_file = os.path.join(output_dir, "index.json")
+        with open(index_file, 'w', encoding='utf-8') as f:
+            json.dump(category_index, f, ensure_ascii=False, indent=2)
+        
+        print(f"✅ 카테고리 인덱스 파일 생성 완료: {index_file}")
+        
+        # 결과 요약
+        print(f"\n=== 생성 완료 ===")
+        print(f"총 {len(category_files)}개 카테고리 JSON 파일 생성")
+        print(f"총 폴더 수: {stats['total_folders']}")
+        print(f"총 아티클 수: {stats['total_articles']}")
         
         # 카테고리 목록 출력
-        print(f"\n=== 카테고리 목록 ===")
-        for i, (category_name, folders) in enumerate(document_structure.items(), 1):
-            folder_count = len(folders)
-            article_count = sum(len(articles) for articles in folders.values())
-            print(f"{i:2d}. {category_name} ({folder_count}개 폴더, {article_count}개 아티클)")
+        print(f"\n=== 생성된 JSON 파일 목록 ===")
+        for i, category_file in enumerate(category_files, 1):
+            print(f"{i:2d}. {category_file['filename']} "
+                  f"({category_file['folder_count']}개 폴더, {category_file['article_count']}개 아티클)")
         
     except Exception as e:
         print(f"❌ 파일 저장 오류: {e}")
