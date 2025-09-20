@@ -191,6 +191,32 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
+          label: '🎯 ITSM (IT Service Management)',
+          collapsed: true,
+          items: [
+            {
+              type: 'category',
+              label: '🎬 티켓 액션',
+              collapsed: true,
+              items: [
+                'freshservice/itsm/ticket-actions/index',
+                'freshservice/itsm/ticket-actions/automatic-ticket-assignment',
+                'freshservice/itsm/ticket-actions/automatic-status-management',
+                'freshservice/itsm/ticket-actions/workflow-automation-patterns',
+                'freshservice/itsm/ticket-actions/ticket-field-customization-automation',
+                'freshservice/itsm/ticket-actions/ticket-routing-assignment-rules',
+                'freshservice/itsm/ticket-actions/ticket-sla-escalation-management',
+                'freshservice/itsm/ticket-actions/ticket-collaboration-internal-external',
+                'freshservice/itsm/ticket-actions/ticket-bulk-operations-management',
+                'freshservice/itsm/ticket-actions/ticket-templates-standardization',
+                'freshservice/itsm/ticket-actions/ticket-analytics-intelligence',
+                'freshservice/itsm/ticket-actions/ticket-integration-external-tools',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
           label: '❓ FAQ',
           collapsed: true,
           items: [
