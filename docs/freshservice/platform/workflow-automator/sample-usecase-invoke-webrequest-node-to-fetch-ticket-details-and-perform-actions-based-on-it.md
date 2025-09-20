@@ -6,6 +6,12 @@ sidebar_position: 22
 
 [웹 요청 노드](https://support.freshservice.com/en/support/solutions/articles/50000003705-web-request-node)를 사용하여 Freshservice 티켓 세부 정보를 가져오는 샘플 GET 요청을 호출하고 [JSON 파서 노드](https://support.freshservice.com/en/support/solutions/articles/50000003708-json-parser-node)를 사용하여 응답 본문을 파싱하고 이를 기반으로 작업을 수행합니다.
 
+:::info 주요 정보
+- 이 기능을 사용하기 전에 필요한 권한과 설정을 확인하세요
+- 단계별 접근을 통해 안정적으로 구현하는 것을 권장합니다
+:::
+
+
 ## 1단계
 
 웹 요청 노드를 사용하여 Freshservice 티켓 세부 정보를 가져오는 샘플 GET 요청을 트리거합니다.

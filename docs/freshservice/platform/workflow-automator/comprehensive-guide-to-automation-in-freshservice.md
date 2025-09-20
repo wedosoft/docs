@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # Freshservice 자동화 종합 가이드
 
-## 개요
-
 Freshservice의 자동화는 반복적인 IT 서비스 관리 작업을 효율화하고, 상담원들이 더 가치 있는 업무에 집중할 수 있도록 돕는 핵심 기능입니다. 이 가이드는 Freshservice의 Workflow Automator를 활용하여 IT 서비스 데스크 운영을 최적화하는 종합적인 방법을 제시합니다.
 
 :::info 자동화 구현 전 고려사항

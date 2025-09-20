@@ -10,8 +10,6 @@ Freshservice의 Analytics 모듈을 사용하면 서비스 데스크를 위한 �
 Power BI와 Freshservice를 통합하면 실행 가능한 인사이트를 사용하여 비즈니스 결과를 도출하는 광범위한 대시보드와 리포트로 분석을 확장할 수 있습니다.
 :::
 
-## 개요
-
 ## Freshservice Analytics에서 내보내기 예약하는 방법
 
 데이터 내보내기를 예약하려면 다음 단계를 따르세요:

@@ -10,8 +10,6 @@ Analytics Pro는 Freshservice의 고급 분석 플랫폼으로, 기본 Analytics
 이 가이드는 Analytics Pro의 고급 기능을 활용하여 깊이 있는 인사이트를 얻고 데이터 기반 의사결정을 내리는 방법을 상세히 설명합니다.
 :::
 
-## 개요
-
 ## Analytics Pro vs Analytics Basic
 
 :::warning 플랜 제한사항

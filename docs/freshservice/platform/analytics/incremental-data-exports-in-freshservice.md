@@ -1,19 +1,24 @@
 ---
 title: "Freshservice에서 증분 데이터 내보내기"
 description: "Freshservice Analytics의 증분 데이터 내보내기 기능으로 더 빠르고 효율적인 데이터 전송을 구현하는 방법을 알아보세요."
+sidebar_position: 1
 ---
 
 # Freshservice에서 증분 데이터 내보내기
 
 이 문서는 Freshservice Analytics의 증분 데이터 내보내기 기능에 대한 포괄적인 가이드를 제공합니다. 이 기능을 통해 더 빠르고 확장 가능한 데이터 전송 솔루션을 활용할 수 있습니다.
 
+:::info 주요 정보
+- 이 기능을 사용하기 전에 필요한 권한과 설정을 확인하세요
+- 단계별 접근을 통해 안정적으로 구현하는 것을 권장합니다
+:::
+
+
 ## 중요 공지
 
 **롤백 공지**: 2024년 5월 1일부터 증분 데이터 내보내기로의 업그레이드는 [2023년 11월에 공지](https://community.freshworks.com/product-updates/freshservice-release-notes-nov-2023-33966?tid=33966&fid=None)된 바와 같이 진행되지 않으며, **추후 공지가 있을 때까지 전체 데이터 내보내기를 계속 지원**합니다.
 
 현재 대용량 데이터를 내보내고 있으며 더 빠른 데이터 내보내기 방법을 원하는 경우, 증분 데이터 내보내기를 시도해 보시기 바랍니다. **support@freshservice.com**으로 연락주시면 활성화해 드리겠습니다.
-
-## 개요
 
 현재 Freshservice Analytics에서는 [예약된 전체 데이터 내보내기](https://support.freshservice.com/en/support/solutions/articles/238958-scheduled-data-export)만 가능합니다.
 

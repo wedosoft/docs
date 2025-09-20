@@ -1,13 +1,18 @@
 ---
 title: "생성형 AI 기반 Freddy Insights로 서비스 운영 가시성 확보"
 description: "Freshservice의 생성형 AI 기반 Freddy Insights를 통해 서비스 운영에 대한 심층적인 가시성과 인사이트를 얻는 방법을 알아보세요."
+sidebar_position: 1
 ---
 
 # 생성형 AI 기반 Freddy Insights로 서비스 운영 가시성 확보
 
 이 문서는 Freshservice의 생성형 AI 기반 Freddy Insights 기능을 활용하여 서비스 운영에 대한 심층적인 가시성과 실행 가능한 인사이트를 얻는 방법을 설명합니다.
 
-## 개요
+:::info 주요 정보
+- 이 기능을 사용하기 전에 필요한 권한과 설정을 확인하세요
+- 단계별 접근을 통해 안정적으로 구현하는 것을 권장합니다
+:::
+
 
 **중요 공지**: Freddy Insights 베타는 Pro 및 Enterprise 플랜에서 베타 기간 동안 무료로 제공되며, 이후 유료 애드온으로 전환될 예정입니다. 가격 정보는 추후 공지될 예정입니다.
 
