@@ -195,9 +195,18 @@ const sidebars: SidebarsConfig = {
           collapsed: true,
           items: [
             {
-              type: 'doc',
-              id: 'freshservice/itsm/knowledge-base/index',
+              type: 'category',
               label: '📚 지식베이스 관리',
+              collapsed: true,
+              items: [
+                'freshservice/itsm/knowledge-base/index',
+                'freshservice/itsm/knowledge-base/knowledge-article-creation-guide',
+                'freshservice/itsm/knowledge-base/knowledge-base-structure-organization',
+                'freshservice/itsm/knowledge-base/knowledge-approval-workflow',
+                'freshservice/itsm/knowledge-base/knowledge-analytics-performance',
+                'freshservice/itsm/knowledge-base/knowledge-user-engagement-feedback',
+                'freshservice/itsm/knowledge-base/knowledge-maintenance-lifecycle',
+              ],
             },
           ],
         },
