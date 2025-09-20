@@ -12,6 +12,10 @@ sidebar_position: 5
 
 ## 📋 업그레이드 개요
 
+:::tip 통합 관리의 이점
+여러 계정을 하나의 Organization으로 통합하면 관리 효율성이 크게 향상됩니다.
+:::
+
 ### 현재 상황 vs 업그레이드 후
 
 | 구분 | 다중 계정 환경 | Freshworks Organization |

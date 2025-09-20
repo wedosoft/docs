@@ -12,6 +12,10 @@ MSP 모드는 여러 고객사를 대신하여 IT 서비스를 제공하는 서�
 
 ## 📋 업그레이드 개요
 
+:::tip MSP 업그레이드 장점
+Freshworks Organization으로 업그레이드하면 각 고객사별로 완전히 분리된 환경을 제공하면서도 통합 관리가 가능합니다.
+:::
+
 ### 주요 개선사항
 
 | 기능 | MSP 모드 | Freshworks Organization |

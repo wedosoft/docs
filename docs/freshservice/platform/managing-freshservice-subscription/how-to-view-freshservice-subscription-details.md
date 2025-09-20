@@ -1,4 +1,14 @@
-# Freshservice 구독 상세 정보 확인하는 방법
+---
+sidebar_position: 6
+---
+
+# Freshservice 구독 상세 정보 확인
+
+Freshservice 구독의 상세 정보를 확인하고 요금제, 사용량, 결제 정보 등을 관리하는 방법을 안내합니다.
+
+:::info 접근 권한
+구독 상세 정보 확인은 계정 관리자 권한이 필요합니다.
+:::
 
 ## Freshservice 구독 상세 정보 보기
 
