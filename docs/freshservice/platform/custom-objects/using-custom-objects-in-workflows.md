@@ -12,6 +12,10 @@ Reader Node는 워크플로 설정과 유지보수를 간소화하여 많은 관
 
 ## Reader Node 소개
 
+:::tip Reader Node 활용
+Reader Node를 사용하면 하드코딩된 값 대신 동적 데이터를 활용하여 유연하고 확장 가능한 워크플로를 구축할 수 있습니다.
+:::
+
 <div align="center">
   <img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004949349/original/jBOBTtTWUEvskDivTlXJZbTvtA0mNb3Xfg.png?1646830515" width="298" height="318" alt="Reader Node" style={{border: '1px solid #ddd', borderRadius: '4px'}} />
 </div>
