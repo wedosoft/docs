@@ -1,13 +1,52 @@
 ---
 title: 문서 작성 템플릿
 purpose: AI 에이전트가 반드시 따라야 하는 문서 구조와 스타일 가이드
-version: 4.1
-date: 2025-09-20
+version: 4.2
+date: 2025-09-21
 ---
 
 # 📝 문서 작성 템플릿
 
 **AI 에이전트가 모든 문서 작성 시 반드시 따라야 하는 구조와 품질 가이드**
+
+## 🗂️ 문서 작업 위치 및 구조 규칙
+
+### 필수 디렉터리 구조
+모든 문서는 다음 4단계 구조를 반드시 따라야 합니다:
+```
+docs/{product}/{category}/{folder}/{article}.md
+```
+
+### 실제 작업 위치
+```
+/Users/alan/GitHub/docs/docs/freshservice/
+├── getting-started/          # 시작 가이드
+├── user-guide-admin/         # 관리자 가이드
+├── platform/                 # 플랫폼 통합
+├── apps-and-integrations/    # 앱 및 통합
+├── enterprise-service-management/  # 엔터프라이즈 서비스 관리
+├── faqs/                     # 자주 묻는 질문
+├── itsm/                     # IT 서비스 관리
+├── itam/                     # IT 자산 관리
+├── it-operations-management/ # IT 운영 관리
+├── orchestration-saas-management/  # 오케스트레이션 및 SaaS 관리
+├── project-workload-management/    # 프로젝트 워크로드 관리
+├── managed-service-provider/       # 관리형 서비스 제공업체
+├── policies-data-protection/       # 정책 및 데이터 보호
+├── security-policies/              # 보안 정책
+├── contact-support/                # 지원 연락처
+├── end-user-guide/                 # 최종 사용자 가이드
+├── freshservice-l2/                # Freshservice L2
+├── freshservice-mobile/            # Freshservice 모바일
+├── poc-guides/                     # POC 가이드
+└── quick-start-guides/             # 빠른 시작 가이드
+```
+
+### 에이전트 작업 규칙
+1. **경로 준수**: 반드시 `/Users/alan/GitHub/docs/docs/freshservice/` 하위에서 작업
+2. **폴더 선택**: 내용에 맞는 적절한 카테고리 폴더 선택
+3. **파일명 규칙**: 소문자-하이픈 형식 (예: `auto-close-resolved-tickets-48hours.md`)
+4. **구조 확인**: 작업 전 `list_dir` 도구로 대상 폴더 구조 확인 필수
 
 ## 🚨 CRITICAL: 필수 구조 템플릿
 
@@ -196,4 +235,23 @@ sidebar_position: [숫자]
 
 ---
 
-**버전**: v4.1 (2025-09-20) - 최적화 및 간소화, 핵심 지침 집중
+## 🔧 에이전트 작업 프로세스
+
+### 작업 전 필수 단계
+1. **경로 확인**: `list_dir /Users/alan/GitHub/docs/docs/freshservice/` 실행
+2. **대상 폴더 선택**: 내용에 맞는 적절한 카테고리 결정
+3. **기존 파일 확인**: 수정할 파일이 있는지 `read_file` 도구로 확인
+
+### 작업 중 준수사항
+1. **절대 경로 사용**: 모든 파일 작업 시 절대 경로 사용 필수
+2. **구조 템플릿 준수**: 위의 필수 구조 템플릿 완전 준수
+3. **원본 보존**: HTML, 이미지, 테이블 등 원본 콘텐츠 완전 보존
+
+### 작업 완료 후 검증
+1. **빌드 테스트**: `npm run build` 실행하여 오류 없음 확인
+2. **타입 체크**: TypeScript 관련 변경 시 `npm run typecheck` 실행
+3. **시각적 확인**: 필요 시 `npm start` 또는 `npm run serve`로 결과 확인
+
+---
+
+**버전**: v4.2 (2025-09-21) - 에이전트 작업 위치 및 규칙 추가
