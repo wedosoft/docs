@@ -1,0 +1,145 @@
+{
+  "total_categories": 20,
+  "categories": [
+    {
+      "category": "Policies and Data Protection",
+      "slug": "policies-and-data-protection",
+      "filename": "policies-and-data-protection.json",
+      "folder_count": 5,
+      "article_count": 29
+    },
+    {
+      "category": "Support Guide: IT Service Management",
+      "slug": "support-guide-it-service-management",
+      "filename": "support-guide-it-service-management.json",
+      "folder_count": 25,
+      "article_count": 187
+    },
+    {
+      "category": "Getting started with Freshservice",
+      "slug": "getting-started-with-freshservice",
+      "filename": "getting-started-with-freshservice.json",
+      "folder_count": 14,
+      "article_count": 115
+    },
+    {
+      "category": "Enterprise Service Management",
+      "slug": "enterprise-service-management",
+      "filename": "enterprise-service-management.json",
+      "folder_count": 7,
+      "article_count": 69
+    },
+    {
+      "category": "Support Guide: IT Asset Management",
+      "slug": "support-guide-it-asset-management",
+      "filename": "support-guide-it-asset-management.json",
+      "folder_count": 11,
+      "article_count": 95
+    },
+    {
+      "category": "Platform",
+      "slug": "platform",
+      "filename": "platform.json",
+      "folder_count": 8,
+      "article_count": 101
+    },
+    {
+      "category": "How to Setup Apps and Integrations",
+      "slug": "how-to-setup-apps-and-integrations",
+      "filename": "how-to-setup-apps-and-integrations.json",
+      "folder_count": 3,
+      "article_count": 87
+    },
+    {
+      "category": "Security and Policies",
+      "slug": "security-and-policies",
+      "filename": "security-and-policies.json",
+      "folder_count": 7,
+      "article_count": 33
+    },
+    {
+      "category": "Managed Service Provider",
+      "slug": "managed-service-provider",
+      "filename": "managed-service-provider.json",
+      "folder_count": 1,
+      "article_count": 5
+    },
+    {
+      "category": "Freshservice FAQs",
+      "slug": "freshservice-faqs",
+      "filename": "freshservice-faqs.json",
+      "folder_count": 28,
+      "article_count": 508
+    },
+    {
+      "category": "User Guide - Admin",
+      "slug": "user-guide-admin",
+      "filename": "user-guide-admin.json",
+      "folder_count": 10,
+      "article_count": 18
+    },
+    {
+      "category": "User Guide - Agent",
+      "slug": "user-guide-agent",
+      "filename": "user-guide-agent.json",
+      "folder_count": 9,
+      "article_count": 38
+    },
+    {
+      "category": "End User Guide",
+      "slug": "end-user-guide",
+      "filename": "end-user-guide.json",
+      "folder_count": 1,
+      "article_count": 6
+    },
+    {
+      "category": "IT Operations Management",
+      "slug": "it-operations-management",
+      "filename": "it-operations-management.json",
+      "folder_count": 8,
+      "article_count": 95
+    },
+    {
+      "category": "Project & Workload Management",
+      "slug": "project-workload-management",
+      "filename": "project-workload-management.json",
+      "folder_count": 2,
+      "article_count": 47
+    },
+    {
+      "category": "Orchestration + SaaS Management Apps",
+      "slug": "orchestration-saas-management-apps",
+      "filename": "orchestration-saas-management-apps.json",
+      "folder_count": 48,
+      "article_count": 98
+    },
+    {
+      "category": "Freshservice L2",
+      "slug": "freshservice-l2",
+      "filename": "freshservice-l2.json",
+      "folder_count": 1,
+      "article_count": 18
+    },
+    {
+      "category": "Contact Support",
+      "slug": "contact-support",
+      "filename": "contact-support.json",
+      "folder_count": 1,
+      "article_count": 1
+    },
+    {
+      "category": "Quick Start Guides",
+      "slug": "quick-start-guides",
+      "filename": "quick-start-guides.json",
+      "folder_count": 1,
+      "article_count": 1
+    },
+    {
+      "category": "Freshservice Mobile",
+      "slug": "freshservice-mobile",
+      "filename": "freshservice-mobile.json",
+      "folder_count": 3,
+      "article_count": 6
+    }
+  ]
+}
