@@ -1,9 +1,11 @@
 {
-  "Quick Start Guide PDF Links": [
-    {
-      "title": "Quick Start Guide Links",
-      "position": 1,
-      "description": "<div style=\"box-sizing: border-box; word-break: normal; overflow-wrap: break-word; font-size: small; line-height: 18px; font-weight: 400; text-indent: 0px; color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; text-align: start;\"><a data-saferedirecturl=\"https://www.google.com/url?q=https://freshservice.com/assets/resources/freshservice/ebooks/Mobile-App-Guide.pdf&source=gmail&ust=1670047787498000&usg=AOvVaw1LfHkqMQJPkdkGd1VgrYlV\" href=\"https://freshservice.com/assets/resources/freshservice/ebooks/Mobile-App-Guide.pdf\" rel=\"noopener noreferrer\" style=\"box-sizing: border-box; color: rgb(17, 85, 204); user-select: auto;\" target=\"_blank\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 16px;\">Mobile App Guide</span></a></div><p><br></p><div style=\"box-sizing: border-box; word-break: normal; overflow-wrap: break-word; font-size: 16px; line-height: 18px; font-weight: 400; text-indent: 0px; color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; text-align: start;\"><span style=\"font-size: 16px;\"><span style=\"font-family: Arial,Helvetica,sans-serif;\"><a href=\"https://view.highspot.com/viewer/6463aabc9ad09be8bacd5e4e\">Analytics User Guide</a></span></span></div><p><br></p><p dir=\"ltr\"><a href=\"https://view.highspot.com/viewer/645c5f4ff70318e15e6ba6d4\" rel=\"noreferrer\" target=\"_blank\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 16px;\">ITOM Quick Start Guide</span></a><br><br><span dir=\"ltr\" style=\"font-family: Arial, Helvetica, sans-serif; font-size: 16px;\"><a href=\"https://view.highspot.com/viewer/650ac3eecf0196967119b3fc\">ITAM User Guide </a></span></p>"
-    }
-  ]
+  "Quick Start Guides": {
+    "Quick Start Guide PDF Links": [
+      {
+        "title": "Quick Start Guide Links",
+        "position": 1,
+        "description": "<div style=\"box-sizing: border-box; word-break: normal; overflow-wrap: break-word; font-size: small; line-height: 18px; font-weight: 400; text-indent: 0px; color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; text-align: start;\"><a data-saferedirecturl=\"https://www.google.com/url?q=https://freshservice.com/assets/resources/freshservice/ebooks/Mobile-App-Guide.pdf&source=gmail&ust=1670047787498000&usg=AOvVaw1LfHkqMQJPkdkGd1VgrYlV\" href=\"https://freshservice.com/assets/resources/freshservice/ebooks/Mobile-App-Guide.pdf\" rel=\"noopener noreferrer\" style=\"box-sizing: border-box; color: rgb(17, 85, 204); user-select: auto;\" target=\"_blank\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 16px;\">Mobile App Guide</span></a></div><p><br></p><div style=\"box-sizing: border-box; word-break: normal; overflow-wrap: break-word; font-size: 16px; line-height: 18px; font-weight: 400; text-indent: 0px; color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; text-align: start;\"><span style=\"font-size: 16px;\"><span style=\"font-family: Arial,Helvetica,sans-serif;\"><a href=\"https://view.highspot.com/viewer/6463aabc9ad09be8bacd5e4e\">Analytics User Guide</a></span></span></div><p><br></p><p dir=\"ltr\"><a href=\"https://view.highspot.com/viewer/645c5f4ff70318e15e6ba6d4\" rel=\"noreferrer\" target=\"_blank\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 16px;\">ITOM Quick Start Guide</span></a><br><br><span dir=\"ltr\" style=\"font-family: Arial, Helvetica, sans-serif; font-size: 16px;\"><a href=\"https://view.highspot.com/viewer/650ac3eecf0196967119b3fc\">ITAM User Guide </a></span></p>"
+      }
+    ]
+  }
 }

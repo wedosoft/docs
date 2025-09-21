@@ -169,7 +169,7 @@ def create_category_slug(category_name: str) -> str:
 
 
 def save_category_json_files(document_structure: Dict[str, Any], output_dir: str):
-    """각 카테고리별로 별도의 JSON 파일 생성"""
+    """각 카테고리별로 별도의 JSON 파일 생성 (category.folder.article 계층구조)"""
     
     os.makedirs(output_dir, exist_ok=True)
     
@@ -181,8 +181,10 @@ def save_category_json_files(document_structure: Dict[str, Any], output_dir: str
         filename = f"{category_slug}.json"
         filepath = os.path.join(output_dir, filename)
         
-        # 카테고리 구조 (폴더 → 아티클)
-        category_data = folders
+        # 카테고리 계층 구조 (category -> folders -> articles)
+        category_data = {
+            category_name: folders
+        }
         
         try:
             with open(filepath, 'w', encoding='utf-8') as f:

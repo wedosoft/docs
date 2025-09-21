@@ -8,13 +8,15 @@
 **개별 카테고리 구조 파일들** - `documents/categories/` 폴더에 위치
 ```json
 {
-  "폴더명": [
-    {
-      "title": "아티클 제목",
-      "position": 위치번호,
-      "description": "HTML 포함 아티클 설명"
-    }
-  ]
+  "카테고리명": {
+    "폴더명": [
+      {
+        "title": "아티클 제목",
+        "position": 위치번호,
+        "description": "HTML 포함 아티클 설명"
+      }
+    ]
+  }
 }
 ```
 
@@ -56,13 +58,17 @@
 ```python
 import json
 
-# 특정 카테고리 로드
+# 특정 카테고리 로드 (전체 계층구조)
 with open('documents/categories/freshservice-faqs.json', 'r', encoding='utf-8') as f:
     faqs_data = json.load(f)
 
+# category.folder.article 접근
+category_name = list(faqs_data.keys())[0]  # "Freshservice FAQs"
+folders = faqs_data[category_name]
+
 # 특정 폴더의 아티클들
 folder = "Service Desk FAQ"
-articles = faqs_data[folder]
+articles = folders[folder]
 for article in articles:
     print(f"- {article['title']} (위치: {article['position']})")
     print(f"  HTML 설명: {article['description'][:100]}...")
@@ -93,13 +99,16 @@ python scripts/use_document_structure.py
 import json
 
 def load_category(category_slug):
-    """카테고리 JSON 파일 로드"""
+    """카테고리 JSON 파일 로드 (전체 계층구조)"""
     with open(f'documents/categories/{category_slug}.json', 'r', encoding='utf-8') as f:
         return json.load(f)
 
 # 예시: FAQ 카테고리 작업
-faqs = load_category('freshservice-faqs')
-for folder_name, articles in faqs.items():
+faqs_full = load_category('freshservice-faqs')
+category_name = list(faqs_full.keys())[0]  # "Freshservice FAQs"
+folders = faqs_full[category_name]
+
+for folder_name, articles in folders.items():
     print(f"## {folder_name}")
     for article in sorted(articles, key=lambda x: x['position']):
         print(f"- {article['title']}")
@@ -119,11 +128,16 @@ def search_all_categories(keyword):
             with open(f'documents/categories/{filename}', 'r', encoding='utf-8') as f:
                 category_data = json.load(f)
             
-            for folder_name, articles in category_data.items():
+            # category.folder.article 구조 처리
+            category_name = list(category_data.keys())[0]
+            folders = category_data[category_name]
+            
+            for folder_name, articles in folders.items():
                 for article in articles:
                     if keyword.lower() in article['title'].lower():
                         results.append({
                             'file': filename,
+                            'category': category_name,
                             'folder': folder_name,
                             'article': article
                         })
@@ -135,9 +149,14 @@ def search_all_categories(keyword):
 ```python
 def get_article_html(category_slug, folder_name, article_title):
     """특정 아티클의 HTML 설명 가져오기"""
-    category_data = load_category(category_slug)
+    with open(f'documents/categories/{category_slug}.json', 'r', encoding='utf-8') as f:
+        category_data = json.load(f)
     
-    for article in category_data[folder_name]:
+    # category.folder.article 구조 처리
+    category_name = list(category_data.keys())[0]
+    folders = category_data[category_name]
+    
+    for article in folders[folder_name]:
         if article['title'] == article_title:
             return article['description']  # 완전한 HTML 포함
     

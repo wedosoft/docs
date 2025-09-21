@@ -28,6 +28,16 @@ class DocumentStructureHelper:
         
         print(f"✅ 카테고리 인덱스 로드 완료: {self.index['total_categories']}개 카테고리")
     
+    def load_category_full(self, category_slug: str) -> Dict[str, Any]:
+        """특정 카테고리 JSON 파일을 전체 계층구조로 로드"""
+        filepath = os.path.join(self.categories_dir, f"{category_slug}.json")
+        
+        if not os.path.exists(filepath):
+            raise FileNotFoundError(f"카테고리 파일을 찾을 수 없습니다: {filepath}")
+        
+        with open(filepath, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    
     def load_category(self, category_slug: str) -> Dict[str, Any]:
         """특정 카테고리 JSON 파일 로드"""
         filepath = os.path.join(self.categories_dir, f"{category_slug}.json")
@@ -36,7 +46,11 @@ class DocumentStructureHelper:
             raise FileNotFoundError(f"카테고리 파일을 찾을 수 없습니다: {filepath}")
         
         with open(filepath, 'r', encoding='utf-8') as f:
-            return json.load(f)
+            category_data = json.load(f)
+        
+        # category.folder.article 구조에서 첫 번째 (유일한) 카테고리의 폴더 데이터 반환
+        category_name = list(category_data.keys())[0]
+        return category_data[category_name]
     
     def list_categories(self):
         """모든 카테고리 목록 출력"""
@@ -176,8 +190,24 @@ def main():
     
     # 예시 사용법들
     print("\n" + "="*60)
-    print("📚 문서 구조 JSON 활용 예시 (카테고리별 파일 버전)")
+    print("📚 문서 구조 JSON 활용 예시 (category.folder.article 계층구조)")
     print("="*60)
+    
+    # 0. 계층 구조 데모
+    print("\n=== 계층 구조 데모 (category.folder.article) ===")
+    try:
+        demo_data = helper.load_category_full("end-user-guide")
+        category_name = list(demo_data.keys())[0]
+        folder_name = list(demo_data[category_name].keys())[0]
+        article = demo_data[category_name][folder_name][0]
+        
+        print(f"📁 Category: {category_name}")
+        print(f"  📂 Folder: {folder_name}")
+        print(f"    📄 Article: {article['title']}")
+        print(f"       Position: {article['position']}")
+        print(f"       Description: {article['description'][:50]}...")
+    except Exception as e:
+        print(f"⚠️ 계층 구조 데모 오류: {e}")
     
     # 1. 전체 카테고리 목록
     helper.list_categories()
