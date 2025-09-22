@@ -1,0 +1,138 @@
+{
+  "total_categories": 19,
+  "categories": [
+    {
+      "category": "Agent Experience",
+      "slug": "agent-experience",
+      "filename": "agent-experience.json",
+      "folder_count": 3,
+      "article_count": 12
+    },
+    {
+      "category": "Collaboration in Ticketing",
+      "slug": "collaboration-in-ticketing",
+      "filename": "collaboration-in-ticketing.json",
+      "folder_count": 4,
+      "article_count": 21
+    },
+    {
+      "category": "Configuration and Workflows",
+      "slug": "configuration-and-workflows",
+      "filename": "configuration-and-workflows.json",
+      "folder_count": 17,
+      "article_count": 66
+    },
+    {
+      "category": "Configuring Automations",
+      "slug": "configuring-automations",
+      "filename": "configuring-automations.json",
+      "folder_count": 5,
+      "article_count": 18
+    },
+    {
+      "category": "Customer Portal Setup",
+      "slug": "customer-portal-setup",
+      "filename": "customer-portal-setup.json",
+      "folder_count": 4,
+      "article_count": 27
+    },
+    {
+      "category": "Email Channel",
+      "slug": "email-channel",
+      "filename": "email-channel.json",
+      "folder_count": 3,
+      "article_count": 20
+    },
+    {
+      "category": "Field Service Management",
+      "slug": "field-service-management",
+      "filename": "field-service-management.json",
+      "folder_count": 4,
+      "article_count": 16
+    },
+    {
+      "category": "Freddy AI and Chatbots",
+      "slug": "freddy-ai-and-chatbots",
+      "filename": "freddy-ai-and-chatbots.json",
+      "folder_count": 6,
+      "article_count": 37
+    },
+    {
+      "category": "Freddy AI for Ticketing",
+      "slug": "freddy-ai-for-ticketing",
+      "filename": "freddy-ai-for-ticketing.json",
+      "folder_count": 6,
+      "article_count": 25
+    },
+    {
+      "category": "Freshdesk FAQ",
+      "slug": "freshdesk-faq",
+      "filename": "freshdesk-faq.json",
+      "folder_count": 29,
+      "article_count": 651
+    },
+    {
+      "category": "Freshdesk Integrations",
+      "slug": "freshdesk-integrations",
+      "filename": "freshdesk-integrations.json",
+      "folder_count": 23,
+      "article_count": 87
+    },
+    {
+      "category": "Introduction to Ticketing",
+      "slug": "introduction-to-ticketing",
+      "filename": "introduction-to-ticketing.json",
+      "folder_count": 6,
+      "article_count": 23
+    },
+    {
+      "category": "Miscellaneous articles",
+      "slug": "miscellaneous-articles",
+      "filename": "miscellaneous-articles.json",
+      "folder_count": 1,
+      "article_count": 1
+    },
+    {
+      "category": "Policies and Data Protection",
+      "slug": "policies-and-data-protection",
+      "filename": "policies-and-data-protection.json",
+      "folder_count": 5,
+      "article_count": 29
+    },
+    {
+      "category": "Reporting and Analytics",
+      "slug": "reporting-and-analytics",
+      "filename": "reporting-and-analytics.json",
+      "folder_count": 5,
+      "article_count": 53
+    },
+    {
+      "category": "Self Service Tools",
+      "slug": "self-service-tools",
+      "filename": "self-service-tools.json",
+      "folder_count": 5,
+      "article_count": 28
+    },
+    {
+      "category": "The Freshdesk Mobile App",
+      "slug": "the-freshdesk-mobile-app",
+      "filename": "the-freshdesk-mobile-app.json",
+      "folder_count": 4,
+      "article_count": 32
+    },
+    {
+      "category": "Ticketing Channels",
+      "slug": "ticketing-channels",
+      "filename": "ticketing-channels.json",
+      "folder_count": 5,
+      "article_count": 25
+    },
+    {
+      "category": "Video Library",
+      "slug": "video-library",
+      "filename": "video-library.json",
+      "folder_count": 2,
+      "article_count": 50
+    }
+  ]
+}
