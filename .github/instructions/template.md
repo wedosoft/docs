@@ -25,11 +25,21 @@ date: 2025-09-22
 - **전문성**: IT 서비스 관리 분야 전문가가 작성한 수준의 용어 사용
 - **가독성**: 복잡한 내용도 이해하기 쉽게 구조화된 번역
 
-### ❌ 절대 금지 행위
+### ❌ 절대 금지 행위 - CRITICAL
+
+⚠️ **경고: 다음 행위는 절대적으로 금지됩니다**
+
 - **내용 생략이나 요약 금지**: 원본이 길고 상세하면 그대로 길고 상세하게 번역
-- **임의 내용 추가 금지**: 원본에 없는 설명, 예시, 팁 등 일체 추가 금지  
+- **임의 내용 추가 절대 금지**: 
+  - ❌ 원본에 없는 "실무 활용 예시" 섹션 추가 금지
+  - ❌ 원본에 없는 "자주 묻는 질문(FAQ)" 섹션 추가 금지
+  - ❌ 원본에 없는 설명, 예시, 팁, 참고사항 등 일체 추가 금지
+  - ❌ 원본에 없는 표, 목록, 코드 블록 등 추가 금지
+  - ❌ "도움이 될 만한" 추가 정보 제공 절대 금지
 - **구조 변경 금지**: 원본의 제목, 순서, 계층 구조 완전 보존
 - **시각적 요소 삭제 금지**: 이미지, 테이블, HTML 구조 완전 보존
+
+🔴 **CRITICAL**: 원본에 있는 내용만 번역하고, 원본에 없는 내용은 절대 추가하지 마십시오
 
 ## 🗂️ 번역 작업 구조
 
@@ -48,6 +58,41 @@ docs/{product}/{category}/{folder}/{article}.md
 ├── faqs/
 └── [기타 카테고리들]
 ```
+
+### 📁 파일명/폴더명 네이밍 규칙
+
+**원칙**: 원문 제목이 길어질 경우 핵심 키워드만 추출하여 간결한 slug 생성
+
+#### 폴더명 (3-4단어 이내)
+```
+❌ "understanding-how-to-create-and-manage-custom-ticket-statuses"
+✅ "custom-ticket-statuses"
+
+❌ "configuring-advanced-sla-policies-and-escalation-rules" 
+✅ "sla-policies"
+
+❌ "comprehensive-guide-to-incident-management-workflows"
+✅ "incident-management"
+```
+
+#### 파일명 (4-6단어 이내)
+```
+❌ "understanding-how-due-by-times-and-sla-policies-work-together.md"
+✅ "understanding-due-by-times-and-sla-policies.md"
+
+❌ "creating-and-managing-canned-response-templates-for-agents.md"
+✅ "creating-canned-response-templates.md"
+
+❌ "comprehensive-guide-to-viewing-and-accessing-ticket-information.md"
+✅ "viewing-and-accessing-ticket-information.md"
+```
+
+#### 네이밍 가이드라인
+- **핵심 키워드 우선**: 기능이나 개념의 핵심 단어만 추출
+- **소문자 + 하이픈**: `lowercase-hyphen-format` 사용
+- **동사 + 명사 구조**: `creating-`, `managing-`, `understanding-` 등 액션 동사 활용
+- **SEO 고려**: 검색하기 쉬운 직관적인 단어 조합
+- **URL 친화적**: 브라우저 주소창에서 읽기 쉬운 길이
 
 ## 📝 번역 방법론
 
@@ -83,6 +128,7 @@ sidebar_position: [숫자]
 # [원본 제목의 정확한 번역]
 
 [원본 내용을 순서와 구조 그대로 완전 번역]
+⚠️ 원본에 없는 섹션은 절대 추가하지 마십시오
 
 ## [원본 섹션 1 제목 번역]
 [해당 섹션 내용 완전 번역]
@@ -91,6 +137,7 @@ sidebar_position: [숫자]
 [해당 섹션 내용 완전 번역]
 
 [...원본의 모든 섹션을 동일 구조로 번역]
+⚠️ 원본에 없는 "실무 예시", "FAQ", "추가 정보" 등은 절대 추가 금지
 ```
 
 ### � HTML/MDX 처리 원칙
@@ -124,6 +171,10 @@ sidebar_position: [숫자]
 - [ ] HTML 태그가 MDX 호환 형태로 변환되었는가?
 - [ ] 한국어로 자연스럽게 읽히는가?
 - [ ] IT 서비스 관리 전문가가 작성한 수준인가?
+- [ ] **CRITICAL**: 원본에 없는 내용을 추가하지 않았는가?
+- [ ] **CRITICAL**: 실무 예시, FAQ 등 임의 섹션을 추가하지 않았는가?
+- [ ] 파일명이 핵심 키워드만으로 간결하게 작성되었는가? (4-6단어 이내)
+- [ ] 폴더명이 직관적이고 간결한가? (3-4단어 이내)
 
 ### 품질 기준
 - [ ] 기계적 번역이 아닌 전문가 수준의 자연스러운 문체

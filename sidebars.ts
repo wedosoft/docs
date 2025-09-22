@@ -191,6 +191,32 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
+          label: '📘 IT 서비스 관리 지원 가이드',
+          collapsed: true,
+          items: [
+            {
+              type: 'category',
+              label: '📋 인시던트 관리',
+              collapsed: true,
+              items: [
+                'freshservice/itsm/incident-management/understanding-sla-policies',
+              ],
+            },
+            {
+              type: 'category',
+              label: '🎫 티켓 시작하기',
+              collapsed: true,
+              items: [
+                'freshservice/itsm/getting-started-with-tickets/viewing-and-accessing-ticket-information',
+                'freshservice/itsm/getting-started-with-tickets/creating-canned-response-templates',
+                'freshservice/itsm/getting-started-with-tickets/managing-ticket-properties',
+                'freshservice/itsm/getting-started-with-tickets/understanding-custom-ticket-statuses',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
           label: '❓ FAQ',
           collapsed: true,
           items: [
