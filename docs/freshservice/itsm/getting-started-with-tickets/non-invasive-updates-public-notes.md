@@ -10,9 +10,9 @@ sidebar_position: 4
 
 ## 공개 메모로 비침습적 업데이트 허용 간단 가이드
 
-1. **관리자 > 계정 설정 > 이메일 알림 > 티켓**으로 이동합니다. 계정에 워크스페이스가 여러 개 있는 경우 **관리자 > \{워크스페이스 이름\} > 계정 설정 > 이메일 알림 > 티켓**으로 이동합니다.
+1. **관리자 > 계정 설정 > 이메일 알림 > 티켓**으로 이동합니다. 계정에 워크스페이스가 여러 개 있는 경우 **관리자 > \&#123;워크스페이스 이름\&#125; > 계정 설정 > 이메일 알림 > 티켓**으로 이동합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007011783/original/jIz0rUOAMNO_sHX5YfNTJCSJLJ7Sv4xxgQ.jpeg?1669374610" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50007011783/original/jIz0rUOAMNO_sHX5YfNTJCSJLJ7Sv4xxgQ.jpeg?1669374610"  />
 
 2. **에이전트가 티켓에 댓글 추가**에 대한 **요청자 알림**을 비활성화합니다
 
@@ -24,6 +24,6 @@ sidebar_position: 4
 
 6. **메모 추가**를 클릭하여 공개 메모를 추가합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006668611/original/AsFEdczXhR7xYgNn6zjvroLZ2Gc1G6IW3g.png?1665995551" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006668611/original/AsFEdczXhR7xYgNn6zjvroLZ2Gc1G6IW3g.png?1665995551"  />
 
 이제 고객들이 지원 포털에서 이 티켓을 볼 때 이 댓글을 볼 수 있습니다. "추가 및 해결됨으로 설정" 옵션을 사용할 때는 요청자가 여전히 알림 이메일을 받습니다. 이는 티켓 해결 알림이 여전히 활성화되어 있기 때문입니다. 업데이트를 비침습적으로 유지하고 싶더라도 이것을 비활성화하지 않는 것을 권장합니다.

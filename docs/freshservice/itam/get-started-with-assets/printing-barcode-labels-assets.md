@@ -16,11 +16,11 @@ Freshservice 인스턴스에서 기능을 활성화하려면 아래 설치 지�
 
 **1단계:** Freshservice의 Admin 탭으로 이동합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006919579/original/1U0eJU_3VK588WHjM1eqXibxZd3xn3Iz9A.png?1668504749" style={{width: 'auto'}} className="fr-fil fr-dib" data-attachment="[object Object]" data-id="50006919579" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006919579/original/1U0eJU_3VK588WHjM1eqXibxZd3xn3Iz9A.png?1668504749"  className="fr-fil fr-dib" data-attachment="[object Object]" data-id="50006919579" />
 
 **2단계:** Service Desk Productivity 탭에서 "Apps" 아이콘을 클릭하고 "Get More Apps"로 이동합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006919581/original/6yuSSWC1p-YcSaCToOBq78J0Qs2PYCqTAg.png?1668504761" style={{width: 'auto'}} className="fr-fil fr-dib" data-attachment="[object Object]" data-id="50006919581" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006919581/original/6yuSSWC1p-YcSaCToOBq78J0Qs2PYCqTAg.png?1668504761"  className="fr-fil fr-dib" data-attachment="[object Object]" data-id="50006919581" />
 
 **3단계:** "Asset Label Designer" 앱을 찾으면 **Install** 버튼을 클릭합니다.
 

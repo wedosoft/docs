@@ -19,7 +19,7 @@ sidebar_position: 8
 
 여기서 헤더와 전역 탐색이 무엇을 의미하는지 참조하세요.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002378903/original/skmdRgIxnvaDzKjSWxSCGPEgwMX__KUYvA.png?1611759048" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002378903/original/skmdRgIxnvaDzKjSWxSCGPEgwMX__KUYvA.png?1611759048"  />
 
 ## 로고 및 브랜딩
 
@@ -31,24 +31,24 @@ Freshworks 제품 전반의 일관성을 보장하고 정보 계층을 개선하
 
 모든 브랜딩과 테마 설정은 이제 전역 탐색 내에 있습니다. 헤더는 기본적으로 흰색이며 더 이상 사용자 정의할 수 없습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002378905/original/sMo9fyafpPvXbM55PBvQ1_l6TjrRydONdA.jpg?1611759119" style={{width: '610px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002378905/original/sMo9fyafpPvXbM55PBvQ1_l6TjrRydONdA.jpg?1611759119"  />
 
 ## 서비스 데스크 리브랜딩
 
 - 포털 브랜딩은 이제 에이전트 및 요청자 포털 사용자 정의로 분류됩니다
 - 이제 관리자 -> 서비스 데스크 리브랜딩 -> 브랜딩 사용자 정의(에이전트 포털 브랜딩 하에) -> 로고 및 색상 설정으로 이동하여 전역 탐색 테마를 변경할 수 있습니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002378917/original/C3S6P95q97EFlVIX3qD5ZR4YHF81JT-d6Q.jpg?1611759217" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002378917/original/C3S6P95q97EFlVIX3qD5ZR4YHF81JT-d6Q.jpg?1611759217"  />
 
 ## 헤더의 개선 사항
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002378920/original/GzsQdzQU7uZImKQaS0e1dgqMh_dp-lZEjQ.jpg?1611759260" style={{width: '646px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002378920/original/GzsQdzQU7uZImKQaS0e1dgqMh_dp-lZEjQ.jpg?1611759260"  />
 
 1. 뷰 드롭다운 상호작용이 이제 왼쪽에 있습니다
 2. 헤더는 기본적으로 흰색이며 더 이상 사용자 정의할 수 없습니다
 3. 검색 아이콘이 이제 확장된 검색 표시줄로 나타납니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002385293/original/bZ73yHWQJTlFfwz7mHr141cND5LKcdHVNw.png?1611834251" style={{width: '596px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002385293/original/bZ73yHWQJTlFfwz7mHr141cND5LKcdHVNw.png?1611834251"  />
 
 4. 개선된 "새로 만들기" 버튼
 5. 다음 옵션을 가진 논리적으로 그룹화된 올인원 도움말 버튼:
@@ -68,4 +68,4 @@ Freshworks 제품 전반의 일관성을 보장하고 정보 계층을 개선하
 - 전역 탐색 하단의 앱 아이콘에는 이제 Freshcaller, Freshchat CTI 및 Freshservice 계정과 통합한 전체 페이지 앱과 같은 Freshservice 통합 제품이 포함됩니다
 - 고해상도에서 볼 때 전역 탐색은 확장된 상태를 유지하고 제품은 중앙 정렬됩니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002378943/original/L7gKkSjxy3uAoGhv4bs7uV2tiD8jElcnaw.jpg?1611759407" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002378943/original/L7gKkSjxy3uAoGhv4bs7uV2tiD8jElcnaw.jpg?1611759407"  />

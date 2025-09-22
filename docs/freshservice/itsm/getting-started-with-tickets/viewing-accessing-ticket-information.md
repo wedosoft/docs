@@ -20,7 +20,7 @@ Freshservice 티켓 보기 페이지를 통해 서비스 데스크의 모든 단
 - 애플리케이션 창
 - 티켓에 추가된 시간 기록
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006666806/original/IXJZG2qoVPC_ri41rvW1o9ioO9BMu-ZFyQ.png?1665982717" style={{width: '717px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006666806/original/IXJZG2qoVPC_ri41rvW1o9ioO9BMu-ZFyQ.png?1665982717"  />
 
 티켓을 열 때 가장 먼저 눈에 띄는 것은 요청자가 보낸 원본 티켓 헤더입니다. 헤더는 언제 수신되었는지, 어떤 카테고리로 분류되었는지, 그리고 요청자의 프로필 페이지 링크를 알려줍니다. 그런 다음 '세부 정보' 탭에서 티켓이 무엇에 관한 것인지 자세한 설명을 볼 수 있습니다.
 
@@ -32,7 +32,7 @@ Freshservice 티켓 보기 페이지를 통해 서비스 데스크의 모든 단
 
 관련 티켓 섹션에서 서비스 요청/인시던트를 티켓에 연결하거나 직접 서비스 요청/인시던트를 생성하여 티켓에 연결할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011603152/original/vzmlrn753ch490lrKRhN8_9JdF3tT0S5bQ.png?1713708164" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011603152/original/vzmlrn753ch490lrKRhN8_9JdF3tT0S5bQ.png?1713708164"  />
 
 **참고:** **SR(서비스 요청)은 SR에만, INC(인시던트)는 INC에만 연결할 수 있습니다.**
 

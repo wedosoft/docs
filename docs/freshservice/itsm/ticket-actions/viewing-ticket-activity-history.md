@@ -13,9 +13,9 @@ sidebar_position: 8
 3. 지금까지 발생한 전체 활동 목록이 역순으로 표시됩니다
 4. 활동 창 오른쪽 상단의 **내보내기** 버튼을 사용하여 활동 목록을 내보낼 수도 있습니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006689770/original/ISCuPEUPBEt_UHBcQIZcgZicQFwntckvfw.png?1666153438" style={{width: '695px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006689770/original/ISCuPEUPBEt_UHBcQIZcgZicQFwntckvfw.png?1666153438"  />
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006689699/original/YGSmwW4TFupgxP5PW4OxKXolhxp9rlSc9g.png?1666152514" style={{width: '694px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006689699/original/YGSmwW4TFupgxP5PW4OxKXolhxp9rlSc9g.png?1666152514"  />
 
 ## 어떤 유형의 활동이 캡처되나요?
 

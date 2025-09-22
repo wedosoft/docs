@@ -14,7 +14,7 @@ sidebar_position: 9
 
 이메일 봇은 직원의 요청과 일치하는 도움말 기사로 자동 응답하여 이메일 질의를 차단하도록 설계된 기능입니다. 이 기능을 활용하면 직원이 더 빠른 해결을 얻을 수 있도록 지원하고 IT 팀의 작업량을 줄일 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012117128/original/mCeqA4c9L_AMAYn5MPMJYoSN7RS09jVg9w.png?1718095001" style={{width: '624px', height: '573px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012117128/original/mCeqA4c9L_AMAYn5MPMJYoSN7RS09jVg9w.png?1718095001"  />
 
 ## 이메일 봇이란 무엇인가요?
 

@@ -19,17 +19,17 @@ Freshservice를 사용하면 모든 유형의 티켓을 다른 모든 유형의 
 3. **+하위 티켓 추가 버튼을 클릭합니다. 새 티켓을 생성하기 위한 두 가지 옵션이 있는 팝업 창이 열립니다:**
    - **양식을 사용하여 생성**: 이 옵션을 사용하면 세부 정보를 입력하고 하위 티켓을 만들 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011464770/original/t4S2N6-VJOSCEBsP7ECgJf6VrtkoRZBH8g.png?1712372070" style={{width: '551px', height: '288px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011464770/original/t4S2N6-VJOSCEBsP7ECgJf6VrtkoRZBH8g.png?1712372070"  />
 
 기존 티켓 템플릿을 선택하여 하위 티켓을 만들 수도 있습니다. 이 드롭다운을 클릭하면 티켓에 액세스할 수 있는 다양한 워크스페이스에서 모든 기존 템플릿을 제공합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011505204/original/nqcQRkBOSNIgxx5c1BeeDezxcWZVE0DkuA.png?1712774198" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011505204/original/nqcQRkBOSNIgxx5c1BeeDezxcWZVE0DkuA.png?1712774198"  />
 
 양식의 세부 정보를 입력하고 **저장**을 클릭하여 하위 티켓을 만듭니다.
 
    - **카탈로그에서 항목 선택**: 이 옵션을 사용하면 서비스 카탈로그 항목을 사용하여 하위 티켓을 만들 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011464771/original/jgrgXtJoIvXUiJvSlZLgQ1gRPGZ-kcU8cw.png?1712372070" style={{width: '531.67px', height: '279px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011464771/original/jgrgXtJoIvXUiJvSlZLgQ1gRPGZ-kcU8cw.png?1712372070"  />
 
 원하는 항목을 선택하고 필요한 세부 정보를 입력하여 하위 티켓을 만듭니다. **제출**을 클릭합니다. 하위 티켓이 추가되고 세부 정보 페이지의 왼쪽에 티켓 ID와 함께 표시됩니다.
 
@@ -37,4 +37,4 @@ Freshservice를 사용하면 모든 유형의 티켓을 다른 모든 유형의 
 
 하위 티켓 추가 패널에서 기존 티켓 옵션을 선택합니다. 목록에는 목록 보기에서 제안된 하위 티켓이 표시되며 다양한 유형의 티켓이 포함됩니다. 원하는 티켓을 검색할 수도 있습니다. 추가를 클릭하여 선택한 티켓을 하위 티켓으로 연결합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011464769/original/oGTUxmv7FAG3gWghBNrtWpCvMACIgbYdvQ.png?1712372069" style={{width: '624px', height: '327px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011464769/original/oGTUxmv7FAG3gWghBNrtWpCvMACIgbYdvQ.png?1712372069"  />

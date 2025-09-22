@@ -18,7 +18,7 @@ Freshservice의 내장 기능인 **만족도 설문조사**를 통해 모든 지
 
 **계정에 둘 이상의 워크스페이스가 있는 경우:**
 - 전역 워크플로우를 수정하려면: **관리자 > 전역 설정 > 서비스 관리 > 서비스 데스크 설정 > 만족도 설문조사**로 이동합니다
-- 워크스페이스 수준 워크플로우를 수정하려면: **관리자 > 워크스페이스 설정 > {워크스페이스 이름} > 서비스 관리 > 서비스 데스크 설정 > 만족도 설문조사**로 이동합니다
+- 워크스페이스 수준 워크플로우를 수정하려면: **관리자 > 워크스페이스 설정 > &#123;워크스페이스 이름&#125; > 서비스 관리 > 서비스 데스크 설정 > 만족도 설문조사**로 이동합니다
 
 :::info 중요 참고사항
 - 워크스페이스 관리자는 워크스페이스에 적용 가능한 전역 및 로컬 워크플로우 목록을 볼 수 있습니다
@@ -29,7 +29,7 @@ Freshservice의 내장 기능인 **만족도 설문조사**를 통해 모든 지
 2. **새로 만들기**를 클릭하고 설문조사에 적합한 제목과 질문을 입력합니다
 3. **새로 추가**를 클릭하고 선택 기반, 짧은 텍스트 및 평점 중에서 질문 유형을 선택합니다. 설문조사 질문지는 이러한 유형의 질문을 조합할 수 있습니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003582590/original/rz3GCaWDU7RUk6oC6sl0CoS_OoIaq8vSXg.png?1629113643" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003582590/original/rz3GCaWDU7RUk6oC6sl0CoS_OoIaq8vSXg.png?1629113643"  />
 
 ## 설문조사 질문 구성
 
@@ -46,7 +46,7 @@ Freshservice의 내장 기능인 **만족도 설문조사**를 통해 모든 지
 - 더 많은 선택 기반 질문, 짧은 텍스트 유형 질문 또는 평점 기반 질문을 추가합니다
 - 평점은 3, 4 또는 5 척도로 설정할 수 있으며 각 평점에 점수를 할당할 수 있습니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003582947/original/Np7jd2p-561SuaeGJNW-QIm1zW93HNRZ3Q.png?1629116156" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003582947/original/Np7jd2p-561SuaeGJNW-QIm1zW93HNRZ3Q.png?1629116156"  />
 
 ### 감정 분석
 이러한 점수는 다양한 분석과 고객의 감정을 이해하는 데 사용할 수 있습니다:
@@ -58,14 +58,14 @@ Freshservice의 내장 기능인 **만족도 설문조사**를 통해 모든 지
 ### 감사 메시지 설정
 설문조사에서 **감사 메시지**를 설정하고 필요한 경우 관련 이미지를 첨부할 수도 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003582976/original/J0UKSWQPKncR0ZPVacSX0nUFaRrbqzqAcA.png?1629116358" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003582976/original/J0UKSWQPKncR0ZPVacSX0nUFaRrbqzqAcA.png?1629116358"  />
 
 ## 설문조사 미리보기 및 저장
 
 - 고객에게 설문조사가 어떻게 보일지 확인하려면 **미리보기** 옵션을 클릭하면 설문조사가 이메일로 전송됩니다
 - **저장** 또는 **저장 및 활성화**를 클릭하여 설문조사를 저장합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003583121/original/cKwGDKD_6Km3H-KmAJW2AIOg9gioKrCDag.png?1629117029" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003583121/original/cKwGDKD_6Km3H-KmAJW2AIOg9gioKrCDag.png?1629117029"  />
 
 :::warning 참고사항
 1. 이모티콘은 선택 기반 질문에만 사용할 수 있습니다

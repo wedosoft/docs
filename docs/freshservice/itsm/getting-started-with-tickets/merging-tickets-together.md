@@ -25,7 +25,7 @@ sidebar_position: 5
 
 3. 탐색 창에서 **병합** 버튼을 클릭합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006669500/original/o15oNKyyJWw480kFXeKiaL1-HEvBO8Yn6g.png?1666000027" style={{width: '319px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006669500/original/o15oNKyyJWw480kFXeKiaL1-HEvBO8Yn6g.png?1666000027"  />
 
 4. 팝업되는 대화 상자에서 기본 티켓으로 만들고 싶은 티켓을 클릭하여 선택합니다. 그러면 확인으로 옆에 체크 표시가 나타납니다
 
@@ -35,7 +35,7 @@ sidebar_position: 5
 
 7. 계속 진행할 준비가 되면 **계속** 버튼을 클릭합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006669570/original/p5gW6wyCIPazIB1ODKpFQmz1Y6IR0WQ72A.png?1666000253" style={{width: '438px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006669570/original/p5gW6wyCIPazIB1ODKpFQmz1Y6IR0WQ72A.png?1666000253"  />
 
 8. 다음 페이지에서 변경한 내용을 검토하고 모든 것이 올바른지 확인합니다
 
@@ -43,7 +43,7 @@ sidebar_position: 5
 
 10. 마지막으로 **확인 및 병합** 버튼을 클릭하여 티켓 병합을 완료합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006669560/original/wi1jbN_vKHlJlfy6LliTeA08qPS9xB_MkA.png?1666000188" style={{width: '461px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006669560/original/wi1jbN_vKHlJlfy6LliTeA08qPS9xB_MkA.png?1666000188"  />
 
 이와 비슷하게 헬프데스크에서 각 티켓을 열고 탐색 모음에서 병합 기능을 사용할 수도 있습니다.
 

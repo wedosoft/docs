@@ -14,15 +14,15 @@ iPhone 또는 iPad를 사용하여 새 장치를 스캔하면 **Asset Tag**를 �
 
 1. Freshservice 앱에서 **Menu** 아이콘을 탭하고 **Assets**를 탭합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/22770194/original/Assets_page.png?1429874775" className="inline-image fr-dii fr-draggable" data-id="22770194" style={{cursor: 'default'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/22770194/original/Assets_page.png?1429874775" className="inline-image fr-dii fr-draggable" data-id="22770194"  />
 
 2. Assets에서 **Scan Assets**를 탭하여 바코드 스캐너를 열고 장치의 바코드나 QR 코드에 향하게 합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/22771028/original/Scan_QR_Barcode_A.png?1429879270" className="inline-image fr-dii fr-draggable" data-id="22771028" style={{cursor: 'default'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/22771028/original/Scan_QR_Barcode_A.png?1429879270" className="inline-image fr-dii fr-draggable" data-id="22771028"  />
 
 3. 앱이 코드를 스캔하면 **Add New Asset** 양식이 나타납니다. **Asset Tag**는 코드에서 가져옵니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/22771064/original/Asset_tag.PNG?1429879427" className="inline-image fr-dii fr-draggable" data-id="22771064" style={{cursor: 'default'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/22771064/original/Asset_tag.PNG?1429879427" className="inline-image fr-dii fr-draggable" data-id="22771064"  />
 
 4. 나머지 세부 정보를 입력하고 체크박스를 탭하여 자산을 저장합니다.
 
@@ -32,6 +32,6 @@ iPhone 또는 iPad를 사용하여 새 장치를 스캔하면 **Asset Tag**를 �
 
 2. 장치의 바코드/QR 코드를 스캔합니다. 이렇게 하면 해당 세부 정보(Asset Tag 기반)가 표시되고 **Last Audit Date**가 현재 날짜로 업데이트됩니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/22770166/original/Details_Page.png?1429874607" className="inline-image fr-dii fr-draggable" data-id="22770166" style={{cursor: 'default'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/22770166/original/Details_Page.png?1429874607" className="inline-image fr-dii fr-draggable" data-id="22770166"  />
 
 바코드 스캐너를 통해 자산을 추적하는 것 외에도 **Assets** 탭을 사용하면 기존 자산을 검색하고 바코드 스캔이 옵션이 아닐 수 있는 경우 수동으로 새 자산을 추가할 수 있습니다.

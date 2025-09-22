@@ -15,7 +15,7 @@ sidebar_position: 2
 1. **관리자 > 자동화 및 생산성 > 자동화 > 시나리오 자동화**로 이동합니다.
 
 :::info 워크스페이스가 여러 개인 경우
-계정에 둘 이상의 워크스페이스가 있는 경우: **관리자 > {워크스페이스 이름} > 자동화 및 생산성 > 자동화 > 시나리오 자동화**로 이동합니다.
+계정에 둘 이상의 워크스페이스가 있는 경우: **관리자 > &#123;워크스페이스 이름&#125; > 자동화 및 생산성 > 자동화 > 시나리오 자동화**로 이동합니다.
 :::
 
 2. **새 시나리오** 버튼을 선택합니다.
@@ -30,7 +30,7 @@ sidebar_position: 2
 
 6. 이 응답의 **가시성** 및 **액세스 권한**을 선택합니다. 이 응답을 자신만 사용할 수 있게 할지, 특정 그룹 세트에 제공할지, 또는 헬프데스크의 모든 에이전트에게 제공할지 선택할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006706608/original/r9d3BwXrXfBoG0DK8mmGmhvRkPIlGs2Kpw.png?1666269253" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006706608/original/r9d3BwXrXfBoG0DK8mmGmhvRkPIlGs2Kpw.png?1666269253"  />
 
 7. 완료되면 **저장**을 클릭하여 시나리오를 저장합니다.
 
@@ -48,8 +48,8 @@ sidebar_position: 2
 
 3. 사용 가능한 모든 시나리오 자동화 목록이 표시됩니다. 실행하려는 시나리오 자동화 위에 마우스를 올리고 **실행**을 클릭합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006706577/original/AzLjGqac2NuRE2tcAkLgx3ilXAHB_RgPdA.png?1666269050" style={{width: '699px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006706577/original/AzLjGqac2NuRE2tcAkLgx3ilXAHB_RgPdA.png?1666269050"  />
 
-4. 자동화와 관련된 전체 작업 세트가 실행되고 **시나리오 <시나리오 이름> 실행됨**이라는 메시지가 표시됩니다.
+4. 자동화와 관련된 전체 작업 세트가 실행되고 **시나리오 &lt;시나리오 이름&gt; 실행됨**이라는 메시지가 표시됩니다.
 
 5. 티켓 페이지에서 새 시나리오를 생성할 수도 있습니다. **시나리오 실행** 팝업 페이지의 오른쪽 상단에 있는 **+새로 만들기**를 클릭합니다.

@@ -24,7 +24,7 @@ Freshservice의 새롭고 향상된 자동 새로고침 기능은 페이지 새�
 - **업데이트 강조**: 에이전트의 주의를 끌기 위해 업데이트된 필드가 강조 표시됩니다
 - **상황별 정보**: 필드 위에 마우스를 올리면 에이전트는 누가 업데이트했는지, 어떤 변경이 이루어졌는지 볼 수 있어 투명성을 제공합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012453858/original/eJQge6EI5JH12bDcTG5BVlcZJ0gIt2h_Dw.png?1721039709" style={{width: '624px', height: '359px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012453858/original/eJQge6EI5JH12bDcTG5BVlcZJ0gIt2h_Dw.png?1721039709"  />
 
 ### 시나리오 2: 충돌이 있는 필드 자동 새로고침
 
@@ -32,7 +32,7 @@ Freshservice의 새롭고 향상된 자동 새로고침 기능은 페이지 새�
 - **충돌 메시징**: 메시지는 초기 값(업데이트 전)과 최종 값(업데이트 후)을 보여주어 에이전트에게 변경 사항에 대한 명확한 가시성을 제공합니다
 - **의사 결정**: 에이전트는 백엔드 변경 사항을 적용하거나 초안 변경 사항을 유지할 수 있어 상황에 따라 정보에 기반한 결정을 내릴 수 있습니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012453859/original/UFBKgLy7wzux_xqvN4iEwFpJslCUYn61YA.png?1721039709" style={{width: '624px', height: '359px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012453859/original/UFBKgLy7wzux_xqvN4iEwFpJslCUYn61YA.png?1721039709"  />
 
 ## 이점
 

@@ -10,7 +10,7 @@ sidebar_position: 4
 
 ## 기본 뷰 치트 시트
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006717749/original/CXg7nwz0W7zEKmx7_XU6cYK6lSBYaXgDjQ.jpeg?1666362076" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006717749/original/CXg7nwz0W7zEKmx7_XU6cYK6lSBYaXgDjQ.jpeg?1666362076"  />
 
 | 뷰 | 표시 내용 |
 |---|---|
@@ -34,7 +34,7 @@ sidebar_position: 4
 
 ## Freshservice에서 새 필터 생성 간단 가이드
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006717758/original/j6o2ZcOjIVBcEmSZ_QjC_T-pw7CyBrzVTg.png?1666362178" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006717758/original/j6o2ZcOjIVBcEmSZ_QjC_T-pw7CyBrzVTg.png?1666362178"  />
 
 1. **티켓** 탭을 클릭하여 티켓 뷰 페이지를 엽니다
 2. 클래식 **목록** 또는 **칸반** 뷰 중 하나를 선택합니다

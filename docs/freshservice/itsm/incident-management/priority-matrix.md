@@ -32,16 +32,16 @@ Freshservice에서는 우선순위 결정을 표준화하기 위해 **[우선순
 
 계정에서 우선순위 매트릭스를 활성화하려면:
 
-1. **Admin > Service Management > Service Desk settings > Priority Matrix**로 이동합니다. 계정에 워크스페이스가 여러 개 있는 경우 **Admin > {Workspace Name} > Service Management > Service Desk settings > Priority Matrix**로 이동합니다
+1. **Admin > Service Management > Service Desk settings > Priority Matrix**로 이동합니다. 계정에 워크스페이스가 여러 개 있는 경우 **Admin > &#123;Workspace Name&#125; > Service Management > Service Desk settings > Priority Matrix**로 이동합니다
 2. **우선순위 매트릭스 활성화 옵션**을 켜기로 전환합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000083724/original/qpt88A2OJUI33Wi0aWVoWRS-QtVW-cckaw.png?1565241800" style={{width: '624px', height: '411px'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000083724/original/qpt88A2OJUI33Wi0aWVoWRS-QtVW-cckaw.png?1565241800"  />
 
 관리자는 영향과 긴급성 하위의 각 수준 쌍에 대해 드롭다운에서 우선순위를 편집하고 선택할 수 있습니다.
 
 예를 들어, 관리자는 "높은" 긴급성 티켓이 [서비스 데스크](https://freshservice.com/it-service-desk-software)로 들어왔을 때 상담원이 그 영향이 "낮음"이라고 판단하면 우선순위를 "보통"으로 설정해야 한다고 규정할 수 있습니다. 이를 통해 우선순위를 확인하는 표준화된 프로세스가 보장되고 상담원이 더 중요한 티켓에 집중할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000083725/original/MmFCTUZBo0yIlbEe2yvcaMKV0-WLdmGemw.png?1565241801" style={{width: '624px', height: '297px'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000083725/original/MmFCTUZBo0yIlbEe2yvcaMKV0-WLdmGemw.png?1565241801"  />
 
 영향과 긴급성의 모든 수준에 대한 우선순위를 지정했으면 저장을 클릭하여 완료합니다.
 

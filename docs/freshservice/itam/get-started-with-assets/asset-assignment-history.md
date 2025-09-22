@@ -19,7 +19,7 @@ sidebar_position: 18
 
 "Used by" 필드가 변경될 때마다 새로운 할당 이력 기록이 자동으로 생성됩니다. 이를 통해 누가 자산을 사용했는지와 자산 할당이 언제 이루어졌는지를 명확하게 이해할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011203572/original/lJSEc_I5dGgIjcmOBo5bhUsjzjG8ICGEcQ.png?1710253931" style={{width: '624px', height: '355px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50011203572" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011203572/original/lJSEc_I5dGgIjcmOBo5bhUsjzjG8ICGEcQ.png?1710253931"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50011203572" />
 
 예를 들어, 노트북이 David Baptiste에서 Izzy Higgins로 재할당되면 이 변경 사항을 반영하는 새로운 할당 이력 기록이 생성됩니다. 에이전트는 초기 프로비저닝부터 현재 할당까지 자산의 여정을 추적할 수 있습니다.
 
@@ -27,15 +27,15 @@ sidebar_position: 18
 
 1. **Admin → Assets → Inventory**로 이동하여 자산 목록 보기 페이지에서 자산을 클릭합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011203575/original/7FLFk5sYC9zb71nMuTA_8k3pDwx3JTlOzQ.png?1710253932" style={{width: '624px', height: '335px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50011203575" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011203575/original/7FLFk5sYC9zb71nMuTA_8k3pDwx3JTlOzQ.png?1710253932"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50011203575" />
 
 2. 자산 보기 페이지에서 **Assignment 옵션**을 선택합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011203573/original/135WzxJZr5KuiTOeRfgx6d3CZ8WB5MRc8w.png?1710253931" style={{width: '624px', height: '336px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50011203573" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011203573/original/135WzxJZr5KuiTOeRfgx6d3CZ8WB5MRc8w.png?1710253931"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50011203573" />
 
 4. 특정 요청자의 자산 할당 이력을 보려면 할당 이력 페이지에서 요청자 프로필을 클릭합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011203574/original/xbvwPC0HpnfnE2hJajMLb6abzTmO2zX6cg.png?1710253932" style={{width: '624px', height: '335px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50011203574" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011203574/original/xbvwPC0HpnfnE2hJajMLb6abzTmO2zX6cg.png?1710253932"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50011203574" />
 
 **참고:** 사용자는 **Admin → Requesters → Requester profile**로 이동하여 특정 사용자의 자산 할당 이력을 확인할 수도 있습니다.
 

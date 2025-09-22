@@ -21,7 +21,7 @@ Freshservice의 기본 SLA 정책은 헬프데스크로 들어오는 모든 티�
 
 **계정에 워크스페이스가 여러 개 있는 경우:**
 - 글로벌 워크플로우 수정: **Admin > Global Settings > Service Management > Service Desk Settings > SLA and OLA Policies**로 이동
-- 워크스페이스 수준 워크플로우 수정: **Admin > Workspace Settings > {Workspace Name} > Service Management > Service Desk Settings > SLA and OLA Policies**로 이동
+- 워크스페이스 수준 워크플로우 수정: **Admin > Workspace Settings > &#123;Workspace Name&#125; > Service Management > Service Desk Settings > SLA and OLA Policies**로 이동
 
 ### 2단계: 기본 SLA 정책 편집
 
@@ -33,9 +33,9 @@ Freshservice의 기본 SLA 정책은 헬프데스크로 들어오는 모든 티�
 2. **시간-우선순위 매트릭스**를 완성합니다.
 3. SLA 정책은 티켓 우선순위에 따라 결정됩니다. 높은 우선순위나 낮은 우선순위 티켓을 구성하는 요소를 수동으로 정의하거나 워크플로우 자동화기를 사용하여 자동화할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006967159/original/zZtH_5UjJhG99efqKiFeuZDuF6OQrB3vNQ.png?1669027996" style={{width: 'auto'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006967159/original/zZtH_5UjJhG99efqKiFeuZDuF6OQrB3vNQ.png?1669027996"  />
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000085168/original/XJ0qMY6oTzyXQanYzcAjuzos4fx5fPZcHQ.gif?1565263006" style={{width: '624px', height: '395px'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000085168/original/XJ0qMY6oTzyXQanYzcAjuzos4fx5fPZcHQ.gif?1565263006"  />
 
 ### 4단계: SLA 시간 계산 방법 선택
 
@@ -47,7 +47,7 @@ SLA 시간을 **비즈니스 시간 또는 달력 시간** 기준으로 계산�
 2. 티켓이 언제, 누구에게 에스컬레이션되어야 하는지 정의하여 **에스컬레이션 계층구조**를 설정합니다.
 3. 티켓 해결을 위해 최대 4단계의 에스컬레이션과 티켓 응답을 위해 1단계를 설정할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000085167/original/JKUz5OhuYqEItuU4S5nmhUbcT_ZBsOG-mw.png?1565262983" style={{width: '624px', height: '285px'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000085167/original/JKUz5OhuYqEItuU4S5nmhUbcT_ZBsOG-mw.png?1565262983"  />
 
 ### 6단계: 정책 저장
 

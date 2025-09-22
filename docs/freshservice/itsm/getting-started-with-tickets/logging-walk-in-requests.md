@@ -18,6 +18,6 @@ sidebar_position: 3
 6. 작업이 필요한 경우 열림(Open)으로, 무언가를 기다리고 있는 경우 보류(Pending)로, 문제가 해결된 경우 해결됨(Resolved)으로 티켓 상태를 변경합니다
 7. **제출/취소** 탭에서 **제출 및 새로 만들기** 버튼을 클릭하여 티켓을 생성하거나, **제출 및 닫기**로 티켓을 생성하고 닫거나, **제출 및 해결**로 문제를 해결합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006668021/original/4cVDlcs86BwRbZovpVSwGzscJneif87jPg.png?1665992443" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006668021/original/4cVDlcs86BwRbZovpVSwGzscJneif87jPg.png?1665992443"  />
 
 또한 티켓을 직접 맡아 작업하고 싶다면 티켓 속성 섹션에서 자신에게 할당해야 합니다.

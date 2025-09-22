@@ -16,7 +16,7 @@ sidebar_position: 14
 
 이제 사용자는 모든 뷰에서 단일 페이지에 표시되는 레코드 수를 사용자 정의할 수 있습니다. 최소 30개에서 최대 100개 레코드 중에서 선택하여 효율적인 보기 경험을 제공합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011469964/original/eOrHH6AHfO0CItvw4zKSELd5ZinsX21jgw.png?1712561274" style={{width: '624px', height: '364px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011469964/original/eOrHH6AHfO0CItvw4zKSELd5ZinsX21jgw.png?1712561274"  />
 
 ## 고급 필터 도입
 
@@ -28,7 +28,7 @@ sidebar_position: 14
 
 필드 유형별 필터링은 이제 에이전트, 상태 등과 같은 특정 필드에 대해 '포함' 및 '제외' 옵션을 모두 제공하여 제외 목록을 만들 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011469963/original/HEMJ2ZW-ZNJRGaW-DcrS688NhmTynrj_0Q.png?1712561274" style={{width: '624px', height: '364px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011469963/original/HEMJ2ZW-ZNJRGaW-DcrS688NhmTynrj_0Q.png?1712561274"  />
 
 - '단일 또는 다중 선택' 드롭다운 필드에 대한 포함 또는 제외
 - '체크박스' 필드에 대해 선택된 값 '입니다'
@@ -42,13 +42,13 @@ sidebar_position: 14
 
 모든 필터 조건 중 '모든' 또는 '모든'을 선택하여 티켓 목록을 더 세밀하게 제어할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011469965/original/PXM9CCH6jDWbxwMRgHj4d3BVGlmkyNBhPQ.png?1712561274" style={{width: '624px', height: '364px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011469965/original/PXM9CCH6jDWbxwMRgHj4d3BVGlmkyNBhPQ.png?1712561274"  />
 
 ## 연관 기반 필터
 
 연관을 기반으로 하는 필터를 도입하여 요청자, 연관된 자산, 서비스 항목 및 영향받는 서비스를 기반으로 티켓을 필터링할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011469966/original/cLkNJx6TX-4JNBnD_WCSYdnwzj54ENEAHA.png?1712561274" style={{width: '624px', height: '407px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011469966/original/cLkNJx6TX-4JNBnD_WCSYdnwzj54ENEAHA.png?1712561274"  />
 
 ### 지원되는 연관 필드 목록
 

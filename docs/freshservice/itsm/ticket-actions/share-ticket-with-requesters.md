@@ -12,7 +12,7 @@ sidebar_position: 16
 
 **전역 설정 > 보안**으로 이동하여 티켓 공유 기능을 구성합니다. 또한 모든 사용자와 티켓 공유를 구성하거나 같은 부서 내 사용자로 제한할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470062/original/-NRajcKHrkrkkizZsbQz7h2PJWgTQmJYpA.png?1712561535" style={{width: '624px', height: '389px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470062/original/-NRajcKHrkrkkizZsbQz7h2PJWgTQmJYpA.png?1712561535"  />
 
 ## 지원 포털에서 요청자가 티켓 공유하기
 
@@ -24,27 +24,27 @@ sidebar_position: 16
 
 **1단계:** "공유"를 선택합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470060/original/rqHyKGHRQEaSDbhUllzGc9HtAr5hgvS_Kw.png?1712561534" style={{width: '624px', height: '388px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470060/original/rqHyKGHRQEaSDbhUllzGc9HtAr5hgvS_Kw.png?1712561534"  />
 
 **2단계:** 이 작업으로 대화상자가 나타나 요청자가 검색 표시줄에서 사람을 찾거나 공개 공유 가능한 링크를 사용하여 티켓을 공유할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470057/original/yEd3GzOuqsViFlF2JWixnY1Do6jDPN_muQ.png?1712561534" style={{width: '624px', height: '389px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470057/original/yEd3GzOuqsViFlF2JWixnY1Do6jDPN_muQ.png?1712561534"  />
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470058/original/-Ng9JYolOSUqzEje424C3puSWy85h8qqzQ.png?1712561534" style={{width: '624px', height: '389px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470058/original/-Ng9JYolOSUqzEje424C3puSWy85h8qqzQ.png?1712561534"  />
 
 **3단계:** 요청자는 에이전트나 요청자를 선택하고 공유 버튼을 눌러 티켓을 공유할 수 있습니다.
 
 **4단계:** 또는 요청자는 'CC 추가' 버튼을 사용하여 필요한 사람을 'CC'에 추가할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470056/original/MTgl3-af0dXJ66f8zZ8Beqgpoc-wd65BjA.png?1712561534" style={{width: '624px', height: '387px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470056/original/MTgl3-af0dXJ66f8zZ8Beqgpoc-wd65BjA.png?1712561534"  />
 
 ## 요청자가 공유된 티켓에 접근하기
 
 티켓이 다른 요청자와 공유되면 포털에서 볼 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470054/original/LqG6tKTn6thSGj3RT1JE-L-EozcbQYn3rQ.png?1712561534" style={{width: '624px', height: '413px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470054/original/LqG6tKTn6thSGj3RT1JE-L-EozcbQYn3rQ.png?1712561534"  />
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470055/original/Gff2xlgGOqDuJelHLhN_x5ta5fhzh4AbNQ.png?1712561534" style={{width: '624px', height: '413px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470055/original/Gff2xlgGOqDuJelHLhN_x5ta5fhzh4AbNQ.png?1712561534"  />
 
 ## FAQ
 
@@ -53,11 +53,11 @@ sidebar_position: 16
 예, 이를 활성화하려면 관리자가 사용자 수준에서 추가로 활성화해야 합니다.
 이동: **사용자 관리 -> 요청자 -> 더 보기 -> 요청자 편집 -> 부서 선택 -> 티켓 및 변경 활성화**
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470053/original/yLbeJFIGsXGu-Yl4hqKw0svtf6Lt3FLLZg.png?1712561534" style={{width: '624px', height: '151px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470053/original/yLbeJFIGsXGu-Yl4hqKw0svtf6Lt3FLLZg.png?1712561534"  />
 
 이 옵션이 활성화되면 사용자는 해당 특정 부서와 관련된 티켓을 볼 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470059/original/Ve8c2mRI-IlvP2Fp_u51Z_detl_zKLt7pw.png?1712561534" style={{width: '624px', height: '255px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011470059/original/Ve8c2mRI-IlvP2Fp_u51Z_detl_zKLt7pw.png?1712561534"  />
 
 **2. 에이전트가 부서 내 모든 변경 사항을 볼 수 있나요?**
 

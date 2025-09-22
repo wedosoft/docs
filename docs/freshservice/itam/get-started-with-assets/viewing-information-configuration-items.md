@@ -32,12 +32,12 @@ Freshservice에서 자산/CI를 조회할 때마다 다음을 확인할 수 있�
 
 활동 로그에는 자산/CI에 어떤 일이 일어나고 있는지, 누가 관련 작업을 수행하고 있는지에 대한 과거 정보가 표시됩니다. 빠르게 살펴보고 자산의 마지막 소유자, 구성 요소 변경 사항 또는 관련 활동과 같은 정보를 추적할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000406964/original/sjiT2PVKBl7XJ9gL-xAhCzv9ngU2HitHWQ.png?1574128597" style={{width: 'auto'}} className="fr-fic fr-dib fr-bordered" data-id="50000406964" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000406964/original/sjiT2PVKBl7XJ9gL-xAhCzv9ngU2HitHWQ.png?1574128597"  className="fr-fic fr-dib fr-bordered" data-id="50000406964" />
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000406976/original/zgThK-prjQOrQEdYEHk5HcFd9bKrF5xa7A.png?1574128674" style={{width: 'auto'}} className="fr-fic fr-dib fr-bordered" data-id="50000406976" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000406976/original/zgThK-prjQOrQEdYEHk5HcFd9bKrF5xa7A.png?1574128674"  className="fr-fic fr-dib fr-bordered" data-id="50000406976" />
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000412552/original/7JhekjtRGjpDvJQH2FuhpPvAuc8DYxot0A.png?1574236556" style={{width: 'auto'}} className="fr-dib fr-bordered" data-id="50000412552" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000412552/original/7JhekjtRGjpDvJQH2FuhpPvAuc8DYxot0A.png?1574236556"  className="fr-dib fr-bordered" data-id="50000412552" />
 
 **참고:** 기존 자산 레코드 및 정보는 관련된 활성 변경/릴리스 없이는 수정/편집할 수 없습니다. 열린 변경/릴리스가 자산에 연결되어 있지 않으면 업데이트/편집 옵션을 사용할 수 없습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000412534/original/KocDRkfs9I2TDX5kTQvyWxnEgRZiCjtBWA.png?1574236455" style={{width: 'auto'}} className="fr-fic fr-dib fr-bordered" data-id="50000412534" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000412534/original/KocDRkfs9I2TDX5kTQvyWxnEgRZiCjtBWA.png?1574236455"  className="fr-fic fr-dib fr-bordered" data-id="50000412534" />

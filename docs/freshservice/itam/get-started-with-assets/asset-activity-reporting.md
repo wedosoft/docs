@@ -33,31 +33,31 @@ sidebar_position: 21
 
 ### 사용 사례 1 - 위치 변경 모니터링 및 추적 보고서 생성
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743415/original/Zu-fvk_GPk7-9ppGAVrtExcitXPEJn5-fQ.png?1723525282" style={{width: '624px', height: '289px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743415" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743415/original/Zu-fvk_GPk7-9ppGAVrtExcitXPEJn5-fQ.png?1723525282"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743415" />
 
 1. **Admin → Reporting → Analytics**로 이동하여 사용자 정의 보고서를 생성합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743424/original/GO6h5fxp-7sCGd0RhefYKdS0nF4itaYbow.png?1723525285" style={{width: '547px', height: '298px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743424" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743424/original/GO6h5fxp-7sCGd0RhefYKdS0nF4itaYbow.png?1723525285"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743424" />
 
 2. 오른쪽 상단 모서리에서 **New Report**를 클릭합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743422/original/Ewoc7SFK3u7ByqaZKx4i68iuhZ2wpHIXSw.png?1723525285" style={{width: '624px', height: '348px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743422" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743422/original/Ewoc7SFK3u7ByqaZKx4i68iuhZ2wpHIXSw.png?1723525285"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743422" />
 
 3. 위젯을 끌어다 놓아 보고서를 생성합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743418/original/cEhq6247YfRH4ChIYorfwM-uzDbgT3AfMA.png?1723525285" style={{width: '624px', height: '347px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743418" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743418/original/cEhq6247YfRH4ChIYorfwM-uzDbgT3AfMA.png?1723525285"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743418" />
 
 4. 드롭다운 필드에서 자산 메트릭을 선택합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743417/original/r4LcwT--6DfN0-PcSxxa-QqkVtwqnf8rMg.png?1723525285" style={{width: '624px', height: '368px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743417" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743417/original/r4LcwT--6DfN0-PcSxxa-QqkVtwqnf8rMg.png?1723525285"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743417" />
 
 5. **+ filter**를 클릭하고 아래 조건을 사용하여 자산의 위치 변경을 추적합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743419/original/LP7TbH2hyp8OxPj3Ojfk72RYj_RPti_uog.png?1723525285" style={{width: '624px', height: '365px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743419" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743419/original/LP7TbH2hyp8OxPj3Ojfk72RYj_RPti_uog.png?1723525285"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743419" />
 
 6. 마지막으로 **Asset Name**을 기준으로 자산을 그룹화하고 **Apply**를 클릭합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743421/original/UG74GN3Ugb2uKLYwX1gntEBHir1aYG11jA.png?1723525285" style={{width: '624px', height: '365px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743421" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743421/original/UG74GN3Ugb2uKLYwX1gntEBHir1aYG11jA.png?1723525285"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743421" />
 
 ### 사용 사례 2: 지난 X개월 동안 배포 또는 폐기된 자산 수 추적 보고서 생성
 
@@ -65,15 +65,15 @@ sidebar_position: 21
 
 2. 위젯을 끌어다 놓아 보고서를 생성합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743423/original/HnwMDSohV8xMPiHGD7B3qYCSn6e7jbwpOw.png?1723525285" style={{width: '624px', height: '347px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743423" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743423/original/HnwMDSohV8xMPiHGD7B3qYCSn6e7jbwpOw.png?1723525285"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743423" />
 
 3. 드롭다운 필드에서 Asset 메트릭을 선택합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743416/original/U0zRpFVajdow3eapUUTc4rIDWp_JwjeRFw.png?1723525285" style={{width: '624px', height: '368px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743416" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743416/original/U0zRpFVajdow3eapUUTc4rIDWp_JwjeRFw.png?1723525285"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743416" />
 
 4. **+ filter**를 클릭하고 아래 조건을 사용하여 지난 3개월 동안 폐기된 자산 수를 추적합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743426/original/kZzORgYDHsVkfQ5IO87vuNBZugerpYZJ_g.png?1723525285" style={{width: '624px', height: '361px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743426" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743426/original/kZzORgYDHsVkfQ5IO87vuNBZugerpYZJ_g.png?1723525285"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743426" />
 
 5. 마지막으로 **Apply**를 클릭하여 보고서를 생성합니다.
 
@@ -83,7 +83,7 @@ sidebar_position: 21
 
 2. 화면 왼쪽 하단 모서리에서 **Settings**를 클릭합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743425/original/44MMuS74e7xkfzwARugeuz82LgejzUeHAQ.png?1723525285" style={{width: '624px', height: '371px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743425" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743425/original/44MMuS74e7xkfzwARugeuz82LgejzUeHAQ.png?1723525285"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743425" />
 
 3. **Data Export → Create Export**를 선택합니다.
 
@@ -94,10 +94,10 @@ sidebar_position: 21
 - CI Type is Hardware 조건은 내보내기에서 시리얼 번호와 같은 속성에 액세스할 수 있도록 보장합니다
 - Asset Family 기반 조건은 Hardware, Cloud 및 Services 하위의 모든 자산을 가져옵니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743420/original/X7N6qg_j0Uj-YwU8PLaNO9XRdXFq7chx8g.png?1723525285" style={{width: '624px', height: '360px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743420" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743420/original/X7N6qg_j0Uj-YwU8PLaNO9XRdXFq7chx8g.png?1723525285"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743420" />
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743414/original/pQGNoYYoqfHMvfeMOToCy4753-yqs2eD5Q.png?1723525280" style={{width: '624px', height: '361px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743414" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743414/original/pQGNoYYoqfHMvfeMOToCy4753-yqs2eD5Q.png?1723525280"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743414" />
 
 6. 마지막으로 보고서를 받을 기본 방법을 선택합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743413/original/AgZroOTElypi4tqmmuMrNnZx79dn9qk0og.png?1723525269" style={{width: '624px', height: '147px'}} className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743413" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012743413/original/AgZroOTElypi4tqmmuMrNnZx79dn9qk0og.png?1723525269"  className="fr-fic fr-dii" data-attachment="[object Object]" data-id="50012743413" />

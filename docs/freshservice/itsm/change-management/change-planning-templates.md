@@ -57,7 +57,7 @@ sidebar_position: 8
 ### 1. 템플릿 선택
 변경의 특성과 위험도에 따라 적절한 템플릿을 선택합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006666806/original/IXJZG2qoVPC_ri41rvW1o9ioO9BMu-ZFyQ.png?1665982717" style={{width: '717px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006666806/original/IXJZG2qoVPC_ri41rvW1o9ioO9BMu-ZFyQ.png?1665982717"  />
 
 ### 2. 정보 입력
 템플릿의 각 섹션에 변경 관련 정보를 상세히 입력합니다.

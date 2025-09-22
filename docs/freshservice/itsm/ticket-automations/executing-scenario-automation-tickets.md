@@ -16,10 +16,10 @@ sidebar_position: 4
 
 3. **사용 가능한 모든 시나리오 자동화 목록이 표시됩니다.**
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006707093/original/TseOJeAELpx-FJCYJlITeUsxxq5BtUJKSw.png?1666271248" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006707093/original/TseOJeAELpx-FJCYJlITeUsxxq5BtUJKSw.png?1666271248"  />
 
 4. **실행하려는 시나리오 옆의 실행을 마우스 오버하고 클릭합니다.**
-   - 자동화와 연관된 전체 작업 세트가 실행되고 **시나리오 <시나리오 이름> 실행됨**이라는 메시지가 표시됩니다.
+   - 자동화와 연관된 전체 작업 세트가 실행되고 **시나리오 &lt;시나리오 이름&gt; 실행됨**이라는 메시지가 표시됩니다.
 
 5. **세부 정보 보기**를 클릭하여 자동화의 일부로 수행된 작업의 전체 목록을 확인합니다.
 
@@ -27,7 +27,7 @@ sidebar_position: 4
 
 티켓 유입량이 많을 때는 효율적인 방식으로 해결 프로세스를 가속화하는 것이 매우 중요합니다. 이는 한 번의 클릭으로 여러 티켓에서 시나리오 자동화를 실행하여 수행할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006706998/original/TXR1ScShCKKn8Cnw1OQBE3Nq-WYhGmpfbw.png?1666270980" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006706998/original/TXR1ScShCKKn8Cnw1OQBE3Nq-WYhGmpfbw.png?1666270980"  />
 
 ### 대량 시나리오 실행 단계
 

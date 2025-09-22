@@ -26,7 +26,7 @@ sidebar_position: 3
 
 - 이 미리 작성된 답변을 저장할 폴더를 선택합니다. 귀하에게만 보이는 응답은 기본적으로 '개인' 폴더에 저장됩니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/35634262/original/1KyLQ8neQVFsnelOLyOfLUjPiiovT3Z_OA.png?1509096869" style={{maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/35634262/original/1KyLQ8neQVFsnelOLyOfLUjPiiovT3Z_OA.png?1509096869"  />
 
 - **저장**을 눌러 이 답변을 미리 작성된 답변으로 저장합니다.
 

@@ -41,7 +41,7 @@ sidebar_position: 9
 ### 3. 위험 평가 및 완화 계획
 변경과 관련된 위험을 식별하고 완화 방안을 수립합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006666806/original/IXJZG2qoVPC_ri41rvW1o9ioO9BMu-ZFyQ.png?1665982717" style={{width: '717px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006666806/original/IXJZG2qoVPC_ri41rvW1o9ioO9BMu-ZFyQ.png?1665982717"  />
 
 ## 변경 계획 수립
 

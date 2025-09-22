@@ -26,19 +26,19 @@ sidebar_position: 11
 - 에이전트의 효율성과 생산성 향상
 - 관리자/감독자가 팀과 개인에 대한 더 나은 가시성 확보
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004887117/original/EfuVIPaekpIhFC2zcqrKzQ771VlD41c_aw.png?1646218328" style={{width: '574px', height: '394px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004887117/original/EfuVIPaekpIhFC2zcqrKzQ771VlD41c_aw.png?1646218328"  />
 
 티켓 뷰에서 상태로 정의된 열이 있는 칸반 뷰로 쉽게 전환할 수 있습니다. 기본적으로 **내 보드**가 사용 가능하며, 사용자는 이 보드를 편집할 수 없습니다. 그러나 자신만의 보드를 만들고 가시성을 설정할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004887188/original/mC-7VXdwgvlLyYA2qJKXH9Sy1blwoUecIg.png?1646218500" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004887188/original/mC-7VXdwgvlLyYA2qJKXH9Sy1blwoUecIg.png?1646218500"  />
 
 ## 보드를 만드는 방법
 
 페이지 왼쪽의 햄버거 메뉴를 통해 새 보드를 쉽게 만들 수 있습니다. 새 보드를 클릭하고 이름을 제공하며 보드의 가시성(개인 또는 공유)을 선택할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004887108/original/tMDarJHZA3EpbXFYpv6JwisY-EiNLFby1g.png?1646218326" style={{width: '624px', height: '437px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004887108/original/tMDarJHZA3EpbXFYpv6JwisY-EiNLFby1g.png?1646218326"  />
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004887101/original/JHHmPIZkGShT3dP-mkPkOEKEmXM1uOGP7Q.png?1646218302" style={{width: '464px', height: '359px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004887101/original/JHHmPIZkGShT3dP-mkPkOEKEmXM1uOGP7Q.png?1646218302"  />
 
 에이전트, 그룹, 마감 시간, 상태, 우선순위 수준 등과 같은 필터를 적용할 수도 있습니다. 원하는 필터를 선택한 후 뷰를 저장하여 필터 카테고리를 기반으로 다른 보드를 만들 수 있습니다.
 
@@ -48,8 +48,8 @@ sidebar_position: 11
 
 각 카드는 티켓을 나타냅니다. 에이전트는 카드에서 제목, 우선순위 수준, 상태, 할당된 에이전트/그룹 등과 같은 티켓 정보를 한눈에 볼 수 있습니다. 에이전트는 카드에서 우선순위 수준과 상태를 변경할 수도 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004887110/original/Fs9ilm1KOsHnTBCkX_BzQp9JQiIeqJn2Fg.png?1646218326" style={{width: '594px', height: '413px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004887110/original/Fs9ilm1KOsHnTBCkX_BzQp9JQiIeqJn2Fg.png?1646218326"  />
 
 열 제한을 설정하여 에이전트가 새로운 티켓 세트를 맡기 전에 현재 진행 중인 티켓을 먼저 완료하도록 할 수 있습니다. 열의 티켓 수가 임계값을 초과하면 에이전트는 열이 강조 표시되는 것을 볼 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004887116/original/RHXJKTMx8Rya28nXviKGQHl_0tBsdk72zQ.png?1646218328" style={{width: '595px', height: '415px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004887116/original/RHXJKTMx8Rya28nXviKGQHl_0tBsdk72zQ.png?1646218328"  />

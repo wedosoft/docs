@@ -64,11 +64,11 @@ Freshservice의 **CMDB/자산 관리** 모듈은 IT 서비스 데스크에 연�
 
 2. **Admin > Asset Management > Asset Types and Fields**로 이동합니다. 계정에 하나 이상의 작업 공간이 있는 경우 **Admin > Global Settings > Asset Management > Asset Types and Fields**로 이동합니다.
 
-   <img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006919401/original/O9bQ_ppKsKtfBACmNm99wUJAh1sQ-34ZJQ.png?1668504004" style={{width: 'auto'}} className="fr-fil fr-dib" data-attachment="[object Object]" data-id="50006919401" />
+   <img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006919401/original/O9bQ_ppKsKtfBACmNm99wUJAh1sQ-34ZJQ.png?1668504004"  className="fr-fil fr-dib" data-attachment="[object Object]" data-id="50006919401" />
 
 3. 오른쪽 상단의 **New Asset Type** 버튼을 클릭합니다.
 
-   <img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000407043/original/34fWiWkEfcfp1z1ruuikQk8OKmzpKVrpFQ.png?1574130558" style={{width: 'auto'}} className="fr-fic fr-dib fr-bordered" data-id="50000407043" />
+   <img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000407043/original/34fWiWkEfcfp1z1ruuikQk8OKmzpKVrpFQ.png?1574130558"  className="fr-fic fr-dib fr-bordered" data-id="50000407043" />
 
 4. 자산/CI의 이름과 설명을 입력합니다.
 
@@ -76,7 +76,7 @@ Freshservice의 **CMDB/자산 관리** 모듈은 IT 서비스 데스크에 연�
 
 6. **Save** 버튼을 클릭하여 자산 추가를 완료합니다.
 
-   <img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000407064/original/g5dMZZjZsYUVDmsRhQTGPYG-aSqB8-fQWQ.png?1574131085" style={{width: 'auto'}} className="fr-fic fr-dib fr-bordered" data-id="50000407064" />
+   <img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000407064/original/g5dMZZjZsYUVDmsRhQTGPYG-aSqB8-fQWQ.png?1574131085"  className="fr-fic fr-dib fr-bordered" data-id="50000407064" />
 
 **참고: 기존 자산 유형 활용:** 시스템에서 제공하는 기본 자산 유형을 활용하세요. 이는 기존 기능과의 호환성을 보장하고 데이터 불일치의 위험을 최소화합니다.
 

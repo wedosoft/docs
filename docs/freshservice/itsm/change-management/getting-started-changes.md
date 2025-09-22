@@ -68,7 +68,7 @@ Freshservice는 다양한 변경 유형을 지원합니다:
 - **롤아웃 계획 (Rollout Plan)**: 변경 구현 단계별 계획
 - **백아웃 계획 (Backout Plan)**: 실패 시 복구 방안
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011896747/original/kyj78pWkXekPk_E1hq8RtnCjZqSKFJw6hA.png?1716285625" width="505" height="384" style={{border: '1px solid #ccc', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011896747/original/kyj78pWkXekPk_E1hq8RtnCjZqSKFJw6hA.png?1716285625" width="505" height="384"  />
 
 ### 계획 세부사항 추가하기
 
@@ -94,7 +94,7 @@ Freshservice는 다양한 변경 유형을 지원합니다:
 - CAB 구성원이나 그룹을 선택하여 승인 요청 발송
 - 변경 관리자가 최종 승인 결정
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011896746/original/UFBL5UTJWa34UlQfR2x9AHQtY_38599oXg.png?1716285625" style={{border: '1px solid #ccc', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011896746/original/UFBL5UTJWa34UlQfR2x9AHQtY_38599oXg.png?1716285625"  />
 
 ## 변경에서 수행 가능한 작업
 
@@ -107,7 +107,7 @@ Freshservice는 다양한 변경 유형을 지원합니다:
 - **릴리스나 프로젝트** 연결
 - **변경 속성** 업데이트 (변경 유형, 우선순위, 영향도, 위험도, 날짜 필드)
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011896750/original/kh5gvc_FW42yQdptAlbnbzgLdZyvkrogUA.jpeg?1716285626" style={{maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011896750/original/kh5gvc_FW42yQdptAlbnbzgLdZyvkrogUA.jpeg?1716285626"  />
 
 ## 실제 사용 예시
 

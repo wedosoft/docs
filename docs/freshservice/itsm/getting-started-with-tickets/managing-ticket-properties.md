@@ -8,7 +8,7 @@ sidebar_position: 2
 
 티켓 필드 외에도 SLA 정책에 따라 자동으로 정의되는 티켓의 마감 시간을 클릭하여 수정할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006668145/original/mx7TRAjSIeQgOMK8RNqs6m5o7e4l2Maivg.png?1665993350" style={{width: '325px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006668145/original/mx7TRAjSIeQgOMK8RNqs6m5o7e4l2Maivg.png?1665993350"  />
 
 ## 티켓 속성 관리 간단 가이드
 
@@ -19,7 +19,7 @@ sidebar_position: 2
 
 ## 티켓 마감 시간 수동 변경 간단 가이드
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50009280159/original/Ds45jTOHkmq3UJ8bV2qgr9uoUWnYnXAhdA.png?1692962313" style={{width: '361px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50009280159/original/Ds45jTOHkmq3UJ8bV2qgr9uoUWnYnXAhdA.png?1692962313"  />
 
 - 대시보드나 티켓 목록에서 아무 티켓을 클릭하여 세부 정보를 확인합니다
 - 현재 첫 번째 응답 및 해결 마감일이 화면 오른쪽 상단에 표시됩니다

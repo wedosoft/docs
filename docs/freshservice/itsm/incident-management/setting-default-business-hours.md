@@ -38,7 +38,7 @@ sidebar_position: 8
 
 **계정에 워크스페이스가 여러 개 있는 경우:**
 - 글로벌 워크플로우 수정: **Admin > Global Settings > Service management > Service Desk settings > Business hours**
-- 워크스페이스 수준 워크플로우 수정: **Admin > Workspace Settings > {Workspace Name} > Service management > Service Desk settings > Business hours**
+- 워크스페이스 수준 워크플로우 수정: **Admin > Workspace Settings > &#123;Workspace Name&#125; > Service management > Service Desk settings > Business hours**
 
 ### 3단계: 기본 비즈니스 시간 편집
 
@@ -56,13 +56,13 @@ sidebar_position: 8
 #### 사용자 정의 근무 시간
 조직의 필요에 따라 근무 시간을 정의할 수 있습니다. 매일 다른 시간에 근무하는 경우 **근무일/시간 선택** 옵션을 사용하여 별도로 정의할 수 있습니다. 비즈니스 달력에서 비근무일의 체크를 해제할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000087687/original/Plx5_ueTLw9zvhsiIklIwmLlaXMJSVFGcA.png?1565331120" style={{width: '624px', height: '403px'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000087687/original/Plx5_ueTLw9zvhsiIklIwmLlaXMJSVFGcA.png?1565331120"  />
 
 ### 6단계: 연간 휴일 목록 정의
 
 **연간 휴일 목록**을 수동으로 정의하거나 국가의 휴일 목록을 가져와서 정의할 수 있습니다. 휴일은 티켓의 SLA를 계산할 때 무시됩니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000087686/original/q1TL97A_FAf4xDVYH_Bi0FQyi0DO3smZ2A.png?1565331120" style={{width: '624px', height: '361px'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000087686/original/q1TL97A_FAf4xDVYH_Bi0FQyi0DO3smZ2A.png?1565331120"  />
 
 ### 7단계: 설정 저장
 

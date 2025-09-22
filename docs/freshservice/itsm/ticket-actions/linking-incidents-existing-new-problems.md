@@ -13,11 +13,11 @@ sidebar_position: 6
 1. 대시보드 또는 티켓 탭에서 인시던트(티켓)를 엽니다
 2. 연관 탭에서 오른쪽 상단 모서리의 **+ 연관** 버튼을 클릭합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006671142/original/l8SLRqSs1h4fK28vw8J_qL5pmI1MT5OR-Q.png?1666007821" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006671142/original/l8SLRqSs1h4fK28vw8J_qL5pmI1MT5OR-Q.png?1666007821"  />
 
 3. 문제 연관 팝업에서 **새 문제** 또는 **기존 문제**를 선택합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006671145/original/cuaxMoKGQnFGcjTYyWt7vKEZWTkFTRHOGw.png?1666007834" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006671145/original/cuaxMoKGQnFGcjTYyWt7vKEZWTkFTRHOGw.png?1666007834"  />
 
 4. **기존 문제**를 선택하면 목록에서 기존 문제를 선택하거나 검색한 다음 **연관**을 클릭합니다
 5. **새 문제**를 선택하면 세부 정보를 입력하고 새 문제를 직접 만듭니다

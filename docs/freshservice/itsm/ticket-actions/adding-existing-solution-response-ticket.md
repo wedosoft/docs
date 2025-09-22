@@ -14,16 +14,16 @@ sidebar_position: 1
 2. 대시보드에서 서비스 데스크의 티켓을 엽니다
 3. **세부 정보** 탭의 **대화** 섹션에서 **답변** 버튼을 클릭합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006669899/original/0yuP98FfcFBS0V3rfcoW5gqzK2PqOCduRA.png?1666001919" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006669899/original/0yuP98FfcFBS0V3rfcoW5gqzK2PqOCduRA.png?1666001919"  />
 
 4. 작성 대화상자가 열리면 섹션 하단 왼쪽의 **책** 아이콘을 클릭합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006669926/original/J5Jrntfo5ZC7NcPcJtIyQxJe2Anwr6mbJg.png?1666002034" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006669926/original/J5Jrntfo5ZC7NcPcJtIyQxJe2Anwr6mbJg.png?1666002034"  />
 
 5. 팝업이 열리고 요청을 기반으로 솔루션을 자동으로 제안합니다
 6. 관련된 것을 찾을 수 없는 경우 이름을 입력하여 더 많은 솔루션을 검색합니다
 7. 솔루션 기사에 마우스를 올리고 **링크 삽입** 또는 **콘텐츠 삽입**을 선택합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006670006/original/YbMUok9B0-lPgNC9F8fNjfU_DF4oP8krlg.png?1666002330" style={{width: '658px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006670006/original/YbMUok9B0-lPgNC9F8fNjfU_DF4oP8krlg.png?1666002330"  />
 
 마찬가지로 답변에 준비된 응답을 추가할 수도 있습니다. 준비된 응답에 대한 자세한 내용은 [여기](https://support.freshservice.com/support/solutions/articles/154963-using-canned-responses-in-ticket-replies)를 클릭하세요.
