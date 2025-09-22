@@ -33,4 +33,4 @@ Freshservice는 클라우드 기반 IT 서비스 관리(ITSM) 플랫폼으로, I
 - 알려진 오류 데이터베이스
 - 예방적 문제 해결
 
-시작하기 전에 [시스템 요구사항](./getting-started/setting-up-freshservice/freshservice-system-requirements)을 확인하시기 바랍니다.
+시작하기 전에 시스템 요구사항을 확인하시기 바랍니다.
