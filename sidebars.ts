@@ -202,6 +202,18 @@ const sidebars: SidebarsConfig = {
                 'freshservice/itsm/incident-management/understanding-sla-policies',
               ],
             },
+            {
+              type: 'category',
+              label: '🤖 티켓 자동화',
+              collapsed: true,
+              items: [
+                'freshservice/itsm/ticket-automations/creating-supervisor-rules',
+                'freshservice/itsm/ticket-automations/creating-new-scenario-automation',
+                'freshservice/itsm/ticket-automations/schedule-recurring-tickets-scheduler',
+                'freshservice/itsm/ticket-automations/executing-scenario-automation-tickets',
+                'freshservice/itsm/ticket-automations/supervisor-rules-configuration-custom-ticket-status',
+              ],
+            },
           ],
         },
         {
