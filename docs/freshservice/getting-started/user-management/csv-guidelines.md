@@ -536,9 +536,9 @@ John Smith,john@company.com,+1-555-123-4567,Engineering,en,America/New_York,New 
 
 ## 관련 참고 문서
 
-- [CSV를 통한 요청자 가져오기](./importing-requesters-csv)
-- [사용자 맞춤 필드 추가](./adding-custom-fields-users)
-- [부서별 커스텀 필드 추가](./adding-custom-fields-departments)
-- [요청자 관리 가이드](./managing-requesters)
+- [CSV를 통한 요청자 가져오기](./import-csv)
+- [사용자 맞춤 필드 추가](./custom-fields)
+- [부서별 커스텀 필드 추가](./department-fields)
+- [요청자 관리 가이드](./requesters)
 - [Freshservice 지원 시간대 목록](https://support.freshservice.com/support/solutions/articles/232302-list-of-time-zones-supported-in-freshservice)
 - [Freshservice 지원 언어 목록](https://support.freshservice.com/support/solutions/articles/232303-list-of-languages-supported-in-freshservice)
