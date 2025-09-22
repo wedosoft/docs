@@ -220,6 +220,7 @@ const sidebars: SidebarsConfig = {
                 'freshservice/itam/get-started-with-assets/adding-new-asset-configuration-item',
                 'freshservice/itam/get-started-with-assets/importing-assets',
                 'freshservice/itam/get-started-with-assets/viewing-information-configuration-items',
+                'freshservice/itam/get-started-with-assets/updating-assets-bulk',
               ],
             },
           ],
