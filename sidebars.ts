@@ -202,17 +202,6 @@ const sidebars: SidebarsConfig = {
                 'freshservice/itsm/incident-management/understanding-sla-policies',
               ],
             },
-            {
-              type: 'category',
-              label: '🎫 티켓 시작하기',
-              collapsed: true,
-              items: [
-                'freshservice/itsm/getting-started-with-tickets/viewing-and-accessing-ticket-information',
-                'freshservice/itsm/getting-started-with-tickets/creating-canned-response-templates',
-                'freshservice/itsm/getting-started-with-tickets/managing-ticket-properties',
-                'freshservice/itsm/getting-started-with-tickets/understanding-custom-ticket-statuses',
-              ],
-            },
           ],
         },
         {
