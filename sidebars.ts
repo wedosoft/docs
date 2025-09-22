@@ -206,7 +206,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: '🏗️ IT 자산 관리 지원 가이드',
+          label: '🏗️ IT 자산 관리 (ITAM)',
           collapsed: true,
           items: [
             {
@@ -214,11 +214,11 @@ const sidebars: SidebarsConfig = {
               label: '🚀 자산 관리 시작하기',
               collapsed: true,
               items: [
-                {
-                  type: 'doc',
-                  id: 'freshservice/support-guide-it-asset-management/get-started-with-assets/itsm/index',
-                  label: 'ITSM 자산 관리',
-                },
+                'freshservice/itam/get-started-with-assets/index',
+                'freshservice/itam/get-started-with-assets/different-types-assets-configuration-items',
+                'freshservice/itam/get-started-with-assets/adding-depreciation-assets',
+                'freshservice/itam/get-started-with-assets/adding-new-asset-configuration-item',
+                'freshservice/itam/get-started-with-assets/importing-assets',
               ],
             },
           ],
