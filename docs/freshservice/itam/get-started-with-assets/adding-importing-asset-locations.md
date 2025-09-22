@@ -26,7 +26,7 @@ Freshservice를 사용하면 이제 위치를 추가하거나 가져올 수 있�
 
 - 가져오기 상태가 **Completed**로 변경되면 Freshservice에서 업데이트된 전체 필드 목록을 볼 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000688159/original/kKwMhsPrnAqwYduKKmlNmRROQkEiYbdoQQ.gif?1580993011" style={{width: 'auto'}} className="fr-fil fr-dib fr-bordered" data-attachment="[object Object]" data-id="50000688159" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000688159/original/kKwMhsPrnAqwYduKKmlNmRROQkEiYbdoQQ.gif?1580993011"  className="fr-fil fr-dib fr-bordered" data-attachment="[object Object]" data-id="50000688159" />
 
 **참고:**
 

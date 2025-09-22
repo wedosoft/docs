@@ -25,7 +25,7 @@ sidebar_position: 5
 5. 특정 필드의 값을 선택하면 업데이트 표시됩니다.
 6. **Update**를 클릭합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008256289/original/uJkPB6MNebKA3X0fR0WhydLb_-qEfBJG2Q.gif?1683091033" style={{width: 'auto', display: 'block', float: 'none', verticalAlign: 'top', margin: '5px auto', textAlign: 'center'}} className="fr-dib" data-attachment="[object Object]" data-id="50008256289" alt="Updating Assets in Bulk" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008256289/original/uJkPB6MNebKA3X0fR0WhydLb_-qEfBJG2Q.gif?1683091033"  className="fr-dib" data-attachment="[object Object]" data-id="50008256289" alt="Updating Assets in Bulk" />
 
 ### 필드 값 지우기 {#clearing-the-values-in-fields}
 
@@ -37,13 +37,13 @@ Freshservice의 대량 업데이트 기능을 사용하여 여러 자산의 특�
 4. 나타나는 팝업 창에서 지우려는 필드의 체크박스를 선택하되 값은 선택하지 마세요.
 5. **Update**를 클릭하여 선택한 모든 자산에 변경 사항을 적용합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008256292/original/ecrM6nW19GL4GUVnK6111FonlA492fEJcA.gif?1683091077" style={{width: 'auto', display: 'block', float: 'none', verticalAlign: 'top', margin: '5px auto', textAlign: 'center'}} className="fr-dib" data-attachment="[object Object]" data-id="50008256292" alt="Clearing values using Bulk Update" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008256292/original/ecrM6nW19GL4GUVnK6111FonlA492fEJcA.gif?1683091077"  className="fr-dib" data-attachment="[object Object]" data-id="50008256292" alt="Clearing values using Bulk Update" />
 
 예를 들어, 선택한 모든 자산의 Company 필드를 지우려면 Company 체크박스를 선택하되 값은 선택하지 마세요. Update를 클릭하면 선택한 모든 자산의 Company 필드가 지워집니다.
 
 자산에 대해 어떤 필드가 업데이트되었는지 알려면 해당 자산을 클릭하고 자산 활동으로 이동하세요.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011179226/original/75jCdLbIUuSZCj5NOx8yQ5fB8qR5angzxg.png?1710081141" style={{width: 'auto'}} className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50011179226" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011179226/original/75jCdLbIUuSZCj5NOx8yQ5fB8qR5angzxg.png?1710081141"  className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50011179226" />
 
 ### 대량으로 업데이트할 수 있는 속성 {#properties-that-can-be-updated-in-bulk}
 
@@ -76,10 +76,10 @@ Freshservice의 대량 업데이트 기능을 사용하여 여러 자산의 특�
 
 휴지통에서 삭제하려면 왼쪽 상단 모서리의 자산 인벤토리에서 3개 선을 클릭하고 목록에서 **Trash**를 클릭하세요.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011417739/original/Yf7mbq5MSXTD8uSGLOhrhMRbXfHhZEMI1Q.png?1712060870" style={{width: '296px'}} className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50011417739" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011417739/original/Yf7mbq5MSXTD8uSGLOhrhMRbXfHhZEMI1Q.png?1712060870"  className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50011417739" />
 
 **2. 자산의 관리 그룹을 대량으로 업데이트하는 방법은?**
 
 Admin 섹션으로 이동한 다음 Workflow Automator를 선택하고 Scheduled Workflow를 클릭합니다. 거기서 New Workflow를 선택하고 모듈을 assets으로 설정합니다. 특정 사용 사례에 따라 이벤트와 조건을 정의합니다. 다음으로 아래 제공된 이미지에 따라 액션 노드를 구성하고 관련 그룹에 할당합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012122549/original/OPvQx8R-AGWKn3svRrv-35oskIsQkOYa2Q.png?1718114281" style={{width: 'auto'}} className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50012122549" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012122549/original/OPvQx8R-AGWKn3svRrv-35oskIsQkOYa2Q.png?1718114281"  className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50012122549" />

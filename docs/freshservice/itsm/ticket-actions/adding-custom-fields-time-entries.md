@@ -16,7 +16,7 @@ sidebar_position: 7
 
 3. 양식에 필요한 필드를 드래그 앤 드롭합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003199092/original/vvqsnWYuLBY2PHIOh8JP-J_07V-PxxPRLQ.png?1623839865" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003199092/original/vvqsnWYuLBY2PHIOh8JP-J_07V-PxxPRLQ.png?1623839865"  />
 
 4. 필드를 클릭하여 필드 편집기를 열고 필드 이름과 플레이스홀더 텍스트를 사용자 정의합니다
 
@@ -24,6 +24,6 @@ sidebar_position: 7
 
 6. 양식 내에서 필드를 드래그하여 이동하여 양식에서 구성하고 **저장**을 클릭하여 이 양식을 저장합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003199112/original/r150VYKr4QptiRS0beE-E4sEcUyGfrH2zQ.png?1623840019" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003199112/original/r150VYKr4QptiRS0beE-E4sEcUyGfrH2zQ.png?1623840019"  />
 
 7. 양식이 저장되면 다음 사용자 정의 필드가 시간 항목 양식에 추가됩니다

@@ -37,13 +37,13 @@ sidebar_position: 7
 2. 선택한 보기의 자산 유형에 따라 컬럼 사용자 정의 도구의 옵션도 변경됩니다.
    예를 들어, 모든 자산 보기에서는 모든 자산 유형에서 공통된 필드만 표시됩니다. 특정 자산 유형을 선택하면 해당 유형과 관련된 필드도 공통 필드와 함께 표시됩니다. 여기서 고려한 예에서는 선택된 자산 유형이 노트북이고 노트북 자산 유형과 관련된 필드가 표시됩니다.
 
-   <img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008257335/original/6q1-yftEbJ9ND8R0EDF3v7qt_qPSZLyYuQ.gif?1683097391" style={{width: 'auto', display: 'block', float: 'none', verticalAlign: 'top', margin: '5px auto', textAlign: 'center'}} className="fr-dib" data-attachment="[object Object]" data-id="50008257335" alt="Customizing Columns in Assets list page" />
+   <img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008257335/original/6q1-yftEbJ9ND8R0EDF3v7qt_qPSZLyYuQ.gif?1683097391"  className="fr-dib" data-attachment="[object Object]" data-id="50008257335" alt="Customizing Columns in Assets list page" />
 
 3. 필요한 필드를 선택합니다(최대 10개 필드까지 선택 가능). 컬럼을 재배열하려면 필드를 필요한 위치로 드래그 앤 드롭합니다.
 
 4. **Apply**를 클릭하여 선택한 보기에 구성을 저장합니다.
 
-   <img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008257342/original/Jdz-UAU1YjyoYSfnL3ium3hmEMrCVughZw.gif?1683097427" style={{width: 'auto', display: 'block', float: 'none', verticalAlign: 'top', margin: '5px auto', textAlign: 'center'}} className="fr-dib" data-attachment="[object Object]" data-id="50008257342" alt="Customizing Columns in Assets list page" />
+   <img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008257342/original/Jdz-UAU1YjyoYSfnL3ium3hmEMrCVughZw.gif?1683097427"  className="fr-dib" data-attachment="[object Object]" data-id="50008257342" alt="Customizing Columns in Assets list page" />
 
 :::info 중요 참고사항
 컬럼 사용자 정의 도구는 계층 구조에서는 사용할 수 없으며 자산 보기에서만 사용할 수 있습니다. 컬럼을 사용자 정의하려면 기존 보기를 사용하거나 새 보기를 생성하여 컬럼 구성을 보기에 저장할 수 있도록 하세요.

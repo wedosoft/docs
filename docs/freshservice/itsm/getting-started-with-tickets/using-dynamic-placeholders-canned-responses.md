@@ -10,7 +10,7 @@ Freshservice의 플레이스홀더는 동적 콘텐츠를 추가하고 자동화
 
 이 기능을 사용하려면 텍스트 상자 위의 **플레이스홀더 삽입** 버튼을 클릭하세요. 플레이스홀더는 활성화될 때 고객에게 자동으로 전송되는 이메일 알림, 티켓 답변에 수동으로 삽입되는 준비된 응답, 그리고 자동화의 미리 서식화된 답변 템플릿과 함께 사용할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/38426113/original/tLbzh-PIgQaJMK6Bn50aauB8uEpYSGj_Ew.png?1524816236" style={{maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/38426113/original/tLbzh-PIgQaJMK6Bn50aauB8uEpYSGj_Ew.png?1524816236"  />
 
 다음은 Freshservice에서 사용할 수 있는 플레이스홀더의 전체 목록입니다.
 

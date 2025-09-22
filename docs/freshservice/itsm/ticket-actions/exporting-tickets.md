@@ -12,7 +12,7 @@ Freshservice를 사용하면 서비스 데스크에서 티켓을 내보내는 �
 
 1. **인시던트 목록 보기 페이지에서 내보내려는 티켓을 필터링합니다. 그런 다음 '내보내기' 버튼을 클릭하여 프로세스를 시작합니다.**
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008692048/original/BO1uI33MqHhAKCchRN7wd_kQ0MF7CjOWQw.png?1687435707" style={{width: '624px', height: '424px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008692048/original/BO1uI33MqHhAKCchRN7wd_kQ0MF7CjOWQw.png?1687435707"  />
 
 2. **내보낸 데이터의 기본 형식인 CSV 또는 Excel을 선택합니다.**
 
@@ -20,7 +20,7 @@ Freshservice를 사용하면 서비스 데스크에서 티켓을 내보내는 �
    - **시간:** 생성 시간/해결 시간/닫힌 시간
    - **날짜:** 최근 30일/최근 7일/어제부터/날짜 설정
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008692049/original/fBOUgD3uixy5kVg9Edc7OQ6hARUCLDfW0Q.png?1687435707" style={{width: '624px', height: '423px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008692049/original/fBOUgD3uixy5kVg9Edc7OQ6hARUCLDfW0Q.png?1687435707"  />
 
 4. **필요에 따라 추가 필드를 선택하거나 선택 해제하여 내보낸 데이터를 사용자 정의합니다.**
 

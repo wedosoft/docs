@@ -24,7 +24,7 @@ Freshservice에서 사용하는 특정 부서나 그룹을 기반으로 티켓�
 
 **계정에 워크스페이스가 여러 개 있는 경우:**
 - 글로벌 워크플로우 수정: **Admin > Global Settings > Service Management > Service Desk Settings > SLA and OLA Policies**
-- 워크스페이스 수준 워크플로우 수정: **Admin > Workspace Settings > {Workspace Name} > Service Management > Service Desk Settings > SLA and OLA Policies**
+- 워크스페이스 수준 워크플로우 수정: **Admin > Workspace Settings > &#123;Workspace Name&#125; > Service Management > Service Desk Settings > SLA and OLA Policies**
 
 ### 2단계: 새 SLA 정책 생성
 
@@ -35,17 +35,17 @@ Freshservice에서 사용하는 특정 부서나 그룹을 기반으로 티켓�
 5. 정책을 **저장**합니다
 6. 가장 제한적인 규칙이 먼저 오도록 정책을 재정렬합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006967183/original/4FNH0pwMklYLITXu0P0tr8S7jtSXB9gmhw.png?1669028084" style={{width: 'auto'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006967183/original/4FNH0pwMklYLITXu0P0tr8S7jtSXB9gmhw.png?1669028084"  />
 
 ### 3단계: SLA 정책 설정
 
 새 SLA 정책을 적용하려면 SLA 정책 페이지에서 New SLA Policy 버튼을 클릭합니다. 기본 SLA 정책과 마찬가지로 각 티켓 우선순위에 대한 SLA 목표를 정의해야 합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011603315/original/qf6ZUf4ruQjpjE3_CUslrGWK5sHfQeT1Ug.png?1713719555" style={{width: 'auto'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011603315/original/qf6ZUf4ruQjpjE3_CUslrGWK5sHfQeT1Ug.png?1713719555"  />
 
 다음으로 트리거 조건을 선택하여 이 SLA가 언제 활성화될지 선택합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000085288/original/Y9ROGyfj6t73RymXT5VbkSYO855v-feBwg.png?1565264195" style={{width: '700px', height: '476.835px'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000085288/original/Y9ROGyfj6t73RymXT5VbkSYO855v-feBwg.png?1565264195"  />
 
 ## 트리거 조건 정의
 
@@ -55,7 +55,7 @@ Freshservice에서 사용하는 특정 부서나 그룹을 기반으로 티켓�
 
 인시던트와 서비스 요청에 대해 다른 SLA를 설정할 수도 있습니다. 서비스 요청의 경우 서비스 항목 및 서비스 카테고리를 기반으로 여러 하위 조건을 추가하고 SLA가 트리거되도록 해당 조건 중 모든 조건 또는 일부 조건을 일치시킬지 선택할 수도 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003199901/original/h0NDpa73wNWlQq7umYj4x7HsKTHLXpNuTQ.png?1623846113" style={{width: '624px'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50003199901/original/h0NDpa73wNWlQq7umYj4x7HsKTHLXpNuTQ.png?1623846113"  />
 
 ## SLA 정책 순서의 중요성
 
@@ -71,7 +71,7 @@ Freshservice에서 사용하는 특정 부서나 그룹을 기반으로 티켓�
 
 티켓 해결을 위해 최대 4단계의 에스컬레이션과 티켓 응답을 위해 1단계를 설정할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000087587/original/JnI3MVNyne8hMuHYmf1QNoBOnrB-jCvgZw.png?1565328873" style={{width: '624px', height: '285px'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000087587/original/JnI3MVNyne8hMuHYmf1QNoBOnrB-jCvgZw.png?1565328873"  />
 
 :::warning 참고사항
 티켓에서 마감일이 수동으로 설정된 경우 에스컬레이션 이메일이 전송되지 않습니다.
@@ -84,7 +84,7 @@ SLA 정책을 복제할 수도 있습니다:
 1. **Admin > Service Management > Service Desk Settings > SLA and OLA Policies**로 이동합니다
 2. SLA 정책(예: 네트워크 팀용 SLA) 옆의 **Clone** 옵션을 클릭하면 해당 정책이 즉시 복제됩니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011603317/original/GgMZOBwZSr3DCHWJF-AwuJqIdf0nO0LoSg.png?1713719628" style={{width: 'auto'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011603317/original/GgMZOBwZSr3DCHWJF-AwuJqIdf0nO0LoSg.png?1713719628"  />
 
 ## 자주 묻는 질문
 

@@ -128,12 +128,12 @@ Freshservice → Teams/Slack
 **관련성 기반 필터링**
 ```javascript
 // 예시: 필터링 규칙
-{
+&#123;
   "keywords": ["오류", "문제", "도움", "지원"],
   "participants": ["it-team", "help-desk"],
   "timeframe": "24h_before_ticket",
   "relevance_score": 0.7
-}
+&#125;
 ```
 
 **자동 태깅 규칙**

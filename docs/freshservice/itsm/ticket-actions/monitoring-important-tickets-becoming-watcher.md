@@ -14,7 +14,7 @@ sidebar_position: 13
 2. 모니터링/관찰하고 싶은 원하는 티켓을 엽니다
 3. 상단 메시지에서 **별** 아이콘을 클릭합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006698249/original/ruiMSTGBsGVUhIcGLhrMasp1C9mmsy0jnQ.png?1666199845" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006698249/original/ruiMSTGBsGVUhIcGLhrMasp1C9mmsy0jnQ.png?1666199845"  />
 
 4. **+관찰자 추가** 버튼 아래에 에이전트를 추가하거나 드롭다운에 표시된 옵션에서 선택합니다
 5. **+나 추가** 옵션을 클릭하여 자신을 관찰자로 추가할 수 있습니다

@@ -21,7 +21,7 @@ Freshservice의 감독자를 사용하면 워크플로우를 도입하고 헬프
 
 전역 워크플로우를 수정하려면: **관리자 > 전역 설정 > 자동화 및 생산성 > 자동화 > 감독자 규칙**으로 이동합니다.
 
-워크스페이스 수준 워크플로우를 수정하려면: **관리자 > 워크스페이스 설정 > {워크스페이스 이름} > 자동화 및 생산성 > 자동화 > 감독자 규칙**으로 이동합니다.
+워크스페이스 수준 워크플로우를 수정하려면: **관리자 > 워크스페이스 설정 > &#123;워크스페이스 이름&#125; > 자동화 및 생산성 > 자동화 > 감독자 규칙**으로 이동합니다.
 
 워크스페이스 관리자는 자신의 워크스페이스에 적용되는 전역 및 로컬 워크플로우 목록을 볼 수 있습니다.
 
@@ -40,7 +40,7 @@ Freshservice의 감독자를 사용하면 워크플로우를 도입하고 헬프
 
 6. **새 조건 추가**를 클릭하여 추가 조건을 추가할 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000038372/original/Eo86eZyi6OZQ5qAcUMxYehC0OA-vX5OlTQ.png?1563877439" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000038372/original/Eo86eZyi6OZQ5qAcUMxYehC0OA-vX5OlTQ.png?1563877439"  />
 
 7. 모든 조건을 일치시켜야 하는지 아니면 하나의 조건만으로도 규칙을 트리거하기에 충분한지 지정합니다.
 

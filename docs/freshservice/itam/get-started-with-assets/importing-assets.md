@@ -50,7 +50,7 @@ CSV 파일을 가져와서 자산을 대량으로 생성하거나 업데이트�
 
 **시리얼 번호는 고유해야 합니다:** 위의 "시리얼 번호는 고유해야 합니다" 오류를 방지하려면 해당 자산이 인벤토리 휴지통 폴더에 포함되지 않았는지 확인하세요. 휴지통에 액세스하려면 인벤토리 옆의 3개 선을 클릭 > 휴지통을 클릭하세요.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011982079/original/rpDte-uAFuTNY_8qUssuaL9Myp0RR6WPKg.png?1716975208" style={{width: '286px'}} className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50011982079" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011982079/original/rpDte-uAFuTNY_8qUssuaL9Myp0RR6WPKg.png?1716975208"  className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50011982079" />
 
 **자산 유형 불일치:** 가져오기 중에 자산 유형이 올바르게 매핑되었는지 확인하세요. 이 오류는 자산이 이미 인벤토리의 다른 자산 유형으로 있는 경우에도 발생할 수 있습니다.
 
@@ -61,10 +61,10 @@ CSV 파일을 가져와서 자산을 대량으로 생성하거나 업데이트�
 - 자산 가져오기에 사용된 CSV 파일을 검증하세요.
 - 아래와 같이 CSV의 날짜 형식이 가져오기를 수행하는 동안 선택한 날짜 형식과 일치하는지 확인하세요.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011982667/original/iOe7WvaQi6wiEwnls7UO9dyfu8KfovYt4Q.png?1716977412" width="320" height="207" className="fr-fic fr-dii inline-image" style={{boxSizing: 'border-box', border: '0px', cursor: 'pointer', maxWidth: 'calc(100% - 10px)'}} data-attachment="[object Object]" data-id="50011982667" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011982667/original/iOe7WvaQi6wiEwnls7UO9dyfu8KfovYt4Q.png?1716977412" width="320" height="207" className="fr-fic fr-dii inline-image"  data-attachment="[object Object]" data-id="50011982667" />
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011982666/original/elVx9mfSDqY_ltcUL2puXwSmodZi78ci4g.png?1716977412" width="371" height="266" className="fr-fic fr-dii inline-image" style={{boxSizing: 'border-box', border: '0px', cursor: 'pointer', maxWidth: 'calc(100% - 10px)'}} data-attachment="[object Object]" data-id="50011982666" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011982666/original/elVx9mfSDqY_ltcUL2puXwSmodZi78ci4g.png?1716977412" width="371" height="266" className="fr-fic fr-dii inline-image"  data-attachment="[object Object]" data-id="50011982666" />
 
 - 날짜 형식이 예상대로 업데이트되면 시스템이 날짜 필드를 성공적으로 인식하고 자산을 업로드합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011982665/original/hA6RYRGv0tPZfRcjXO1dUYdqBv40P9Qr9g.png?1716977411" width="489" height="103" className="fr-fic fr-dii inline-image" style={{boxSizing: 'border-box', border: '0px', cursor: 'pointer', maxWidth: 'calc(100% - 10px)'}} data-attachment="[object Object]" data-id="50011982665" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011982665/original/hA6RYRGv0tPZfRcjXO1dUYdqBv40P9Qr9g.png?1716977411" width="489" height="103" className="fr-fic fr-dii inline-image"  data-attachment="[object Object]" data-id="50011982665" />

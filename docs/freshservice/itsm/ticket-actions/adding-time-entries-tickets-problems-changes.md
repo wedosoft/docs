@@ -16,14 +16,14 @@ Freshservice를 사용하면 다양한 티켓, 문제, 변경 및 릴리스에 �
 2. 사이드바 하단에서 **시간 항목**이라고 하는 섹션을 찾습니다
 3. **시간 추가**를 클릭합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006670059/original/3FNH_jklxKC7YU9CgBz0N-wc5dB_oL-1DQ.png?1666002505" style={{width: '397px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006670059/original/3FNH_jklxKC7YU9CgBz0N-wc5dB_oL-1DQ.png?1666002505"  />
 
 4. 시간 추가 팝업 상자가 열립니다
 5. 시간 추적을 자동으로 시작하려면 화면 하단의 **타이머 시작** 옵션을 클릭하고 티켓 작업을 계속합니다
 6. 새 시간 항목이 티켓에 추가됩니다
 7. 타이머를 중지하거나 삭제하려면 **중지** 또는 **삭제** 버튼을 클릭합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006670150/original/8Zt2W2l4oq2xZV3umjnN1Tas0un7By-6Zg.png?1666002910" style={{width: '411px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006670150/original/8Zt2W2l4oq2xZV3umjnN1Tas0un7By-6Zg.png?1666002910"  />
 
 8. 언제든지 **시작** 버튼을 다시 클릭하여 타이머를 다시 시작할 수 있습니다
 9. 시간 항목 내에서 **편집**을 클릭하여 세부 정보를 편집하거나 활동을 추가하거나 댓글을 입력합니다
@@ -43,6 +43,6 @@ Freshservice를 사용하면 다양한 티켓, 문제, 변경 및 릴리스에 �
 8. 이 시간 항목을 기록하려면 **저장**을 클릭합니다
 9. 해당 항목에 대응하는 **편집**을 클릭하여 기록된 시간 항목을 편집할 수 있습니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006670117/original/65DOZdQow0KgRthwfjh6ra6vMCMfaHmOjA.png?1666002767" style={{width: '669px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006670117/original/65DOZdQow0KgRthwfjh6ra6vMCMfaHmOjA.png?1666002767"  />
 
 청구서 발행 시 추가 정보를 캡처하려는 경우 시간 항목에 [사용자 정의 필드](https://support.freshservice.com/support/solutions/articles/50000003609-adding-custom-fields-for-time-entries)를 추가하도록 선택할 수도 있습니다.

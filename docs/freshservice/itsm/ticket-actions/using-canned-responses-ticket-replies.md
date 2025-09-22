@@ -18,7 +18,7 @@ sidebar_position: 5
 
 4. 사용 가능한 준비된 응답 목록이 있는 라이트박스가 나타납니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50014653755/original/IqKfhXx5YqFdf6S5GtbH_evfxMTQKFFc5g.png?1740087920" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50014653755/original/IqKfhXx5YqFdf6S5GtbH_evfxMTQKFFc5g.png?1740087920"  />
 
 5. 답변에 추가하려는 응답을 클릭합니다
 6. 미리 서식이 지정된 답변 템플릿이 동적 콘텐츠와 함께 답변에 추가되어 고객에게 보낼 준비가 됩니다

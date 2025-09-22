@@ -12,7 +12,7 @@ sidebar_position: 10
 
 예를 들어, 월별로 그룹화된 평균 응답 시간을 측정하는 경우 위젯은 지난 달에서 현재 달까지의 평균 응답 시간의 백분율 변화를 보여줍니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004541210/original/5b78mTkuxyj2j0lwzEhaYSE85yp6uWVWng.png?1642489992" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50004541210/original/5b78mTkuxyj2j0lwzEhaYSE85yp6uWVWng.png?1642489992"  />
 
 다음은 이 기능을 사용할 수 있는 메트릭과 트렌드 변화 색상의 목록입니다:
 

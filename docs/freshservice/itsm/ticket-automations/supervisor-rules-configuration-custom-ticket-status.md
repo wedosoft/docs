@@ -6,25 +6,25 @@ sidebar_position: 5
 
 티켓 양식 필드의 사용자 정의 상태를 통해 서비스 데스크 관리자는 조직과 관련된 티켓의 새로운 상태를 생성할 수 있습니다. 이는 티켓을 추적하고 보류 시간 등을 기반으로 작업을 자동화하는 데 도움이 됩니다.
 
-감독자 규칙의 **'<사용자 정의 상태> 이후 시간'** 조건을 사용하면 티켓이 사용자 정의 상태에서 보류된 시간을 기반으로 작업을 자동화할 수 있습니다. 이는 워크플로우의 모든 측면을 자동화하고 보류 중인 작업을 놓치는 것에 대해 다시는 스트레스받지 않을 수 있음을 의미합니다. 이 기능의 구체적인 사용 사례를 논의해보겠습니다.
+감독자 규칙의 **'&lt;사용자 정의 상태&gt; 이후 시간'** 조건을 사용하면 티켓이 사용자 정의 상태에서 보류된 시간을 기반으로 작업을 자동화할 수 있습니다. 이는 워크플로우의 모든 측면을 자동화하고 보류 중인 작업을 놓치는 것에 대해 다시는 스트레스받지 않을 수 있음을 의미합니다. 이 기능의 구체적인 사용 사례를 논의해보겠습니다.
 
 ## 에이전트에 대한 승인 후속 조치
 
 승인과 같이 티켓 종속성이 있거나 다른 사람을 기다리는 티켓이 있을 때마다 이 새로운 기능을 사용하여 적절한 사람에게 알림을 보낼 수 있습니다. 예를 들어, 서비스 요청 승인이 'x'시간 이상 보류되면 에이전트에게 승인자와 후속 조치를 취하도록 알림 메일을 보낼 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002200156/original/zJQKd8htOcFZTddF6rqKqKNnxnMKydWUjw.png?1608117127" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002200156/original/zJQKd8htOcFZTddF6rqKqKNnxnMKydWUjw.png?1608117127"  />
 
 ## 요청자 응답 대기 후속 조치
 
 이 옵션을 사용하면 감독자를 사용하여 최종 사용자와 적극적으로 후속 조치를 취할 수 있습니다. 추가 정보를 기다리는 티켓이 보류되어 있을 수 있는 요청자에게 자동 알림을 보낼 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002200180/original/IaSPmTS6tD_9p35IAAettKvLGoNTurjNxw.png?1608117276" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002200180/original/IaSPmTS6tD_9p35IAAettKvLGoNTurjNxw.png?1608117276"  />
 
 ## 특정 상태에서 X시간 후 티켓 상태를 특정 값으로 변경
 
 에이전트가 티켓을 "공급업체와 보류" 등으로 표시한 경우, 감독자 규칙을 구성하여 에이전트에게 공급업체와 확인하거나 지정된 시간 후에 티켓 상태를 이동하도록 알릴 수 있습니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002212697/original/XkP9Xnuq9YrKcL3P_gNVLtC0SaaqHnfP-A.png?1608273892" style={{width: '624px', height: '333px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50002212697/original/XkP9Xnuq9YrKcL3P_gNVLtC0SaaqHnfP-A.png?1608273892"  />
 
 ## 설정 방법
 
@@ -37,7 +37,7 @@ sidebar_position: 5
 
 전역 워크플로우를 수정하려면: **관리자 > 전역 설정 > 자동화 및 생산성 > 자동화 > 감독자 규칙**으로 이동합니다.
 
-워크스페이스 수준 워크플로우를 수정하려면: **관리자 > 워크스페이스 설정 > {워크스페이스 이름} > 자동화 및 생산성 > 자동화 > 감독자 규칙**으로 이동합니다.
+워크스페이스 수준 워크플로우를 수정하려면: **관리자 > 워크스페이스 설정 > &#123;워크스페이스 이름&#125; > 자동화 및 생산성 > 자동화 > 감독자 규칙**으로 이동합니다.
 
 **중요 사항:**
 - 워크스페이스 관리자는 자신의 워크스페이스에 적용되는 전역 및 로컬 감독자 목록을 볼 수 있습니다.

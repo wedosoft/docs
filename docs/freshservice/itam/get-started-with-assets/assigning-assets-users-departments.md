@@ -17,7 +17,7 @@ Freshservice를 사용하면 조직의 다양한 부서와 사용자에게 자�
 5. 마찬가지로 필요한 경우 자산을 부서에 할당합니다.
 6. **Update**를 클릭하여 변경 사항을 완료합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008184554/original/qRpSxumlGeMnYdrfhBeWQagcyYFS3heVZA.gif?1682334843" style={{width: 'auto'}} className="fr-fil fr-dib" data-attachment="[object Object]" data-id="50008184554" alt="Assigning assets to different users and departments" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50008184554/original/qRpSxumlGeMnYdrfhBeWQagcyYFS3heVZA.gif?1682334843"  className="fr-fil fr-dib" data-attachment="[object Object]" data-id="50008184554" alt="Assigning assets to different users and departments" />
 
 ## FAQ
 
@@ -25,10 +25,10 @@ Freshservice를 사용하면 조직의 다양한 부서와 사용자에게 자�
 
 **Admin** / **Global Settings**(하나 이상의 작업 공간이 있는 경우) > **Roles** > 아래에 언급된 대로 **필요한 인벤토리 권한으로 역할 생성**으로 이동합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011459267/original/3q1b7_UFJBkmVPKAqpSm05JQ5Wd_uCok9w.png?1712320918" style={{width: '564px'}} className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50011459267" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011459267/original/3q1b7_UFJBkmVPKAqpSm05JQ5Wd_uCok9w.png?1712320918"  className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50011459267" />
 
 **2. 자산의 Department 필드를 업데이트할 수 없습니다. "Department and Used By combination is not valid" 오류가 발생했습니다.**
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012446730/original/9Wq4Hki7ohJpRCD--S_Wze3Joshi3XaPiA.png?1720876662" style={{width: 'auto'}} className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50012446730" />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012446730/original/9Wq4Hki7ohJpRCD--S_Wze3Joshi3XaPiA.png?1720876662"  className="fr-fic fr-fil fr-dib" data-attachment="[object Object]" data-id="50012446730" />
 
 "Used by" 필드의 사용자가 업데이트하려는 부서에 속해 있는지 확인하세요.

@@ -40,7 +40,7 @@ Freshservice는 키보드 단축키를 사용하여 서비스 데스크에서 �
 티켓 간 탐색은 티켓 탭에서 커서의 위치를 기반으로 이루어집니다. 커서의 현재 위치는 아래와 같이 표시됩니다.
 :::
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006670251/original/SOC4PK4ybIOiSf381uFbf26rC6s94eaQWA.png?1666003441" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006670251/original/SOC4PK4ybIOiSf381uFbf26rC6s94eaQWA.png?1666003441"  />
 
 ## 티켓 탭 내에서 사용할 단축키
 

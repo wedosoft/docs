@@ -33,7 +33,7 @@ sidebar_position: 10
 ### 2. 이해관계자 참여 전략
 다양한 이해관계자의 적극적인 참여를 확보하기 위한 맞춤형 전략을 수립합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006666806/original/IXJZG2qoVPC_ri41rvW1o9ioO9BMu-ZFyQ.png?1665982717" style={{width: '717px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006666806/original/IXJZG2qoVPC_ri41rvW1o9ioO9BMu-ZFyQ.png?1665982717"  />
 
 **스폰서 및 리더**
 - 변경의 비전과 전략적 가치 전달

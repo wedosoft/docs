@@ -18,7 +18,7 @@ sidebar_position: 3
 
 2. **세부 정보** 탭으로 가서 대화 아래에서 **메모 추가**를 클릭합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006668069/original/i50Yn3Xfq6NO3h3TzuDFCzNfpVouy3YSMw.png?1665992809" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006668069/original/i50Yn3Xfq6NO3h3TzuDFCzNfpVouy3YSMw.png?1665992809"  />
 
 3. 메모를 입력합니다. 리치 텍스트 서식을 사용하여 댓글을 강조 표시하고, 글머리 기호를 추가하고, 스타일을 지정할 수도 있습니다
 
@@ -30,6 +30,6 @@ sidebar_position: 3
 
 7. **메모 추가**를 누릅니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006668114/original/51VDxjupXZbM-kb6g3hg2uLIkctTH2Le7g.png?1665993095" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006668114/original/51VDxjupXZbM-kb6g3hg2uLIkctTH2Le7g.png?1665993095"  />
 
 메모가 이제 티켓에 추가되고 요청자는 볼 수 없습니다. 마찬가지로 **메모 추가** 드롭다운 옵션에서 **추가 및 해결됨으로 설정** 버튼을 클릭하여 메모를 추가하고 동시에 티켓을 해결할 수도 있습니다.

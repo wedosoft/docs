@@ -11,7 +11,7 @@ sidebar_position: 7
 - 목록 뷰
 - 보드 뷰
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006717995/original/jVjiMr3KfJz9ypGaUGephh63OmmI8yceEg.png?1666363729" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006717995/original/jVjiMr3KfJz9ypGaUGephh63OmmI8yceEg.png?1666363729"  />
 
 ## 목록 뷰
 
@@ -19,13 +19,13 @@ sidebar_position: 7
 
 목록 뷰를 사용하면 관련 티켓 정보를 행과 열로 구성할 수 있습니다. 티켓은 행으로, 티켓 필드는 열로 표시됩니다.
 
-- 테이블 오른쪽의 <img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000186069/original/vm1fAJPhBU4p6rfheeXLhVzlC3q5ZXyaxg.png?1568290432" style={{width: '32px', height: '24px'}} /> 아이콘을 클릭합니다
+- 테이블 오른쪽의 <img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000186069/original/vm1fAJPhBU4p6rfheeXLhVzlC3q5ZXyaxg.png?1568290432"  /> 아이콘을 클릭합니다
 
 - 체크박스를 사용하여 보고 싶은 필드를 선택할 수 있습니다
 
 - 필드를 드래그 앤 드롭하여 순서를 바꿀 수 있습니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006717949/original/fCP1SuT7M1y80ucCs4N_yGwvzgjNDd7QBg.png?1666363545" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006717949/original/fCP1SuT7M1y80ucCs4N_yGwvzgjNDd7QBg.png?1666363545"  />
 
 - 열 크기를 조정하려면 열 핸들을 클릭하고 드래그하여 크기를 조정합니다
 
@@ -46,9 +46,9 @@ sidebar_position: 7
 - 에이전트의 효율성과 생산성 향상
 - 관리자/감독자가 팀과 개인에 대한 더 나은 가시성 확보
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006718004/original/ggoNpEIkFYZte8J1-zGWcWddZD_V5mGkkw.png?1666363828" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006718004/original/ggoNpEIkFYZte8J1-zGWcWddZD_V5mGkkw.png?1666363828"  />
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006718007/original/Hgoy0fNMvrHI7dLx3iWfukarAdM3LV-WWQ.png?1666363858" style={{width: '561px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006718007/original/Hgoy0fNMvrHI7dLx3iWfukarAdM3LV-WWQ.png?1666363858"  />
 
 각 카드는 티켓을 나타냅니다. 에이전트는 카드에서 제목, 우선순위 수준, 상태, 할당된 에이전트/그룹 등과 같은 티켓 정보를 한눈에 볼 수 있습니다. 에이전트는 카드에서 우선순위 수준과 상태를 변경할 수도 있습니다.
 
@@ -64,11 +64,11 @@ sidebar_position: 7
 
 왼쪽 상단의 티켓 목록 근처에 있는 세 줄을 클릭하여 **모든 티켓 뷰**로 이동합니다. 특정 요구사항에 맞게 필터 설정을 조정합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012057180/original/UmtjsS3tnoDPVNvCplX9Z69t98P-hjilvQ.png?1717578512" style={{width: '219px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012057180/original/UmtjsS3tnoDPVNvCplX9Z69t98P-hjilvQ.png?1717578512"  />
 
 이 작업이 완료되면 **다른 이름으로 저장** 옵션을 클릭하고 뷰에 이름을 지정하여 저장합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012057206/original/cuR3Prp5dFpsV0QH_mJvCut3OEAlIJxFpA.png?1717578602" style={{width: '338px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50012057206/original/cuR3Prp5dFpsV0QH_mJvCut3OEAlIJxFpA.png?1717578602"  />
 
 ### 3. 티켓 목록 뷰를 삭제하는 방법은?
 

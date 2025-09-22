@@ -36,7 +36,7 @@ OLA는 조직 내부 팀 간의 서비스 수준을 정의하여, 변경 작업�
 ### 2. 서비스 수준 목표 설정
 각 서비스에 대한 구체적이고 측정 가능한 목표를 설정합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006666806/original/IXJZG2qoVPC_ri41rvW1o9ioO9BMu-ZFyQ.png?1665982717" style={{width: '717px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006666806/original/IXJZG2qoVPC_ri41rvW1o9ioO9BMu-ZFyQ.png?1665982717"  />
 
 **응답 시간 목표**
 | 변경 유형 | 1차 응답 | 해결 시간 | 가용성 목표 |

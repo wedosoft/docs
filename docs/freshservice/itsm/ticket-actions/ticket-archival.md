@@ -22,7 +22,7 @@ sidebar_position: 17
 1. 관리자 페이지로 이동하여 '데이터 보관'을 검색합니다
 2. 데이터 보관 섹션에서 원하는 기간을 선택합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011187406/original/RSQ_MlHy3sG76CypZnb7kIaQX2qBtyRlAQ.png?1710162563" style={{width: '505px', height: '316px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50011187406/original/RSQ_MlHy3sG76CypZnb7kIaQX2qBtyRlAQ.png?1710162563"  />
 
 3. '저장'을 클릭하여 선택을 확인합니다
 

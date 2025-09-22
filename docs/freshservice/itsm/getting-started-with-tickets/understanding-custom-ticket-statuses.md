@@ -26,7 +26,7 @@ sidebar_position: 2
    
    전역 워크플로를 수정하려면 **관리자 > 전역 설정 > 서비스 관리 > 서비스 데스크 설정 > 필드 관리자 > 티켓 필드**로 이동합니다.
    
-   워크스페이스 수준 워크플로를 수정하려면 **관리자 > 워크스페이스 설정 > \{워크스페이스 이름\} > 서비스 관리 > 서비스 데스크 설정 > 필드 관리자 > 티켓 필드**로 이동합니다.
+   워크스페이스 수준 워크플로를 수정하려면 **관리자 > 워크스페이스 설정 > \&#123;워크스페이스 이름\&#125; > 서비스 관리 > 서비스 데스크 설정 > 필드 관리자 > 티켓 필드**로 이동합니다.
 
    :::info 중요 사항
    워크스페이스 관리자는 해당 워크스페이스에 적용되는 전역 및 로컬 워크플로 목록을 볼 수 있습니다.
@@ -44,7 +44,7 @@ sidebar_position: 2
 
 6. **SLA 타이머** 토글을 사용하여 이 상태로 설정된 티켓에 대해 SLA 타이머를 실행할지 결정합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50009604876/original/36kDJfjmxgr4bw50PcNyLrc9TLrBDNcDdQ.png?1695971481" style={{width: '653px', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50009604876/original/36kDJfjmxgr4bw50PcNyLrc9TLrBDNcDdQ.png?1695971481"  />
 
 7. **완료** 버튼을 클릭하여 필드를 저장합니다.
 

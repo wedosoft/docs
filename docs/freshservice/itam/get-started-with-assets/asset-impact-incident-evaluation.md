@@ -30,7 +30,7 @@ Freshservice의 자산 영향 기능은 자산이 인시던트 티켓과 연결�
 
 Asset Impact를 활성화하려면:
 
-- **Admin > Service Management > Service Desk Settings > Priority Matrix**로 이동합니다. 계정에 하나 이상의 작업 공간이 있는 경우 **Admin > {작업 공간 이름} > Service Management > Service Desk Settings > Priority Matrix**로 이동합니다.
+- **Admin > Service Management > Service Desk Settings > Priority Matrix**로 이동합니다. 계정에 하나 이상의 작업 공간이 있는 경우 **Admin > &#123;작업 공간 이름&#125; > Service Management > Service Desk Settings > Priority Matrix**로 이동합니다.
 - **Asset Impact** 섹션까지 스크롤하고 **Pass associated Asset impact to Ticket**이라고 표시된 토글 스위치를 활성화합니다.
 
 <img className="fr-dii" src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/36508585/original/myk6SNWCEY2uuTz84tRmBHBPZvk3A09Q3g.png?1513940499" data-filelink="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/36508585/original/myk6SNWCEY2uuTz84tRmBHBPZvk3A09Q3g.png?1513940499" data-fileid="36508585" data-uniquekey="1513939484754" />

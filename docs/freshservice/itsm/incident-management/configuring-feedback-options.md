@@ -26,7 +26,7 @@ Freshservice를 통해 웹사이트, 포털 또는 타사 웹 페이지에서 �
 
 계정에 워크스페이스가 여러 개 있는 경우 **Admin > Global Settings > Channels > Other Channels > Feedback widget**으로 이동합니다.
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006909181/original/2AsTJXrTVBvgGmXJUFH0tST4wjCKtGlXIA.png?1668429819" style={{width: 'auto'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006909181/original/2AsTJXrTVBvgGmXJUFH0tST4wjCKtGlXIA.png?1668429819"  />
 
 ### 3단계: 위젯 유형 선택
 

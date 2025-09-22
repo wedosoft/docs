@@ -11,7 +11,7 @@ sidebar_position: 10
 1. **티켓** 탭에서 티켓을 엽니다
 2. 세부 정보 탭에서 **전달**을 클릭합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006698013/original/SS4NT0g20XKYC3HmNIicklJkBfHqF4n9OA.png?1666198422" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006698013/original/SS4NT0g20XKYC3HmNIicklJkBfHqF4n9OA.png?1666198422"  />
 
 3. **전달 대상** 이메일 주소를 입력합니다
 4. 필요한 경우 추가 메시지를 입력하고 필요한 서식을 적용합니다
@@ -22,7 +22,7 @@ sidebar_position: 10
 9. 메시지 전송이 완료되면 **전달**을 누릅니다
 10. 뒤로 가려면 **취소**를 클릭합니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006698039/original/fgyql6Fl_qriGBdU5cqqJn4IRr83OSX56Q.png?1666198629" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50006698039/original/fgyql6Fl_qriGBdU5cqqJn4IRr83OSX56Q.png?1666198629"  />
 
 이제 티켓이 티켓 설명 및 전달 메모와 함께 지원 이메일 주소에서 수신자에게 전달됩니다.
 

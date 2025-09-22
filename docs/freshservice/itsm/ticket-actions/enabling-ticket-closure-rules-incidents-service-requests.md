@@ -18,7 +18,7 @@ sidebar_position: 15
 
 기본적으로 종료 규칙은 비활성화되어 있습니다. 활성화하려면 아래 언급된 단계를 따르세요:
 
-1. **관리자** 탭에서 **서비스 관리** -> **서비스 데스크 설정** 아래에서 **종료 규칙**을 찾을 수 있습니다. 계정에 둘 이상의 워크스페이스가 있는 경우 **관리자 > {워크스페이스 이름} > 서비스 관리 > 서비스 데스크 설정 > 종료 규칙**으로 이동합니다
+1. **관리자** 탭에서 **서비스 관리** -> **서비스 데스크 설정** 아래에서 **종료 규칙**을 찾을 수 있습니다. 계정에 둘 이상의 워크스페이스가 있는 경우 **관리자 > &#123;워크스페이스 이름&#125; > 서비스 관리 > 서비스 데스크 설정 > 종료 규칙**으로 이동합니다
 
 2. 인시던트 및 서비스 요청의 종료 및 해결에 대해 다음 조건을 정의할 수 있습니다:
    - 시간 항목을 추가해야 함
@@ -27,7 +27,7 @@ sidebar_position: 15
 
 3. 위의 조건들은 적절한 확인란을 선택하여 활성화할 수 있습니다
 
-<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000363518/original/f9kU5OLqcnC7_oSV719rOGJo8NJJf4N2dw.gif?1572955380" style={{width: 'auto', maxWidth: '100%'}} />
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/50000363518/original/f9kU5OLqcnC7_oSV719rOGJo8NJJf4N2dw.gif?1572955380"  />
 
 ## 종료 규칙이 우회되는 경우
 
