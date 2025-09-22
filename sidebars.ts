@@ -206,6 +206,25 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
+          label: '🏗️ IT 자산 관리 지원 가이드',
+          collapsed: true,
+          items: [
+            {
+              type: 'category',
+              label: '🚀 자산 관리 시작하기',
+              collapsed: true,
+              items: [
+                {
+                  type: 'doc',
+                  id: 'freshservice/support-guide-it-asset-management/get-started-with-assets/itsm/index',
+                  label: 'ITSM 자산 관리',
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
           label: '❓ FAQ',
           collapsed: true,
           items: [
