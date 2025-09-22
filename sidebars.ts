@@ -221,6 +221,8 @@ const sidebars: SidebarsConfig = {
                 'freshservice/itam/get-started-with-assets/importing-assets',
                 'freshservice/itam/get-started-with-assets/viewing-information-configuration-items',
                 'freshservice/itam/get-started-with-assets/updating-assets-bulk',
+                'freshservice/itam/get-started-with-assets/customizing-columns-assets-list',
+                'freshservice/itam/get-started-with-assets/understanding-different-asset-states',
               ],
             },
           ],
