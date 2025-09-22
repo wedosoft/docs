@@ -205,6 +205,23 @@ var sidebars = {
                 },
                 {
                     type: 'category',
+                    label: '🏗️ IT 자산 관리 (ITAM)',
+                    collapsed: true,
+                    items: [
+                        {
+                            type: 'category',
+                            label: '🚀 자산 관리 시작하기',
+                            collapsed: true,
+                            items: [
+                                'freshservice/itam/get-started-with-assets/index',
+                                'freshservice/itam/get-started-with-assets/different-types-assets-configuration-items',
+                                'freshservice/itam/get-started-with-assets/adding-depreciation-assets',
+                            ],
+                        },
+                    ],
+                },
+                {
+                    type: 'category',
                     label: '❓ FAQ',
                     collapsed: true,
                     items: [
