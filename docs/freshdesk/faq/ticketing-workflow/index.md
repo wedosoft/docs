@@ -613,7 +613,7 @@ In Freshdesk, you could view the most recent tickets raised by a requester, from
 
 <div dir="ltr"><div dir="ltr"><p ><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Ticket numbers appear in the subject of email notifications because of the inclusion of ticket ID. </span></span></p>
 <p ><br /></p>
-<p ><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>In order to remove this, please navigate to<strong dir="ltr"> Admin -&gt; Workflows -&gt; Email notifications</strong> -&gt;to modify the "Subject" of the email notification by removing the placeholder for "Ticket ID" - ```{{#123;`{{#123;ticket.id}}`#125;}}`#125;``.</span></span></p></div></div>
+<p><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>In order to remove this, please navigate to <strong dir="ltr">Admin -&gt; Workflows -&gt; Email notifications</strong> to modify the "Subject" of the email notification by removing the placeholder for "Ticket ID" - <code>ticket.id</code>.</span></span></p></div></div>
 
 </details>
 

@@ -7,7 +7,7 @@ sidebar_position: 1
 이 섹션에서는 다중 제품와 관련된 자주 묻는 질문들을 다룹니다.
 
 :::info
-각 질문을 클릭하면 상세한 답변을 확인할 수 있습니다.
+각 질문을 클릭하면 상세한 답변을 확인할 수 있습니<div dir="ltr"><p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Yes, this is possible. Please navigate to <strong>Admin &gt; Workflows &gt; Email Notification &gt; Template &gt; Agent Reply Template</strong> and click on "insert placeholder" which would give you the placeholders available in the system. Kindly choose the placeholder <strong>"ticket.portal_url"</strong> under helpdesk options to add it in your reply and position it according to your preference.</span></p><p style={{ fontSize: "16px" }}><br /></p><p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>This will insert a product-specific ticket URL inside a ticket rather than the generic ticket URL which would map the customers to the right portal.</span></p><p><br /></p></div>.
 :::
 
 
@@ -109,7 +109,7 @@ sidebar_position: 1
 <details>
 <summary>할 수 있나요 make the Ticket URL sent out with every reply portal-specific?</summary>
 
-<div dir="ltr"><p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Yes, this is possible. Please navigate to <strong>A</strong><strong dir="ltr">dmin &gt; Workflows &gt; Email Notification &gt; Template &gt; Agent Reply Template </strong>and click on "insert placeholder which would give you the placeholders available in the system. Kindly choose the placeholder<strong> "</strong><strong>``{{#123;`{{#123;ticket.portal_url}}`#125;}}`#125;`” under helpdesk options</strong> to add it in your reply and position it according to your preference.</span></p><p style={{ fontSize: "16px" }}><br /></p><p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>This will insert a product-specific ticket URL inside a ticket rather than the generic ticket URL which would map the customers to the right portal. </span></p><p><br /></p></div>
+<div dir="ltr"><p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Yes, this is possible. Please navigate to <strong>A</strong><strong dir="ltr">dmin &gt; Workflows &gt; Email Notification &gt; Template &gt; Agent Reply Template </strong>and click on "insert placeholder which would give you the placeholders available in the system. Kindly choose the placeholder<strong> "</strong><strong>``ticket.portal_url`” under helpdesk options</strong> to add it in your reply and position it according to your preference.</span></p><p style={{ fontSize: "16px" }}><br /></p><p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>This will insert a product-specific ticket URL inside a ticket rather than the generic ticket URL which would map the customers to the right portal. </span></p><p><br /></p></div>
 
 </details>
 

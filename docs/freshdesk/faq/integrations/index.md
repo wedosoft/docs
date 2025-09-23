@@ -95,7 +95,12 @@ sidebar_position: 1
 <details>
 <summary>어떻게 할 수 있나요 avoid the entire HTML code that comes out when the comment section is included in the message sent to Slack?</summary>
 
-<p><span style={{ fontSize: "16px" }}>When you are using dynamic variables to configure custom messages for Slack, please use the following variables for<strong> ticket description, last public note, and last private note</strong> so that only the text content of the description and notes is sent to Slack. </span></p><p><span style={{ fontSize: "16px" }}><br /></span></p><p><span style={{ fontSize: "16px" }}>Otherwise, the <strong>HTML</strong> tags will get pushed to slack as well.</span></p><p><br /></p><p ><span style={{ fontSize: "16px" }}>You can replace the placeholder with <strong>``{{#123;`{{#123;ticket.description_text}}`#125;}}`#125;` or ``{{#123;`{{#123;ticket.description | strip_html}}`#125;}}`#125;` instead of ``{{#123;`{{#123;ticket.description}}`#125;}}`#125;`</strong> and this will just have the text portion included in the notification.</span></p><p ><br /></p><p ><br /></p><p ><span style={{ fontSize: "16px" }}><br /></span></p>
+<p><span style={{ fontSize: "16px" }}>When you are using dynamic variables to configure custom messages for Slack, please use the following variables for<strong> ticket description, last public note, and last private note</strong> so that only the text content of the description and notes is sent to Slack. </span></p><p><span style={{ fontSize: "16px" }}><br /></span></p><p><span style={{ fontSize: "16px" }}>Otherwise, the <strong>HTML</strong> tags will get pushed to slack as well.</span></p><p><br /></p><p><span style={{ fontSize: "16px" }}>You can replace the placeholder with the following alternatives instead of using the default ticket.description:</span></p>
+
+**Option 1:** Use `ticket.description_text`
+**Option 2:** Use `ticket.description | strip_html`
+
+<p><span style={{ fontSize: "16px" }}>These alternatives will include only the text portion in the notification, without HTML tags.</span></p>
 
 </details>
 
