@@ -33,14 +33,14 @@ To learn and also train your agents try the Freshdesk Academy. Go to academy.fre
 <details>
 <summary>어떻게 할 수 있나요 start a conversation with an external member using Freshconnect?</summary>
 
-<p >If you want to start a discussion with a person outside the organisation, you would just have to type out '@' in the discussion and click on invite to discussion and enter the person's email address to invite them to this discussion.</p><p><br /></p><p ><img class="fr-dib fr-draggable fr-bordered" src="#" style={{ width: "262px", height: "287.192px" }} /></p><p><br /></p>
+<p >If you want to start a discussion with a person outside the organisation, you would just have to type out '@' in the discussion and click on invite to discussion and enter the person's email address to invite them to this discussion.</p><p><br /></p><p ><img class="fr-dib fr-draggable fr-bordered" src="#" style={{ fontSize: "16px" }} /></p><p><br /></p>
 
 </details>
 
 <details>
 <summary>How 할 것인가요 be notified in Freschconnect?</summary>
 
-<p><span style={{ fontFamily: "Helvetica Neue", fontSize: "13px" }}>By default, members in a discussion only receive notifications when someone:</span></p><p><br /></p><p><span style={{ fontSize: "13px" }}><span style={{ fontFamily: "Helvetica Neue" }}>1) @mentions them</span></span></p><p><span style={{ fontSize: "13px" }}><span style={{ fontFamily: "Helvetica Neue" }}>2) R</span></span><span style={{ fontSize: "13px" }}><span style={{ fontFamily: "Helvetica Neue" }}>eplies to their message directly</span></span></p><p><span style={{ fontSize: "13px" }}><span style={{ fontFamily: "Helvetica Neue" }}>3) @mentions the discussion</span></span></p><p><span style={{ fontSize: "13px" }}></span><br /></p><p><span style={{ fontSize: "13px" }}><span style={{ fontFamily: "Helvetica Neue" }}>There is a dedicated Freshconnect notification center where you will receive discussion related notifications.</span></span></p><p><span style={{ fontSize: "13px" }}><span style={{ fontFamily: "Helvetica Neue" }}>You can click on the Freshconnect link in this notification center to see a list of all the discussions you are</span></span></p><p><span style={{ fontSize: "13px" }}><span style={{ fontFamily: "Helvetica Neue" }}>collaborating on.</span></span></p><p><span style={{ fontSize: "13px" }}></span><br /></p><p><span style={{ fontFamily: "Helvetica Neue", fontSize: "13px" }}>Freshconnect notifications are also sent via email.</span></p>
+<p><span style={{ fontSize: "16px" }}>By default, members in a discussion only receive notifications when someone:</span></p><p><br /></p><p><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>1) @mentions them</span></span></p><p><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>2) R</span></span><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>eplies to their message directly</span></span></p><p><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>3) @mentions the discussion</span></span></p><p><span style={{ fontSize: "16px" }}></span><br /></p><p><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>There is a dedicated Freshconnect notification center where you will receive discussion related notifications.</span></span></p><p><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>You can click on the Freshconnect link in this notification center to see a list of all the discussions you are</span></span></p><p><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>collaborating on.</span></span></p><p><span style={{ fontSize: "16px" }}></span><br /></p><p><span style={{ fontSize: "16px" }}>Freshconnect notifications are also sent via email.</span></p>
 
 </details>
 
@@ -64,7 +64,7 @@ To learn and also train your agents try the Freshdesk Academy. Go to academy.fre
 <details>
 <summary>방법 create leads in Freshsales from Freshdesk?</summary>
 
-<p >In every ticket details page, on the right-hand side there would be FreshSales integration available where you can create a lead or a contact in Freshsales. Refer to the image below:</p><p ><img class="fr-dib fr-draggable fr-bordered" src="#" style={{ width: "564.011px", height: "221.405px" }} /></p><p ><br /></p><p >However, you need to integrate the Freshsales app in Freshdesk. To know more about the integration check out the <a href="https://support.freshdesk.com/support/solutions/articles/219923-how-to-integrate-freshsales-with-freshdesk-" rel="noreferrer noopener" target="_blank">link</a>. </p><p ><br /></p>
+<p >In every ticket details page, on the right-hand side there would be FreshSales integration available where you can create a lead or a contact in Freshsales. Refer to the image below:</p><p ><img class="fr-dib fr-draggable fr-bordered" src="#" style={{ fontSize: "16px" }} /></p><p ><br /></p><p >However, you need to integrate the Freshsales app in Freshdesk. To know more about the integration check out the <a href="https://support.freshdesk.com/support/solutions/articles/219923-how-to-integrate-freshsales-with-freshdesk-" rel="noreferrer noopener" target="_blank">link</a>. </p><p ><br /></p>
 
 </details>
 
@@ -127,7 +127,7 @@ To purchase or try out Freshping navigate to <a href="https://www.freshworks.com
 <details>
 <summary>무엇인가요 Freshworks Switcher ?</summary>
 
-<p>Tired of logging into to different helpdesk accounts or CRM accounts? We vow to make this easy with a single login to all of your Freshworks' subscriptions.&nbsp;</p><p><br /><img src="#" style={{ width: "95px", display: "block", float: "none", verticalAlign: "top", margin: "5px auto", textAlign: "center" }} class="fr-fic fr-dib" /><br /></p><p>Freshdesk is now integrated with a sidebar that enables you to quickly navigate to any of your subscriptions - Freshchat, Freshcaller, Freshmarketer or another Freshdesk account. You can also quickly signup for a new trial if you'd like to try any of our product offerings. The Freshworks Switcher is an easy navigation between all of your products and accounts.&nbsp;</p>
+<p>Tired of logging into to different helpdesk accounts or CRM accounts? We vow to make this easy with a single login to all of your Freshworks' subscriptions.&nbsp;</p><p><br /><img src="#" style={{ fontSize: "16px" }} class="fr-fic fr-dib" /><br /></p><p>Freshdesk is now integrated with a sidebar that enables you to quickly navigate to any of your subscriptions - Freshchat, Freshcaller, Freshmarketer or another Freshdesk account. You can also quickly signup for a new trial if you'd like to try any of our product offerings. The Freshworks Switcher is an easy navigation between all of your products and accounts.&nbsp;</p>
 
 </details>
 

@@ -26,14 +26,14 @@ sidebar_position: 1
 <details>
 <summary>Can multiple Freshdesk instances be connected to one Freshservice instance or vice versa?</summary>
 
-<p dir="ltr" style={{ lineHeight: "1.8", marginBottom: "10pt" }}>No. Currently, the integration only supports linking between one Freshdesk account and one Freshservice account.</p>
+<p dir="ltr" style={{ fontSize: "16px" }}>No. Currently, the integration only supports linking between one Freshdesk account and one Freshservice account.</p>
 
 </details>
 
 <details>
 <summary>Will the Freshdesk-Freshservice integration use any account API limits?</summary>
 
-<p dir="ltr" style={{ lineHeight: "1.8", marginBottom: "10pt" }}>No. Since this is a native integration and not a marketplace app, this will not consume the API limit counts.</p>
+<p dir="ltr" style={{ fontSize: "16px" }}>No. Since this is a native integration and not a marketplace app, this will not consume the API limit counts.</p>
 
 </details>
 
@@ -71,7 +71,7 @@ sidebar_position: 1
 <details>
 <summary>Which teams need to be on Freshdesk and Freshservice?</summary>
 
-<p dir="ltr" style={{ lineHeight: "1.8", marginLeft: "21.6pt", marginBottom: "10pt" }}>Freshdesk is a customer service software (CSS) that helps businesses track, manage, and resolve issues that their customers run into while using their product or service. With Freshdesk, the support teams can provide service across multiple channels, including social, get a complete context from a customer’s timeline of events, assign tickets to agents via Omniroute™, manage shifts, and make use of other customer-support specific capabilities.</p><p dir="ltr" style={{ lineHeight: "1.8", marginLeft: "21.6pt", marginBottom: "10pt" }}>Freshservice is an internal IT helpdesk and service management platform that helps organizations simplify and automate their internal IT operations.</p><p dir="ltr" style={{ lineHeight: "1.8", marginLeft: "21.6pt", marginBottom: "10pt" }}><span dir="ltr" style={{ backgroundColor: "initial", fontFamily: "inherit" }}>&nbsp;</span></p>
+<p dir="ltr" style={{ fontSize: "16px" }}>Freshdesk is a customer service software (CSS) that helps businesses track, manage, and resolve issues that their customers run into while using their product or service. With Freshdesk, the support teams can provide service across multiple channels, including social, get a complete context from a customer’s timeline of events, assign tickets to agents via Omniroute™, manage shifts, and make use of other customer-support specific capabilities.</p><p dir="ltr" style={{ fontSize: "16px" }}>Freshservice is an internal IT helpdesk and service management platform that helps organizations simplify and automate their internal IT operations.</p><p dir="ltr" style={{ fontSize: "16px" }}><span dir="ltr" style={{ fontSize: "16px" }}>&nbsp;</span></p>
 
 </details>
 
