@@ -118,25 +118,58 @@ sidebar_position: 1
 <p ><br /></p>
 <p ><img src="#" class="fr-fic fr-fil fr-dib inline-image" style={{ fontSize: "16px", fontFamily: "Arial", color: "rgb(24, 50, 71)", fontWeight: "400", textAlign: "left" }} /></p>
 <p><br /></p>
-```
-Note: If the date range is correctly set and you still do not receive the export for the specified date range, try this troubleshooting step: edit the report, remove the date range filter, save the report, then edit it again and reapply the desired date range. Finally, save the report and proceed with the export. If you still face issues, reach out to our support.
-```<hr /><h3 dir="ltr" style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><strong dir="ltr" style={{ fontSize: "16px" }}>To schedule a data export:</strong></span></span></h3><ol style={{ fontSize: "16px" }}><li style={{ fontSize: "16px" }}><p dir="ltr" style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Login to your support portal as an <strong style={{ fontSize: "16px" }}>Administrator/Supervisor.</strong></span></span></p></li>
+:::note
+If the date range is correctly set and you still do not receive the export for the specified date range, try this troubleshooting step: edit the report, remove the date range filter, save the report, then edit it again and reapply the desired date range. Finally, save the report and proceed with the export. If you still face issues, reach out to our support.
+:::
+
+<hr />
+
+<h3 dir="ltr" style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><strong dir="ltr" style={{ fontSize: "16px" }}>To schedule a data export:</strong></span></span></h3><ol style={{ fontSize: "16px" }}><li style={{ fontSize: "16px" }}><p dir="ltr" style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Login to your support portal as an <strong style={{ fontSize: "16px" }}>Administrator/Supervisor.</strong></span></span></p></li>
 <li style={{ fontSize: "16px" }}><p dir="ltr" style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Go to <strong style={{ fontSize: "16px" }}>Analytics &gt;&nbsp;</strong>click the<strong dir="ltr" style={{ fontSize: "16px" }}>&nbsp;gear icon(</strong><strong dir="ltr" style={{ fontSize: "16px" }}>Settings)&nbsp;</strong>on the top right corner <strong style={{ fontSize: "16px" }}>&gt;</strong> choose<strong style={{ fontSize: "16px" }}>&nbsp;Data</strong><strong style={{ fontSize: "16px" }}>&nbsp;Exports.</strong></span></span></p></li>
 <li style={{ fontSize: "16px" }}><p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Click on <strong dir="ltr" style={{ fontSize: "16px" }}>Create Export.</strong></span></span></p></li>
 <li dir="ltr" style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Give it a <strong style={{ fontSize: "16px" }}>Name</strong>, <strong style={{ fontSize: "16px" }}>Description</strong> and choose a <strong style={{ fontSize: "16px" }}>Module</strong> from which you want to export data: Tickets, Timesheet, Surveys, Survey results, Articles, and Triage.</span></span></li>
 <li style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Choose when you'd like to receive the export from the <strong style={{ fontSize: "16px" }}>Schedule</strong> dropdown field (<strong dir="ltr" style={{ fontSize: "16px" }}>Daily, Weekly or Monthly</strong>) and then set the required time.</span></span></li>
 <li style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Set any<strong style={{ fontSize: "16px" }}>&nbsp;Filters&nbsp;</strong>of your choice. All your <strong style={{ fontSize: "16px" }}>dropdown</strong> and <strong style={{ fontSize: "16px" }}>dependent fields</strong> will be displayed.</span></span></li>
-<li style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span dir="ltr" style={{ fontSize: "16px" }}>Choose the <strong style={{ fontSize: "16px" }}>Ticket</strong> fields and/or <strong style={{ fontSize: "16px" }}>Tag fields</strong> you want to include in the <strong style={{ fontSize: "16px" }}>CSV&nbsp;</strong>file.</span></span></li></ol>```
-Note: It is not possible to use the date range dimension filter when creating an export via Data Exports in Analytics
-```<p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span dir="ltr" style={{ fontSize: "16px" }}><br /></span></span></p><hr style={{ fontSize: "16px" }}><h3 style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><strong dir="ltr" style={{ fontSize: "16px" }}>To receive the export file via API</strong></span></span></h3><ol style={{ fontSize: "16px" }}><li style={{ fontSize: "16px" }}><p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Copy and paste the URL in your Business Intelligence tool.</span></span></p></li>
-<li style={{ fontSize: "16px" }}><p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span dir="ltr" style={{ fontSize: "16px" }}>Once you hit the <strong style={{ fontSize: "16px" }}>API</strong> from your <strong style={{ fontSize: "16px" }}>BI tool</strong>, you will receive a response in the following format:</span></span></p></li></ol><pre contenteditable="false" rel="highlighter" style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>` "export":{<br /> "url":"..."<br />`<br />}</span></span></pre><p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span dir="ltr" style={{ fontSize: "16px" }}>The URL parameter holds the link to the latest export file for that schedule. The file will be available for 30 days from the date of creation.&nbsp;</span></span></p><hr style={{ fontSize: "16px" }}><p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><br /></span></span></p><h3 style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><strong dir="ltr" style={{ fontSize: "16px" }}>To access your data exports:</strong></span></span></h3><ol style={{ fontSize: "16px" }}><li style={{ fontSize: "16px" }}><p dir="ltr" style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>To view the exports that you had scheduled, go to <strong dir="ltr" style={{ fontSize: "16px" }}>Analytics &gt;&nbsp;</strong>click the<strong dir="ltr" style={{ fontSize: "16px" }}>&nbsp;gear icon (</strong><strong dir="ltr" style={{ fontSize: "16px" }}>Settings)&nbsp;</strong>on the top right corner<strong dir="ltr" style={{ fontSize: "16px" }}>&nbsp;&gt;&nbsp;</strong>choose<strong style={{ fontSize: "16px" }}>&nbsp;Data</strong><strong style={{ fontSize: "16px" }}>&nbsp;Exports.</strong></span></span></p></li>
-<li style={{ fontSize: "16px" }}><p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>You'll be able to view the <strong style={{ fontSize: "16px" }}>Title</strong>, <strong style={{ fontSize: "16px" }}>Frequency</strong>, and the <strong style={{ fontSize: "16px" }}>Status</strong> of your data export here.&nbsp;</span></span></p></li>
-<li style={{ fontSize: "16px" }}><p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Click on the <strong style={{ fontSize: "16px" }}>Title</strong> to open a data export schedule, and use the <strong style={{ fontSize: "16px" }}>Active</strong> toggle to deactivate a schedule.</span></span></p></li>
-<li style={{ fontSize: "16px" }}><p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span dir="ltr" style={{ fontSize: "16px" }}>Use the <strong style={{ fontSize: "16px" }}>download</strong> button that appears when you hover over a scheduled export to download the available data exports.</span></span></p></li>
-<li style={{ fontSize: "16px" }}><p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span dir="ltr" style={{ fontSize: "16px" }}>An export once scheduled, cannot be edited. You will have to delete it altogether and create one afresh. Use the <strong style={{ fontSize: "16px" }}>delete</strong> button that appears when you hover over a scheduled export.</span></span></p></li></ol><pre class="fd-callout fd-callout--note" dir="ltr" style={{ fontSize: "1em", fontFamily: "monospace, monospace" }}><strong style={{ fontSize: "16px" }}>Note</strong>: You might need assistance from a developer to hit the API, so please ensure that they have access to the API key of the person who created the schedule.</pre><p class="article_note" style={{ fontSize: "16px" }}><br /></p>
-<p dir="ltr" style={{ fontSize: "16px" }}><br /><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>You can view the following video to understand how to export reports from Analytics.</span></span></p>
-<p dir="ltr" style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><br /></span></span></p>
-<p dir="ltr" style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span class="fr-video fr-deletable fr-fvc fr-dvb fr-draggable" style={{ fontSize: "16px" }}>[YouTube Video](https://www.youtube.com/)</span></span></span><br /><br /></p>
+<li style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><span dir="ltr" style={{ fontSize: "16px" }}>Choose the <strong style={{ fontSize: "16px" }}>Ticket</strong> fields and/or <strong style={{ fontSize: "16px" }}>Tag fields</strong> you want to include in the <strong style={{ fontSize: "16px" }}>CSV&nbsp;</strong>file.</span></span></li></ol>
+
+:::note
+It is not possible to use the date range dimension filter when creating an export via Data Exports in Analytics
+:::
+
+---
+
+### To receive the export file via API
+
+1. Copy and paste the URL in your Business Intelligence tool.
+2. Once you hit the **API** from your **BI tool**, you will receive a response in the following format:
+
+```json
+{
+  "export": {
+    "url": "..."
+  }
+}
+```
+
+The URL parameter holds the link to the latest export file for that schedule. The file will be available for 30 days from the date of creation.
+
+---
+
+### To access your data exports:
+
+1. To view the exports that you had scheduled, go to **Analytics** → click the **gear icon (Settings)** on the top right corner → choose **Data Exports**.
+2. You'll be able to view the **Title**, **Frequency**, and the **Status** of your data export here.
+3. Click on the **Title** to open a data export schedule, and use the **Active** toggle to deactivate a schedule.
+4. Use the **download** button that appears when you hover over a scheduled export to download the available data exports.
+5. An export once scheduled, cannot be edited. You will have to delete it altogether and create one afresh. Use the **delete** button that appears when you hover over a scheduled export.
+
+:::note
+**Note**: You might need assistance from a developer to hit the API, so please ensure that they have access to the API key of the person who created the schedule.
+:::
+
+You can view the following video to understand how to export reports from Analytics.
+
+[YouTube Video](https://www.youtube.com/)
 <p dir="ltr" style={{ fontSize: "13px", fontFamily: "-apple-system, ", color: "rgb(24, 50, 71)", fontWeight: "400", textAlign: "start" }}><span style={{ fontSize: "16px" }}>Learn more about the&nbsp;</span>
 <span style={{ fontSize: "16px" }}><a href="https://freshdesk.com/webinars/get-the-most-out-of-freshdesk-analytics-recording" style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Basics of Analytics</span></a><span style={{ fontSize: "16px" }}>&nbsp;through our webinar with insights on curated reports, creating custom reports for your helpdesk, learning to apply filters on reports, and much more.<br /><br /></span></span></p>
 <p dir="ltr" style={{ fontSize: "13px", fontFamily: "-apple-system, ", color: "rgb(24, 50, 71)", fontWeight: "400", textAlign: "start" }}><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>You can also refer to our&nbsp;</span><a href="https://freshdesk.com/assets/resources/freshdesk/Make-informed-decisions-with-Freshdesk-Analytics.pdf" style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Analytics guide</span></a></span>

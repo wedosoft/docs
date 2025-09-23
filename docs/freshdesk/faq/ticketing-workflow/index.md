@@ -77,35 +77,33 @@ In Freshdesk, you could view the most recent tickets raised by a requester, from
 <details>
 <summary>Is there a possibility for a customer to check the 상태 of their ticket without logging in?</summary>
 
-<div dir="ltr"><p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>As a customer, it is understandable that they sometimes want to do a quick peruse through the ticket and not log in to the portal. In this scenario, the best recommendation would be to use a <strong>"public ticket URL"</strong> which leads to the ticket and does not require the customer to sign in.</span></p>
+<div dir="ltr">
+
+<p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>As a customer, it is understandable that they sometimes want to do a quick peruse through the ticket and not log in to the portal. In this scenario, the best recommendation would be to use a <strong>"public ticket URL"</strong> which leads to the ticket and does not require the customer to sign in.</span></p>
 <p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><br /></span></p>
 <p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>This has a placeholder which when included in the description of the ticket will ensure that the customer can view the ticket status without logging into the portal upon clicking this URL. </span></p>
 <p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><br /></span></p>
 <p style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>To have the Public Ticket URL available in all replies, please navigate to <strong dir="ltr">Admin &gt; Workflows &gt; Email Notifications &gt; Templates &gt; </strong></span>
 <span style={{ fontSize: "16px" }}><strong>Agent Reply Template</strong> -&gt;<strong> insert placeholder </strong>and include the Public Ticket URL placeholder (please find this under the tickets section within the "insert placeholder" window).</span></p>
-<p><br /></p></div>
+<p><br /></p>
+
+</div>
 
 </details>
 
-<details>
-<summary>How can the customer change the 우선순위 and type of a ticket?</summary>
+### How can the customer change the 우선순위 and type of a ticket?
 
-<div dir="ltr"><p><span style={{ fontSize: "16px" }}>When customers raise tickets, you would like to extend the ability for them to choose the priority and type of tickets so that you could plan the assignment and tracking of them. </span></p>
-<p><br /></p>
-<p><span style={{ fontSize: "16px" }}>Please navigate<span id="docs-internal-guid-9b6b1c48-6245-0d35-83ef-77e1a3f8db4c"><span dir="ltr" style={{ fontSize: "16px" }}> to <strong dir="ltr">Admin &gt; Workflows &gt; Ticket fields</strong> &gt; double click on these fields and verify if the priority field is displayed to the customer. If not, kindly choose the option 'Display to the customer' under customers end in ticket properties and the customer will then be able to edit it.</span></span></span></p></div>
+When customers raise tickets, you would like to extend the ability for them to choose the priority and type of tickets so that you could plan the assignment and tracking of them.
 
-</details>
+Please navigate to **Admin > Workflows > Ticket fields** > double click on these fields and verify if the priority field is displayed to the customer. If not, kindly choose the option 'Display to the customer' under customers end in ticket properties and the customer will then be able to edit it.
 
-<details>
-<summary>How can customers view their previous conversations after a ticket is closed?</summary>
+### How can customers view their previous conversations after a ticket is closed?
 
-<div dir="ltr"><div dir="ltr"><p><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Customers can view the history of tickets if they have access to your customer portal. </span></span></p>
-<p><br /></p>
-<p><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>They could log into your portal using the email address used to raise the tickets and view the status of all the tickets raised. You would be able to determine who could view the tickets by changing the permission to <strong>"Logged in Users"</strong> or to <strong>"Everyone"</strong> with a public ticket URL in <strong dir="ltr">Admin -&gt; Channels -&gt; Portals -&gt; Settings. </strong></span></span></p>
-<p><br /></p>
-<p><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}>Customers would also receive an email notification with the ticket details if you have enabled the Requester notifications under </span><strong><span dir="ltr" style={{ fontSize: "16px" }}>Admin -&gt; Workflows -&gt; Email Notifications.</span></strong></span></p></div></div>
+Customers can view the history of tickets if they have access to your customer portal.
 
-</details>
+They could log into your portal using the email address used to raise the tickets and view the status of all the tickets raised. You would be able to determine who could view the tickets by changing the permission to **"Logged in Users"** or to **"Everyone"** with a public ticket URL in **Admin → Channels → Portals → Settings**.
+
+Customers would also receive an email notification with the ticket details if you have enabled the Requester notifications under **Admin → Workflows → Email Notifications**.
 
 <details>
 <summary>어떻게 split a customer response into a new ticket?</summary>

@@ -13,16 +13,18 @@ sidebar_position: 1
 
 ## 고급 기능 및 사용법
 
-<details>
-<summary>어떻게 restrict customers from editing the ticket properties after a ticket is submitted?</summary>
+### 어떻게 restrict customers from editing the ticket properties after a ticket is submitted?
 
-<p><span style={{ fontSize: "16px" }}>You can use the below-displayed code to restrict the customer from editing the ticket fields after a ticket is submitted. </span></p><p><span style={{ fontSize: "16px" }}><br /></span></p><p><span dir="ltr" style={{ fontSize: "16px" }}>Please navigate to <strong>Admin</strong>--&gt; Channels &gt; <strong dir="ltr">Portals </strong>--&gt;<strong dir="ltr">Customize portal</strong>--&gt;<strong>Layout &amp; pages</strong>--&gt;<strong>Portal pages</strong>--&gt;paste the below code under the <strong>T</strong><strong>icket details</strong> section,</span></p><p><span style={{ fontSize: "16px" }}><br /></span></p>```html
-<script>
+You can use the below-displayed code to restrict the customer from editing the ticket fields after a ticket is submitted.
+
+Please navigate to **Admin** → Channels > **Portals** → **Customize portal** → **Layout & pages** → **Portal pages** → paste the below code under the **Ticket details** section,
+
+```javascript
 jQuery('#portal_ticket_form .controls').each(function() {
     jQuery(this).children().attr('disabled','disabled');
 });
 jQuery('#helpdesk_ticket_submit').attr('disabled','disabled');
-</script>
+```
 ```<p><span style={{ fontSize: "16px" }}><br /></span></p><p><span style={{ fontSize: "16px" }}>This would be possible only from the <strong>Estate</strong> plan onwards in Freshdesk. </span></p><p><br /></p>
 
 </details>
