@@ -11,87 +11,79 @@ sidebar_position: 1
 :::
 
 <details>
-<summary><strong>'오류 loading widget' - 오류 message on 팀 Dashboards</strong></summary>
+<summary><strong>'오류 loading 위젯' - 오류 message 에 팀 Dashboards은 무엇인가요?</strong></summary>
 
-You will see this 오류 message (shown in screenshot below) on your 대시보드 as part of the:- **Live widgets** (Scorecard & Bar Chart widgets) - when the corresponding ticket view is deleted
-- **팀 Performance and trends widgets** (SLA trends, Ticket trends, Time trends, Leaderboard, and CSAT widgets) - when the corresponding group/product is deleted![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/42086713/original/P0ucLFa_GjCrtZP-Aji0rMTePa1JmRi1_g.png?1543811559)Clicking on '**View configuration**' will let you edit and update that widget for the 대시보드.
-
-</details>
-
-<details>
-<summary><strong>check the agent's availability for automatic ticket assignment하는 방법은 무엇인가요?</strong></summary>
-
-In the 대시보드, the option **Available 상담원** will show all the 상담원 who are available for the Automatic ticket assignment. An 관리자 or a Supervisor can make an agent available / unavailable for ticket assignment using the toggle option![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/40398727/original/rqxD4qHU7mJutNlJdm5oWkq_7TSZaT4Y6A.png?1535088287)![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/40398732/original/Xagn3nhrhyVMBO12XDWS4cW57cRlpLsmoQ.png?1535088320)
+You will see this 오류 message (shown 에서 screenshot below) 에 your 대시보드 as part 의 : - **Live widgets** (Scorecard & Bar 차트 widgets) - 언제 corresponding ticket view is deleted - **팀 Performance 그리고 trends widgets** (SLA trends, Ticket trends, Time trends, Leaderboard, 그리고 CSAT widgets) - 언제 corresponding group/product is deleted ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/42086713/original/P0ucLFa_GjCrtZP-Aji0rMTePa1JmRi1_g.png?1543811559) Clicking 에 '**View 구성**' will let you 편집 그리고 업데이트 that 위젯 위해 대시보드.
 
 </details>
 
 <details>
-<summary><strong>Which ticket statuses are considered in the On-Hold count?</strong></summary>
+<summary><strong>확인하다 agent's availability 위해 자동 ticket assignment?하는 방법은 무엇인가요?</strong></summary>
 
-All 티켓 that have SLA-off statuses would be taken into consideration when displaying the 'On-hold' count.
-
-</details>
-
-<details>
-<summary><strong>Who can create 팀 Dashboards?</strong></summary>
-
-Only the 관리자/ Supervisor will be able to create 팀 dashboards. To know more about the same you can visit the [article](https://지원.freshdesk.com/지원/solutions/articles/234371-팀-dashboards-setup-and-functionality).
+에서 대시보드, option **사용 가능한 상담원** will show all 상담원 who are 사용 가능한 위해 자동 ticket assignment. 관리자 또는 Supervisor can make agent 사용 가능한 / unavailable 위해 ticket assignment using toggle option ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/40398727/original/rqxD4qHU7mJutNlJdm5oWkq_7TSZaT4Y6A.png?1535088287) ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/40398732/original/Xagn3nhrhyVMBO12XDWS4cW57cRlpLsmoQ.png?1535088320)
 
 </details>
 
 <details>
-<summary><strong>Is there any limit on the number of 팀 dashboards allowed per 계정?</strong></summary>
+<summary><strong>Which ticket statuses are considered 에서 에-Hold count?</strong></summary>
 
-An 계정 can have a maximum of 15 팀 dashboards. And each 팀 대시보드 can have the following widgets and respective counts:Scorecards15Bar chart5CSAT3Leaderboard3SLA Trends2Ticket Trends2Time Trends2
-To know more about the same you can visit the [article](https://지원.freshdesk.com/지원/solutions/articles/234371-팀-dashboards-setup-and-functionality).
+All 티켓 that have SLA-off statuses would be taken into consideration 언제 displaying '에-hold' count.
+
+</details>
+
+<details>
+<summary><strong>Who can 생성 팀 Dashboards?</strong></summary>
+
+Only 관리자/ Supervisor will be able 로 생성 팀 dashboards. 로 know more about same you can visit [article](https://지원.freshdesk.com/지원/solutions/articles/234371-팀-dashboards-설정-그리고-functionality).
+
+</details>
+
+<details>
+<summary><strong>Is there any limit 에 number 의 팀 dashboards allowed per 계정?</strong></summary>
+
+계정 can have maximum 의 15 팀 dashboards. 그리고 each 팀 대시보드 can have following widgets 그리고 respective counts: Scorecards15Bar chart5CSAT3Leaderboard3SLA Trends2Ticket Trends2Time Trends2 로 know more about same you can visit [article](https://지원.freshdesk.com/지원/solutions/articles/234371-팀-dashboards-설정-그리고-functionality).
 
 </details>
 
 <details>
 <summary><strong>Who can view 팀 Dashboards?</strong></summary>
 
-You can configure who can view the 팀 Dashboards. This can be set as **All 상담원** or **상담원 in Group** and specify the groups that can view the 대시보드. To know more about the complete feature you can visit the [article](https://지원.freshdesk.com/지원/solutions/articles/234371-팀-dashboards-setup-and-functionality).
+You can configure who can view 팀 Dashboards. This can be set as **All 상담원** 또는 **상담원 에서 Group** 그리고 specify groups that can view 대시보드. 로 know more about complete feature you can visit [article](https://지원.freshdesk.com/지원/solutions/articles/234371-팀-dashboards-설정-그리고-functionality).
 
 </details>
 
 <details>
-<summary><strong>What are the different types of widgets in 팀 Dashboards</strong></summary>
+<summary><strong>different types 의 widgets 에서 팀 Dashboards이란은 무엇인가요?</strong></summary>
 
-Different widgets are:- Score card
-- Bar Chart
-- 고객 Satisfaction
-- Leaderboard
-- Ticket Trends
-- Time Trends
-- SLA TrendsTo know more about the complete feature you can visit the [article](https://지원.freshdesk.com/지원/solutions/articles/234371-팀-dashboards-setup-and-functionality).
+Different widgets are: - Score card - Bar 차트 - 고객 Satisfaction - Leaderboard - Ticket Trends - Time Trends - SLA Trends 로 know more about complete feature you can visit [article](https://지원.freshdesk.com/지원/solutions/articles/234371-팀-dashboards-설정-그리고-functionality).
 
 </details>
 
 <details>
-<summary><strong>edit an announcement in 팀 Dashboards할 수 있나요?</strong></summary>
+<summary><strong>편집 announcement 에서 팀 Dashboards?할 수 있나요은 무엇인가요?</strong></summary>
 
-It’s not possible to edit an announcement. You can stop an existing announcement and post a new one instead. To know more about 팀 대시보드 you can check out the [article](https://지원.freshdesk.com/지원/solutions/articles/234371-팀-dashboards-setup-and-functionality).
-
-</details>
-
-<details>
-<summary><strong>Is the 팀 대시보드 realtime?</strong></summary>
-
-The 대시보드 would refresh once every **30 seconds** for the **Score cards** and **Bar charts** (Live widgets). For the **고객 Satisfaction** and **Leaderboard** the refresh time would be **60 minutes**. For all the other widgets the refresh time is **30 minutes**.
+It’s not possible 로 편집 announcement. You can stop existing announcement 그리고 post new one instead. 로 know more about 팀 대시보드 you can 확인하다 out [article](https://지원.freshdesk.com/지원/solutions/articles/234371-팀-dashboards-설정-그리고-functionality).
 
 </details>
 
 <details>
-<summary><strong>Can the 대시보드 in Freshdesk be customized?</strong></summary>
+<summary><strong>Is 팀 대시보드 realtime?</strong></summary>
 
-The default 대시보드 in Freshdesk offers an overall view of the entire 헬프데스크’s performance and KPIs. These widgets are fixed with options to filter by Group and Product and it cannot be customized.But with customizable **팀 Dashboards**, you can customize your 대시보드 to show just the required metrics for your teams so that the teams/groups within an organization can get a clear picture of just their 팀’s performance, at a glance.Please refer to [this article](https://지원.freshdesk.com/지원/solutions/articles/234371-팀-dashboards-setup-and-functionality) for detailed information.
+대시보드 would refresh once every **30 seconds** 위해 **Score cards** 그리고 **Bar charts** (Live widgets). 위해 **고객 Satisfaction** 그리고 **Leaderboard** refresh time would be **60 minutes**. 위해 all other widgets refresh time is **30 minutes**.
 
 </details>
 
 <details>
-<summary><strong>publish a 대시보드 to my customers할 수 있나요?</strong></summary>
+<summary><strong>Can 대시보드 에서 Freshdesk be customized?</strong></summary>
 
-The 대시보드 is to track the metrics of the 상담원 working in your organization and it is **not intended for 고객 use** and there would not be available for the 고객's use.If you are wanting to get a report on the 티켓 raised by specific companies, you can make **use of the 보고서 and export **the same from inside Freshdesk. This can then be forwarded to those Customers.
+기본값 대시보드 에서 Freshdesk offers overall view 의 entire 헬프데스크’s performance 그리고 KPIs. These widgets are fixed 와 함께 options 로 필터 에 의해 Group 그리고 Product 그리고 it cannot be customized. 하지만 와 함께 customizable **팀 Dashboards**, you can 사용자 정의하다 your 대시보드 로 show just 필수 metrics 위해 your teams so that teams/groups within organization can get clear picture 의 just their 팀’s performance, 에서 glance. Please refer 로 [this article](https://지원.freshdesk.com/지원/solutions/articles/234371-팀-dashboards-설정-그리고-functionality) 위해 detailed information.
+
+</details>
+
+<details>
+<summary><strong>publish 대시보드 로 my customers?할 수 있나요은 무엇인가요?</strong></summary>
+
+대시보드 is 로 track metrics 의 상담원 working 에서 your organization 그리고 it is **not intended 위해 고객 use** 그리고 there would not be 사용 가능한 위해 고객's use. 만약 you are wanting 로 get report 에 티켓 raised 에 의해 특정한 회사, you can make **use 의 보고서 그리고 내보내기** same 에서 inside Freshdesk. This can 그러면 be forwarded 로 those Customers.
 
 </details>
 

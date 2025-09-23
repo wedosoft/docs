@@ -11,79 +11,79 @@ sidebar_position: 1
 :::
 
 <details>
-<summary><strong>the difference between the New > Ticket and the New > 이메일 option은 무엇인가요?</strong></summary>
+<summary><strong>difference between New > Ticket 그리고 New > 이메일 option?이란은 무엇인가요?</strong></summary>
 
-The option to raise a **new ticket** or send a **new 이메일** is available as part of the '**+ New**' quick access dropdown on the top right corner near the Search icon. You will also find '**New contact**', and '**New Company**' options as part of the dropdown for quick access.**+ New Ticket: **This option can be used by the 상담원 to create a new ticket on behalf of the requester, ideally after a phone call. The source of this ticket will be set as **Phone**. Also, on this page, you will be able to add a new contact. The 'Create another' option will open another new ticket page with the same properties as the previous ticket you just raised.**+ New 이메일: **This option can be used by 상담원 to send outbound emails to customers from Freshdesk, for any intimation. This 이메일 will also be converted into a ticket. Here, you will not have an option to add a contact like the one available in the new ticket page. The 'Send another' option will open another new 이메일 page with the same properties as the previous 이메일 you just sent.If you would like to create a ticket on behalf of the 고객 then you can use the 'New Ticket' option and if you would like to send an outbound 이메일 to one of your customers then you can use the 'New 이메일' option.
-
-</details>
-
-<details>
-<summary><strong>auto-fill fields when I'm creating a new ticket as an Agent하는 방법은 무엇인가요?</strong></summary>
-
-You have 상담원 with a busy schedule who are on calls and creating 티켓 for customers as you believe in first-hand 지원. When your 상담원 are creating a new ticket or sending an outbound 이메일, you can use the Ticket Templates feature to pre-fill regularly used fields.Under **관리자 > Agent Productivity > Ticket templates**, you can set up a template that your 상담원 can select with one click. This 해결책 article walks you through the process.The Ticket templates feature is available from the Garden 요금제 onwards.
+option 로 raise **new ticket** 또는 send **new 이메일** is 사용 가능한 as part 의 '**+ New**' quick access dropdown 에 top right corner near Search icon. You will also find '**New 연락하다**', 그리고 '**New Company**' options as part 의 dropdown 위해 quick access. **+ New Ticket:**This option can be used 에 의해 상담원 로 생성 new ticket 에 behalf 의 requester, ideally after phone call. source 의 this ticket will be set as **Phone**. Also, 에 this page, you will be able 로 추가 new 연락하다. '생성 another' option will open another new ticket page 와 함께 same properties as previous ticket you just raised. **+ New 이메일:**This option can be used 에 의해 상담원 로 send outbound emails 로 customers 에서 Freshdesk, 위해 any intimation. This 이메일 will also be converted into ticket. Here, you will not have option 로 추가 연락하다 like one 사용 가능한 에서 new ticket page. 'Send another' option will open another new 이메일 page 와 함께 same properties as previous 이메일 you just sent. 만약 you would like 로 생성 ticket 에 behalf 의 고객 그러면 you can use 'New Ticket' option 그리고 만약 you would like 로 send outbound 이메일 로 one 의 your customers 그러면 you can use 'New 이메일' option.
 
 </details>
 
 <details>
-<summary><strong>save the filters I apply under the 티켓 tab하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>auto-fill fields 언제 I'm creating new ticket as Agent?하는 방법은 무엇인가요?</strong></summary>
 
-After applying the filters under the Filter 티켓 section of the Ticket view page, please click on the **Tick mark **next to the list view name (All 티켓).This will allow you to save these filters and give it a relevant heading as well which you could use later.Here's a[ detailed article](https://지원.freshdesk.com/지원/solutions/articles/37559-filtering-티켓-using-views) that will help you set it up.
-
-</details>
-
-<details>
-<summary><strong>왜 is a different language being displayed when I log in to the 포털인가요?</strong></summary>
-
-Please check the language options which is applied to your profile - you could check this under Agent Avatar-->Profile 설정.
+You have 상담원 와 함께 busy schedule who are 에 calls 그리고 creating 티켓 위해 customers as you believe 에서 first-hand 지원. 언제 your 상담원 are creating new ticket 또는 sending outbound 이메일, you can use Ticket Templates feature 로 pre-fill regularly used fields. Under **관리자 > Agent Productivity > Ticket templates**, you can set up template that your 상담원 can 선택 와 함께 one 클릭. This 해결책 article walks you through process. Ticket templates feature is 사용 가능한 에서 Garden 요금제 onwards.
 
 </details>
 
 <details>
-<summary><strong>disable the option for requesters to sign up to our 헬프데스크하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>저장 filters I apply under 티켓 tab?하는 방법은 무엇인가요?</strong></summary>
 
-Please navigate to **관리자 -> Channels -> Portals -> 설정 **and choose the option "**No" **under **Allow users to Sign Up from the 고객 포털**.This **would not allow** users to sign up from the 포털 - you would have to send them an activation 이메일 to create an 계정 with your system.
-
-</details>
-
-<details>
-<summary><strong>remove the Forums tab from the 포털 entirely하는 방법은 무엇인가요?</strong></summary>
-
-Please navigate to **관리자 -> 계정 -> 헬프데스크 설정 **where you would be able to find a toggle button next to forums. Disabling this would hide the forums tab for all users on every product 포털 of your system.In order to hide this only for your customers, please get in touch with us **(지원@freshdesk.com)** where we could give you a CSS code to hide the tab on the user end.
+After applying filters under 필터 티켓 section 의 Ticket view page, please 클릭 에 **Tick mark**next 로 list view name (All 티켓). This will allow you 로 저장 these filters 그리고 give it 관련된 heading as well which you could use later. Here's [detailed article](https://지원.freshdesk.com/지원/solutions/articles/37559-filtering-티켓-using-views) that will help you set it up.
 
 </details>
 
 <details>
-<summary><strong>change the 헬프데스크 name in the left corner on the Agent 포털하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>왜 is different language being displayed 언제 I log 에서 로 포털?</strong></summary>
 
-Please navigate to 관리자 -> 계정 -> 헬프데스크 설정 to change the 포털 name displayed on the left side of the navigation bar.You will find a field called **헬프데스크 name** in the 헬프데스크 설정, where you can enter the desired 헬프데스크 name.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50009297345/original/zhQF9PjRqJrJFWJVXVqmVKv8vmbClTPphg.png?1693233538)
-
-</details>
-
-<details>
-<summary><strong>rebrand the Agent side of the 포털 and change its colors하는 방법은 무엇인가요?</strong></summary>
-
-To change the colors of the Agent side of the 포털, please go to **관리자 > 계정 > 헬프데스크 설정 > **Click on** Edit Branding **and make the necessary changes to **헬프데스크 colors**.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50009272133/original/Xisbv1VyF-9As4wXDp9KlrG0-w4xaf78SA.png?1692892903)
+Please 확인하다 language options which is applied 로 your profile - you could 확인하다 this under Agent Avatar-->Profile 설정.
 
 </details>
 
 <details>
-<summary><strong>cancel my Freshdesk 계정하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>비활성화 option 위해 requesters 로 sign up 로 our 헬프데스크?하는 방법은 무엇인가요?</strong></summary>
 
-We, at Freshdesk, are always available to assist you with any issues that you are facing and will be happy to make your experience better. If there is anything we can help you with, feel free to write to us at **지원@freshdesk.com**.However, if you're certain that you'd like to delete your 계정, please click on **관리자** (represented by a gear icon from the navigation panel on the left)** > 계정 > 계정 Details **and click on '**Cancel 계정**'.**참고 that you will have to be an '계정 관리자' on the 포털 to find this section.**![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/41662165/original/A4iAu0m5oQfkKBgT_42D9y6RztF6ysCDQg.png?1541575768)It would be really helpful if you share your feedback and the reason behind canceling your 계정 with us. You can then hit the '**Request Cancellation**' button on the next page and confirm the action on the following pop-up window.You will have **24 hours before your 계정 gets suspended**, and **14 days (2 weeks) before we delete your 계정 and 계정 data permanently**.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/41662167/original/WxaC4O6i8X3X2Axjw1yd2KEP83dj1lTq0A.png?1541575787)Furthermore, we would advise you to export your 계정 data by using the '**Export Now**' option on the same page before canceling your Freshdesk 계정.**참고**: If you're getting an 오류 while deleting your 계정, please reach out to our 지원 팀 at 지원@freshdesk.com
-
-</details>
-
-<details>
-<summary><strong>communicate with a third party from a Freshdesk ticket without involving the 고객하는 방법은 무엇인가요?</strong></summary>
-
-If you are looking to initiating a private conversation with a third party vendor who isn't a part of your Freshdesk 계정, you could use the **Forward** option on the Ticket details page.Please navigate to the **티켓** tab -> click on the ticket on which you would want to perform this action -> and click on "**forward" **next to the reply option.This sends the entire thread or individual reply (depending on which Forward is used) to the third party and it would not be visible to the 고객. A reply to this 이메일 will be added as a private 참고 to the ticket, which would also not be visible to the 고객.
+Please 이동 로 **관리자 -> Channels -> Portals -> 설정**그리고 선택 option "**No"**under **Allow users 로 Sign Up 에서 고객 포털**. This **would not allow** users 로 sign up 에서 포털 - you would have 로 send them activation 이메일 로 생성 계정 와 함께 your system.
 
 </details>
 
 <details>
-<summary><strong>Customers are not able to open the ticket URL in the response. How can I rectify this?</strong></summary>
+<summary><strong>제거 Forums tab 에서 포털 entirely?하는 방법은 무엇인가요?</strong></summary>
 
-When you send out responses to your customers - the ticket URL would be available to the users depending on the user permission which can be understood by navigating to **관리자 -> Channels -> Portals -> 설정**. So there are two options - logged-in users or anyone with a **public ticket **URL.Considering the question, the option in your 설정 is "logged in users" who would need to be verified to have an 계정 in your 포털 so that they could log in and check. There are two options to do this - make sure you send out an activation URL manually from the customers' tab or automate it in **Adnin > Workflows > 이메일 notifications > Requester notifications > User activation**. Finally, if you would want a quicker alternative, you could guide them to do a 비밀번호 reset on the 포털.
+Please 이동 로 **관리자 -> 계정 -> 헬프데스크 설정**where you would be able 로 find toggle button next 로 forums. Disabling this would hide forums tab 위해 all users 에 every product 포털 의 your system. 에서 order 로 hide this only 위해 your customers, please get 에서 touch 와 함께 us **(지원@freshdesk.com)** where we could give you CSS code 로 hide tab 에 user end.
+
+</details>
+
+<details>
+<summary><strong>change 헬프데스크 name 에서 left corner 에 Agent 포털?하는 방법은 무엇인가요?</strong></summary>
+
+Please 이동 로 관리자 -> 계정 -> 헬프데스크 설정 로 change 포털 name displayed 에 left side 의 navigation bar. You will find 필드 called **헬프데스크 name** 에서 헬프데스크 설정, where you can 입력 desired 헬프데스크 name. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50009297345/original/zhQF9PjRqJrJFWJVXVqmVKv8vmbClTPphg.png?1693233538)
+
+</details>
+
+<details>
+<summary><strong>rebrand Agent side 의 포털 그리고 change its colors?하는 방법은 무엇인가요?</strong></summary>
+
+로 change colors 의 Agent side 의 포털, please go 로 **관리자 > 계정 > 헬프데스크 설정 >**클릭 에**편집 Branding**그리고 make necessary changes 로 **헬프데스크 colors**. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50009272133/original/Xisbv1VyF-9As4wXDp9KlrG0-w4xaf78SA.png?1692892903)
+
+</details>
+
+<details>
+<summary><strong>취소 my Freshdesk 계정?하는 방법은 무엇인가요?</strong></summary>
+
+We, 에서 Freshdesk, are always 사용 가능한 로 assist you 와 함께 any issues that you are facing 그리고 will be happy 로 make your experience better. 만약 there is anything we can help you 와 함께, feel free 로 write 로 us 에서 **지원@freshdesk.com**. However, 만약 you're certain that you'd like 로 삭제 your 계정, please 클릭 에 **관리자** (represented 에 의해 gear icon 에서 navigation panel 에 left)**> 계정 > 계정 Details**그리고 클릭 에 '**취소 계정**'. **참고 that you will have 로 be '계정 관리자' 에 포털 로 find this section.** ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/41662165/original/A4iAu0m5oQfkKBgT_42D9y6RztF6ysCDQg.png?1541575768) It would be really helpful 만약 you share your feedback 그리고 reason behind canceling your 계정 와 함께 us. You can 그러면 hit '**Request Cancellation**' button 에 next page 그리고 confirm action 에 following pop-up window. You will have **24 hours before your 계정 gets suspended**, 그리고 **14 days (2 weeks) before we 삭제 your 계정 그리고 계정 데이터 permanently**. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/41662167/original/WxaC4O6i8X3X2Axjw1yd2KEP83dj1lTq0A.png?1541575787) Furthermore, we would advise you 로 내보내기 your 계정 데이터 에 의해 using '**내보내기 Now**' option 에 same page before canceling your Freshdesk 계정. **참고**: 만약 you're getting 오류 while deleting your 계정, please 문의하다 로 our 지원 팀 에서 지원@freshdesk.com
+
+</details>
+
+<details>
+<summary><strong>communicate 와 함께 third party 에서 Freshdesk ticket without involving 고객?하는 방법은 무엇인가요?</strong></summary>
+
+만약 you are looking 로 initiating private conversation 와 함께 third party vendor who isn't part 의 your Freshdesk 계정, you could use **Forward** option 에 Ticket details page. Please 이동 로 **티켓** tab -> 클릭 에 ticket 에 which you would want 로 perform this action -> 그리고 클릭 에 "**forward"**next 로 reply option. This sends entire thread 또는 individual reply (depending 에 which Forward is used) 로 third party 그리고 it would not be visible 로 고객. reply 로 this 이메일 will be added as private 참고 로 ticket, which would also not be visible 로 고객.
+
+</details>
+
+<details>
+<summary><strong>Customers are not able 로 open ticket URL 에서 response. rectify this?하는 방법은 무엇인가요?</strong></summary>
+
+언제 you send out responses 로 your customers - ticket URL would be 사용 가능한 로 users depending 에 user permission which can be understood 에 의해 navigating 로 **관리자 -> Channels -> Portals -> 설정**. So there are two options - logged-에서 users 또는 anyone 와 함께 **public ticket**URL. Considering question, option 에서 your 설정 is "logged 에서 users" who would need 로 be verified 로 have 계정 에서 your 포털 so that they could log 에서 그리고 확인하다. There are two options 로 do this - make sure you send out activation URL manually 에서 customers' tab 또는 automate it 에서 **Adnin > Workflows > 이메일 notifications > Requester notifications > User activation**. Finally, 만약 you would want quicker alternative, you could guide them 로 do 비밀번호 reset 에 포털.
 
 </details>
 

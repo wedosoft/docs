@@ -11,121 +11,121 @@ sidebar_position: 1
 :::
 
 <details>
-<summary><strong>Freshconnect은 무엇인가요?</strong></summary>
+<summary><strong>Freshconnect?이란은 무엇인가요?</strong></summary>
 
-Freshconnect is the enhanced version of the 'Discuss' feature inside Freshdesk.With Freshconnect, you can collaborate with your 팀 right where the context is without having to switch between multiple tools. Just open up the discussion from within a ticket or a deal and tag any teammate to start collaborating!In Freshdesk, collaborate with your 팀 on 티켓 by inviting 팀 members for discussions whether they are an agent, 관리자 or even someone in another function.Refer this [link](https://지원.freshdesk.com/지원/solutions/articles/235766-understanding-the-freshdesk-freshconnect-integration) for more information.
-
-</details>
-
-<details>
-<summary><strong>start a conversation with an external member using Freshconnect하는 방법은 무엇인가요?</strong></summary>
-
-If you want to start a discussion with a person outside the organisation, you would just have to type out '@' in the discussion and click on invite to discussion and enter the person's 이메일 address to invite them to this discussion.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/41067817/original/yWprqxbXjOm5Vf01-OZOFgAPLV4mIsTvVg.png?1538465612)
+Freshconnect is enhanced version 의 'Discuss' feature inside Freshdesk. 와 함께 Freshconnect, you can collaborate 와 함께 your 팀 right where context is without having 로 switch between 다수의 tools. Just open up discussion 에서 within ticket 또는 deal 그리고 tag any teammate 로 start collaborating! 에서 Freshdesk, collaborate 와 함께 your 팀 에 티켓 에 의해 inviting 팀 members 위해 discussions whether they are agent, 관리자 또는 even someone 에서 another function. Refer this [link](https://지원.freshdesk.com/지원/solutions/articles/235766-understanding--freshdesk-freshconnect-연동) 위해 more information.
 
 </details>
 
 <details>
-<summary><strong>How will I be notified in Freschconnect?</strong></summary>
+<summary><strong>start conversation 와 함께 external member using Freshconnect?하는 방법은 무엇인가요?</strong></summary>
 
-By default, members in a discussion only receive notifications when someone:1) @mentions them2) Replies to their message directly3) @mentions the discussionThere is a dedicated Freshconnect notification center where you will receive discussion related notifications.You can click on the Freshconnect link in this notification center to see a list of all the discussions you arecollaborating on.Freshconnect notifications are also sent via 이메일.
-
-</details>
-
-<details>
-<summary><strong>find my Freshdesk 계정 URL using my 이메일 address하는 방법은 무엇인가요?</strong></summary>
-
-Go to [https://freshdesk.com/로그인](https://freshdesk.com/로그인) > Click on **Forgot your 헬프데스크 name?** and enter your 이메일 address. We would be displaying the Freshdesk 계정 linked with that 이메일 address.
+만약 you want 로 start discussion 와 함께 person outside organisation, you would just have 로 입력 out '@' 에서 discussion 그리고 클릭 에 invite 로 discussion 그리고 입력 person's 이메일 address 로 invite them 로 this discussion. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/41067817/original/yWprqxbXjOm5Vf01-OZOFgAPLV4mIsTvVg.png?1538465612)
 
 </details>
 
 <details>
-<summary><strong>create leads in Freshsales from Freshdesk하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>How will I be notified 에서 Freschconnect?</strong></summary>
 
-In every ticket details page, on the right-hand side there would be FreshSales integration available where you can create a lead or a contact in Freshsales. Refer to the image below:![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/42405524/original/K2YZ8js-vMt552MyM1o0SiZKZZy397adzg.png?1545122924)However, you need to integrate the Freshsales app in Freshdesk. To know more about the integration check out the [link](https://지원.freshdesk.com/지원/solutions/articles/219923-how-to-integrate-freshsales-with-freshdesk-).
-
-</details>
-
-<details>
-<summary><strong>I need a call answering system.</strong></summary>
-
-The right 해결책 for this would be Freshcaller, which is our Cloud-based Call Center 해결책. To know more about Freshcaller check out the [link](https://www.freshworks.com/freshcaller-cloud-pbx/).
+에 의해 기본값, members 에서 discussion only receive notifications 언제 someone: 1) @mentions them 2) Replies 로 their message directly 3) @mentions discussion There is dedicated Freshconnect notification center where you will receive discussion related notifications. You can 클릭 에 Freshconnect link 에서 this notification center 로 see list 의 all discussions you are collaborating 에. Freshconnect notifications are also sent via 이메일.
 
 </details>
 
 <details>
-<summary><strong>Want to be a partner of Freshdesk</strong></summary>
+<summary><strong>find my Freshdesk 계정 URL using my 이메일 address?하는 방법은 무엇인가요?</strong></summary>
 
-To become a partner of Freshworks go to [https://www.freshworks.com/company/partners/](https://www.freshworks.com/company/partners/)
-
-</details>
-
-<details>
-<summary><strong>manage assets in freshdesk할 수 있나요?</strong></summary>
-
-Freshdesk will not be able to manage assets. You can make use of Freshservice which is an Asset management software for this purpose. Please refer to the [link](https://freshservice.com/features/it-asset-management-software) for more details.
+Go 로 [https://freshdesk.com/로그인](https://freshdesk.com/로그인) > 클릭 에 **Forgot your 헬프데스크 name?** 그리고 입력 your 이메일 address. We would be displaying Freshdesk 계정 linked 와 함께 that 이메일 address.
 
 </details>
 
 <details>
-<summary><strong>Is there a demo video of Freshdesk?</strong></summary>
+<summary><strong>생성 leads 에서 Freshsales 에서 Freshdesk?하는 방법은 무엇인가요?</strong></summary>
 
-You can [request a Freshdesk demo](https://www.freshworks.com/freshdesk/demo-request/) or check out the interactive [Freshdesk demo tour](https://www.freshworks.com/freshdesk/product-tour/?utm_source=freshdesk&utm_medium=product_tour&utm_campaign=product_tour_support_portal&utm_content=cta) to experience the capabilities of the product yourselfIf you want to train your 상담원 or any of the admins, try out the [Freshdesk Academy](https://academy.freshdesk.com/) which has multiple courses for you to explore.
-
-</details>
-
-<details>
-<summary><strong>We would like to add Freshping to our 서비스.</strong></summary>
-
-To purchase or try out Freshping navigate to [https://www.freshworks.com/website-monitoring/](https://www.freshworks.com/website-monitoring/)
+에서 every ticket details page, 에 right-hand side there would be FreshSales 연동 사용 가능한 where you can 생성 lead 또는 연락하다 에서 Freshsales. Refer 로 image below: ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/42405524/original/K2YZ8js-vMt552MyM1o0SiZKZZy397adzg.png?1545122924) However, you need 로 integrate Freshsales app 에서 Freshdesk. 로 know more about 연동 확인하다 out [link](https://지원.freshdesk.com/지원/solutions/articles/219923-how-로-integrate-freshsales-와 함께-freshdesk-).
 
 </details>
 
 <details>
-<summary><strong>I need information on Freshmarketer</strong></summary>
+<summary><strong>I need call answering system.은 무엇인가요?</strong></summary>
 
-You can check out the [link](https://www.freshworks.com/marketing-automation) to know more about Freshmarketer.
-
-</details>
-
-<details>
-<summary><strong>Looking for documentation or manuals on setting up Freshdesk</strong></summary>
-
-To learn and also train your 상담원 try the Freshdesk Academy. Go to academy.freshdesk.com and sign up and learn to set up Freshdesk.
+right 해결책 위해 this would be Freshcaller, which is our Cloud-based Call Center 해결책. 로 know more about Freshcaller 확인하다 out [link](https://www.freshworks.com/freshcaller-cloud-pbx/).
 
 </details>
 
 <details>
-<summary><strong>What happens when I delete a product?</strong></summary>
+<summary><strong>Want 로 be partner 의 Freshdesk은 무엇인가요?</strong></summary>
 
-When you delete a product all the ticket URLs that had the Product URL will become inactive and when your customers try accessing the links it would throw a '404 오류'. This would be the case for any links with the URL and not specific to the 티켓.The association of the product with 티켓 raised will be removed and you will not be able to filter out those 티켓 separately. Any automation in which the product is a condition will not work as well.
-
-</details>
-
-<details>
-<summary><strong>mark a discussion as closed or resolved in Freshconnect하는 방법은 무엇인가요?</strong></summary>
-
-You will not be able to mark a discussion as closed or resolved in Freshconnect. All discussions in which you are mentioned or that which you are following will be present on your list view.
+로 become partner 의 Freshworks go 로 [https://www.freshworks.com/company/partners/](https://www.freshworks.com/company/partners/)
 
 </details>
 
 <details>
-<summary><strong>view call time and other metrics in Freshcaller하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>manage assets 에서 freshdesk?할 수 있나요은 무엇인가요?</strong></summary>
 
-Go to your Freshcaller 계정, click on the Metrics tab as shown below:![이미지](https://attachment.freshdesk.com/inline/attachment?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDIwNDM3MzAsImRvbWFpbiI6InN1cHBvcnQuZnJlc2hkZXNrLmNvbSIsImFjY291bnRfaWQiOjJ9.1z6avVx2xzPILkgNK8D4Kba9WiEQz3UjgBsWcHpQ5qg)The Call Metrics tab in Freshcaller includes information such as 고객 number, the call handling time, the wait time of the 고객 in queue, option to filter and export the data.
-
-</details>
-
-<details>
-<summary><strong>Freshworks Switcher 은 무엇인가요?</strong></summary>
-
-Tired of logging into to different 헬프데스크 accounts or CRM accounts? We vow to make this easy with a single 로그인 to all of your Freshworks' subscriptions.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50008948279/original/ascXxkMxb3K5BZ87X1LN2_02YabnygDLNg.png?1689859829)Freshdesk is now integrated with a sidebar that enables you to quickly navigate to any of your subscriptions - Freshchat, Freshcaller, Freshmarketer or another Freshdesk 계정. You can also quickly signup for a new trial if you'd like to try any of our product offerings. The Freshworks Switcher is an easy navigation between all of your products and accounts.
+Freshdesk will not be able 로 manage assets. You can make use 의 Freshservice which is Asset management software 위해 this purpose. Please refer 로 [link](https://freshservice.com/features/it-asset-management-software) 위해 more details.
 
 </details>
 
 <details>
-<summary><strong>enroll my 상담원 in the Freshdesk Academy하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>Is there demo video 의 Freshdesk?</strong></summary>
 
-If you are looking to train your 상담원 or any of the admins, they can enroll themselves at [Freshdesk Academy](https://academy.freshdesk.com/) which has multiple courses for your 상담원 to explore. Under "Explore Courses" option your 상담원 will be able to select the courses like **'Freshdesk 관리자 Fundamentals'** or **'Freshdesk Agent Fundamentals'** and so on.If you have any queries about the Academy, please drop an 이메일 to [academy@freshworks.com](mailto:academy@freshworks.com). We'd be happy to assist!
+You can [request Freshdesk demo](https://www.freshworks.com/freshdesk/demo-request/) 또는 확인하다 out interactive [Freshdesk demo tour](https://www.freshworks.com/freshdesk/product-tour/?utm_source=freshdesk&utm_medium=product_tour&utm_campaign=product_tour_support_portal&utm_content=cta) 로 experience capabilities 의 product yourself 만약 you want 로 train your 상담원 또는 any 의 admins, try out [Freshdesk Academy](https://academy.freshdesk.com/) which has 다수의 courses 위해 you 로 explore.
+
+</details>
+
+<details>
+<summary><strong>We would like 로 추가 Freshping 로 our 서비스.은 무엇인가요?</strong></summary>
+
+로 purchase 또는 try out Freshping 이동 로 [https://www.freshworks.com/website-monitoring/](https://www.freshworks.com/website-monitoring/)
+
+</details>
+
+<details>
+<summary><strong>I need information 에 Freshmarketer은 무엇인가요?</strong></summary>
+
+You can 확인하다 out [link](https://www.freshworks.com/marketing-automation) 로 know more about Freshmarketer.
+
+</details>
+
+<details>
+<summary><strong>Looking 위해 documentation 또는 manuals 에 setting up Freshdesk은 무엇인가요?</strong></summary>
+
+로 learn 그리고 also train your 상담원 try Freshdesk Academy. Go 로 academy.freshdesk.com 그리고 sign up 그리고 learn 로 set up Freshdesk.
+
+</details>
+
+<details>
+<summary><strong>What happens 언제 I 삭제 product?</strong></summary>
+
+언제 you 삭제 product all ticket URLs that had Product URL will become inactive 그리고 when your customers try accessing links it would throw '404 오류'. This would be case 위해 any links 와 함께 URL 그리고 not 특정한 로 티켓. association 의 product 와 함께 티켓 raised will be removed 그리고 you will not be able 로 필터 out those 티켓 separately. Any automation 에서 which product is condition will not work as well.
+
+</details>
+
+<details>
+<summary><strong>mark discussion as closed 또는 resolved 에서 Freshconnect?하는 방법은 무엇인가요?</strong></summary>
+
+You will not be able 로 mark discussion as closed 또는 resolved 에서 Freshconnect. All discussions 에서 which you are mentioned 또는 that which you are following will be present 에 your list view.
+
+</details>
+
+<details>
+<summary><strong>view call time 그리고 other metrics 에서 Freshcaller?하는 방법은 무엇인가요?</strong></summary>
+
+Go 로 your Freshcaller 계정, 클릭 에 Metrics tab as shown below: ![이미지](https://attachment.freshdesk.com/inline/attachment?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDIwNDM3MzAsImRvbWFpbiI6InN1cHBvcnQuZnJlc2hkZXNrLmNvbSIsImFjY291bnRfaWQiOjJ9.1z6avVx2xzPILkgNK8D4Kba9WiEQz3UjgBsWcHpQ5qg) Call Metrics tab 에서 Freshcaller includes information such as 고객 number, call handling time, wait time 의 고객 에서 queue, option 로 필터 그리고 내보내기 데이터.
+
+</details>
+
+<details>
+<summary><strong>Freshworks Switcher ?이란은 무엇인가요?</strong></summary>
+
+Tired 의 logging into 로 different 헬프데스크 accounts 또는 CRM accounts? We vow 로 make this easy 와 함께 single 로그인 로 all 의 your Freshworks' subscriptions. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008948279/original/ascXxkMxb3K5BZ87X1LN2_02YabnygDLNg.png?1689859829) Freshdesk is now integrated 와 함께 sidebar that enables you 로 quickly 이동 로 any 의 your subscriptions - Freshchat, Freshcaller, Freshmarketer 또는 another Freshdesk 계정. You can also quickly signup 위해 new trial 만약 you'd like 로 try any 의 our product offerings. Freshworks Switcher is easy navigation between all 의 your products 그리고 accounts.
+
+</details>
+
+<details>
+<summary><strong>enroll my 상담원 에서 Freshdesk Academy?하는 방법은 무엇인가요?</strong></summary>
+
+만약 you are looking 로 train your 상담원 또는 any 의 admins, they can enroll themselves 에서 [Freshdesk Academy](https://academy.freshdesk.com/) which has 다수의 courses 위해 your 상담원 로 explore. Under "Explore Courses" option your 상담원 will be able 로 선택 courses like **'Freshdesk 관리자 Fundamentals'** 또는 **'Freshdesk Agent Fundamentals'** 그리고 so 에. 만약 you have any queries about Academy, please drop 이메일 로 [academy@freshworks.com](mailto:academy@freshworks.com). We'd be happy 로 assist!
 
 </details>
 

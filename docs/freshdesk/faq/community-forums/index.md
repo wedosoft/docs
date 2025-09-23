@@ -11,120 +11,114 @@ sidebar_position: 1
 :::
 
 <details>
-<summary><strong>From which 요금제 is the Forums available in Freshdesk?</strong></summary>
+<summary><strong>에서 which 요금제 is Forums 사용 가능한 에서 Freshdesk?</strong></summary>
 
-Forums is a community on your 포털 using which your customers could build an active discussion to find mutual solutions. You could join and be a part of these discussions as well.Forums is a feature that is available from the **Pro 요금제** onwards (Old 요금제 - **Garden **onwards.)
-
-</details>
-
-<details>
-<summary><strong>the hierarchy of the community forums in Freshdesk은 무엇인가요?</strong></summary>
-
-Community Forums can be built with three levels of hierarchy.Categories-->Forums-->Topics.At the top level, you could have various Community Categories such as Report a 문제, Discussions and so on. Within these categories, you could include specific Forums. Each of these forums can have as many individual Topics of discussion as you need.
+Forums is community 에 your 포털 using which your customers could build active discussion 로 find mutual solutions. You could join 그리고 be part 의 these discussions as well. Forums is feature that is 사용 가능한 에서 **Pro 요금제** onwards (Old 요금제 - **Garden**onwards.)
 
 </details>
 
 <details>
-<summary><strong>automatically convert forum topics to 티켓하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>hierarchy 의 community forums 에서 Freshdesk?이란은 무엇인가요?</strong></summary>
 
-If you are looking to convert any forum topic to 티켓, so that you could reply directly to customers, you could use the option **"Auto-Convert Topics to 티켓"** inside the Forum folders section.Once this is enabled, all new topics created in the respective forum would be automatically converted and created as a new ticket. This ticket would also contain a link to the corresponding Forum Topic. You could reply to these 티켓 and the reply would be sent to the 고객 as an 이메일. While replying, you would also have the option to "Post reply in linked forum". When this option is turned on, the reply would be appended to the Forum Topic.
-
-</details>
-
-<details>
-<summary><strong>setup private forums하는 방법은 무엇인가요?</strong></summary>
-
-You can restrict the visibility of forums to specific customers or keep it internal to just your 상담원, if needed. While creating a 'New Forum', you would be able to select the 'Visibility' to - All Users, Selected Companies, 상담원 or Logged-In Users. Once the visibility is set, it would apply to any Topic added under this Forum.
+Community Forums can be built 와 함께 three levels 의 hierarchy. Categories-->Forums-->Topics. 에서 top level, you could have 다양한 Community Categories such as Report 문제, Discussions 그리고 so 에. Within these categories, you could include 특정한 Forums. Each 의 these forums can have as many individual Topics 의 discussion as you need.
 
 </details>
 
 <details>
-<summary><strong>Users are complaining that they are required to enter Captcha each time they start a Forum topic/ creating a ticket. How to have this disabled?</strong></summary>
+<summary><strong>automatically convert forum topics 로 티켓?하는 방법은 무엇인가요?</strong></summary>
 
-Mandating the users to enter a Captcha before creating a Forum topic has been put in place to deflect spam users from your 계정. However, if you wish to turn it off, you could have this done under **관리자 > Channels > Portals > 설정.**
-
-</details>
-
-<details>
-<summary><strong>How do we approve forums in Freshdesk before they are published on the 포털?</strong></summary>
-
-You could moderate and approve any forum topic that is newly created before it is published on your Freshdesk 포털. To set up Forum Moderation, kindly navigate to **관리자 > Channels > Portals > 설정 > Moderate Forums** and select the option **"Moderate all Topics and Replies"**.To approve a forum go to the **대시보드 and scroll down**. You will find an option of **"****Forum Moderation" **on the right pane. Forum topics and replies that are awaiting moderation would be listed there and you could approve the topics to be published.
+만약 you are looking 로 convert any forum topic 로 티켓, so that you could reply directly 로 customers, you could use option **"Auto-Convert Topics 로 티켓"** inside Forum folders section. Once this is enabled, all new topics created 에서 respective forum would be automatically converted 그리고 created as new ticket. This ticket would also contain link 로 corresponding Forum Topic. You could reply 로 these 티켓 그리고 reply would be sent 로 고객 as 이메일. While replying, you would also have option 로 "Post reply 에서 linked forum". 언제 this option is turned 에, reply would be appended 로 Forum Topic.
 
 </details>
 
 <details>
-<summary><strong>Who will receive the approval 이메일 for forums?</strong></summary>
+<summary><strong>설정 private forums?하는 방법은 무엇인가요?</strong></summary>
 
-You can add the 상담원 who would receive the moderation emails and would have permissions to moderate Forum Topics. To add 상담원 to moderate your forums, please navigate to **관리자 > Channels > Portals > 설정 > **and choose an option from the list. If you choose **"Moderate all topics and replies"** or **"Moderate topics with external link"**, you would have an option to choose the 상담원 who would receive moderation approval emails.These 상담원 would be able to moderate any new topic, based on the option chosen, from under **대시보드-->Forum Moderation, **only after approval would the topics get displayed on your 포털.
-
-</details>
-
-<details>
-<summary><strong>disable forum moderation emails하는 방법은 무엇인가요?</strong></summary>
-
-If Forum Moderation is turned on, you would receive notification emails for approval, whenever a new Topic is created. You can turn off forum moderation by going to **관리자 > Channels > Portals --> 설정 **tab. When you are looking to enable/disable moderation, you will find the option to add an agent's name in there. You can remove yourself from that list to prevent yourself from receiving Forum Moderation emails.
+You can restrict visibility 의 forums 로 특정한 customers 또는 keep it internal 로 just your 상담원, 만약 needed. While creating 'New Forum', you would be able 로 선택 'Visibility' 로 - All Users, Selected 회사, 상담원 또는 Logged-에서 Users. Once visibility is set, it would apply 로 any Topic added under this Forum.
 
 </details>
 
 <details>
-<summary><strong>I am unable to convert a ticket to a forum topic.</strong></summary>
+<summary><strong>Users are complaining that they are 필수 로 입력 Captcha each time they start Forum topic/ creating ticket. have this disabled?하는 방법은 무엇인가요?</strong></summary>
 
-If the contact is not a verified contact, the ticket cannot be converted to a topic. To verify a contact 계정, an activation 이메일 should be sent after which the contact could validate his 계정.
-
-</details>
-
-<details>
-<summary><strong>Is there a way to block people from creating Forum topics?</strong></summary>
-
-You would face instances where you receive Spam Posts or when you would like to monitor the content which is being added to your Forums. To achieve this, Freshdesk has an option called Forum moderation so that you could moderate the forum topics which are submitted by the users, before posting it onto your 지원 포털. Only after your approval, these posts would be made public.
+Mandating users 로 입력 Captcha before creating Forum topic has been put 에서 place 로 deflect spam users 에서 your 계정. However, 만약 you wish 로 turn it off, you could have this done under **관리자 > Channels > Portals > 설정.**
 
 </details>
 
 <details>
-<summary><strong>remove forum posts and stop customers from posting them again하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>How do we approve forums 에서 Freshdesk before they are published 에 포털?</strong></summary>
 
-Forum topics can always be deleted from the Forums tab by an 관리자. However, if there are spam posts being regularly posted, you can make use of the Forum Moderation feature. Here's [a link](https://지원.freshdesk.com/지원/solutions/articles/195476-forum-moderation-and-advanced-spam-protection) that would help you set it up.Once the Forum Moderation is turned on, any Topic would require your approval before being posted publicly on your 포털.
-
-</details>
-
-<details>
-<summary><strong>change the Forum tab name with a different text할 수 있나요?</strong></summary>
-
-Yes, this could be done with the help of 포털 customisation feature which is available from the Estate 요금제 onwards in Freshdesk. If you wish to make this change, please write to 지원@freshdesk.com and one of our 상담원 would get in contact with you to take this customisation forward.
+You could moderate 그리고 approve any forum topic that is newly created before it is published 에 your Freshdesk 포털. 로 set up Forum Moderation, kindly 이동 로 **관리자 > Channels > Portals > 설정 > Moderate Forums** 그리고 선택 option **"Moderate all Topics 그리고 Replies"**. 로 approve forum go 로 **대시보드 그리고 scroll down**. You will find option 의 **"****Forum Moderation"**에 right pane. Forum topics 그리고 replies that are awaiting moderation would be listed there 그리고 you could approve topics 로 be published.
 
 </details>
 
 <details>
-<summary><strong>disable Forums하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>Who will receive approval 이메일 위해 forums?</strong></summary>
 
-You can disable Forums from being available to both your 상담원 and customers by turning the 'Forums' toggle OFF from under **관리자 > 계정 > 헬프데스크 설정.**After this is done, please make sure to hit the 'Save' button on the same page to save the 설정.
-
-</details>
-
-<details>
-<summary><strong>What changes happens at the 고객 end when we lock a topic?</strong></summary>
-
-The customers will only be able to see the locked topics, follow it and like it but they will not be able to reply to a locked topic.
+You can 추가 상담원 who would receive moderation emails 그리고 would have permissions 로 moderate Forum Topics. 로 추가 상담원 로 moderate your forums, please 이동 로 **관리자 > Channels > Portals > 설정 >**그리고 선택 option 에서 list. 만약 you 선택 **"Moderate all topics 그리고 replies"** 또는 **"Moderate topics 와 함께 external link"**, you would have option 로 선택 상담원 who would receive moderation approval emails. These 상담원 would be able 로 moderate any new topic, based 에 option chosen, 에서 under **대시보드-->Forum Moderation,**only after approval would topics get displayed 에 your 포털.
 
 </details>
 
 <details>
-<summary><strong>Can you post anonymously in forums?</strong></summary>
+<summary><strong>비활성화 forum moderation emails?하는 방법은 무엇인가요?</strong></summary>
 
-Unfortunately, there is no option for the customers to post anonymously in Forum. You can have the 설정 in such a way that only logged in users will be able to 로그인 and start a discussion in Forum.
+만약 Forum Moderation is turned 에, you would receive notification emails 위해 approval, whenever new Topic is created. You can turn off forum moderation 에 의해 going 로 **관리자 > Channels > Portals --> 설정**tab. 언제 you are looking 로 활성화/비활성화 moderation, you will find option 로 추가 agent's name 에서 there. You can 제거 yourself 에서 that list 로 prevent yourself 에서 receiving Forum Moderation emails.
 
 </details>
 
 <details>
-<summary><strong>I want to prevent a 고객 from starting a forum topic</strong></summary>
+<summary><strong>I am unable 로 convert ticket 로 forum topic.은 무엇인가요?</strong></summary>
 
-To Manage the Forum 설정,- Go to **관리자 > Channels > Portals.**
-- Click** Edit **near the 포털.
-- Go to** Manage Sections **tab and scroll down **to Forums.**
-- Under '**Forums can be viewed by**', select **Logged in users.**
-- This will hide the Forum tab from your 고객 포털.
-- To manage the content on your your forum, select the appropriate** Moderate** **Forums** option.
-- Click **Save**.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50008162992/original/JvYhwDJreAaLm57jPrUzGmDaujcd-w7aHQ.gif?1681993271)
+만약 연락하다 is not verified 연락하다, ticket cannot be converted 로 topic. 로 확인하다 연락하다 계정, activation 이메일 should be sent after which 연락하다 could validate his 계정.
+
+</details>
+
+<details>
+<summary><strong>Is there way 로 block people 에서 creating Forum topics?</strong></summary>
+
+You would face instances where you receive Spam Posts 또는 언제 you would like 로 모니터링하다 content which is being added 로 your Forums. 로 achieve this, Freshdesk has option called Forum moderation so that you could moderate forum topics which are submitted 에 의해 users, before posting it onto your 지원 포털. Only after your approval, these posts would be made public.
+
+</details>
+
+<details>
+<summary><strong>제거 forum posts 그리고 stop customers 에서 posting them again?하는 방법은 무엇인가요?</strong></summary>
+
+Forum topics can always be deleted 에서 Forums tab 에 의해 관리자. However, 만약 there are spam posts being regularly posted, you can make use 의 Forum Moderation feature. Here's [ link](https://지원.freshdesk.com/지원/solutions/articles/195476-forum-moderation-그리고-고급-spam-protection) that would help you set it up. Once Forum Moderation is turned 에, any Topic would require your approval before being posted publicly 에 your 포털.
+
+</details>
+
+<details>
+<summary><strong>change Forum tab name 와 함께 different text?할 수 있나요은 무엇인가요?</strong></summary>
+
+Yes, this could be done 와 함께 help 의 포털 customisation feature which is 사용 가능한 에서 Estate 요금제 onwards 에서 Freshdesk. 만약 you wish 로 make this change, please write 로 지원@freshdesk.com 그리고 one 의 our 상담원 would get 에서 연락하다 와 함께 you 로 take this customisation forward.
+
+</details>
+
+<details>
+<summary><strong>비활성화 Forums?하는 방법은 무엇인가요?</strong></summary>
+
+You can 비활성화 Forums 에서 being 사용 가능한 로 both your 상담원 그리고 customers 에 의해 turning 'Forums' toggle OFF 에서 under **관리자 > 계정 > 헬프데스크 설정.** After this is done, please make sure 로 hit '저장' button 에 same page 로 저장 설정.
+
+</details>
+
+<details>
+<summary><strong>What changes happens 에서 고객 end 언제 we lock topic?</strong></summary>
+
+customers will only be able 로 see locked topics, follow it 그리고 like it 하지만 they will not be able 로 reply 로 locked topic.
+
+</details>
+
+<details>
+<summary><strong>Can you post anonymously 에서 forums?</strong></summary>
+
+Unfortunately, there is no option 위해 customers 로 post anonymously 에서 Forum. You can have 설정 에서 such way that only logged 에서 users will be able 로 로그인 그리고 start discussion 에서 Forum.
+
+</details>
+
+<details>
+<summary><strong>I want 로 prevent 고객 에서 starting forum topic은 무엇인가요?</strong></summary>
+
+로 Manage Forum 설정, - Go 로 **관리자 > Channels > Portals.** - 클릭**편집**near 포털. - Go 로**Manage Sections**tab 그리고 scroll down **로 Forums.** - Under '**Forums can be viewed 에 의해**', 선택 **Logged 에서 users.** - This will hide Forum tab 에서 your 고객 포털. - 로 manage content 에 your your forum, 선택 appropriate**Moderate** **Forums** option. - 클릭 **저장**. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008162992/original/JvYhwDJreAaLm57jPrUzGmDaujcd-w7aHQ.gif?1681993271)
 
 </details>
 

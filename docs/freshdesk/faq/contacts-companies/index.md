@@ -11,115 +11,93 @@ sidebar_position: 1
 :::
 
 <details>
-<summary><strong>onboard my customers into Freshdesk하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>onboard my customers into Freshdesk?하는 방법은 무엇인가요?</strong></summary>
 
-This can be done by navigating to **Customers-> 연락처** and choose the contact and clicking on the **send activation 이메일 **option. This will send a secure link to the 고객's 이메일, which they can use to set up a 비밀번호. Your customers can then log in to the 포털 using these credentials.
-
-</details>
-
-<details>
-<summary><strong>send activation emails in bulk하는 방법은 무엇인가요?</strong></summary>
-
-Navigate to **Customers-> 연락처 -> **Click on the hamburger menu and choose** Unverified**** 연락처 **from the list. Use the the check box available to  to either ‘Select all’ or select just the necessary 연락처 and hit the **Send activation 이메일'** button. The selected 연락처 will now receive an activation 이메일 enabling them to verify their accounts.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/41173841/original/bBNUl2GFMqe9IH0JDTZpQsMxY2ZGlPUcpg.png?1539001174)![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/41173859/original/UTxzcKM_zKTxt4w6iuGp2BdN9gBvAX7I1g.png?1539001204)참고: You can trigger bulk activation emails for upto 30 연락처 (per page) at a time.
+This can be done 에 의해 navigating 로 **Customers-> 연락처** 그리고 선택 연락하다 그리고 clicking 에 **send activation 이메일**option. This will send secure link 로 고객's 이메일, which they can use 로 set up 비밀번호. Your customers can 그러면 log 에서 로 포털 using these credentials.
 
 </details>
 
 <details>
-<summary><strong>send an activation 이메일 to the customers to start using their 포털하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>send activation emails 에서 bulk?하는 방법은 무엇인가요?</strong></summary>
 
-Go to **Customers > 연락처 > choose 'Unverified 연락처' from the hamburger menu > check the required 연락처 click on 'Send activation 이메일'**.This will send a secure link to the 고객's 이메일, which they can use to set up a 비밀번호.Alternatively, you can go to **관리자 > Workflows > 이메일 Notifications > Requester notifications > toggle the user activation 이메일 ON**.
-
-</details>
-
-<details>
-<summary><strong>resend an activation link to a 고객할 수 있나요?</strong></summary>
-
-Under the Customers tab, when you hover over an **unverified contact**, you will find an option to 'Send activation 이메일'. Clicking on it will trigger an activation 이메일 to the respective contact.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50009264731/original/waSniNYkK4bqDuV3lh4g1kzv3dlrHysibQ.png?1692859419)![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50009264757/original/yQStJYDFtpXB9JzMZ4boJTbbGLdAW2XokA.png?1692859505)**참고:**It is not possible to re-send the activation link for a **verified contact **this way. However, you would be able to change the 비밀번호 share it with them or the contact could directly trigger a 비밀번호 reset.
+이동 로 **Customers-> 연락처 ->**클릭 에 hamburger menu 그리고 선택**Unverified****연락처**에서 list. Use 확인하다 box 사용 가능한 로 로 either ‘선택 all’ 또는 선택 just necessary 연락처 그리고 hit **Send activation 이메일'** button. selected 연락처 will now receive activation 이메일 enabling them 로 확인하다 their accounts. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/41173841/original/bBNUl2GFMqe9IH0JDTZpQsMxY2ZGlPUcpg.png?1539001174) ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/41173859/original/UTxzcKM_zKTxt4w6iuGp2BdN9gBvAX7I1g.png?1539001204) 참고: You can trigger bulk activation emails 위해 upto 30 연락처 (per page) 에서 time.
 
 </details>
 
 <details>
-<summary><strong>My customers are getting the 오류 'You are not authorized to access 포털' - how can I fix this?</strong></summary>
+<summary><strong>send activation 이메일 로 customers 로 start using their 포털?하는 방법은 무엇인가요?</strong></summary>
 
-This message is displayed to the users if their 계정 (contact profile) is **not verified/activated. **In such a case, please go to **Customers** **>** **연락처**, click on the contact that is seeing the 오류 message and hit '**Send activation 이메일**' button on the contact details page. The 고객 can then use the link sent via 이메일 to set up a 비밀번호 and log in.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/41703011/original/bF59A66ujszaQwhEKJOFT3xjwuHG6jAWCw.png?1541749638)As an **관리자**, you'll also be able to set up a 비밀번호 for the contact using the **'Change 비밀번호**' button on the same page.To do this for multiple unverified 연락처, please click on the hamburger menu on the** 연락처** page, click on '**Unverified 연락처**' to retrieve the complete list of unverified 연락처:![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/41703273/original/nTi1EgA-theId0pAXiW3AUJsPDw-O8aJ_A.png?1541750648)You can bulk select the desired 연락처 from this list and click on **'Send activation 이메일'**![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/41703297/original/E_LD0nNMrn3hXVP0JsTy_-fMfk2lBapSpQ.png?1541750753)
-
-</details>
-
-<details>
-<summary><strong>assign ticket to companies하는 방법은 무엇인가요?</strong></summary>
-
-When a new contact is linked to a company, the 티켓 that are raised by that contact will automatically get linked to the Company as well. Once a ticket is linked to a company, even if the contact is associated to a different company on a later date, the ticket will remain with that old company.
+Go 로 **Customers > 연락처 > 선택 'Unverified 연락처' 에서 hamburger menu > 확인하다 필수 연락처 클릭 에 'Send activation 이메일'**. This will send secure link 로 고객's 이메일, which they can use 로 set up 비밀번호. Alternatively, you can go 로 **관리자 > Workflows > 이메일 Notifications > Requester notifications > toggle user activation 이메일 에**.
 
 </details>
 
 <details>
-<summary><strong>change the 이메일 address of an existing contact in Freshdesk하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>resend activation link 로 고객?할 수 있나요은 무엇인가요?</strong></summary>
 
-You can edit a contact and add the new 이메일 address as a secondary 이메일 address. You can then change the new 이메일 address to be the primary 이메일 address. Once this change is made, you can choose to delete the secondary (old)이메일 address or retain it for record keeping purpose.To change the 이메일 address of a contact in Freshdesk, follow these steps:- Log in to your Freshdesk 계정 as an 관리자.
-- Navigate to the "연락처" section from the left sidebar.
-- Search for the contact whose 이메일 address you want to change using the search bar or scroll through the list of 연락처.
-- Click on the contact's name to open their profile.
-- In the contact profile, click on the "Edit" button (pencil icon) located near the top-right corner.
-- Once in the edit mode, update the contact's 이메일 address to the new one you want to use.
-- Make any other necessary changes to the contact's information, such as name, phone number, or organization details.
-- After making the changes, click on the "Save" button to save the updated contact information.Scenarios where a contact's 이메일 address might need to be changed include:- Contact Requests Change: The contact themselves might request a change in their 이메일 address due to a personal preference, change of job, or other reasons.
-- Mistaken 이메일 Entry: An incorrect 이메일 address could have been initially entered for the contact, and it needs to be rectified.
-- 이메일 Address Update: The contact might update their 이메일 address, and you need to reflect this change in Freshdesk.
-- Domain Change: The contact's organization might undergo a domain change, requiring an update to their 이메일 address.
-- Duplicate Contact: Two 연락처 might be accidentally added with different 이메일 addresses, and you need to merge them under the correct 이메일.
-- Data Migration: During data migration from another system, the 이메일 addresses might need adjustments to match the correct records.Remember to update the 이메일 address accurately to ensure seamless communication with the contact in Freshdesk.
+Under Customers tab, 언제 you hover over **unverified 연락하다**, you will find option 로 'Send activation 이메일'. Clicking 에 it will trigger activation 이메일 로 respective 연락하다. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50009264731/original/waSniNYkK4bqDuV3lh4g1kzv3dlrHysibQ.png?1692859419) ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50009264757/original/yQStJYDFtpXB9JzMZ4boJTbbGLdAW2XokA.png?1692859505) **참고:** It is not possible 로 re-send activation link 위해 **verified 연락하다**this way. However, you would be able 로 change 비밀번호 share it 와 함께 them 또는 연락하다 could directly trigger 비밀번호 reset.
 
 </details>
 
 <details>
-<summary><strong>How can we allow only logged-in users to create 티켓 on the 포털?</strong></summary>
+<summary><strong>My customers are getting 오류 'You are not authorized 로 access 포털' - fix this?하는 방법은 무엇인가요?</strong></summary>
 
-Please navigate to** 관리자 -> Channels -> Portals -> 설정** where you could see the user permissions listed for who could submit a new ticket on the 포털.Kindly choose **logged-in **users in this so that only they would be able to submit new 티켓 to your 포털.
-
-</details>
-
-<details>
-<summary><strong>Total time spent on company 티켓</strong></summary>
-
-You can make use of the Time Sheet summary report to get this data. Choose the date and the 고객 in the filters and export the report from 보고서 > Time sheet summary.
+This message is displayed 로 users 만약 their 계정 (연락하다 profile) is **not verified/activated.** 에서 such case, please go 로 **Customers** **>** **연락처**, 클릭 에 연락하다 that is seeing 오류 message 그리고 hit '**Send activation 이메일**' button 에 연락하다 details page. 고객 can 그러면 use link sent via 이메일 로 set up 비밀번호 그리고 log 에서. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/41703011/original/bF59A66ujszaQwhEKJOFT3xjwuHG6jAWCw.png?1541749638) As **관리자**, you'll also be able 로 set up 비밀번호 위해 연락하다 using **'Change 비밀번호**' button 에 same page. 로 do this 위해 다수의 unverified 연락처, please 클릭 에 hamburger menu 에 **연락처** page, 클릭 에 '**Unverified 연락처**' 로 retrieve complete list 의 unverified 연락처: ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/41703273/original/nTi1EgA-theId0pAXiW3AUJsPDw-O8aJ_A.png?1541750648) You can bulk 선택 desired 연락처 에서 this list 그리고 클릭 에 **'Send activation 이메일'** ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/41703297/original/E_LD0nNMrn3hXVP0JsTy_-fMfk2lBapSpQ.png?1541750753)
 
 </details>
 
 <details>
-<summary><strong>import 연락처 to my 계정하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>assign ticket 로 회사?하는 방법은 무엇인가요?</strong></summary>
 
-If you have a list of 연락처 that you'd like to add to your Freshdesk 계정, you can easily do so by following these simple steps:- Prepare the Contact Data: Before you begin the import process, make sure to organize your contact data in a supported file format such as CSV (Comma-Separated Values) or Excel. Ensure that the file contains all the necessary contact details like name, 이메일 address, phone number, and any other relevant information.
-- Access the 관리자 설정: Log in to your Freshdesk 계정 as an 관리자.
-- Navigate to 연락처: In the left sidebar, click on "연락처" under the "관리자" section.
-- Click on "Import 연락처": Once you are in the 연락처 section, look for the "Import 연락처" button. Click on it to initiate the import process.
-- Upload the Contact File: In the import window, click "Upload a file" (or) "drag and drop your CSV file here" button to select the CSV or Excel file containing the contact data on your computer.
-- Map the Fields: Freshdesk will prompt you to map the fields from the import file to the corresponding contact fields in Freshdesk. This step ensures that the data is imported accurately. Match the columns in your file with the appropriate fields in Freshdesk (e.g., name column with name field, 이메일 column with 이메일 field).
-- Review and Validate: After mapping the fields, review the data to ensure everything is correctly aligned. Check for any missing on mapping.
-- Import the 연락처: Once you are satisfied with the data mapping and review, proceed to import the 연락처. Click on the "Import" button to begin the process.
-- Monitor the Progress: The import process may take some time depending on the number of 연락처 being imported.
-- Import Confirmation: Once the import is complete, you will receive a confirmation message indicating the total number of 연락처 successfully imported.참고: If an existing contact is found in the CSV file, their information will be updated in Freshdesk.For any errors while importing, please share the screenshot with us to troubleshoot further.
+언제 new 연락하다 is linked 로 company, 티켓 that are raised 에 의해 that 연락하다 will automatically get linked 로 Company as well. Once ticket is linked 로 company, even 만약 연락하다 is associated 로 different company 에 later date, ticket will remain 와 함께 that old company.
 
 </details>
 
 <details>
-<summary><strong>While importing 연락처, does it update the existing or create new 연락처?</strong></summary>
+<summary><strong>change 이메일 address 의 existing 연락하다 에서 Freshdesk?하는 방법은 무엇인가요?</strong></summary>
 
-There will not be any duplicates 연락처 created. When you import, the existing 연락처 will be updated if there are different details for the 이메일 address. If not, that particular contact will be skipped.
-
-</details>
-
-<details>
-<summary><strong>I have a 문제 while importing 연락처. What could the 문제 be?</strong></summary>
-
-As a recent user of Freshdesk, you would want to bring in all your 연락처 into the 포털 and while doing that - you get an 오류 on the customers' tab saying "an import is already running." This is because while uploading the CSV (or excel) file, there would have been a technical glitch which would block the import. Kindly contact 지원 (지원@freshdesk.com) and ask them to kill this so that you could import the file again.Another recommendation would be to check the 해결책 article in the "file import" page which would give you specifications about the various parameters in the file.
+You can 편집 연락하다 그리고 추가 new 이메일 address as secondary 이메일 address. You can 그러면 change new 이메일 address 로 be primary 이메일 address. Once this change is made, you can 선택 로 삭제 secondary (old)이메일 address 또는 retain it 위해 record keeping purpose. 로 change 이메일 address 의 연락하다 에서 Freshdesk, follow these steps: - Log 에서 로 your Freshdesk 계정 as 관리자. - 이동 로 "연락처" section 에서 left sidebar. - Search 위해 연락하다 whose 이메일 address you want 로 change using search bar 또는 scroll through list 의 연락처. - 클릭 에 연락하다's name 로 open their profile. - 에서 연락하다 profile, 클릭 에 "편집" button (pencil icon) located near top-right corner. - Once 에서 편집 mode, 업데이트 연락하다's 이메일 address 로 new one you want 로 use. - Make any other necessary changes 로 연락하다's information, such as name, phone number, 또는 organization details. - After making changes, 클릭 에 "저장" button 로 저장 updated 연락하다 information. Scenarios where 연락하다's 이메일 address might need 로 be changed include: - 연락하다 Requests Change: 연락하다 themselves might request change 에서 their 이메일 address due 로 personal preference, change 의 job, 또는 other reasons. - Mistaken 이메일 Entry: incorrect 이메일 address could have been initially entered 위해 연락하다, 그리고 it needs 로 be rectified. - 이메일 Address 업데이트: 연락하다 might 업데이트 their 이메일 address, 그리고 you need 로 reflect this change 에서 Freshdesk. - Domain Change: 연락하다's organization might undergo domain change, requiring 업데이트 로 their 이메일 address. - Duplicate 연락하다: Two 연락처 might be accidentally added 와 함께 different 이메일 addresses, 그리고 you need 로 merge them under correct 이메일. - 데이터 Migration: During 데이터 migration 에서 another system, 이메일 addresses might need adjustments 로 match correct records. Remember 로 업데이트 이메일 address accurately 로 확인하다 seamless communication 와 함께 연락하다 에서 Freshdesk.
 
 </details>
 
 <details>
-<summary><strong>Can we export 연락처 from Freshdesk ?</strong></summary>
+<summary><strong>How can we allow only logged-에서 users 로 생성 티켓 에 포털?</strong></summary>
 
-You can export your 연락처 to a CSV file from under the 고객's tab. When a contact export is triggered, an 이메일 is sent to the event performing agent with the link to download the CSV file.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50008945284/original/0fkEnKuRDt37LTLEKM9sz99mwt5zSNvp4Q.jpeg?1689846308)
-![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50008945278/original/xWaYUPKLxHTQUloFH9bk1NtS8M4YQNoq5A.png?1689846286)Once you have triggered the export of 연락처 from Freshdesk you can track the export as shown below.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50008945304/original/0wSTwmsMkK0Ft68H2zZpEywGf8vCFjM_yg.png?1689846392)Once you receive the 이메일, simply click on the link to download the CSV file containing your exported 연락처.
+Please 이동 로**관리자 -> Channels -> Portals -> 설정** where you could see user permissions listed 위해 who could 제출 new ticket 에 포털. Kindly 선택 **logged-에서**users 에서 this so that only they would be able 로 제출 new 티켓 로 your 포털.
+
+</details>
+
+<details>
+<summary><strong>Total time spent 에 company 티켓은 무엇인가요?</strong></summary>
+
+You can make use 의 Time Sheet summary report 로 get this 데이터. 선택 date 그리고 고객 에서 filters 그리고 내보내기 report 에서 보고서 > Time sheet summary.
+
+</details>
+
+<details>
+<summary><strong>가져오기 연락처 로 my 계정?하는 방법은 무엇인가요?</strong></summary>
+
+만약 you have list 의 연락처 that you'd like 로 추가 로 your Freshdesk 계정, you can easily do so 에 의해 following these simple steps: - Prepare 연락하다 데이터: Before you begin 가져오기 process, make sure 로 organize your 연락하다 데이터 에서 supported file format such as CSV (Comma-Separated Values) 또는 Excel. 확인하다 that file contains all necessary 연락하다 details like name, 이메일 address, phone number, 그리고 any other 관련된 information. - Access 관리자 설정: Log 에서 로 your Freshdesk 계정 as 관리자. - 이동 로 연락처: 에서 left sidebar, 클릭 에 "연락처" under "관리자" section. - 클릭 에 "가져오기 연락처": Once you are 에서 연락처 section, look 위해 "가져오기 연락처" button. 클릭 에 it 로 initiate 가져오기 process. - 업로드 연락하다 File: 에서 가져오기 window, 클릭 "업로드 file" (또는) "drag 그리고 drop your CSV file here" button 로 선택 CSV 또는 Excel file containing 연락하다 데이터 에 your computer. - Map Fields: Freshdesk will prompt you 로 map fields 에서 가져오기 file 로 corresponding 연락하다 fields 에서 Freshdesk. This step ensures that 데이터 is imported accurately. Match columns 에서 your file 와 함께 appropriate fields 에서 Freshdesk (e.g., name 열 와 함께 name 필드, 이메일 열 와 함께 이메일 필드). - Review 그리고 Validate: After mapping fields, review 데이터 로 확인하다 everything is correctly aligned. 확인하다 위해 any missing 에 mapping. - 가져오기 연락처: Once you are satisfied 와 함께 데이터 mapping 그리고 review, proceed 로 가져오기 연락처. 클릭 에 "가져오기" button 로 begin process. - 모니터링하다 Progress: 가져오기 process may take some time depending 에 number 의 연락처 being imported. - 가져오기 Confirmation: Once 가져오기 is complete, you will receive confirmation message indicating total number 의 연락처 successfully imported. 참고: 만약 existing 연락하다 is found 에서 CSV file, their information will be updated 에서 Freshdesk. 위해 any errors while importing, please share screenshot 와 함께 us 로 troubleshoot further.
+
+</details>
+
+<details>
+<summary><strong>While importing 연락처, does it 업데이트 existing 또는 생성 new 연락처?</strong></summary>
+
+There will not be any duplicates 연락처 created. 언제 you 가져오기, existing 연락처 will be updated 만약 there are different details 위해 이메일 address. 만약 not, that particular 연락하다 will be skipped.
+
+</details>
+
+<details>
+<summary><strong>I have 문제 while importing 연락처. What could 문제 be?</strong></summary>
+
+As recent user 의 Freshdesk, you would want 로 bring 에서 all your 연락처 into 포털 그리고 while doing that - you get 오류 에 customers' tab saying " 가져오기 is already running." This is because while uploading CSV (또는 excel) file, there would have been technical glitch which would block 가져오기. Kindly 연락하다 지원 (지원@freshdesk.com) 그리고 ask them 로 kill this so that you could 가져오기 file again. Another recommendation would be 로 확인하다 해결책 article 에서 "file 가져오기" page which would give you specifications about 다양한 parameters 에서 file.
+
+</details>
+
+<details>
+<summary><strong>Can we 내보내기 연락처 에서 Freshdesk ?</strong></summary>
+
+You can 내보내기 your 연락처 로 CSV file 에서 under 고객's tab. 언제 연락하다 내보내기 is triggered, 이메일 is sent 로 event performing agent 와 함께 link 로 다운로드 CSV file. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008945284/original/0fkEnKuRDt37LTLEKM9sz99mwt5zSNvp4Q.jpeg?1689846308) ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008945278/original/xWaYUPKLxHTQUloFH9bk1NtS8M4YQNoq5A.png?1689846286) Once you have triggered 내보내기 의 연락처 에서 Freshdesk you can track 내보내기 as shown below. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008945304/original/0wSTwmsMkK0Ft68H2zZpEywGf8vCFjM_yg.png?1689846392) Once you receive 이메일, simply 클릭 에 link 로 다운로드 CSV file containing your exported 연락처.
 
 </details>
 

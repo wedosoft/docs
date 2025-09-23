@@ -11,71 +11,65 @@ sidebar_position: 1
 :::
 
 <details>
-<summary><strong>Does the Round-Robin functionality work only during business hours?</strong></summary>
+<summary><strong>Does Round-Robin functionality work only during business hours?</strong></summary>
 
-The round robin feature or the automatic assignment functionality would work whenever the icon next to the profile photo is togged on. This is not tied to the business hours.As of now, this feature will work irrespective of the 포털's business hours. Even if the agent turns on auto ticket assignment during **non-business hours**, the system will continue assigning the 티켓 to that agent.A workaround would be to not give the agent the permission to turn on the automatic assignment by unchecking **"Allow 상담원 to change their availability for automatic ticket assignment" - **this would give the admins to control the ticket assignment and could manually switch on round robin during business hours in **대시보드 -> Available 상담원 -> ticket assignment.******
-
-</details>
-
-<details>
-<summary><strong>Does the Round-Robin assign 티켓 in alphabetical order?</strong></summary>
-
-The auto-assignment feature will assign the 티켓 to the 상담원 as per the order in which they have been added to the group. For example, if 상담원 C, A, and B are added to a group in that order and if they are all online to accept 티켓, the 티켓 will also be assigned in the same order.Therefore, if the 티켓 have to be assigned in alphabetical order, please manually rearrange them accordingly in **관리자 > 팀 > Groups > click on edit** to achieve this.
+round robin feature 또는 자동 assignment functionality would work whenever icon next 로 profile photo is togged 에. This is not tied 로 business hours. As 의 now, this feature will work irrespective 의 포털's business hours. Even 만약 agent turns 에 auto ticket assignment during **non-business hours**, system will continue assigning 티켓 로 that agent. workaround would be 로 not give agent permission 로 turn 에 자동 assignment 에 의해 unchecking **"Allow 상담원 로 change their availability 위해 자동 ticket assignment" -**this would give admins 로 control ticket assignment 그리고 could manually switch 에 round robin during business hours 에서 **대시보드 -> 사용 가능한 상담원 -> ticket assignment.** ****
 
 </details>
 
 <details>
-<summary><strong>What happens to a ticket when the caps for all 상담원 are met?</strong></summary>
+<summary><strong>Does Round-Robin assign 티켓 에서 alphabetical order?</strong></summary>
 
-When all available 상담원 reach their ticket cap when you have automatic assignment turned on, new incoming 티켓 will be queued in the unassigned bucket.Please check the cap in** 관리자 > 팀 > Groups > click on edit **next to the one you would want to check this for and see the number listed in maximum 티켓 per agent under **"Load Balanced ticket assignment."**These will be assigned when any one of the agent's ticket count falls below the capped level.
-
-</details>
-
-<details>
-<summary><strong>How does Automatic ticket assignment work after an agent logs out</strong></summary>
-
-This depends on whether an agent is a part of groups for which availability is managed centrally by admins ( can be configured under 관리자-> Groups)![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50004910431/original/1q_n2S4M5IxsK9dbrkEcgKKX7lS9K1B7AQ.png?1646382490)**Case 1- 상담원 have the ability to manage statuses ******If 상담원 have access to change their availability in all the groups that they're a part of, they become unavailable for automatic assignment when they log out.**Case 2- Agent's availability is centrally managed.******If an agent is a part of one or more groups where availability is managed centrally by Admins, the agent's availability prior to logging out is considered for automatic routing.For example, say Agent A and Agent B are part of groups where availability is managed centrally by admins. Agent A's status is available when they log out. Agent B's status is unavailable when they log out. 티켓 will continue being assigned to agent A since they were available at the time of log out.
+auto-assignment feature will assign 티켓 로 상담원 as per order 에서 which they have been added 로 group. 위해 example, 만약 상담원 C, , 그리고 B are added 로 group 에서 that order 그리고 만약 they are all online 로 accept 티켓, 티켓 will also be assigned 에서 same order. Therefore, 만약 티켓 have 로 be assigned 에서 alphabetical order, please manually rearrange them accordingly 에서 **관리자 > 팀 > Groups > 클릭 에 편집** 로 achieve this.
 
 </details>
 
 <details>
-<summary><strong>automatic ticket assignment은 무엇인가요?</strong></summary>
+<summary><strong>What happens 로 ticket 언제 caps 위해 all 상담원 are met?</strong></summary>
 
-You can automatically assign 티켓 to 상담원 in various groups by enabling the automatic assignment option for the corresponding group. Below are the steps to enable that;-
-로그인 to your Freshdesk 계정 as an 관리자.-
-Navigate to 관리자 from the menu. Under 팀, click on Groups.-
-Select the group for which you want to enable automatic assignment and click the ‘Edit’ icon.-
-Go to Group Properties and enable ‘Automatic ticket assignment.’-
-Choose the appropriate assignment mode and agent availability parameter.-
-Click ‘Save’ to update the group 설정.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50008552935/original/ZF2Sn-8Si5T2MUCv2a5buA2ddDOS0Rch3A.gif?1686126546)Please reach out to [지원@freshdesk.com](mailto:지원@freshdesk.com) if you require further assistance.
+언제 all 사용 가능한 상담원 reach their ticket cap when you have 자동 assignment turned 에, new incoming 티켓 will be queued 에서 unassigned bucket. Please 확인하다 cap 에서**관리자 > 팀 > Groups > 클릭 에 편집**next 로 one you would want 로 확인하다 this 위해 그리고 see number listed 에서 maximum 티켓 per agent under **"Load Balanced ticket assignment."** These will be assigned 언제 any one 의 agent's ticket count falls below capped level.
 
 </details>
 
 <details>
-<summary><strong>Is there a way to prevent automatic ticket assignment when an agent replies to an unassigned ticket?</strong></summary>
+<summary><strong>How does 자동 ticket assignment work after agent logs out은 무엇인가요?</strong></summary>
 
-The automatic ticket assignment would be caused by the action of the automation rule that runs on ticket updates - 'Automatically assign the ticket to the first responder'.You could disable this rule if you'd like to have the ticket assigned before being responded to. Go to **관리자 > Workflows > Automations > Ticket Updates** toggle this off.
-
-</details>
-
-<details>
-<summary><strong>automatically assign 티켓 based on agent workload할 수 있나요?</strong></summary>
-
-Yes, Freshdesk has a feature called **Load-based ticket assignment**, using which 티켓 could be assigned within a group, based on the current ticket load for an agent.Please navigate to **관리자 > 팀 > Groups > click on edit **next to the group for which this feature has to be enabled and choose the **"Load Balanced Ticket Assignment" **radio button under automatic ticket assignment.
+This depends 에 whether agent is part 의 groups 위해 which availability is managed centrally 에 의해 admins ( can be configured under 관리자-> Groups) ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50004910431/original/1q_n2S4M5IxsK9dbrkEcgKKX7lS9K1B7AQ.png?1646382490) **Case 1- 상담원 have ability 로 manage statuses****** 만약 상담원 have access 로 change their availability 에서 all groups that they're part 의, they become unavailable 위해 자동 assignment 언제 they log out. **Case 2- Agent's availability is centrally managed.****** 만약 agent is part 의 one 또는 more groups where availability is managed centrally 에 의해 Admins, agent's availability prior 로 logging out is considered 위해 자동 routing. 위해 example, say Agent 그리고 Agent B are part 의 groups where availability is managed centrally 에 의해 admins. Agent 's status is 사용 가능한 언제 they log out. Agent B's status is unavailable when they log out. 티켓 will continue being assigned 로 agent since they were 사용 가능한 에서 time 의 log out.
 
 </details>
 
 <details>
-<summary><strong>Is there a report on the total time that an agent has been available for ticket assignment?</strong></summary>
+<summary><strong>자동 ticket assignment?이란은 무엇인가요?</strong></summary>
 
-Currently, it is not possible to report on the time duration for which the agent has been available to accept 티켓 through the** "Automatic ticket assignment"** feature.However, please navigate to the **D****ashboard -> agent availability -> ticket assignment **where as an 관리자 you would be able to see the number of hours since when the agent has been automatically receiving 티켓.
+You can automatically assign 티켓 로 상담원 에서 다양한 groups 에 의해 enabling 자동 assignment option 위해 corresponding group. Below are steps 로 활성화 that; - 로그인 로 your Freshdesk 계정 as 관리자. - 이동 로 관리자 에서 menu. Under 팀, 클릭 에 Groups. - 선택 group 위해 which you want 로 활성화 자동 assignment 그리고 클릭 ‘편집’ icon. - Go 로 Group Properties 그리고 활성화 ‘자동 ticket assignment.’ - 선택 appropriate assignment mode 그리고 agent availability parameter. - 클릭 ‘저장’ 로 업데이트 group 설정. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008552935/original/ZF2Sn-8Si5T2MUCv2a5buA2ddDOS0Rch3A.gif?1686126546) Please 문의하다 로 [지원@freshdesk.com](mailto:지원@freshdesk.com) 만약 you require further assistance.
 
 </details>
 
 <details>
-<summary><strong>enable Round Robin Ticket Assignment in my 계정하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>Is there way 로 prevent 자동 ticket assignment 언제 agent replies 로 unassigned ticket?</strong></summary>
 
-Within Freshdesk, you would have the option to automatically assign 티켓 to 상담원 within a group, in round-robin. To enable automatic ticket assignment for a group, please navigate to **관리자 > 팀 > Groups >** Edit(corresponding to the group) and turn on "**Automatic Ticket Assignment**".  You could choose the mode of Automatic Ticket assignment as " Round Robin".참고: This feature is available only in the Estate and Forest 요금제.
+자동 ticket assignment would be caused 에 의해 action 의 automation rule that runs 에 ticket updates - 'Automatically assign ticket 로 first responder'. You could 비활성화 this rule 만약 you'd like 로 have ticket assigned before being responded 로. Go 로 **관리자 > Workflows > Automations > Ticket Updates** toggle this off.
+
+</details>
+
+<details>
+<summary><strong>automatically assign 티켓 based 에 agent workload?할 수 있나요은 무엇인가요?</strong></summary>
+
+Yes, Freshdesk has feature called **Load-based ticket assignment**, using which 티켓 could be assigned within group, based 에 current ticket load 위해 agent. Please 이동 로 **관리자 > 팀 > Groups > 클릭 에 편집**next 로 group 위해 which this feature has 로 be enabled 그리고 선택 **"Load Balanced Ticket Assignment"**radio button under 자동 ticket assignment.
+
+</details>
+
+<details>
+<summary><strong>Is there report 에 total time that agent has been 사용 가능한 위해 ticket assignment?</strong></summary>
+
+Currently, it is not possible 로 report 에 time duration 위해 which agent has been 사용 가능한 로 accept 티켓 through **"자동 ticket assignment"** feature. However, please 이동 로 **D****ashboard -> agent availability -> ticket assignment**where as 관리자 you would be able 로 see number 의 hours since 언제 agent has been automatically receiving 티켓.
+
+</details>
+
+<details>
+<summary><strong>활성화 Round Robin Ticket Assignment 에서 my 계정?하는 방법은 무엇인가요?</strong></summary>
+
+Within Freshdesk, you would have option 로 automatically assign 티켓 로 상담원 within group, 에서 round-robin. 로 활성화 자동 ticket assignment 위해 group, please 이동 로 **관리자 > 팀 > Groups >** 편집(corresponding 로 group) 그리고 turn 에 "**자동 Ticket Assignment**". You could 선택 mode 의 자동 Ticket assignment as " Round Robin". 참고: This feature is 사용 가능한 only 에서 Estate 그리고 Forest 요금제.
 
 </details>
 

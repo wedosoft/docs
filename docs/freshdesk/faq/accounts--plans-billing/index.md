@@ -11,440 +11,373 @@ sidebar_position: 1
 :::
 
 <details>
-<summary><strong>현재 요금제는 어디서 확인할 수 있나요?</strong></summary>
+<summary><strong>see my current 요금제?는 어디서은 무엇인가요?</strong></summary>
 
-Please navigate to 관리자 -> 계정 -> 요금제 and 결제, and you would be able to see your current 요금제 and the number of 상담원 you're subscribed to. Kindly 참고 that you would have to be an **"계정 관리자" **in order to see the 계정 설정.이곳에서 요금제를 변경하여 다양한 기능을 체험해 볼 수 있습니다.
-
-</details>
-
-<details>
-<summary><strong>Freshdesk에서 요금제를 업그레이드하는 방법은 무엇인가요?</strong></summary>
-
-구독 업그레이드는 Freshdesk 계정의 계정 관리자만 아래 단계에 따라 수행할 수 있습니다.-
-Navigate to 관리자 from the menu. Under 계정, click on 요금제 and 결제.-
-다양한 요금제와 상담원 수를 지정할 수 있는 옵션을 찾을 수 있습니다. Select the "Choose the 요금제" option to proceed with your upgrade.-
-For online payments using a 신용카드, check your order summary, 계정, and 결제 information, and provide your 신용카드 details to complete the 결제-
-For offline payments please reach out to [결제@freshdesk.com](mailto:결제@freshworks.com) and [지원@freshdesk.com](mailto:지원@freshdesk.com) with your 요금제 upgrade details.![How to upgrade your 요금제 or 구독 in Freshdesk?](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50008398246/original/fFAYjT3Ydw8TRr2YLKViZyxc2EcXsfdG-g.gif?1684475354)Refer to **[this article](https://지원.freshdesk.com/en/지원/solutions/articles/50000006028-how-to-try-a-higher-요금제-on-freshdesk)** to know how you can try a higher 요금제 before upgrading.
+Please 이동 로 관리자 -> 계정 -> 요금제 그리고 결제, 그리고 you would be able 로 see your current 요금제 그리고 number 의 상담원 you're subscribed 로. Kindly 참고 that you would have 로 be **"계정 관리자"**에서 order 로 see 계정 설정. 이곳에서 요금제를 변경하여 다양한 기능을 체험해 볼 수 있습니다.
 
 </details>
 
 <details>
-<summary><strong>인보이스 주소를 변경할 수 있나요?</strong></summary>
+<summary><strong>업그레이드하다 my 요금제 에서 Freshdesk?하는 방법은 무엇인가요?</strong></summary>
 
-Please reach out to **지원/결제@freshdesk.com** in order to change the 인보이스 address. 인보이스가 올바르게 전달될 수 있도록 변경하고자 하는 이메일 주소를 알려주십시오.**참고:** 계정당 하나의 인보이스 주소만 허용됩니다.
-
-</details>
-
-<details>
-<summary><strong>내 계정의 데이터를 내보내는 방법은 무엇인가요?</strong></summary>
-
-The 계정 you have with us contains information that you would want a record of and maybe report on in a different tool. For this, please navigate to** 관리자 -> 계정 -> 계정 Details -> Export data. **This allows you to get the entire data in your 계정 which includes your 티켓, solutions, forums and the list of customers in the form of XML. Please have this converted into a readable script at your end with the assistance of developers.Kindly 참고 that an 계정 관리자 is one who would be able to access the accounts tab which would allow one to export 계정 information, access 결제 or buy day passes.계정 관리자 can follow the steps mentioned in this video to export the data참고 자료: https://www.youtube.com/watch?v=DTa_LDg8vng&list=PLsYJ3BsyR4qGFujlW0iDtOBOf4IPVsAqt&index=11
+구독 업그레이드는 Freshdesk 계정의 계정 관리자만 아래 단계에 따라 수행할 수 있습니다. - 이동 로 관리자 에서 menu. Under 계정, 클릭 에 요금제 그리고 결제. - 다양한 요금제와 상담원 수를 지정할 수 있는 옵션을 찾을 수 있습니다. 선택 "선택 요금제" option 로 proceed 와 함께 your 업그레이드하다. - 위해 online payments using 신용카드, 확인하다 your order summary, 계정, 그리고 결제 information, 그리고 제공하다 your 신용카드 details 로 complete 결제 - 위해 offline payments please 문의하다 로 [결제@freshdesk.com](mailto:결제@freshworks.com) 그리고 [지원@freshdesk.com](mailto:지원@freshdesk.com) 와 함께 your 요금제 업그레이드하다 details.![업그레이드하다 your 요금제 또는 구독 에서 Freshdesk?하는 방법](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008398246/original/fFAYjT3Ydw8TRr2YLKViZyxc2EcXsfdG-g.gif?1684475354) Refer 로 **[this article](https://지원.freshdesk.com/en/지원/solutions/articles/50000006028-how-로-try--higher-요금제-에-freshdesk)** 로 know how you can try higher 요금제 before upgrading.
 
 </details>
 
 <details>
-<summary><strong>헬프데스크 데이터를 내보내는 방법은 무엇인가요?</strong></summary>
+<summary><strong>change 인보이스 address?할 수 있나요은 무엇인가요?</strong></summary>
 
-참고 자료: https://www.youtube.com/watch?v=DTa_LDg8vng&list=PLsYJ3BsyR4qGFujlW0iDtOBOf4IPVsAqt&index=11Go to **관리자 -> 계정 -> 계정 Details** >Export data > click on the Export button on this page, to receive the data. The export of the entire 헬프데스크 data can be accessed from Accounts > Accounts exports.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/41662206/original/oEeq2pPfm_ALUn0FpilQl7bZ7UH8kkzfbw.png?1541576083)Kindly 참고 that an **계정 관리자** is one who would be able to access the accounts tab which would allow one to export 계정 information, access 결제, or buy day passes.To view previously exported data from your 헬프데스크, please navigate to the 관리자> Accounts exports. From here, you can see the export history.You can also see the progress of downloads and directly download the file from this page.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50007811367/original/DhfqJe2t4A55w9-7xiv4yizS_vu6J4Ltjg.png?1678349818)A window pops up when you click on the Details button which provides details about the export. The agent can easily see information like the selected time period, ticket fields, contact fields, company fields and other information from here.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50007811368/original/ok4WRFgj-72cK5lP6iloDQgHMT8KnlpfHQ.png?1678349819)
-
-</details>
-
-<details>
-<summary><strong>요금제 및 결제 메뉴를 찾을 수 없습니다</strong></summary>
-
-요금제 및 결제는 다음 위치에서 확인할 수 있습니다: **관리자 > Accounts**. 이는 해당 계정의 계정 관리자만 접근할 수 있습니다. 이 패널이 보이지 않는다면 계정 관리자가 누구인지 확인할 수 있습니다 by moving to **관리자 > 팀 > 상담원 **프로필을 편집할 수 없는 상담원이 계정 관리자입니다.
+Please 문의하다 로 **지원/결제@freshdesk.com** 에서 order 로 change 인보이스 address. 인보이스가 올바르게 전달될 수 있도록 변경하고자 하는 이메일 주소를 알려주십시오. **참고:** 계정당 하나의 인보이스 주소만 허용됩니다.
 
 </details>
 
 <details>
-<summary><strong>기본 연락처 정보를 변경하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>내보내기 데이터 에서 my 계정?하는 방법은 무엇인가요?</strong></summary>
 
-Please go to 관리자 -> 계정  -> 계정 Details  to change the primary contact details listed here. Kindly 참고 that you would be able to make changes to Name, 이메일 address, and phone details.You would be able to access 계정 설정 only if you are an **"****계정 관리자"** on the 포털.
-
-</details>
-
-<details>
-<summary><strong>Freshdesk 계정의 회사명을 변경하는 방법은 무엇인가요?</strong></summary>
-
-Please send an 이메일 to Freshdesk 지원 **(****[지원@freshdesk.com](mailto:지원@freshdesk.com)****)** and we would change your company name from the backend.
+계정 you have 와 함께 us contains information that you would want record 의 그리고 maybe report 에 에서 different tool. 위해 this, please 이동 로**관리자 -> 계정 -> 계정 Details -> 내보내기 데이터.**This allows you 로 get entire 데이터 에서 your 계정 which includes your 티켓, solutions, forums 그리고 list 의 customers 에서 form 의 XML. Please have this converted into readable script 에서 your end 와 함께 assistance 의 developers. Kindly 참고 that 계정 관리자 is one who would be able 로 access accounts tab which would allow one 로 내보내기 계정 information, access 결제 또는 buy day passes. 계정 관리자 can follow steps mentioned 에서 this video 로 내보내기 데이터 참고 자료: https://www.youtube.com/watch?v=DTa_LDg8vng&list=PLsYJ3BsyR4qGFujlW0iDtOBOf4IPVsAqt&index=11
 
 </details>
 
 <details>
-<summary><strong>요금 및 기능</strong></summary>
+<summary><strong>내보내기 my 헬프데스크 데이터?하는 방법은 무엇인가요?</strong></summary>
 
-Refer to the links below for detailed comparison of various 요금제, its features and pricing:[https://freshdesk.com/pricing](https://freshdesk.com/pricing)[https://freshdesk.com/헬프데스크-features](https://freshdesk.com/헬프데스크-features)
-
-</details>
-
-<details>
-<summary><strong>내 계정의 인보이스를 받는 방법은 무엇인가요?</strong></summary>
-
-Here are some simple steps to help you get your 계정 인보이스:1. **Access your 계정 Details**:
-To access your 계정 details, you need to have the **계정 관리자 role** associated with your access. Once you have access, navigate to **관리자 > 계정 > 요금제 & 결제**.2. **Add 이메일 address**:
-Click '**All**' under '**View Invoices**'. Under the '**Send Invoices to**' option at the right hand side, add the 이메일 address to which you want the invoices sent. This contact will receive monthly and yearly invoices.3. **Contact 결제 지원**:
-If you need any help with 결제 or invoices, you can write to [결제@freshworks.com](mailto:결제@freshworks.com). Our 결제 지원 팀 will be happy to assist you with any queries you may have.
+참고 자료: https://www.youtube.com/watch?v=DTa_LDg8vng&list=PLsYJ3BsyR4qGFujlW0iDtOBOf4IPVsAqt&index=11 Go 로 **관리자 -> 계정 -> 계정 Details** >내보내기 데이터 > 클릭 에 내보내기 button 에 this page, 로 receive 데이터. 내보내기 의 entire 헬프데스크 데이터 can be accessed 에서 Accounts > Accounts exports. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/41662206/original/oEeq2pPfm_ALUn0FpilQl7bZ7UH8kkzfbw.png?1541576083) Kindly 참고 that **계정 관리자** is one who would be able 로 access accounts tab which would allow one 로 내보내기 계정 information, access 결제, 또는 buy day passes. 로 view previously exported 데이터 에서 your 헬프데스크, please 이동 로 관리자> Accounts exports. 에서 here, you can see 내보내기 history. You can also see progress 의 downloads 그리고 directly 다운로드 file 에서 this page. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50007811367/original/DhfqJe2t4A55w9-7xiv4yizS_vu6J4Ltjg.png?1678349818) window pops up 언제 you 클릭 에 Details button which provides details about 내보내기. agent can easily see information like selected time period, ticket fields, 연락하다 fields, company fields 그리고 other information 에서 here. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50007811368/original/ok4WRFgj-72cK5lP6iloDQgHMT8KnlpfHQ.png?1678349819)
 
 </details>
 
 <details>
-<summary><strong>get invoices on more than one 이메일 address할 수 있나요?</strong></summary>
+<summary><strong>I can't find 요금제 그리고 결제 menu은 무엇인가요?</strong></summary>
 
-Please 참고 that you could have only one primary 이메일 address listed in the **계정 **under **관리자 -> 계정 Details** for receiving invoices from your 계정.You could always contact us **(지원@freshdesk.com)** regarding this so that we could send the 인보이스 to another 이메일 address from our end.
-
-</details>
-
-<details>
-<summary><strong>the charges for call은 무엇인가요?</strong></summary>
-
-Refer to the [article](https://www.freshworks.com/freshcaller-cloud-pbx/pricing/call-rates/) to know more about Freshcaller call rates.
+요금제 그리고 billings would be 사용 가능한 under **관리자 > Accounts**. This would only be accessible 에 의해 계정 관리자 의 계정. 만약 you do not see this panel you can 확인하다 who 계정 관리자 is 에 의해 moving 로 **관리자 > 팀 > 상담원**그리고 agent's whose profile you are not able 로 편집 would be 계정 관리자.
 
 </details>
 
 <details>
-<summary><strong>download invoices for my 계정은 어디서 할 수 있나요?</strong></summary>
+<summary><strong>change details 의 primary 연락하다?하는 방법은 무엇인가요?</strong></summary>
 
-**계정 administrators** (your role on the 포털) would be able to download their Freshdesk 계정 invoices from within the 헬프데스크.Please navigate to **관리자 -> 계정 -> 요금제 and 결제 -> View Invoices** from where you could download them.Kindly 참고 that this is available only for online payments that have a registered card on the 포털. For accounts with **offline** modes of payments (bank transfers and PayPal), contact **지원@freshdesk.com **and we would be able to send them over.
-
-</details>
-
-<details>
-<summary><strong>promote and sell Freshdesk하는 방법은 무엇인가요?</strong></summary>
-
-You can become of our resellers and can sign up for it from [https://www.freshworks.com/company/partners/](https://www.freshworks.com/company/partners/)
+Please go 로 관리자 -> 계정 -> 계정 Details 로 change primary 연락하다 details listed here. Kindly 참고 that you would be able 로 make changes 로 Name, 이메일 address, 그리고 phone details. You would be able 로 access 계정 설정 only 만약 you are **"****계정 관리자"** 에 포털.
 
 </details>
 
 <details>
-<summary><strong>find out the number of day passes used by an occasional agent하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>change company name 에서 my Freshdesk 계정?하는 방법은 무엇인가요?</strong></summary>
 
-To know the number of day passes used by an Occasional agent, please navigate to **관리자 -> General 설정 -> 상담원 -> Occasional 상담원**. There, you'll find their last-logged-in information along with the day pass usage count.Also, as an **A****ccount 관리자**, you would be able to see the usage in **관리자 -> 계정 설정 -> Day pass **and it could be further filtered by 상담원.
-
-</details>
-
-<details>
-<summary><strong>change my 결제 currency하는 방법은 무엇인가요?</strong></summary>
-
-To change your 결제 currency, please send an 이메일 to 결제@freshworks.com. However if your 계정 is on a trial period, then you can change your currency from the 포털 by heading to **관리자 > 계정 > 요금제 and billings.**
+Please send 이메일 로 Freshdesk 지원 **(****[지원@freshdesk.com](mailto:지원@freshdesk.com)****)** 그리고 we would change your company name 에서 backend.
 
 </details>
 
 <details>
-<summary><strong>the best practices to delete an agent without losing their ticket details은 무엇인가요?</strong></summary>
+<summary><strong>Pricing 그리고 features은 무엇인가요?</strong></summary>
 
-Sometimes, 상담원 in your organization may leave or move to a different department. In such cases, you can delete those 상담원 after transferring ownership of their 티켓 to other 상담원. When you delete an agent from Freshdesk, all 티켓 assigned to that agent are automatically unassigned, and the agent will be available as a contact in your Freshdesk 계정. Here are two ways to remove an agent without losing their associated ticket details.- [Converting an agent to an occasional agent.](#Converting-an-agent-to-an-occasional-agent.)
-- [Assuming the identity of the agent](#Assuming-the-identity-of-the-agent)[](https://docs.google.com/document/d/1Ykod0RKGMjAxJZPYFl1OIHFs4jcerKAgg_49vA05Zos/edit#heading=h.njoufdsbses3)**Converting an agent to an occasional agent.**
-You can convert a full-time agent into an occasional agent instead of deleting them and then edit the 이메일 address to a placeholder 이메일 address like: xyz@example.com. This way, you can free up an agent seat and retain the record of 티켓 assigned to the agent. Here’s how you can do it.-
-Navigate to 관리자. Choose 팀 and then click on 상담원.-
-Click on the Edit option next to the required agent name.-
-Under the Edit 상담원 page, choose the Occasional Agent radio button as the Agent type.-
-Update the 이메일 address to a placeholder 이메일 address say, [xyz@example.com](mailto:xyz@example.com).-
-Click on Update agent to save the changes.![How to convert to an occasional agent in Freshdesk?](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50008538142/original/QPTl0Lu2ufLnGMJGd1uu-ozxY0rwg8upvQ.gif?1686026914)**Assuming the identity of the agent**
-As an 관리자, you can [assume the agent's identity](https://지원.freshdesk.com/지원/solutions/articles/97080-deleting-상담원-assuming-identities-and-understanding-role) before deleting the agent and perform a bulk action to re-assign their associated 티켓 to another agent. You can then delete the agent without worrying about the unassigned 티켓 initially assigned to them.
-For a detailed demonstration, please watch the video on Youtube on 참고 자료: how to delete 상담원 in Freshdesk.
+Refer 로 links below 위해 detailed comparison 의 다양한 요금제, its features 그리고 pricing: [https://freshdesk.com/pricing](https://freshdesk.com/pricing) [https://freshdesk.com/헬프데스크-features](https://freshdesk.com/헬프데스크-features)
 
 </details>
 
 <details>
-<summary><strong>왜 am I not able to add new agent seats인가요?</strong></summary>
+<summary><strong>get 인보이스 위해 my 계정?하는 방법은 무엇인가요?</strong></summary>
 
-New 상담원 can be added only if the 결제 mode is online, that is, if the 신용카드 information on file is valid for 결제. If you are paying offline, then you can send an 이메일 to 결제@freshworks.com to add new agent seats.
-
-</details>
-
-<details>
-<summary><strong>왜 am I unable to unzip or open the XML file인가요?</strong></summary>
-
-When you export the 헬프데스크 data from **관리자 -> 계정 -> 계정 Details -> Export Data, **you would receive a file in the XML format. Please try extracting the file using **WinRAR or WinZip. **Once you’re done extracting, try to use an XML editor and check if you are able to read the file.
+Here are some simple steps 로 help you get your 계정 인보이스: 1. **Access your 계정 Details**: 로 access your 계정 details, you need 로 have **계정 관리자 role** associated 와 함께 your access. Once you have access, 이동 로 **관리자 > 계정 > 요금제 & 결제**. 2. **추가 이메일 address**: 클릭 '**All**' under '**View Invoices**'. Under '**Send Invoices 로**' option 에서 right hand side, 추가 이메일 address 로 which you want invoices sent. This 연락하다 will receive monthly 그리고 yearly invoices. 3. **연락하다 결제 지원**: 만약 you need any help 와 함께 결제 또는 invoices, you can write 로 [결제@freshworks.com](mailto:결제@freshworks.com). Our 결제 지원 팀 will be happy 로 assist you 와 함께 any queries you may have.
 
 </details>
 
 <details>
-<summary><strong>get my 인보이스 for this month하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>get invoices 에 more than one 이메일 address?할 수 있나요은 무엇인가요?</strong></summary>
 
-The invoices will be sent to the 결제 contact on file by default which would be the 계정 관리자 who created the Freshdesk 계정. You can write to 결제@freshworks.com in case of any further enquiries.
-
-</details>
-
-<details>
-<summary><strong>What would be the best way to have our customers view 보고서 based on Response and Resolution SLAs for their 티켓?</strong></summary>
-
-As of now, only Supervisors and Admins will be able to access the **reporting** suite. Customers could generate manual 보고서 using the 'Export' tab option on the ticketing section of the 고객 포털.This report will contain the** basic ticket **parameters like ticket ID, status, description, etc. as well as the fields that are selectively displayed to the customers.
+Please 참고 that you could have only one primary 이메일 address listed 에서 **계정**under **관리자 -> 계정 Details** 위해 receiving invoices 에서 your 계정. You could always 연락하다 us **(지원@freshdesk.com)** regarding this so that we could send 인보이스 로 another 이메일 address 에서 our end.
 
 </details>
 
 <details>
-<summary><strong>How does the spam watcher in Freshdesk work?</strong></summary>
+<summary><strong>charges 위해 call?이란은 무엇인가요?</strong></summary>
 
-The spam watcher will check if more than 50 emails have been received from the same 이메일 address in the first 30 minutes; if so, upon the 51st 이메일, the user will be deleted and all emails from them will be sent to the spam folder.After the 60th minute, if emails are still being received from that 이메일 address, the spam watcher will block that ID and Freshdesk will not receive any further emails from them.By leveraging a variety of techniques and filters, we effectively prevent spam and unwanted messages from reaching your 헬프데스크. It's essential to 참고 that our methods and features may have evolved since then. However, here are some common techniques we employ:- Bayesian Filtering: We use Bayesian filtering, which is a statistical approach. It learns from previous spam patterns and user feedback to categorize incoming emails as spam or non-spam. As it processes more emails, it becomes better at identifying spam.
-- CAPTCHA: To prevent automated bots from submitting spam 티켓, we have CAPTCHA challenges that require users to prove their humanity by solving visual puzzles or answering questions.
-- 이메일 Verification: When customers create new 티켓 via 이메일, we send an 이메일 verification link to confirm the legitimacy of their 이메일 address. This ensures that only genuine 이메일 addresses can submit 티켓.
-- Blacklist and Whitelist: You have control over a blacklist to block specific 이메일 addresses or domains known for sending spam. Additionally, you can create a whitelist of trusted sources to ensure 중요 emails aren't marked as spam.
-- Ticket Filter Rules using automation: You can set up custom ticket filter rules/automation to automatically handle incoming 티켓 based on specific criteria. These rules help identify potential spam 티켓 for appropriate handling.
-- Spam Notifications: We flag incoming 티켓 that appear to be spam and notify 상담원, so they can review and take necessary actions.
-- Machine Learning: We leverage machine learning algorithms to analyze various ticket attributes and identify patterns consistent with spam or legitimate queries.Please remember that spam filtering is an ongoing process, and we continuously improve our filters to keep up with evolving spam tactics.
+Refer 로 [article](https://www.freshworks.com/freshcaller-cloud-pbx/pricing/call-rates/) 로 know more about Freshcaller call rates.
 
 </details>
 
 <details>
-<summary><strong>I need to know how will I be billed if I add full-time 상담원 on annual 결제?</strong></summary>
+<summary><strong>다운로드 invoices 위해 my 계정?는 어디서은 무엇인가요?</strong></summary>
 
-The new 구독 charges for the subsisting period would be charged on pro-rated basis and your 신용카드 will be charged automatically. If payments for your 계정 is made through other accepted 결제 methods, corresponding 인보이스 for proration will be generated.
+**계정 administrators** (your role 에 포털) would be able 로 다운로드 their Freshdesk 계정 invoices 에서 within 헬프데스크. Please 이동 로 **관리자 -> 계정 -> 요금제 그리고 결제 -> View Invoices** 에서 where you could 다운로드 them. Kindly 참고 that this is 사용 가능한 only 위해 online payments that have registered card 에 포털. 위해 accounts 와 함께 **offline** modes 의 payments (bank transfers 그리고 PayPal), 연락하다 **지원@freshdesk.com**그리고 we would be able 로 send them over.
+
+</details>
+
+<details>
+<summary><strong>promote 그리고 sell Freshdesk?하는 방법은 무엇인가요?</strong></summary>
+
+You can become 의 our resellers 그리고 can sign up 위해 it 에서 [https://www.freshworks.com/company/partners/](https://www.freshworks.com/company/partners/)
+
+</details>
+
+<details>
+<summary><strong>find out number 의 day passes used 에 의해 occasional agent?하는 방법은 무엇인가요?</strong></summary>
+
+로 know number 의 day passes used 에 의해 Occasional agent, please 이동 로 **관리자 -> 일반적인 설정 -> 상담원 -> Occasional 상담원**. There, you'll find their last-logged-에서 information along 와 함께 day pass usage count. Also, as ******ccount 관리자**, you would be able 로 see usage 에서 **관리자 -> 계정 설정 -> Day pass**그리고 it could be further filtered 에 의해 상담원.
+
+</details>
+
+<details>
+<summary><strong>change my 결제 currency?하는 방법은 무엇인가요?</strong></summary>
+
+로 change your 결제 currency, please send 이메일 로 결제@freshworks.com. However 만약 your 계정 is 에 trial period, 그러면 you can change your currency 에서 포털 에 의해 heading 로 **관리자 > 계정 > 요금제 그리고 billings.**
+
+</details>
+
+<details>
+<summary><strong>best practices 로 삭제 agent without losing their ticket details?이란은 무엇인가요?</strong></summary>
+
+Sometimes, 상담원 에서 your organization may leave 또는 move 로 different department. 에서 such cases, you can 삭제 those 상담원 after transferring ownership 의 their 티켓 로 other 상담원. 언제 you 삭제 agent 에서 Freshdesk, all 티켓 assigned 로 that agent are automatically unassigned, 그리고 agent will be 사용 가능한 as 연락하다 에서 your Freshdesk 계정. Here are two ways 로 제거 agent without losing their associated ticket details. - [Converting agent 로 occasional agent.](#Converting--agent-로--occasional-agent.) - [Assuming identity 의 agent](#Assuming--identity-의--agent)[](https://docs.google.com/document/d/1Ykod0RKGMjAxJZPYFl1OIHFs4jcerKAgg_49vA05Zos/편집#heading=h.njoufdsbses3) **Converting agent 로 occasional agent.** You can convert full-time agent into occasional agent instead 의 deleting them 그리고 그러면 편집 이메일 address 로 placeholder 이메일 address like: xyz@example.com. This way, you can free up agent seat 그리고 retain record 의 티켓 assigned 로 agent. Here’s how you can do it. - 이동 로 관리자. 선택 팀 그리고 그러면 클릭 에 상담원. - 클릭 에 편집 option next 로 필수 agent name. - Under 편집 상담원 page, 선택 Occasional Agent radio button as Agent 입력. - 업데이트 이메일 address 로 placeholder 이메일 address say, [xyz@example.com](mailto:xyz@example.com). - 클릭 에 업데이트 agent 로 저장 changes. ![convert 로 occasional agent 에서 Freshdesk?하는 방법](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008538142/original/QPTl0Lu2ufLnGMJGd1uu-ozxY0rwg8upvQ.gif?1686026914) **Assuming identity 의 agent** As 관리자, you can [assume agent's identity](https://지원.freshdesk.com/지원/solutions/articles/97080-deleting-상담원-assuming-identities-그리고-understanding-role) before deleting agent 그리고 perform bulk action 로 re-assign their associated 티켓 로 another agent. You can 그러면 삭제 agent without worrying about unassigned 티켓 initially assigned 로 them. 위해 detailed demonstration, please watch video 에 Youtube 에 참고 자료: 삭제 상담원 에서 Freshdesk.하는 방법
+
+</details>
+
+<details>
+<summary><strong>왜 am I not able 로 추가 new agent seats?</strong></summary>
+
+New 상담원 can be added only 만약 결제 mode is online, that is, 만약 신용카드 information 에 file is valid 위해 결제. 만약 you are paying offline, 그러면 you can send 이메일 로 결제@freshworks.com 로 추가 new agent seats.
+
+</details>
+
+<details>
+<summary><strong>왜 am I unable 로 unzip 또는 open XML file?</strong></summary>
+
+언제 you 내보내기 헬프데스크 데이터 에서 **관리자 -> 계정 -> 계정 Details -> 내보내기 데이터,**you would receive file 에서 XML format. Please try extracting file using **WinRAR 또는 WinZip.** Once you’re done extracting, try 로 use XML editor 그리고 확인하다 만약 you are able 로 read file.
+
+</details>
+
+<details>
+<summary><strong>get my 인보이스 위해 this month?하는 방법은 무엇인가요?</strong></summary>
+
+invoices will be sent 로 결제 연락하다 에 file 에 의해 기본값 which would be 계정 관리자 who created Freshdesk 계정. You can write 로 결제@freshworks.com 에서 case 의 any further enquiries.
+
+</details>
+
+<details>
+<summary><strong>What would be best way 로 have our customers view 보고서 based 에 Response 그리고 Resolution SLAs 위해 their 티켓?</strong></summary>
+
+As 의 now, only Supervisors 그리고 Admins will be able 로 access **reporting** suite. Customers could generate 수동 보고서 using '내보내기' tab option 에 ticketing section 의 고객 포털. This report will contain **기본적인 ticket**parameters like ticket ID, status, description, etc. as well as fields that are selectively displayed 로 customers.
+
+</details>
+
+<details>
+<summary><strong>How does spam watcher 에서 Freshdesk work?</strong></summary>
+
+spam watcher will 확인하다 만약 more than 50 emails have been received 에서 same 이메일 address 에서 first 30 minutes; 만약 so, upon 51st 이메일, user will be deleted 그리고 all emails 에서 them will be sent 로 spam folder. After 60th minute, 만약 emails are still being received 에서 that 이메일 address, spam watcher will block that ID 그리고 Freshdesk will not receive any further emails 에서 them. 에 의해 leveraging variety 의 techniques 그리고 filters, we effectively prevent spam 그리고 unwanted messages 에서 reaching your 헬프데스크. It's 필수적인 로 참고 that our methods 그리고 features may have evolved since 그러면. However, here are some 일반적인 techniques we employ: - Bayesian Filtering: We use Bayesian filtering, which is statistical approach. It learns 에서 previous spam patterns 그리고 user feedback 로 categorize incoming emails as spam 또는 non-spam. As it processes more emails, it becomes better 에서 identifying spam. - CAPTCHA: 로 prevent automated bots 에서 submitting spam 티켓, we have CAPTCHA challenges that require users 로 prove their humanity 에 의해 solving visual puzzles 또는 answering questions. - 이메일 Verification: 언제 customers 생성 new 티켓 via 이메일, we send 이메일 verification link 로 confirm legitimacy 의 their 이메일 address. This ensures that only genuine 이메일 addresses can 제출 티켓. - Blacklist 그리고 Whitelist: You have control over blacklist 로 block 특정한 이메일 addresses 또는 domains known 위해 sending spam. Additionally, you can 생성 whitelist 의 trusted sources 로 확인하다 중요 emails aren't marked as spam. - Ticket 필터 Rules using automation: You can set up 사용자 정의 ticket 필터 rules/automation 로 automatically handle incoming 티켓 based 에 특정한 criteria. These rules help identify potential spam 티켓 위해 appropriate handling. - Spam Notifications: We flag incoming 티켓 that appear 로 be spam 그리고 notify 상담원, so they can review 그리고 take necessary actions. - Machine Learning: We leverage machine learning algorithms 로 analyze 다양한 ticket attributes 그리고 identify patterns consistent 와 함께 spam 또는 legitimate queries. Please remember that spam filtering is ongoing process, 그리고 we continuously improve our filters 로 keep up 와 함께 evolving spam tactics.
+
+</details>
+
+<details>
+<summary><strong>I need 로 know how will I be billed 만약 I 추가 full-time 상담원 에 annual 결제?</strong></summary>
+
+new 구독 charges 위해 subsisting period would be charged 에 pro-rated basis 그리고 your 신용카드 will be charged automatically. 만약 payments 위해 your 계정 is made through other accepted 결제 methods, corresponding 인보이스 위해 proration will be generated.
 
 </details>
 
 <details>
 <summary><strong>Can day passes be added automatically?</strong></summary>
 
-Yes, for customers whose card information is already saved on file there is an auto renewal option in the 관리자 page of the 포털. You can go to **관리자 > 계정 > Day passes** and turn ON the auto renewal option. If you are paying offline, then you should write to 결제@freshworks.com.If you are paying through 신용카드, you can add any number of day passes from your end.
+Yes, 위해 customers whose card information is already saved 에 file there is auto renewal option 에서 관리자 page 의 포털. You can go 로 **관리자 > 계정 > Day passes** 그리고 turn 에 auto renewal option. 만약 you are paying offline, 그러면 you should write 로 결제@freshworks.com. 만약 you are paying through 신용카드, you can 추가 any number 의 day passes 에서 your end.
 
 </details>
 
 <details>
-<summary><strong>transfer 계정 관리자 access하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>transfer 계정 관리자 access?하는 방법은 무엇인가요?</strong></summary>
 
-Only another 계정 관리자 can grant the 계정 관리자 Role to an agent in Freshdesk. If you are already an 관리자 in your 헬프데스크, you can identify the 계정 관리자 by navigating to 관리자, 팀, 상담원, and the profile you cannot edit will be that of the 계정 관리자.As an 계정 관리자, you can provide your 계정 관리자 access to another agent by following the steps below.-
-Navigate to 관리자. Click on 팀 and then select 상담원.-
-Click on Edit next to the agent to whom you wish to transfer the 계정 관리자 access.-
-Go to the Roles section under the Edit Agent page.-
-Select 계정 관리자 option from the dropdown.-
-Click on Update agent to save the changes.![How to provide your 계정 관리자 access to another agent?](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50008538085/original/vMph8UnGN3REUvjl6nq0EJG4J5GYWWwu5Q.gif?1686026224)Now, this agent is also an 계정 관리자 and has all the 헬프데스크 accesses, including managing the accounts and 결제.Here is a video demonstration to learn more on 참고 자료: how to change organization 관리자 in Freshdesk.If you have any further questions or clarifications, please drop an 이메일 to [지원@freshdesk.com](mailto:지원@freshdesk.com) and our Product Specialist will be happy to assist you.
+Only another 계정 관리자 can grant 계정 관리자 Role 로 agent 에서 Freshdesk. 만약 you are already 관리자 에서 your 헬프데스크, you can identify 계정 관리자 에 의해 navigating 로 관리자, 팀, 상담원, 그리고 profile you cannot 편집 will be that 의 계정 관리자. As 계정 관리자, you can 제공하다 your 계정 관리자 access 로 another agent 에 의해 following steps below. - 이동 로 관리자. 클릭 에 팀 그리고 그러면 선택 상담원. - 클릭 에 편집 next 로 agent 로 whom you wish 로 transfer 계정 관리자 access. - Go 로 Roles section under 편집 Agent page. - 선택 계정 관리자 option 에서 dropdown. - 클릭 에 업데이트 agent 로 저장 changes. ![제공하다 your 계정 관리자 access 로 another agent?하는 방법](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008538085/original/vMph8UnGN3REUvjl6nq0EJG4J5GYWWwu5Q.gif?1686026224) Now, this agent is also 계정 관리자 그리고 has all 헬프데스크 accesses, including managing accounts 그리고 결제. Here is video demonstration 로 learn more 에 참고 자료: change organization 관리자 에서 Freshdesk하는 방법. 만약 you have any further questions 또는 clarifications, please drop 이메일 로 [지원@freshdesk.com](mailto:지원@freshdesk.com) 그리고 our Product Specialist will be happy 로 assist you.
 
 </details>
 
 <details>
-<summary><strong>change the date I am being billed every month하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>change date I am being billed every month?하는 방법은 무엇인가요?</strong></summary>
 
-To change the 결제 date please write to 결제@freshworks.com.
-
-</details>
-
-<details>
-<summary><strong>delete or cancel my 계정하는 방법은 무엇인가요?</strong></summary>
-
-계정 cancellations can be requested by the 계정 Administrators of your Freshdesk 계정:-
-24 hours before Freshdesk suspends your 계정 and-
-14 days (2 weeks) before Freshdesk permanently deletes your 계정 and 계정 data.We recommend exporting your 계정 data before canceling your Freshdesk 계정, because based on the size of your 계정, the export can take up to 10 business days.As an 계정 관리자:-
-**Navigate to ****관리자**** > 계정 > 계정 Details****.**-
-Under the 계정 Status section, click on the Cancel 계정 button.-
-**Select a reason for canceling your Freshdesk 계정 and click Request cancellation**.Your part is done. A representative will reach out to you to 지원 you with your cancellation request.To reactivate your Freshdesk 계정, contact 지원@freshdesk.com within 14 days of 계정 cancellation.
+로 change 결제 date please write 로 결제@freshworks.com.
 
 </details>
 
 <details>
-<summary><strong>extend my Trial with Freshdesk하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>삭제 또는 취소 my 계정?하는 방법은 무엇인가요?</strong></summary>
 
-Please write to your **계정 Manager **or send in a ticket to sales@freshdesk.com requesting for a trial extension. Kindly do mention your **계정 details** (URL, company name and such) in the 이메일 for a quick and efficient assistance.Your 계정 Manager would get in touch with you to discuss the possibility of a **trial extension**.
-
-</details>
-
-<details>
-<summary><strong>How does the invoicing method of 결제 work?</strong></summary>
-
-Invoicing method of 결제 is done by bank transfer and PayPal.
+계정 cancellations can be requested 에 의해 계정 Administrators 의 your Freshdesk 계정: - 24 hours before Freshdesk suspends your 계정 그리고 - 14 days (2 weeks) before Freshdesk permanently deletes your 계정 그리고 계정 데이터. We recommend exporting your 계정 데이터 before canceling your Freshdesk 계정, because based 에 size 의 your 계정, 내보내기 can take up 로 10 business days. As 계정 관리자: - **이동 로 ****관리자**** > 계정 > 계정 Details****.** - Under 계정 Status section, 클릭 에 취소 계정 button. - **선택 reason 위해 canceling your Freshdesk 계정 그리고 클릭 Request cancellation**. Your part is done. representative will 문의하다 로 you 로 지원 you 와 함께 your cancellation request. 로 reactivate your Freshdesk 계정, 연락하다 지원@freshdesk.com within 14 days 의 계정 cancellation.
 
 </details>
 
 <details>
-<summary><strong>activate my Freshdesk 계정하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>extend my Trial 와 함께 Freshdesk?하는 방법은 무엇인가요?</strong></summary>
 
-Once you create your 계정 with Freshdesk, you will receive an activation 이메일 to the 이메일 address given as **"Contact Information"**. This activation 이메일 contains an **Activation Link/Code** that will authenticate your information with us.The 관리자 of the 계정 has to visit this link to activate their Freshdesk 계정, by verifying the contact information.
-
-</details>
-
-<details>
-<summary><strong>change the name to whom the 인보이스 is addressed to하는 방법은 무엇인가요?</strong></summary>
-
-Please write to 결제@freshworks.com to change the name to whom the 인보이스 is addressed to.
+Please write 로 your **계정 Manager**또는 send 에서 ticket 로 sales@freshdesk.com requesting 위해 trial extension. Kindly do mention your **계정 details** (URL, company name 그리고 such) 에서 이메일 위해 quick 그리고 efficient assistance. Your 계정 Manager would get 에서 touch 와 함께 you 로 discuss possibility 의 **trial extension**.
 
 </details>
 
 <details>
-<summary><strong>use Paypal for 결제할 수 있나요?</strong></summary>
+<summary><strong>How does invoicing method 의 결제 work?</strong></summary>
 
-Yes, to use this 결제 option, you should have a PayPal Business 계정. Our PayPal ID is paypal@freshdesk.com. Please write to 결제@freshworks.com for further information.
-
-</details>
-
-<details>
-<summary><strong>How am I being billed for my current 요금제 with Freshdesk?</strong></summary>
-
-The 요금제 in Freshdesk are priced based on the number of 상담원 added to your 계정 and vary based on the 결제 cycle you choose.You could also opt for an annual pricing structure for which there are slight variations in the pricing. Kindly navigate to [**https://freshdesk.com/pricing**](https://freshdesk.com/pricing)** **in order to see this for each 요금제.
+Invoicing method 의 결제 is done 에 의해 bank transfer 그리고 PayPal.
 
 </details>
 
 <details>
-<summary><strong>add agent licenses to Freshdesk하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>activate my Freshdesk 계정?하는 방법은 무엇인가요?</strong></summary>
 
-As an 계정 관리자 of your Freshdesk 계정, you can add more 상담원 by purchasing additional agent seats by following the steps below.-
-Navigate to 관리자. Under 계정, select 요금제 and 결제.-
-Choose the 요금제 you're on, which displays the number of agent seats.-
-Edit the number of agent seats you wish to add and select Proceed to 결제.-
-Check your order summary, 계정, and 결제 information, and provide your 신용카드 details to complete the 결제.-
-After the 결제 is authorized, the requested number of agent seats will be added to your 계정.![How to Add agent seats in Freshdesk?](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50008538306/original/8zcuIQ3JBMKYT1X-eYxqdDlx0RmOpFnEdg.gif?1686028502)For offline 결제, please reach out to [결제@freshworks.com](mailto:결제@freshworks.com) and provide the number of 상담원 you wish to add to your 계정.The new 구독 charges for the current 결제 period will be charged on a pro-rated basis to your 신용카드 automatically. If you have made payments for your 계정 through other accepted 결제 methods, you will receive a corresponding 인보이스 for pro-ration.If the 결제 is completed but you cannot add 상담원, please contact our 지원 팀 for assistance.
+Once you 생성 your 계정 와 함께 Freshdesk, you will receive activation 이메일 로 이메일 address given as **"연락하다 Information"**. This activation 이메일 contains **Activation Link/Code** that will authenticate your information 와 함께 us. 관리자 의 계정 has 로 visit this link 로 activate their Freshdesk 계정, 에 의해 verifying 연락하다 information.
 
 </details>
 
 <details>
-<summary><strong>I am currently on an Annual 결제 요금제. How can I change it to a monthly 결제?</strong></summary>
+<summary><strong>change name 로 whom 인보이스 is addressed 로?하는 방법은 무엇인가요?</strong></summary>
 
-If you're paying through a 신용카드 and the card information is on file, you can switch to a monthly 요금제 by following the steps below.- Go to **관리자 > 계정 > 요금제 and 결제**.
-- Click on **Edit** **결제** to change the 결제 cycle.
-- Next to 결제, select the **Monthly** option from the dropdown.
-- Click **Update 요금제**.![Changing the 결제 cycle from Annual to Monthly.](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50007982990/original/hmik6xA7VVVZFKSfSc9eJ35cHgtrxU8kWQ.gif?1680077577)
-But if you are paying offline, please drop an 이메일 to 결제@freshworks.com.
+Please write 로 결제@freshworks.com 로 change name 로 whom 인보이스 is addressed 로.
 
 </details>
 
 <details>
-<summary><strong>the different modes of payments은 무엇인가요?</strong></summary>
+<summary><strong>use Paypal 위해 결제?할 수 있나요은 무엇인가요?</strong></summary>
 
-The different modes of payments are 신용카드 payments, bank transfer and PayPal.
-
-</details>
-
-<details>
-<summary><strong>왜 did my 계정 get suspended인가요?</strong></summary>
-
-Your 계정 can get suspended either because your trial period has ended or if the 결제 was not successful while processing the renewal.You would still be able to 로그인 and receive 티켓, but the entire 헬프데스크 would be on **read-only** mode, i.e. you would not be able to update/respond to 티켓. If you are an Agent/Supervisor/관리자, you will see this 오류 message: '**Limited access: Your 계정 has been suspended. Contact your 계정 관리자 to reactivate**'.계정 Administrators will see this 오류 message: '**Limited access: Your 계정 has been suspended. Click here to pay and reactivate**'. Clicking on '**here**' will take you (계정 관리자) to the 요금제 & Billings page inside your Freshdesk 계정.Alternatively, you can 이메일 **지원@freshdesk.com** so we can route you to the 결제 팀 to get your 계정 up and running.
+Yes, 로 use this 결제 option, you should have PayPal Business 계정. Our PayPal ID is paypal@freshdesk.com. Please write 로 결제@freshworks.com 위해 further information.
 
 </details>
 
 <details>
-<summary><strong>add or update my 신용카드 details하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>How am I being billed 위해 my current 요금제 와 함께 Freshdesk?</strong></summary>
 
-To update your 신용카드 details in your Freshdesk 계정,- Go to **관리자 > 계정 > 요금제 and Billings**.
-- Click on '**Proceed to 결제'** under the 요금제 you wish to select and provide your card details under the 신용카드 information.![Updating your 신용카드 details in Freshdesk.](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50007982297/original/DqRsru6z9OZ-11RbG27OqYUqSEd07x-fug.gif?1680073785)- To update your 신용카드 information, click on '**Change**' under the 결제 Information section and provide your card details under the 신용카드 information section.![Updating your 신용카드 details in Freshdesk.](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50007982344/original/MVahrTxmk8Rb9Vi5XUzfTKOdu1SlhOMLUw.gif?1680073887)
-Once the 신용카드 information is saved, the card will be billed automatically, and an 인보이스 from our end will be sent to the 결제 contact on file by default.**참고**: You can also notify us of any change in your 신용카드 or other 결제 계정 information, either by updating your 계정 or emailing us at [결제@freshworks.com](mailto:결제@freshworks.com).
+요금제 에서 Freshdesk are priced based 에 number 의 상담원 added 로 your 계정 그리고 vary based 에 결제 cycle you 선택. You could also opt 위해 annual pricing structure 위해 which there are slight variations 에서 pricing. Kindly 이동 로 [**https://freshdesk.com/pricing**](https://freshdesk.com/pricing)****에서 order 로 see this 위해 each 요금제.
 
 </details>
 
 <details>
-<summary><strong>왜 am I receiving an 이메일 saying "결제 is Declined"인가요?</strong></summary>
+<summary><strong>추가 agent licenses 로 Freshdesk?하는 방법은 무엇인가요?</strong></summary>
 
-This would be because of **authorization failure** from your **bank**, during the transaction. Please contact your bank to request them to allow the 결제, which would sort this out for you.If you continue to face this 문제, kindly contact us by sending an 이메일 to **결제@freshdesk.com. **One of our 상담원 would get in contact with you to assist and resolve this for you.
-
-</details>
-
-<details>
-<summary><strong>왜 is my 계정 suspended인가요?</strong></summary>
-
-Your 계정 can get suspended either because your trial period has ended or if the 결제 was not successful while processing the renewal.The 포털 will try to charge your card for renewal and if the card has expired or not authorised, the 계정 gets suspended after 4 successive attempt on 4 successive days. In theses cases, you can 이메일 [결제@freshworks.com](mailto:결제@freshworks.com) so that we can extend your dunning (card-charging process) period temporarily.
+As 계정 관리자 의 your Freshdesk 계정, you can 추가 more 상담원 에 의해 purchasing additional agent seats 에 의해 following steps below. - 이동 로 관리자. Under 계정, 선택 요금제 그리고 결제. - 선택 요금제 you're 에, which displays number 의 agent seats. - 편집 number 의 agent seats you wish 로 추가 그리고 선택 Proceed 로 결제. - 확인하다 your order summary, 계정, 그리고 결제 information, 그리고 제공하다 your 신용카드 details 로 complete 결제. - After 결제 is authorized, requested number 의 agent seats will be added 로 your 계정. ![추가 agent seats 에서 Freshdesk?하는 방법](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008538306/original/8zcuIQ3JBMKYT1X-eYxqdDlx0RmOpFnEdg.gif?1686028502) 위해 offline 결제, please 문의하다 로 [결제@freshworks.com](mailto:결제@freshworks.com) 그리고 제공하다 number 의 상담원 you wish 로 추가 로 your 계정. new 구독 charges 위해 current 결제 period will be charged 에 pro-rated basis 로 your 신용카드 automatically. 만약 you have made payments 위해 your 계정 through other accepted 결제 methods, you will receive corresponding 인보이스 위해 pro-ration. 만약 결제 is completed 하지만 you cannot 추가 상담원, please 연락하다 our 지원 팀 위해 assistance.
 
 </details>
 
 <details>
-<summary><strong>prorated charges은 무엇인가요?</strong></summary>
+<summary><strong>I am currently 에 Annual 결제 요금제. change it 로 monthly 결제?하는 방법은 무엇인가요?</strong></summary>
 
-Proration is done for the calculation of charges for the newly subscribed items (요금제, agent seats or add-ons) for the remaining portion of the current 결제 period.Upon upgrade, the new 구독 charges for the subsisting month would be charged on pro-rated basis and your 신용카드 will be charged automatically. If payments for your 계정 is made through other accepted 결제 methods, corresponding 인보이스 for proration will be generated.
-
-</details>
-
-<details>
-<summary><strong>Where do I update my 신용카드 information within Freshdesk?</strong></summary>
-
-You could add your 신용카드 details within Freshdesk, under **관리자 > 계정 > 요금제 & 결제 > Choose 요금제 > Proceed to 결제**. Once the 신용카드 information is saved, the card would be billed automatically, for which Freshdesk would send you an 인보이스.
+만약 you're paying through 신용카드 그리고 card information is 에 file, you can switch 로 monthly 요금제 에 의해 following steps below. - Go 로 **관리자 > 계정 > 요금제 그리고 결제**. - 클릭 에 **편집** **결제** 로 change 결제 cycle. - Next 로 결제, 선택 **Monthly** option 에서 dropdown. - 클릭 **업데이트 요금제**. ![Changing 결제 cycle 에서 Annual 로 Monthly.](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50007982990/original/hmik6xA7VVVZFKSfSc9eJ35cHgtrxU8kWQ.gif?1680077577) 하지만 만약 you are paying offline, please drop 이메일 로 결제@freshworks.com.
 
 </details>
 
 <details>
-<summary><strong>Does the 구독 charges include tax?</strong></summary>
+<summary><strong>different modes 의 payments?이란은 무엇인가요?</strong></summary>
 
-Unless otherwise stated, the 구독 Charges do not include any taxes, levies, duties or similar governmental assessments, including value-added, sales, use or withholding taxes assessable by any local, state, provincial or foreign jurisdiction (collectively 'Taxes').
-
-</details>
-
-<details>
-<summary><strong>I'm looking for the reseller of your product</strong></summary>
-
-You can find our Resellers across the globe here [https://www.freshworks.com/company/partners/find-partners/](https://www.freshworks.com/company/partners/find-partners/)
+different modes 의 payments are 신용카드 payments, bank transfer 그리고 PayPal.
 
 </details>
 
 <details>
-<summary><strong>You cannot subscribe to a lesser number of 상담원. Please delete some 상담원 and try again.</strong></summary>
+<summary><strong>왜 did my 계정 get suspended?</strong></summary>
 
-This is because you already have a specific amount of full-time 상담원 and only if one of them is made an occasional agent (who would log in using day passes) or if you delete the agent(티켓 assigned to the agent would get unassigned) would you be able to decrease the full-time agent seat count under **관리자 > 계정 > 요금제 and Billings.**
-
-</details>
-
-<details>
-<summary><strong>have an 계정 with one user할 수 있나요?</strong></summary>
-
-Yes, you can purchase just one agent seat and make use of the features of Freshdesk.
+Your 계정 can get suspended either because your trial period has ended 또는 만약 결제 was not successful while processing renewal. You would still be able 로 로그인 그리고 receive 티켓, 하지만 entire 헬프데스크 would be 에 **read-only** mode, i.e. you would not be able 로 업데이트/respond 로 티켓. 만약 you are Agent/Supervisor/관리자, you will see this 오류 message: '**Limited access: Your 계정 has been suspended. 연락하다 your 계정 관리자 로 reactivate**'. 계정 Administrators will see this 오류 message: '**Limited access: Your 계정 has been suspended. 클릭 here 로 pay 그리고 reactivate**'. Clicking 에 '**here**' will take you (계정 관리자) 로 요금제 & Billings page inside your Freshdesk 계정. Alternatively, you can 이메일 **지원@freshdesk.com** so we can route you 로 결제 팀 로 get your 계정 up 그리고 running.
 
 </details>
 
 <details>
-<summary><strong>have multiple 요금제 in one 계정할 수 있나요?</strong></summary>
+<summary><strong>추가 또는 업데이트 my 신용카드 details?하는 방법은 무엇인가요?</strong></summary>
 
-You can choose only one 요금제 for an 계정 and use its features.
-
-</details>
-
-<details>
-<summary><strong>If I switch to a free 요금제 will I lose my vanity domain url?</strong></summary>
-
-The feature to add a vanity URL is available only from the Blossom 요금제 and therefore if the 계정 is downgraded to the Sprout 요금제, you will not be able to make use of the Vanity URL.
+로 업데이트 your 신용카드 details 에서 your Freshdesk 계정, - Go 로 **관리자 > 계정 > 요금제 그리고 Billings**. - 클릭 에 '**Proceed 로 결제'** under 요금제 you wish 로 선택 그리고 제공하다 your card details under 신용카드 information. ![Updating your 신용카드 details 에서 Freshdesk.](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50007982297/original/DqRsru6z9OZ-11RbG27OqYUqSEd07x-fug.gif?1680073785) - 로 업데이트 your 신용카드 information, 클릭 에 '**Change**' under 결제 Information section 그리고 제공하다 your card details under 신용카드 information section. ![Updating your 신용카드 details 에서 Freshdesk.](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50007982344/original/MVahrTxmk8Rb9Vi5XUzfTKOdu1SlhOMLUw.gif?1680073887) Once 신용카드 information is saved, card will be billed automatically, 그리고 인보이스 에서 our end will be sent 로 결제 연락하다 에 file 에 의해 기본값. **참고**: You can also notify us 의 any change 에서 your 신용카드 또는 other 결제 계정 information, either 에 의해 updating your 계정 또는 emailing us 에서 [결제@freshworks.com](mailto:결제@freshworks.com).
 
 </details>
 
 <details>
-<summary><strong>On which package is the Facebook integration available?</strong></summary>
+<summary><strong>왜 am I receiving 이메일 saying "결제 is Declined"?</strong></summary>
 
-Facebook integration is available from the **Free/Sprout** 요금제 where you can integrate only one Facebook page. From the **Blossom/Growth** 요금제 you can integrate multiple Facebook pages to your Freshdesk 계정.
-
-</details>
-
-<details>
-<summary><strong>transfer my trial to the free 요금제하는 방법은 무엇인가요?</strong></summary>
-
-Go to **관리자 > 계정 > 요금제 and billings** > change the 요금제 to Free.
+This would be because 의 **authorization failure** 에서 your **bank**, during transaction. Please 연락하다 your bank 로 request them 로 allow 결제, which would sort this out 위해 you. 만약 you continue 로 face this 문제, kindly 연락하다 us 에 의해 sending 이메일 로 **결제@freshdesk.com.**One 의 our 상담원 would get 에서 연락하다 와 함께 you 로 assist 그리고 resolve this 위해 you.
 
 </details>
 
 <details>
-<summary><strong>왜 am I not able to see Apps in the Sprout 요금제인가요?</strong></summary>
+<summary><strong>왜 is my 계정 suspended?</strong></summary>
 
-We recently revised the 요금제 and pricing for Freshdesk and in the new one, the **Free/Sprout** 요금제 **doesn't 지원 apps**. Here is the link to the features that are available in the new 요금제: [https://freshdesk.com/헬프데스크-features](https://freshdesk.com/헬프데스크-features)
-
-</details>
-
-<details>
-<summary><strong>the difference between the old Sprout and new Sprout 요금제은 무엇인가요?</strong></summary>
-
-There are a few differences in the New Sprout 2017 요금제 when compared to the previous version of Sprout.** Features****Sprout 요금제****Old Sprout 요금제**AgentsUnlimited3 free agentsSplit TicketsNoYesAdd as WatcherNoYesTraffic Cop NoYes
-Custom Ticket Views
-NoYesShared Views NoYesSupervisorNoYesObserver NoYesSLA ReminderNoYes
-SLA Violation Escalation
-NoYesEmail CommandsNoYesAssume IdentityNoYes
-Agent 포털 Rebranding
-NoYes
-access to Custom Apps
-NoYes
-Auto Suggest solutions on the 고객 포털 while creating a new ticket
-NoYes
-Custom Ticket Fields
-NoYes
-Reporting on Custom Fields
-NoYes
-Custom Company Fields
-NoYes
-Custom Contact Fields
-NoYesCustom StatusesNoYes
-Auto Refresh Ticket List
-NoYes
-Occasional 상담원
-NoYes
-BASIC SOCIAL = ( 1 FB 계정)
-YesNo
+Your 계정 can get suspended either because your trial period has ended 또는 만약 결제 was not successful while processing renewal. 포털 will try 로 charge your card 위해 renewal 그리고 만약 card has expired 또는 not authorised, 계정 gets suspended after 4 successive attempt 에 4 successive days. 에서 theses cases, you can 이메일 [결제@freshworks.com](mailto:결제@freshworks.com) so that we can extend your dunning (card-charging process) period temporarily.
 
 </details>
 
 <details>
-<summary><strong>have 상담원 with different 요금제할 수 있나요?</strong></summary>
+<summary><strong>prorated charges?이란은 무엇인가요?</strong></summary>
 
-You cannot have different 상담원 in different 요금제. Since the 요금제 and the features are 계정-based you will have to purchase all the agent seats in the same 요금제.
+Proration is done 위해 calculation 의 charges 위해 newly subscribed items (요금제, agent seats 또는 추가-ons) 위해 remaining portion 의 current 결제 period. Upon 업그레이드하다, new 구독 charges 위해 subsisting month would be charged 에 pro-rated basis 그리고 your 신용카드 will be charged automatically. 만약 payments 위해 your 계정 is made through other accepted 결제 methods, corresponding 인보이스 위해 proration will be generated.
+
+</details>
+
+<details>
+<summary><strong>Where do I 업데이트 my 신용카드 information within Freshdesk?</strong></summary>
+
+You could 추가 your 신용카드 details within Freshdesk, under **관리자 > 계정 > 요금제 & 결제 > 선택 요금제 > Proceed 로 결제**. Once 신용카드 information is saved, card would be billed automatically, 위해 which Freshdesk would send you 인보이스.
+
+</details>
+
+<details>
+<summary><strong>Does 구독 charges include tax?</strong></summary>
+
+Unless otherwise stated, 구독 Charges do not include any taxes, levies, duties 또는 similar governmental assessments, including value-added, sales, use 또는 withholding taxes assessable 에 의해 any local, state, provincial 또는 foreign jurisdiction (collectively 'Taxes').
+
+</details>
+
+<details>
+<summary><strong>I'm looking 위해 reseller 의 your product은 무엇인가요?</strong></summary>
+
+You can find our Resellers across globe here [https://www.freshworks.com/company/partners/find-partners/](https://www.freshworks.com/company/partners/find-partners/)
+
+</details>
+
+<details>
+<summary><strong>You cannot subscribe 로 lesser number 의 상담원. Please 삭제 some 상담원 그리고 try again.은 무엇인가요?</strong></summary>
+
+This is because you already have 특정한 amount 의 full-time 상담원 그리고 only 만약 one 의 them is made occasional agent (who would log 에서 using day passes) 또는 만약 you 삭제 agent(티켓 assigned 로 agent would get unassigned) would you be able 로 decrease full-time agent seat count under **관리자 > 계정 > 요금제 그리고 Billings.**
+
+</details>
+
+<details>
+<summary><strong>have 계정 와 함께 one user?할 수 있나요은 무엇인가요?</strong></summary>
+
+Yes, you can purchase just one agent seat 그리고 make use 의 features 의 Freshdesk.
+
+</details>
+
+<details>
+<summary><strong>have 다수의 요금제 에서 one 계정?할 수 있나요은 무엇인가요?</strong></summary>
+
+You can 선택 only one 요금제 위해 계정 그리고 use its features.
+
+</details>
+
+<details>
+<summary><strong>만약 I switch 로 free 요금제 will I lose my vanity domain url?</strong></summary>
+
+feature 로 추가 vanity URL is 사용 가능한 only 에서 Blossom 요금제 그리고 therefore 만약 계정 is downgraded 로 Sprout 요금제, you will not be able 로 make use 의 Vanity URL.
+
+</details>
+
+<details>
+<summary><strong>에 which package is Facebook 연동 사용 가능한?</strong></summary>
+
+Facebook 연동 is 사용 가능한 에서 **Free/Sprout** 요금제 where you can integrate only one Facebook page. 에서 **Blossom/Growth** 요금제 you can integrate 다수의 Facebook pages 로 your Freshdesk 계정.
+
+</details>
+
+<details>
+<summary><strong>transfer my trial 로 free 요금제?하는 방법은 무엇인가요?</strong></summary>
+
+Go 로 **관리자 > 계정 > 요금제 그리고 billings** > change 요금제 로 Free.
+
+</details>
+
+<details>
+<summary><strong>왜 am I not able 로 see Apps 에서 Sprout 요금제?</strong></summary>
+
+We recently revised 요금제 그리고 pricing 위해 Freshdesk 그리고 에서 new one, **Free/Sprout** 요금제 **doesn't 지원 apps**. Here is link 로 features that are 사용 가능한 에서 new 요금제: [https://freshdesk.com/헬프데스크-features](https://freshdesk.com/헬프데스크-features)
+
+</details>
+
+<details>
+<summary><strong>difference between old Sprout 그리고 new Sprout 요금제?이란은 무엇인가요?</strong></summary>
+
+There are few differences 에서 New Sprout 2017 요금제 언제 compared 로 previous version 의 Sprout. **Features****Sprout 요금제****Old Sprout 요금제**AgentsUnlimited3 free agentsSplit TicketsNoYesAdd as WatcherNoYesTraffic Cop NoYes 사용자 정의 Ticket Views NoYesShared Views NoYesSupervisorNoYesObserver NoYesSLA ReminderNoYes SLA Violation Escalation NoYesEmail CommandsNoYesAssume IdentityNoYes Agent 포털 Rebranding NoYes access 로 사용자 정의 Apps NoYes Auto Suggest solutions 에 고객 포털 while creating new ticket NoYes 사용자 정의 Ticket Fields NoYes Reporting 에 사용자 정의 Fields NoYes 사용자 정의 Company Fields NoYes 사용자 정의 연락하다 Fields NoYesCustom StatusesNoYes Auto Refresh Ticket List NoYes Occasional 상담원 NoYes 기본적인 SOCIAL = ( 1 FB 계정) YesNo
+
+</details>
+
+<details>
+<summary><strong>have 상담원 와 함께 different 요금제?할 수 있나요은 무엇인가요?</strong></summary>
+
+You cannot have different 상담원 에서 different 요금제. Since 요금제 그리고 features are 계정-based you will have 로 purchase all agent seats 에서 same 요금제.
 
 </details>
 

@@ -11,188 +11,163 @@ sidebar_position: 1
 :::
 
 <details>
-<summary><strong>내 계정에 로그인하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>로그인 로 my 계정?하는 방법은 무엇인가요?</strong></summary>
 
-Freshdesk 포털 우측 상단의 로그인 옵션을 사용하여 Freshdesk 계정에 로그인할 수 있습니다, which will be available in the URL **yourcompanyname.freshdesk.com**.로그인 페이지로 이동하여 이메일 주소와 비밀번호인 로그인 정보를 사용해 헬프데스크에 접속할 수 있습니다.You can also 로그인 from [https://freshdesk.com/로그인](https://freshdesk.com/로그인).
-
-</details>
-
-<details>
-<summary><strong>Freshdesk 계정에 로그인할 수 없는 이유는 무엇인가요?</strong></summary>
-
-Freshdesk 계정에 로그인할 수 없는 이유는 여러 가지가 있을 수 있습니다. 다음은 일반적인 문제와 해결책입니다:- **Incorrect Credentials:** 올바른 이메일과 비밀번호를 입력하고 있는지 다시 한 번 확인하십시오. 오타나 불필요한 공백이 없는지 확인하십시오.
-- **비밀번호 Reset:** 비밀번호를 잊으셨다면 로그인 페이지의 "비밀번호 찾기" 링크를 사용하여 재설정하십시오. If you're not receiving the 비밀번호 reset 이메일 for your Freshdesk 계정, here are some steps you can take to resolve the 문제:
-- **Check Spam/Junk Folder:** Sometimes, 비밀번호 reset emails can be filtered into your spam or junk folder. Make sure to check these folders in your 이메일 계정.
-- **Verify 이메일 Address:** Ensure that you're entering the correct 이메일 address associated with your Freshdesk 계정. A typo can prevent the 이메일 from being sent to the correct address.
-- **Resend the 이메일:** Try requesting the 비밀번호 reset 이메일 again. Sometimes, there might be a delay, or the 이메일 might not have been sent properly the first time.
-- **Whitelist Freshdesk 이메일 Address:** Add the Freshdesk 이메일 address (usually 지원@freshdesk.com or similar) to your 이메일 연락처 or whitelist to ensure it doesn't get blocked by your 이메일 provider.
-- **Check 이메일 Filters:** Ensure that you don't have any 이메일 filters set up that might be redirecting the 비밀번호 reset 이메일 to another folder or automatically deleting it.- **계정 Locked:** After multiple failed 로그인 attempts, your 계정 might be temporarily locked. Wait for a while and try again or contact your 관리자.
-- **Browser Issues:** Clear your browser cache and cookies, or try logging in from a different device/browser.
-- **Network Issues: **Ensure you have a stable internet connection. Sometimes network issues can prevent successful 로그인 attempts.
-- **계정 Deactivation:** Check if your 계정 has been deactivated or suspended. Contact your Freshdesk 관리자 or 지원 for assistance.
-- **Two-Factor Authentication:** If two-factor authentication is enabled, ensure you're entering the correct verification code sent to your 이메일 or mobile device.**Contact 고객 지원:** If you've tried all of the above and still can't log in, please reach out to [지원@freshdesk.com](mailto:지원@freshdesk.com) with the following details,- 계정 URL to which you're trying to log in, and
-- 오류 message screenshot/video grab highlighting what happens when you try to log in to your 계정
+Freshdesk 포털 우측 상단의 로그인 옵션을 사용하여 Freshdesk 계정에 로그인할 수 있습니다. URL은 **yourcompanyname.freshdesk.com**. 로그인 페이지로 이동하여 이메일 주소와 비밀번호인 로그인 정보를 사용해 헬프데스크에 접속할 수 있습니다. 다음 주소에서도 로그인할 수 있습니다: [https://freshdesk.com/로그인](https://freshdesk.com/로그인).
 
 </details>
 
 <details>
-<summary><strong>Freshdesk의 SSO는 어떻게 작동하나요?</strong></summary>
+<summary><strong>왜 am I not able 로 로그인 로 my Freshdesk 계정?</strong></summary>
 
-The Single Sign-On capability in Freshdesk lets the users arriving at your 지원 포털 로그인 with their credentials saved on your database.This saves them the time and effort involved in creating a separate 계정 for your 지원 포털. You can also set up an[ ](https://지원.freshdesk.com/지원/solutions/articles/31166-single-sign-on-remote-authentication-in-freshdesk)**[](https://지원.freshdesk.com/지원/solutions/articles/31166-single-sign-on-remote-authentication-in-freshdesk)[SSO mechanism ](https://지원.freshdesk.com/지원/solutions/articles/50000001658-single-sign-on-in-freshdesk)**to validate users trying to log into your 포털 for Freshdesk using a locally hosted script. These could be the users who already have an 계정 in your web application or whose information you have stored in your internal application like ActiveDirectory.
-
-</details>
-
-<details>
-<summary><strong>비밀번호를 재설정하는 방법은 무엇인가요?</strong></summary>
-
-- Type your URL in the address bar, hit enter and select 로그인. Then choose the option **Are you an Agent? 로그인 here** and it will redirect you to the Freshworks page.
-- Select **Forgot 비밀번호** option, enter your 이메일 address and a 비밀번호 reset link will be sent to your 이메일.
-- Reset the 비밀번호 using the link and you can log in to the 계정.Please reach out to *지원@freshdesk.com* for further help and clarifications.If your customers are facing 로그인 issues, here's how you can reset their 비밀번호[https://www.youtube.com/watch?v=oJTcbYch5T8&list=PLsYJ3BsyR4qGFujlW0iDtOBOf4IPVsAqt&index=2](If%20your%20customers%20are%20facing%20login%20issues,%20here)
+Freshdesk 계정에 로그인할 수 없는 이유는 여러 가지가 있을 수 있습니다. 다음은 일반적인 문제와 해결책입니다: - **잘못된 로그인 정보:** 올바른 이메일과 비밀번호를 입력하고 있는지 다시 한 번 확인하십시오. 오타나 불필요한 공백이 없는지 확인하십시오. - **비밀번호 재설정:** 비밀번호를 잊으셨다면 로그인 페이지의 "비밀번호 찾기" 링크를 사용하여 재설정하십시오. Freshdesk 계정의 비밀번호 재설정 이메일을 받지 못하는 경우 다음 단계를 통해 문제를 해결할 수 있습니다: - **스팸/정크 폴더 확인:** 때로는 비밀번호 재설정 이메일이 스팸이나 정크 폴더로 분류될 수 있습니다. 이메일 계정에서 이러한 폴더들을 확인해 주십시오. - **이메일 주소 확인:** Freshdesk 계정과 연결된 올바른 이메일 주소를 입력하고 있는지 확인하십시오. 오타로 인해 이메일이 올바른 주소로 발송되지 않을 수 있습니다. - **이메일 재발송:** 비밀번호 재설정 이메일을 다시 요청해 보십시오. 때로는 지연이 있거나 처음에 이메일이 제대로 발송되지 않았을 수 있습니다. - **Freshdesk 이메일 주소 화이트리스트 등록:** Freshdesk 이메일 주소(보통 지원@freshdesk.com 등)를 이메일 연락처나 화이트리스트에 추가하여 이메일 제공업체에서 차단되지 않도록 하십시오. - **이메일 필터 확인:** 비밀번호 재설정 이메일을 다른 폴더로 리디렉션하거나 자동으로 삭제하는 이메일 필터가 설정되어 있지 않은지 확인하십시오. - **계정 잠금:** 여러 번 로그인에 실패하면 계정이 일시적으로 잠길 수 있습니다. 잠시 기다린 후 다시 시도하거나 관리자에게 문의하십시오. - **브라우저 문제:** 브라우저 캐시와 쿠키를 지우거나 다른 기기/브라우저에서 로그인을 시도해 보십시오. - **네트워크 문제:**안정적인 인터넷 연결을 확인하십시오. 때로는 네트워크 문제로 인해 로그인이 성공하지 못할 수 있습니다. - **계정 비활성화:** 계정이 비활성화되었거나 일시 중단되었는지 확인하십시오. 도움이 필요하면 Freshdesk 관리자나 고객지원팀에 문의하십시오. - **2단계 인증:** 2단계 인증이 활성화된 경우, 이메일이나 모바일 기기로 전송된 올바른 인증 코드를 입력하고 있는지 확인하십시오. **고객지원팀 문의:** 만약 you've tried all 의 above 그리고 still can't log 에서, please 문의하다 로 [지원@freshdesk.com](mailto:지원@freshdesk.com) 와 함께 following details, - 로그인하려는 계정 URL과 - 계정에 로그인을 시도할 때 발생하는 상황을 보여주는 오류 메시지 스크린샷/동영상
 
 </details>
 
 <details>
-<summary><strong>Freshdesk에서 Single Sign On을 어디서 구성하나요?</strong></summary>
+<summary><strong>How does SSO 에서 Freshdesk work?</strong></summary>
 
-Using Single Sign-On, your users could get automatically authenticated while logged in to your common 로그인 option. For example, if you have a website or 대시보드 where your users log in and would like to use the same to access Freshdesk, you could make use of Single Sign-On.You could configure Single Sign-On within Freshdesk by going through your Freshworks Org page. You can access the Org page by clicking on the Freshworks switcher icon on the bottom left corner and click on Security under your Freshworks Org URL and turning on "Single-Sign-On". You could then choose between Simple or SAML SSO to proceed with the configuration.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50008957735/original/OcZ95RsuLrBSxuoAQk-RDXHNDDWdNQWg0w.png?1689935654)
-
-</details>
-
-<details>
-<summary><strong>Where is your data servers located?</strong></summary>
-
-Our Data Centres are located in the US, EEA, UAE, IND, and AU. To learn more about our Data hosting you, refer to [https://www.freshworks.com/privacy/data-hosting/](https://www.freshworks.com/privacy/data-hosting/)You can choose your preferred data location when you sign up for your 계정.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50012706959/original/LLKRrTD8Jq6cBuK3sP2WiPwy5LF3klesCg.png?1723118643)If there are any specific regulatory requirements and performance considerations, and you are looking to migrate your data to a different data center region, contact [지원@freshdesk.com](mailto:지원@freshdesk.com).
+Single Sign-에 capability 에서 Freshdesk lets users arriving 에서 your 지원 포털 로그인 와 함께 their credentials saved 에 your database. This saves them time 그리고 effort involved 에서 creating separate 계정 위해 your 지원 포털. You can also set up [](https://지원.freshdesk.com/지원/solutions/articles/31166-single-sign-에-remote-authentication-에서-freshdesk)**[](https://지원.freshdesk.com/지원/solutions/articles/31166-single-sign-에-remote-authentication-에서-freshdesk)[SSO mechanism](https://지원.freshdesk.com/지원/solutions/articles/50000001658-single-sign-에-에서-freshdesk)**로 validate users trying 로 log into your 포털 위해 Freshdesk using locally hosted script. These could be users who already have 계정 에서 your web application 또는 whose information you have stored 에서 your internal application like ActiveDirectory.
 
 </details>
 
 <details>
-<summary><strong>bypass SSO 로그인 when I have it enabled하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>reset my 비밀번호?하는 방법은 무엇인가요?</strong></summary>
 
-You can make use of the companyname.freshdesk.com/로그인/normal and enter your valid Freshdesk credentials to access the 계정.
-
-</details>
-
-<details>
-<summary><strong>I get the 'Unable to allocate day pass' 오류 while logging in. How do I resolve this?</strong></summary>
-
-If you have been added as an Occasional Agent in your 계정, and if your 계정 does not have sufficient day passes to log in, you will encounter this 오류.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50009297562/original/mkdFEgNk-DWkn-_1XGWIh0ReJ5wGmhSpHw.png?1693234132)You can get in touch with your 계정 Administrators, and they can assist you in purchasing day passes for logging in. A new day pass can be added to your 계정 from within **관리자 > 계정 > Day passes**. You can also view the day pass Usage History on the same page.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50009297555/original/NfM5szmg2E7kodMBWheWlfNkQL99zYHYeQ.png?1693234122)
+- 입력 your URL 에서 address bar, hit 입력 그리고 선택 로그인. 그러면 선택 option **Are you Agent? 로그인 here** 그리고 it will redirect you 로 Freshworks page. - 선택 **Forgot 비밀번호** option, 입력 your 이메일 address 그리고 비밀번호 reset link will be sent 로 your 이메일. - Reset 비밀번호 using link 그리고 you can log 에서 로 계정. Please 문의하다 로 *지원@freshdesk.com* 위해 further help 그리고 clarifications. 만약 your customers are facing 로그인 issues, here's how you can reset their 비밀번호 [https://www.youtube.com/watch?v=oJTcbYch5T8&list=PLsYJ3BsyR4qGFujlW0iDtOBOf4IPVsAqt&index=2](만약%20your%20customers%20are%20facing%20login%20issues,%20here)
 
 </details>
 
 <details>
-<summary><strong>I see the 오류 'Sorry we couldn’t locate your 계정' when I try to 로그인. What is the 문제 here?</strong></summary>
+<summary><strong>Where do I configure Single Sign 에 within Freshdesk?</strong></summary>
 
-If the 이메일 address that was entered for 로그인, is not an agent/contact in the 계정, then this 오류 would be displayed. You could sign up for a new 계정, using the Sign Up option on the 포털, or ask to be added as an Agent from under **관리자 >팀 > 상담원** in your 계정. Once this is done, you could log in to your Freshdesk 계정.If you continue to face issues with 로그인, reach out to Freshdesk 지원 through 지원@freshdesk.com to know the 상담원 on your Freshdesk 계정 and we would assist you in getting over this instance.
-
-</details>
-
-<details>
-<summary><strong>왜 am I getting ‘You’re not allowed to access this page’ 오류인가요?</strong></summary>
-
-You will encounter the 오류 ‘You’re not allowed to access this page,’ if you click on a link you don’t have access to or do not have the right to view. Let us consider the following scenarios.[](https://docs.google.com/document/d/1TkgdOi7mpoUrb-i9DH2VbF-eSPoJ5g91BYqgf1wN4ws/edit#heading=h.yrkszl4y4q1j)[오류 displayed for 상담원](#오류-displayed-for-상담원)[오류 displayed for customers](#오류-displayed-for-customers)**오류 displayed for 상담원**
-If you are an agent and receive this 오류 message after you click on a ticket to view its details, you do not have permission to view the ticket. Please check if you have the correct ticket scope (Group level or Global access) under the 상담원 page.
-**오류 displayed for customers**
-As a 고객, when you click on the URL of a 해결책 article displayed only to a specific company (Restricted Access) and you are not part of that company, then this 오류 would appear.Please reach out to [지원@freshdesk.com](mailto:지원@freshdesk.com) if the 오류 appears in scenarios other than those mentioned above.
+Using Single Sign-에, your users could get automatically authenticated while logged 에서 로 your 일반적인 로그인 option. 위해 example, 만약 you have website 또는 대시보드 where your users log 에서 그리고 would like 로 use same 로 access Freshdesk, you could make use 의 Single Sign-에. You could configure Single Sign-에 within Freshdesk 에 의해 going through your Freshworks Org page. You can access Org page 에 의해 clicking 에 Freshworks switcher icon 에 bottom left corner 그리고 클릭 에 보안 under your Freshworks Org URL 그리고 turning 에 "Single-Sign-에". You could 그러면 선택 between Simple 또는 SAML SSO 로 proceed 와 함께 구성. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008957735/original/OcZ95RsuLrBSxuoAQk-RDXHNDDWdNQWg0w.png?1689935654)
 
 </details>
 
 <details>
-<summary><strong>왜 am I getting the 오류 '포털 is not available at your location' while trying to access a Freshdesk page인가요?</strong></summary>
+<summary><strong>Where is your 데이터 servers located?</strong></summary>
 
-The 오류 message "포털 is not available at your location" typically occurs when you try to access a Freshdesk page, but the page is restricted or not accessible from your current location. There are several possible reasons for this 오류:- Geographical Restrictions: Some Freshdesk pages or features may have geographical restrictions, and they may not be available in certain regions or countries due to legal or compliance reasons.
-- IP Restrictions: Your IP address might be from a location that is blocked or restricted from accessing specific Freshdesk pages or services.
-- Limited Access Permissions: Your user 계정 or role might not have the necessary permissions to access the particular page you are trying to view.
-- Page Unavailability: The page you are trying to access could be temporarily unavailable due to maintenance or other technical issues.
-- Network or Firewall Restrictions: Your network or firewall 설정 could be preventing access to certain Freshdesk pages.To resolve the 문제:- Check Permissions: Ensure that your user 계정 has the appropriate permissions to access the page in question. If needed, contact your Freshdesk 계정 관리자 to verify and adjust your permissions.
-- Verify Page Availability: Confirm if the page you are trying to access is indeed available and not undergoing maintenance or restricted for specific locations.
-- Check Network 설정: If you are accessing Freshdesk from a workplace or public network, check if any network or firewall 설정 are blocking access to the page.
-- Use a VPN: If the page is restricted in your current location, you can try using a virtual private network (VPN) to access Freshdesk from a different location.
-- Contact Freshdesk 지원: It will be shown if your 계정 has the IP whitelisting feature enabled or if your IP has been blocked. If the 문제 persists, reach out to Freshdesk 지원 with your Public IP address for assistance. They can investigate the specific 오류 and provide further guidance to resolve the 문제.In case of the latter, please contact Freshdesk 지원 with your Public IP address and we would assist you further regarding this instance.
+Our 데이터 Centres are located 에서 US, EEA, UAE, IND, 그리고 AU. 로 learn more about our 데이터 hosting you, refer 로 [https://www.freshworks.com/privacy/데이터-hosting/](https://www.freshworks.com/privacy/데이터-hosting/)You can 선택 your preferred 데이터 location 언제 you sign up 위해 your 계정. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50012706959/original/LLKRrTD8Jq6cBuK3sP2WiPwy5LF3klesCg.png?1723118643) 만약 there are any 특정한 regulatory requirements 그리고 performance considerations, 그리고 you are looking 로 migrate your 데이터 로 different 데이터 center region, 연락하다 [지원@freshdesk.com](mailto:지원@freshdesk.com).
 
 </details>
 
 <details>
-<summary><strong>the Remote 로그인 URL은 무엇인가요?</strong></summary>
+<summary><strong>bypass SSO 로그인 언제 I have it enabled?하는 방법은 무엇인가요?</strong></summary>
 
-While setting up an SSO, the users would have to 로그인 from a common 로그인 URL, to be authenticated using SSO. The Remote 로그인 URL is that URL to which your users would be redirected when they hit the 로그인 button on your 포털 after you have set up an SSO.You would have to update this field with the common 로그인 URL, while setting up SSO for your Freshdesk 계정.
-
-</details>
-
-<details>
-<summary><strong>왜 am I getting the 'Invalid Time Stamp' 오류 when I try to 로그인 using an SSO인가요?</strong></summary>
-
-You will be prompted with  **'Invalid Time Stamp**' 오류 when the difference between the UTC timestamp generated by your server and ours is more than 30 seconds. Ensuring that your servers stay in sync with the NTP server ([https://en.wikipedia.org/wiki/Network_Time_Protocol](https://en.wikipedia.org/wiki/Network_Time_Protocol)) will sort out this 문제.If you continue to face issues, kindly write to **지원@freshdesk.com** and one of our 상담원 will assist you further.
+You can make use 의 companyname.freshdesk.com/로그인/normal 그리고 입력 your valid Freshdesk credentials 로 access 계정.
 
 </details>
 
 <details>
-<summary><strong>왜 am I getting a '로그인 unsuccessful' 오류 on the AD SSO인가요?</strong></summary>
+<summary><strong>I get 'Unable 로 allocate day pass' 오류 while logging 에서. resolve this?하는 방법은 무엇인가요?</strong></summary>
 
-This 오류 message denoting authentication failure would be because of an 오류 in setting up the SSO. To analyse this, we would require the debug log. Please enter **?debug=1 **at the end of the URL that is generated, to retrieve the debug log**. **Also, please check the constructed URL after the 로그인, to see if the Hash is generated or not.If the 문제 persists, please send an 이메일 to [지원@freshdesk.com](mailto:지원@freshdesk.com).
-
-</details>
-
-<details>
-<summary><strong>왜 are my 상담원 not able to 로그인 through AD SSO인가요?</strong></summary>
-
-Please check if the agent who is logging in is using their 이메일 address which is part of the AD. Also, if they are a user on the AD, you would have to make sure if their user profile on the AD has permissions to use SSO. The 이메일 address from your AD is the parameter that Freshdesk checks while authenticating the 로그인, to locate their profile on Freshdesk.
+만약 you have been added as Occasional Agent 에서 your 계정, 그리고 만약 your 계정 does not have sufficient day passes 로 log 에서, you will encounter this 오류. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50009297562/original/mkdFEgNk-DWkn-_1XGWIh0ReJ5wGmhSpHw.png?1693234132) You can get 에서 touch 와 함께 your 계정 Administrators, 그리고 they can assist you 에서 purchasing day passes 위해 logging 에서. new day pass can be added 로 your 계정 에서 within **관리자 > 계정 > Day passes**. You can also view day pass Usage History 에 same page. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50009297555/original/NfM5szmg2E7kodMBWheWlfNkQL99zYHYeQ.png?1693234122)
 
 </details>
 
 <details>
-<summary><strong>왜 are the names under my 상담원' profiles automatically changed every time they log in인가요?</strong></summary>
+<summary><strong>I see 오류 'Sorry we couldn’t locate your 계정' 언제 I try 로 로그인. 문제 here?이란은 무엇인가요?</strong></summary>
 
-After every 로그인 with an SSO, Freshdesk will sync the name of the 상담원 with the names in your SSO database. Hence, the names in Freshdesk would automatically be updated.To fix this, please check how the names of the 상담원 are configured on your SSO database.Also, we 지원 UTF-8 encoded special characters only; so if the name contains any unsupported special characters, we would change it to the English equivalent.
-
-</details>
-
-<details>
-<summary><strong>왜 are my 상담원 logged back in to the 포털 automatically after they log out인가요?</strong></summary>
-
-This would be because of an incorrect **Remote Logout URL**.** **If you have entered the 로그인 page of the 포털 as the Remote Logout URL, please have that modified and give this another try.
+만약 이메일 address that was entered 위해 로그인, is not agent/연락하다 에서 계정, 그러면 this 오류 would be displayed. You could sign up 위해 new 계정, using Sign Up option 에 포털, 또는 ask 로 be added as Agent 에서 under **관리자 >팀 > 상담원** 에서 your 계정. Once this is done, you could log 에서 로 your Freshdesk 계정. 만약 you continue 로 face issues 와 함께 로그인, 문의하다 로 Freshdesk 지원 through 지원@freshdesk.com 로 know 상담원 에 your Freshdesk 계정 그리고 we would assist you 에서 getting over this instance.
 
 </details>
 
 <details>
-<summary><strong>SSO is not working and getting the message 'Session expired. Please 로그인 again'</strong></summary>
+<summary><strong>왜 am I getting ‘You’re not allowed 로 access this page’ 오류?</strong></summary>
 
-We use the UTC timestamp to generate the hash for validation. Before we were allowing the hash to be valid for 30 minutes, but now we have updated it to be valid for 30 seconds alone. Please check if your SSO server is in sync with the UTC time.If your server is in sync, and you're still getting the session expired 오류, please drop an 이메일 to 지원@freshdesk.com.
-
-</details>
-
-<details>
-<summary><strong>SSO 오류: 로그인 was unsuccessful! - Validation Failed : Invalid Signature on SAML Response</strong></summary>
-
-This 오류 occurs when there is a mismatch in the signature.To extract the SHA signature from Google,- In the Google 관리자 console, navigate to Security > Set up single sign on and click on the download Certificate.
-- Open the downloaded .pem extension file using notepad/sublime text editor.- Copy the certificate from the notepad/sublime text-editor and paste it in the X.509 certificate section in [https://www.samltool.com/fingerprint.php](https://www.samltool.com/fingerprint.php)- Make sure that you’ve selected SHA256 as the algorithm and click on calculate fingerprint.- Enter the key displayed in the formatted fingerprint text box in your Freshdesk 계정 under 관리자 > Security > SAML >Security Certificate Fingerprint > Save.
+You will encounter 오류 ‘You’re not allowed 로 access this page,’ 만약 you 클릭 에 link you don’t have access 로 또는 do not have right 로 view. Let us consider following scenarios. [](https://docs.google.com/document/d/1TkgdOi7mpoUrb-i9DH2VbF-eSPoJ5g91BYqgf1wN4ws/편집#heading=h.yrkszl4y4q1j) [오류 displayed 위해 상담원](#오류-displayed-위해-상담원) [오류 displayed 위해 customers](#오류-displayed-위해-customers) **오류 displayed 위해 상담원** 만약 you are agent 그리고 receive this 오류 message after you 클릭 에 ticket 로 view its details, you do not have permission 로 view ticket. Please 확인하다 만약 you have correct ticket scope (Group level 또는 Global access) under 상담원 page. **오류 displayed 위해 customers** As 고객, 언제 you 클릭 에 URL 의 해결책 article displayed only 로 특정한 company (Restricted Access) 그리고 you are not part 의 that company, 그러면 this 오류 would appear. Please 문의하다 로 [지원@freshdesk.com](mailto:지원@freshdesk.com) 만약 오류 appears 에서 scenarios other than those mentioned above.
 
 </details>
 
 <details>
-<summary><strong>There is a not secure message when accessing the system from Chrome</strong></summary>
+<summary><strong>왜 am I getting 오류 '포털 is not 사용 가능한 에서 your location' while trying 로 access Freshdesk page?</strong></summary>
 
-If this is happening for your vanity URL, then you have to set up an SSL certificate for your custom domain.SSL options for custom domains are available from the Blossom 요금제. Please write to us at  **지원@freshdesk.com**,  and our 지원 팀 will help you in obtaining the SSL certificate..Once you receive the 이메일, please follow the instructions to confirm your request for an SSL certificate.Click [here](https://지원.freshdesk.com/en/지원/solutions/articles/90479-configuring-a-custom-ssl-certificate-for-your-지원-포털) to read more on Configuring a custom SSL certificate for your 지원 포털.
-
-</details>
-
-<details>
-<summary><strong>계정을 취소하면 데이터는 언제 삭제되나요?</strong></summary>
-
-When an 계정 is deleted, all associated data is destroyed within 14 days.
+오류 message "포털 is not 사용 가능한 에서 your location" typically occurs 언제 you try 로 access Freshdesk page, 하지만 page is restricted 또는 not accessible 에서 your current location. There are several possible reasons 위해 this 오류: - Geographical Restrictions: Some Freshdesk pages 또는 features may have geographical restrictions, 그리고 they may not be 사용 가능한 에서 certain regions 또는 countries due 로 legal 또는 compliance reasons. - IP Restrictions: Your IP address might be 에서 location that is blocked 또는 restricted 에서 accessing 특정한 Freshdesk pages 또는 services. - Limited Access Permissions: Your user 계정 또는 role might not have necessary permissions 로 access particular page you are trying 로 view. - Page Unavailability: page you are trying 로 access could be temporarily unavailable due 로 maintenance 또는 other technical issues. - Network 또는 Firewall Restrictions: Your network 또는 firewall 설정 could be preventing access 로 certain Freshdesk pages. 로 resolve 문제: - 확인하다 Permissions: 확인하다 that your user 계정 has appropriate permissions 로 access page 에서 question. 만약 needed, 연락하다 your Freshdesk 계정 관리자 로 확인하다 그리고 adjust your permissions. - 확인하다 Page Availability: Confirm 만약 page you are trying 로 access is indeed 사용 가능한 그리고 not undergoing maintenance 또는 restricted 위해 특정한 locations. - 확인하다 Network 설정: 만약 you are accessing Freshdesk 에서 workplace 또는 public network, 확인하다 만약 any network 또는 firewall 설정 are blocking access 로 page. - Use VPN: 만약 page is restricted 에서 your current location, you can try using virtual private network (VPN) 로 access Freshdesk 에서 different location. - 연락하다 Freshdesk 지원: It will be shown 만약 your 계정 has IP whitelisting feature enabled 또는 만약 your IP has been blocked. 만약 문제 persists, 문의하다 로 Freshdesk 지원 와 함께 your Public IP address 위해 assistance. They can investigate 특정한 오류 그리고 제공하다 further guidance 로 resolve 문제. 에서 case 의 latter, please 연락하다 Freshdesk 지원 와 함께 your Public IP address 그리고 we would assist you further regarding this instance.
 
 </details>
 
 <details>
-<summary><strong>Freshdesk 계정에 가입하는 방법</strong></summary>
+<summary><strong>Remote 로그인 URL?이란은 무엇인가요?</strong></summary>
 
-To open or create a Freshdesk 계정, start with the free trial at [https://freshdesk.com/signup](https://freshdesk.com/signup)
+While setting up SSO, users would have 로 로그인 에서 일반적인 로그인 URL, 로 be authenticated using SSO. Remote 로그인 URL is that URL 로 which your users would be redirected 언제 they hit 로그인 button 에 your 포털 after you have set up SSO. You would have 로 업데이트 this 필드 와 함께 일반적인 로그인 URL, while setting up SSO 위해 your Freshdesk 계정.
 
 </details>
 
 <details>
-<summary><strong>authenticate WordPress users to 로그인 to Freshdesk하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>왜 am I getting 'Invalid Time Stamp' 오류 언제 I try 로 로그인 using SSO?</strong></summary>
 
-You can set up single sign-on for your WordPress users to easily log in to Freshdesk using the Freshdesk plugin for WordPress.You can use the plugin to enable your users to seamlessly and securely log in to Freshdesk. To do so, you first need to install the [Freshdesk WordPress plugin](https://wordpress.org/plugins/freshdesk-지원/). You can install the plugin from the plugins directory if your site runs on self-hosted WordPress. If you use WordPress.com, you need to be on the [Business 요금제 or above](https://wordpress.com/pricing/) to install this plugin.Click here to read a step-by-step guide on [authenticating WordPress users into your Freshdesk 계정](https://지원.freshdesk.com/en/지원/solutions/articles/50000001053) in more detail.
+You will be prompted 와 함께 **'Invalid Time Stamp**' 오류 언제 difference between UTC timestamp generated 에 의해 your server 그리고 ours is more than 30 seconds. Ensuring that your servers stay 에서 sync 와 함께 NTP server ([https://en.wikipedia.org/wiki/Network_Time_Protocol](https://en.wikipedia.org/wiki/Network_Time_Protocol)) will sort out this 문제. 만약 you continue 로 face issues, kindly write 로 **지원@freshdesk.com** 그리고 one 의 our 상담원 will assist you further.
+
+</details>
+
+<details>
+<summary><strong>왜 am I getting '로그인 unsuccessful' 오류 에 AD SSO?</strong></summary>
+
+This 오류 message denoting authentication failure would be because 의 오류 에서 setting up SSO. 로 analyse this, we would require debug log. Please 입력 **?debug=1**에서 end 의 URL that is generated, 로 retrieve debug log**.** Also, please 확인하다 constructed URL after 로그인, 로 see 만약 Hash is generated 또는 not. 만약 문제 persists, please send 이메일 로 [지원@freshdesk.com](mailto:지원@freshdesk.com).
+
+</details>
+
+<details>
+<summary><strong>왜 are my 상담원 not able 로 로그인 through AD SSO?</strong></summary>
+
+Please 확인하다 만약 agent who is logging 에서 is using their 이메일 address which is part 의 AD. Also, 만약 they are user 에 AD, you would have 로 make sure 만약 their user profile 에 AD has permissions 로 use SSO. 이메일 address 에서 your AD is parameter that Freshdesk checks while authenticating 로그인, 로 locate their profile 에 Freshdesk.
+
+</details>
+
+<details>
+<summary><strong>왜 are names under my 상담원' profiles automatically changed every time they log 에서?</strong></summary>
+
+After every 로그인 와 함께 SSO, Freshdesk will sync name 의 상담원 와 함께 names 에서 your SSO database. Hence, names 에서 Freshdesk would automatically be updated. 로 fix this, please 확인하다 how names 의 상담원 are configured 에 your SSO database. Also, we 지원 UTF-8 encoded special characters only; so 만약 name contains any unsupported special characters, we would change it 로 English equivalent.
+
+</details>
+
+<details>
+<summary><strong>왜 are my 상담원 logged back 에서 로 포털 automatically after they log out?</strong></summary>
+
+This would be because 의 incorrect **Remote Logout URL**.****만약 you have entered 로그인 page 의 포털 as Remote Logout URL, please have that modified 그리고 give this another try.
+
+</details>
+
+<details>
+<summary><strong>SSO is not working 그리고 getting message 'Session expired. Please 로그인 again'은 무엇인가요?</strong></summary>
+
+We use UTC timestamp 로 generate hash 위해 validation. Before we were allowing hash 로 be valid 위해 30 minutes, 하지만 now we have updated it 로 be valid 위해 30 seconds alone. Please 확인하다 만약 your SSO server is 에서 sync 와 함께 UTC time. 만약 your server is 에서 sync, 그리고 you're still getting session expired 오류, please drop 이메일 로 지원@freshdesk.com.
+
+</details>
+
+<details>
+<summary><strong>SSO 오류: 로그인 was unsuccessful! - Validation Failed : Invalid Signature 에 SAML Response은 무엇인가요?</strong></summary>
+
+This 오류 occurs 언제 there is mismatch 에서 signature. 로 extract SHA signature 에서 Google, - 에서 Google 관리자 console, 이동 로 보안 > Set up single sign 에 그리고 클릭 에 다운로드 Certificate. - Open downloaded .pem extension file using notepad/sublime text editor. - Copy certificate 에서 notepad/sublime text-editor 그리고 paste it 에서 X.509 certificate section 에서 [https://www.samltool.com/fingerprint.php](https://www.samltool.com/fingerprint.php) - Make sure that you’ve selected SHA256 as algorithm 그리고 클릭 에 calculate fingerprint. - 입력 key displayed 에서 formatted fingerprint text box 에서 your Freshdesk 계정 under 관리자 > 보안 > SAML >보안 Certificate Fingerprint > 저장.
+
+</details>
+
+<details>
+<summary><strong>There is not secure message 언제 accessing system 에서 Chrome은 무엇인가요?</strong></summary>
+
+만약 this is happening 위해 your vanity URL, 그러면 you have 로 set up SSL certificate 위해 your 사용자 정의 domain. SSL options 위해 사용자 정의 domains are 사용 가능한 에서 Blossom 요금제. Please write 로 us 에서 **지원@freshdesk.com**, 그리고 our 지원 팀 will help you 에서 obtaining SSL certificate.. Once you receive 이메일, please follow instructions 로 confirm your request 위해 SSL certificate. 클릭 [here](https://지원.freshdesk.com/en/지원/solutions/articles/90479-configuring--사용자 정의-SSL-certificate-위해-your-지원-포털) 로 read more 에 Configuring 사용자 정의 SSL certificate 위해 your 지원 포털.
+
+</details>
+
+<details>
+<summary><strong>언제 will 데이터 be deleted once I 취소 my 계정?</strong></summary>
+
+언제 계정 is deleted, all associated 데이터 is destroyed within 14 days.
+
+</details>
+
+<details>
+<summary><strong>sign up 위해 Freshdesk 계정하는 방법은 무엇인가요?</strong></summary>
+
+로 open 또는 생성 Freshdesk 계정, start 와 함께 free trial 에서 [https://freshdesk.com/signup](https://freshdesk.com/signup)
+
+</details>
+
+<details>
+<summary><strong>authenticate WordPress users 로 로그인 로 Freshdesk?하는 방법은 무엇인가요?</strong></summary>
+
+You can set up single sign-에 위해 your WordPress users 로 easily log 에서 로 Freshdesk using Freshdesk plugin 위해 WordPress. You can use plugin 로 활성화 your users 로 seamlessly 그리고 securely log 에서 로 Freshdesk. 로 do so, you first need 로 install [Freshdesk WordPress plugin](https://wordpress.org/plugins/freshdesk-지원/). You can install plugin 에서 plugins directory 만약 your site runs 에 self-hosted WordPress. 만약 you use WordPress.com, you need 로 be 에 [Business 요금제 또는 above](https://wordpress.com/pricing/) 로 install this plugin. 클릭 here 로 read step-에 의해-step guide 에 [authenticating WordPress users into your Freshdesk 계정](https://지원.freshdesk.com/en/지원/solutions/articles/50000001053) 에서 more detail.
 
 </details>
 

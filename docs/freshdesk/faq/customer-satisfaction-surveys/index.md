@@ -11,87 +11,86 @@ sidebar_position: 1
 :::
 
 <details>
-<summary><strong>have more than a 3 point scale on my 고객 satisfaction surveys하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>have more than 3 point scale 에 my 고객 satisfaction surveys?하는 방법은 무엇인가요?</strong></summary>
 
-With the new Satisfaction Survey in Freshdesk, you would be able to customize your surveys with more than 3 point scales. This new satisfaction survey is available from the** Pro** (previously **Estate) **요금제 onwards.So, if you are using an 계정 in the **Pro or Enterprise** 요금제 (previously  **Estate or Forest 요금제)**, please do drop in an 이메일 to **지원@freshdesk.com** and we would have this enabled.Please navigate to **관리자 -> Workflows -> 고객 satisfaction -> click**** on edit** to customize this once it is enabled.
-
-</details>
-
-<details>
-<summary><strong>change the Survey Pitch하는 방법은 무엇인가요?</strong></summary>
-
-While sending the survey, you could **add your own content**, requesting the 고객 to rate their experience. This could be something like "Please tell us what you think of your 지원 experience".If you wish to change this text, please navigate to **관리자 -> Workflows -> 고객 Satisfaction -> Edit **which would allow you to edit the content available under the **"Survey Question"** field. Hit on **"Save"** to use the edited text for future surveys.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50001119968/original/_yNgtfRGIkaybl_DQGnXMO5FDtdripyhTA.png?1589867787)
+와 함께 new Satisfaction Survey 에서 Freshdesk, you would be able 로 사용자 정의하다 your surveys 와 함께 more than 3 point scales. This new satisfaction survey is 사용 가능한 에서 **Pro** (previously **Estate)**요금제 onwards. So, 만약 you are using 계정 에서 **Pro 또는 Enterprise** 요금제 (previously **Estate 또는 Forest 요금제)**, please do drop 에서 이메일 로 **지원@freshdesk.com** 그리고 we would have this enabled. Please 이동 로 **관리자 -> Workflows -> 고객 satisfaction -> 클릭****에 편집** 로 사용자 정의하다 this once it is enabled.
 
 </details>
 
 <details>
-<summary><strong>have a questionnaire after the default survey is sent out하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>change Survey Pitch?하는 방법은 무엇인가요?</strong></summary>
 
-With the new surveys in Freshdesk, you would be able to set up an additional set of questions that you could send out to the customers.Please navigate to **관리자 -> Workflows ** -> 고객 satisfaction -> click on edit next to the survey to be taken to the survey details. Below the thank you page, there is an additional questions section that could be set up and sent out to the 고객.If you are on the **Estate 요금제 or higher**, drop a quick 이메일 to **지원@freshdesk.com** to have this enabled for your 계정.
-
-</details>
-
-<details>
-<summary><strong>I haven't sent out the survey to the 고객 but still there seems to a rating on the ticket. How is this possible?</strong></summary>
-
-If you have enabled the satisfaction surveys, the customers would also have the ability to rate the closed ticket from the 고객 포털 itself.Please check whether it is enabled in **관리자 -> Workflows **-> 고객 satisfaction and toggle the survey off if you do not want this to go out to customers.
+While sending survey, you could **추가 your own content**, requesting 고객 로 rate their experience. This could be something like "Please tell us what you think 의 your 지원 experience". 만약 you wish 로 change this text, please 이동 로 **관리자 -> Workflows -> 고객 Satisfaction -> 편집**which would allow you 로 편집 content 사용 가능한 under **"Survey Question"** 필드. Hit 에 **"저장"** 로 use edited text 위해 future surveys. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50001119968/original/_yNgtfRGIkaybl_DQGnXMO5FDtdripyhTA.png?1589867787)
 
 </details>
 
 <details>
-<summary><strong>I have configured the 고객 satisfaction surveys right, but when I run a quick test, I do not get the survey.</strong></summary>
+<summary><strong>have questionnaire after 기본값 survey is sent out?하는 방법은 무엇인가요?</strong></summary>
 
-The surveys would not be sent to you if the **requestor of the ticket is the same as an Agent** 이메일 address.Hence, please try sending the survey to a ticket where your agent address isn't the requestor (preferably from your personal address).
-
-</details>
-
-<details>
-<summary><strong>왜 the 고객 satisfaction surveys are not being sent인가요?</strong></summary>
-
-If the setting is set to send the survey when the status of a ticket is changed to Resolved or Closed, the satisfaction survey would be sent along with the Requester notifications of **'Agent Solves the Ticket'** and **'Agent Closes the Ticket'** respectively.Please navigate to **관리자 > Workflows** > 이메일 notifications > Requester notifications and toggle on the corresponding 이메일 notification to make sure that the survey is sent. If this is toggled off, then the survey would not be sent.The survey will also not be sent on 티켓 where the **requester of the ticket is also an agent** on the 헬프데스크 as it is not considered ideal for an agent to rate another agent.
+와 함께 new surveys 에서 Freshdesk, you would be able 로 set up additional set 의 questions that you could send out 로 customers. Please 이동 로 **관리자 -> Workflows** -> 고객 satisfaction -> 클릭 에 편집 next 로 survey 로 be taken 로 survey details. Below thank you page, there is additional questions section that could be set up 그리고 sent out 로 고객. 만약 you are 에 **Estate 요금제 또는 higher**, drop quick 이메일 로 **지원@freshdesk.com** 로 have this enabled 위해 your 계정.
 
 </details>
 
 <details>
-<summary><strong>have an NPS score using Freshdesk surveys하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>I haven't sent out survey 로 고객 하지만 still there seems 로 rating 에 ticket. How is this possible?</strong></summary>
 
-As of now, we do not have the ability to calculate the **NPS** via the Freshdesk surveys, but you sure could try out the [**Integration with Survey Monkey**](https://지원.freshdesk.com/지원/solutions/articles/119431-the-surveymonkey-app)** **that would help you get this done.Please navigate to **관리자 -> ****지원 Operations**** -> Apps** to bring this into your system.
-
-</details>
-
-<details>
-<summary><strong>create a new 고객 Satisfaction Survey하는 방법은 무엇인가요?</strong></summary>
-
-You would have a default 고객 satisfaction survey configured on your 계정. If you are looking to create a new and customized Satisfaction Survey, you could have this set up under **관리자 -> Workflows -> 고객 Satisfaction -> New Survey**.Once this is configured, you would be able to choose from the Survey list on which Survey you would like to associate with your 계정. At any given time, you could have only one Survey turned on.This feature is available from the **Pro** 요금제 (Previously **Garden**) onwards.
+만약 you have enabled satisfaction surveys, customers would also have ability 로 rate closed ticket 에서 고객 포털 itself. Please 확인하다 whether it is enabled 에서 **관리자 -> Workflows**-> 고객 satisfaction 그리고 toggle survey off 만약 you do not want this 로 go out 로 customers.
 
 </details>
 
 <details>
-<summary><strong>send CSAT survey in different languages for different customers할 수 있나요?</strong></summary>
+<summary><strong>I have configured 고객 satisfaction surveys right, 하지만 언제 I run quick test, I do not get survey.은 무엇인가요?</strong></summary>
 
-From Estate and above 요금제, you can localize the CSAT survey forms in your Freshdesk 계정 to match the preferred language in the 고객’s profile.Please refer to the article in the [](https://지원.freshdesk.com/지원/solutions/articles/50000000119-localize-your-feedback-forms-with-multilingual-고객-satisfaction-surveys)[link](https://지원.freshdesk.com/지원/solutions/articles/50000000119-localize-your-feedback-forms-with-multilingual-고객-satisfaction-surveys) for detailed information.
-
-</details>
-
-<details>
-<summary><strong>The CSAT survey emails are not being translated. What am I missing?</strong></summary>
-
-The CSAT survey 이메일 might not have been translated in the preferred language if any one of the following is true.**1.  **The language associated with the contact seems to be incorrect. The 고객’s preferred language is auto-detected by Freshdesk and saved in contact details based on their first interaction. This can be changed under **Contact > Edit Contact**.2. The survey will be sent in the default language if the translations for the 고객's preferred** language is not uploaded or available** in Freshdesk.3. The **‘secondary languages’** in your 헬프데스크 should be marked as **‘Visible in 포털’** for the surveys to be automatically translated to the corresponding languages
+surveys would not be sent 로 you 만약 **requestor 의 ticket is same as Agent** 이메일 address. Hence, please try sending survey 로 ticket where your agent address isn't requestor (preferably 에서 your personal address).
 
 </details>
 
 <details>
-<summary><strong>My 고객 is not receiving the survey 이메일 in the correct language. How to fix this?</strong></summary>
+<summary><strong>왜 고객 satisfaction surveys are not being sent?</strong></summary>
 
-The language in which the 이메일 notifications are being sent to the 고객 depends on the language that the particular contact has been associated with.Navigate to the profile of the contact under 연락처 tab > Edit Contact and change the language of the contact to the preferred language.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/data/헬프데스크/attachments/production/50001150171/original/tML2KJ191fHCxcU8-a7FM9v9zdd6PkrOcg.png?1590496005)
+만약 setting is set 로 send survey 언제 status 의 ticket is changed 로 Resolved 또는 Closed, satisfaction survey would be sent along 와 함께 Requester notifications 의 **'Agent Solves Ticket'** 그리고 **'Agent Closes Ticket'** respectively. Please 이동 로 **관리자 > Workflows** > 이메일 notifications > Requester notifications 그리고 toggle 에 corresponding 이메일 notification 로 make sure that survey is sent. 만약 this is toggled off, 그러면 survey would not be sent. survey will also not be sent 에 티켓 where **requester 의 ticket is also agent** 에 헬프데스크 as it is not considered ideal 위해 agent 로 rate another agent.
 
 </details>
 
 <details>
-<summary><strong>send a satisfaction survey for 티켓 that came through Facebook할 수 있나요?</strong></summary>
+<summary><strong>have NPS score using Freshdesk surveys?하는 방법은 무엇인가요?</strong></summary>
 
-Satisfaction surveys would be triggered through 이메일 notification. When a social ticket is created, we just fetch the 사용자명 of the user. So ideally, there is no direct option to send a CSAT survey for social 티켓.
-But you could integrate any third party tool and attach a survey link manually.
+As 의 now, we do not have ability 로 calculate **NPS** via Freshdesk surveys, 하지만 you sure could try out [**연동 와 함께 Survey Monkey**](https://지원.freshdesk.com/지원/solutions/articles/119431--surveymonkey-app)****that would help you get this done. Please 이동 로 **관리자 ->****지원 Operations****-> Apps** 로 bring this into your system.
+
+</details>
+
+<details>
+<summary><strong>생성 new 고객 Satisfaction Survey?하는 방법은 무엇인가요?</strong></summary>
+
+You would have 기본값 고객 satisfaction survey configured 에 your 계정. 만약 you are looking 로 생성 new 그리고 customized Satisfaction Survey, you could have this set up under **관리자 -> Workflows -> 고객 Satisfaction -> New Survey**. Once this is configured, you would be able 로 선택 에서 Survey list 에 which Survey you would like 로 associate 와 함께 your 계정. 에서 any given time, you could have only one Survey turned 에. This feature is 사용 가능한 에서 **Pro** 요금제 (Previously **Garden**) onwards.
+
+</details>
+
+<details>
+<summary><strong>send CSAT survey 에서 different languages 위해 different customers?할 수 있나요은 무엇인가요?</strong></summary>
+
+에서 Estate 그리고 above 요금제, you can localize CSAT survey forms 에서 your Freshdesk 계정 로 match preferred language 에서 고객’s profile. Please refer 로 article 에서 [](https://지원.freshdesk.com/지원/solutions/articles/50000000119-localize-your-feedback-forms-와 함께-multilingual-고객-satisfaction-surveys)[link](https://지원.freshdesk.com/지원/solutions/articles/50000000119-localize-your-feedback-forms-와 함께-multilingual-고객-satisfaction-surveys) 위해 detailed information.
+
+</details>
+
+<details>
+<summary><strong>CSAT survey emails are not being translated. What am I missing?</strong></summary>
+
+CSAT survey 이메일 might not have been translated 에서 preferred language 만약 any one 의 following is true. **1.** language associated 와 함께 연락하다 seems 로 be incorrect. 고객’s preferred language is auto-detected 에 의해 Freshdesk 그리고 saved 에서 연락하다 details based 에 their first interaction. This can be changed under **연락하다 > 편집 연락하다**. 2. survey will be sent 에서 기본값 language 만약 translations 위해 고객's preferred**language is not uploaded 또는 사용 가능한** 에서 Freshdesk. 3. **‘secondary languages’** 에서 your 헬프데스크 should be marked as **‘Visible 에서 포털’** 위해 surveys 로 be automatically translated 로 corresponding languages
+
+</details>
+
+<details>
+<summary><strong>My 고객 is not receiving survey 이메일 에서 correct language. fix this?하는 방법은 무엇인가요?</strong></summary>
+
+language 에서 which 이메일 notifications are being sent 로 고객 depends 에 language that particular 연락하다 has been associated 와 함께. 이동 로 profile 의 연락하다 under 연락처 tab > 편집 연락하다 그리고 change language 의 연락하다 로 preferred language. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50001150171/original/tML2KJ191fHCxcU8-a7FM9v9zdd6PkrOcg.png?1590496005)
+
+</details>
+
+<details>
+<summary><strong>send satisfaction survey 위해 티켓 that came through Facebook?할 수 있나요은 무엇인가요?</strong></summary>
+
+Satisfaction surveys would be triggered through 이메일 notification. 언제 social ticket is created, we just fetch 사용자명 의 user. So ideally, there is no direct option 로 send CSAT survey 위해 social 티켓. 하지만 you could integrate any third party tool 그리고 attach survey link manually.
 
 </details>
 
