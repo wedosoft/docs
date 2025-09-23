@@ -57,7 +57,7 @@ sidebar_position: 1
 <details>
 <summary>Are Freshdesk (standalone version) and Freshdesk Omnichannel PCI compliant?</summary>
 
-<p dir="ltr"><span dir="ltr" style={{ fontFamily: "Arial"", fontSize: "16px", color: "rgb(0, 0, 0)" }}>No.&nbsp;</span><span style={{ fontFamily: "Arial"", fontSize: "16px" }}>Only Freshdesk (standalone version) via the vault service is PCI compliant, whereas Freshdesk Omnichannel is not. Although Freshdesk isn’t intended to be used as a billing platform, cardholder data as per the PCI-DSS can be stored. The information is encrypted and is made available on-demand only to users who have the privilege to access the data.</span></p>
+<p dir="ltr"><span dir="ltr" style={{ fontFamily: "Arial", fontSize: "16px", color: "rgb(0, 0, 0)" }}>No.&nbsp;</span><span style={{ fontFamily: "Arial", fontSize: "16px" }}>Only Freshdesk (standalone version) via the vault service is PCI compliant, whereas Freshdesk Omnichannel is not. Although Freshdesk isn’t intended to be used as a billing platform, cardholder data as per the PCI-DSS can be stored. The information is encrypted and is made available on-demand only to users who have the privilege to access the data.</span></p>
 
 </details>
 
