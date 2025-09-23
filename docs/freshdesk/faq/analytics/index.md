@@ -11,135 +11,135 @@ sidebar_position: 1
 :::
 
 <details>
-<summary><strong>I 속하다 로 Estate 요금제. 하지만, 왜 am I not able 로 생성 사용자 정의 report?</strong></summary>
+<summary><strong>I belong 로 Estate 요금제. 하지만, why am I not able 로 생성하다 사용자 정의 보고서? 는 무엇인가요?</strong></summary>
 
-사용자 정의 보고서 are part 의 **Estate’19 요금제**. 만약 you 속하다 로 Estate’17 요금제 (annual 결제), you can 선택 로 업그레이드하다 로 Estate’19 요금제 위해 free. 만약 you 속하다 로 Estate’17 요금제 (monthly 결제), you can 업그레이드하다 에 의해 paying extra 의 **$6/agent/month** 에서 addition 로 **$59/agent/month**.
-
-</details>
-
-<details>
-<summary><strong>큐레이티드 보고서와 커스텀 보고서의 차이점?이란은 무엇인가요?</strong></summary>
-
-큐레이티드 보고서 Freshdesk의 큐레이티드 보고서는 지원 성과에 대한 전방위적인 시각을 제공합니다. 팀의 성과를 가장 관련성 높은 지표와 함께 모니터링하십시오. 또한 더 나은 고객 경험을 설계하는 데 필요한 핵심 정보를 제공합니다. 커스텀 보고서 와 함께 다수의 ways 로 look 에서 헬프데스크 reporting, Freshdesk's 분석 lets you [사용자 정의하다 그리고 build your 보고서](https://지원.freshdesk.com/en/지원/solutions/articles/50000001028-사용자 정의-reporting-%E2%80%93-basics) way you want them - 와 함께 minimal effort. 연구하고 싶은 지표를 선택할 수 있는 유연성, 적용하고 싶은 적절한 필터를 선택할 수 있는 적응성, 데이터를 분석하기 위한 완벽한 차원을 활용할 수 있는 능력을 제공합니다. Learn more about [Basics 의 분석](https://freshdesk.com/webinars/get--most-out-의-freshdesk-분석-recording) through our webinar 와 함께 insights 에 큐레이티드 보고서, creating 사용자 정의 보고서 위해 your 헬프데스크, learning 로 apply filters 에 보고서, 그리고 much more. You can also refer 로 our [분석 guide](https://freshdesk.com/assets/resources/freshdesk/Make-informed-decisions-와 함께-Freshdesk-분석.pdf) 위해 다양한 use cases 로 implement 에서 your 헬프데스크.
+사용자 정의 보고서 are part 의 **Estate’19 plan**. If you belong 로 Estate’17 plan (연간 결제), you 할 수 있습니다 선택하다 로 upgrade 로 Estate’19 plan 위해 free. If you belong 로 Estate’17 plan (월간 결제), you 할 수 있습니다 upgrade 에 의해 paying extra 의 **$6/agent/month** 에서 addition 로 **$59/agent/month**.
 
 </details>
 
 <details>
-<summary><strong>특정 위젯에 속한 원시 데이터 찾기?하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>What is difference between Curated 및 사용자 정의 보고서? 는 무엇인가요?</strong></summary>
 
-위젯 데이터 유형에 따라 Freshdesk는 관련 형식으로 자동 시각화합니다. 따라서 위젯에서 데이터를 읽는 것은 간단한 과정입니다. 데이터를 읽으려면 위젯을 클릭하십시오. 원하는 방식으로 특정 위젯의 시각화를 사용자 정의할 수도 있습니다. 막대 차트, 수평 막대 차트, 도넛 차트, 요약 테이블, 표 형식 등 모든 그래픽 표현을 선택할 수 있습니다. 위젯 데이터를 자세히 살펴보려면 위젯 아래의 기본 데이터 표시를 클릭하십시오. You can use **편집 열** button 로 추가 또는 제거 Fields present 에서 테이블. 필터를 사용하여 기본 데이터를 더 자세히 드릴다운할 수 있습니다. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50011677426/original/TbpIAzuQFBbbYX_NQar5QNLRwbP0yZQu_g.png?1714388080)
-
-</details>
-
-<details>
-<summary><strong>분석에서 보고서 데이터 내보내기?하는 방법은 무엇인가요?</strong></summary>
-
-Inside every report, you have 내보내기 icon below search bar. You can 클릭 this icon 로 내보내기 report as PDF 하지만 not as CSV. However, you will be able 로 내보내기 both Graph 데이터 as well as Tabular 데이터 (Underlying 데이터) present 에서 widgets 에서 form 의 CSV. **Underlying 데이터:** underlying 데이터 refers 로 original, detailed information stored within platform's database. Essentially, it serves as raw material 에서 which insights 그리고 보고서 are derived. This 데이터 provides foundation 위해 deeper analysis 그리고 understanding 의 고객 interactions 그리고 지원 processes. It can be exported 에 의해 selecting CSV 의 tabular 데이터 에서 위젯.**Graph 데이터:**Graph 데이터 represents summarized 그리고 visualized insights drawn 에서 underlying 데이터. This visual representation offers distilled view 의 key performance indicators, making it easier 위해 users 로 grasp trends 그리고 make informed decisions without delving into detailed raw 데이터. It can be exported 에 의해 selecting CSV 의 graph 데이터. **Steps t****o 내보내기 complete report as PDF** - Go 로 **분석**. - 선택 report you would like 로 내보내기 그리고 클릭 에 it. - Inside report, 이동 로 내보내기 icon 그리고 선택 **내보내기 report**에서 dropdown. - Here you can 선택 pages 에서 report you want 로 내보내기 그리고 클릭 **Ex****port**. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008538563/original/Ty8VTeMNRh3lqG1Q3r2Mx-8ylzlVf9WoFA.gif?1686030405) report will now be sent as PDF file 로 your registered 이메일 address. **Steps t****o 내보내기 위젯 level report** - Go 로 분석 - Open report - Expand desired 위젯 - 클릭 options 위해 위젯 represented as three horizontal dots. - 선택 **내보내기 로 이메일/****다운로드 > CSV/PDF 의 graph/tabular 데이터** accordingly Below are items you need 로 consider 언제 exporting 보고서. - Make sure date range 의 내보내기 is correct 그리고 valid across 위젯 level/Page level/Report level filters. 만약 date 필터 is set different 에서 Page level/Report level filters, than one 에서 위젯 level, exported 데이터 may not have expected results. - Make sure you are selecting Graph 데이터 위해 trend numbers you see 에서 위젯 그리고 Underlying 데이터 위해 complete 데이터 set 의 위젯. You can 선택 up 로 20 fields as columns 위해 내보내기 에서 underlying 데이터 에 의해 editing report, 그리고 adding fields using 'Gear' icon as shown below. Based 에 volume 의 데이터, it may take several minutes 로 내보내기 그리고 send 데이터 로 your mailbox. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50011764334/original/bpdGfr616jWZxG5Op9aMFOYDTmTjOe7WSQ.jpeg?1715147318) 참고: 만약 date range is correctly set 그리고 you still do not receive 내보내기 위해 specified date range, try this troubleshooting step: 편집 report, 제거 date range 필터, 저장 report, 그러면 편집 it again 그리고 reapply desired date range. Finally, 저장 report 그리고 proceed 와 함께 내보내기. 만약 you still face issues, 문의하다 로 our 지원. --- **로 schedule 데이터 내보내기:** - 로그인 로 your 지원 포털 as **관리자/Supervisor.** - Go 로 **분석 >**클릭 **gear icon(****설정)**에 top right corner **>** 선택**데이터****Exports.** - 클릭 에 **생성 내보내기.** - Give it **Name**, **Description** 그리고 선택 **Module** 에서 which you want 로 내보내기 데이터: 티켓, Timesheet, Surveys, Survey results, Articles, 그리고 Triage. - 선택 언제 you'd like 로 receive 내보내기 에서 **Schedule** dropdown 필드 (**Daily, Weekly 또는 Monthly**) 그리고 그러면 set 필수 time. - Set any**Filters**의 your choice. All your **dropdown** 그리고 **dependent fields** will be displayed. - 선택 **Ticket** fields 그리고/또는 **Tag fields** you want 로 include 에서 **CSV**file. 참고: It is not possible 로 use date range dimension 필터 언제 creating 내보내기 via 데이터 Exports 에서 분석 **로 receive 내보내기 file via API** - Copy 그리고 paste URL 에서 your Business Intelligence tool. - Once you hit **API** 에서 your **BI tool**, you will receive response 에서 following format: \{ "내보내기":\{ "url":"..."\}\} URL parameter holds link 로 latest 내보내기 file 위해 that schedule. file will be 사용 가능한 위해 30 days 에서 date 의 creation. **로 access your 데이터 exports:** - 로 view exports that you had scheduled, go 로 **분석 >**클릭 **gear icon (****설정)**에 top right corner**>**선택**데이터****Exports.** - You'll be able 로 view **Title**, **Frequency**, 그리고 **Status** 의 your 데이터 내보내기 here. - 클릭 에 **Title** 로 open 데이터 내보내기 schedule, 그리고 use **Active** toggle 로 deactivate schedule. - Use **다운로드** button that appears 언제 you hover over scheduled 내보내기 로 다운로드 사용 가능한 데이터 exports. - 내보내기 once scheduled, cannot be edited. You will have 로 삭제 it altogether 그리고 생성 one afresh. Use **삭제** button that appears 언제 you hover over scheduled 내보내기. **참고**: You might need assistance 에서 developer 로 hit API, so please 확인하다 that they have access 로 API key 의 person who created schedule. You can view following video 로 understand 내보내기 보고서 에서 분석.하는 방법 Learn more about [Basics 의 분석](https://freshdesk.com/webinars/get--most-out-의-freshdesk-분석-recording) through our webinar 와 함께 insights 에 큐레이티드 보고서, creating 사용자 정의 보고서 위해 your 헬프데스크, learning 로 apply filters 에 보고서, 그리고 much more. You can also refer 로 our [분석 guide](https://freshdesk.com/assets/resources/freshdesk/Make-informed-decisions-와 함께-Freshdesk-분석.pdf) 위해 다양한 use cases 로 implement 에서 your 헬프데스크.
+큐레이티드 보고서 Freshdesk의 큐레이티드 보고서는 지원 성과에 대한 전방위적 관점을 제공합니다. 가장 관련성 높은 지표와 함께 팀의 성과를 모니터링하십시오. 또한 더 나은 고객 경험을 계획하는 데 필요한 핵심 정보를 제공합니다. 사용자 정의 보고서 함께 multiple ways 로 look 에서 helpdesk reporting, Freshdesk's Analytics lets you [customize 및 build your reports](https://support. freshdesk. com/en/support/solutions/articles/50000001028-custom-reporting-%E2%80%93-basics) way you want them - 함께 minimal effort. It offers flexibility 로 선택하다 metric(s) you wish 로 study, adaptability 로 선택하다 suitable filters you want 로 apply, 및 capability 로 employ perfect dimensions 로 analyze your data. Learn 더 about [Basics 의 Analytics](https://freshdesk. com/webinars/get-the-most-out-의-freshdesk-analytics-recording) through our webinar 함께 insights 에서 큐레이티드 보고서, creating 사용자 정의 보고서 위해 your helpdesk, learning 로 apply filters 에서 reports, 및 많이 더. You 할 수 있습니다 또한 refer 로 our [Analytics guide](https://freshdesk. com/assets/resources/freshdesk/Make-informed-decisions-함께-Freshdesk-Analytics. pdf) 위해 various use cases 로 implement 에서 your helpdesk.
 
 </details>
 
 <details>
-<summary><strong>schedule report 에서 분석?할 수 있나요은 무엇인가요?</strong></summary>
+<summary><strong>How 로 find out raw data belonging 로 particular 위젯? 는 무엇인가요?</strong></summary>
 
-로 schedule your 사용자 정의 보고서 그리고 widgets. - 클릭 그리고 open **사용자 정의 report.** - 클릭 에 **내보내기** icon 에 top right corner. - 선택 **Schedule Report**에서 drop down**.** - Set **cadence, 사용자 정의하다 time 의 delivery, subject, 그리고 description** 로 suit your business. - Under Send 로, 추가 your 이메일 address. You can 추가 additional 이메일 addresses 에 의해 typing 필수 ones. - 클릭 **저장.** **참고**: 큐레이티드 보고서 cannot be scheduled. You can only schedule 사용자 정의 보고서. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008161285/original/rjB2lJS3fmzFZIR-lRQXay9Q1JmYV0nLqA.gif?1681986047)
-
-</details>
-
-<details>
-<summary><strong>Will I be able 로 schedule report widgets?</strong></summary>
-
-Yes, you can schedule widgets 의 사용자 정의 보고서 using Schedule option. You will be able 로 선택 Report Schedule date, its frequency, 그리고 이메일 content. You can also 선택 report 위젯 로 be scheduled 에서 form 의 PDF 또는 CSV. Please 참고 that you will not be able 로 schedule widgets 의 큐레이티드 보고서.
+Based 에서 type 의 위젯 data, Freshdesk 할 것입니다 automatically visualize it 에서 relevant format. 따라서, reading data 에서 위젯 is straightforward process. 클릭하다 위젯 로 read data. You 또한 have 옵션 로 customize visualization 의 certain widgets way you want. You 할 수 있습니다 선택하다 any graphical representation: Bar chart, Horizontal bar chart, Donut chart, Summary table, 및 Tabular. If you want 로 take closer look 에서 위젯 data, 클릭하다 Show underlying data below 위젯. You 할 수 있습니다 use **편집하다 Column** button 로 추가하다 또는 제거하다 Fields present 에서 table. You 할 수 있습니다 use filters 로 drill-down further 로 underlying data.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50011677426/original/TbpIAzuQFBbbYX_NQar5QNLRwbP0yZQu_g. png? 1714388080)
 
 </details>
 
 <details>
-<summary><strong>Can 데이터 에서 보고서/widgets be made realtime?</strong></summary>
+<summary><strong>How do I export report data 에서 Analytics? 는 무엇인가요?</strong></summary>
 
-보고서 그리고 widgets 에서 분석 have refresh time 의 30 minutes which is standard across all Freshdesk 요금제. Hence widgets/보고서 cannot be configured 로 reflect live 데이터 unlike 대시보드 feature, which is based 에 live 데이터.
-
-</details>
-
-<details>
-<summary><strong>configure widgets 와 함께 time period greater than corresponding report time frame?할 수 있나요은 무엇인가요?</strong></summary>
-
-Time period/date range 의 분석 report will be superset 의 time period specified 에서 widgets associated 와 함께 보고서. 에서 other words, 위젯 date range needs 로 be subset 의 report date range.
+Inside every report, you have Export icon below search bar. You 할 수 있습니다 클릭하다 this icon 로 export report as PDF 하지만 not as CSV. 하지만, you 될 것입니다 able 로 export both Graph data as well as Tabular data (Underlying data) present 에서 widgets 에서 form 의 CSV. **Underlying data:**underlying data refers 로 original, detailed information stored within 플랫폼's database. Essentially, it serves as raw material 에서 insights 및 reports are derived. This data provides foundation 위해 deeper analysis 및 understanding 의 customer interactions 및 support processes. It 할 수 있습니다 exported 에 의해 selecting CSV 의 tabular data 에서 위젯. **Graph data:**Graph data represents summarized 및 visualized insights drawn 에서 underlying data. This visual representation offers distilled 보다 의 key 성과 indicators, making it easier 위해 users 로 grasp trends 및 make informed decisions without delving 로 detailed raw data. It 할 수 있습니다 exported 에 의해 selecting CSV 의 graph data. **Steps t****o export complete report as PDF** - 이동하다 **Analytics**. - 선택하다 report you 할 것입니다 like 로 export 및 클릭하다 it. - Inside report, 이동하다 export icon 및 선택하다 **Export report**에서 dropdown. - Here you 할 수 있습니다 선택하다 pages 에서 report you want 로 export 및 클릭하다 **Ex****port**.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008538563/original/Ty8VTeMNRh3lqG1Q3r2Mx-8ylzlVf9WoFA. gif? 1686030405) report 할 것입니다 now be sent as PDF file 로 your registered email address. **Steps t****o export 위젯 level report** - 이동하다 Analytics - 열다 report - Expand desired 위젯 - 클릭하다 옵션 위해 위젯 represented as three horizontal dots. - 선택하다 **Export 로 email/****다운로드하다 > CSV/PDF 의 graph/tabular data** accordingly Below are items you need 로 consider when exporting reports. - 확인하다 date range 의 export is correct 및 valid across 위젯 level/Page level/Report level filters. If date filter is set different 에서 Page level/Report level filters, than one 에서 위젯 level, exported data 할 수 있습니다 not have expected results. - 확인하다 you are selecting Graph data 위해 trend numbers you 보다 에서 위젯 및 Underlying data 위해 complete data set 의 위젯. You 할 수 있습니다 선택하다 up 로 20 fields as columns 위해 export 에서 underlying data 에 의해 editing report, 및 adding fields using 'Gear' icon as shown below. Based 에서 volume 의 data, it 할 수 있습니다 take several minutes 로 export 및 send data 로 your mailbox.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50011764334/original/bpdGfr616jWZxG5Op9aMFOYDTmTjOe7WSQ. jpeg? 1715147318) Note: If date range is correctly set 및 you 여전히 do not receive export 위해 specified date range, try this troubleshooting step: 편집하다 report, 제거하다 date range filter, save report, then 편집하다 it again 및 reapply desired date range. Finally, save report 및 proceed 함께 export. If you 여전히 face issues, reach out 로 our support. --- ## **로 schedule data export:** - Login 로 your support portal as **Administrator/Supervisor. ** - 이동하다 **Analytics >**클릭하다 the**gear icon(****설정)**에서 top right corner **>** 선택하다**Data****Exports. ** - 클릭하다 **생성하다 Export. ** - Give it **Name**, **Description** 및 선택하다 **Module** 에서 you want 로 export data: Tickets, Timesheet, Surveys, Survey results, Articles, 및 Triage. - 선택하다 when you'd like 로 receive export 에서 **Schedule** dropdown field (**Daily, Weekly 또는 Monthly**) 및 then set 필수 time. - Set any**Filters**의 your choice. 모든 your **dropdown** 및 **dependent fields** 될 것입니다 displayed. - 선택하다 **Ticket** fields 및/또는 **Tag fields** you want 로 include 에서 **CSV**file. Note: It is not possible 로 use date range dimension filter when creating export via Data Exports 에서 Analytics ## **로 receive export file via API** - Copy 및 paste URL 에서 your Business Intelligence tool. - Once you hit **API** 에서 your **BI tool**, you 할 것입니다 receive response 에서 following format: \{ "export":\{ "url":". . . "\}\} URL parameter holds 연결 로 latest export file 위해 schedule. file 될 것입니다 사용 가능 위해 30 days 에서 date 의 creation. ## **로 접근 your data exports:** - 로 보다 exports you had scheduled, 이동하다 **Analytics >**클릭하다 the**gear icon (****설정)**에서 top right corner**>**선택하다**Data****Exports. ** - You'll be able 로 보다 **Title**, **Frequency**, 및 **Status** 의 your data export here. - 클릭하다 **Title** 로 열다 data export schedule, 및 use **Active** toggle 로 deactivate schedule. - Use **다운로드하다** button appears when you hover 위에서 scheduled export 로 다운로드하다 사용 가능 data exports. - export once scheduled, cannot be edited. You 할 것입니다 have 로 삭제하다 it altogether 및 생성하다 one afresh. Use **삭제하다** button appears when you hover 위에서 scheduled export. **Note**: You 할 수 있습니다 need assistance 에서 developer 로 hit API, 따라서 please 확인하다 they have 접근 로 API key 의 person created schedule. You 할 수 있습니다 보다 following video 로 understand how 로 export reports 에서 Analytics. Learn 더 about [Basics 의 Analytics](https://freshdesk. com/webinars/get-the-most-out-의-freshdesk-analytics-recording) through our webinar 함께 insights 에서 큐레이티드 보고서, creating 사용자 정의 보고서 위해 your helpdesk, learning 로 apply filters 에서 reports, 및 많이 더. You 할 수 있습니다 또한 refer 로 our [Analytics guide](https://freshdesk. com/assets/resources/freshdesk/Make-informed-decisions-함께-Freshdesk-Analytics. pdf) 위해 various use cases 로 implement 에서 your helpdesk.
 
 </details>
 
 <details>
-<summary><strong>Can 보고서 에서 분석 be shared 와 함께 others 에서 헬프데스크?</strong></summary>
+<summary><strong>할 수 있습니다 I schedule report 에서 Analytics? ?</strong></summary>
 
-Yes, 언제 creating New report 에서 분석, you can 선택 between either creating report just 위해 yourself 또는 위해 Everyone. 만약 latter option is chosen 그러면 상담원 who have access 로 분석 will be able 로 see them under Shared 보고서 section under 분석.
-
-</details>
-
-<details>
-<summary><strong>How many 사용자 정의 보고서 생성 에서 maximum?할 수 있나요은 무엇인가요?</strong></summary>
-
-You can 생성 as many 사용자 정의 보고서 you want 에서 분석. There’s no fixed limit.
+로 schedule your 사용자 정의 보고서 및 widgets. - 클릭하다 및 열다 **사용자 정의 보고서. ** - 클릭하다 **Export** icon 에서 top right corner. - 선택하다 **Schedule Report**에서 drop down**. ** - Set **cadence, customize time 의 delivery, subject, 및 description** 로 suit your business. - 하위에서 Send 로, 추가하다 your email address. You 할 수 있습니다 추가하다 additional email addresses 에 의해 typing 필수 ones. - 클릭하다 **Save. ** **Note**: 큐레이티드 보고서 cannot be scheduled. You 할 수 있습니다 만 schedule 사용자 정의 보고서.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008161285/original/rjB2lJS3fmzFZIR-lRQXay9Q1JmYV0nLqA. gif? 1681986047)
 
 </details>
 
 <details>
-<summary><strong>How many widgets 추가 로 사용자 정의 report?할 수 있나요은 무엇인가요?</strong></summary>
+<summary><strong>할 것입니다 I be able 로 schedule report widgets? 는 무엇인가요?</strong></summary>
 
-You can 추가 as many widgets you want 에서 분석. There’s no fixed limit.
-
-</details>
-
-<details>
-<summary><strong>내보내기 ticket activities using 분석?하는 방법은 무엇인가요?</strong></summary>
-
-분석 에서 Freshdesk lets you identify problems 그리고 keep tabs 에 all metrics that matter 로 you. 와 함께 Freshdesk 분석, you can analyze your entire 헬프데스크 그리고, most importantly, come 로 conclusions. 에서 identifying areas 의 improvement 로 creating 데이터-driven 요금제, you can back your 지원 instincts using 분석.You can 내보내기 your 헬프데스크 ticket activities using 데이터 exports option 에서 설정 icon. Once you 클릭 에 생성 내보내기 button, you can set 내보내기 based 에 기본적인 modules such as 티켓, Timesheets, Surveys, Survey Results, Articles, Triage, etc. Apart 에서 this, you can - 사용자 정의하다 내보내기 based 에 filters, - 선택 ticket 필드 needed 에서 내보내기, 그리고 - schedule frequency 그리고 schedule 위해 보고서. ![You can 내보내기 your 헬프데스크 ticket activities using 데이터 exports option 에서 설정 icon. Once you 클릭 에 생성 내보내기 button, you can set 내보내기 based 에 기본적인 modules such as 티켓, Timesheets, Surveys, Survey Results, Articles, Triage, etc.](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008538588/original/kBiDMlgXWyL4ibW9_528LVwekqh1rxfezQ.gif?1686030602) Please 참고 that this option is 사용 가능한 only 위해 계정 관리자 agent 그리고 inaccessible 로 other 헬프데스크 상담원. Learn more about [Basics 의 분석](https://freshdesk.com/webinars/get--most-out-의-freshdesk-분석-recording) through our webinar 와 함께 insights 에 큐레이티드 보고서, creating 사용자 정의 보고서 위해 your 헬프데스크, learning 로 apply filters 에 보고서, 그리고 much more. You can also refer 로 our [분석 guide](https://freshdesk.com/assets/resources/freshdesk/Make-informed-decisions-와 함께-Freshdesk-분석.pdf) 위해 다양한 use cases 로 implement 에서 your 헬프데스크. 만약 you have any further questions 또는 clarifications, please drop 이메일 로 [지원@freshdesk.com](mailto:지원@freshdesk.com) 그리고 our Product Specialist will be happy 로 assist you.
+Yes, you 할 수 있습니다 schedule widgets 의 사용자 정의 보고서 using Schedule 옵션. You 될 것입니다 able 로 선택하다 Report Schedule date, its frequency, 및 email content. You 할 수 있습니다 또한 선택하다 report 위젯 로 be scheduled 에서 form 의 PDF 또는 CSV. 다음에 유의하십시오: you 할 것입니다 not be able 로 schedule widgets 의 큐레이티드 보고서.
 
 </details>
 
 <details>
-<summary><strong>왜 am I not able 로 저장 filters that I apply 로 큐레이티드 보고서?</strong></summary>
+<summary><strong>할 수 있습니다 data 에서 reports/widgets be made realtime? ?</strong></summary>
 
-큐레이티드 보고서 are 위해 one-time insights. Freshdesk lets you clone any 큐레이티드 report 또는 위젯 you want. You can **clone curate report 그리고 사용자 정의하다 it** 에 의해 applying 필수 filters 그리고 그러면 저장 it accordingly.
-
-</details>
-
-<details>
-<summary><strong>clone 큐레이티드 report?하는 방법은 무엇인가요?</strong></summary>
-
-Once you go inside 큐레이티드 report, switch 에서 **Viewing** mode 로 **Editing** mode. Now, 클릭 에 report name (say Ticket Volume Trends) 로 get Clone Report option. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50000818423/original/Vq_fl2BO6tsH5NVtgtLC-_sTavS9Dr_GUA.png?1583734322)
+reports 및 widgets 에서 Analytics have refresh time 의 30 minutes is standard across 모든 Freshdesk plans. Hence widgets/reports cannot be configured 로 reflect live data unlike Dashboard 기능, is based 에서 live data.
 
 </details>
 
 <details>
-<summary><strong>view 그리고 편집 mode 에서 분석?하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>할 수 있습니다 I configure widgets 함께 time period greater than corresponding report time frame? ?</strong></summary>
 
-You can control your 팀's access 로 분석 under 관리자 > 팀 > Roles > 보고서 section.You can 제공하다 them 와 함께 View, 편집, 또는 Manage (includes 편집 그리고 exports) access. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008401377/original/89oBKLdVdPX1d3CfJ1TLYenzyn6SS6pfwQ.png?1684492983)View - You can access 큐레이티드 보고서 그리고 사용자 정의 보고서 (based 에 your visibility). 와 함께 view access, you cannot 추가 Filters 하지만 can view underlying 데이터. You can still change visualizations, subscribe 로 보고서, 추가 위젯 로 another report, 그리고 drill down 에 데이터. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008538534/original/hmJTVPat_gZs-GE6BRXtBt3J-PL1LVpQjQ.gif?1686030127)편집 - 에서 addition 로 view access, you can 추가 widgets, 생성 사용자 정의 보고서, 추가/편집 filters 에서 existing 큐레이티드 그리고 사용자 정의 보고서 (based 에 your visibility), 그리고 삭제 사용자 정의 보고서. Underlying 데이터 will also be visible. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008538545/original/2iOZIP-3a61-TbSfO62Aj204Vgx4W2WZ_w.gif?1686030188) Manage (includes 편집 그리고 exports) - Along 와 함께 편집 access, you can access 분석 설정 그리고 생성/편집/삭제 그리고 활성화/비활성화 schedules 그리고 exports.
-
-</details>
-
-<details>
-<summary><strong>분석 features across 다양한 요금제은 무엇인가요?</strong></summary>
-
-위해 detailed comparison 의 분석 features across each 요금제, please refer 로 article [here](https://지원.freshdesk.com/지원/solutions/articles/50000001108-분석-features-위해-each-요금제). **참고:** 만약 you're Freshdesk 고객 before year 2019, you need 로 업그레이드하다 로 Estate'19 요금제 로 access 사용자 정의 보고서.
+Time period/date range 의 Analytics report 될 것입니다 superset 의 time period specified 에서 widgets associated 함께 reports. 에서 other words, 위젯 date range needs 로 be subset 의 report date range.
 
 </details>
 
 <details>
-<summary><strong>I need 로 schedule 데이터 exports은 무엇인가요?</strong></summary>
+<summary><strong>할 수 있습니다 Reports 에서 Analytics be shared 함께 others 에서 helpdesk? ?</strong></summary>
 
-You can schedule 데이터 내보내기 using **설정 > 데이터 내보내기**. You will find 설정 option near New Report 에 분석 homepage. You can 생성 데이터 내보내기, 선택 fields you want, apply necessary filters 그리고 set schedule.
-
-</details>
-
-<details>
-<summary><strong>find out how much time ticket spent 에 each status?하는 방법은 무엇인가요?</strong></summary>
-
-You can 선택 metric 'Time spent 에서 business hours' 그리고 sort 에 의해 필터 'Status' 로 know amount 의 time spent 에 의해 each ticket 에서 each ticket status.
+Yes, when creating New report 에서 Analytics, you 할 수 있습니다 선택하다 between either creating report 단지 위해 yourself 또는 위해 Everyone. If latter 옵션 is chosen then agents have 접근 로 Analytics 될 것입니다 able 로 보다 them 하위에서 Shared reports section 하위에서 Analytics.
 
 </details>
 
 <details>
-<summary><strong>measure resolution time 위해 ticket excluding time spent 에 waiting 위해 고객?하는 방법은 무엇인가요?</strong></summary>
+<summary><strong>How 많은 사용자 정의 보고서 할 수 있습니다 I 생성하다 에서 maximum? ?</strong></summary>
 
-You can get this 데이터 에서 two ways: 1. 선택 Metric: Resolved time spent 에서 business hours Sort 에 의해 필터: Status does not include waiting 에 고객 Group 에 의해: Status 에서 underlying 데이터, you can find out how much time was spent 에 SLA status 에서 ticket level 2. 선택 Metric: Resolved time spent 에서 business hours Sort 에 의해 필터: Status does not include SLA Status: Off Group 에 의해: Status 에서 underlying 데이터, you can find out how much time was spent 에 SLA status 에서 ticket level
+You 할 수 있습니다 생성하다 as 많은 사용자 정의 보고서 you want 에서 Analytics. There’s no fixed limit.
+
+</details>
+
+<details>
+<summary><strong>How 많은 widgets 할 수 있습니다 I 추가하다 로 사용자 정의 보고서? ?</strong></summary>
+
+You 할 수 있습니다 추가하다 as 많은 widgets you want 에서 Analytics. There’s no fixed limit.
+
+</details>
+
+<details>
+<summary><strong>How 할 수 있습니다 I export ticket 활동 using Analytics? ?</strong></summary>
+
+Analytics 에서 Freshdesk lets you identify problems 및 keep tabs 에서 모든 지표 matter 로 you. 함께 Freshdesk Analytics, you 할 수 있습니다 analyze your entire helpdesk 및, most importantly, come 로 conclusions. 에서 identifying areas 의 improvement 로 creating data-driven plans, you 할 수 있습니다 back your support instincts using Analytics. You 할 수 있습니다 export your helpdesk ticket 활동 using Data exports 옵션 에서 설정 icon. Once you 클릭하다 생성하다 Export button, you 할 수 있습니다 set export based 에서 basic modules such as Tickets, Timesheets, Surveys, Survey Results, Articles, Triage, etc. Apart 에서 this, you 할 수 있습니다 - customize export based 에서 filters, - 선택하다 ticket field needed 에서 export, 및 - schedule frequency 및 schedule 위해 reports.! [You 할 수 있습니다 export your helpdesk ticket 활동 using Data exports 옵션 에서 설정 icon. Once you 클릭하다 생성하다 Export button, you 할 수 있습니다 set export based 에서 basic modules such as Tickets, Timesheets, Surveys, Survey Results, Articles, Triage, etc. ](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008538588/original/kBiDMlgXWyL4ibW9_528LVwekqh1rxfezQ. gif? 1686030602) 다음에 유의하십시오: this 옵션 is 사용 가능 만 위해 Account admin agent 및 inaccessible 로 other helpdesk agents. Learn 더 about [Basics 의 Analytics](https://freshdesk. com/webinars/get-the-most-out-의-freshdesk-analytics-recording) through our webinar 함께 insights 에서 큐레이티드 보고서, creating 사용자 정의 보고서 위해 your helpdesk, learning 로 apply filters 에서 reports, 및 많이 더. You 할 수 있습니다 또한 refer 로 our [Analytics guide](https://freshdesk. com/assets/resources/freshdesk/Make-informed-decisions-함께-Freshdesk-Analytics. pdf) 위해 various use cases 로 implement 에서 your helpdesk. If you have any further questions 또는 clarifications, please drop email 로 [support@freshdesk. com](mailto:support@freshdesk. com) 및 our Product Specialist 될 것입니다 happy 로 assist you.
+
+</details>
+
+<details>
+<summary><strong>Why am I not able 로 save filters I apply 로 큐레이티드 보고서? 는 무엇인가요?</strong></summary>
+
+큐레이티드 보고서 are 위해 one-time insights. Freshdesk lets you clone any 큐레이티드 보고서 또는 위젯 you want. You 할 수 있습니다 **clone curate report 및 customize it** 에 의해 applying 필수 filters 및 then save it accordingly.
+
+</details>
+
+<details>
+<summary><strong>How do I clone 큐레이티드 보고서? 는 무엇인가요?</strong></summary>
+
+Once you go inside 큐레이티드 보고서, switch 에서 **Viewing** mode 로 **Editing** mode. Now, 클릭하다 report name (say Ticket Volume Trends) 로 get Clone Report 옵션.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50000818423/original/Vq_fl2BO6tsH5NVtgtLC-_sTavS9Dr_GUA. png? 1583734322)
+
+</details>
+
+<details>
+<summary><strong>How 로 보다 및 편집하다 mode 에서 Analytics? 는 무엇인가요?</strong></summary>
+
+You 할 수 있습니다 control your team's 접근 로 Analytics 하위에서 Admin > Team > 역할 > Reports section. You 할 수 있습니다 provide them 함께 보다, 편집하다, 또는 Manage (includes 편집하다 및 exports) 접근.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008401377/original/89oBKLdVdPX1d3CfJ1TLYenzyn6SS6pfwQ. png? 1684492983)보다 - You 할 수 있습니다 접근 큐레이티드 보고서 및 사용자 정의 보고서 (based 에서 your visibility). 함께 보다 접근, you cannot 추가하다 Filters 하지만 할 수 있습니다 보다 underlying data. You 할 수 있습니다 여전히 변경하다 visualizations, subscribe 로 reports, 추가하다 위젯 로 another report, 및 drill down 에서 data.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008538534/original/hmJTVPat_gZs-GE6BRXtBt3J-PL1LVpQjQ. gif? 1686030127)편집하다 - 에서 addition 로 보다 접근, you 할 수 있습니다 추가하다 widgets, 생성하다 사용자 정의 보고서, 추가하다/편집하다 filters 에서 existing curated 및 사용자 정의 보고서 (based 에서 your visibility), 및 삭제하다 사용자 정의 보고서. Underlying data 할 것입니다 또한 be visible.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008538545/original/2iOZIP-3a61-TbSfO62Aj204Vgx4W2WZ_w. gif? 1686030188) Manage (includes 편집하다 및 exports) - Along 함께 편집하다 접근, you 할 수 있습니다 접근 Analytics 설정 및 생성하다/편집하다/삭제하다 및 활성화/비활성화 schedules 및 exports.
+
+</details>
+
+<details>
+<summary><strong>Analytics 기능 across various plans는 무엇인가요?</strong></summary>
+
+위해 detailed comparison 의 Analytics 기능 across each plan, please refer 로 article [here](https://support. freshdesk. com/support/solutions/articles/50000001108-analytics-기능-위해-each-plan). **Note:** If you're Freshdesk customer before year 2019, you need 로 upgrade 로 Estate'19 요금제 로 접근 사용자 정의 보고서.
+
+</details>
+
+<details>
+<summary><strong>I need 로 schedule data exports는 무엇인가요?</strong></summary>
+
+You 할 수 있습니다 schedule data export using **설정 > Data export**. You 할 것입니다 find 설정 옵션 near New Report 에서 Analytics homepage. You 할 수 있습니다 생성하다 data export, 선택하다 fields you want, apply necessary filters 및 set schedule.
+
+</details>
+
+<details>
+<summary><strong>How do I find out how 많이 time ticket spent 에서 each status? 는 무엇인가요?</strong></summary>
+
+You 할 수 있습니다 선택하다 metric 'Time spent 에서 business hours' 및 sort 에 의해 filter 'Status' 로 know amount 의 time spent 에 의해 each ticket 에서 each ticket status.
+
+</details>
+
+<details>
+<summary><strong>How 할 수 있습니다 I measure resolution time 위해 ticket excluding time spent 에서 waiting 위해 customer? ?</strong></summary>
+
+You 할 수 있습니다 get this data 에서 two ways: 1. 선택하다 Metric: Resolved time spent 에서 business hours Sort 에 의해 Filter: Status does not include waiting 에서 customer Group 에 의해: Status 에서 underlying data, you 할 수 있습니다 find out how 많이 time was spent 에서 SLA status 에서 ticket level 2. 선택하다 Metric: Resolved time spent 에서 business hours Sort 에 의해 Filter: Status does not include SLA Status: Off Group 에 의해: Status 에서 underlying data, you 할 수 있습니다 find out how 많이 time was spent 에서 SLA status 에서 ticket level
 
 </details>
 

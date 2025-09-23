@@ -11,331 +11,331 @@ sidebar_position: 1
 :::
 
 <details>
-<summary><strong>Can related 티켓 be unlinked ?</strong></summary>
+<summary><strong>할 수 있습니다 related ticket be unlinked? ?</strong></summary>
 
-Yes it is possible. 로 unlink 티켓 에서 Tracker, 이동하다 **Linked 티켓** 및 클릭하다**Unlink**. 이 permanently unlinks 티켓 에서 그 tracker 및 CANNOT be undone. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008082321/original/02y8OJhzp0wL5LyM2RIfLFT5optAT689JA.gif?1681213289)
-
-</details>
-
-<details>
-<summary><strong>어떻게 로 create parent 및 child 티켓?</strong></summary>
-
-You may open 티켓, 클릭하다 에서 ‘Add Child’ 및 선택하다 between "Using Template" 및 "New Child 티켓". original 티켓 will become parent 티켓 및 child 티켓 will be created as new 티켓. 이 기능 is available 에서 Estate 요금제 onwards 에서 Freshdesk.
+Yes it is possible. 로 연결 해제 ticket 에서 추적기, 이동하다 **연결된 티켓** 및 클릭하다**연결 해제**. 이렇게 하면 해당 추적기에서 티켓 연결이 영구적으로 해제되며 되돌릴 수 없습니다.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008082321/original/02y8OJhzp0wL5LyM2RIfLFT5optAT689JA. gif? 1681213289)
 
 </details>
 
 <details>
-<summary><strong>Is it possible 로 link 티켓 에서 Freshdesk?</strong></summary>
+<summary><strong>상위 및 하위 티켓을 생성하는 방법은 무엇인가요?</strong></summary>
 
-Yes, it is possible. 에 의해 using trackers ,티켓 can be linked 에서 Freshdesk.
-
-</details>
-
-<details>
-<summary><strong>언제 does Shared Ownership come into play?</strong></summary>
-
-언제 거기서 are multiple 상담원 involved 에서 single 티켓, we could make use 의 Shared Ownership. Whether it is 고객 facing 상담원 또는 internal 상담원, all are kept 에서 loop 에서 any action done within 티켓.
+You 할 수 있습니다 열다 ticket, 클릭하다 ‘추가하다 Child’ 및 선택하다 between "Using 템플릿" 및 "New 하위 티켓". 원본 티켓은 상위 티켓이 되고 하위 티켓은 새 티켓으로 생성됩니다. This 기능 is 사용 가능 에서 Estate 요금제 onwards 에서 Freshdesk.
 
 </details>
 
 <details>
-<summary><strong>어떻게 로 보다 all related 티켓 로 specific tracker?</strong></summary>
+<summary><strong>Freshdesk에서 티켓을 연결할 수 있나요?</strong></summary>
 
-Yes, it would be possible 로 보다 all 티켓 linked 로 tracker. 여기서 are steps: Step 1: Filter 티켓 의 tracker type 에서 Association Type 필드. Step 2: 선택하다 tracker, one you wish 로 보다 all related 티켓. Step 3: 클릭하다 에서 X Related 티켓 에서 right hand side 의 페이지.list 의 all related 티켓 is shown.여기서 X= Number 의 related 티켓. However as 의 now, 이 정보 is not available as metrics 와 함께 보고서.
-
-</details>
-
-<details>
-<summary><strong>Sample scenario 위해 Shared Ownership?</strong></summary>
-
-티켓 comes 에서 e-commerce 회사 has issues relating 로 bug as well query regarding 기능. Query is solved 에 의해 고객 facing 상담원(기본 상담원). Bug is solved 에 의해 internal 상담원(Developer). Shared Ownership helps 에서 dynamically checking status 의 work 에서 single 티켓, keeping both 상담원 에서 loop.
+Yes, it is possible. 에 의해 using trackers, tickets 할 수 있습니다 linked 에서 Freshdesk.
 
 </details>
 
 <details>
-<summary><strong>언제 can we close parent 티켓?</strong></summary>
+<summary><strong>공유 소유권은 언제 사용되나요?</strong></summary>
 
-Child 티켓 is essentially subdivision 의 Parent 티켓. Parent 티켓 can be closed only if all 의 its Child 티켓 are either Closed 또는 Resolved.
-
-</details>
-
-<details>
-<summary><strong>어디서/어떻게 do you link 티켓 ?</strong></summary>
-
-이동하다 **티켓 탭 > 클릭하다 에서 required 티켓 > Expand 'Linked 티켓' 패널 에서 extreme right > Create new tracker 또는 선택하다 로 link it 로 existing tracker.** 이 기능 is available only 에서 the**Pro/Garden 요금제**onwards 에서 Freshdesk. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008082368/original/NbcMcB7LAHSM3Bc9hCY_NBMtaVT-EFNgnQ.gif?1681213449) 클릭하다 [여기서](https://지원.freshdesk.com/지원/solutions/articles/224695-setting-up-linked-티켓) 로 know more about Linked 티켓.
+하나의 티켓에 여러 상담원이 관련되어 있을 때 공유 소유권을 활용할 수 있습니다. Whether it is customer facing agent 또는 internal agent, 모든 are kept 에서 loop 에서 any 작업 done within ticket.
 
 </details>
 
 <details>
-<summary><strong>Can I filter 티켓 according 로 specific tracker ?</strong></summary>
+<summary><strong>특정 추적기와 관련된 모든 티켓을 보는 방법은 무엇인가요?</strong></summary>
 
-No, it is not possible 로 do so. 에서 order 로 보다 all related 티켓 의 그 tracker, 이동하다 tracker itself 및 클릭하다 에서 related 티켓.
-
-</details>
-
-<details>
-<summary><strong>어떻게 로 add multiple child 티켓 로 parent 티켓?</strong></summary>
-
-After creating new child 티켓, 클릭하다 에서 ’Save 및 New Child’ 로 add new child. You could also 클릭하다 에서 "Add Child" option within Parent 티켓 로 create new child 티켓.
+Yes, it 될 것입니다 possible 로 보다 모든 tickets linked 로 추적기. Here are steps: Step 1: Filter tickets 의 추적기 type 에서 Association Type field. Step 2: 선택하다 추적기, one you wish 로 보다 모든 관련 티켓. Step 3: 클릭하다 X 관련 티켓 에서 right hand side 의 page. list 의 모든 관련 티켓 is shown. Here X= Number 의 관련 티켓. 하지만 as 의 now, this information is not 사용 가능 as 지표 함께 Reports.
 
 </details>
 
 <details>
-<summary><strong>어떻게 로 set up Shared Ownership?</strong></summary>
+<summary><strong>공유 소유권의 샘플 시나리오는 무엇인가요?</strong></summary>
 
-You would have 로 install Shared Ownership App 에서 your 계정 as shown 에서 이 [해결책 article](https://지원.freshdesk.com/지원/solutions/articles/224194-enabling-shared-ownership). After 이 is done, 거기서 are two steps involved. **1. Map internal groups 로 티켓 status:** 이동하다 **관리자 > Workflows > 티켓 필드** Excluding 4 basic statuses 의 티켓, map custom statuses 하위에서 Mapped Internal Groups. NOTE: Don't forget 로 include 고객 responded. **2. Set up automation rules 로 확인하다 everyone's 에서 loop:** 이동하다 **관리자 > Workflows > Automations > 티켓 updates > New rule** **Set up new automation rule as below:** **언제 action is performed 에 의해** Requester **Involves any 의 이것들 events** Reply IS sent **에서 티켓 와 함께 이것들 properties** Status is NOT > Open 또는 Waiting 에서 Third party 또는 Waiting 에서 Sellers 팀 **Perform 이것들 actions:** Set status as > OPEN 보내다 이메일 로 상담원 > Assigned 상담원
-
-</details>
-
-<details>
-<summary><strong>어떻게 로 보다 all related 티켓?</strong></summary>
-
-에서 티켓 list 페이지, 티켓 와 함께 separate tag 그 indicates **Tracker** is main tracker 티켓. Also, it is possible 로 filter all tracker 티켓 에서 헬프데스크. 이 can be done 에 의해 choosing **T****racker** 에서 the**Association Type dropdown 필드**. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008082570/original/Rb9R4PaBTlFEeLQ1oQA4s9HAb1OyQ7YtOA.png?1681214393) 로 보다 related 티켓, 이동하다 **티켓**>선택하다 the**Tracker 티켓** > 클릭하다 에서 **Related****티켓.** **![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008082503/original/eqhZkkU-mU63zvJidlVrWLevLlvnWMP90A.png?1681214101)**
+ticket comes 에서 e-commerce company has issues relating 로 bug as well query regarding 기능. Query is solved 에 의해 customer facing agent(Primary agent). Bug is solved 에 의해 internal agent(Developer). 공유 소유권 helps 에서 dynamically checking status 의 work 에서 single ticket, keeping both agents 에서 loop.
 
 </details>
 
 <details>
-<summary><strong>Can we 편집하다 related 티켓 widget ? i.e show more 세부정보 의 tracker?</strong></summary>
+<summary><strong>상위 티켓을 언제 닫을 수 있나요?</strong></summary>
 
-No it is not possible 로 show more 세부정보 의 tracker 에서 widget. 에서 order 로 get more 세부정보 의 tracker , 상담원 can 보다 it separately.
-
-</details>
-
-<details>
-<summary><strong>어떻게 do i know is tracker 티켓 ?</strong></summary>
-
-에서 티켓 list 페이지, 티켓 와 함께 separate tag 그 indicates **Tracker** is main tracker 티켓. Also, it is possible 로 filter all tracker 티켓 에서 헬프데스크. 이 can be done 에 의해 choosing **T****racker** 에서 the**Association Type dropdown 필드**. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008082570/original/Rb9R4PaBTlFEeLQ1oQA4s9HAb1OyQ7YtOA.png?1681214393)
+하위 티켓 is essentially subdivision 의 상위 티켓. 상위 티켓 할 수 있습니다 closed 만 if 모든 의 its 하위 티켓 are either Closed 또는 Resolved.
 
 </details>
 
 <details>
-<summary><strong>어떻게 do I 보다 all related 티켓?</strong></summary>
+<summary><strong>Where/How do you 연결 tickets? 는 무엇인가요?</strong></summary>
 
-에서 티켓 탭, 티켓 having tag Related 티켓 are related/linked 로 티켓.
-
-</details>
-
-<details>
-<summary><strong>어떻게 로 create templates 위해 child 티켓?</strong></summary>
-
-하위에서 **관리자 > 상담원 Productivity > 티켓 Templates > New Template**, you could add new 티켓 template 및 선택하다 "Save 및 Add Child" 로 create template 위해 Parent 티켓. Once 이 is done, you would be able 로 add Child 티켓 Templates 하위에서 이 Parent 티켓 Template. 로 apply template 로 child 티켓 클릭하다 에서 ‘**Use existing template**’ while creating new child 티켓.
+이동하다 **Tickets Tab > 클릭하다 필수 ticket > Expand '연결된 티켓' panel 에서 extreme right > 생성하다 new 추적기 또는 선택하다 로 연결 it 로 existing 추적기. ** This 기능 is 사용 가능 만 에서 the**Pro/Garden Plan**onwards 에서 Freshdesk.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008082368/original/NbcMcB7LAHSM3Bc9hCY_NBMtaVT-EFNgnQ. gif? 1681213449) 클릭하다 [here](https://support. freshdesk. com/support/solutions/articles/224695-설정-up-linked-tickets) 로 know 더 about 연결된 티켓.
 
 </details>
 
 <details>
-<summary><strong>어떻게 로 setup Shared Ownership 위해 existing 티켓?</strong></summary>
+<summary><strong>할 수 있습니다 I filter tickets according 로 specific 추적기? ?</strong></summary>
 
-에서 티켓 세부정보 페이지 선택하다 및 업데이트하다 following: - Internal Groups - Internal 상담원
-
-</details>
-
-<details>
-<summary><strong>Is Linked 티켓 tracker same as 그 의 time tracker ? Are they related ?</strong></summary>
-
-No, both trackers are completely different. first one is used 로 link 티켓 creates separate tracker 티켓.Whereas latter is used 로 calculate amount 의 time spent 에서 particular 티켓.
+No, it is not possible 로 do 따라서. ~하기 위해 보다 모든 관련 티켓 의 추적기, 이동하다 추적기 itself 및 클릭하다 관련 티켓.
 
 </details>
 
 <details>
-<summary><strong>무엇 would be source 의 child 티켓?</strong></summary>
+<summary><strong>How 로 추가하다 multiple 하위 티켓 로 상위 티켓? 는 무엇인가요?</strong></summary>
 
-Since 티켓 is created 에 의해 상담원, source 의 티켓 would be 전화번호.
-
-</details>
-
-<details>
-<summary><strong>Does Linked 티켓 Actions appear 에서 activities 탭?</strong></summary>
-
-All activities 그 are carried out 와 함께 respect 로 티켓 are shown 에서 activities 탭. 에서 이 case, even 언제 티켓 are linked 로 tracker is shown 에서 activities 탭,
+After creating new 하위 티켓, 클릭하다 ’Save 및 New Child’ 로 추가하다 new child. You 할 수 있습니다 또한 클릭하다 "추가하다 Child" 옵션 within 상위 티켓 로 생성하다 new 하위 티켓.
 
 </details>
 
 <details>
-<summary><strong>어떻게 can I assign large number 의 groups 및 상담원 위해 Shared Ownership?</strong></summary>
+<summary><strong>How 로 set up 공유 소유권? 는 무엇인가요?</strong></summary>
 
-거기서 are 2 ways 로 do it. - **Bulk Mode** 선택하다 necessary 티켓 로 perform bulk actions. - **Using Scenario Automation** Option 로 execute scenario is directly available 에서 drop down menu.
-
-</details>
-
-<details>
-<summary><strong>어떻게 many child 티켓 can be added 로 parent 티켓?</strong></summary>
-
-We can add maximum 의 50 child 티켓 로 parent 티켓.
+You 할 것입니다 have 로 설치하다 공유 소유권 App 에서 your account as shown 에서 this [solution article](https://support. freshdesk. com/support/solutions/articles/224194-enabling-shared-ownership). After this is done, there are two steps involved. **1. Map internal groups 로 ticket status:** 이동하다 **Admin > Workflows > Ticket fields** Excluding 4 basic statuses 의 ticket, map custom statuses 하위에서 Mapped Internal Groups. NOTE: Don't forget 로 include Customer responded. **2. Set up automation rules 로 확인하다 everyone's 에서 loop:** 이동하다 **Admin > Workflows > Automations > Ticket updates > New rule** **Set up new automation rule as below:** **When 작업 is performed 에 의해** Requester **Involves any 의 these events** Reply IS sent **에서 tickets 함께 these properties** Status is NOT > 열다 또는 Waiting 에서 Third party 또는 Waiting 에서 Sellers team **Perform these 작업:** Set status as > 열다 Send email 로 Agent > Assigned Agent
 
 </details>
 
 <details>
-<summary><strong>Is 거기서 bulk action 로 unlink multiple 티켓 at once ?</strong></summary>
+<summary><strong>How 로 보다 모든 관련 티켓? 는 무엇인가요?</strong></summary>
 
-No. It is only possible 로 unlink 티켓 에서 티켓 세부정보 페이지. Multiple unlinks are not available as 의 now.
-
-</details>
-
-<details>
-<summary><strong>상담원 is able 로 보다 all related 티켓 하지만 not 보다 it separately? 왜 ?</strong></summary>
-
-그 상담원 would be having restricted 또는 group 접근하다 및 hence related 티켓 are out 의 상담원's scope. 로 can give 상담원 접근하다 로 보다 티켓, - 이동하다 **관리자 > Teams > 상담원 > 편집하다 상담원** - Scroll down 로 Scope 및 편집하다 scope 의 상담원. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008160291/original/TIFYobjfeUFvt7PXfoX9aZ6tM0TfYTMC9Q.png?1681981895) Learn more about 상담원 scope [여기서](https://지원.freshdesk.com/en/지원/solutions/articles/50000002804).
+에서 tickets list page, ticket 함께 separate tag indicates **추적기** is main 추적기 ticket. 또한, it is possible 로 filter 모든 추적기 tickets 에서 helpdesk. This 할 수 있습니다 done 에 의해 choosing **T****racker** 에서 the**Association Type dropdown field**.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008082570/original/Rb9R4PaBTlFEeLQ1oQA4s9HAb1OyQ7YtOA. png? 1681214393) 로 보다 관련 티켓, 이동하다 **Tickets**>선택하다 the**추적기 ticket** > 클릭하다 **Related****Tickets. ** **! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008082503/original/eqhZkkU-mU63zvJidlVrWLevLlvnWMP90A. png? 1681214101)**
 
 </details>
 
 <details>
-<summary><strong>Can we delete tracker ? Even if 거기서 are 티켓 related 로 it ?</strong></summary>
+<summary><strong>할 수 있습니다 we 편집하다 related ticket 위젯? i. e show 더 details 의 추적기? ?</strong></summary>
 
-Yes it is possible 로 delete tracker. - 이동하다 **Tracker.** - 클릭하다 에서 three dots 위해 **More options** 및 선택하다 **Delete.** - Once you delete tracker, its related 티켓 will be permanently unlinked **cannot** be restored. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008159545/original/Dbierwi181NTLNSV3Ysus6SYeV6hp0VLrg.png?1681978661)
-
-</details>
-
-<details>
-<summary><strong>어떻게 로 create parent 티켓 ?</strong></summary>
-
-**Quick guide 로 set up Parent Child Ticketing:** - Log 에서 로 your Freshdesk 포털 as 관리자. - 이동하다 **관리자****> 지원 Operations > Advanced Ticketing**. - Enable toggle 위해 **Parent-Child Ticketing**. **![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50014611980/original/XDx7Ns6N2tFvlXc-c5htt4IBVbL1_fG2sA.png?1739862101)** Parent-Child Ticketing will now be enabled 에서 your 계정. 로 create parent-child relationship, add child 티켓 로 any existing 또는 new 티켓. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008218906/original/SVLN2BZviELr6OmdDO2_F324WlXPejTnkw.gif?1682592971)
+No it is not possible 로 show 더 details 의 추적기 에서 위젯. ~하기 위해 get 더 details 의 추적기, agent 할 수 있습니다 보다 it separately.
 
 </details>
 
 <details>
-<summary><strong>무엇 happens 언제 you delete parent 티켓?</strong></summary>
+<summary><strong>How do i know is 추적기 ticket? 는 무엇인가요?</strong></summary>
 
-parent 티켓 will be deleted 및 associated child 티켓 will be unlinked 에서 parent 티켓.
-
-</details>
-
-<details>
-<summary><strong>무엇 is use 의 Broadcast 버튼?</strong></summary>
-
-와 함께 all related 티켓 linked 로 Tracker, 팀 working 에서 it can notify 상담원 에서 진행 상황 에 의해 using internal broadcast message. Once message is broadcasted 에서 Tracker 티켓, it would be relayed 에서 all related 티켓 automatically. 이 broadcast message would be visible only 로 상담원 에서 계정. - 로 broadcast internal message 로 상담원 are assigned 로 related 티켓, 클릭하다 에서 **Broadcast**. **참고:** Only 상담원 have 접근하다 로 Tracker 티켓 will be able 로 보내다 broadcast message. - 입력하다 message 및 클릭하다 Broadcast. message will be sent 로 all related 티켓 그 are linked 와 함께 Tracker. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008160392/original/dBoFEUUFs7c85TkDWLle35uhswqkX9ByaA.gif?1681982296) broadcast message will be added 로 any new 티켓 linked 로 Tracker. At any point 의 time, any related 티켓 will only have last broadcasted message. 그 is, if new message is broadcasted, it will replace existing message 와 함께 new one. 상담원 can include message 에서 their replies 에서 related 티켓 using **Insert 이 message into reply** option **참고:** 언제 message is broadcasted 에서 Tracker 티켓, hardcoded 이메일 notification will be sent 로 assigned 상담원 및 [watcher(s)](https://지원.freshdesk.com/지원/solutions/articles/37560-monitoring-important-티켓-에 의해-becoming-a-watcher-) added 에서 related 티켓.
+에서 tickets list page, ticket 함께 separate tag indicates **추적기** is main 추적기 ticket. 또한, it is possible 로 filter 모든 추적기 tickets 에서 helpdesk. This 할 수 있습니다 done 에 의해 choosing **T****racker** 에서 the**Association Type dropdown field**.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008082570/original/Rb9R4PaBTlFEeLQ1oQA4s9HAb1OyQ7YtOA. png? 1681214393)
 
 </details>
 
 <details>
-<summary><strong>Does updating status 의 parent 티켓 affect child 티켓?</strong></summary>
+<summary><strong>How do I 보다 모든 관련 티켓? 는 무엇인가요?</strong></summary>
 
-No, changing status 의 parent 티켓 will not impact status 의 child 티켓. However, if you wish 로 achieve 이, you can utilize automation rule. 여기서 is sample automation rule summary -![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008678782/original/mY2_Ecv8_bs1P_gnr9kACXz4Tv4GJI_CxQ.png?1687347180)
-
-</details>
-
-<details>
-<summary><strong>어떻게 many number 의 티켓 can be linked 로 tracker ?</strong></summary>
-
-로 single tracker, maximum 의 300 티켓 can be linked 로 it.
+에서 tickets tab, tickets having tag Related Ticket are related/linked 로 ticket.
 
 </details>
 
 <details>
-<summary><strong>Is it possible 로 link multiple 티켓 at once?</strong></summary>
+<summary><strong>How 로 생성하다 템플릿 위해 하위 티켓? 는 무엇인가요?</strong></summary>
 
-로 link multiple 티켓, we have 로 goto 티켓 세부정보 페이지 separately 의 each 티켓 및 link them individually 로 tracker. As 의 now 거기서 is no option 하위에서 Bulk Actions 로 carry out 이 function.
-
-</details>
-
-<details>
-<summary><strong>무엇 happens 언제 you mark parent 티켓 as spam?</strong></summary>
-
-child 티켓 associated 와 함께 parent 티켓 will be unlinked 및 changes cannot be restored. However, child 티켓 would not be marked as spam.
+하위에서 **Admin > Agent Productivity > Ticket 템플릿 > New 템플릿**, you 할 수 있습니다 추가하다 new ticket 템플릿 및 선택하다 "Save 및 추가하다 Child" 로 생성하다 템플릿 위해 상위 티켓. Once this is done, you 될 것입니다 able 로 추가하다 하위 티켓 템플릿 하위에서 this 상위 티켓 템플릿. 로 apply 템플릿 로 하위 티켓 클릭하다 ‘**Use existing 템플릿**’ while creating new 하위 티켓.
 
 </details>
 
 <details>
-<summary><strong>Can we filter out 티켓 based 에서 parent 및 child 티켓?</strong></summary>
+<summary><strong>How 로 setup 공유 소유권 위해 existing tickets? 는 무엇인가요?</strong></summary>
 
-Yes, we can filter out 티켓 based 에서 parent 및 child 티켓. - 이동하다**티켓**. - 하위에서 **Filters section** 에서 left hand side, 클릭하다 에서 **Association Type**. - 선택하다 type 의 association as **Parent 또는 Child** 로 filter out corresponding 티켓. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008160690/original/YBx8VYi-VxUpEaAl6xWDWLTLKEgnAl-Y0A.png?1681983393)
-
-</details>
-
-<details>
-<summary><strong>Is it possible 로 link 티켓 using automations ?</strong></summary>
-
-No. 티켓 cannot be linked 로 trackers 에 의해 using any 의 four automations.
+에서 ticket details page 선택하다 및 업데이트하다 following: - Internal Groups - Internal Agent
 
 </details>
 
 <details>
-<summary><strong>Can linked 티켓 also be child/parent 티켓 ?</strong></summary>
+<summary><strong>Is 연결된 티켓 추적기 same as 의 time 추적기? Are they related? 는 무엇인가요?</strong></summary>
 
-No, 티켓 can be associated via trackers 또는 parent-child method, 하지만 not both.
-
-</details>
-
-<details>
-<summary><strong>Can we filter out child 티켓 based 에서 parent 티켓?</strong></summary>
-
-No, you cannot filter out child 티켓 based 에서 parent 티켓. However, you can 이동하다 parent 티켓 및 보다 child 티켓 associated 와 함께 it.
+No, both trackers are completely different. first one is used 로 연결 tickets creates separate 추적기 ticket. Whereas latter is used 로 calculate amount 의 time spent 에서 particular ticket.
 
 </details>
 
 <details>
-<summary><strong>무엇 are mandatory 필드 while creating new tracker?</strong></summary>
+<summary><strong>What 될 것입니다 source 의 하위 티켓? 는 무엇인가요?</strong></summary>
 
-Two 필드 are mandatory while creating new tracker :1. **Requester 필드** - 상담원 creating tracker 티켓 is also requester.거기서 is option 위해 상담원 로 create tracker 하위에서 their 이름 또는 이름 의 one 의 their colleagues.![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008676240/original/cRimC_yjTCaTKLz6xk5iVs-ViH5EKrfgHg.png?1687336095)2. **Subject 필드** - 이 defines 이름/description 의 tracker.If 거기서 are any additional 필드 designated as mandatory 하위에서 관리자 > 티켓 필드 section, 그것들 필드 should also be filled 에서 로 create tracker.
-
-</details>
-
-<details>
-<summary><strong>Is 거기서 way 로 disable 'link 로 tracker' option 위해 specific groups/상담원?</strong></summary>
-
-다음을 할 수 있습니다 create custom role 및 manage **티켓** 접근하다 위해 상담원 assigned 로 role 하위에서 **Permissions.** 로 disable option 위해 상담원 로 link 티켓, - 이동하다 **관리자 > Teams > Roles** - Create **New Role**또는 클릭하다 **편집하다**next 로 existing custom role. - Scroll down 로 **Permissions.** - 하위에서 티켓 탭, uncheck box next 로 **Create linked 티켓.** ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008160952/original/mJCRH2QV4LV1taceyTdzCWShoLGBd8EnmA.png?1681984502) 다음을 할 수 있습니다 now, assign 이 role 로 all 상담원 should not have 접근하다 로 create linked 티켓.
+Since ticket is created 에 의해 agent, source 의 ticket 될 것입니다 phone.
 
 </details>
 
 <details>
-<summary><strong>Can 상담원 link 티켓 로 any tracker?</strong></summary>
+<summary><strong>Does Linked Ticket 작업 appear 에서 활동 tab? 는 무엇인가요?</strong></summary>
 
-상담원 can only link 티켓 로 tracker 그 are present 에서 his/her scope. So, if 상담원 has group/restricted 접근하다 he/she wont be able 로 보다 all trackers 그 are present 에서 헬프데스크.
-
-</details>
-
-<details>
-<summary><strong>Would 상담원 와 함께 Restricted 접근하다 be able 로 보다 Shared Ownership 티켓?</strong></summary>
-
-언제 상담원 has restricted 접근하다, still he would be able 로 보다 티켓 assigned 로 him as internal 상담원 even if he is not assigned 상담원 에서 티켓.
+모든 활동 are carried out 함께 respect 로 ticket are shown 에서 활동 tab. 에서 this case, 심지어 when tickets are linked 로 추적기 is shown 에서 활동 tab,
 
 </details>
 
 <details>
-<summary><strong>Would 상담원 와 함께 Group 접근하다 be able 로 보다 Shared Ownership 티켓?</strong></summary>
+<summary><strong>How 할 수 있습니다 I 할당 large number 의 groups 및 agents 위해 공유 소유권? ?</strong></summary>
 
-언제 상담원 has group 접근하다, he will have 접근하다 로 티켓 have internal group assigned as 상담원’s group even though 티켓 belongs 로 different group.
-
-</details>
-
-<details>
-<summary><strong>Can internal group 또는 상담원 be included 에서 automation rules?</strong></summary>
-
-Internal groups 또는 상담원 can be set 에서 Conditions 및 Actions 에서 automation rules 그 run 에서 티켓 creation 또는 티켓 updates.
+There are 2 ways 로 do it. - **Bulk Mode** 선택하다 necessary tickets 로 perform bulk 작업. - **Using Scenario Automation** 옵션 로 execute scenario is directly 사용 가능 에서 drop down menu.
 
 </details>
 
 <details>
-<summary><strong>Is it possible 로 trigger action using 티켓 업데이트하다 automation if Internal group is changed?</strong></summary>
+<summary><strong>How 많은 하위 티켓 할 수 있습니다 added 로 상위 티켓? ?</strong></summary>
 
-Within 티켓 업데이트하다 automation rule, Internal group can be included 에서 Conditions 및 Actions sections, 하지만 it is not possible 로 trigger Event specifically 언제 internal group is changed.
-
-</details>
-
-<details>
-<summary><strong>어떻게 do I enable Linked 티켓 기능 에서 my 계정?</strong></summary>
-
-로 enable Linked 티켓, 이동하다 **관리자>지원 operation>Advanced ticketing>**toggle 에서**Linked 티켓** **![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008161191/original/gJ5yCAjOibRrFXCrBilcySKTavEOr2KxqA.png?1681985565)**
+We 할 수 있습니다 추가하다 maximum 의 50 하위 티켓 로 상위 티켓.
 
 </details>
 
 <details>
-<summary><strong>Can I use template 로 create new 티켓?</strong></summary>
+<summary><strong>Is there bulk 작업 로 연결 해제 multiple tickets 에서 once? 는 무엇인가요?</strong></summary>
 
-We understand 그 you might want 로 create 티켓 에서-the-go. Freshdesk allows you 로 create templates 에서 **관리자 > 상담원 Productivity > 티켓 Templates**. 이것들 templates can be used while creating 티켓 에서 **“선택하다 template”** option. [이](https://지원.freshdesk.com/지원/solutions/articles/220141-creating-및-using-티켓-templates) article will give you more 세부정보 에서 its usage.
-
-</details>
-
-<details>
-<summary><strong>Can linked 티켓 be merged 와 함께 another 티켓?</strong></summary>
-
-Yes, you can merge 티켓 로 티켓 linked 로 tracker.
+No. It is 만 possible 로 연결 해제 ticket 에서 ticket details page. Multiple unlinks are not 사용 가능 as 의 now.
 
 </details>
 
 <details>
-<summary><strong>왜 am I not able 로 link 티켓 로 tracker?</strong></summary>
+<summary><strong>agent is able 로 보다 모든 관련 티켓 하지만 not 보다 it separately? Why? 는 무엇인가요?</strong></summary>
 
-티켓 cannot be linked 로 tracker 언제 any 의 following is true : - 언제 **mandatory 또는 required 티켓 필드 are not filled** 에서 위해 티켓, 티켓 cannot be linked 로 tracker. 다음을 확인하십시오 all mandatory 티켓 필드 are filled 에서 위해 티켓 before linking it 로 tracker 티켓. - 언제 티켓 is **already associated 와 함께 parent 또는 child 티켓**, it will not be possible 로 link such 티켓 로 tracker. - 언제 티켓 is **merged 와 함께 another 티켓**. 기본 티켓 is closed will not have Linked 티켓 option. 에서 그것들 cases, please use secondary 티켓 위해 linking it 로 tracker.
+agent 될 것입니다 having restricted 또는 group 접근 및 hence 관련 티켓 are out 의 agent's scope. 로 할 수 있습니다 give agent 접근 로 보다 tickets, - 이동하다 **Admin > Teams > Agents > 편집하다 Agent** - 스크롤하다 down 로 Scope 및 편집하다 scope 의 agent.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008160291/original/TIFYobjfeUFvt7PXfoX9aZ6tM0TfYTMC9Q. png? 1681981895) Learn 더 about agent scope [here](https://support. freshdesk. com/en/support/solutions/articles/50000002804).
+
+</details>
+
+<details>
+<summary><strong>할 수 있습니다 we 삭제하다 추적기? 심지어 if there are tickets related 로 it? ?</strong></summary>
+
+Yes it is possible 로 삭제하다 추적기. - 이동하다 **추적기. ** - 클릭하다 three dots 위해 **더 옵션** 및 선택하다 **삭제하다. ** - Once you 삭제하다 추적기, its 관련 티켓 될 것입니다 permanently unlinked **cannot** be restored.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008159545/original/Dbierwi181NTLNSV3Ysus6SYeV6hp0VLrg. png? 1681978661)
+
+</details>
+
+<details>
+<summary><strong>How 로 생성하다 상위 티켓? 는 무엇인가요?</strong></summary>
+
+**Quick guide 로 set up Parent Child Ticketing:** - Log 에서 로 your Freshdesk portal as Administrator. - 이동하다 **Admin****> Support Operations > Advanced Ticketing**. - 활성화 toggle 위해 **Parent-Child Ticketing**. **! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50014611980/original/XDx7Ns6N2tFvlXc-c5htt4IBVbL1_fG2sA. png? 1739862101)** Parent-Child Ticketing 할 것입니다 now be 활성화됨 에서 your account. 로 생성하다 parent-child relationship, 추가하다 하위 티켓 로 any existing 또는 new ticket.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008218906/original/SVLN2BZviELr6OmdDO2_F324WlXPejTnkw. gif? 1682592971)
+
+</details>
+
+<details>
+<summary><strong>What happens when you 삭제하다 상위 티켓? 는 무엇인가요?</strong></summary>
+
+상위 티켓 될 것입니다 deleted 및 associated 하위 티켓 될 것입니다 unlinked 에서 상위 티켓.
+
+</details>
+
+<details>
+<summary><strong>What is use 의 Broadcast button? 는 무엇인가요?</strong></summary>
+
+함께 모든 관련 티켓 linked 로 추적기, team working 에서 it 할 수 있습니다 notify agents 에서 progress 에 의해 using internal broadcast message. Once message is broadcasted 에서 추적기 ticket, it 될 것입니다 relayed 에서 모든 관련 티켓 automatically. This broadcast message 될 것입니다 visible 만 로 agents 에서 account. - 로 broadcast internal message 로 agents are assigned 로 관련 티켓, 클릭하다 **Broadcast**. **Note:** 만 agents have 접근 로 추적기 ticket 될 것입니다 able 로 send broadcast message. - Enter message 및 클릭하다 Broadcast. message 될 것입니다 sent 로 모든 관련 티켓 are linked 함께 추적기.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008160392/original/dBoFEUUFs7c85TkDWLle35uhswqkX9ByaA. gif? 1681982296) broadcast message 될 것입니다 added 로 any new tickets linked 로 추적기. 에서 any point 의 time, any related ticket 할 것입니다 만 have last broadcasted message. is, if new message is broadcasted, it 할 것입니다 replace existing message 함께 new one. agents 할 수 있습니다 include message 에서 their replies 에서 관련 티켓 using **Insert this message 로 reply** 옵션 **Note:** When message is broadcasted 에서 추적기 ticket, hardcoded email notification 될 것입니다 sent 로 assigned agent 및 [watcher(s)](https://support. freshdesk. com/support/solutions/articles/37560-monitoring-important-tickets-에 의해-becoming-a-watcher-) added 에서 관련 티켓.
+
+</details>
+
+<details>
+<summary><strong>Does updating status 의 상위 티켓 affect 하위 티켓? 는 무엇인가요?</strong></summary>
+
+No, changing status 의 상위 티켓 할 것입니다 not impact status 의 하위 티켓. 하지만, if you wish 로 achieve this, you 할 수 있습니다 utilize automation rule. Here is sample automation rule summary -! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008678782/original/mY2_Ecv8_bs1P_gnr9kACXz4Tv4GJI_CxQ. png? 1687347180)
+
+</details>
+
+<details>
+<summary><strong>How 많은 number 의 tickets 할 수 있습니다 linked 로 추적기? ?</strong></summary>
+
+로 single 추적기, maximum 의 300 tickets 할 수 있습니다 linked 로 it.
+
+</details>
+
+<details>
+<summary><strong>Is it possible 로 연결 multiple tickets 에서 once? 는 무엇인가요?</strong></summary>
+
+로 연결 multiple tickets, we have 로 goto ticket details page separately 의 each ticket 및 연결 them individually 로 추적기. As 의 now there is no 옵션 하위에서 Bulk 작업 로 carry out this function.
+
+</details>
+
+<details>
+<summary><strong>What happens when you mark 상위 티켓 as spam? 는 무엇인가요?</strong></summary>
+
+하위 티켓 associated 함께 상위 티켓 될 것입니다 unlinked 및 changes cannot be restored. 하지만, 하위 티켓 할 것입니다 not be marked as spam.
+
+</details>
+
+<details>
+<summary><strong>할 수 있습니다 we filter out tickets based 에서 parent 및 하위 티켓? ?</strong></summary>
+
+Yes, we 할 수 있습니다 filter out tickets based 에서 parent 및 하위 티켓. - 이동하다**Tickets**. - 하위에서 **Filters section** 에서 left hand side, 클릭하다 **Association Type**. - 선택하다 type 의 association as **Parent 또는 Child** 로 filter out corresponding tickets.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008160690/original/YBx8VYi-VxUpEaAl6xWDWLTLKEgnAl-Y0A. png? 1681983393)
+
+</details>
+
+<details>
+<summary><strong>Is it possible 로 연결 tickets using automations? 는 무엇인가요?</strong></summary>
+
+No. Tickets cannot be linked 로 trackers 에 의해 using any 의 four automations.
+
+</details>
+
+<details>
+<summary><strong>할 수 있습니다 linked ticket 또한 be child/상위 티켓? ?</strong></summary>
+
+No, tickets 할 수 있습니다 associated via trackers 또는 parent-child method, 하지만 not both.
+
+</details>
+
+<details>
+<summary><strong>할 수 있습니다 we filter out 하위 티켓 based 에서 상위 티켓? ?</strong></summary>
+
+No, you cannot filter out 하위 티켓 based 에서 상위 티켓. 하지만, you 할 수 있습니다 이동하다 상위 티켓 및 보다 하위 티켓 associated 함께 it.
+
+</details>
+
+<details>
+<summary><strong>What are mandatory fields while creating new 추적기? 는 무엇인가요?</strong></summary>
+
+Two fields are mandatory while creating new 추적기 :1. **Requester field** - agent creating 추적기 ticket is 또한 requester. There is 옵션 위해 agent 로 생성하다 추적기 하위에서 their name 또는 name 의 one 의 their colleagues.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008676240/original/cRimC_yjTCaTKLz6xk5iVs-ViH5EKrfgHg. png? 1687336095)2. **Subject field** - This defines name/description 의 추적기. If there are any additional fields designated as mandatory 하위에서 Admin > Ticket fields section, those fields 해야 합니다 또한 be filled 에서 로 생성하다 추적기.
+
+</details>
+
+<details>
+<summary><strong>Is there way 로 비활성화 '연결 로 추적기' 옵션 위해 specific groups/agents? 는 무엇인가요?</strong></summary>
+
+You 할 수 있습니다 생성하다 custom 역할 및 manage **Ticket** 접근 위해 agents assigned 로 역할 하위에서 **권한. ** 로 비활성화 옵션 위해 agents 로 연결 tickets, - 이동하다 **Admin > Teams > 역할** - 생성하다 **New 역할**또는 클릭하다 **편집하다**next 로 existing custom 역할. - 스크롤하다 down 로 **권한. ** - 하위에서 Tickets tab, uncheck box next 로 **생성하다 linked ticket. **! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008160952/original/mJCRH2QV4LV1taceyTdzCWShoLGBd8EnmA. png? 1681984502) You 할 수 있습니다 now, 할당 this 역할 로 모든 agents 해야 합니다 not have 접근 로 생성하다 연결된 티켓.
+
+</details>
+
+<details>
+<summary><strong>할 수 있습니다 agent 연결 ticket 로 any 추적기? ?</strong></summary>
+
+agent 할 수 있습니다 만 연결 tickets 로 추적기 are present 에서 his/her scope. 따라서, if agent has group/restricted 접근 he/she wont be able 로 보다 모든 trackers are present 에서 helpdesk.
+
+</details>
+
+<details>
+<summary><strong>할 것입니다 agent 함께 Restricted 접근 be able 로 보다 공유 소유권 tickets? 는 무엇인가요?</strong></summary>
+
+When agent has restricted 접근, 여전히 he 될 것입니다 able 로 보다 tickets assigned 로 him as internal agent 심지어 if he is not assigned agent 에서 ticket.
+
+</details>
+
+<details>
+<summary><strong>할 것입니다 agent 함께 Group 접근 be able 로 보다 공유 소유권 tickets? 는 무엇인가요?</strong></summary>
+
+When agent has group 접근, he 할 것입니다 have 접근 로 tickets have internal group assigned as agent’s group 심지어 though ticket belongs 로 different group.
+
+</details>
+
+<details>
+<summary><strong>할 수 있습니다 internal group 또는 agents be included 에서 automation rules? ?</strong></summary>
+
+Internal groups 또는 agents 할 수 있습니다 set 에서 Conditions 및 작업 에서 automation rules run 에서 ticket creation 또는 ticket updates.
+
+</details>
+
+<details>
+<summary><strong>Is it possible 로 trigger 작업 using Ticket 업데이트하다 automation if Internal group is changed? 는 무엇인가요?</strong></summary>
+
+Within Ticket 업데이트하다 automation rule, Internal group 할 수 있습니다 included 에서 Conditions 및 작업 sections, 하지만 it is not possible 로 trigger Event specifically when internal group is changed.
+
+</details>
+
+<details>
+<summary><strong>How do I 활성화 Linked Ticket 기능 에서 my account? 는 무엇인가요?</strong></summary>
+
+로 활성화 연결된 티켓, 이동하다 **Admin>Support operation>Advanced ticketing>**toggle 에서**연결된 티켓** **! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008161191/original/gJ5yCAjOibRrFXCrBilcySKTavEOr2KxqA. png? 1681985565)**
+
+</details>
+
+<details>
+<summary><strong>할 수 있습니다 I use 템플릿 로 생성하다 new ticket? ?</strong></summary>
+
+We understand you 할 수 있습니다 want 로 생성하다 tickets 에서-the-go. Freshdesk allows you 로 생성하다 템플릿 에서 **Admin > Agent Productivity > Ticket 템플릿**. These 템플릿 할 수 있습니다 used while creating ticket 에서 **“선택하다 템플릿”** 옵션. [This](https://support. freshdesk. com/support/solutions/articles/220141-creating-및-using-ticket-템플릿) article 할 것입니다 give you 더 details 에서 its usage.
+
+</details>
+
+<details>
+<summary><strong>할 수 있습니다 linked ticket be merged 함께 another ticket? ?</strong></summary>
+
+Yes, you 할 수 있습니다 merge tickets 로 ticket linked 로 추적기.
+
+</details>
+
+<details>
+<summary><strong>Why am I not able 로 연결 tickets 로 추적기? 는 무엇인가요?</strong></summary>
+
+ticket cannot be linked 로 추적기 when any 의 following is true : - When **mandatory 또는 필수 ticket fields are not filled** 에서 위해 ticket, ticket cannot be linked 로 추적기. 확인하다 모든 mandatory ticket fields are filled 에서 위해 ticket before 연결 it 로 추적기 ticket. - When ticket is **이미 associated 함께 parent 또는 하위 티켓**, it 할 것입니다 not be possible 로 연결 such tickets 로 추적기. - When ticket is **merged 함께 another ticket**. primary ticket is closed 할 것입니다 not have 연결된 티켓 옵션. 에서 those cases, please use secondary ticket 위해 연결 it 로 추적기.
 
 </details>
 
