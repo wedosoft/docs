@@ -653,6 +653,167 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+
+    // Freshdesk - Customer Support
+    {
+      type: 'category',
+      label: '💬 Freshdesk (Customer Support)',
+      collapsed: false,
+      items: [
+        {
+          type: 'category',
+          label: '❓ FAQ',
+          collapsed: true,
+          items: [
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/accounts--plans-billing/index',
+              label: '계정, 요금제 및 결제',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/admin-settings/index',
+              label: '관리자 설정',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/advanced-ticketing-features/index',
+              label: '고급 티켓팅 기능',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/analytics/index',
+              label: '분석',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/api-webhooks/index',
+              label: 'API 및 웹훅',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/arcade-gamification/index',
+              label: '아케이드 게이미피케이션',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/automatic-ticket-distribution/index',
+              label: '자동 티켓 배포',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/business-hours-slas/index',
+              label: '업무 시간 및 SLA',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/community-forums/index',
+              label: '커뮤니티 포럼',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/contacts-companies/index',
+              label: '연락처 및 회사',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/customer-satisfaction-surveys/index',
+              label: '고객 만족도 설문조사',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/dashboard/index',
+              label: '대시보드',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/email-notifications/index',
+              label: '이메일 알림',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/field-service-management/index',
+              label: '현장 서비스 관리',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/freshdesk-freshservice-integration/index',
+              label: 'Freshdesk-Freshservice 통합',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/help-on-login-sso/index',
+              label: '로그인 도움말 및 SSO',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/helpdesk-rebranding/index',
+              label: '헬프데스크 리브랜딩',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/integrations/index',
+              label: '통합',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/knowledge-base/index',
+              label: '지식 베이스',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/mobile-apps/index',
+              label: '모바일 앱',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/multiple-products/index',
+              label: '다중 제품',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/other-products/index',
+              label: '기타 제품',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/pci-dss-compliance/index',
+              label: 'PCI DSS 규정 준수',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/reports/index',
+              label: '보고서',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/self-service-portal/index',
+              label: '셀프 서비스 포털',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/social/index',
+              label: '소셜',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/ssl-security/index',
+              label: 'SSL 보안',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/ticketing-workflow/index',
+              label: '티켓팅 워크플로우',
+            },
+            {
+              type: 'doc',
+              id: 'freshdesk/faq/troubleshooting-errors/index',
+              label: '문제 해결 및 오류',
+            },
+          ],
+        },
+      ],
+    },
   ],
 };
 

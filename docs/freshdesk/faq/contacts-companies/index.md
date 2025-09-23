@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Contacts & Companies
+# Contacts &amp; Companies
 
-이 섹션에서는 Contacts & Companies와 관련된 자주 묻는 질문들을 다룹니다.
+이 섹션에서는 Contacts &amp; Companies와 관련된 자주 묻는 질문들을 다룹니다.
 
 :::info
 각 질문을 클릭하면 상세한 답변을 확인할 수 있습니다.
@@ -30,14 +30,14 @@ sidebar_position: 1
 <details>
 <summary>할 수 있나요 resend an activation link to a customer?</summary>
 
-<p>Under the Customers tab, when you hover over an <strong>unverified contact</strong>, you will find an option to 'Send activation email'. Clicking on it will trigger an activation email to the respective contact.</p><p dir="ltr" style="text-align: right;">&nbsp; &nbsp; &nbsp;<img src="#" style="width: 192px; display: block; float: none; vertical-align: top; margin: 5px auto; text-align: center;" class="fr-fic fr-dib" /></p><p><br /></p><p><img src="#" style="width: 718px;" class="fr-fic fr-fil fr-dib" /></p><p><br /></p><p><span dir="ltr"><strong>Note:</strong></span></p><p><br /></p><p><span dir="ltr">It is not possible to re-send the activation link for a <strong>verified contact&nbsp;</strong>this way. However, you would be able to change the password share it with them or the contact could directly trigger a password reset.</span></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p>
+<p>Under the Customers tab, when you hover over an <strong>unverified contact</strong>, you will find an option to 'Send activation email'. Clicking on it will trigger an activation email to the respective contact.</p><p dir="ltr" style={{ fontSize: "16px" }}>&nbsp; &nbsp; &nbsp;<img src="#" style={{ fontSize: "16px" }} class="fr-fic fr-dib" /></p><p><br /></p><p><img src="#" style={{ fontSize: "16px" }} class="fr-fic fr-fil fr-dib" /></p><p><br /></p><p><span dir="ltr"><strong>Note:</strong></span></p><p><br /></p><p><span dir="ltr">It is not possible to re-send the activation link for a <strong>verified contact&nbsp;</strong>this way. However, you would be able to change the password share it with them or the contact could directly trigger a password reset.</span></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p>
 
 </details>
 
 <details>
 <summary>My customers are getting the error 'You are not authorized to 접근하다 portal' - 어떻게 할 수 있나요 fix this?</summary>
 
-<div dir="ltr" style=""><p style="">This message is displayed to the users if their account (contact profile) is <strong>not verified/activated. </strong></p><p style=""><br /></p><p style="">In such a case, please go to <strong>Customers</strong><strong>&gt;</strong><strong>Contacts</strong>, click on the contact that is seeing the error message and hit '<strong>Send activation email</strong>' button on the contact details page. The customer can then use the link sent via email to set up a password and log in.</p><p style=""><br /></p><p style=""><span style="font-size: medium;"><img class="fr-dib fr-draggable fr-bordered" src="#" style="width: 658px; height: 80.0411px;" /></span></p><p style=""><br /></p><p style="">As an <strong>Admin</strong>, you'll also be able to set up a password for the contact using the <strong>'Change password</strong>' button on the same page.</p><p style=""><br /></p><p style="">To do this for multiple unverified contacts, please click on the hamburger menu on the<strong> Contacts</strong> page, click on '<strong>Unverified contacts</strong>' to retrieve the complete list of unverified contacts:</p><p style=""><br /></p><p style=""><img class="fr-dib fr-draggable fr-bordered" src="#" style="width: 241px; height: 219.559px;" /></p><p style=""><br /></p>You can bulk select the desired contacts from this list and click on <strong>'Send activation email'</strong><p style=""><br /></p><p style=""><img class="fr-dib fr-draggable fr-bordered" src="#" style="width: 473px; height: 123.308px;" /><span style="font-family: Arial; white-space: pre-wrap;"><span style="font-size: medium;"><br /></span></span></p></div>
+<div dir="ltr" ><p >This message is displayed to the users if their account (contact profile) is <strong>not verified/activated. </strong></p><p ><br /></p><p >In such a case, please go to <strong>Customers</strong><strong>&gt;</strong><strong>Contacts</strong>, click on the contact that is seeing the error message and hit '<strong>Send activation email</strong>' button on the contact details page. The customer can then use the link sent via email to set up a password and log in.</p><p ><br /></p><p ><span style={{ fontSize: "16px" }}><img class="fr-dib fr-draggable fr-bordered" src="#" style={{ fontSize: "16px" }} /></span></p><p ><br /></p><p >As an <strong>Admin</strong>, you'll also be able to set up a password for the contact using the <strong>'Change password</strong>' button on the same page.</p><p ><br /></p><p >To do this for multiple unverified contacts, please click on the hamburger menu on the<strong> Contacts</strong> page, click on '<strong>Unverified contacts</strong>' to retrieve the complete list of unverified contacts:</p><p ><br /></p><p ><img class="fr-dib fr-draggable fr-bordered" src="#" style={{ fontSize: "16px" }} /></p><p ><br /></p>You can bulk select the desired contacts from this list and click on <strong>'Send activation email'</strong><p ><br /></p><p ><img class="fr-dib fr-draggable fr-bordered" src="#" style={{ fontSize: "16px" }} /><span style={{ fontSize: "16px" }}><span style={{ fontSize: "16px" }}><br /></span></span></p></div>
 
 </details>
 
@@ -57,7 +57,7 @@ sidebar_position: 1
 <details>
 <summary>어떻게 할 수 있나요 send activation emails in bulk?</summary>
 
-<div dir="ltr"><span style="font-size: 16px;">Navigate to <strong>Customers-&gt; Contacts -&gt; </strong>Click on the hamburger menu and choose<strong> Unverified</strong><strong> contacts </strong>from the list. Use the the check box available to to either ‘Select all’ or select just the necessary contacts and hit the <strong>Send activation email'</strong> button. The selected contacts will now receive an activation email enabling them to verify their accounts.</span></div><p><br /></p><p dir="ltr"><br /></p><div dir="ltr"><br /></div><p><span style="font-size: 16px;"><img class="fr-dib fr-bordered" src="#" style="width: 379px; height: 294.166px;" /></span></p><p><br /></p><p><img class="fr-dib fr-bordered" src="#" style="width: 486px; height: 202.276px;" /></p><div dir="ltr"><span style="font-size: 16px;"><br /></span></div><div dir="ltr">Note: You can trigger bulk activation emails for upto 30 contacts (per page) at a time.</div>
+<div dir="ltr"><span style={{ fontSize: "16px" }}>Navigate to <strong>Customers-&gt; Contacts -&gt; </strong>Click on the hamburger menu and choose<strong> Unverified</strong><strong> contacts </strong>from the list. Use the the check box available to to either ‘Select all’ or select just the necessary contacts and hit the <strong>Send activation email'</strong> button. The selected contacts will now receive an activation email enabling them to verify their accounts.</span></div><p><br /></p><p dir="ltr"><br /></p><div dir="ltr"><br /></div><p><span style={{ fontSize: "16px" }}><img class="fr-dib fr-bordered" src="#" style={{ fontSize: "16px" }} /></span></p><p><br /></p><p><img class="fr-dib fr-bordered" src="#" style={{ fontSize: "16px" }} /></p><div dir="ltr"><span style={{ fontSize: "16px" }}><br /></span></div><div dir="ltr">Note: You can trigger bulk activation emails for upto 30 contacts (per page) at a time.</div>
 
 </details>
 
@@ -78,14 +78,14 @@ sidebar_position: 1
 <details>
 <summary>How can we allow only logged-in users to create tickets on the portal?</summary>
 
-<div dir="ltr"><p><span style="font-size: 16px;">Please navigate to<strong dir="ltr"> Admin -&gt; Channels -&gt; Portals -&gt; Settings</strong> where you could see the user permissions listed for who could submit a new ticket on the portal. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">Kindly choose <strong>logged-in </strong>users in this so that only they would be able to submit new tickets to your portal. </span></p></div>
+<div dir="ltr"><p><span style={{ fontSize: "16px" }}>Please navigate to<strong dir="ltr"> Admin -&gt; Channels -&gt; Portals -&gt; Settings</strong> where you could see the user permissions listed for who could submit a new ticket on the portal. </span></p><p><span style={{ fontSize: "16px" }}><br /></span></p><p><span style={{ fontSize: "16px" }}>Kindly choose <strong>logged-in </strong>users in this so that only they would be able to submit new tickets to your portal. </span></p></div>
 
 </details>
 
 <details>
 <summary>Total time spent on company tickets</summary>
 
-<p style="">You can make use of the Time Sheet summary report to get this data. Choose the date and the customer in the filters and export the report from Reports &gt; Time sheet summary. </p>
+<p >You can make use of the Time Sheet summary report to get this data. Choose the date and the customer in the filters and export the report from Reports &gt; Time sheet summary. </p>
 
 </details>
 
@@ -106,7 +106,7 @@ sidebar_position: 1
 <details>
 <summary>Can we 내보내기 contacts from Freshdesk ?</summary>
 
-<p>You can export your contacts to a CSV file from under the Customer's tab. When a contact export is triggered, an email is sent to the event performing agent with the link to download the CSV file.<br /><br /></p><p><img src="#" class="fr-fic fr-fil fr-dib" style="box-sizing: border-box; border: 0px; max-width: 100%; cursor: pointer; padding: 0px 1px; margin-bottom: 5px; margin-left: 0px; display: block; text-align: left; color: rgb(0, 0, 0); font-family: -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-weight: 400; text-indent: 0px; width: auto;" /><br /><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></p><p dir="ltr"><br />Once you have triggered the export of contacts from Freshdesk you can track the export as shown below.<br /><br /><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></p><p><br /></p>Once you receive the email, simply click on the link to download the CSV file containing your exported contacts.<p></p><p><br /></p><p><br /></p>
+<p>You can export your contacts to a CSV file from under the Customer's tab. When a contact export is triggered, an email is sent to the event performing agent with the link to download the CSV file.<br /><br /></p><p><img src="#" class="fr-fic fr-fil fr-dib" style={{ fontSize: "16px" }} /><br /><img src="#" style={{ fontSize: "16px" }} class="fr-fic fr-fil fr-dib" /></p><p dir="ltr"><br />Once you have triggered the export of contacts from Freshdesk you can track the export as shown below.<br /><br /><img src="#" style={{ fontSize: "16px" }} class="fr-fic fr-fil fr-dib" /></p><p><br /></p>Once you receive the email, simply click on the link to download the CSV file containing your exported contacts.<p></p><p><br /></p><p><br /></p>
 
 </details>
 

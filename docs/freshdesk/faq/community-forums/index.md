@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Community & Forums
+# Community &amp; Forums
 
-이 섹션에서는 Community & Forums와 관련된 자주 묻는 질문들을 다룹니다.
+이 섹션에서는 Community &amp; Forums와 관련된 자주 묻는 질문들을 다룹니다.
 
 :::info
 각 질문을 클릭하면 상세한 답변을 확인할 수 있습니다.
@@ -26,21 +26,21 @@ sidebar_position: 1
 <details>
 <summary>어떻게 할 수 있나요 remove forum posts and stop customers from posting them again?</summary>
 
-<p><span style="font-size: 16px;">Forum topics can always be deleted from the Forums tab by an Admin. However, if there are spam posts being regularly posted, </span><span style="font-size: 16px;">you can make use of the Forum Moderation feature. Here's </span><a href="https://support.freshdesk.com/support/solutions/articles/195476-forum-moderation-and-advanced-spam-protection" target="_blank"><span style="font-size: 16px;">a link</span></a><span style="font-size: 16px;"> that would help you set it up. </span></p><p><br /></p><p><span style="font-size: 16px;">Once the Forum Moderation is turned on, any Topic would require your approval before being posted publicly on your Portal.</span></p>
+<p><span style={{ fontSize: "16px" }}>Forum topics can always be deleted from the Forums tab by an Admin. However, if there are spam posts being regularly posted, </span><span style={{ fontSize: "16px" }}>you can make use of the Forum Moderation feature. Here's </span><a href="https://support.freshdesk.com/support/solutions/articles/195476-forum-moderation-and-advanced-spam-protection" target="_blank"><span style={{ fontSize: "16px" }}>a link</span></a><span style={{ fontSize: "16px" }}> that would help you set it up. </span></p><p><br /></p><p><span style={{ fontSize: "16px" }}>Once the Forum Moderation is turned on, any Topic would require your approval before being posted publicly on your Portal.</span></p>
 
 </details>
 
 <details>
 <summary>What changes happens at the customer end when we lock a topic?</summary>
 
-<p style="">The customers will only be able to see the locked topics, follow it and like it but they will not be able to reply to a locked topic. </p>
+<p >The customers will only be able to see the locked topics, follow it and like it but they will not be able to reply to a locked topic. </p>
 
 </details>
 
 <details>
 <summary>I want to prevent a customer from starting a forum topic</summary>
 
-<p dir="ltr">To Manage the Forum settings,</p><p><br /></p><ul><li><span dir="ltr">Go to <strong dir="ltr">Admin &gt; Channels &gt; Portals.</strong></span></li><li><span dir="ltr">Click<strong dir="ltr">&nbsp;Edit&nbsp;</strong>near the portal.</span></li><li><span dir="ltr">Go to<strong dir="ltr">&nbsp;Manage Sections&nbsp;</strong>tab and scroll down <strong dir="ltr">to Forums.</strong></span></li><li><span dir="ltr">Under '<strong>Forums can be viewed by</strong>', select <strong dir="ltr">Logged in users.</strong></span></li><li><span dir="ltr">This will hide the Forum tab from your customer portal.</span></li><li><span dir="ltr">To manage the content on your your forum, select the appropriate<strong>&nbsp;Moderate</strong><strong>Forums</strong> option.</span></li><li><span dir="ltr">Click <strong>Save</strong>.</span></li></ul><p><span dir="ltr"><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></span></p>
+<p dir="ltr">To Manage the Forum settings,</p><p><br /></p><ul><li><span dir="ltr">Go to <strong dir="ltr">Admin &gt; Channels &gt; Portals.</strong></span></li><li><span dir="ltr">Click<strong dir="ltr">&nbsp;Edit&nbsp;</strong>near the portal.</span></li><li><span dir="ltr">Go to<strong dir="ltr">&nbsp;Manage Sections&nbsp;</strong>tab and scroll down <strong dir="ltr">to Forums.</strong></span></li><li><span dir="ltr">Under '<strong>Forums can be viewed by</strong>', select <strong dir="ltr">Logged in users.</strong></span></li><li><span dir="ltr">This will hide the Forum tab from your customer portal.</span></li><li><span dir="ltr">To manage the content on your your forum, select the appropriate<strong>&nbsp;Moderate</strong><strong>Forums</strong> option.</span></li><li><span dir="ltr">Click <strong>Save</strong>.</span></li></ul><p><span dir="ltr"><img src="#" style={{ fontSize: "16px" }} class="fr-fic fr-fil fr-dib" /></span></p>
 
 </details>
 
@@ -64,14 +64,14 @@ sidebar_position: 1
 <details>
 <summary>방법 automatically convert forum topics to tickets?</summary>
 
-<p><span style="font-size: 16px;">If you are looking to convert any forum topic to tickets, so that you could reply directly to customers, </span><span style="font-size: 16px;">you could use the option <strong>"Auto-Convert Topics to Tickets"</strong> inside the Forum folders section. </span></p><p><br /></p><p><span style="font-size: 16px;">Once this is enabled, all new topics created in the respective forum would be automatically converted and created as a new ticket. This ticket would also contain a link to the corresponding Forum Topic. You could reply to these tickets and the reply would be sent to the customer as an email. While replying, you would also have the option to "Post reply in linked forum". When this option is turned on, the reply would be appended to the Forum Topic.</span></p>
+<p><span style={{ fontSize: "16px" }}>If you are looking to convert any forum topic to tickets, so that you could reply directly to customers, </span><span style={{ fontSize: "16px" }}>you could use the option <strong>"Auto-Convert Topics to Tickets"</strong> inside the Forum folders section. </span></p><p><br /></p><p><span style={{ fontSize: "16px" }}>Once this is enabled, all new topics created in the respective forum would be automatically converted and created as a new ticket. This ticket would also contain a link to the corresponding Forum Topic. You could reply to these tickets and the reply would be sent to the customer as an email. While replying, you would also have the option to "Post reply in linked forum". When this option is turned on, the reply would be appended to the Forum Topic.</span></p>
 
 </details>
 
 <details>
 <summary>Users are complaining that they are required to enter Captcha each time they start a Forum topic/ creating a ticket. 방법 have this disabled?</summary>
 
-<p ><span style="font-size: 16px;">Mandating the users to enter a Captcha before creating a Forum topic has been put in place to deflect spam users from your account. However, if you wish to turn it off, you could have this done under <strong dir="ltr">Admin &gt; Channels &gt; Portals &gt; Settings.</strong></span></p>
+<p ><span style={{ fontSize: "16px" }}>Mandating the users to enter a Captcha before creating a Forum topic has been put in place to deflect spam users from your account. However, if you wish to turn it off, you could have this done under <strong dir="ltr">Admin &gt; Channels &gt; Portals &gt; Settings.</strong></span></p>
 
 </details>
 
@@ -92,7 +92,7 @@ sidebar_position: 1
 <details>
 <summary>방법 비활성화하다 forum moderation emails?</summary>
 
-<p><span style="font-size: 16px;">If Forum Moderation is turned on, you would receive notification emails for approval, whenever a new Topic is created. You can turn off forum moderation by going to <strong dir="ltr">Admin &gt; Channels &gt; Portals --&gt; Settings </strong>tab. When you are looking to enable/disable moderation, you will find the option to add an agent's name in there. You can remove yourself from that list to prevent yourself from receiving Forum Moderation emails.</span></p>
+<p><span style={{ fontSize: "16px" }}>If Forum Moderation is turned on, you would receive notification emails for approval, whenever a new Topic is created. You can turn off forum moderation by going to <strong dir="ltr">Admin &gt; Channels &gt; Portals --&gt; Settings </strong>tab. When you are looking to enable/disable moderation, you will find the option to add an agent's name in there. You can remove yourself from that list to prevent yourself from receiving Forum Moderation emails.</span></p>
 
 </details>
 
@@ -106,14 +106,14 @@ sidebar_position: 1
 <details>
 <summary>Is there a way to block people from creating Forum topics?</summary>
 
-<p><span style="font-size: 16px;">You would face instances where you receive Spam Posts or when you would like to monitor the content which is being added to your Forums. To achieve this, Freshdesk has an option called Forum moderation so that you could moderate the forum topics which are submitted by the users, before posting it onto your support portal. Only after your approval, these posts would be made public.</span></p>
+<p><span style={{ fontSize: "16px" }}>You would face instances where you receive Spam Posts or when you would like to monitor the content which is being added to your Forums. To achieve this, Freshdesk has an option called Forum moderation so that you could moderate the forum topics which are submitted by the users, before posting it onto your support portal. Only after your approval, these posts would be made public.</span></p>
 
 </details>
 
 <details>
 <summary>가능한가요 to change the Forum tab name with a different text?</summary>
 
-<p><span style="font-size: 16px;">Yes, this could be done with the help of Portal customisation feature which is available from the Estate plan onwards in Freshdesk. If you wish to make this change, please write to support@freshdesk.com and one of our agents would get in contact with you to take this customisation forward.</span></p>
+<p><span style={{ fontSize: "16px" }}>Yes, this could be done with the help of Portal customisation feature which is available from the Estate plan onwards in Freshdesk. If you wish to make this change, please write to support@freshdesk.com and one of our agents would get in contact with you to take this customisation forward.</span></p>
 
 </details>
 
