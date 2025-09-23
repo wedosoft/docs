@@ -2,150 +2,146 @@
 sidebar_position: 1
 ---
 
-# 현장 서비스 관리 FAQ
+# 현장 서비스 관리
 
-현장 서비스 관리에서 자주 발생하는 질문들과 해결 방법을 정리했습니다. 각 질문을 클릭하여 상세한 답변을 확인하실 수 있습니다.
+이 섹션에서는 현장 서비스 관리와 관련된 자주 묻는 질문들을 다룹니다.
 
-:::info 안내
-이 FAQ는 실제 사용자들이 자주 묻는 질문들을 바탕으로 작성되었습니다. 추가 문의사항이 있으시면 고객지원팀에 문의해 주세요.
+:::info
+각 질문을 클릭하면 상세한 답변을 확인할 수 있습니다.
 :::
 
-<details>
-<summary><strong>I do not see 필드 서비스 Management option 에서 관리자 tab. Why?</strong></summary>
 
-필드 서비스 Management module is 사용 가능한 에 **Blossom, Garden,** **Estate,** 그리고 **Forest** 요금제 에서 Freshdesk. 만약 you are 에 either 의 these 요금제 그리고 still cannot see option, please write 로 us 에서 [지원@freshdesk.com](mailto:지원@freshdesk.com).
+## 기본 설정 및 구성
+
+<details>
+<summary>어떻게 활성화하다 the scheduling 대시보드 feature in Freshdesk?</summary>
+
+<p>The scheduling dashboard feature is available on <strong>Blossom, Garden, Estate, and Forest</strong> plans in Freshdesk. To access the Scheduling Dashboard, </p><ul><li>Go to <strong dir="ltr">Admin &gt; Support Operations &gt;<span dir="ltr" style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); font-weight: 400;"></span>Field Service Management</strong></li><li>Click on "<strong>Enable</strong>"</li><li>Scheduling Dashboard should appear in the navigation sidebar on the left-hand side under the "Field Service" icon.</li></ul>
+
+</details>
+
+
+## 고급 기능 및 사용법
+
+<details>
+<summary>무엇인가요 the difference between Field technician and Customer service technician roles in Freshdesk?</summary>
+
+<p>Customer Service Technicians can create service tasks and manage contacts in addition to the other privileges available to Field technicians.</p><p><br /></p><p>Field Technicians cannot see or respond to tickets. They can only respond to the service tasks assigned to them or their service group, add notes, and resolve their tasks.</p><p><br /></p><table border="1" cellpadding="0" cellspacing="0" dir="ltr" style="table-layout:fixed;font-size:10pt;font-family:Arial;width:0px;border-collapse:collapse;border:none;"><colgroup><col width="318"><col width="178"><col width="178"></colgroup><tbody><tr style="height:21px;"><td style="border-top:1px solid #000000;border-right:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;"></td><td data-sheets-value='{"1":2,"2":"Field Technician"}' style="border-top:1px solid #000000;border-right:1px solid #000000;border-bottom:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:bold;">Field Technician</td><td data-sheets-value='{"1":2,"2":"Customer Service Technician"}' style="border-top:1px solid #000000;border-right:1px solid #000000;border-bottom:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:bold;">Customer Service Technician</td></tr><tr style="height:21px;"><td style="border-right:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:normal;color:#000000;">Edit everyone's time entries</td><td data-sheets-value='{"1":2,"2":"✔️"}' style="border-right:1px solid #000000;border-bottom:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:normal;color:#000000;text-align:center;">✔️</td><td data-sheets-value='{"1":2,"2":"❌"}' style="border-right:1px solid #000000;border-bottom:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:normal;text-align:center;">❌</td></tr><tr style="height:21px;"><td data-sheets-value='{"1":2,"2":"Edit only their time"}' style="border-right:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:normal;color:#000000;">Edit only their time</td><td data-sheets-value='{"1":2,"2":"❌"}' style="border-right:1px solid #000000;border-bottom:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:normal;text-align:center;">❌</td><td data-sheets-value='{"1":2,"2":"✔️"}' style="border-right:1px solid #000000;border-bottom:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:normal;color:#000000;text-align:center;">✔️</td></tr><tr style="height:21px;"><td data-sheets-value='{"1":2,"2":"Create or edit contact"}' style="border-right:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:normal;color:#000000;">Create or edit contact</td><td data-sheets-value='{"1":2,"2":"❌"}' style="border-right:1px solid #000000;border-bottom:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:normal;text-align:center;">❌</td><td data-sheets-value='{"1":2,"2":"✔️"}' style="border-right:1px solid #000000;border-bottom:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:normal;color:#000000;text-align:center;">✔️</td></tr><tr style="height:21px;"><td data-sheets-value='{"1":2,"2":"Create or edit contact segment or company segment"}' style="border-right:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:normal;color:#000000;">Create or edit contact segment or company segment</td><td data-sheets-value='{"1":2,"2":"❌"}' style="border-right:1px solid #000000;border-bottom:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:normal;text-align:center;">❌</td><td data-sheets-value='{"1":2,"2":"✔️"}' style="border-right:1px solid #000000;border-bottom:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:normal;color:#000000;text-align:center;">✔️</td></tr><tr style="height:21px;"><td data-sheets-value='{"1":2,"2":"Create child service tasks"}' style="border-right:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:normal;color:#000000;">Create child service tasks</td><td data-sheets-value='{"1":2,"2":"❌"}' style="border-right:1px solid #000000;border-bottom:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:normal;wrap-strategy:4;white-space:normal;word-wrap:break-word;text-align:center;">❌</td><td data-sheets-value='{"1":2,"2":"✔️"}' style="border-right:1px solid #000000;border-bottom:1px solid #000000;overflow:hidden;padding:2px 3px 2px 3px;vertical-align:middle;font-family:Lato;font-weight:normal;color:#000000;text-align:center;">✔️</td></tr></tbody></table>
+
+</details>
+
+
+## 관리 및 유지보수
+
+<details>
+<summary>I do not see the 현장 서비스 관리 option in the Admin tab. Why?</summary>
+
+<p>The Field Service Management module is available on <strong>Blossom, Garden,</strong><strong>Estate,</strong> and <strong>Forest</strong> plans in Freshdesk. If you are on either of these plans and still cannot see the option, please write to us at <a href="mailto:support@freshdesk.com">support@freshdesk.com</a>.</p>
 
 </details>
 
 <details>
-<summary><strong>How much do 필드 technician licenses cost?</strong></summary>
+<summary>How much do field technician licenses cost?</summary>
 
-It costs **USD 29** per 필드 technician per month. You can 추가 또는 제거 필드 Technicians 에 의해 going 로 **관리자 > > 필드 서비스 Management > Manage**.
-
-</details>
-
-<details>
-<summary><strong>use Freshdesk without 필드 서비스 Management 또는 필드 Technician licenses?할 수 있나요은 무엇인가요?</strong></summary>
-
-Yes, you can use Freshdesk without 필드 Tech licenses. 필드 서비스 Management module is 추가-에 created specifically 위해 those organizations which employ 필드 technicians 위해 지원. 만약 you 제공하다 only online 헬프데스크 지원, you do not need 로 purchase 필드 Technician licenses.
+<p>It costs <strong>USD 29</strong> per field technician per month. You can add or remove Field Technicians by going to <strong dir="ltr">Admin &gt; &gt; Field Service Management &gt; Manage</strong>.</p>
 
 </details>
 
 <details>
-<summary><strong>difference between 필드 Technician license 그리고 헬프데스크 agent license?이란은 무엇인가요?</strong></summary>
+<summary>할 수 있나요 use Freshdesk without 현장 서비스 관리 or Field Technician licenses?</summary>
 
-지원 티켓 에서 customers are not accessible 로 필드 technicians directly; they can only access 서비스 tasks 또는 jobs assigned 로 them 에 의해 your 헬프데스크 상담원. 필드 technicians also get access 로 Freshdesk app that is dedicated 로 필드 서비스, 와 함께 ability 로 - Track 서비스 tasks 그리고 모니터링하다 their schedule - 이동 로 고객's location - Track time spent 에서 필드 그리고 log billable hours 위해 서비스 provided - Collect 고객 signatures once job is done ...그리고 more. These features are 사용 가능한 only 로 필드 technicians 그리고 not 로 헬프데스크 상담원 via Freshdesk mobile app.
-
-</details>
-
-<details>
-<summary><strong>How different is 로그인 위해 필드 서비스 Agent?</strong></summary>
-
-로그인 process 위해 all 상담원 에서 Freshdesk are same, be it Freshdesk 지원 Agent(Full time/ Occasional), 또는 필드 서비스 Agent.
+<p>Yes, you can use Freshdesk without Field Tech licenses. The Field Service Management module is an add-on created specifically for those organizations which employ field technicians for support. If you provide only online helpdesk support, you do not need to purchase Field Technician licenses.<span style="font-size: 11pt; font-family: Arial; color: rgb(67, 67, 67); font-weight: 400;"><br /></span></p>
 
 </details>
 
 <details>
-<summary><strong>Can existing agent be converted into 필드 Technician?</strong></summary>
+<summary>무엇인가요 the difference between a Field Technician license and a Helpdesk agent license?</summary>
 
-No, it will not be possible 로 convert existing agent into 필드 Technician. 하지만 you will be able 로 convert existing 연락하다 into 필드 Technician. As workaround, you can 삭제 agent, that converts them 로 연락하다 그리고 convert 연락하다 로 필드 technician
-
-</details>
-
-<details>
-<summary><strong>What roles 그리고 scope can be assigned 로 필드 서비스 agent?</strong></summary>
-
-위해 필드 상담원, you will only be able 로 선택 Ticket Scope, either Groups 또는 Restricted. 에 의해 기본값, 필드 technician will be associated 와 함께 필드 Technician role. It will not be possible 로 associate 필드 technician 와 함께 other roles. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50000832705/original/OlSOVArNQA9xZMx8snky1LyBbcgXjECM1w.png?1583928373)
+<p>Support tickets from customers are not accessible to field technicians directly; they can only access service tasks or jobs assigned to them by your helpdesk agents. Field technicians also get access to a Freshdesk app that is dedicated to Field Service, with the ability to </p><ul><li>Track service tasks and monitor their schedule</li><li>Navigate to the customer's location</li><li>Track time spent in the field and log billable hours for service provided</li><li>Collect customer signatures once the job is done </li></ul><p>...and more. These features are available only to field technicians and not to helpdesk agents via the Freshdesk mobile app. <span style="font-size: 11pt; font-family: Arial; color: rgb(67, 67, 67); font-weight: 400;"><br /></span></p>
 
 </details>
 
 <details>
-<summary><strong>Can normal 상담원 be added 로 서비스 groups?</strong></summary>
+<summary>How different is login for a Field Service Agent?</summary>
 
-Yes, 에서 case your 헬프데스크 상담원 also go out into 필드 로 help customers, you can 추가 them 로 서비스 groups. This ensures that any 서비스 task you assign 로 particular group can be picked up 에 의해 헬프데스크 상담원 에서 it as well. This will also allow 헬프데스크 상담원 로 view their 서비스 tasks like any other ticket through their mobile apps.
-
-</details>
-
-<details>
-<summary><strong>활성화 scheduling 대시보드 feature 에서 Freshdesk?하는 방법은 무엇인가요?</strong></summary>
-
-scheduling 대시보드 feature is 사용 가능한 에 **Blossom, Garden, Estate, 그리고 Forest** 요금제 에서 Freshdesk. 로 access Scheduling 대시보드, - Go 로 **관리자 > 지원 Operations > 필드 서비스 Management** - 클릭 에 "**활성화**" - Scheduling 대시보드 should appear 에서 navigation sidebar 에 left-hand side under "필드 서비스" icon.
+<p>The login process for all agents in Freshdesk are the same, be it a Freshdesk Support Agent(Full time/ Occasional), or a Field Service Agent. </p>
 
 </details>
 
 <details>
-<summary><strong>생성 서비스 task without having 로 생성 지원 ticket first?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>Can an existing agent be converted into a Field Technician?</summary>
 
-Yes, you can 생성 서비스 task without having 로 생성 지원 ticket first. Refer 로 this [article](http://지원.freshdesk.com/en/지원/solutions/articles/240293--guide-로-필드-서비스-위해-헬프데스크-상담원) 위해 more details.
-
-</details>
-
-<details>
-<summary><strong>I have created 서비스 task directly without any ticket. assign this 서비스 task 로 필드 technician?할 수 있나요은 무엇인가요?</strong></summary>
-
-You can assign 서비스 task 로 필드 technician 또는 지원 agent. This 서비스 task can be requested 에 의해 고객 그리고 created 에 의해 지원 agent 또는 필드 technician. Read this [article](http://지원.freshdesk.com/en/지원/solutions/articles/240293--guide-로-필드-서비스-위해-헬프데스크-상담원) 로 see how you can 생성 서비스 task.
+<p>No, it will not be possible to convert an existing agent into a Field Technician. But you will be able to convert an existing contact into a Field Technician. </p><p>As a workaround, you can delete the agent, that converts them to a contact and the convert the contact to a field technician<span style="font-size: 11pt; font-family: Arial; color: rgb(67, 67, 67); font-weight: 400;"><br /></span></p>
 
 </details>
 
 <details>
-<summary><strong>Can 서비스 task have child 서비스 tasks?</strong></summary>
+<summary>What roles and scope can be assigned to a Field service agent?</summary>
 
-Yes, you can 생성 child 서비스 tasks under parent 서비스 task.
-
-</details>
-
-<details>
-<summary><strong>convert 지원 ticket 로 서비스 task?할 수 있나요은 무엇인가요?</strong></summary>
-
-ticket cannot be converted 로 서비스 task 그리고 vice-versa. However, you can 생성 서비스 task off that ticket. Refer 로 this [article](http://지원.freshdesk.com/en/지원/solutions/articles/240293--guide-로-필드-서비스-위해-헬프데스크-상담원) 위해 more details.
+<p>For field agents, you will only be able to choose Ticket Scope, either Groups or Restricted. By default, the field technician will be associated with the Field Technician role. It will not be possible to associate the Field technician with other roles.</p><p><br /></p><p><span style="font-size: 11pt; font-family: Arial; color: rgb(67, 67, 67); font-weight: 400;"><span style="border: none; width: 624px; height: 215px;"><img src="#" width="624" height="215" class="fr-fic fr-dii fr-bordered" /></span></span><br /></p>
 
 </details>
 
 <details>
-<summary><strong>link 서비스 tasks 에서 Freshdesk?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>Can normal agents be added to service groups?</summary>
 
-Yes, it is possible. 에 의해 using trackers, parent 서비스 tasks can be linked 에서 Freshdesk. 만약 you have 다수의 서비스 tasks 와 함께 similar 문제, you can 생성 Tracker 그리고 link all tasks 로 it. 클릭 here 로 know more about [Linking](https://지원.freshdesk.com/en/지원/solutions/articles/224695-setting-up-linked-티켓).
-
-</details>
-
-<details>
-<summary><strong>Can 서비스 task be linked 로 ticket?</strong></summary>
-
-No. Independent 서비스 tasks can be linked 로 each other, not 로 티켓.
+<p>Yes, In case your helpdesk agents also go out into the field to help customers, you can add them to service groups. </p><p>This ensures that any service task you assign to a particular group can be picked up by the helpdesk agents in it as well. This will also allow helpdesk agents to view their service tasks like any other ticket through their mobile apps.</p>
 
 </details>
 
 <details>
-<summary><strong>Can child 서비스 task be linked 로 another child 서비스 task은 무엇인가요?</strong></summary>
+<summary>할 수 있나요 create a service task without having to create a support ticket first?</summary>
 
-No. Child 서비스 tasks cannot be linked 로 other tasks.
-
-</details>
-
-<details>
-<summary><strong>difference between 필드 technician 그리고 고객 서비스 technician roles 에서 Freshdesk?이란은 무엇인가요?</strong></summary>
-
-고객 서비스 Technicians can 생성 서비스 tasks 그리고 manage 연락처 에서 addition 로 other privileges 사용 가능한 로 필드 technicians. 필드 Technicians cannot see 또는 respond 로 티켓. They can only respond 로 서비스 tasks assigned 로 them 또는 their 서비스 group, 추가 notes, 그리고 resolve their tasks. 필드 TechnicianCustomer 서비스 TechnicianEdit everyone's time entries✔️❌편집 only their time❌✔️생성 또는 편집 연락하다❌✔️생성 또는 편집 연락하다 segment 또는 company segment❌✔️생성 child 서비스 tasks❌✔️
+<p>Yes, you can create a service task without having to create a support ticket first. Refer to this <a href="http://support.freshdesk.com/en/support/solutions/articles/240293-a-guide-to-field-service-for-helpdesk-agents" rel="noopener noreferrer" target="_blank">article</a> for more details.</p>
 
 </details>
 
 <details>
-<summary><strong>기본값 필드 서비스 roles 사용 가능한 에서 Freshdesk?이란은 무엇인가요?</strong></summary>
+<summary>I have created a service task directly without any ticket. 할 수 있나요 assign this service task to a field technician?</summary>
 
-Currently, Freshdesk has two 기본값 roles 위해 필드 서비스 - 필드 technician 그리고 고객 서비스 technician. 필드 technician: Can view, reply, 업데이트 그리고 resolve 서비스 tasks 고객 서비스 technician: Can 생성, view, reply, 업데이트 그리고 resolve 서비스 tasks 그리고 manage 연락처. 에서 addition, customers 의 all 요금제 other than Blossom 그리고 Garden can 생성 사용자 정의 roles
+<p>You can assign a service task to a field technician or a support agent. This service task can be requested by a customer and created by a support agent or a field technician. Read this <a href="http://support.freshdesk.com/en/support/solutions/articles/240293-a-guide-to-field-service-for-helpdesk-agents" rel="noreferrer" target="_blank">article</a> to see how you can create a service task.</p><p><br /></p><p><br /></p>
 
 </details>
 
----
+<details>
+<summary>Can a service task have child service tasks?</summary>
 
-## 🔗 관련 자료
+<p>Yes, you can create child service tasks under a parent service task. </p>
 
-추가적인 도움이 필요하시면 다음 자료들을 참고해 주세요:
+</details>
 
-- [Freshdesk 도움말 센터](https://support.freshdesk.com)
-- [커뮤니티 포럼](https://community.freshworks.com)
-- [고객지원팀 문의](mailto:support@freshdesk.com)
+<details>
+<summary>할 수 있나요 convert a support ticket to a service task?</summary>
 
-:::tip 도움말
-더 자세한 정보나 개별 상담이 필요하시면 고객지원팀으로 연락해 주세요.
-:::
+<p>A ticket cannot be converted to a service task and vice-versa. However, you can create a service task off that ticket. Refer to this <a href="http://support.freshdesk.com/en/support/solutions/articles/240293-a-guide-to-field-service-for-helpdesk-agents" rel="noreferrer" target="_blank">article</a> for more details.</p>
+
+</details>
+
+<details>
+<summary>가능한가요 to link service tasks in Freshdesk?</summary>
+
+<p>Yes, it is possible. By using trackers, parent service tasks can be linked in Freshdesk. If you have multiple service tasks with a similar problem, you can create a Tracker and link the all tasks to it. </p><p><br /></p><p>Click here to know more about <a href="https://support.freshdesk.com/en/support/solutions/articles/224695-setting-up-linked-tickets" rel="noreferrer" target="_blank">Linking</a>.</p>
+
+</details>
+
+<details>
+<summary>Can a service task be linked to a ticket?</summary>
+
+<p>No. Independent service tasks can be linked to each other, not to tickets.</p>
+
+</details>
+
+<details>
+<summary>Can a child service task be linked to another child service task</summary>
+
+<p>No. Child service tasks cannot be linked to other tasks.</p>
+
+</details>
+
+<details>
+<summary>What are the default field service roles available in Freshdesk?</summary>
+
+<p>Currently, Freshdesk has two default roles for field service - <span style="font-family: Terminal, monospace;">Field technician</span> and <span style="font-family: Terminal, monospace;">Customer service technician</span>.</p><p><br /></p><p><span style="font-family: Terminal, monospace;">Field technician</span>: Can view, reply, update and resolve service tasks</p><p><span style="font-family: Terminal, monospace;">Customer service technician</span>: Can create, view, reply, update and resolve service tasks and manage contacts. </p><p><br /></p><p>In addition, customers of all plans other than Blossom and Garden can create Custom roles</p>
+
+</details>
+

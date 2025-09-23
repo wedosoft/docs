@@ -2,199 +2,198 @@
 sidebar_position: 1
 ---
 
-# 연동 및 통합 FAQ
+# 통합
 
-연동 및 통합에서 자주 발생하는 질문들과 해결 방법을 정리했습니다. 각 질문을 클릭하여 상세한 답변을 확인하실 수 있습니다.
+이 섹션에서는 통합와 관련된 자주 묻는 질문들을 다룹니다.
 
-:::info 안내
-이 FAQ는 실제 사용자들이 자주 묻는 질문들을 바탕으로 작성되었습니다. 추가 문의사항이 있으시면 고객지원팀에 문의해 주세요.
+:::info
+각 질문을 클릭하면 상세한 답변을 확인할 수 있습니다.
 :::
 
-<details>
-<summary><strong>추가 Apps 로 my Freshdesk 계정?하는 방법은 무엇인가요?</strong></summary>
 
-You can 추가 apps 로 your Freshdesk 계정 에서 Freshdesk Apps Gallery. Based 에 app's complexity 그리고 availability 의 its features, it is either free 또는 comes 와 함께 charge. 로 install app, - Go 로 **관리자**>**지원 Operations**>**Apps** >**Marketplace** - Search 위해 app you wish 로 추가 그리고 클릭 **Install.** - Under **설정,**configure your **Freshdesk** **Domain URL**그리고 **API Key.** **![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50007628783/original/pMz9X4pdeCCFrZ4wyYlta7V3-IvIf9FvVQ.png?1676533180)** Your Freshdesk URL will be 에서 format .freshdesk.com](//yourcompanyname.freshdesk.com). You can fetch URL 에서 your address bar. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50007628830/original/CcsUKVd840Usk8roJ8IU6ULrLWSrl5myjQ.png?1676533556) 로 fetch your API Key, Go 로 **Profile icon**>**Profile 설정** >**Your API Key** **![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50007629119/original/6bq626_T7G56iz8v-gHm89_whV5YUSki2g.png?1676535429)**
+## 기본 설정 및 구성
+
+<details>
+<summary>할 수 있나요 use dynamic variables when setting up user-defined Slack messages?</summary>
+
+<p style=""><span style="font-size: 16px;">Yes, this is possible- however, please use the following variables for ticket description, last public note, and last private note so that only the text content of the description and notes is sent to Slack; otherwise, the <strong>HTML tags </strong>will get pushed to slack as well.</span></p><ul><li style=""><span style="font-size: 16px;"></span><span style="font-size: 16px;">Use {{ticket.description_text}} in place of {{ticket.description}</span></li><li style=""><span style="font-size: 16px;"></span><span style="font-size: 16px;">Use {{ticket.latest_public_comment_text}} in place of {{ticket.latest_public_comment}}</span><span style="font-size: 16px;"></span><span style="font-size: 16px;"></span></li><li style=""><span style="font-size: 16px;">Use {{ticket.latest_private_comment_text}} in place of {{ticket.latest_private_comment}}</span></li></ul>
+
+</details>
+
+
+## 고급 기능 및 사용법
+
+<details>
+<summary>I want to know what the customers are viewing in the website?</summary>
+
+<p>With the Freshmarketer integration, you can now view customer sessions on every ticket generated in Freshdesk. A session replay is a recording of the customer’s journey on a website or within a web application.</p><p><br /></p><p>Benefits of this Session replay integration:</p><p><br /></p><ul><li dir="ltr"><p>Get context about the issue that the customer has been facing, without having to ask them to elaborate the issue. For e.g. If a customer has been facing trouble with routing emails, you can look at the session replay and understand what went wrong.</p></li><li dir="ltr"><p>Lesser email threads leading to decrease in resolution time.</p></li><li dir="ltr"><p>Understand which part of your website/product is confusing to the customer. </p></li><li dir="ltr"><p>Reduces the need to ask customers for screenshots. Instead replay the sessions. </p></li><li dir="ltr"><p>Identify the solution articles visited by the customer to make sure that the support agent does not suggest the same. </p></li></ul><p><br /></p><p>Please refer this <a href="https://support.freshdesk.com/support/solutions/articles/235353-how-to-integrate-freshmarketer-s-session-replay-with-freshdesk-" target="_blank" rel="noreferrer noopener">link</a> for more details.</p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>왜 is it that comment 에서 JIRA is added 에서 Freshdesk under different 사용자명?</strong></summary>
+<summary>무엇인가요 the advanced Freshdesk - Freshcaller Integration</summary>
 
-언제 user posts comment 에서 JIRA, equivalent 계정 is created 에서 Freshdesk 와 함께 one's JIRA 이메일 그리고 참고 is added 로 Freshdesk ticket. 만약 이메일 address 의 user is **hidden** 에서 JIRA 설정, JIRA 연동 에서 your 헬프데스크 will not be able 로 fetch it, 그리고 so generic one will be used.
+<p><span>Apart from attending your calls, providing post-call support by converting calls into tickets within Freshdesk, the advanced Freshdesk - Freshcaller integration also helps you <strong>manage your calls within your Freshdesk account </strong>without having to switch tabs to go to your Freshcaller account. </span></p>
+
+</details>
+
+
+## 통합 및 연동
+
+<details>
+<summary>무엇인가요 the basic Freshdesk - Freshcaller Integration?</summary>
+
+<p>The basic Freshdesk - Freshcaller integration helps you convert the calls you manage within your Freshcaller account as tickets in Freshdesk. You can follow-up on your calls, i.e, provide post-call support via Freshdesk and also document them for future context. </p><p><br /></p>
+
+</details>
+
+
+## 관리 및 유지보수
+
+<details>
+<summary>방법 add Apps to my Freshdesk Account?</summary>
+
+<p><span dir="ltr" style="font-size: 16px;">You can add apps to your Freshdesk account from the Freshdesk Apps Gallery. <span dir="ltr" style="font-size: 16px;">Based on an app's complexity and the availability of its features, it is either free or comes with a charge.</span></span></p><p><br /></p><p><span dir="ltr" style="font-size: 16px;">To install an app,</span></p><p><br /></p><ul><li><span dir="ltr" style="font-size: 16px;">Go to &nbsp;<strong dir="ltr">Admin&nbsp;</strong>&gt;<strong dir="ltr">&nbsp;Support Operations&nbsp;</strong>&gt;<strong dir="ltr">&nbsp;Apps</strong> &gt;<strong dir="ltr">&nbsp;Marketplace</strong></span></li><li><span dir="ltr" style="font-size: 16px;">Search for the app you wish to add and click <strong dir="ltr">Install.</strong></span></li><li><span dir="ltr" style="font-size: 16px;">Under <strong dir="ltr">Settings,&nbsp;</strong>configure your <strong>Freshdesk</strong><strong dir="ltr">Domain URL&nbsp;</strong>and <strong dir="ltr">API Key.</strong></span></li></ul><p></p><p><strong dir="ltr"><br /></strong></p><p><strong dir="ltr"><img src="#" style="width: 684px;" class="fr-fic fr-fil fr-dib fr-bordered" /></strong></p><p><br /></p><p dir="ltr"><span dir="ltr" style="font-size: 16px;">Your Freshdesk URL will be in the format <span style="color: rgb(44, 130, 201);">&lt;<a dir="ltr" href="//yourcompanyname.freshdesk.com">yourcompanyname&gt;.freshdesk.com</a></span>. You can fetch the URL from your address bar.</span></p><p dir="ltr"><br /></p><p dir="ltr"><img src="#" style="width: 684px;" class="fr-fic fr-fil fr-dib fr-bordered" /></p><p dir="ltr"><br /><span dir="ltr" style="font-size: 16px;">To fetch your API Key,</span></p><p dir="ltr" style="font-size: 16px;"><span style="font-size: 16px;"><br /></span></p><p dir="ltr" style="font-size: 16px;"><span style="font-size: 16px;">Go to <strong>Profile icon&nbsp;</strong>&gt;<strong>&nbsp;Profile settings</strong> &gt;<strong>&nbsp;Your API Key</strong></span></p><p dir="ltr"><br /></p><p dir="ltr"><strong dir="ltr"><img src="#" style="width: 684px;" class="fr-fic fr-fil fr-dib fr-bordered" /></strong><br /></p><p><span dir="ltr" style="font-size: 16px;"><strong dir="ltr"><br /></strong></span></p>
 
 </details>
 
 <details>
-<summary><strong>왜 is ticket created 에서 Freshdesk whenever comment is added 에서 JIRA?</strong></summary>
+<summary>왜인가요 it that a comment in JIRA is added in Freshdesk under a different username?</summary>
 
-This usually happens 언제 you configure notifications 에서 JIRA 그리고 it is linked 로 one 의 지원 addresses configured 에서 Freshdesk. You can just 제거 지원 이메일 address 에서 **notification 설정**within JIRA 로 prevent this.
-
-</details>
-
-<details>
-<summary><strong>왜 isn't status mapping 에서 JIRA working 위해 me?</strong></summary>
-
-로 understand 왜 status mapping 에서 JIRA is not working, 1. 이동 로 **관리자 -> 지원 Operations -> Apps -> JIRA Plus app 설정 -> 일반적인 설정** 로 확인하다 how status sync between JIRA 그리고 Freshdesk is 설정. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50001119719/original/wgC0wmSBYKHKKy14EF0Y2DXHM7Xc2bW7Sg.png?1589863092) 2. Also, 확인하다 how your 사용자 정의 statuses 에 Freshdesk is mapped 로 문제 status 에 Jira ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50001119735/original/KiZtcKRsdYB9Qju8c9TNDMTn3Pzm7gqo-g.png?1589863423)
+<p style=""><span rel="tempredactor" style="font-size: 16px;">When a user posts a comment in JIRA, an equivalent account is created in Freshdesk with one's JIRA email and the note is added to the Freshdesk ticket. </span></p><p style=""><br /></p><p style=""><span rel="tempredactor" style="font-size: 16px;">If the email address of the user is <strong>hidden</strong> in JIRA settings, the JIRA integration in your helpdesk will not be able to fetch it, and so a generic one will be used.</span></p><p style=""><br /></p><p style=""><span rel="tempredactor" style="font-size: 16px;"><br /></span></p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>attach files which are larger than 20 MB?하는 방법은 무엇인가요?</strong></summary>
+<summary>왜인가요 a ticket created in Freshdesk whenever a comment is added in JIRA?</summary>
 
-Freshdesk has many 3rd party integrations like Dropbox 또는 OneDrive 와 함께 which 상담원/customers can use 로 send files larger than 20 MB. 로 set up integrations 와 함께 Google Drive, refer 로 [this article](https://지원.freshdesk.com/해결책/articles/232355--google-drive-app) 그리고 위해 Dropbox, you can 클릭 [here](https://지원.freshdesk.com/지원/solutions/articles/55359--dropbox-app).
-
-</details>
-
-<details>
-<summary><strong>왜 aren't messages being pushed 로 Slack?</strong></summary>
-
-Please 확인하다 만약 corresponding channel is configured under **관리자 -> 지원 Operations -> Apps -> Slack -> 편집.** 만약 channel has been**deleted**, messages will not be pushed 로 Slack channel.
+<p style=""><span style="font-size: 16px;">This usually happens when you configure notifications in JIRA and it is linked to one of the support addresses configured in Freshdesk. </span></p><p style=""><br /></p><p style=""><span style="font-size: 16px;">You can just remove the support email address from the <strong>notification settings </strong>within JIRA to prevent this.</span></p>
 
 </details>
 
 <details>
-<summary><strong>avoid entire HTML code that comes out 언제 comment section is included 에서 message sent 로 Slack?하는 방법은 무엇인가요?</strong></summary>
+<summary>Why isn't 상태 mapping in JIRA working for me?</summary>
 
-언제 you are using dynamic variables 로 configure 사용자 정의 messages 위해 Slack, please use following variables 위해**ticket description, last public 참고, 그리고 last private 참고** so that only text content 의 description 그리고 notes is sent 로 Slack. Otherwise, **HTML** tags will get pushed 로 slack as well. You can replace placeholder 와 함께 **\{\{ticket.description_text\}\} 또는 \{\{ticket.description | strip_html\}\} instead 의 \{\{ticket.description\}\}** 그리고 this will just have text portion included 에서 notification.
-
-</details>
-
-<details>
-<summary><strong>왜 am I unable 로 execute Slash Commands?</strong></summary>
-
-Please 확인하다 following 에서 Slack app: 1. Make sure **"****Allow Slash Commands"**is checked 에서 app 구성 page. Please 이동 로 **관리자 -> 지원 Operations -> Apps ->** 클릭 에 slash 연동 로 see 설정 (gear icon) where you could see this 구성. 2. Make sure that **correct Slash command token** (obtainable 언제 you 생성 slash command) is copied 로 Freshdesk-Slack app 설정 page. 3. Make sure **** entered along 와 함께 /fd_ticket command is right one.
+<p>To understand why the status mapping in JIRA is not working,<br /><br />1. Navigate to <strong dir="ltr">Admin -&gt; Support Operations -&gt; Apps -&gt; JIRA Plus app settings -&gt; General Settings</strong> to check how the status sync between JIRA and Freshdesk is setup.<br /><br /><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></p><p><br /></p><p style="box-sizing: border-box; margin-bottom: 0px; margin-left: 0px; font-size: inherit; line-height: 1.6; word-break: normal; overflow-wrap: break-word;">2. Also, verify how your custom statuses on Freshdesk is mapped to the issue status on Jira<br /><br /><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></p><p style="box-sizing: border-box; margin-bottom: 0px; margin-left: 0px; font-size: inherit; line-height: 1.6; word-break: normal; overflow-wrap: break-word;"><br style="box-sizing: border-box; color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 400; text-align: start; text-indent: 0px;"></p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>Do we have any limit 로 number 의 Public 그리고 Private channels?</strong></summary>
+<summary>방법 attach files which are larger than 20 MB?</summary>
 
-Yes, 연동 allows only **20 private 그리고 public channels**. 의 these, 에서 least one channel should be 사용 가능한 as Public (independent 의 private channels).
-
-</details>
-
-<details>
-<summary><strong>hide certain ticket fields 로 certain 상담원?할 수 있나요은 무엇인가요?</strong></summary>
-
-You can integrate Freshdesk 와 함께 app called 'Hide/비활성화 Ticket Fields'. 언제 there are several irrelevant 기본값 그리고 사용자 정의 Ticket fields it is time-consuming 위해 agent 로 scroll through these fields while creating/updating ticket. All Ticket fields except mandatory fields will be 사용 가능한 로 Hide 그리고/또는 비활성화. - Ability 로 display 티켓 fields 관련된 로 상담원 - Useful 언제 ticket 필드 is used 로 hold background information that is 의 no relevance 의 value 로 agent - Reduce unnecessary clutter 에 상담원’ interface - Improve 상담원’ productivity Refer this [link](https://apps.freshdesk.com/hidedisable_ticket_fields/) 위해 more details.
+<p>Freshdesk has many 3rd party integrations like Dropbox or OneDrive with which agents/customers can use to send files larger than 20 MB. To set up the integrations with Google Drive, refer to <a href="https://support.freshdesk.com/solution/articles/232355-the-google-drive-app" target="_blank" rel="noreferrer noopener">this article</a> and for Dropbox, you can click <a href="https://support.freshdesk.com/support/solutions/articles/55359-the-dropbox-app" target="_blank" rel="noreferrer noopener">here</a>.</p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>왜 is only part 의 conversation 에서 Slack being converted into ticket 에서 Freshdesk?</strong></summary>
+<summary>Why aren't messages being pushed to Slack?</summary>
 
-As per 연동, latest **200 messages** would only be included 에서 text 의 ticket. **text content** only 에서 conversations will be included 에서 ticket. All files attached 그리고 snippets will be 사용 가능한 as clickable Slack link 에서 your ticket.
-
-</details>
-
-<details>
-<summary><strong>use dynamic variables 언제 setting up user-defined Slack messages?할 수 있나요은 무엇인가요?</strong></summary>
-
-Yes, this is possible- however, please use following variables 위해 ticket description, last public 참고, 그리고 last private 참고 so that only text content 의 description 그리고 notes is sent 로 Slack; otherwise, **HTML tags**will get pushed 로 slack as well. - Use \{\{ticket.description_text\}\} 에서 place 의 \{\{ticket.description\} - Use \{\{ticket.latest_public_comment_text\}\} 에서 place 의 \{\{ticket.latest_public_comment\}\} - Use \{\{ticket.latest_private_comment_text\}\} 에서 place 의 \{\{ticket.latest_private_comment\}\}
+<p><span style="font-size: 16px;">Please check if the corresponding channel is configured under <strong dir="ltr">Admin -&gt; Support Operations -&gt; Apps -&gt; Slack -&gt; Edit. </strong></span></p><p><br /></p><p><span style="font-size: 16px;">If the channel has been<strong> deleted</strong>, the messages will not be pushed to the Slack channel. </span></p>
 
 </details>
 
 <details>
-<summary><strong>I want 로 know what customers are viewing 에서 website?</strong></summary>
+<summary>어떻게 할 수 있나요 avoid the entire HTML code that comes out when the comment section is included in the message sent to Slack?</summary>
 
-와 함께 Freshmarketer 연동, you can now view 고객 sessions 에 every ticket generated 에서 Freshdesk. session replay is recording 의 고객’s journey 에 website 또는 within web application. Benefits 의 this Session replay 연동: - Get context about 문제 that 고객 has been facing, without having 로 ask them 로 elaborate 문제. 위해 e.g. 만약 고객 has been facing trouble 와 함께 routing emails, you can look 에서 session replay 그리고 understand what went wrong. - Lesser 이메일 threads leading 로 decrease 에서 resolution time. - Understand which part 의 your website/product is confusing 로 고객. - Reduces need 로 ask customers 위해 screenshots. Instead replay sessions. - Identify 해결책 articles visited 에 의해 고객 로 make sure that 지원 agent does not suggest same. Please refer this [link](https://지원.freshdesk.com/지원/solutions/articles/235353-how-로-integrate-freshmarketer-s-session-replay-와 함께-freshdesk-) 위해 more details.
-
-</details>
-
-<details>
-<summary><strong>I typed my auth token incorrectly while calling “/fd_ticket” - what do?할 수 있나요은 무엇인가요?</strong></summary>
-
-You may call **slash command** again 와 함께 correct token, 그리고 app will override previously-stored incorrect one. Please 이동 로 **관리자 -> 지원 Operations -> Apps -> Slack** where this could be checked 그리고 modified.
+<p><span style="font-size: 16px;">When you are using dynamic variables to configure custom messages for Slack, please use the following variables for<strong> ticket description, last public note, and last private note</strong> so that only the text content of the description and notes is sent to Slack. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">Otherwise, the <strong>HTML</strong> tags will get pushed to slack as well.</span></p><p><br /></p><p style=""><span style="font-size: 16px;">You can replace the placeholder with <strong>{{ticket.description_text}} or {{ticket.description | strip_html}} instead of {{ticket.description}}</strong> and this will just have the text portion included in the notification.</span></p><p style=""><br /></p><p style=""><br /></p><p style=""><span style="font-size: 16px;"><br /></span></p>
 
 </details>
 
 <details>
-<summary><strong>왜 am I getting failure message 에서 time 의 ticket creation, 그리고 being asked 로 연락하다 지원@freshdesk.com?</strong></summary>
+<summary>Why am I unable to execute Slash Commands?</summary>
 
-This could happen due 로 following reasons: - ticket **format 또는 description** is incorrect. - Ticket creation is done without **mandatory** fields (priority, source etc). - Slack is not able 로 process certain details 로 Freshdesk.
-
-</details>
-
-<details>
-<summary><strong>생성 mailing lists 언제 writing emails?할 수 있나요은 무엇인가요?</strong></summary>
-
-You cannot 생성 mailing lists 에서 Freshdesk. However, you can make use 의 Mailchimp 연동 와 함께 Freshdesk 로 생성 mailing lists 에서 Mailchimp 그리고 로 send out emails 에서 bulk. Please refer this[link](https://지원.freshdesk.com/지원/solutions/articles/41745--mailchimp-app)위해 more details about Mailchimp.
+<p><span style="font-size: 16px;">Please check the following in the Slack app:</span></p><p><span style="font-size: 16px;"></span></p><p><span dir="ltr" style="font-size: 16px;">1. Make sure <strong>"</strong><strong>Allow Slash Commands" </strong>is checked in the app configuration page. Please navigate to <strong>Admin -&gt; Support Operations -&gt; Apps -&gt;</strong> click on slash integration to see the settings (gear icon) where you could see this configuration. </span></p><p><br /></p><p><span style="font-size: 16px;">2. Make sure that the<strong> correct Slash command token</strong> (obtainable when you create the slash command) is copied to Freshdesk-Slack app settings page.</span></p><p><br /></p><p><span style="font-size: 16px;">3. Make sure the <strong>&lt;user API token&gt;</strong> entered along with the /fd_ticket command is the right one.</span></p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>Where is Mailchimp 위젯 located please?</strong></summary>
+<summary>Do we have any limit to the number of Public and Private channels?</summary>
 
-Please 이동 로 **"apps.freshdesk.com"** 그리고 search 위해 MailChimp 로 install this. Kindly make sure you have MailChimp 계정 로 integrate 와 함께 Freshdesk. Once this is successfully added 로 your 헬프데스크, **MailChimp 위젯**would be 사용 가능한 inside 연락처 under customers' tab. 위해 instance, you 클릭 에 that 위젯 inside 연락하다 say, Alex - window 와 함께 two tabs namely,**campaigns 그리고 mailing lists** would open 와 함께 several options underneath that would allow you 로 선택 which 로 subscribe 그리고 unsubscribe appropriately.
-
-</details>
-
-<details>
-<summary><strong>I do not have e-commerce option even though I am 에서 Estate 요금제. Please help me 와 함께 this!은 무엇인가요?</strong></summary>
-
-E-commerce is recently developed platform 에 Freshdesk which would 활성화 you 로 bring Ebay channel into 헬프데스크. This is feature enabled upon request 그리고 so kindly 연락하다 us 에**지원@freshdesk.com** 에서 order 로 bring this as option 에 관리자 tab. Once this is enabled, you could see this 에서 **관리자 -> Channels -> E-commerce** where you can 추가 new 계정. This new 계정 would need your eBay site information 그리고 you would be able 로 assign product, group 그리고 such.
+<p style=""><span style="font-size: 16px;">Yes, the integration allows only <strong>20 private and public channels</strong>. </span></p><p style=""><br /></p><p style=""><span style="font-size: 16px;">Of these, at least one channel should be available as Public (independent of the private channels).</span></p>
 
 </details>
 
 <details>
-<summary><strong>integrate Xero 와 함께 Freshdesk?하는 방법은 무엇인가요?</strong></summary>
+<summary>가능한가요 to hide certain ticket fields to certain agents?</summary>
 
-Xero is **Invoicing Tool**which you could integrate 와 함께 Freshdesk. Using this 연동, you would be able 로 view information about invoices sent 로 requester 의 ticket, within that **ticket's details page**. You could **track time 위해 티켓**에서 Freshdesk 그리고 **send invoices**위해 지원, using Xero 연동. You could integrate Xero 와 함께 your Freshdesk 계정, 에 의해 navigating 로 **관리자 -> Su -> Apps -> Get More Apps-->Time Tracking & 결제-->Xero-->Install**. You would be asked 로 로그인 로 your Xero 계정 로 authorize 연동.
-
-</details>
-
-<details>
-<summary><strong>SugarCRM? integrate 와 함께 my SugarCRM 계정?하는 방법이란은 무엇인가요?</strong></summary>
-
-SugarCRM is 고객 Relationship Management tool, which is used 로 track 그리고 keep record 의 your 고객 profiles. 로 제공하다 better context 의 고객 information 로 상담원 working 에 your Freshdesk 계정, you could integrate SugarCRM 와 함께 Freshdesk. 로 integrate SugarCRM, 이동 로 **관리자 > 지원 Operations > Apps > Get More Apps > CRM > SugarCRM > Install**. This would install app 에 your 계정. You could 그러면 configure app 에 의해 entering SugarCRM 계정 URL 그리고 credentials.
+<p>You can integrate Freshdesk with the app called 'Hide/Disable Ticket Fields'. </p><p><br /></p><p>When there are several irrelevant default and custom Ticket fields it is time-consuming for an agent to scroll through these fields while creating/updating a ticket. All Ticket fields except the mandatory fields will be available to Hide and/or Disable.<br />- Ability to display tickets fields relevant to agents<br />- Useful when a ticket field is used to hold background information that is of no relevance of value to an agent<br />- Reduce unnecessary clutter on agents’ interface<br />- Improve agents’ productivity</p><p><br /></p><p>Refer this <a href="https://apps.freshdesk.com/hidedisable_ticket_fields/" target="_blank" rel="noreferrer noopener">link</a> for more details.</p><p><br /></p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>integrate Zoho CRM 와 함께 Freshdesk?하는 방법은 무엇인가요?</strong></summary>
+<summary>왜인가요 only part of the conversation in Slack being converted into a ticket in Freshdesk?</summary>
 
-Zoho CRM is web-based 고객 relationship management application that has native 연동 에서 Freshdesk. This 연동 would allow you 로 fetch requester information 에서 this tool which is 사용 가능한 에서 연락하다 details as well as 티켓 detail page. Please 이동 로 **관리자 -> 지원 Operations -> Apps -> Get more apps -> 선택 로 install Zoho CRM.** 연동 will ask 위해 Auth Token which can be taken 에서 your Zoho CRM 계정. 위해 more information, please 이동 로 this [link](https://지원.freshdesk.com/지원/solutions/articles/42657--zoho-crm-app) 로 set this up.
-
-</details>
-
-<details>
-<summary><strong>integrate Freshdesk 와 함께 my Shopify store?하는 방법은 무엇인가요?</strong></summary>
-
-에서 times, you would want 로 integrate your 헬프데스크 와 함께 Shopify so that you can bring your customers' details into 헬프데스크. 이동 로 **관리자 > 지원 Operations > Apps > Get more apps** 그리고 search 위해 Shopify. 위해 further instructions 에 설치 그리고 app's capabilities, please refer [this](https://지원.freshdesk.com/지원/solutions/articles/195382--shopify-app) article.
+<p style=""><span style="font-size: 16px;">As per the integration, the latest <strong>200 messages</strong> would only be included in the text of the ticket. </span></p><p><br /></p><p><span style="font-size: 16px;">The<strong> text content</strong> only from conversations will be included in the ticket. All files attached and snippets will be available as a clickable Slack link in your ticket.</span></p><p><br /></p><p style=""><span style="font-size: 16px;"></span><br /></p><p style=""><br /></p>
 
 </details>
 
 <details>
-<summary><strong>convert WordPress comments 로 Freshdesk 티켓?하는 방법은 무엇인가요?</strong></summary>
+<summary>I typed my auth token incorrectly while calling “/fd_ticket” - what 할 수 있나요 do?</summary>
 
-You can 생성 티켓 위해 comments 에 your WordPress website using Freshdesk plugin 위해 WordPress. You can 생성 ticket 위해 every comment user writes 에 your WordPress site users 로 log 에서 로 Freshdesk. 로 do so, you first need 로 install [Freshdesk WordPress plugin](https://wordpress.org/plugins/freshdesk-지원/). You can install plugin 에서 plugins directory 만약 your site runs 에 self-hosted WordPress. 만약 you use WordPress.com, you need 로 be 에 [Business 요금제 또는 above](https://wordpress.com/pricing/) 로 install this plugin. [클릭 here](https://지원.freshdesk.com/지원/solutions/articles/50000001054-converting-wordpress-comments-로-freshdesk-티켓) 로 read step-에 의해-step guide 에 embedding 해결책 articles 그리고 연락하다 form 에 Shopify 에서 more detail.
-
-</details>
-
-<details>
-<summary><strong>기본적인 Freshdesk - Freshcaller 연동?이란은 무엇인가요?</strong></summary>
-
-기본적인 Freshdesk - Freshcaller 연동 helps you convert calls you manage within your Freshcaller 계정 as 티켓 에서 Freshdesk. You can follow-up 에 your calls, i.e, 제공하다 post-call 지원 via Freshdesk 그리고 also document them 위해 future context.
+<p><span style="font-size: 16px;">You may call the <strong>slash command</strong> again with the correct token, and the app will override the previously-stored incorrect one. </span></p><p><br /></p><p><span style="font-size: 16px;">Please navigate to <strong dir="ltr">Admin -&gt; Support Operations -&gt; Apps -&gt; Slack</strong> where this could be checked and modified. </span></p>
 
 </details>
 
 <details>
-<summary><strong>고급 Freshdesk - Freshcaller 연동이란은 무엇인가요?</strong></summary>
+<summary>Why am I getting a failure message at the time of ticket creation, and being asked to contact support@freshdesk.com?</summary>
 
-Apart 에서 attending your calls, providing post-call 지원 에 의해 converting calls into 티켓 within Freshdesk, 고급 Freshdesk - Freshcaller 연동 also helps you **manage your calls within your Freshdesk 계정**without having 로 switch tabs 로 go 로 your Freshcaller 계정.
+<p style=""><span style="font-size: 16px;">This could happen due to the following reasons: </span></p><ul><li style=""><span style="font-size: 16px;">The ticket <strong>format or description</strong> is incorrect.</span></li><li><span style="font-size: 16px;">Ticket creation is done without <strong>mandatory</strong> fields (priority, source etc).</span></li><li style=""><span style="font-size: 16px;">Slack is not able to process certain details to Freshdesk.</span></li></ul><p style=""><br /></p><p style=""><span style="font-size: 16px;"><br /></span></p>
 
 </details>
 
----
+<details>
+<summary>할 수 있나요 create mailing lists when writing emails?</summary>
 
-## 🔗 관련 자료
+<p>You cannot create mailing lists in Freshdesk. However, you can make use of the Mailchimp integration with Freshdesk to create mailing lists in Mailchimp and to send out emails in bulk. Please refer this<a href="https://support.freshdesk.com/support/solutions/articles/41745-the-mailchimp-app" target="_blank" rel="noreferrer noopener"> link </a>for more details about Mailchimp.</p>
 
-추가적인 도움이 필요하시면 다음 자료들을 참고해 주세요:
+</details>
 
-- [Freshdesk 도움말 센터](https://support.freshdesk.com)
-- [커뮤니티 포럼](https://community.freshworks.com)
-- [고객지원팀 문의](mailto:support@freshdesk.com)
+<details>
+<summary>Where is the Mailchimp 위젯 located please?</summary>
 
-:::tip 도움말
-더 자세한 정보나 개별 상담이 필요하시면 고객지원팀으로 연락해 주세요.
-:::
+<p><span style="font-size: 16px;">Please navigate to <strong>"apps.freshdesk.com"</strong> and search for MailChimp to install this. Kindly make sure you have a MailChimp account to integrate with Freshdesk. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">Once this is successfully added to your helpdesk, the <strong>MailChimp widget </strong>would be available inside the contacts under the customers' tab. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">For instance, you click on that widget inside a contact say, Alex - a window with two tabs namely,<strong> campaigns and mailing lists</strong> would open with several options underneath that would allow you to select which to subscribe and unsubscribe appropriately. </span></p>
+
+</details>
+
+<details>
+<summary>I do not have the e-commerce option even though I am in the Estate plan. Please help me with this!</summary>
+
+<p ><span style="font-size: 16px;">E-commerce is a recently developed platform on Freshdesk which would enable you to bring the Ebay channel into the helpdesk. This is a feature enabled upon request and so kindly contact us on<strong > support@freshdesk.com</strong> in order to bring this as an option on the admin tab. </span></p><p ><span style="font-size: 16px;"><br /></span></p><p ><span style="font-size: 16px;">Once this is enabled, you could see this in <strong dir="ltr">Admin -&gt; Channels -&gt; E-commerce</strong> where you can add a new account. This new account would need your eBay site information and you would be able to assign product, group and such. </span></p>
+
+</details>
+
+<details>
+<summary>어떻게 통합하다 Xero with Freshdesk?</summary>
+
+<p><span style="font-size: 16px;">Xero is an <strong>Invoicing Tool </strong>which you could integrate with Freshdesk. Using this integration, you would be able to view information about the invoices sent to the requester of the ticket, within that <strong>ticket's details page</strong>. </span></p><p><br /></p><p><span style="font-size: 16px;">You could <strong>track time for tickets </strong>in Freshdesk and <strong>send invoices </strong>for support, using the Xero integration.</span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">You could integrate Xero with your Freshdesk Account, by navigating to <strong dir="ltr">Admin -&gt; Su -&gt; Apps -&gt; Get More Apps--&gt;Time Tracking &amp; Billing--&gt;Xero--&gt;Install</strong>. </span></p><p><br /></p><p><span style="font-size: 16px;">You would be asked to login to your Xero Account to authorize the integration.</span></p>
+
+</details>
+
+<details>
+<summary>무엇인가요 SugarCRM? 어떻게 통합하다 with my SugarCRM account?</summary>
+
+<p>SugarCRM is a Customer Relationship Management tool, which is used to track and keep a record of your customer profiles. To provide a better context of customer information to the agents working on your Freshdesk Account, you could integrate SugarCRM with Freshdesk.</p><p><br /></p><p dir="ltr">To integrate SugarCRM, navigate to <strong>Admin &gt; Support Operations &gt; Apps &gt; Get More Apps &gt; CRM &gt; SugarCRM &gt; Install</strong>. This would install the app on your account. You could then configure the app by entering the SugarCRM account URL and credentials. </p>
+
+</details>
+
+<details>
+<summary>어떻게 할 수 있나요 통합하다 Zoho CRM with Freshdesk?</summary>
+
+<p>Zoho CRM is a web-based customer relationship management application that has a native integration in Freshdesk. This integration would allow you to fetch requester information from this tool which is available in the contact details as well as tickets detail page. </p><p><br /></p><p>Please navigate to <strong dir="ltr">Admin -&gt; Support Operations -&gt; Apps -&gt; Get more apps -&gt; choose to install Zoho CRM. </strong></p><p>The integration will ask for the Auth Token which can be taken from your Zoho CRM account. For more information, please navigate to this <a href="https://support.freshdesk.com/support/solutions/articles/42657-the-zoho-crm-app" rel="noreferrer noopener">link</a> to set this up. </p><p><br /></p><p><br /></p><p><br /></p><p><br /></p>
+
+</details>
+
+<details>
+<summary>방법 통합하다 Freshdesk with my Shopify store?</summary>
+
+<p>At times, you would want to integrate your helpdesk with Shopify so that you can bring your customers' details into the helpdesk.</p><p><br /></p><p dir="ltr">Navigate to <strong>Admin &gt; Support Operations &gt; Apps &gt; Get more apps</strong> and search for Shopify.</p><p>For further instructions on installation and app's capabilities, please refer <a href="https://support.freshdesk.com/support/solutions/articles/195382-the-shopify-app" rel="noreferrer noopener" target="_blank">this</a> article.</p>
+
+</details>
+
+<details>
+<summary>어떻게 할 수 있나요 convert WordPress comments to Freshdesk tickets?</summary>
+
+<p style="box-sizing: border-box; margin-bottom: 0px; margin-left: 0px; font-size: 13px; line-height: 18px; word-break: normal; overflow-wrap: break-word; text-align: justify;">You can create tickets for the comments on your WordPress website using the Freshdesk plugin for WordPress.</p><p ><br /></p><p dir="ltr" style="text-align: justify;">You can create a ticket for every comment a user writes on your WordPress site users to log in to Freshdesk. To do so, you first need to install the <a href="https://wordpress.org/plugins/freshdesk-support/" rel="noopener noreferrer" target="_blank">Freshdesk WordPress plugin</a>. You can install the plugin from the plugins directory if your site runs on self-hosted WordPress. If you use WordPress.com, you need to be on the <a href="https://wordpress.com/pricing/" rel="noreferrer" target="_blank">Business plan or above</a> to install this plugin.<span dir="ltr" style='color: rgb(0, 0, 0); font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 13px; font-weight: 400; text-align: justify; text-indent: 0px;'></span></p><p style="text-align: justify;"><br /></p><p style="box-sizing: border-box; margin-bottom: 0px; margin-left: 0px; font-size: 13px; line-height: 18px; word-break: normal; overflow-wrap: break-word; text-align: justify;"><a href="https://support.freshdesk.com/support/solutions/articles/50000001054-converting-wordpress-comments-to-freshdesk-tickets" rel="noopener noreferrer" style="box-sizing: border-box; color: rgb(44, 92, 197);" target="_blank">Click here</a> to read a step-by-step guide on embedding solution articles and the contact form on Shopify in more detail.</p>
+
+</details>
+

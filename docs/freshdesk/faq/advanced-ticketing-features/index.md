@@ -2,353 +2,349 @@
 sidebar_position: 1
 ---
 
-# 고급 티켓 기능 FAQ
+# Advanced Ticketing features
 
-고급 티켓 기능에서 자주 발생하는 질문들과 해결 방법을 정리했습니다. 각 질문을 클릭하여 상세한 답변을 확인하실 수 있습니다.
+이 섹션에서는 Advanced Ticketing features와 관련된 자주 묻는 질문들을 다룹니다.
 
-:::info 안내
-이 FAQ는 실제 사용자들이 자주 묻는 질문들을 바탕으로 작성되었습니다. 추가 문의사항이 있으시면 고객지원팀에 문의해 주세요.
+:::info
+각 질문을 클릭하면 상세한 답변을 확인할 수 있습니다.
 :::
 
-<details>
-<summary><strong>할 수 있습니다 related ticket be unlinked? ?</strong></summary>
 
-Yes it is possible. 로 연결 해제 ticket 에서 추적기, 이동하다 **연결된 티켓** 및 클릭하다**연결 해제**. 이렇게 하면 해당 추적기에서 티켓 연결이 영구적으로 해제되며 되돌릴 수 없습니다.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008082321/original/02y8OJhzp0wL5LyM2RIfLFT5optAT689JA. gif? 1681213289)
+## 기본 설정 및 구성
+
+<details>
+<summary>방법 setup Shared Ownership for existing tickets?</summary>
+
+<div rel="clipboard_data"><p>On the ticket details page select and<span></span><u>update</u><span></span>following:</p><ol><li>Internal Groups</li><li>Internal Agent</li></ol></div><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>상위 및 하위 티켓을 생성하는 방법은 무엇인가요?</strong></summary>
+<summary>어떻게 활성화하다 the Linked Ticket feature on my account?</summary>
 
-You 할 수 있습니다 열다 ticket, 클릭하다 ‘추가하다 Child’ 및 선택하다 between "Using 템플릿" 및 "New 하위 티켓". 원본 티켓은 상위 티켓이 되고 하위 티켓은 새 티켓으로 생성됩니다. This 기능 is 사용 가능 에서 Estate 요금제 onwards 에서 Freshdesk.
+<p dir="ltr">To enable Linked Tickets,</p><p dir="ltr"><br /></p><p dir="ltr">Go to <strong dir="ltr">Admin&gt;Support operation&gt;Advanced ticketing&gt;&nbsp;</strong>toggle on<strong dir="ltr">&nbsp;Linked tickets</strong></p><p dir="ltr"><br /></p><p dir="ltr"><strong dir="ltr"><img src="#" style="width: 684px;" class="fr-fic fr-dib fr-bordered" /></strong><br /></p>
+
+</details>
+
+
+## 고급 기능 및 사용법
+
+<details>
+<summary>가능한가요 to link tickets using automations ?</summary>
+
+No. Tickets cannot be linked to trackers by using any of the four automations.
 
 </details>
 
 <details>
-<summary><strong>Freshdesk에서 티켓을 연결할 수 있나요?</strong></summary>
+<summary>Can internal 그룹 or agents be included in 자동화 rules?</summary>
 
-Yes, it is possible. 에 의해 using trackers, tickets 할 수 있습니다 linked 에서 Freshdesk.
-
-</details>
-
-<details>
-<summary><strong>공유 소유권은 언제 사용되나요?</strong></summary>
-
-하나의 티켓에 여러 상담원이 관련되어 있을 때 공유 소유권을 활용할 수 있습니다. Whether it is customer facing agent 또는 internal agent, 모든 are kept 에서 loop 에서 any 작업 done within ticket.
+<p >Internal groups or agents can be set in the Conditions and Actions in automation rules that run on ticket creation or ticket updates.</p><p ><br /></p>
 
 </details>
 
 <details>
-<summary><strong>특정 추적기와 관련된 모든 티켓을 보는 방법은 무엇인가요?</strong></summary>
+<summary>가능한가요 to trigger an action using the Ticket 업데이트하다 자동화 if the Internal 그룹 is changed?</summary>
 
-Yes, it 될 것입니다 possible 로 보다 모든 tickets linked 로 추적기. Here are steps: Step 1: Filter tickets 의 추적기 type 에서 Association Type field. Step 2: 선택하다 추적기, one you wish 로 보다 모든 관련 티켓. Step 3: 클릭하다 X 관련 티켓 에서 right hand side 의 page. list 의 모든 관련 티켓 is shown. Here X= Number 의 관련 티켓. 하지만 as 의 now, this information is not 사용 가능 as 지표 함께 Reports.
+<p dir="ltr"><span style="font-size: 16px; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0);"><span dir="ltr" style="font-weight: 400; text-align: left; text-indent: 0px; display: inline !important;">Within the Ticket Update automation rule, the Internal group can be included in the Conditions and Actions sections, but it is not possible to trigger an Event specifically when the internal group is changed.</span></span></p><p><br /></p>
+
+</details>
+
+
+## 관리 및 유지보수
+
+<details>
+<summary>Can a related ticket be unlinked ?</summary>
+
+<p dir="ltr">Yes it is possible. To unlink the ticket from the Tracker, Go to <strong>Linked Tickets</strong> and click<strong dir="ltr">&nbsp;Unlink</strong>. <span style="color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">This permanently unlinks the ticket from that tracker and CANNOT be undone.</span>&nbsp;</p><p dir="ltr"><br /></p><p dir="ltr"><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></p>
 
 </details>
 
 <details>
-<summary><strong>공유 소유권의 샘플 시나리오는 무엇인가요?</strong></summary>
+<summary>방법 create parent and child tickets?</summary>
 
-ticket comes 에서 e-commerce company has issues relating 로 bug as well query regarding 기능. Query is solved 에 의해 customer facing agent(Primary agent). Bug is solved 에 의해 internal agent(Developer). 공유 소유권 helps 에서 dynamically checking status 의 work 에서 single ticket, keeping both agents 에서 loop.
-
-</details>
-
-<details>
-<summary><strong>상위 티켓을 언제 닫을 수 있나요?</strong></summary>
-
-하위 티켓 is essentially subdivision 의 상위 티켓. 상위 티켓 할 수 있습니다 closed 만 if 모든 의 its 하위 티켓 are either Closed 또는 Resolved.
+<p>You may open a ticket, click on ‘Add Child’ and choose between "Using a Template" and "New Child Ticket". The original ticket will become the parent ticket and the child ticket will be created as a new ticket. This feature is available from the Estate Plan onwards on Freshdesk.</p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>Where/How do you 연결 tickets? 는 무엇인가요?</strong></summary>
+<summary>가능한가요 to link tickets in Freshdesk?</summary>
 
-이동하다 **Tickets Tab > 클릭하다 필수 ticket > Expand '연결된 티켓' panel 에서 extreme right > 생성하다 new 추적기 또는 선택하다 로 연결 it 로 existing 추적기. ** This 기능 is 사용 가능 만 에서 the**Pro/Garden Plan**onwards 에서 Freshdesk.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008082368/original/NbcMcB7LAHSM3Bc9hCY_NBMtaVT-EFNgnQ. gif? 1681213449) 클릭하다 [here](https://support. freshdesk. com/support/solutions/articles/224695-설정-up-linked-tickets) 로 know 더 about 연결된 티켓.
-
-</details>
-
-<details>
-<summary><strong>할 수 있습니다 I filter tickets according 로 specific 추적기? ?</strong></summary>
-
-No, it is not possible 로 do 따라서. ~하기 위해 보다 모든 관련 티켓 의 추적기, 이동하다 추적기 itself 및 클릭하다 관련 티켓.
+Yes, it is possible. By using trackers ,tickets can be linked in Freshdesk.
 
 </details>
 
 <details>
-<summary><strong>How 로 추가하다 multiple 하위 티켓 로 상위 티켓? 는 무엇인가요?</strong></summary>
+<summary>When does Shared Ownership come into play?</summary>
 
-After creating new 하위 티켓, 클릭하다 ’Save 및 New Child’ 로 추가하다 new child. You 할 수 있습니다 또한 클릭하다 "추가하다 Child" 옵션 within 상위 티켓 로 생성하다 new 하위 티켓.
-
-</details>
-
-<details>
-<summary><strong>How 로 set up 공유 소유권? 는 무엇인가요?</strong></summary>
-
-You 할 것입니다 have 로 설치하다 공유 소유권 App 에서 your account as shown 에서 this [solution article](https://support. freshdesk. com/support/solutions/articles/224194-enabling-shared-ownership). After this is done, there are two steps involved. **1. Map internal groups 로 ticket status:** 이동하다 **Admin > Workflows > Ticket fields** Excluding 4 basic statuses 의 ticket, map custom statuses 하위에서 Mapped Internal Groups. NOTE: Don't forget 로 include Customer responded. **2. Set up automation rules 로 확인하다 everyone's 에서 loop:** 이동하다 **Admin > Workflows > Automations > Ticket updates > New rule** **Set up new automation rule as below:** **When 작업 is performed 에 의해** Requester **Involves any 의 these events** Reply IS sent **에서 tickets 함께 these properties** Status is NOT > 열다 또는 Waiting 에서 Third party 또는 Waiting 에서 Sellers team **Perform these 작업:** Set status as > 열다 Send email 로 Agent > Assigned Agent
+When there are multiple agents involved in a single ticket, we could make use of Shared Ownership. Whether it is a customer facing agent or an internal agent, all are kept in the loop on any action done within the ticket.<p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>How 로 보다 모든 관련 티켓? 는 무엇인가요?</strong></summary>
+<summary>방법 view all the related tickets to a specific tracker?</summary>
 
-에서 tickets list page, ticket 함께 separate tag indicates **추적기** is main 추적기 ticket. 또한, it is possible 로 filter 모든 추적기 tickets 에서 helpdesk. This 할 수 있습니다 done 에 의해 choosing **T****racker** 에서 the**Association Type dropdown field**.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008082570/original/Rb9R4PaBTlFEeLQ1oQA4s9HAb1OyQ7YtOA. png? 1681214393) 로 보다 관련 티켓, 이동하다 **Tickets**>선택하다 the**추적기 ticket** > 클릭하다 **Related****Tickets. ** **! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008082503/original/eqhZkkU-mU63zvJidlVrWLevLlvnWMP90A. png? 1681214101)**
-
-</details>
-
-<details>
-<summary><strong>할 수 있습니다 we 편집하다 related ticket 위젯? i. e show 더 details 의 추적기? ?</strong></summary>
-
-No it is not possible 로 show 더 details 의 추적기 에서 위젯. ~하기 위해 get 더 details 의 추적기, agent 할 수 있습니다 보다 it separately.
+<p>Yes, it would be possible to view all the tickets linked to a tracker. </p><p><br /></p><p>Here are the steps: </p><p>Step 1: Filter the tickets of tracker type in the Association Type field. </p><p>Step 2: Select the tracker, the one you wish to view all the related tickets.</p><p>Step 3: Click on X Related tickets on the right hand side of the page.The list of all the related tickets is shown.Here X= Number of related tickets.</p><p><br /></p><p>However as of now, this information is not available as a metrics with Reports.</p>
 
 </details>
 
 <details>
-<summary><strong>How do i know is 추적기 ticket? 는 무엇인가요?</strong></summary>
+<summary>Sample scenario for Shared Ownership?</summary>
 
-에서 tickets list page, ticket 함께 separate tag indicates **추적기** is main 추적기 ticket. 또한, it is possible 로 filter 모든 추적기 tickets 에서 helpdesk. This 할 수 있습니다 done 에 의해 choosing **T****racker** 에서 the**Association Type dropdown field**.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008082570/original/Rb9R4PaBTlFEeLQ1oQA4s9HAb1OyQ7YtOA. png? 1681214393)
-
-</details>
-
-<details>
-<summary><strong>How do I 보다 모든 관련 티켓? 는 무엇인가요?</strong></summary>
-
-에서 tickets tab, tickets having tag Related Ticket are related/linked 로 ticket.
+<p>A ticket comes from an e-commerce company which has issues relating to a bug as well a query regarding a feature. </p><p>Query is solved by the customer facing agent(Primary agent).</p><p>Bug is solved by the internal agent(Developer).</p><p><br /></p><p>Shared Ownership helps in dynamically checking the status of work on a single ticket, keeping both the agents in the loop.</p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>How 로 생성하다 템플릿 위해 하위 티켓? 는 무엇인가요?</strong></summary>
+<summary>When can we close the parent ticket?</summary>
 
-하위에서 **Admin > Agent Productivity > Ticket 템플릿 > New 템플릿**, you 할 수 있습니다 추가하다 new ticket 템플릿 및 선택하다 "Save 및 추가하다 Child" 로 생성하다 템플릿 위해 상위 티켓. Once this is done, you 될 것입니다 able 로 추가하다 하위 티켓 템플릿 하위에서 this 상위 티켓 템플릿. 로 apply 템플릿 로 하위 티켓 클릭하다 ‘**Use existing 템플릿**’ while creating new 하위 티켓.
-
-</details>
-
-<details>
-<summary><strong>How 로 setup 공유 소유권 위해 existing tickets? 는 무엇인가요?</strong></summary>
-
-에서 ticket details page 선택하다 및 업데이트하다 following: - Internal Groups - Internal Agent
+<p>A Child Ticket is essentially a subdivision of the Parent Ticket. The Parent Ticket can be closed only if all of its Child Tickets are either Closed or Resolved.</p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>Is 연결된 티켓 추적기 same as 의 time 추적기? Are they related? 는 무엇인가요?</strong></summary>
+<summary>Where/How do you link tickets ?</summary>
 
-No, both trackers are completely different. first one is used 로 연결 tickets creates separate 추적기 ticket. Whereas latter is used 로 calculate amount 의 time spent 에서 particular ticket.
-
-</details>
-
-<details>
-<summary><strong>What 될 것입니다 source 의 하위 티켓? 는 무엇인가요?</strong></summary>
-
-Since ticket is created 에 의해 agent, source 의 ticket 될 것입니다 phone.
+<p>Go to the <strong>Tickets Tab &gt; Click on the required ticket &gt; Expand the 'Linked Tickets' panel on the extreme right &gt; Create a new tracker or choose to link it to an existing tracker.</strong></p><p><br /></p><p dir="ltr">This feature is available only from the<strong dir="ltr">&nbsp;Pro/Garden Plan&nbsp;</strong>onwards in Freshdesk.</p><p dir="ltr"><br /></p><p dir="ltr"><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></p><p><br /></p><p>Click <a href="https://support.freshdesk.com/support/solutions/articles/224695-setting-up-linked-tickets" rel="noreferrer noopener" target="_blank">here</a> to know more about Linked tickets.</p>
 
 </details>
 
 <details>
-<summary><strong>Does Linked Ticket 작업 appear 에서 활동 tab? 는 무엇인가요?</strong></summary>
+<summary>할 수 있나요 필터 tickets according to a specific tracker ?</summary>
 
-모든 활동 are carried out 함께 respect 로 ticket are shown 에서 활동 tab. 에서 this case, 심지어 when tickets are linked 로 추적기 is shown 에서 활동 tab,
-
-</details>
-
-<details>
-<summary><strong>How 할 수 있습니다 I 할당 large number 의 groups 및 agents 위해 공유 소유권? ?</strong></summary>
-
-There are 2 ways 로 do it. - **Bulk Mode** 선택하다 necessary tickets 로 perform bulk 작업. - **Using Scenario Automation** 옵션 로 execute scenario is directly 사용 가능 에서 drop down menu.
+No, it is not possible to do so. In order to view all the related tickets of that tracker, go to the tracker itself and click on related tickets.
 
 </details>
 
 <details>
-<summary><strong>How 많은 하위 티켓 할 수 있습니다 added 로 상위 티켓? ?</strong></summary>
+<summary>방법 add multiple child tickets to a parent ticket?</summary>
 
-We 할 수 있습니다 추가하다 maximum 의 50 하위 티켓 로 상위 티켓.
-
-</details>
-
-<details>
-<summary><strong>Is there bulk 작업 로 연결 해제 multiple tickets 에서 once? 는 무엇인가요?</strong></summary>
-
-No. It is 만 possible 로 연결 해제 ticket 에서 ticket details page. Multiple unlinks are not 사용 가능 as 의 now.
+<p> After creating a new child ticket, click on ’Save and New Child’ to add a new child. You could also click on "Add Child" option within a Parent Ticket to create a new child ticket.</p>
 
 </details>
 
 <details>
-<summary><strong>agent is able 로 보다 모든 관련 티켓 하지만 not 보다 it separately? Why? 는 무엇인가요?</strong></summary>
+<summary>방법 설정하다 Shared Ownership?</summary>
 
-agent 될 것입니다 having restricted 또는 group 접근 및 hence 관련 티켓 are out 의 agent's scope. 로 할 수 있습니다 give agent 접근 로 보다 tickets, - 이동하다 **Admin > Teams > Agents > 편집하다 Agent** - 스크롤하다 down 로 Scope 및 편집하다 scope 의 agent.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008160291/original/TIFYobjfeUFvt7PXfoX9aZ6tM0TfYTMC9Q. png? 1681981895) Learn 더 about agent scope [here](https://support. freshdesk. com/en/support/solutions/articles/50000002804).
-
-</details>
-
-<details>
-<summary><strong>할 수 있습니다 we 삭제하다 추적기? 심지어 if there are tickets related 로 it? ?</strong></summary>
-
-Yes it is possible 로 삭제하다 추적기. - 이동하다 **추적기. ** - 클릭하다 three dots 위해 **더 옵션** 및 선택하다 **삭제하다. ** - Once you 삭제하다 추적기, its 관련 티켓 될 것입니다 permanently unlinked **cannot** be restored.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008159545/original/Dbierwi181NTLNSV3Ysus6SYeV6hp0VLrg. png? 1681978661)
+<p >You would have to install the Shared Ownership App on your account as shown in this <a href="https://support.freshdesk.com/support/solutions/articles/224194-enabling-shared-ownership" rel="noopener noreferrer" target="_blank">solution article</a>.</p><p ><br /></p><p >After this is done, there are two steps involved.</p><p ><br /></p><p ><strong >1. Map internal groups to a ticket status:</strong></p><p ><br /></p><p dir="ltr">Go to <strong>Admin &gt; Workflows &gt; Ticket fields </strong></p><p >Excluding the 4 basic statuses of ticket, map the custom statuses under<span ></span><u >Mapped Internal Groups</u>.</p><p >NOTE: Don't forget to include<span ></span><u >Customer responded</u>.</p><p ><br /></p><p ><strong >2. Set up automation rules to make sure everyone's in the loop:</strong></p><p ><br /></p><p dir="ltr">Go to <strong dir="ltr">Admin &gt; Workflows &gt; Automations &gt; Ticket updates &gt; New rule</strong></p><p ><br /><strong ><u >Set up a new automation rule as below:</u></strong></p><p ><br /></p><p ><strong >When an action is performed by</strong></p><p >Requester</p><p ><br /></p><p ><strong >Involves any of these events</strong></p><p >Reply IS sent</p><p ><br /></p><p ><strong >On tickets with these properties</strong></p><p >Status is NOT &gt; Open OR Waiting on Third party OR Waiting on Sellers team</p><p ><br /></p><p ><strong >Perform these actions:</strong></p><p >Set status as &gt; OPEN</p><p >Send email to Agent &gt; Assigned Agent</p><p ><br /></p>
 
 </details>
 
 <details>
-<summary><strong>How 로 생성하다 상위 티켓? 는 무엇인가요?</strong></summary>
+<summary>방법 view all related tickets?</summary>
 
-**Quick guide 로 set up Parent Child Ticketing:** - Log 에서 로 your Freshdesk portal as Administrator. - 이동하다 **Admin****> Support Operations > Advanced Ticketing**. - 활성화 toggle 위해 **Parent-Child Ticketing**. **! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50014611980/original/XDx7Ns6N2tFvlXc-c5htt4IBVbL1_fG2sA. png? 1739862101)** Parent-Child Ticketing 할 것입니다 now be 활성화됨 에서 your account. 로 생성하다 parent-child relationship, 추가하다 하위 티켓 로 any existing 또는 new ticket.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008218906/original/SVLN2BZviELr6OmdDO2_F324WlXPejTnkw. gif? 1682592971)
-
-</details>
-
-<details>
-<summary><strong>What happens when you 삭제하다 상위 티켓? 는 무엇인가요?</strong></summary>
-
-상위 티켓 될 것입니다 deleted 및 associated 하위 티켓 될 것입니다 unlinked 에서 상위 티켓.
+<p dir="ltr">In the tickets list page, the ticket with the separate tag that indicates <strong>Tracker</strong> is the main tracker ticket. Also, it is possible to filter all the tracker tickets in the helpdesk. This can be done by choosing <strong>T</strong><strong dir="ltr">racker</strong> in the<strong>&nbsp;Association Type dropdown field</strong>.</p><p><br /></p><p><img src="#" style="width: 700px;" class="fr-fic fr-dib fr-bordered" /></p><p dir="ltr">To view related tickets,</p><p dir="ltr"><br /></p><p dir="ltr">Go to <strong dir="ltr">Tickets&nbsp;</strong>&gt;select the<strong >&nbsp;Tracker ticket</strong> &gt; click on <strong >Related</strong><strong dir="ltr">&nbsp;Tickets.</strong></p><p dir="ltr"><br /></p><p dir="ltr"><strong dir="ltr"><img src="#" style="width: 684px;" class="fr-fic fr-dib" /></strong><br /></p>
 
 </details>
 
 <details>
-<summary><strong>What is use 의 Broadcast button? 는 무엇인가요?</strong></summary>
+<summary>Can we edit the the related ticket 위젯 ? i.e show more details of the tracker?</summary>
 
-함께 모든 관련 티켓 linked 로 추적기, team working 에서 it 할 수 있습니다 notify agents 에서 progress 에 의해 using internal broadcast message. Once message is broadcasted 에서 추적기 ticket, it 될 것입니다 relayed 에서 모든 관련 티켓 automatically. This broadcast message 될 것입니다 visible 만 로 agents 에서 account. - 로 broadcast internal message 로 agents are assigned 로 관련 티켓, 클릭하다 **Broadcast**. **Note:** 만 agents have 접근 로 추적기 ticket 될 것입니다 able 로 send broadcast message. - Enter message 및 클릭하다 Broadcast. message 될 것입니다 sent 로 모든 관련 티켓 are linked 함께 추적기.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008160392/original/dBoFEUUFs7c85TkDWLle35uhswqkX9ByaA. gif? 1681982296) broadcast message 될 것입니다 added 로 any new tickets linked 로 추적기. 에서 any point 의 time, any related ticket 할 것입니다 만 have last broadcasted message. is, if new message is broadcasted, it 할 것입니다 replace existing message 함께 new one. agents 할 수 있습니다 include message 에서 their replies 에서 관련 티켓 using **Insert this message 로 reply** 옵션 **Note:** When message is broadcasted 에서 추적기 ticket, hardcoded email notification 될 것입니다 sent 로 assigned agent 및 [watcher(s)](https://support. freshdesk. com/support/solutions/articles/37560-monitoring-important-tickets-에 의해-becoming-a-watcher-) added 에서 관련 티켓.
-
-</details>
-
-<details>
-<summary><strong>Does updating status 의 상위 티켓 affect 하위 티켓? 는 무엇인가요?</strong></summary>
-
-No, changing status 의 상위 티켓 할 것입니다 not impact status 의 하위 티켓. 하지만, if you wish 로 achieve this, you 할 수 있습니다 utilize automation rule. Here is sample automation rule summary -! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008678782/original/mY2_Ecv8_bs1P_gnr9kACXz4Tv4GJI_CxQ. png? 1687347180)
+No it is not possible to show more details of the tracker in the widget. In order to get more details of the tracker , the agent can view it separately.
 
 </details>
 
 <details>
-<summary><strong>How 많은 number 의 tickets 할 수 있습니다 linked 로 추적기? ?</strong></summary>
+<summary>어떻게 know which is the tracker ticket ?</summary>
 
-로 single 추적기, maximum 의 300 tickets 할 수 있습니다 linked 로 it.
-
-</details>
-
-<details>
-<summary><strong>Is it possible 로 연결 multiple tickets 에서 once? 는 무엇인가요?</strong></summary>
-
-로 연결 multiple tickets, we have 로 goto ticket details page separately 의 each ticket 및 연결 them individually 로 추적기. As 의 now there is no 옵션 하위에서 Bulk 작업 로 carry out this function.
+<p dir="ltr">In the tickets list page, the ticket with the separate tag that indicates <strong>Tracker</strong> is the main tracker ticket. Also, it is possible to filter all the tracker tickets in the helpdesk. This can be done by choosing <strong>T</strong><strong dir="ltr">racker</strong> in the<strong>&nbsp;Association Type dropdown field</strong>.</p><p><br /></p><p><img src="#" style="width: 700px;" class="fr-fic fr-dib fr-bordered" /></p>
 
 </details>
 
 <details>
-<summary><strong>What happens when you mark 상위 티켓 as spam? 는 무엇인가요?</strong></summary>
+<summary>어떻게 view all related tickets?</summary>
 
-하위 티켓 associated 함께 상위 티켓 될 것입니다 unlinked 및 changes cannot be restored. 하지만, 하위 티켓 할 것입니다 not be marked as spam.
-
-</details>
-
-<details>
-<summary><strong>할 수 있습니다 we filter out tickets based 에서 parent 및 하위 티켓? ?</strong></summary>
-
-Yes, we 할 수 있습니다 filter out tickets based 에서 parent 및 하위 티켓. - 이동하다**Tickets**. - 하위에서 **Filters section** 에서 left hand side, 클릭하다 **Association Type**. - 선택하다 type 의 association as **Parent 또는 Child** 로 filter out corresponding tickets.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008160690/original/YBx8VYi-VxUpEaAl6xWDWLTLKEgnAl-Y0A. png? 1681983393)
+In the tickets tab, the tickets having the tag Related Ticket are related/linked to a ticket.
 
 </details>
 
 <details>
-<summary><strong>Is it possible 로 연결 tickets using automations? 는 무엇인가요?</strong></summary>
+<summary>방법 create templates for child tickets?</summary>
 
-No. Tickets cannot be linked 로 trackers 에 의해 using any 의 four automations.
-
-</details>
-
-<details>
-<summary><strong>할 수 있습니다 linked ticket 또한 be child/상위 티켓? ?</strong></summary>
-
-No, tickets 할 수 있습니다 associated via trackers 또는 parent-child method, 하지만 not both.
+<p dir="ltr">Under <strong>Admin &gt; Agent Productivity &gt; Ticket Templates &gt; New Template</strong>, you could add a new ticket template and choose "Save and Add Child" to create a template for Parent Ticket. Once this is done, you would be able to add Child Ticket Templates under this Parent Ticket Template.</p><p><br /></p><p>To apply a template to the child ticket click on ‘<strong>Use existing template</strong>’ while creating a new child ticket.</p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>할 수 있습니다 we filter out 하위 티켓 based 에서 상위 티켓? ?</strong></summary>
+<summary>Is the Linked tickets tracker same as that of the time tracker ? Are they related ?</summary>
 
-No, you cannot filter out 하위 티켓 based 에서 상위 티켓. 하지만, you 할 수 있습니다 이동하다 상위 티켓 및 보다 하위 티켓 associated 함께 it.
-
-</details>
-
-<details>
-<summary><strong>What are mandatory fields while creating new 추적기? 는 무엇인가요?</strong></summary>
-
-Two fields are mandatory while creating new 추적기 :1. **Requester field** - agent creating 추적기 ticket is 또한 requester. There is 옵션 위해 agent 로 생성하다 추적기 하위에서 their name 또는 name 의 one 의 their colleagues.! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008676240/original/cRimC_yjTCaTKLz6xk5iVs-ViH5EKrfgHg. png? 1687336095)2. **Subject field** - This defines name/description 의 추적기. If there are any additional fields designated as mandatory 하위에서 Admin > Ticket fields section, those fields 해야 합니다 또한 be filled 에서 로 생성하다 추적기.
+No, both the trackers are completely different. The first one is used to link tickets which creates a separate tracker ticket.Whereas the latter is used to calculate the amount of time spent on a particular ticket.
 
 </details>
 
 <details>
-<summary><strong>Is there way 로 비활성화 '연결 로 추적기' 옵션 위해 specific groups/agents? 는 무엇인가요?</strong></summary>
+<summary>What would be the source of a child ticket?</summary>
 
-You 할 수 있습니다 생성하다 custom 역할 및 manage **Ticket** 접근 위해 agents assigned 로 역할 하위에서 **권한. ** 로 비활성화 옵션 위해 agents 로 연결 tickets, - 이동하다 **Admin > Teams > 역할** - 생성하다 **New 역할**또는 클릭하다 **편집하다**next 로 existing custom 역할. - 스크롤하다 down 로 **권한. ** - 하위에서 Tickets tab, uncheck box next 로 **생성하다 linked ticket. **! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008160952/original/mJCRH2QV4LV1taceyTdzCWShoLGBd8EnmA. png? 1681984502) You 할 수 있습니다 now, 할당 this 역할 로 모든 agents 해야 합니다 not have 접근 로 생성하다 연결된 티켓.
-
-</details>
-
-<details>
-<summary><strong>할 수 있습니다 agent 연결 ticket 로 any 추적기? ?</strong></summary>
-
-agent 할 수 있습니다 만 연결 tickets 로 추적기 are present 에서 his/her scope. 따라서, if agent has group/restricted 접근 he/she wont be able 로 보다 모든 trackers are present 에서 helpdesk.
+<p>Since the ticket is created by an agent, the source of the ticket would be phone.</p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>할 것입니다 agent 함께 Restricted 접근 be able 로 보다 공유 소유권 tickets? 는 무엇인가요?</strong></summary>
+<summary>Does the Linked Ticket Actions appear in the activities tab?</summary>
 
-When agent has restricted 접근, 여전히 he 될 것입니다 able 로 보다 tickets assigned 로 him as internal agent 심지어 if he is not assigned agent 에서 ticket.
-
-</details>
-
-<details>
-<summary><strong>할 것입니다 agent 함께 Group 접근 be able 로 보다 공유 소유권 tickets? 는 무엇인가요?</strong></summary>
-
-When agent has group 접근, he 할 것입니다 have 접근 로 tickets have internal group assigned as agent’s group 심지어 though ticket belongs 로 different group.
+All the activities that are carried out with respect to the ticket are shown in the activities tab. In this case, even when tickets are linked to a tracker is shown in the activities tab,
 
 </details>
 
 <details>
-<summary><strong>할 수 있습니다 internal group 또는 agents be included 에서 automation rules? ?</strong></summary>
+<summary>어떻게 할 수 있나요 assign large number of groups and agents for Shared Ownership?</summary>
 
-Internal groups 또는 agents 할 수 있습니다 set 에서 Conditions 및 작업 에서 automation rules run 에서 ticket creation 또는 ticket updates.
-
-</details>
-
-<details>
-<summary><strong>Is it possible 로 trigger 작업 using Ticket 업데이트하다 automation if Internal group is changed? 는 무엇인가요?</strong></summary>
-
-Within Ticket 업데이트하다 automation rule, Internal group 할 수 있습니다 included 에서 Conditions 및 작업 sections, 하지만 it is not possible 로 trigger Event specifically when internal group is changed.
+<div rel="clipboard_data"><p>There are 2 ways to do it.</p><p><br /></p><p>-<span></span><strong>Bulk Mode</strong></p><p>Select the necessary tickets to perform bulk actions.</p><p><br /></p><p><font>-<span></span><strong>Using Scenario Automation</strong></font></p><p><font>Option to execute a scenario is directly available in the drop down menu.</font></p></div><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>How do I 활성화 Linked Ticket 기능 에서 my account? 는 무엇인가요?</strong></summary>
+<summary>How many child tickets can be added to a parent ticket?</summary>
 
-로 활성화 연결된 티켓, 이동하다 **Admin>Support operation>Advanced ticketing>**toggle 에서**연결된 티켓** **! [이미지](https://s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/50008161191/original/gJ5yCAjOibRrFXCrBilcySKTavEOr2KxqA. png? 1681985565)**
-
-</details>
-
-<details>
-<summary><strong>할 수 있습니다 I use 템플릿 로 생성하다 new ticket? ?</strong></summary>
-
-We understand you 할 수 있습니다 want 로 생성하다 tickets 에서-the-go. Freshdesk allows you 로 생성하다 템플릿 에서 **Admin > Agent Productivity > Ticket 템플릿**. These 템플릿 할 수 있습니다 used while creating ticket 에서 **“선택하다 템플릿”** 옵션. [This](https://support. freshdesk. com/support/solutions/articles/220141-creating-및-using-ticket-템플릿) article 할 것입니다 give you 더 details 에서 its usage.
+<p dir="ltr">We can add a maximum of 50 child tickets to a parent ticket.</p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>할 수 있습니다 linked ticket be merged 함께 another ticket? ?</strong></summary>
+<summary>Is there a bulk action to unlink multiple tickets at once ?</summary>
 
-Yes, you 할 수 있습니다 merge tickets 로 ticket linked 로 추적기.
+No. It is only possible to unlink a ticket in the ticket details page. Multiple unlinks are not available as of now.
 
 </details>
 
 <details>
-<summary><strong>Why am I not able 로 연결 tickets 로 추적기? 는 무엇인가요?</strong></summary>
+<summary>An agent is able to view all the related tickets but not view it separately? Why ?</summary>
 
-ticket cannot be linked 로 추적기 when any 의 following is true : - When **mandatory 또는 필수 ticket fields are not filled** 에서 위해 ticket, ticket cannot be linked 로 추적기. 확인하다 모든 mandatory ticket fields are filled 에서 위해 ticket before 연결 it 로 추적기 ticket. - When ticket is **이미 associated 함께 parent 또는 하위 티켓**, it 할 것입니다 not be possible 로 연결 such tickets 로 추적기. - When ticket is **merged 함께 another ticket**. primary ticket is closed 할 것입니다 not have 연결된 티켓 옵션. 에서 those cases, please use secondary ticket 위해 연결 it 로 추적기.
+<div style="margin: 15px 0px; padding: 0px; font-size: 13px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; border: 0px; overflow-x: auto; text-align: initial; color: rgb(51, 51, 51); text-indent: 0px; text-decoration-style: initial; text-decoration-color: initial;"><p style="margin: 0px; padding: 0px; font-size: 13px; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word;"><span style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;">That agent would be having restricted or group access and hence the related tickets are out of the agent's scope.</span></p><p style="margin: 0px; padding: 0px; font-size: 13px; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word;"><br /></p><p style="margin: 0px; padding: 0px; font-size: 13px; border: 0px; line-height: 1.4; word-break: normal; word-wrap: break-word;"><span dir="ltr" style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;">To can give the agent access to view tickets,</span></p><ul><li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; font-size: 13px; border: 0px; line-height: 1.4; word-break: normal; overflow-wrap: break-word;"><span dir="ltr" style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;">Go to <strong dir="ltr">Admin &gt; Teams &gt; Agents &gt; Edit Agent</strong></span></li><li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; font-size: 13px; border: 0px; line-height: 1.4; word-break: normal; overflow-wrap: break-word;"><span dir="ltr" style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;">Scroll down to Scope and edit the scope of the agent.</span></li></ul><p><span dir="ltr" style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;"><img src="#" style="width: 500px;" class="fr-fic fr-dib fr-bordered" /></span></p><p><br /></p><p><span dir="ltr" style="margin: 0px; padding: 0px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; border: 0px;">Learn more about agent scope <a href="https://support.freshdesk.com/en/support/solutions/articles/50000002804" rel="noreferrer" target="_blank">here</a>.</span></p></div><p><br /></p>
 
 </details>
 
----
+<details>
+<summary>Can we delete a tracker ? Even if there are tickets related to it ?</summary>
 
-## 🔗 관련 자료
+<p dir="ltr">Yes it is possible to delete a tracker.&nbsp;</p><p dir="ltr"><br /></p><ul><li dir="ltr">Go to the <strong>Tracker.</strong></li><li dir="ltr">Click on the three dots for <strong dir="ltr">More options</strong> and select <strong dir="ltr">Delete.</strong></li><li dir="ltr">Once you delete a tracker, its related tickets will be permanently unlinked which <strong>cannot</strong> be restored.</li></ul><p><img src="#" style="width: 684px;" class="fr-fic fr-dib fr-bordered" /></p>
 
-추가적인 도움이 필요하시면 다음 자료들을 참고해 주세요:
+</details>
 
-- [Freshdesk 도움말 센터](https://support.freshdesk.com)
-- [커뮤니티 포럼](https://community.freshworks.com)
-- [고객지원팀 문의](mailto:support@freshdesk.com)
+<details>
+<summary>방법 create a parent ticket ?</summary>
 
-:::tip 도움말
-더 자세한 정보나 개별 상담이 필요하시면 고객지원팀으로 연락해 주세요.
-:::
+<p style="box-sizing: border-box; margin: 0px; font-size: 13px; line-height: 18px; word-break: normal; overflow-wrap: break-word; color: rgb(24, 50, 71); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"><strong style="box-sizing: border-box; font-weight: 700;">Quick guide to set up Parent Child Ticketing:</strong></p><ol style="box-sizing: border-box; margin: 8px 0px 4px; padding: 0px 0px 0px 40px; line-height: 17px; list-style-position: initial; list-style-image: initial; color: rgb(24, 50, 71); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"><li dir="ltr" style="box-sizing: border-box; font-size: 13px; line-height: 18px; margin: 0px; word-break: normal; overflow-wrap: break-word;">Log in to your Freshdesk portal as an Administrator.</li><li style="box-sizing: border-box; font-size: 13px; line-height: 18px; margin: 0px; word-break: normal; overflow-wrap: break-word;">Go to <strong style="box-sizing: border-box; font-weight: 700;">Admin</strong><strong dir="ltr" style="box-sizing: border-box; font-weight: 700;">&nbsp;&gt; Support Operations &gt; Advanced Ticketing</strong>.</li><li style="box-sizing: border-box; font-size: 13px; line-height: 18px; margin: 0px; word-break: normal; overflow-wrap: break-word;">Enable the toggle for <strong dir="ltr" style="box-sizing: border-box; font-weight: 700;">Parent-Child Ticketing</strong>.<br /><strong dir="ltr" style="box-sizing: border-box; font-weight: 700;"><img src="#" class="fr-fic fr-fil fr-dib fr-bordered" style="box-sizing: border-box; border: 0px; max-width: 100%; cursor: pointer; padding: 0px 1px; margin-bottom: 5px; margin-left: 0px; display: block; text-align: left; color: rgb(226, 80, 65); font-family: -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-weight: 400; text-indent: 0px; width: auto;" /></strong></li></ol><p><br /></p><p><span dir="ltr" style="color: rgb(24, 50, 71); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Parent-Child Ticketing will now be enabled in your account.</span></p><p dir="ltr"><br /></p><p dir="ltr">To create a parent-child relationship, add a child ticket to any existing or new ticket.</p><p dir="ltr"><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></p>
+
+</details>
+
+<details>
+<summary>What happens when you delete a parent ticket?</summary>
+
+<div rel="clipboard_data"><p>The parent ticket will be deleted and the associated child tickets will be unlinked from the parent ticket.</p></div><p><br /></p>
+
+</details>
+
+<details>
+<summary>무엇인가요 the use of the Broadcast button?</summary>
+
+<p dir="ltr"><span dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 14px;">With all the related tickets linked to the Tracker, the team working on it can notify the agents on the progress by using an internal broadcast message.</span></p><p dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 14px;"><span style="font-family: Helvetica Neue;"><span style="font-size: 14px; font-family: &quot;Helvetica Neue&quot;;">Once the message is broadcasted on the Tracker ticket, it would be relayed on all the related tickets automatically. This broadcast message would be visible only to agents on the account.</span></span></p><ul style="font-family: &quot;Helvetica Neue&quot;; font-size: 14px;"><li dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 14px;"><p style="font-family: &quot;Helvetica Neue&quot;; font-size: 14px;"><span style="font-family: Helvetica Neue;"><span style="font-size: 14px; font-family: &quot;Helvetica Neue&quot;;">To broadcast an internal message to agents who are assigned to related tickets, click on <strong style="font-family: &quot;Helvetica Neue&quot;;">Broadcast</strong>.&nbsp;</span></span></p></li></ul><p class="article_note" style="font-family: &quot;Helvetica Neue&quot;; font-size: 14px;"><span style="font-family: Helvetica Neue;"><span style="font-size: 14px; font-family: &quot;Helvetica Neue&quot;;"><strong dir="ltr" style="font-family: &quot;Helvetica Neue&quot;;">Note:</strong> Only agents who have access to the Tracker ticket will be able to send a broadcast message.</span></span></p><ul ><li dir="ltr"><span style="font-size: 14px; font-family: &quot;Helvetica Neue&quot;;">Enter the message and click Broadcast. The message will be sent to all the related tickets that are linked with the Tracker.</span></li></ul><p><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></p><p><br /></p><p ><span style="font-family: &quot;Helvetica Neue&quot;; font-size: 14px;">The broadcast message will be added to any new tickets linked to the Tracker. At any point of time, any related ticket will only have the last broadcasted message. That is, if a new message is broadcasted, it will replace the existing message with the new one. The agents can include the message in their replies on the related tickets using the <strong style="font-family: &quot;Helvetica Neue&quot;;">Insert this message into reply</strong> option</span></p><p style="font-family: &quot;Helvetica Neue&quot;; font-size: 14px;"><span style="font-size: 14px;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></span></p><p class="article_note" ><span style="font-size: 14px;"><span style="font-family: Helvetica Neue;"><strong style="font-family: &quot;Helvetica Neue&quot;;">Note:</strong>&nbsp;</span></span><span dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 14px;">When a message is broadcasted from the Tracker ticket, a hardcoded email notification will be sent to the assigned agent and the <a href="https://support.freshdesk.com/support/solutions/articles/37560-monitoring-important-tickets-by-becoming-a-watcher-" rel="noreferrer noopener" style="font-family: &quot;Helvetica Neue&quot;;" target="_blank">watcher(s)</a> added on the related tickets. &nbsp;</span></p><p dir="ltr"><br /></p>
+
+</details>
+
+<details>
+<summary>Does updating the 상태 of parent ticket affect the child ticket?</summary>
+
+<p dir="ltr"><span dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;">No, changing the status of the parent ticket will not impact the status of the child tickets. However, if you wish to achieve this, you can utilize an automation rule. Here is a sample automation rule summary -<br style="font-family: &quot;Helvetica Neue&quot;;"><br style="font-family: &quot;Helvetica Neue&quot;;"><img src="#" style="width: 690px; font-family: &quot;Helvetica Neue&quot;; display: block; float: none; vertical-align: top; margin: 5px auto; text-align: center;" class="fr-fic fr-dib fr-bordered fr-shadow" /><br /></span></p><p ><br /></p>
+
+</details>
+
+<details>
+<summary>How many number of tickets can be linked to a tracker ?</summary>
+
+To a single tracker, a maximum of 300 tickets can be linked to it.
+
+</details>
+
+<details>
+<summary>가능한가요 to link multiple tickets at once?</summary>
+
+To link multiple tickets, we have to goto the ticket details page separately of each ticket and link them individually to a tracker. As of now there is no option under Bulk Actions to carry out this function.
+
+</details>
+
+<details>
+<summary>What happens when you mark a parent ticket as spam?</summary>
+
+<p>The child tickets associated with the parent ticket will be unlinked and the changes<span> cannot</span><span></span>be restored. However, the child tickets would not be marked as spam.</p><p><br /></p>
+
+</details>
+
+<details>
+<summary>Can we 필터 out tickets based on parent and child tickets?</summary>
+
+<p dir="ltr">Yes, we can filter out tickets based on parent and child tickets.&nbsp;</p><ul><li dir="ltr">Go to<strong>&nbsp;Tickets</strong>.</li><li dir="ltr">Under the <strong>Filters section</strong> on the left hand side, click on <strong>Association Type</strong>.</li><li dir="ltr">Select the type of association as <strong>Parent or Child</strong> to filter out the corresponding tickets.&nbsp;</li></ul><p><br /></p><p><img src="#" style="width: 700px;" class="fr-fic fr-dib fr-bordered" /></p><p><br /></p><p><br /></p><p><br /></p>
+
+</details>
+
+<details>
+<summary>Can a linked ticket also be a child/parent ticket ?</summary>
+
+<p>No, tickets can be associated via trackers or the parent-child method, but not both.</p>
+
+</details>
+
+<details>
+<summary>Can we 필터 out child tickets based on parent ticket?</summary>
+
+<p>No, you cannot filter out child tickets based on the parent ticket. However, you can go to the parent ticket and view the child tickets associated with it.</p>
+
+</details>
+
+<details>
+<summary>What are the mandatory fields while creating a new tracker?</summary>
+
+<p dir="ltr"><span dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;">Two fields are mandatory while creating a new tracker :<br style="font-family: &quot;Helvetica Neue&quot;;"><br style="font-family: &quot;Helvetica Neue&quot;;">1. <strong>Requester field</strong> -&nbsp;</span><br /><span dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;">The agent creating the tracker ticket is also the requester.<br style="font-family: &quot;Helvetica Neue&quot;;">There is an option for the agent to create the tracker under their name or the name of one of their colleagues.<br style="font-family: &quot;Helvetica Neue&quot;;"><br style="font-family: &quot;Helvetica Neue&quot;;"><img src="#" style="width: 511px; display: block; float: none; vertical-align: top; margin: 5px auto; text-align: center; font-family: &quot;Helvetica Neue&quot;;" class="fr-fic fr-dib fr-bordered fr-shadow" /><br style="font-family: &quot;Helvetica Neue&quot;;">2. <strong>Subject field</strong> - This defines the name/<span dir="ltr" style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; font-family: &quot;Helvetica Neue&quot;; display: inline !important;">description o</span>f the tracker.<br style="font-family: &quot;Helvetica Neue&quot;;"><br style="font-family: &quot;Helvetica Neue&quot;;">If there are any additional fields designated as mandatory under the Admin &gt; Ticket fields section, those fields should also be filled in to create a tracker.<br style="font-family: &quot;Helvetica Neue&quot;;"></span></p>
+
+</details>
+
+<details>
+<summary>Is there a way to 비활성화하다 the 'link to a tracker' option for specific groups/agents?</summary>
+
+<div rel="clipboard_data"><span dir="ltr" style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;; font-size: 16px; text-align: start; text-indent: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">You can create a custom role and manage the <strong style="font-family: &quot;Helvetica Neue&quot;;">Ticket</strong> access for the agents assigned to the role under <strong dir="ltr" style="font-family: &quot;Helvetica Neue&quot;;">Permissions.</strong>&nbsp;</span></div><p style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></span></p><p style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><span dir="ltr" style="color: rgb(51, 51, 51); text-align: start; text-indent: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; font-family: &quot;Helvetica Neue&quot;;">To disable the option for agents to link tickets,</span></span></span></p><ul><li style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><span dir="ltr" style="color: rgb(51, 51, 51); text-align: start; text-indent: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; font-family: &quot;Helvetica Neue&quot;;">Go to <strong dir="ltr" style="font-family: &quot;Helvetica Neue&quot;;">Admin &gt; Teams &gt; Roles&nbsp;</strong></span></span></span></li><li style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><span dir="ltr" style="color: rgb(51, 51, 51); text-align: start; text-indent: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; font-family: &quot;Helvetica Neue&quot;;">Create a <strong dir="ltr" style="font-family: &quot;Helvetica Neue&quot;;">New Role&nbsp;</strong>or click <strong dir="ltr" style="font-family: &quot;Helvetica Neue&quot;;">Edit&nbsp;</strong>next to an existing custom role.</span></span></span></li><li style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><span dir="ltr" style="color: rgb(51, 51, 51); text-align: start; text-indent: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; font-family: &quot;Helvetica Neue&quot;;">Scroll down to <strong dir="ltr" style="font-family: &quot;Helvetica Neue&quot;;">Permissions.</strong></span></span></span></li><li><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><span dir="ltr" style="color: rgb(51, 51, 51); text-align: start; text-indent: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">Under the Tickets tab, uncheck the box next to <strong dir="ltr">Create a linked ticket.</strong></span></span></span></li></ul><p><br /></p><p><img src="#" style="width: 684px;" class="fr-fic fr-dib fr-bordered" /></p><p><br /></p><p dir="ltr"><span style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;">You can now, assign this role to all the agents who should not have access to create linked tickets.</span></p><p><br /></p>
+
+</details>
+
+<details>
+<summary>Can an agent link a ticket to any tracker?</summary>
+
+An agent can only link tickets to a tracker that are present in his/her scope. So, if an agent has group/restricted access he/she wont be able to view all the trackers that are present in the helpdesk.
+
+</details>
+
+<details>
+<summary>Would an agent with Restricted 접근하다 be able to view Shared Ownership tickets?</summary>
+
+<div rel="clipboard_data">When the agent has restricted access, still he would be able to see tickets assigned to him as an internal agent even if he is not the assigned agent on the ticket.</div><p><br /></p>
+
+</details>
+
+<details>
+<summary>Would an agent with 그룹 접근하다 be able to view Shared Ownership tickets?</summary>
+
+When an agent has group access, he will have access to the tickets which have the internal group assigned as the agent’s group even though the ticket belongs to a different group.<p><br /></p>
+
+</details>
+
+<details>
+<summary>할 수 있나요 use a 템플릿 to create a new ticket?</summary>
+
+<p>We understand that you might want to create tickets on-the-go.<br />Freshdesk allows you to create templates from <strong dir="ltr">Admin &gt; Agent Productivity &gt; Ticket Templates</strong>. These templates can be used while creating a ticket from the <strong>“Select a template”</strong> option.</p><p><br /></p><p><a href="https://support.freshdesk.com/support/solutions/articles/220141-creating-and-using-ticket-templates" rel="noreferrer noopener" target="_blank">This</a> article will give you more details on its usage.</p>
+
+</details>
+
+<details>
+<summary>Can a linked ticket be merged with another ticket?</summary>
+
+<p dir="ltr">Yes, you can merge tickets to a ticket linked to a tracker.</p>
+
+</details>
+
+<details>
+<summary>Why am I not able to link tickets to a tracker?</summary>
+
+<p>A ticket cannot be linked to a tracker when any of the following is true :</p><ul><li>When the <strong>mandatory or required ticket fields are not filled</strong> in for a ticket, the ticket cannot be linked to a tracker. Make sure all the mandatory ticket fields are filled in for a ticket before linking it to a tracker ticket.<br /><br /></li><li>When the ticket is <strong>already associated with a parent or a child ticket</strong>, it will not be possible to link such tickets to a tracker.<br /><br /></li><li>When a ticket is <strong>merged with another ticket</strong>. The primary ticket which is closed will not have the Linked tickets option. In those cases, please use the secondary ticket for linking it to a tracker.</li></ul>
+
+</details>
+

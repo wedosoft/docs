@@ -2,178 +2,177 @@
 sidebar_position: 1
 ---
 
-# 복수 제품 FAQ
+# 다중 제품
 
-복수 제품에서 자주 발생하는 질문들과 해결 방법을 정리했습니다. 각 질문을 클릭하여 상세한 답변을 확인하실 수 있습니다.
+이 섹션에서는 다중 제품와 관련된 자주 묻는 질문들을 다룹니다.
 
-:::info 안내
-이 FAQ는 실제 사용자들이 자주 묻는 질문들을 바탕으로 작성되었습니다. 추가 문의사항이 있으시면 고객지원팀에 문의해 주세요.
+:::info
+각 질문을 클릭하면 상세한 답변을 확인할 수 있습니다.
 :::
 
-<details>
-<summary><strong>What do you mean 에 의해 다수의 products?</strong></summary>
 
-Freshdesk lets you 지원 다수의 products 에 의해 creating dedicated portals 위해 each product. Any ticket created 에서 these 다수의 product portals would come into one central 헬프데스크 그리고 상담원 could work 에 these 티켓 에서 single location. 만약 your organisation has 다양한 products, this would be best option 위해 you. 로 get detailed overview 클릭 this [link](https://지원.freshdesk.com/지원/solutions/articles/37638-supporting-다수의-products-와 함께-freshdesk).
+## 기본 설정 및 구성
+
+<details>
+<summary>어떻게 setup different Kbase for different products?</summary>
+
+<p><span style="font-size: 16px; font-family: Arial, Helvetica, sans-serif;">You could configure the Solution Articles such that each product has a different KBase. This could be set up under <strong dir="ltr">Admin &gt; Channels &gt; </strong><strong dir="ltr">Portals &gt; </strong>Select the <strong>Product Porta</strong><strong>l--&gt;</strong>Under <strong>Portal Categories</strong>, select the respective <strong>Solution Category</strong> to be displayed for that product portal.</span></p>
+
+</details>
+
+
+## 고급 기능 및 사용법
+
+<details>
+<summary>Is there a placeholder for a product-specific activation URL when a new customer signs up?</summary>
+
+<div dir="ltr"><p style="line-height: 1.38;"><span style="font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; font-size: medium;">The default placeholder '{{activation_url}}' under <strong dir="ltr">Admin -&gt; Workflows -&gt; Email notification -&gt; Requester notifications -&gt; User activation</strong> will automatically send a URL based on the product without any prior configuration. </span></p><p><br /></p></div>
+
+</details>
+
+
+## 문제 해결
+
+<details>
+<summary>While adding a new product I get the error message "Please enter a valid email address". Why so?</summary>
+
+<p><span style="font-size: 16px; font-family: Arial, Helvetica, sans-serif;">For each portal on your account, you would have one dedicated primary email address associated with it. The main portal will have a similar primary support email and the product portal will have it's own distinct primary email address. </span></p><p><br /></p><p><span style="font-size: 16px; font-family: Arial, Helvetica, sans-serif;">Existing emails cannot be used while creating a new product. You would have to add a new/unique email address and associated it with the New Product which is being created.</span></p>
+
+</details>
+
+
+## 관리 및 유지보수
+
+<details>
+<summary>What do you mean by 다중 제품?</summary>
+
+<p><span style="font-size: 16px; font-family: Arial, Helvetica, sans-serif;">Freshdesk lets you support multiple products by creating dedicated portals for each product. Any ticket created from these multiple product portals would come into one central helpdesk and agents could work on these tickets from a single location. If your organisation has various products, this would be the best option for you. </span></p><p><span style="font-family: Arial,Helvetica,sans-serif;"><span style="font-size: 16px;"><br /></span></span></p><p><span style="font-family: Arial,Helvetica,sans-serif;"><span style="font-size: 16px;">To get a detailed overview click this <a href="https://support.freshdesk.com/support/solutions/articles/37638-supporting-multiple-products-with-freshdesk">link</a>.</span></span></p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>왜 would I need 로 set up 다수의 Products 에서 Freshdesk?</strong></summary>
+<summary>Why would I need to 설정하다 다중 제품 in Freshdesk?</summary>
 
-다수의 products let you set up separate 지원 portals 위해 each 의 your products, giving each 의 them separate platform 그리고 unique URL. Also, you'll gain ability 로 restrict 해결책 그리고 forum categories 특정한 로 products without additional 계정 charges. 언제 you have different services 또는 products 위해 which you need independent 지원 portals, they all could be integrated within same 계정 using this feature.
-
-</details>
-
-<details>
-<summary><strong>set up 다수의 products 에 포털?하는 방법은 무엇인가요?</strong></summary>
-
-다수의 Products feature is 사용 가능한 에서 Estate 요금제 onwards 에서 Freshdesk. 로 set up new product, please 이동 로 **관리자 > 지원 Operar > 다수의 Products**그리고 그러면 클릭 에 New Product. 입력 details related 로 product 그리고 new 이메일 address 위해 this product is mandatory. Configure separate 지원 emails 위해 each product. They can be automatically queued 에서 특정한 group 에 의해 filling 에서 details requested under 'Product 지원 이메일'. [This article](https://지원.freshdesk.com/지원/solutions/articles/37638-supporting-다수의-products-와 함께-freshdesk) provides additional information 에 this process.
+<div dir="ltr"><p style=""><span id="docs-internal-guid-b1c4785f-6249-7b45-bc6d-3987e7ebc8c3"><span style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap;"><span style="font-size: medium;">Multiple products let you set up separate support portals for each of your products, giving each of them a separate platform and a unique URL. </span></span></span></p><p style=""><br /></p><p style=""><span><span style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap;"><span style="font-size: medium;">Also, you'll gain the ability to restrict solution and forum categories specific to products without additional account charges. When you have different services or products for which you need independent support portals, they all could be integrated within the same account using this feature. </span></span></span></p></div>
 
 </details>
 
 <details>
-<summary><strong>Where do I 입력 URL 위해 my new product ?</strong></summary>
+<summary>어떻게 설정하다 다중 제품 on a portal?</summary>
 
-Under **관리자 > Channels > Portals > 편집(corresponding 로 포털 name)**, you would have option 로 제공하다 포털 URL. Here, you could 제공하다 vanity URL like **help.yourcompany.com** (help is subdomain) 그리고 associate it 와 함께 your Product 포털. Before using this 필드 please 확인하다 that you have created CNAME record 에서 your DNS Zone file 로 point **help.yourcompany.com** 로 yourcompany.freshdesk.com(your Freshdesk 계정 URL). Once this is done, you would be able 로 access newly created Product 포털 using specified 포털 URL.
-
-</details>
-
-<details>
-<summary><strong>re­assign 지원 이메일 address 에서 main 포털 로 one 의 products?할 수 있나요은 무엇인가요?</strong></summary>
-
-Yes, please 이동 로 **관리자 > Channels > 이메일**. Here, you could see list 의 지원 이메일 addresses that could be associated 와 함께 products added 에서 **관리자 > 지원 Operations > 다수의 products.** Kindly 클릭 에 편집 next 로 지원 address 그리고 선택 product under "Link this 지원 이메일 와 함께 product." 참고 that this product should already be added 로 헬프데스크.
+<div dir="ltr"><p style="line-height: 1.38;"><span style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap; font-size: medium;">The Multiple Products feature is available from the Estate Plan onwards in Freshdesk.</span></p><p style="line-height: 1.38;"><span style="color: rgb(0, 0, 0); font-family: Arial; white-space: pre-wrap; font-size: medium;"><br /></span></p><p style="line-height: 1.38;"><span style="font-size: medium;"><span style="color: rgb(0, 0, 0); font-family: Arial; white-space: pre-wrap;">To set up a new product, please navigate to <strong dir="ltr">Admin &gt; Support Operar &gt; Multiple Products </strong>and then c</span><span style="color: rgb(0, 0, 0); font-family: Arial; white-space: pre-wrap;">lick on New Product. Enter the details related to the product and a new email address for this product is mandatory. </span></span></p><p style="line-height: 1.38;"><span style="color: rgb(0, 0, 0); font-family: Arial; white-space: pre-wrap; font-size: medium;"><br /></span></p><p style="line-height: 1.38;"><span id="docs-internal-guid-b1c4785f-6264-3cd9-1831-0987d1527f6d"><span style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap; font-size: medium;">Configure separate support emails for each product. They can be automatically queued in a specific group by filling in the details requested under 'Product Support Email'</span><span style="font-size: 12px; font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap;">.</span></span><span style="color: rgb(0, 0, 0); font-family: Arial; white-space: pre-wrap; font-size: medium;"><br /></span></p><p style="line-height: 1.38;"><span style="color: rgb(0, 0, 0); font-family: Arial; white-space: pre-wrap; font-size: medium;"><br /></span></p><p style="line-height: 1.38;"><span style="font-size: medium;"><a href="https://support.freshdesk.com/support/solutions/articles/37638-supporting-multiple-products-with-freshdesk" target="_blank">This article</a> provides <span style="color: rgb(0, 0, 0); font-family: Arial; white-space: pre-wrap;">additional information on this process.</span></span></p><p><br /></p></div>
 
 </details>
 
 <details>
-<summary><strong>While adding new product I get 오류 message "Please 입력 valid 이메일 address". 왜 so?</strong></summary>
+<summary>Where do I enter the URL for my new product ?</summary>
 
-위해 each 포털 에 your 계정, you would have one dedicated primary 이메일 address associated 와 함께 it. main 포털 will have similar primary 지원 이메일 그리고 product 포털 will have it's own distinct primary 이메일 address. Existing emails cannot be used while creating new product. You would have 로 추가 new/unique 이메일 address 그리고 associated it 와 함께 New Product which is being created.
-
-</details>
-
-<details>
-<summary><strong>How will 다수의 portals look 에 end-user side? Will they have 로 로그인 와 함께 different credentials?</strong></summary>
-
-다수의 portals will look like two different websites 에서 customers' point 의 view. Once 고객 is signed up 에 포털, he/she can use same credentials 로 log into other 포털 as well, depending 에 how URLs are exposed. You would be able 로 determine 포털 access 에 의해 changing user permissions 에서 관리자 -> Portals -> 설정. Please 이동 로 **관리자 > Workflows > 이메일 Notifications > Requester Notifications > 클릭 에 insert placeholder**그리고 include placeholder 위해 product-특정한 URL. This would allow customers 로 이동 로 지원 의 appropriate product.
+<p><span style="font-size: 16px; font-family: Arial, Helvetica, sans-serif;">Under <strong dir="ltr">Admin &gt; Channels &gt; Portals &gt; Edit(corresponding to the portal name)</strong>, you would have the option to provide the Portal URL. Here, you could provide a vanity URL like <strong>help.yourcompany.com</strong> (help is the subdomain) and associate it with your Product portal.</span></p><p><span style="font-family: Arial,Helvetica,sans-serif;"><span style="font-size: 16px;"><br /></span></span></p><p><span style="font-family: Arial,Helvetica,sans-serif;"><span style="font-size: 16px;">Before using this field please ensure that you have created a CNAME record in your DNS Zone file to point <strong>help.yourcompany.com</strong> to yourcompany.freshdesk.com(your Freshdesk Account URL). Once this is done, you would be able to access the newly created Product Portal using the specified Portal URL.</span></span></p><p><span style="font-family: Arial,Helvetica,sans-serif;"><span style="font-size: 16px;"><br /></span></span></p><p><span style="font-family: Arial,Helvetica,sans-serif;"><span style="font-size: 16px;"><br /></span></span></p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>use same 상담원 그리고 SLAs 위해 다수의 products?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>가능한가요 to re­assign a support email address from the main portal to one of the products?</summary>
 
-Yes, 상담원 can be provided 와 함께 access 로 view different products, 그리고 SLAs can be shared between different products as well. Please 이동 로 **관리자 > Workflows > SLA policies > 클릭 에 new policy** 그리고 선택 "Apply this SLA 로" where you could 추가 products 위해 which SLA is applied.
-
-</details>
-
-<details>
-<summary><strong>have product-특정한 SLA policies?할 수 있나요은 무엇인가요?</strong></summary>
-
-Please 이동 로 ******dmin > Workflows > SLA Policies > 클릭 에 편집** next 로 new **SLA policy.** Inside this page, you would find option called '**Apply this 로**' that you could use 로 associate policy 로 any 의 products you have created. Kindly 참고 that this option would not be 사용 가능한 위해 "기본값 SLA policy."
+<div dir="ltr"><p><span style="font-size: medium;">Yes, please navigate to <strong dir="ltr">Admin &gt; Channels &gt; Email</strong>. Here, you could see the list of support email addresses that could be associated with the products added in <strong dir="ltr">Admin &gt; Support Operations &gt; Multiple products. </strong></span></p><p><br /></p><p><br /></p><p><span style="font-size: 16px;">Kindly click on edit next to the support address and choose the product under "Link this support email with a product." Note that this product should already be added to the helpdesk. </span></p><p><br /></p><p><br /></p><p><span style="font-size: medium;"><br /></span></p></div>
 
 </details>
 
 <details>
-<summary><strong>brand 티켓 separately 위해 different products?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>How will multiple portals look on the end-user side? Will they have to login with different credentials?</summary>
 
-While creating 다수의 products, you could set distinct branding 위해 티켓 created through emails. You could have this done 에 의해 setting up dedicated 지원 이메일 addresses 위해 each Product. 언제 you 생성 new product(under **관리자 > 지원 Operations > 다수의 Products > New Product**), you would be asked 로 제공하다 separate 지원 이메일 address 위해 that 포털. This would be primary 지원 이메일 address 위해 that product 포털 그리고 emails sent 로 this 이메일 would get created as 티켓 그리고 would be updated 와 함께 corresponding Product. 에 의해 기본값, replies 로 customers would also be sent through this dedicated 이메일 address.
-
-</details>
-
-<details>
-<summary><strong>make Ticket URL sent out 와 함께 every reply 포털-특정한?할 수 있나요은 무엇인가요?</strong></summary>
-
-Yes, this is possible. Please 이동 로 ******dmin > Workflows > 이메일 Notification > Template > Agent Reply Template**그리고 클릭 에 "insert placeholder which would give you placeholders 사용 가능한 에서 system. Kindly 선택 placeholder**"****\{\{ticket.portal_url\}\}” under 헬프데스크 options** 로 추가 it 에서 your reply 그리고 position it according 로 your preference. This will insert product-특정한 ticket URL inside ticket rather than generic ticket URL which would map customers 로 right 포털.
+<div dir="ltr"><p style="line-height: 1.38;"><span style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap; font-size: medium;">Multiple portals will look like two different websites from the customers' point of view. </span></p><p style="line-height: 1.38;"><br /></p><p style="line-height: 1.38;"><span style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap; font-size: medium;">Once a customer is signed up on a portal, he/she can use the same credentials to log into the other portal as well, depending on how the URLs are exposed. You would be able to determine the portal access by changing the user permissions in Admin -&gt; Portals -&gt; settings. </span></p><p style="line-height: 1.38;"><br /></p><p style="line-height: 1.38;"><span style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap; font-size: medium;"> Please navigate to <strong dir="ltr">Admin &gt; Workflows &gt; Email Notifications &gt; Requester Notifications &gt; click on insert placeholder </strong>and include the placeholder for product-specific URL. This would allow customers to navigate to the support of the appropriate product. </span></p><p><br /></p></div>
 
 </details>
 
 <details>
-<summary><strong>restrict visibility 의 해결책 articles 와 함께 respect 로 product portals?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>가능한가요 to use the same agents and SLAs for 다중 제품?</summary>
 
-visibility 의 해결책 articles can be set 에 의해 entering necessary 해결책 articles 에서 "Solutions" tab under 포털 categories 의 respective 포털. Please 이동 로 **관리자 ­> Channels > Portals > Corresponding 포털 name**그리고 추가 these articles 에서 its solutions tab. 만약 you have articles 일반적인 로 more than one 또는 two portals, kindly 클릭 에 편집 에서 category 로 선택 portals category must be visible 에서. Further, visibility could be set 로 logged-에서 users 또는 all users within folder where it could be changed according 로 your requirement. Another alternative is 로 set user permission 위해 solutions 에서 **관리자 -> Channels -> Portals -> 설정 -> User Permissions -> who can view 해결책 articles.**
-
-</details>
-
-<details>
-<summary><strong>set product 에서 embeddable 위젯?하는 방법은 무엇인가요?</strong></summary>
-
-You would be able 로 set-up feedback widgets that are dedicated 로 특정한 product 포털. You will be able 로 have this done 에 의해 making modifications 로 위젯 code that you 추가. product URL would have 로 be changed 에서 respective product 에서 "src" 필드 의 위젯 code.
+<div dir="ltr"><p><span style="font-size: medium;"><span id="docs-internal-guid-b1c4785f-628d-2411-5278-186690ac8242"><span style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap;">Yes, agents can be provided with access to view different products, and SLAs can be shared between different products as well.</span></span><br /></span></p><p><span><span style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap; font-size: medium;"><br /></span></span></p><p><font color="#000000"><span style="white-space: pre-wrap;"><span style="font-size: medium;">Please navigate to <strong dir="ltr">Admin &gt; Workflows &gt; SLA policies &gt; click on new policy</strong> and choose "Apply this SLA to" where you could add products for which the SLA is applied.</span></span></font></p></div>
 
 </details>
 
 <details>
-<summary><strong>How do 다수의 brand names work under same 계정?</strong></summary>
+<summary>가능한가요 to have product-specific SLA policies?</summary>
 
-Once 다수의 products are set up under single 계정 mycompany.com pointing 로 (companyname.freshdesk.com), different products could be identified 에 의해 vanity URL. This vanity URL should point 로 product's Freshdesk URL; i.e. 만약 product1.companyname.com 그리고 product2.company.com are vanity URLs 의 포털, 그러면 [point CNAME](https://지원.freshdesk.com/en/지원/solutions/articles/37590) 로 companyname.freshdesk.com. This will 확인하다 that you have 다수의 brands 에서 고객's perspective, 하지만 all under same Freshdesk 계정 에서 agent's point 의 view which increases overall productivity.
-
-</details>
-
-<details>
-<summary><strong>transfer 해결책 articles 에서 main 포털 로 product 포털?하는 방법은 무엇인가요?</strong></summary>
-
-Please 이동 로 **solutions**tab 의 포털 그리고 클릭 에 category which needs 로 be visible 에서 product 포털 as well. Once you are 에 that page 와 함께 category 그리고 list 의 folders please 클릭 에 "pen 그리고 paper" icon next 로 heading which allows you 로 편집 category. Kindly 선택 product 포털 에서 **"visible 에서 포털"**option. This will 확인하다 that articles under this category will only be visible 에 associated product 포털.
+<div dir="ltr"><p><font color="#000000"><span style="white-space: pre-wrap;"><span style="font-size: medium;">Please navigate to <strong>A</strong><strong dir="ltr">dmin &gt; Workflows &gt; SLA Policies &gt; click on Edit</strong> next to a new <strong>SLA policy. </strong></span></span></font></p><p><br /></p><p><br /></p><p><font color="#000000"><span style="white-space: pre-wrap;"><span style="font-size: medium;">Inside this page, you would find the option called '<strong>Apply this to</strong>' that you could use to associate the policy to any of the products you have created. Kindly note that this option would not be available for the "Default SLA policy."</span></span></font></p><p><br /></p></div>
 
 </details>
 
 <details>
-<summary><strong>설정 different Kbase 위해 different products?하는 방법은 무엇인가요?</strong></summary>
+<summary>할 수 있나요 brand tickets separately for different products?</summary>
 
-You could configure 해결책 Articles such that each product has different KBase. This could be set up under **관리자 > Channels >****Portals >**선택 **Product Porta****l-->**Under **포털 Categories**, 선택 respective **해결책 Category** 로 be displayed 위해 that product 포털.
-
-</details>
-
-<details>
-<summary><strong>view 티켓 pertaining only 로 particular product?하는 방법은 무엇인가요?</strong></summary>
-
-Please 이동 로 **"티켓"**tab 에 global header next 로 대시보드 where you could see all 티켓 에서 your view 또는 list 의 티켓 depending 에 filters chosen. You could 제거 all other filters 그리고 선택 "Product" name alone using **Product**필드. 만약 you have access 로 view all 티켓, you will be able 로 view all 티켓 위해 that particular product, under this view. Kindly make sure you have **global** access (에서 agent profile) 로 view all 티켓.
+<p><span style="font-size: 16px; font-family: Arial, Helvetica, sans-serif;">While creating multiple products, you could set a distinct branding for tickets created through emails. You could have this done by setting up a dedicated support email addresses for each Product. </span></p><p><br /></p><p><span style="font-size: 16px; font-family: Arial, Helvetica, sans-serif;">When you create a new product(under <strong dir="ltr">Admin &gt; Support Operations &gt; Multiple Products &gt; New Product</strong>), you would be asked to provide a separate support email address for that portal. This would be the primary support email address for that product portal and emails sent to this email would get created as tickets and would be updated with the corresponding Product. By default, replies to customers would also be sent through this dedicated email address.</span></p>
 
 </details>
 
 <details>
-<summary><strong>restrict agent’s access 로 티켓 에서 one 포털 only?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>할 수 있나요 make the Ticket URL sent out with every reply portal-specific?</summary>
 
-scope 의 agent can be based 에 groups 에서 포털. Please 이동 로 **관리자 -> 팀 -> 상담원 -> 클릭 에 편집**로 associate groups within profile. This group could be routed 로 product under **관리자­­ -> 지원 Operations -> 다수의 Products­­ -> 편집 product­­ -> Assign 로 Group** 그리고 상담원 who specifically need 로 access this product could be added 로 that Group under **관리자 -­­> 팀 -> Groups**. They are ones 와 함께 group access 에 포털. This would restrict them 로 particular product 포털.
-
-</details>
-
-<details>
-<summary><strong>send product-based 이메일 notifications?하는 방법은 무엇인가요?</strong></summary>
-
-와 함께 다수의 Products feature 사용 가능한 에서 Freshdesk, you can 생성 several products, depending 에 your 요금제 입력. 만약 you have set up your Freshdesk 계정 로 지원 다수의 products, you must include proper branding 에서 all your outgoing messages. Here are two stages 에서 setting up product-based 이메일 notifications 에서 Freshdesk. - [비활성화 기본값 이메일 notifications](#비활성화-기본값-이메일-notifications)[](#Use-product-특정한-placeholders-에서-automation-rules) - [Use product-특정한 placeholders 에서 automation rules](#Use-product-특정한-placeholders-에서-automation-rules)[](https://docs.google.com/document/d/15hi58ihFIICB9-paFY1pHhlQG1t2xqkO_5P8zUNdeXE/편집#heading=h.mgjnmdxaiyf7) **비활성화 기본값 이메일 notifications** Disabling 기본값 이메일 notifications is imperative as they are generic 그리고 not entirely product-특정한. As 관리자 의 your Freshdesk 계정, you can 비활성화 them 에 의해 following steps below. - 이동 로 관리자 에서 menu. 선택 Workflows 그리고 클릭 에 이메일 Notifications. - 클릭 에 active green toggle button next 로 이메일 notification 로 비활성화 them. ![비활성화 기본값 이메일 notification.](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008501660/original/35Q5ATEYEbZQeQyC83VvPOt8FFnH6UezXQ.gif?1685598715) **Use product-특정한 placeholders 에서 automation rules** Use automation rules 에 ticket creation 그리고 ticket updates 로 send product-특정한 이메일 notifications 위해 new 티켓 그리고 replies. Make sure 로 perform following three key changes while creating automation rules 로 사용자 정의하다 이메일 updates. - 선택 Condition as 'Product is.' - Action as send '이메일 로 Requester'. - Make use 의 product-특정한 placeholders under Action section. ![Key changes 위해 setting up product-특정한 automation rules.](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008578610/original/euv1YQJGn4EK10ktkoYC-HqFM0icAhjzpA.gif?1686307370)
+<div dir="ltr"><p style="line-height: 1.38;"><span style="font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; font-size: medium;">Yes, this is possible. Please navigate to <strong>A</strong><strong dir="ltr">dmin &gt; Workflows &gt; Email Notification &gt; Template &gt; Agent Reply Template </strong>and click on "insert placeholder which would give you the placeholders available in the system. Kindly choose the placeholder<strong> "</strong><strong>{{ticket.portal_url}}” under helpdesk options</strong> to add it in your reply and position it according to your preference.</span></p><p style="line-height: 1.38;"><br /></p><p style="line-height: 1.38;"><span style="font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; font-size: medium;">This will insert a product-specific ticket URL inside a ticket rather than the generic ticket URL which would map the customers to the right portal. </span></p><p><br /></p></div>
 
 </details>
 
 <details>
-<summary><strong>Is there placeholder 위해 product-특정한 activation URL 언제 new 고객 signs up?</strong></summary>
+<summary>가능한가요 to restrict the visibility of solution articles with respect to the product portals?</summary>
 
-기본값 placeholder '\{\{activation_url\}\}' under **관리자 -> Workflows -> 이메일 notification -> Requester notifications -> User activation** will automatically send URL based 에 product without any prior 구성.
-
-</details>
-
-<details>
-<summary><strong>make Facebook pages product-특정한?하는 방법은 무엇인가요?</strong></summary>
-
-Please 이동 로 **관리자 -> Channels ­-> Facebook -> 클릭 에 편집 corresponding 로 particular page.**Once there, you would be able 로 편집 page 그리고 선택 product 에서 **"link 로 Product."** Kindly 참고 that one Facebook page could be linked 로 one product only.
+<div dir="ltr"><p style="line-height: 1.38;"><span style="font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; font-size: medium;">The visibility of solution articles can be set by entering the necessary solution articles in the "Solutions" tab under the Portal categories of the respective portal. Please navigate to <strong dir="ltr">Admin ­&gt; Channels &gt; Portals &gt; Corresponding portal name </strong>and add these articles in its solutions tab. </span></p><p style="line-height: 1.38;"><br /></p><p style="line-height: 1.38;"><span style="font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; font-size: medium;">If you have articles common to more than one or two portals, kindly click on edit in the category to choose the portals the category must be visible in. </span></p><p style="line-height: 1.38;"><br /></p><p style="line-height: 1.38;"><span style="font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; font-size: medium;">Further, visibility could be set to logged-in users or all users within the folder where it could be changed according to your requirement. Another alternative is to set user permission for the solutions in <strong dir="ltr">Admin -&gt; Channels -&gt; Portals -&gt; settings -&gt; User Permissions -&gt; who can view the solution articles. </strong></span></p><p><br /></p></div>
 
 </details>
 
 <details>
-<summary><strong>associate separate group 위해 each product?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>어떻게 set the product in the embeddable 위젯?</summary>
 
-Yes, you can allocate unique group 위해 each product 에서 포털. While creating 포털 under **관리자> 지원 Operations > 다수의 products**, there is option 로 선택 이메일 address 그리고 group 위해 that particular product as shown 에서 image below : ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/44751322/original/jJz3zmzoNsb3MuPS3-iWZ_Ut_CO4V7qqBA.png?1554961143)
+<p><span style="font-size: 16px; font-family: Arial, Helvetica, sans-serif;">You would be able to set-up feedback widgets that are dedicated to specific product portal. You will be able to have this done by making modifications to the widget code that you add. The product URL would have to be changed in the respective product in the "src" field of the widget code.</span></p><p><br /></p>
 
 </details>
 
----
+<details>
+<summary>How do multiple brand names work under the same account?</summary>
 
-## 🔗 관련 자료
+<div dir="ltr"><p style="line-height: 1.38;"><span style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap; font-size: medium;">Once multiple products are set up under a single account mycompany.com pointing to (companyname.freshdesk.com), the different products could be identified by a vanity URL.</span></p><p style="line-height: 1.38;"><span style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap; font-size: medium;"><br /></span></p><p style="line-height: 1.38;"><span dir="ltr" style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap; font-size: medium;">This vanity URL should point to the product's Freshdesk URL; i.e. if product1.companyname.com and product2.company.com are vanity URLs of the portal, then <a href="https://support.freshdesk.com/en/support/solutions/articles/37590" rel="noopener noreferrer" target="_blank">point the CNAME</a> to companyname.freshdesk.com.</span></p><p style="line-height: 1.38;"><span style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap; font-size: medium;"><br /></span></p><p style="line-height: 1.38;"><span dir="ltr" style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap; font-size: medium;">This will ensure that you have multiple brands from a customer's perspective, but all under the same Freshdesk account from an agent's point of view which increases the overall productivity.&nbsp;</span></p></div>
 
-추가적인 도움이 필요하시면 다음 자료들을 참고해 주세요:
+</details>
 
-- [Freshdesk 도움말 센터](https://support.freshdesk.com)
-- [커뮤니티 포럼](https://community.freshworks.com)
-- [고객지원팀 문의](mailto:support@freshdesk.com)
+<details>
+<summary>방법 transfer solution articles from the main portal to the product portal?</summary>
 
-:::tip 도움말
-더 자세한 정보나 개별 상담이 필요하시면 고객지원팀으로 연락해 주세요.
-:::
+<div dir="ltr"><p style="line-height: 1.38;"><font color="#000000"><span style="white-space: pre-wrap; font-size: medium;">Please navigate to <strong>solutions </strong>tab of the portal and click on the category which needs to be visible in the product portal as well. Once you are on that page with the category and the list of folders please click on the "pen and paper" icon next to the heading which allows you to edit the category. </span></font></p><p style="line-height: 1.38;"><br /></p><p style="line-height: 1.38;"><span style="font-size: 16px;">Kindly choose the product portal in <strong>"visible in portal" </strong>option. <font color="#000000"><span style="white-space: pre-wrap;"></span></font><font color="#000000" size="3"><span style="white-space: pre-wrap;">This will ensure that the articles under this category will only be visible on the associated product portal.</span></font></span></p><p style="line-height: 1.38;"><span style="font-size: 16px;"><font color="#000000" size="3"><span style="white-space: pre-wrap;"></span></font></span></p><p style="line-height: 1.38;"><span style="font-size: 16px;"><font color="#000000" size="3"><span style="white-space: pre-wrap;"></span></font></span></p><p style="line-height: 1.38;"><span style="font-size: 16px;"><font color="#000000" size="3"><span style="white-space: pre-wrap;"></span></font></span></p><p style="line-height: 1.38;"><span style="font-size: 16px;"><font color="#000000" size="3"><span style="white-space: pre-wrap;"></span></font></span></p><p style="line-height: 1.38;"><span style="font-size: 16px;"><br /></span></p><p style="line-height: 1.38;"><span style="font-size: 16px;"><br /></span></p><p style="line-height: 1.38;"><br /></p></div>
+
+</details>
+
+<details>
+<summary>어떻게 view the tickets pertaining only to a particular product?</summary>
+
+<div dir="ltr"><p style=""><span style="font-size: medium;">Please navigate to the <strong>"Tickets" </strong>tab on the global header next to the dashboard where you could see all the tickets in your view or a list of tickets depending on the filters chosen. </span></p><p style=""><br /></p><p style=""><span style="font-size: medium;">You could remove all the other filters and choose the "Product" name alone using the <strong>Product </strong>field. If you have access to view all tickets, you will be able to view all tickets for that particular product, under this view. Kindly make sure you have <strong>global</strong> access (in agent profile) to view all tickets. </span></p></div>
+
+</details>
+
+<details>
+<summary>가능한가요 to restrict an agent’s 접근하다 to tickets from one portal only?</summary>
+
+<div dir="ltr"><p style="line-height: 1.38;"><span style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap; font-size: medium;">The scope of an agent can be based on the groups in the portal. Please navigate to <strong dir="ltr">Admin -&gt; Team -&gt; Agents -&gt; click on edit </strong>to associate groups within the profile. </span></p><p style="line-height: 1.38;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: medium; white-space: pre-wrap;"><br /></span></p><p style="line-height: 1.38;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: medium; white-space: pre-wrap;">This group could be routed to a product under <strong dir="ltr">Admin­­ -&gt; Support Operations -&gt; Multiple Products­­ -&gt; Edit the product­­ -&gt; Assign to Group</strong> and agents who specifically need to access this product could be added to that Group under <strong dir="ltr">Admin -­­&gt; Team -&gt; Groups</strong>. They are the ones with group access on the portal. This would restrict them to a particular product portal. </span></p></div>
+
+</details>
+
+<details>
+<summary>방법 send product-based email notifications?</summary>
+
+<div><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span dir="ltr" style="font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;">With the</span><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">&nbsp;Multiple Products</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;feature available in&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Freshdesk,&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">you can create several products, depending on your plan type. If you have set up your Freshdesk account to support multiple products, you must include proper branding in all your outgoing messages.&nbsp;</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;</span></span></p><p style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span dir="ltr" style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Here are the two stages in setting up product-based email notifications in Freshdesk.</span></span></p><ol style="font-family: &quot;Helvetica Neue&quot;;"><li dir="ltr" style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span dir="ltr" style="font-size: 16px; font-family: &quot;Helvetica Neue&quot;;"><a dir="ltr" href="#Disable-default-email-notifications" style="font-family: &quot;Helvetica Neue&quot;;">Disable default email notifications</a><a href="#Use-product-specific-placeholders-in-automation-rules" dir="ltr" style="font-family: &quot;Helvetica Neue&quot;;"></a></span></span></li><li dir="ltr" style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><a dir="ltr" href="#Use-product-specific-placeholders-in-automation-rules" style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-size: 16px; font-family: &quot;Helvetica Neue&quot;;">Use product-specific placeholders in automation rules</span></a><a href="https://docs.google.com/document/d/15hi58ihFIICB9-paFY1pHhlQG1t2xqkO_5P8zUNdeXE/edit#heading=h.mgjnmdxaiyf7" style="font-family: &quot;Helvetica Neue&quot;;"></a><br style="font-family: &quot;Helvetica Neue&quot;;"></span></li></ol><p style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><h4 dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 18px; color: rgb(0, 0, 0); font-weight: 500; font-family: &quot;Helvetica Neue&quot;;"><strong style="font-family: &quot;Helvetica Neue&quot;;">Disable default email notifications</strong></span></span></h4><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Disabling the default email notifications is imperative as they are&nbsp;</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">generic</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;and not entirely product-specific. As an&nbsp;</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">administrator</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;of your Freshdesk account, you can disable them by following the steps below.&nbsp;</span></span></p><ol style="margin-bottom: 0px; padding-inline-start: 48px; font-family: &quot;Helvetica Neue&quot;;"><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Navigate to&nbsp;</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Admin</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;from the menu. Select&nbsp;</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Workflows</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;and click on&nbsp;</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Email Notifications</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">.</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Click on the&nbsp;</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">active green toggle button</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;next to the email notification to disable them.</span></span></p><p><br /></p><img src="#" style="width: 658px;" class="fr-fil fr-dib fr-bordered fr-shadow" alt="Disable default email notification." /><p></p></li></ol><p style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><h4 dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 18px; color: rgb(0, 0, 0); font-weight: 500; font-family: &quot;Helvetica Neue&quot;;"><strong style="font-family: &quot;Helvetica Neue&quot;;">Use product-specific placeholders in automation rules</strong></span></span></h4><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Use the automation rules on&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">ticket creation</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;and&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">ticket updates</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;to send product-specific email notifications for new tickets and replies.</span></span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Make sure to perform the following three key changes while creating the automation rules to customize email updates.</span></span></p><ol style="margin-bottom: 0px; padding-inline-start: 48px; font-family: &quot;Helvetica Neue&quot;;"><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Choose&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Condition</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;as '</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Product is</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">.'&nbsp;</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Action</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;as send '</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Email to Requester</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">'.</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Make use of&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">product-specific placeholders</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;under the&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Action</span><span dir="ltr" style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;section.</span></span></p><p><br /></p><img src="#" style="width: 662px;" class="fr-fil fr-dib fr-bordered fr-shadow" alt="Key changes for setting up product-specific automation rules." /><br /><p></p></li></ol></div>
+
+</details>
+
+<details>
+<summary>어떻게 할 수 있나요 make Facebook pages product-specific?</summary>
+
+<div dir="ltr"><p><span id="docs-internal-guid-b1c4785f-62f5-cfc9-b7de-bc2b8ff09c48"><span style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap;"><span style="font-size: medium;">Please navigate to <strong dir="ltr">Admin -&gt; Channels ­-&gt; Facebook -&gt; click on Edit corresponding to a particular page. </strong>Once there, you would be able to edit the page and choose a product in <strong>"link to Product."</strong></span></span></span></p><p><br /></p><p><span style="font-size: 16px;">Kindly note that one Facebook page could be linked to one product only. </span></p><p><br /></p></div>
+
+</details>
+
+<details>
+<summary>할 수 있나요 associate separate 그룹 for each product?</summary>
+
+<p dir="ltr">Yes, you can allocate a unique group for each product in the portal. While creating a portal under <strong>Admin&gt; Support Operations &gt; Multiple products</strong>, there is an option to choose an email address and a group for that particular product as shown in the image below :</p><p><br /></p><p><img src="#" class="fr-fic fr-dib fr-bordered" style="width: 728px;" /></p>
+
+</details>
+

@@ -2,73 +2,66 @@
 sidebar_position: 1
 ---
 
-# 아케이드 및 게임화 FAQ
+# Arcade & Gamification
 
-아케이드 및 게임화에서 자주 발생하는 질문들과 해결 방법을 정리했습니다. 각 질문을 클릭하여 상세한 답변을 확인하실 수 있습니다.
+이 섹션에서는 Arcade & Gamification와 관련된 자주 묻는 질문들을 다룹니다.
 
-:::info 안내
-이 FAQ는 실제 사용자들이 자주 묻는 질문들을 바탕으로 작성되었습니다. 추가 문의사항이 있으시면 고객지원팀에 문의해 주세요.
+:::info
+각 질문을 클릭하면 상세한 답변을 확인할 수 있습니다.
 :::
 
-<details>
-<summary><strong>How are 포인트 calculated 위해 Leaderboard? 는 무엇인가요?</strong></summary>
 
-모든 ticket agent handles/resolves 할 수 있습니다 help him/her gain 포인트. number 의 포인트 로 be awarded 로 agents 될 수 있습니다 set 에 의해 Admin 하위에서 **Admin > Agent 생산성 > 아케이드. ** **! [이미지](https: //s3. amazonaws. com/cdn. freshdesk. com/data/helpdesk/attachments/production/42921510/original/Jcjg4ddnU4gajedH-ZMkI1fEqfbaY6Ey5w. png? 1547650910)** There are four trophies 에서 Freshdesk, that are offered 로 agents 함께 highest number 의 포인트 에서 Leaderboard, 각 based 에서 다른 criteria: - **Most Valuable Player: ** Agent 함께 most overall 포인트 위해 current month. - **Customer 'Wow' Champion: ** Agent 함께 maximum Customer Satisfaction 포인트 위해 current month. - **Sharpshooter: ** Agent 함께 highest First Call Resolution (ticket was solved 함께 만 one interaction 사이에 agent 및 customer) 위해 current month. - **Speed Racer: ** Agent 함께 maximum 포인트 위해 빠른 Resolution (ticket was solved 에서 하위에서 hour) 위해 current month. Leaderboard is reset 에서 first 의 모든 month 따라서 everyone 할 수 있습니다 start 위에서 함께 clean slate. You 할 수 있습니다 have look 에서 [this article](https: //support. freshdesk. com/support/solutions/articles/40873-리더보드-trophies-및-배지) 위해 further information 에서 leaderboard.
+## 고급 기능 및 사용법
+
+<details>
+<summary>어떻게 create custom quests?</summary>
+
+<p><span style="font-size: 16px;">To create custom quests, please navigate to <strong dir="ltr">Admin &gt; Agent Productivity &gt; Arcade &gt; Quests</strong> and choose to either edit the default quests or add new ones of your choice. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;"><a href="https://support.freshdesk.com/support/solutions/articles/40870-creating-a-new-quest" target="_blank">This article</a> will give you a step-by-step insight into how you can create new quests.</span></p>
+
+</details>
+
+
+## 관리 및 유지보수
+
+<details>
+<summary>How are the points calculated for the Leaderboard?</summary>
+
+<p><br /></p><p>Every ticket that an agent handles/resolves can help him/her gain points. The number of points to be awarded to agents can be set by the Admin under<span></span><strong dir="ltr">Admin &gt; Agent Productivity &gt; Arcade.</strong></p><p><br /></p><p><strong><img class="fr-dib fr-bordered" src="#" style="width: 546px; height: 239.707px;" /></strong><br /></p><p><br /></p><p><span style="font-size: 16px;">There are four trophies in Freshdesk, that are offered to the agents with the highest number of points in the Leaderboard, each based on different criteria:</span></p><ul><li><span style="font-size: 16px;"><strong>Most Valuable Player:</strong> Agent with the most overall points for the current month.</span></li><li><span style="font-size: 16px;"><strong>Customer 'Wow' Champion:</strong> Agent with the maximum Customer Satisfaction points for the current month.</span></li><li><span style="font-size: 16px;"><strong>Sharpshooter:</strong> Agent with the highest First Call Resolution (ticket was solved with only one interaction between agent and customer) for the current month.</span></li><li><span style="font-size: 16px;"><strong>Speed Racer:</strong> Agent with the maximum points for Fast Resolution (ticket was solved in under an hour) for the current month.</span></li></ul><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">The Leaderboard is reset on the first of every month so everyone can start over with a clean slate.</span></p><p><br /></p><p><span style="font-size: 16px;">You can have a look at </span><a href="https://support.freshdesk.com/support/solutions/articles/40873-leaderboards-trophies-and-badges" target="_blank"><span style="font-size: 16px;">this article</span></a><span style="font-size: 16px;"> for further information on the leaderboard. </span></p>
 
 </details>
 
 <details>
-<summary><strong>How 할 수 있습니다 I reset 게임화 포인트? ?</strong></summary>
+<summary>어떻게 할 수 있나요 reset the gamification points?</summary>
 
-로 reset 포인트 위해 모든 agents, kindly navigate 로 **Admin > Agent 생산성 > 아케이드** 및 choose Reset button next 로 활성화 option. You 할 수 있습니다 또한 reset 포인트 individually 위해 각 agent 하위에서 Agent's profile. Here's [link 로](https: //support. freshdesk. com/support/solutions/articles/213866-resetting-the-포인트-에서-the-아케이드) steps you'll 해야 합니다 do.
-
-</details>
-
-<details>
-<summary><strong>How do I 생성하다 custom quests? 는 무엇인가요?</strong></summary>
-
-로 생성하다 custom quests, please navigate 로 **Admin > Agent 생산성 > 아케이드 > Quests** 및 choose 로 either edit default quests 또는 add 새로운 ones 의 your choice. [This article](https: //support. freshdesk. com/support/solutions/articles/40870-creating-a-새로운-quest) 할 것입니다 give you step-에 의해-step insight 로 how you 할 수 있습니다 생성하다 새로운 quests.
+<p><span style="font-size: 16px;">To reset the points for all the agents, kindly navigate to <strong>Admin &gt; Agent Productivity &gt; Arcade</strong> and choose the Reset button next to the Enable option.</span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">You can also reset the points individually for each agent under the Agent's profile. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">Here's <a href="https://support.freshdesk.com/support/solutions/articles/213866-resetting-the-points-in-the-arcade" target="_blank">a link to</a> the steps you'll need to do.</span></p>
 
 </details>
 
 <details>
-<summary><strong>How 할 수 있습니다 I edit level 의 각 agent manually? ?</strong></summary>
+<summary>어떻게 할 수 있나요 edit the level of each agent manually?</summary>
 
-You 할 수 있습니다 override system 및 manually set level 의 agent 하위에서 **Admin > Team > Agents > Edit**(next 로 agent's name)****및 set level manually.
-
-</details>
-
-<details>
-<summary><strong>How 할 것입니다 agents be notified they complete quest? 는 무엇인가요?</strong></summary>
-
-As 의 now, agents won't receive notification 에서 completion 의 quest. 하지만, they 할 수 있습니다 always navigate 로 their agent profile 및 view 배지 they've earned 위에서 time.
+<p><span style="font-size: 16px;">You can override the system and manually set the level of the agent under <strong dir="ltr">Admin &gt; Team &gt; Agents &gt; Edit </strong>(next to the agent's name)<strong></strong>and set the level manually.</span></p>
 
 </details>
 
 <details>
-<summary><strong>Why aren't my 포인트 updated 에서 Leaderboard 아직, 심지어 though I've completed quest? 는 무엇인가요?</strong></summary>
+<summary>How will agents be notified when they complete a quest?</summary>
 
-leaderboard is back-end operation 및, as 그러한, takes while 로 be updated. There 될 것입니다 delay 에서 updating 포인트, based 에서 queue. You 할 수 있습니다 rest assured 포인트 할 것입니다 definitely be updated soon. If delay is too long, please send email 로 [support@freshdesk. com](mailto: support@freshdesk. com).
+<p style=""><span style="font-size: 16px;">As of now, agents won't receive a notification on completion of a quest. However, they could always navigate to their agent profile and view the badges they've earned over the time.</span></p>
 
 </details>
 
 <details>
-<summary><strong>Why are 포인트 I previously earned 에 의해 completing quest no longer credited 로 me? 는 무엇인가요?</strong></summary>
+<summary>Why aren't my points updated on the Leaderboard yet, even though I've completed a quest?</summary>
 
-If actions led 로 you achieving quest 에서 first place were later **canceled 또는 nullified, ** 포인트 awarded 위해 quest 될 것입니다 retracted as well. 위해 example, if you had quest 로 해결하다 10 tickets 에서 day 및 you did 따라서, you'd be awarded respective 포인트 위해 quest. 하지만, 에서 later point 에서 time, if any one 의 those tickets is **reopened, ** quest 될 것입니다 canceled 및 포인트 removed.
+<p style=""><span style="font-size: 16px;">The leaderboard is a back-end operation and, as such, takes a while to be updated. There will be a delay in updating points, based on the queue. </span></p><p><span style="font-size: 16px;"><br /></span></p><p style=""><span style="font-size: 16px;">You can rest assured that the points will definitely be updated soon. If the delay is too long, please send an email to </span><a href="mailto:support@freshdesk.com" target="_blank"><span style="font-size: 16px;">support@freshdesk.com</span></a><span style="font-size: 16px;">.</span></p><p style=""><br /></p><p style=""><br /></p><p style=""><span style="font-size: 16px;"><br /></span></p>
 
 </details>
 
----
+<details>
+<summary>Why are the points I previously earned by completing a quest no longer credited to me?</summary>
 
-## 🔗 관련 자료
+<p><span style="font-size: 16px;">If the actions that led to you achieving the quest in the first place were later <strong>canceled or nullified,</strong> the points awarded for the quest will be retracted as well.</span></p><p><span style="font-size: 16px;"><br /></span></p><p style=""><span style="font-size: 16px;">For example, if you had a quest to resolve 10 tickets in a day and you did so, you'd be awarded the respective points for that quest. But, at a later point in time, if any one of those tickets is <strong>reopened,</strong> the quest would be canceled and the points removed. </span></p>
 
-추가적인 도움이 필요하시면 다음 자료들을 참고해 주세요:
+</details>
 
-- [Freshdesk 도움말 센터](https://support.freshdesk.com)
-- [커뮤니티 포럼](https://community.freshworks.com)
-- [고객지원팀 문의](mailto:support@freshdesk.com)
-
-:::tip 도움말
-더 자세한 정보나 개별 상담이 필요하시면 고객지원팀으로 연락해 주세요.
-:::

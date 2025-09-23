@@ -2,122 +2,115 @@
 sidebar_position: 1
 ---
 
-# 소셜 미디어 FAQ
+# 소셜
 
-소셜 미디어에서 자주 발생하는 질문들과 해결 방법을 정리했습니다. 각 질문을 클릭하여 상세한 답변을 확인하실 수 있습니다.
+이 섹션에서는 소셜와 관련된 자주 묻는 질문들을 다룹니다.
 
-:::info 안내
-이 FAQ는 실제 사용자들이 자주 묻는 질문들을 바탕으로 작성되었습니다. 추가 문의사항이 있으시면 고객지원팀에 문의해 주세요.
+:::info
+각 질문을 클릭하면 상세한 답변을 확인할 수 있습니다.
 :::
 
-<details>
-<summary><strong>Are Facebook posts real-time?</strong></summary>
 
-Yes, Facebook posts are real-time. 만약 you have v2 의 Facebook 연동 enabled, direct messages will be real-time as well.
+## 기본 설정 및 구성
+
+<details>
+<summary>Why are Agent signatures not present while replying to 소셜 tickets even though they have been configured?</summary>
+
+<p><span dir="ltr" style="font-size: 16px;">The agent signatures will not be present when replying to a Facebook post because the replies will go from the support handle and not the agents'. Similarly, the ticket links will not be present either.</span></p>
+
+</details>
+
+
+## 관리 및 유지보수
+
+<details>
+<summary>Are Facebook posts real-time?</summary>
+
+<p><span dir="ltr" style="font-size: 16px;">Yes, Facebook posts are real-time. If you have v2 of the Facebook integration enabled, direct messages will be real-time as well.</span></p>
 
 </details>
 
 <details>
-<summary><strong>왜 am I not able 로 associate my Facebook page 와 함께 Freshdesk?</strong></summary>
+<summary>Why am I not able to associate my Facebook page with Freshdesk?</summary>
 
-authorization can run into trouble under following scenarios: - 언제 you are trying 로 authorize 에서 your 사용자 정의/vanity URL. Please try authorization after logging into your 계정 using Freshdesk URL, which would go 에 의해 YourCompanyName.freshdesk.com. - 만약 you have SSO enabled, please try logging 에서 using your Freshdesk credentials after bypassing your SSO, using URL - YourCompanyName.freshdesk.com/로그인/normal. - Please 확인하다 만약 you are not logged into another Facebook 계정 에 your browser 에서 same time. Facebook 계정 which you are logged into would have 로 be 관리자 의 Facebook page. - There could also be several reasons 왜 you are unable 로 associate your Facebook page 와 함께 Freshdesk. Here are some possible reasons 그리고 solutions:[](https://지원.freshdesk.com/en/지원/solutions/articles/37557-integrating--facebook-page-와 함께-your-헬프데스크) - [You need 로 be **관리자** 의 Facebook page you are trying 로 integrat](https://지원.freshdesk.com/en/지원/solutions/articles/37557-integrating--facebook-page-와 함께-your-헬프데스크)e[](https://지원.freshdesk.com/en/지원/solutions/articles/37557-integrating--facebook-page-와 함께-your-헬프데스크). Please 확인하다 that you have necessary permissions.[](https://지원.freshdesk.com/en/지원/solutions/articles/37557-integrating--facebook-page-와 함께-your-헬프데스크) - [You cannot 추가 pages that are already integrated 와 함께 another Freshdesk accoun](https://지원.freshdesk.com/en/지원/solutions/articles/37557-integrating--facebook-page-와 함께-your-헬프데스크)t[](https://지원.freshdesk.com/en/지원/solutions/articles/37557-integrating--facebook-page-와 함께-your-헬프데스크). Please 확인하다 that page you are trying 로 integrate is not already associated 와 함께 another Freshdesk 계정. - [Sometimes, 언제 page 설정 change, you may have 로 reauthorize Facebook pag](https://지원.freshdesk.com/en/지원/solutions/articles/37557-integrating--facebook-page-와 함께-your-헬프데스크)e.[](https://지원.freshdesk.com/en/지원/solutions/articles/37557-integrating--facebook-page-와 함께-your-헬프데스크) Please try reauthorizing Facebook page 만약 you are facing issues.
-
-</details>
-
-<details>
-<summary><strong>왜 are my company's posts not being converted 로 티켓, even though I've selected that option?</strong></summary>
-
-Company posts would only be converted 로 티켓 only 언제 end user/고객 adds comment 로 post 에 Facebook. post 에서 itself will not be immediately converted. 언제 post is eventually converted after user comment, original post is also brought-에서 along 와 함께 ticket inside Freshdesk.
+<p><span dir="ltr" style="font-size: 16px; font-family: &quot;Helvetica Neue&quot;;">The authorization can run into trouble under the following scenarios:</span></p><ul><li style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><span dir="ltr" style="font-family: &quot;Helvetica Neue&quot;;">When you are trying to authorize from your custom/vanity URL. Please try the authorization after logging into your Account using Freshdesk URL, which would go by YourCompanyName.freshdesk.com.</span></span></span><br /><br /></li><li style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><span style="font-family: &quot;Helvetica Neue&quot;;">If you have SSO enabled, please try logging in using your Freshdesk credentials after bypassing your SSO, using the URL - YourCompanyName.freshdesk.com/login/normal.</span></span></span></li><li style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><span style="font-family: &quot;Helvetica Neue&quot;;">Please ensure if you are not logged into another Facebook account on your browser at the same time. The Facebook account which you are logged into would have to be an Admin of the Facebook page.</span><br /></span></span></li><li dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;">There could also be several reasons why you are unable to associate your Facebook page with Freshdesk. Here are some possible reasons and solutions:<a class="tooltip-target" href="https://support.freshdesk.com/en/support/solutions/articles/37557-integrating-a-facebook-page-with-your-helpdesk" style="color: inherit; border-bottom: 2px solid transparent; text-underline-offset: 3px;" target="_blank" dir="ltr"></a><ol style="margin-bottom: 0px; margin-left: 0px; display: flex; flex-direction: column; gap: 10px; padding-inline-start: 24px; color: rgb(17, 17, 17); font-family: -apple-system, Roboto, SegoeUI, &quot;Segoe UI&quot;, &quot;Helvetica Neue&quot;, Helvetica, &quot;Microsoft YaHei&quot;, &quot;Meiryo UI&quot;, Meiryo, &quot;Arial Unicode MS&quot;, sans-serif; font-size: 16px; font-weight: 400; text-align: left; text-indent: 0px;"><li><a class="tooltip-target" dir="ltr" href="https://support.freshdesk.com/en/support/solutions/articles/37557-integrating-a-facebook-page-with-your-helpdesk" style="color: inherit; border-bottom: 2px solid transparent; text-underline-offset: 3px;" target="_blank"><span dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;">You need to be an <strong style="font-size: var(--cib-type-subtitle2-stronger-font-size); line-height: var(--cib-type-subtitle2-stronger-line-height); font-weight: var(--cib-type-subtitle2-stronger-font-weight); font-variation-settings: var(--cib-type-subtitle2-stronger-font-variation-settings); pointer-events: none; font-family: &quot;Helvetica Neue&quot;;">Admin</strong> of the Facebook page you are trying to integrat</span></a><span style="font-size: 16px;">e<span style="font-family: Helvetica Neue;"><a class="ac-anchor sup-target" href="https://support.freshdesk.com/en/support/solutions/articles/37557-integrating-a-facebook-page-with-your-helpdesk" style="color: var(--cib-color-foreground-system-link-primary); font-family: &quot;Helvetica Neue&quot;;" target="_blank"></a>. Please ensure that you have the necessary permissions.</span></span><span style="font-size: 16px;"><span dir="ltr" style="font-family: Helvetica Neue;"><a class="tooltip-target" href="https://support.freshdesk.com/en/support/solutions/articles/37557-integrating-a-facebook-page-with-your-helpdesk" style="color: inherit; border-bottom: 2px solid transparent; text-underline-offset: 3px; font-family: &quot;Helvetica Neue&quot;;" target="_blank" dir="ltr"></a></span></span></li><li><p dir="ltr" style="padding: 0px; margin-bottom: 0px; margin-left: 0px; user-select: text; word-break: break-word; font-size: var(--cib-type-body2-font-size); line-height: var(--cib-type-body2-line-height); font-weight: var(--cib-type-body2-font-weight); font-variation-settings: var(--cib-type-body2-font-variation-settings);"><span style="font-size: 16px;"><span dir="ltr" style="font-family: Helvetica Neue;"><a class="tooltip-target" dir="ltr" href="https://support.freshdesk.com/en/support/solutions/articles/37557-integrating-a-facebook-page-with-your-helpdesk" style="color: inherit; border-bottom: 2px solid transparent; text-underline-offset: 3px; font-family: &quot;Helvetica Neue&quot;;" target="_blank">You cannot add pages that are already integrated with another Freshdesk accoun</a>t<a class="ac-anchor sup-target" href="https://support.freshdesk.com/en/support/solutions/articles/37557-integrating-a-facebook-page-with-your-helpdesk" style="color: var(--cib-color-foreground-system-link-primary); font-family: &quot;Helvetica Neue&quot;;" target="_blank"></a>. Please ensure that the page you are trying to integrate is not already associated with another Freshdesk account.</span></span></p></li><li><p dir="ltr" style="padding: 0px; margin-bottom: 0px; margin-left: 0px; user-select: text; word-break: break-word; font-size: var(--cib-type-body2-font-size); line-height: var(--cib-type-body2-line-height); font-weight: var(--cib-type-body2-font-weight); font-variation-settings: var(--cib-type-body2-font-variation-settings);"><span dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><a class="tooltip-target" dir="ltr" href="https://support.freshdesk.com/en/support/solutions/articles/37557-integrating-a-facebook-page-with-your-helpdesk" style="color: inherit; border-bottom: 2px solid transparent; text-underline-offset: 3px; font-family: &quot;Helvetica Neue&quot;;" target="_blank">Sometimes, when page settings change, you may have to reauthorize the Facebook pag</a>e.<a class="ac-anchor sup-target" href="https://support.freshdesk.com/en/support/solutions/articles/37557-integrating-a-facebook-page-with-your-helpdesk" style="color: var(--cib-color-foreground-system-link-primary); font-family: &quot;Helvetica Neue&quot;;" target="_blank"></a> Please try reauthorizing the Facebook page if you are facing issues.</span></p></li></ol></li></ul>
 
 </details>
 
 <details>
-<summary><strong>How can we 선택 between replying 로 comment 그리고 replying 로 post 에 Facebook?</strong></summary>
+<summary>Why are my company's posts not being converted to tickets, even though I've selected that option?</summary>
 
-You can either reply 로 post 또는 reply 로 particular comment 에서 Freshdesk. 로 reply 로 post, you would have 로 use **"Reply"** button 에서 top 또는 bottom 의 ticket. 로 reply 로 particular comment, hover over comment 그리고 클릭 reply icon 로 right 의 yellow space.
-
-</details>
-
-<details>
-<summary><strong>왜 is reply option not 사용 가능한 에 few 티켓 created 에서 Facebook?</strong></summary>
-
-만약 Facebook page is removed 에서 Freshdesk, all 티켓 which were created 에서 that Facebook page will lose connection 로 that page. 위해 those 티켓, **"Reply"** button would not appear, so 상담원 will not be able 로 reply 로 that ticket anymore.
+<p style=""><span style="font-size: 16px;">Company posts would only be converted to tickets only when an end user/customer adds a comment to the post on Facebook. The post in itself will not be immediately converted. </span></p><p><span style="font-size: 16px;"><br /></span></p><p style=""><span style="font-size: 16px;">When the post is eventually converted after a user comment, the original post is also brought-in along with the ticket inside Freshdesk.</span></p><p style=""><br /></p><p style=""><br /></p><p style=""><span style="font-size: 16px;"><br /></span></p>
 
 </details>
 
 <details>
-<summary><strong>왜 aren't replies 로 direct messages 에서 Facebook reflected 에서 Freshdesk?</strong></summary>
+<summary>How can we choose between replying to a comment and replying to a post on Facebook?</summary>
 
-만약 you have enabled v2 의 Facebook 연동 which ensures that messages are converted 로 티켓 에서 real time. 로 change your Facebook 연동 로 v2, please send 이메일 로 지원@freshdesk.com 그리고 we'll have this fixed.
-
-</details>
-
-<details>
-<summary><strong>왜 are Agent signatures not present while replying 로 Social 티켓 even though they have been configured?</strong></summary>
-
-agent signatures will not be present 언제 replying 로 Facebook post because replies will go 에서 지원 handle 그리고 not 상담원'. Similarly, ticket links will not be present either.
+<p><span style="font-size: 16px;">You can either reply to the post or reply to a particular comment from Freshdesk. </span></p><p><span style="font-size: 16px;"><br /></span></p><p style=""><span style="font-size: 16px;">To reply to the post, you would have to use the <strong>"Reply"</strong> button at the top or bottom of the ticket.</span></p><p><span style="font-size: 16px;"><br /></span></p><p style=""><span style="font-size: 16px;">To reply to a particular comment, hover over the comment and click the reply icon to the right of the yellow space.</span></p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>differentiate between Direct Messages 그리고 Posts 에서 Facebook?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>왜인가요 the reply option not available on a few tickets created from Facebook?</summary>
 
-Yes, it is possible 로 differentiate between Facebook direct message 그리고 Facebook post 에서 Freshdesk. Unlike ticket created via Facebook post, **lock next 로 Facebook icon** will be present 위해 ticket created 에서 direct message 에서 ticket details page. However, it is not possible 로 differentiate between direct messages 그리고 posts 에서 List View 에서 티켓 tab.
-
-</details>
-
-<details>
-<summary><strong>convert only those posts 에서 Facebook which have certain hashtags?할 수 있나요은 무엇인가요?</strong></summary>
-
-와 함께 Facebook 연동, all visitor posts will be converted 로 티켓 automatically once page is connected 와 함께 Freshdesk 계정. However, 위해 comments 에 posts, you can configure filters 그리고/또는 keywords 로 필터 posts 그리고 convert them 로 티켓. This can be done under **관리자 -> Channels -> Facebook -> 편집**그리고 에 의해 choosing option **Convert only 관련된 posts**.
+<p style=""><span style="font-size: 16px;">If a Facebook page is removed from Freshdesk, all the tickets which were created from that Facebook page will lose connection to that page. For those tickets, the <strong>"Reply"</strong> button would not appear, so agents will not be able to reply to that ticket anymore.</span></p>
 
 </details>
 
 <details>
-<summary><strong>왜 are replies sent via agent's mailbox not being added 에서 Facebook?</strong></summary>
+<summary>Why aren't replies to direct messages from Facebook reflected in Freshdesk?</summary>
 
-위해 Facebook 티켓, it is mandatory that 상담원 are logged into 포털 그리고 that they reply 에서 포털 as well. This ensures that reply is sent as message 로 고객. 언제 agent replies 에서 mailbox, it will only 추가 public 참고 에서 ticket 그리고 this won't be reflected 에서 Facebook.
-
-</details>
-
-<details>
-<summary><strong>I need 로 추가 more than one social media accounts 에 Freshdesk은 무엇인가요?</strong></summary>
-
-에서 Blossom 요금제 you will have option 로 추가 다수의 Facebook pages 와 함께 Freshdesk. However, 에서 Sprout 요금제 you will only have option 로 추가 one page.
+<p style=""><span style="font-size: 16px;">If you have enabled v2 of the Facebook integration which ensures that the messages are converted to tickets in real time.</span></p><p><span style="font-size: 16px;"><br /></span></p><p style=""><span style="font-size: 16px;">To change your Facebook integration to v2, please send an email to support@freshdesk.com and we'll have this fixed.</span></p>
 
 </details>
 
 <details>
-<summary><strong>I can't 추가 my facebook 로 Freshdesk, it says it is still paired 로 deleted 계정.은 무엇인가요?</strong></summary>
+<summary>가능한가요 to differentiate between Direct Messages and Posts from Facebook?</summary>
 
-에서 일반적인, facebook page 또는 계정 can be added only 로 one 특정한 Freshdesk 계정. 에서 case you have linked same Facebook 계정 로 another Freshdesk 계정, please unlink facebook page 에서 that 계정 그리고 activate it 에서 current 계정.
-
-</details>
-
-<details>
-<summary><strong>왜 am I not able 로 send replies 로 Facebook DMs 에서 Freshdesk?</strong></summary>
-
-Facebook has recently introduced messaging policy which does not allow apps 로 send messages 로 customers 24 hours after they have messaged page. 위해 example, 만약 고객 messages page 에 8th March 2020 에서 5:00 PM, they have until 5:00 PM 9th March 2020 로 respond. After this window, they cannot send response. Please 참고 that this is rolling window. 만약 고객 sends another message 에서 5:30 PM, they have until 5:30 PM next day 로 respond. This change is 에서 line 와 함께 people’s expectations 의 faster responses 에서 businesses. Please refer 로 Facebook's article 위해 [more details around this policy](https://developers.facebook.com/docs/messenger-platform/policy/policy-overview#new_policy). We've incorporated **closed beta API 위해 Facebook direct messages 에서 Freshdesk.**So now, you will be able 로 respond 로 direct messages within **21-day window till July 15th**, considering COVID-19 post which window would be cut short 로 7 days. Also, there are other ways 의 coping up 와 함께 this situation further. You can collect their 고객's 연락하다 details (이메일 address 또는 phone number) 와 함께 automated message. This automated message can be fired 에서 two ways. **1. Directly 에서 Facebook.** 만약 you have very few Facebook pages, you can set up automated message 로 collect 고객 details 에서 this 특정한 section ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50001222086/original/Z1PxG8oRGVQLhqGxHcOPCmNS7VsvmnBmYg.png?1591702091) **2. Using API** 만약 you have 다수의 Facebook pages integrated 와 함께 your Freshdesk 그리고 have separate groups that handle just DM 티켓, you can use webhooks 로 send 자동 reply. This requires addition 의 new feature 에서 our end. Please 문의하다 로 us 에서 [지원@freshdesk.com](http://지원@freshdesk.com) 만약 you would like 로 get this feature enabled.
+<p style=""><span style="font-size: 16px;">Yes, it is possible to differentiate between a Facebook direct message and a Facebook post in Freshdesk. Unlike a ticket created via a Facebook post, <strong>a lock next to the Facebook icon</strong> will be present for a ticket created from a direct message in the ticket details page. </span></p><p><span style="font-size: 16px;"><br /></span></p><p style=""><span style="font-size: 16px;">However, it is not possible to differentiate between direct messages and posts from the List View in the Tickets tab.</span></p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>Discontinuation 의 Twitter services 에 Freshdesk은 무엇인가요?</strong></summary>
+<summary>가능한가요 to convert only those posts from Facebook which have certain hashtags?</summary>
 
-Freshdesk Twitter services are discontinued. Freshworks uses Twitter APIs 로 power tweets 그리고 DMs 에서 Freshdesk. Over past few weeks, Twitter has made number 의 changes 로 its API 그리고 access tiers 그리고 recently revoked our access 로 Twitter. We have been engaging 와 함께 Twitter 로 see how we can continue extending 지원; however, we have ultimately come 로 decision that it will not be feasible due 로 prohibitive cost involved 그리고 uncertainty around Twitter APIs 위해 commercial offering. 와 함께 this 업데이트, you can no longer use Twitter as channel within Freshdesk 로 reply 로 tweets 그리고 DMs. Twitter services are completely discontinued, 그리고 we encourage you 로 use our alternative channels, like Facebook 또는 WhatsApp, 로 continue engaging 와 함께 your customers 에 social media platforms. We understand that this news may be disappointing. However, we hope our alternative solutions will help you continue engaging your customers effectively. We regret inconvenience caused. Please write 로 us 에서 [지원@freshdesk.com](mailto:지원@freshdesk.com) 만약 you have any questions.
+<p ><span style="font-size: 16px;">With the Facebook integration, all visitor posts will be converted to tickets automatically once the page is connected with the Freshdesk account. However, for comments on posts, you can configure filters and/or keywords to filter posts and convert them to tickets.</span></p><p ><br /></p><p ><span style="font-size: 16px;">This can be done under <strong dir="ltr">Admin -&gt; Channels -&gt; Facebook -&gt; Edit </strong>and by choosing the option <strong >Convert only relevant posts</strong>.</span></p>
 
 </details>
 
----
+<details>
+<summary>Why are replies sent via an agent's mailbox not being added in Facebook?</summary>
 
-## 🔗 관련 자료
+<p><span dir="ltr" style="font-size: 16px;">For Facebook tickets, it is mandatory that the agents are logged into the portal and that they reply from the portal as well. This ensures that the reply is sent as a message to the customer. When an agent replies from the mailbox, it will only add a public note in the ticket and this won't be reflected in Facebook.</span></p><p><br /></p>
 
-추가적인 도움이 필요하시면 다음 자료들을 참고해 주세요:
+</details>
 
-- [Freshdesk 도움말 센터](https://support.freshdesk.com)
-- [커뮤니티 포럼](https://community.freshworks.com)
-- [고객지원팀 문의](mailto:support@freshdesk.com)
+<details>
+<summary>I need to add more than one 소셜 media accounts on Freshdesk</summary>
 
-:::tip 도움말
-더 자세한 정보나 개별 상담이 필요하시면 고객지원팀으로 연락해 주세요.
-:::
+<p dir="ltr">From the Blossom plan you will have the option to add multiple Facebook pages with Freshdesk. However, in the Sprout plan you will only have an option to add one page.</p>
+
+</details>
+
+<details>
+<summary>I can't add my facebook to Freshdesk, it says it is still paired to a deleted account.</summary>
+
+In general, a facebook page or an account can be added only to one specific Freshdesk account. In case you have linked the same Facebook account to another Freshdesk account, please unlink the facebook page from that account and activate it in the current account.
+
+</details>
+
+<details>
+<summary>Why am I not able to send replies to Facebook DMs from Freshdesk?</summary>
+
+<p>Facebook has recently introduced a messaging policy which does not allow apps to send messages to customers 24 hours after they have messaged a page. </p><p><br /></p><p>For example, if a customer messages a page on 8th March 2020 at 5:00 PM, they have until 5:00 PM 9th March 2020 to respond. After this window, they cannot send a response. Please note that this is a rolling window. If the customer sends another message at 5:30 PM, they have until 5:30 PM the next day to respond.</p><p><br /></p><p>This change is in line with people’s expectations of faster responses from businesses. Please refer to Facebook's article for <a href="https://developers.facebook.com/docs/messenger-platform/policy/policy-overview#new_policy" rel="noreferrer" target="_blank">more details around this policy</a>.<br /><br /></p><div>We've incorporated the <strong>closed beta API for Facebook direct messages in Freshdesk. </strong>So now, you will be able to respond to direct messages within a <strong>21-day window till July 15th</strong>, considering COVID-19 post which the window would be cut short to 7 days. </div><div><br /></div><div>Also, there are other ways of coping up with this situation further.</div><div><br style="box-sizing: border-box;"></div><div>You can collect their customer's contact details (email address or phone number) with an automated message. This automated message can be fired in two ways.</div><div style='box-sizing: border-box; word-break: break-word; overflow-wrap: break-word; color: rgb(24, 50, 71); font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 14px; font-weight: 400; text-align: start; text-indent: 0px;'><br style="box-sizing: border-box;"></div><div><strong>1. Directly from Facebook.</strong></div><div>If you have very few Facebook pages, you can set up an automated message to collect customer details from this specific section</div><div><br /><img src="#" style="width: 620px;" class="fr-fic fr-dib fr-bordered" /></div><p><br /></p><p><strong>2. Using API</strong><br />If you have multiple Facebook pages integrated with your Freshdesk and have separate groups that handle just DM tickets, you can use webhooks to send an automatic reply. This requires the addition of a new feature from our end. Please reach out to us at <a href="http://support@freshdesk.com" rel="noreferrer" target="_blank">support@freshdesk.com</a> if you would like to get this feature enabled. </p>
+
+</details>
+
+<details>
+<summary>Discontinuation of Twitter services on Freshdesk</summary>
+
+<p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span style="font-size: 11.5pt; font-family: &quot;Source Sans Pro&quot;, sans-serif; color: rgb(0, 0, 0); font-weight: 400;">Freshdesk Twitter services are discontinued.&nbsp;</span></p><p><br /></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span style="font-size: 11.5pt; font-family: &quot;Source Sans Pro&quot;, sans-serif; color: rgb(0, 0, 0); font-weight: 400;">Freshworks uses Twitter APIs to power tweets and DMs in Freshdesk. Over the past few weeks, Twitter has made a number of changes to its API and access tiers and recently revoked our access to Twitter. We have been engaging with Twitter to see how we can continue extending support; however, we have ultimately come to the decision that it will not be feasible due to the prohibitive cost involved and uncertainty around Twitter APIs for commercial offering.</span></p><p><br /></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span style="font-size: 11.5pt; font-family: &quot;Source Sans Pro&quot;, sans-serif; color: rgb(0, 0, 0); font-weight: 400;">With this update, you can no longer use Twitter as a channel within Freshdesk to reply to tweets and DMs. Twitter services are completely discontinued, and we encourage you to use our alternative channels, like Facebook or WhatsApp, to continue engaging with your customers on social media platforms.</span></p><p><br /></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span style="font-size: 11.5pt; font-family: &quot;Source Sans Pro&quot;, sans-serif; color: rgb(0, 0, 0); font-weight: 400;">We understand that this news may be disappointing. However, we hope our alternative solutions will help you continue engaging your customers effectively.&nbsp;</span></p><p><br /></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span style="font-size: 11.5pt; font-family: &quot;Source Sans Pro&quot;, sans-serif; color: rgb(0, 0, 0); font-weight: 400;">We regret the inconvenience caused. Please write to us at&nbsp;</span><a href="mailto:support@freshdesk.com"><span style="font-size: 11.5pt; font-family: &quot;Source Sans Pro&quot;, sans-serif; color: rgb(17, 85, 204); font-weight: 400; text-decoration-skip-ink: none;">support@freshdesk.com</span></a><span style="font-size: 11.5pt; font-family: &quot;Source Sans Pro&quot;, sans-serif; color: rgb(0, 0, 0); font-weight: 400;">&nbsp;if you have any questions.&nbsp;</span></p>
+
+</details>
+

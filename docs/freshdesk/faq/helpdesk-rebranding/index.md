@@ -2,101 +2,94 @@
 sidebar_position: 1
 ---
 
-# 헬프데스크 리브랜딩 FAQ
+# 헬프데스크 리브랜딩
 
-헬프데스크 리브랜딩에서 자주 발생하는 질문들과 해결 방법을 정리했습니다. 각 질문을 클릭하여 상세한 답변을 확인하실 수 있습니다.
+이 섹션에서는 헬프데스크 리브랜딩와 관련된 자주 묻는 질문들을 다룹니다.
 
-:::info 안내
-이 FAQ는 실제 사용자들이 자주 묻는 질문들을 바탕으로 작성되었습니다. 추가 문의사항이 있으시면 고객지원팀에 문의해 주세요.
+:::info
+각 질문을 클릭하면 상세한 답변을 확인할 수 있습니다.
 :::
 
-<details>
-<summary><strong>difference between New > Ticket 그리고 New > 이메일 option?이란은 무엇인가요?</strong></summary>
 
-option 로 raise **new ticket** 또는 send **new 이메일** is 사용 가능한 as part 의 '**+ New**' quick access dropdown 에 top right corner near Search icon. You will also find '**New 연락하다**', 그리고 '**New Company**' options as part 의 dropdown 위해 quick access. **+ New Ticket:**This option can be used 에 의해 상담원 로 생성 new ticket 에 behalf 의 requester, ideally after phone call. source 의 this ticket will be set as **Phone**. Also, 에 this page, you will be able 로 추가 new 연락하다. '생성 another' option will open another new ticket page 와 함께 same properties as previous ticket you just raised. **+ New 이메일:**This option can be used 에 의해 상담원 로 send outbound emails 로 customers 에서 Freshdesk, 위해 any intimation. This 이메일 will also be converted into ticket. Here, you will not have option 로 추가 연락하다 like one 사용 가능한 에서 new ticket page. 'Send another' option will open another new 이메일 page 와 함께 same properties as previous 이메일 you just sent. 만약 you would like 로 생성 ticket 에 behalf 의 고객 그러면 you can use 'New Ticket' option 그리고 만약 you would like 로 send outbound 이메일 로 one 의 your customers 그러면 you can use 'New 이메일' option.
+## 고급 기능 및 사용법
+
+<details>
+<summary>방법 communicate with a third party from a Freshdesk ticket without involving the customer?</summary>
+
+<p><span style="font-size: 16px;">If you are looking to initiating a private conversation with a third party vendor who isn't a part of your Freshdesk Account, you could use the <strong>Forward</strong> option on the Ticket details page. </span></p><p><br /></p><p><span style="font-size: 16px;">Please navigate to the <strong>Tickets</strong> tab -&gt; click on the ticket on which you would want to perform this action -&gt; and click on "<strong>forward" </strong>next to the reply option. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">This sends the entire thread or individual reply (depending on which Forward is used) to the third party and it would not be visible to the customer. A reply to this email will be added as a private note to the ticket, which would also not be visible to the customer.</span></p>
 
 </details>
 
 <details>
-<summary><strong>auto-fill fields 언제 I'm creating new ticket as Agent?하는 방법은 무엇인가요?</strong></summary>
+<summary>Customers are not able to open the ticket URL in the response. 어떻게 할 수 있나요 rectify this?</summary>
 
-You have 상담원 와 함께 busy schedule who are 에 calls 그리고 creating 티켓 위해 customers as you believe 에서 first-hand 지원. 언제 your 상담원 are creating new ticket 또는 sending outbound 이메일, you can use Ticket Templates feature 로 pre-fill regularly used fields. Under **관리자 > Agent Productivity > Ticket templates**, you can set up template that your 상담원 can 선택 와 함께 one 클릭. This 해결책 article walks you through process. Ticket templates feature is 사용 가능한 에서 Garden 요금제 onwards.
+<p>When you send out responses to your customers - the ticket URL would be available to the users depending on the user permission which can be understood by navigating to <strong dir="ltr">Admin -&gt; Channels -&gt; Portals -&gt; Settings</strong>. So there are two options - logged-in users or anyone with a <strong>public ticket </strong>URL. </p><p><br /></p><p dir="ltr">Considering the question, the option in your settings is "logged in users" who would need to be verified to have an account in your portal so that they could log in and check. There are two options to do this - make sure you send out an activation URL manually from the customers' tab or automate it in <strong dir="ltr">Adnin &gt; Workflows &gt; Email notifications &gt; Requester notifications &gt; User activation</strong>. Finally, if you would want a quicker alternative, you could guide them to do a password reset on the portal. </p>
+
+</details>
+
+
+## 관리 및 유지보수
+
+<details>
+<summary>무엇인가요 the difference between the New > Ticket and the New > Email option?</summary>
+
+<p>The option to raise a <strong>new ticket</strong> or send a <strong>new email</strong> is available as part of the '<strong>+ New</strong>' quick access dropdown on the top right corner near the Search icon. You will also find '<strong>New contact</strong>', and '<strong>New Company</strong>' options as part of the dropdown for quick access. </p><p><br /></p><div ><span dir="ltr"><strong dir="ltr">+ New Ticket: </strong>This option can be used by the agents to create a new ticket on behalf of the requester, ideally after a phone call. The source of this ticket will be set as <strong>Phone</strong>. Also, on this page, you will be able to add a new contact. The 'Create another' option will open another new ticket page with the same properties as the previous ticket you just raised.</span></div><div ><span dir="ltr"></span></div><div dir="ltr"><span dir="ltr"><strong dir="ltr">+ New Email: </strong>This option can be used by agents to send outbound emails to customers from Freshdesk, for any intimation. This email will also be converted into a ticket. Here, you will not have an option to add a contact like the one available in the new ticket page. The 'Send another' option will open <span dir="ltr">another new email page with the same properties as the previous email you just sent.</span></span></div><div dir="ltr"><span dir="ltr"><span dir="ltr"></span></span></div><div dir="ltr"><span dir="ltr"><span dir="ltr">If you would like to create a ticket on behalf of the customer then you can use the 'New Ticket' option and if you would like to send an outbound email to one of your customers then you can use the 'New Email' option.</span></span></div><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>저장 filters I apply under 티켓 tab?하는 방법은 무엇인가요?</strong></summary>
+<summary>어떻게 auto-fill fields when I'm creating a new ticket as an Agent?</summary>
 
-After applying filters under 필터 티켓 section 의 Ticket view page, please 클릭 에 **Tick mark**next 로 list view name (All 티켓). This will allow you 로 저장 these filters 그리고 give it 관련된 heading as well which you could use later. Here's [detailed article](https://지원.freshdesk.com/지원/solutions/articles/37559-filtering-티켓-using-views) that will help you set it up.
-
-</details>
-
-<details>
-<summary><strong>왜 is different language being displayed 언제 I log 에서 로 포털?</strong></summary>
-
-Please 확인하다 language options which is applied 로 your profile - you could 확인하다 this under Agent Avatar-->Profile 설정.
+<p><span style="font-size: 14px;">You have agents with a busy schedule who are on calls and creating tickets for customers as you believe in first-hand support. When your agents are creating a new ticket or sending an outbound email, you can use the Ticket Templates feature to pre-fill regularly used fields. </span></p><p><span style="font-size: 14px;"><br /></span></p><p><span style="font-size: 14px;">Under <strong dir="ltr">Admin &gt; Agent Productivity &gt; Ticket templates</strong>, you can set up a template that your agents can select with one click. This solution article walks you through the process.</span></p><p><span style="font-size: 14px;"><br /></span></p><p><span style="font-size: 14px;">The Ticket templates feature is available from the Garden plan onwards.</span></p>
 
 </details>
 
 <details>
-<summary><strong>비활성화 option 위해 requesters 로 sign up 로 our 헬프데스크?하는 방법은 무엇인가요?</strong></summary>
+<summary>어떻게 save the filters I apply under the Tickets tab?</summary>
 
-Please 이동 로 **관리자 -> Channels -> Portals -> 설정**그리고 선택 option "**No"**under **Allow users 로 Sign Up 에서 고객 포털**. This **would not allow** users 로 sign up 에서 포털 - you would have 로 send them activation 이메일 로 생성 계정 와 함께 your system.
-
-</details>
-
-<details>
-<summary><strong>제거 Forums tab 에서 포털 entirely?하는 방법은 무엇인가요?</strong></summary>
-
-Please 이동 로 **관리자 -> 계정 -> 헬프데스크 설정**where you would be able 로 find toggle button next 로 forums. Disabling this would hide forums tab 위해 all users 에 every product 포털 의 your system. 에서 order 로 hide this only 위해 your customers, please get 에서 touch 와 함께 us **(지원@freshdesk.com)** where we could give you CSS code 로 hide tab 에 user end.
+<p><span style="font-size: 16px;">After applying the filters under the Filter Tickets section of the Ticket view page, please click on the <strong>Tick mark </strong>next to the list view name (All tickets). </span></p><p><br /></p><p><span style="font-size: 16px;">This will allow you to save these filters and give it a relevant heading as well which you could use later. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">Here's a<a href="https://support.freshdesk.com/support/solutions/articles/37559-filtering-tickets-using-views" target="_blank"> detailed article</a> that will help you set it up.</span></p>
 
 </details>
 
 <details>
-<summary><strong>change 헬프데스크 name 에서 left corner 에 Agent 포털?하는 방법은 무엇인가요?</strong></summary>
+<summary>왜인가요 a different language being displayed when I 로그 in to the portal?</summary>
 
-Please 이동 로 관리자 -> 계정 -> 헬프데스크 설정 로 change 포털 name displayed 에 left side 의 navigation bar. You will find 필드 called **헬프데스크 name** 에서 헬프데스크 설정, where you can 입력 desired 헬프데스크 name. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50009297345/original/zhQF9PjRqJrJFWJVXVqmVKv8vmbClTPphg.png?1693233538)
-
-</details>
-
-<details>
-<summary><strong>rebrand Agent side 의 포털 그리고 change its colors?하는 방법은 무엇인가요?</strong></summary>
-
-로 change colors 의 Agent side 의 포털, please go 로 **관리자 > 계정 > 헬프데스크 설정 >**클릭 에**편집 Branding**그리고 make necessary changes 로 **헬프데스크 colors**. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50009272133/original/Xisbv1VyF-9As4wXDp9KlrG0-w4xaf78SA.png?1692892903)
+<div dir="ltr"><p style=""><span rel="tempredactor"><span style="font-size: medium;">Please check the language options which is applied to your profile - you could check this under Agent Avatar--&gt;Profile Settings.</span></span></p></div>
 
 </details>
 
 <details>
-<summary><strong>취소 my Freshdesk 계정?하는 방법은 무엇인가요?</strong></summary>
+<summary>어떻게 할 수 있나요 비활성화하다 the option for requesters to sign up to our helpdesk?</summary>
 
-We, 에서 Freshdesk, are always 사용 가능한 로 assist you 와 함께 any issues that you are facing 그리고 will be happy 로 make your experience better. 만약 there is anything we can help you 와 함께, feel free 로 write 로 us 에서 **지원@freshdesk.com**. However, 만약 you're certain that you'd like 로 삭제 your 계정, please 클릭 에 **관리자** (represented 에 의해 gear icon 에서 navigation panel 에 left)**> 계정 > 계정 Details**그리고 클릭 에 '**취소 계정**'. **참고 that you will have 로 be '계정 관리자' 에 포털 로 find this section.** ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/41662165/original/A4iAu0m5oQfkKBgT_42D9y6RztF6ysCDQg.png?1541575768) It would be really helpful 만약 you share your feedback 그리고 reason behind canceling your 계정 와 함께 us. You can 그러면 hit '**Request Cancellation**' button 에 next page 그리고 confirm action 에 following pop-up window. You will have **24 hours before your 계정 gets suspended**, 그리고 **14 days (2 weeks) before we 삭제 your 계정 그리고 계정 데이터 permanently**. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/41662167/original/WxaC4O6i8X3X2Axjw1yd2KEP83dj1lTq0A.png?1541575787) Furthermore, we would advise you 로 내보내기 your 계정 데이터 에 의해 using '**내보내기 Now**' option 에 same page before canceling your Freshdesk 계정. **참고**: 만약 you're getting 오류 while deleting your 계정, please 문의하다 로 our 지원 팀 에서 지원@freshdesk.com
-
-</details>
-
-<details>
-<summary><strong>communicate 와 함께 third party 에서 Freshdesk ticket without involving 고객?하는 방법은 무엇인가요?</strong></summary>
-
-만약 you are looking 로 initiating private conversation 와 함께 third party vendor who isn't part 의 your Freshdesk 계정, you could use **Forward** option 에 Ticket details page. Please 이동 로 **티켓** tab -> 클릭 에 ticket 에 which you would want 로 perform this action -> 그리고 클릭 에 "**forward"**next 로 reply option. This sends entire thread 또는 individual reply (depending 에 which Forward is used) 로 third party 그리고 it would not be visible 로 고객. reply 로 this 이메일 will be added as private 참고 로 ticket, which would also not be visible 로 고객.
+<p ><span style="font-size: 16px;">Please navigate to <strong dir="ltr">Admin -&gt; Channels -&gt; Portals -&gt; Settings </strong>and choose the option "<strong >No" </strong>under </span><strong ><span style="font-size: 16px;">Allow users to Sign Up from the customer portal</span></strong><span style="font-size: 16px;">. </span></p><p ><br /></p><p ><span style="font-size: 16px;">This <strong >would not allow</strong> users to sign up from the portal - you would have to send them an activation email to create an account with your system. </span></p>
 
 </details>
 
 <details>
-<summary><strong>Customers are not able 로 open ticket URL 에서 response. rectify this?하는 방법은 무엇인가요?</strong></summary>
+<summary>어떻게 remove the Forums tab from the portal entirely?</summary>
 
-언제 you send out responses 로 your customers - ticket URL would be 사용 가능한 로 users depending 에 user permission which can be understood 에 의해 navigating 로 **관리자 -> Channels -> Portals -> 설정**. So there are two options - logged-에서 users 또는 anyone 와 함께 **public ticket**URL. Considering question, option 에서 your 설정 is "logged 에서 users" who would need 로 be verified 로 have 계정 에서 your 포털 so that they could log 에서 그리고 확인하다. There are two options 로 do this - make sure you send out activation URL manually 에서 customers' tab 또는 automate it 에서 **Adnin > Workflows > 이메일 notifications > Requester notifications > User activation**. Finally, 만약 you would want quicker alternative, you could guide them 로 do 비밀번호 reset 에 포털.
+<p><span style="font-size: 16px;">Please navigate to <strong dir="ltr">Admin -&gt; Account -&gt; Helpdesk Settings </strong>where you would be able to find a toggle button next to forums. Disabling this would hide the forums tab for all users on every product portal of your system.</span></p><p><br /></p><p><span style="font-size: 16px;">In order to hide this only for your customers, please get in touch with us <strong>(support@freshdesk.com)</strong> where we could give you a CSS code to hide the tab on the user end. </span></p>
 
 </details>
 
----
+<details>
+<summary>어떻게 change the Helpdesk name in the left corner on the Agent portal?</summary>
 
-## 🔗 관련 자료
+<div style="box-sizing: border-box; color: rgb(24, 50, 71); font-family: -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 14px; font-weight: 400; text-align: start; text-indent: 0px;">Please navigate to Admin -&gt; Account -&gt; Helpdesk Settings to change the portal name displayed on the left side of the navigation bar.</div><div style="box-sizing: border-box; color: rgb(24, 50, 71); font-family: -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 14px; font-weight: 400; text-align: start; text-indent: 0px;"><br style="box-sizing: border-box;"></div><div dir="ltr" style="box-sizing: border-box; color: rgb(24, 50, 71); font-family: -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 14px; font-weight: 400; text-align: start; text-indent: 0px;">You will find a field called <strong>Helpdesk name</strong> in the Helpdesk settings, where you can enter the desired helpdesk name.</div><p><br /></p><p><span dir="ltr" style="font-size: 16px;"><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></span><br /></p>
 
-추가적인 도움이 필요하시면 다음 자료들을 참고해 주세요:
+</details>
 
-- [Freshdesk 도움말 센터](https://support.freshdesk.com)
-- [커뮤니티 포럼](https://community.freshworks.com)
-- [고객지원팀 문의](mailto:support@freshdesk.com)
+<details>
+<summary>어떻게 rebrand the Agent side of the portal and change its colors?</summary>
 
-:::tip 도움말
-더 자세한 정보나 개별 상담이 필요하시면 고객지원팀으로 연락해 주세요.
-:::
+<p><span style="font-size: 16px;">To change the colors of the Agent side of the portal, please go to <strong dir="ltr">Admin &gt; Account &gt; Helpdesk Settings &gt;&nbsp;</strong>Click on<strong dir="ltr">&nbsp;Edit Branding&nbsp;</strong>and make the necessary changes to&nbsp;</span><strong><span dir="ltr" style="font-size: 16px;">Helpdesk colors</span></strong><span style="font-size: 16px;">.</span></p><p><br /></p><p><span dir="ltr" style="font-size: 16px;"><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></span><br /></p>
+
+</details>
+
+<details>
+<summary>방법 cancel my Freshdesk Account?</summary>
+
+<p >We, at Freshdesk, are always available to assist you with any issues that you are facing and will be happy to make your experience better. If there is anything we can help you with, feel free to write to us at <strong >support@freshdesk.com</strong>.</p><p ><br /></p><p >However, if you're certain that you'd like to delete your account, please click on <strong >Admin</strong> (represented by a gear icon from the navigation panel on the left)<strong dir="ltr">&nbsp;&gt; Account &gt; Account Details&nbsp;</strong>and click on '<strong >Cancel Account</strong>'.&nbsp;</p><p ><br /></p><p ><strong >Note that you will have to be an 'Account Administrator' on the portal to find this section.</strong></p><p ><br /></p><p ><img class="fr-dib fr-bordered" src="#" style="width: 224px; height: 113.806px;" /></p><p ><br /></p><p ><br /></p><p >It would be really helpful if you share your feedback and the reason behind canceling your account with us. You can then hit the '<strong >Request Cancellation</strong>' button on the next page and confirm the action on the following pop-up window.&nbsp;</p><p ><br /></p><p >You will have <strong >24 hours before your account gets suspended</strong>, and <strong >14 days (2 weeks) before we delete your account and account data permanently</strong>.</p><p ><br /></p><p ><img class="fr-dib fr-bordered" src="#" style="width: 214px; height: 238.141px;" /></p><p ><br /></p><p >Furthermore, we would advise you to export your account data by using the '<strong >Export Now</strong>' option on the same page before canceling your Freshdesk Account.</p><p ><br /></p><p ><strong >Note</strong>: If you're getting an error while deleting your account, please reach out to our support team at support@freshdesk.com</p>
+
+</details>
+

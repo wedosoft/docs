@@ -2,185 +2,181 @@
 sidebar_position: 1
 ---
 
-# 로그인 및 SSO 도움말 FAQ
+# 로그인 및 SSO 도움말
 
-로그인 및 SSO 도움말에서 자주 발생하는 질문들과 해결 방법을 정리했습니다. 각 질문을 클릭하여 상세한 답변을 확인하실 수 있습니다.
+이 섹션에서는 로그인 및 SSO 도움말와 관련된 자주 묻는 질문들을 다룹니다.
 
-:::info 안내
-이 FAQ는 실제 사용자들이 자주 묻는 질문들을 바탕으로 작성되었습니다. 추가 문의사항이 있으시면 고객지원팀에 문의해 주세요.
+:::info
+각 질문을 클릭하면 상세한 답변을 확인할 수 있습니다.
 :::
 
-<details>
-<summary><strong>로그인 로 my 계정?하는 방법은 무엇인가요?</strong></summary>
 
-Freshdesk 포털 우측 상단의 로그인 옵션을 사용하여 Freshdesk 계정에 로그인할 수 있습니다. URL은 **yourcompanyname.freshdesk.com**. 로그인 페이지로 이동하여 이메일 주소와 비밀번호인 로그인 정보를 사용해 헬프데스크에 접속할 수 있습니다. 다음 주소에서도 로그인할 수 있습니다: [https://freshdesk.com/로그인](https://freshdesk.com/로그인).
+## 기본 설정 및 구성
+
+<details>
+<summary>Where do I 구성하다 Single Sign On within Freshdesk?</summary>
+
+<p>Using Single Sign-On, your users could get automatically authenticated while logged in to your common Login option. For example, if you have a website or dashboard where your users log in and would like to use the same to access Freshdesk, you could make use of Single Sign-On.</p><p><br /></p><p dir="ltr">You could configure Single Sign-On within Freshdesk by going through your Freshworks Org page. You can access the Org page by clicking on the Freshworks switcher icon on the bottom left corner and click on Security under your Freshworks Org URL and turning on "Single-Sign-On". You could then choose between Simple or SAML SSO to proceed with the configuration.</p><p dir="ltr"><br /></p><p dir="ltr"><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></p>
 
 </details>
 
 <details>
-<summary><strong>왜 am I not able 로 로그인 로 my Freshdesk 계정?</strong></summary>
+<summary>어떻게 할 수 있나요 bypass SSO login when I have it enabled?</summary>
 
-Freshdesk 계정에 로그인할 수 없는 이유는 여러 가지가 있을 수 있습니다. 다음은 일반적인 문제와 해결책입니다: - **잘못된 로그인 정보:** 올바른 이메일과 비밀번호를 입력하고 있는지 다시 한 번 확인하십시오. 오타나 불필요한 공백이 없는지 확인하십시오. - **비밀번호 재설정:** 비밀번호를 잊으셨다면 로그인 페이지의 "비밀번호 찾기" 링크를 사용하여 재설정하십시오. Freshdesk 계정의 비밀번호 재설정 이메일을 받지 못하는 경우 다음 단계를 통해 문제를 해결할 수 있습니다: - **스팸/정크 폴더 확인:** 때로는 비밀번호 재설정 이메일이 스팸이나 정크 폴더로 분류될 수 있습니다. 이메일 계정에서 이러한 폴더들을 확인해 주십시오. - **이메일 주소 확인:** Freshdesk 계정과 연결된 올바른 이메일 주소를 입력하고 있는지 확인하십시오. 오타로 인해 이메일이 올바른 주소로 발송되지 않을 수 있습니다. - **이메일 재발송:** 비밀번호 재설정 이메일을 다시 요청해 보십시오. 때로는 지연이 있거나 처음에 이메일이 제대로 발송되지 않았을 수 있습니다. - **Freshdesk 이메일 주소 화이트리스트 등록:** Freshdesk 이메일 주소(보통 지원@freshdesk.com 등)를 이메일 연락처나 화이트리스트에 추가하여 이메일 제공업체에서 차단되지 않도록 하십시오. - **이메일 필터 확인:** 비밀번호 재설정 이메일을 다른 폴더로 리디렉션하거나 자동으로 삭제하는 이메일 필터가 설정되어 있지 않은지 확인하십시오. - **계정 잠금:** 여러 번 로그인에 실패하면 계정이 일시적으로 잠길 수 있습니다. 잠시 기다린 후 다시 시도하거나 관리자에게 문의하십시오. - **브라우저 문제:** 브라우저 캐시와 쿠키를 지우거나 다른 기기/브라우저에서 로그인을 시도해 보십시오. - **네트워크 문제:**안정적인 인터넷 연결을 확인하십시오. 때로는 네트워크 문제로 인해 로그인이 성공하지 못할 수 있습니다. - **계정 비활성화:** 계정이 비활성화되었거나 일시 중단되었는지 확인하십시오. 도움이 필요하면 Freshdesk 관리자나 고객지원팀에 문의하십시오. - **2단계 인증:** 2단계 인증이 활성화된 경우, 이메일이나 모바일 기기로 전송된 올바른 인증 코드를 입력하고 있는지 확인하십시오. **고객지원팀 문의:** 만약 you've tried all 의 above 그리고 still can't log 에서, please 문의하다 로 [지원@freshdesk.com](mailto:지원@freshdesk.com) 와 함께 following details, - 로그인하려는 계정 URL과 - 계정에 로그인을 시도할 때 발생하는 상황을 보여주는 오류 메시지 스크린샷/동영상
+You can make use of the companyname.freshdesk.com/login/normal and enter your valid Freshdesk credentials to access the account.
+
+</details>
+
+
+## 문제 해결
+
+<details>
+<summary>I get the 'Unable to allocate day pass' error while logging in. 어떻게 resolve this?</summary>
+
+<div dir="ltr"><div style="box-sizing: border-box; color: rgb(24, 50, 71); font-family: -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 14px; font-weight: 400; text-align: start; text-indent: 0px;">If you have been added as an Occasional Agent in your account, and if your account does not have sufficient day passes to log in, you will encounter this error.<br /><br /><img src="#" class="fr-fic fr-fil fr-dib" style="box-sizing: border-box; border: 0px; max-width: 100%; cursor: pointer; padding: 0px 1px; margin-bottom: 5px; margin-left: 0px; display: block; text-align: left; color: rgb(0, 0, 0); font-family: -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-weight: 400; text-indent: 0px; width: auto;" /></div><div style="box-sizing: border-box; color: rgb(24, 50, 71); font-family: -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 14px; font-weight: 400; text-align: start; text-indent: 0px;"><br style="box-sizing: border-box;"></div><div style="box-sizing: border-box; color: rgb(24, 50, 71); font-family: -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 14px; font-weight: 400; text-align: start; text-indent: 0px;">You can get in touch with your Account Administrators, and they can assist you in purchasing day passes for logging in. A new day pass can be added to your account from within <strong>Admin &gt; Account &gt; Day passes</strong>. You can also view the day pass Usage History on the same page.</div><p ><br /></p><p ><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></p></div>
 
 </details>
 
 <details>
-<summary><strong>How does SSO 에서 Freshdesk work?</strong></summary>
+<summary>I see the error 'Sorry we couldn’t locate your account' when I try to login. 무엇인가요 the issue here?</summary>
 
-Single Sign-에 capability 에서 Freshdesk lets users arriving 에서 your 지원 포털 로그인 와 함께 their credentials saved 에 your database. This saves them time 그리고 effort involved 에서 creating separate 계정 위해 your 지원 포털. You can also set up [](https://지원.freshdesk.com/지원/solutions/articles/31166-single-sign-에-remote-authentication-에서-freshdesk)**[](https://지원.freshdesk.com/지원/solutions/articles/31166-single-sign-에-remote-authentication-에서-freshdesk)[SSO mechanism](https://지원.freshdesk.com/지원/solutions/articles/50000001658-single-sign-에-에서-freshdesk)**로 validate users trying 로 log into your 포털 위해 Freshdesk using locally hosted script. These could be users who already have 계정 에서 your web application 또는 whose information you have stored 에서 your internal application like ActiveDirectory.
-
-</details>
-
-<details>
-<summary><strong>reset my 비밀번호?하는 방법은 무엇인가요?</strong></summary>
-
-- 입력 your URL 에서 address bar, hit 입력 그리고 선택 로그인. 그러면 선택 option **Are you Agent? 로그인 here** 그리고 it will redirect you 로 Freshworks page. - 선택 **Forgot 비밀번호** option, 입력 your 이메일 address 그리고 비밀번호 reset link will be sent 로 your 이메일. - Reset 비밀번호 using link 그리고 you can log 에서 로 계정. Please 문의하다 로 *지원@freshdesk.com* 위해 further help 그리고 clarifications. 만약 your customers are facing 로그인 issues, here's how you can reset their 비밀번호 [https://www.youtube.com/watch?v=oJTcbYch5T8&list=PLsYJ3BsyR4qGFujlW0iDtOBOf4IPVsAqt&index=2](만약%20your%20customers%20are%20facing%20login%20issues,%20here)
+<div dir="ltr"><p><span id="docs-internal-guid-e1461b2d-621d-d933-7a1a-ee5196441987"><span style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap;"><span dir="ltr" style="font-size: medium;">If the email address that was entered for login, is not an agent/contact in the account, then this error would be displayed. You could sign up for a new account, using the Sign Up option on the Portal, or ask to be added as an Agent from under <strong>Admin &gt;Team &gt; Agents</strong> in your account. Once this is done, you could log in to your Freshdesk Account.</span></span></span></p><p><br /></p><p><span><span style="font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap;"><span style="font-size: medium;">If you continue to face issues with login, reach out to Freshdesk support through support@freshdesk.com to know the Agents on your Freshdesk account and we would assist you in getting over this instance.</span></span></span></p></div>
 
 </details>
 
 <details>
-<summary><strong>Where do I configure Single Sign 에 within Freshdesk?</strong></summary>
+<summary>Why am I getting ‘You’re not allowed to 접근하다 this page’ error?</summary>
 
-Using Single Sign-에, your users could get automatically authenticated while logged 에서 로 your 일반적인 로그인 option. 위해 example, 만약 you have website 또는 대시보드 where your users log 에서 그리고 would like 로 use same 로 access Freshdesk, you could make use 의 Single Sign-에. You could configure Single Sign-에 within Freshdesk 에 의해 going through your Freshworks Org page. You can access Org page 에 의해 clicking 에 Freshworks switcher icon 에 bottom left corner 그리고 클릭 에 보안 under your Freshworks Org URL 그리고 turning 에 "Single-Sign-에". You could 그러면 선택 between Simple 또는 SAML SSO 로 proceed 와 함께 구성. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008957735/original/OcZ95RsuLrBSxuoAQk-RDXHNDDWdNQWg0w.png?1689935654)
-
-</details>
-
-<details>
-<summary><strong>Where is your 데이터 servers located?</strong></summary>
-
-Our 데이터 Centres are located 에서 US, EEA, UAE, IND, 그리고 AU. 로 learn more about our 데이터 hosting you, refer 로 [https://www.freshworks.com/privacy/데이터-hosting/](https://www.freshworks.com/privacy/데이터-hosting/)You can 선택 your preferred 데이터 location 언제 you sign up 위해 your 계정. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50012706959/original/LLKRrTD8Jq6cBuK3sP2WiPwy5LF3klesCg.png?1723118643) 만약 there are any 특정한 regulatory requirements 그리고 performance considerations, 그리고 you are looking 로 migrate your 데이터 로 different 데이터 center region, 연락하다 [지원@freshdesk.com](mailto:지원@freshdesk.com).
+<p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span dir="ltr" style="font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;">You will encounter the error ‘</span><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">You’re not allowed to access this page</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">,’ if you click on a link you don’t have access to or do not have the right to view. Let us consider the following scenarios.</span><br style="font-family: &quot;Helvetica Neue&quot;;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><a href="https://docs.google.com/document/d/1TkgdOi7mpoUrb-i9DH2VbF-eSPoJ5g91BYqgf1wN4ws/edit#heading=h.yrkszl4y4q1j" style="font-family: &quot;Helvetica Neue&quot;;"></a></span></p><p style="margin-left: 40px; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><a dir="ltr" href="#Error-displayed-for-agents" style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-size: 16px; font-family: &quot;Helvetica Neue&quot;;">Error displayed for agents</span></a></span></p><p style="margin-left: 40px; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><a dir="ltr" href="#Error-displayed-for-customers" style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-size: 16px; font-family: &quot;Helvetica Neue&quot;;">Error displayed for customers</span></a></span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><h3 dir="ltr" style="line-height: 1.38; margin-bottom: 4pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 18px; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;"><strong style="font-family: &quot;Helvetica Neue&quot;;">Error displayed for agents</strong></span></span></h3><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">If you are an agent and receive this error message after you click on a ticket to view its details, you do not have permission to view the ticket. Please check if you have the correct ticket scope (Group level or Global access) under the Agents page.</span><br style="font-family: &quot;Helvetica Neue&quot;;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><h3 dir="ltr" style="line-height: 1.38; margin-bottom: 4pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 18px; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;"><strong style="font-family: &quot;Helvetica Neue&quot;;">Error displayed for customers</strong></span></span></h3><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">As a customer, when you click on the URL of a solution article displayed only to a specific company (Restricted Access) and you are not part of that company, then this error would appear.&nbsp;</span></span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;</span></span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Please reach out to&nbsp;</span><a href="mailto:support@freshdesk.com" style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-size: 12pt; color: rgb(17, 85, 204); font-weight: 400; text-decoration-skip-ink: none; font-family: &quot;Helvetica Neue&quot;;">support@freshdesk.com</span></a></span><span dir="ltr" style="font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;">&nbsp;if the error appears in scenarios other than those mentioned above.</span></p>
 
 </details>
 
 <details>
-<summary><strong>bypass SSO 로그인 언제 I have it enabled?하는 방법은 무엇인가요?</strong></summary>
+<summary>Why am I getting the error 'Portal is not available at your location' while trying to 접근하다 a Freshdesk page?</summary>
 
-You can make use 의 companyname.freshdesk.com/로그인/normal 그리고 입력 your valid Freshdesk credentials 로 access 계정.
-
-</details>
-
-<details>
-<summary><strong>I get 'Unable 로 allocate day pass' 오류 while logging 에서. resolve this?하는 방법은 무엇인가요?</strong></summary>
-
-만약 you have been added as Occasional Agent 에서 your 계정, 그리고 만약 your 계정 does not have sufficient day passes 로 log 에서, you will encounter this 오류. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50009297562/original/mkdFEgNk-DWkn-_1XGWIh0ReJ5wGmhSpHw.png?1693234132) You can get 에서 touch 와 함께 your 계정 Administrators, 그리고 they can assist you 에서 purchasing day passes 위해 logging 에서. new day pass can be added 로 your 계정 에서 within **관리자 > 계정 > Day passes**. You can also view day pass Usage History 에 same page. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50009297555/original/NfM5szmg2E7kodMBWheWlfNkQL99zYHYeQ.png?1693234122)
+<div dir="ltr"><p dir="ltr"><br /></p><p dir="ltr">The error message "Portal is not available at your location" typically occurs when you try to access a Freshdesk page, but the page is restricted or not accessible from your current location. There are several possible reasons for this error:</p><ul><li>Geographical Restrictions: Some Freshdesk pages or features may have geographical restrictions, and they may not be available in certain regions or countries due to legal or compliance reasons.</li><li>IP Restrictions: Your IP address might be from a location that is blocked or restricted from accessing specific Freshdesk pages or services.</li><li>Limited Access Permissions: Your user account or role might not have the necessary permissions to access the particular page you are trying to view.</li><li dir="ltr">Page Unavailability: The page you are trying to access could be temporarily unavailable due to maintenance or other technical issues.</li><li>Network or Firewall Restrictions: Your network or firewall settings could be preventing access to certain Freshdesk pages.</li></ul><p><br /></p><p dir="ltr">To resolve the issue:</p><ul><li dir="ltr">Check Permissions: Ensure that your user account has the appropriate permissions to access the page in question. If needed, contact your Freshdesk account administrator to verify and adjust your permissions.</li><li>Verify Page Availability: Confirm if the page you are trying to access is indeed available and not undergoing maintenance or restricted for specific locations.</li><li>Check Network Settings: If you are accessing Freshdesk from a workplace or public network, check if any network or firewall settings are blocking access to the page.</li><li>Use a VPN: If the page is restricted in your current location, you can try using a virtual private network (VPN) to access Freshdesk from a different location.</li><li dir="ltr">Contact Freshdesk Support: It will be shown if your account has the IP whitelisting feature enabled or if your IP has been blocked. If the issue persists, reach out to Freshdesk support with your Public IP address for assistance. They can investigate the specific error and provide further guidance to resolve the problem.</li></ul><p><br /></p><p dir="ltr">In case of the latter, please contact Freshdesk support with your Public IP address and we would assist you further regarding this instance.</p></div>
 
 </details>
 
 <details>
-<summary><strong>I see 오류 'Sorry we couldn’t locate your 계정' 언제 I try 로 로그인. 문제 here?이란은 무엇인가요?</strong></summary>
+<summary>Why am I getting the 'Invalid Time Stamp' error when I try to login using an SSO?</summary>
 
-만약 이메일 address that was entered 위해 로그인, is not agent/연락하다 에서 계정, 그러면 this 오류 would be displayed. You could sign up 위해 new 계정, using Sign Up option 에 포털, 또는 ask 로 be added as Agent 에서 under **관리자 >팀 > 상담원** 에서 your 계정. Once this is done, you could log 에서 로 your Freshdesk 계정. 만약 you continue 로 face issues 와 함께 로그인, 문의하다 로 Freshdesk 지원 through 지원@freshdesk.com 로 know 상담원 에 your Freshdesk 계정 그리고 we would assist you 에서 getting over this instance.
-
-</details>
-
-<details>
-<summary><strong>왜 am I getting ‘You’re not allowed 로 access this page’ 오류?</strong></summary>
-
-You will encounter 오류 ‘You’re not allowed 로 access this page,’ 만약 you 클릭 에 link you don’t have access 로 또는 do not have right 로 view. Let us consider following scenarios. [](https://docs.google.com/document/d/1TkgdOi7mpoUrb-i9DH2VbF-eSPoJ5g91BYqgf1wN4ws/편집#heading=h.yrkszl4y4q1j) [오류 displayed 위해 상담원](#오류-displayed-위해-상담원) [오류 displayed 위해 customers](#오류-displayed-위해-customers) **오류 displayed 위해 상담원** 만약 you are agent 그리고 receive this 오류 message after you 클릭 에 ticket 로 view its details, you do not have permission 로 view ticket. Please 확인하다 만약 you have correct ticket scope (Group level 또는 Global access) under 상담원 page. **오류 displayed 위해 customers** As 고객, 언제 you 클릭 에 URL 의 해결책 article displayed only 로 특정한 company (Restricted Access) 그리고 you are not part 의 that company, 그러면 this 오류 would appear. Please 문의하다 로 [지원@freshdesk.com](mailto:지원@freshdesk.com) 만약 오류 appears 에서 scenarios other than those mentioned above.
+<p style=""><span style="font-size: 16px;">You will be prompted with <strong>'Invalid Time Stamp</strong>' error when the difference between the UTC timestamp generated by your server and ours is more than 30 seconds. Ensuring that your servers stay in sync with the NTP server (<a href="https://en.wikipedia.org/wiki/Network_Time_Protocol" rel="noreferrer" target="_blank">https://en.wikipedia.org/wiki/Network_Time_Protocol</a>) will sort out this issue.</span></p><p style=""><br /></p><p style=""><span style="font-size: 16px;">If you continue to face issues, kindly write to <strong>support@freshdesk.com</strong> and one of our agents will assist you further.</span></p><p style=""><br /></p><p style=""><br /></p><p style=""><span style="font-size: 16px;"><br /></span></p>
 
 </details>
 
 <details>
-<summary><strong>왜 am I getting 오류 '포털 is not 사용 가능한 에서 your location' while trying 로 access Freshdesk page?</strong></summary>
+<summary>Why am I getting a 'Login unsuccessful' error on the AD SSO?</summary>
 
-오류 message "포털 is not 사용 가능한 에서 your location" typically occurs 언제 you try 로 access Freshdesk page, 하지만 page is restricted 또는 not accessible 에서 your current location. There are several possible reasons 위해 this 오류: - Geographical Restrictions: Some Freshdesk pages 또는 features may have geographical restrictions, 그리고 they may not be 사용 가능한 에서 certain regions 또는 countries due 로 legal 또는 compliance reasons. - IP Restrictions: Your IP address might be 에서 location that is blocked 또는 restricted 에서 accessing 특정한 Freshdesk pages 또는 services. - Limited Access Permissions: Your user 계정 또는 role might not have necessary permissions 로 access particular page you are trying 로 view. - Page Unavailability: page you are trying 로 access could be temporarily unavailable due 로 maintenance 또는 other technical issues. - Network 또는 Firewall Restrictions: Your network 또는 firewall 설정 could be preventing access 로 certain Freshdesk pages. 로 resolve 문제: - 확인하다 Permissions: 확인하다 that your user 계정 has appropriate permissions 로 access page 에서 question. 만약 needed, 연락하다 your Freshdesk 계정 관리자 로 확인하다 그리고 adjust your permissions. - 확인하다 Page Availability: Confirm 만약 page you are trying 로 access is indeed 사용 가능한 그리고 not undergoing maintenance 또는 restricted 위해 특정한 locations. - 확인하다 Network 설정: 만약 you are accessing Freshdesk 에서 workplace 또는 public network, 확인하다 만약 any network 또는 firewall 설정 are blocking access 로 page. - Use VPN: 만약 page is restricted 에서 your current location, you can try using virtual private network (VPN) 로 access Freshdesk 에서 different location. - 연락하다 Freshdesk 지원: It will be shown 만약 your 계정 has IP whitelisting feature enabled 또는 만약 your IP has been blocked. 만약 문제 persists, 문의하다 로 Freshdesk 지원 와 함께 your Public IP address 위해 assistance. They can investigate 특정한 오류 그리고 제공하다 further guidance 로 resolve 문제. 에서 case 의 latter, please 연락하다 Freshdesk 지원 와 함께 your Public IP address 그리고 we would assist you further regarding this instance.
-
-</details>
-
-<details>
-<summary><strong>Remote 로그인 URL?이란은 무엇인가요?</strong></summary>
-
-While setting up SSO, users would have 로 로그인 에서 일반적인 로그인 URL, 로 be authenticated using SSO. Remote 로그인 URL is that URL 로 which your users would be redirected 언제 they hit 로그인 button 에 your 포털 after you have set up SSO. You would have 로 업데이트 this 필드 와 함께 일반적인 로그인 URL, while setting up SSO 위해 your Freshdesk 계정.
+<p><span style="font-size: 16px;">This error message denoting authentication failure would be because of an error in setting up the SSO. To analyse this, we would require the debug log. Please enter <span style="font-size: 16px;"><strong>?debug=1 </strong>at</span> the end of the URL that is generated, to retrieve the debug log<strong>. </strong></span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">Also, please check the constructed URL after the login, to see if the Hash is generated or not. </span></p><p><span style="font-size: 16px;"><br /></span></p><p style=""><span style="font-size: 16px;">If the issue persists, please send an email to </span><a href="mailto:support@freshdesk.com" target="_blank"><span style="font-size: 16px;">support@freshdesk.com</span></a><span style="font-size: 16px;">.</span></p>
 
 </details>
 
 <details>
-<summary><strong>왜 am I getting 'Invalid Time Stamp' 오류 언제 I try 로 로그인 using SSO?</strong></summary>
+<summary>SSO is not working and getting the message 'Session expired. Please login again'</summary>
 
-You will be prompted 와 함께 **'Invalid Time Stamp**' 오류 언제 difference between UTC timestamp generated 에 의해 your server 그리고 ours is more than 30 seconds. Ensuring that your servers stay 에서 sync 와 함께 NTP server ([https://en.wikipedia.org/wiki/Network_Time_Protocol](https://en.wikipedia.org/wiki/Network_Time_Protocol)) will sort out this 문제. 만약 you continue 로 face issues, kindly write 로 **지원@freshdesk.com** 그리고 one 의 our 상담원 will assist you further.
-
-</details>
-
-<details>
-<summary><strong>왜 am I getting '로그인 unsuccessful' 오류 에 AD SSO?</strong></summary>
-
-This 오류 message denoting authentication failure would be because 의 오류 에서 setting up SSO. 로 analyse this, we would require debug log. Please 입력 **?debug=1**에서 end 의 URL that is generated, 로 retrieve debug log**.** Also, please 확인하다 constructed URL after 로그인, 로 see 만약 Hash is generated 또는 not. 만약 문제 persists, please send 이메일 로 [지원@freshdesk.com](mailto:지원@freshdesk.com).
+<p><span rel="tempredactor">We use the UTC timestamp to generate the hash for validation. Before we were allowing the hash to be valid for 30 minutes, but now we have updated it to be valid for 30 seconds alone. Please check if your SSO server is in sync with the UTC time.</span></p><p><span rel="tempredactor"><br /></span><span rel="tempredactor">If your server is in sync, and you're still getting the session expired error, please drop an email to support@freshdesk.com.</span></p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>왜 are my 상담원 not able 로 로그인 through AD SSO?</strong></summary>
+<summary>SSO error: Login was unsuccessful! - Validation Failed : Invalid Signature on SAML Response</summary>
 
-Please 확인하다 만약 agent who is logging 에서 is using their 이메일 address which is part 의 AD. Also, 만약 they are user 에 AD, you would have 로 make sure 만약 their user profile 에 AD has permissions 로 use SSO. 이메일 address 에서 your AD is parameter that Freshdesk checks while authenticating 로그인, 로 locate their profile 에 Freshdesk.
+<p style="margin-bottom: 0cm; margin-left: 0cm; font-size: 16px; font-family: Calibri, sans-serif; line-height: 115%;"><span style="font-size: 18px; line-height: 115%; font-family: &quot;Helvetica Neue&quot;; color: black;">This error occurs when there is a mismatch in the signature.&nbsp;</span></p><p style="margin-bottom: 0cm; margin-left: 0cm; font-size: 18px; font-family: Calibri, sans-serif; line-height: 115%;"><span style="font-size: 18px;"><span style="line-height: 115%; font-family: &quot;Helvetica Neue&quot;; color: black;">&nbsp;</span></span></p><p style="margin-bottom: 0cm; margin-left: 0cm; font-size: 18px; font-family: Calibri, sans-serif; line-height: 115%;"><span style="font-size: 18px;"><span style="line-height: 115%; font-family: &quot;Helvetica Neue&quot;; color: black;">To extract the SHA signature from Google,</span></span></p><ol style="margin-bottom: 0cm;" type="disc"><li style="margin-bottom: 0cm; margin-left: 0cm; font-size: 18px; font-family: Calibri, sans-serif; color: black; line-height: 115%;"><span style="font-size: 18px;"><span style="line-height: 115%; font-family: &quot;Helvetica Neue&quot;;">In the Google Admin console, navigate to Security &gt; Set up single sign on and click on the download Certificate.</span></span></li><li style="margin-bottom: 0cm; margin-left: 0cm; font-size: 18px; font-family: Calibri, sans-serif; color: black; line-height: 115%;"><span style="font-size: 18px;"><span style="line-height: 115%; font-family: &quot;Helvetica Neue&quot;;">Open the downloaded .pem extension file using notepad/sublime text editor.</span></span><br /><br /></li><li style="margin-bottom: 0cm; margin-left: 0cm; font-size: 18px; font-family: Calibri, sans-serif; color: black; line-height: 115%;"><span style="font-size: 18px;"><span style="line-height: 115%; font-family: &quot;Helvetica Neue&quot;;">Copy the certificate from the notepad/sublime text-editor and paste it in the X.509 certificate section in <a href="https://www.samltool.com/fingerprint.php"><span style="color: rgb(44, 92, 197);">https://www.samltool.com/fingerprint.php</span></a></span></span><br /><br /></li><li style="margin-bottom: 0cm; margin-left: 0cm; font-size: 18px; font-family: Calibri, sans-serif; color: black; line-height: 115%;"><span style="font-size: 18px;"><span style="line-height: 115%; font-family: &quot;Helvetica Neue&quot;;">Make sure that you’ve selected SHA256 as the algorithm and click on calculate fingerprint.</span></span><br /><br /></li><li style="margin-bottom: 0cm; margin-left: 0cm; font-size: 16px; font-family: Calibri, sans-serif; color: black; line-height: 115%;"><span style="font-size: 18px; line-height: 115%; font-family: &quot;Helvetica Neue&quot;;">Enter the key displayed in the formatted fingerprint text box in your Freshdesk account under Admin &gt; Security &gt; SAML &gt;Security Certificate Fingerprint &gt; Save.</span></li></ol>
+
+</details>
+
+
+## 관리 및 유지보수
+
+<details>
+<summary>어떻게 할 수 있나요 login to my account?</summary>
+
+<p style="">You can login to your Freshdesk account using the Login option at the top-right on your Freshdesk Portal, which will be available in the URL <strong>yourcompanyname.freshdesk.com</strong>. </p><p><br /></p><p style="">This will take you to the login page where you can use your login credentials - email address and password, to access the helpdesk.</p><p style=""><br /></p><p style="">You can also login from <a href="https://freshdesk.com/login" rel="noreferrer">https://freshdesk.com/login</a>.</p>
 
 </details>
 
 <details>
-<summary><strong>왜 are names under my 상담원' profiles automatically changed every time they log 에서?</strong></summary>
+<summary>Why am I not able to login to my Freshdesk account?</summary>
 
-After every 로그인 와 함께 SSO, Freshdesk will sync name 의 상담원 와 함께 names 에서 your SSO database. Hence, names 에서 Freshdesk would automatically be updated. 로 fix this, please 확인하다 how names 의 상담원 are configured 에 your SSO database. Also, we 지원 UTF-8 encoded special characters only; so 만약 name contains any unsupported special characters, we would change it 로 English equivalent.
-
-</details>
-
-<details>
-<summary><strong>왜 are my 상담원 logged back 에서 로 포털 automatically after they log out?</strong></summary>
-
-This would be because 의 incorrect **Remote Logout URL**.****만약 you have entered 로그인 page 의 포털 as Remote Logout URL, please have that modified 그리고 give this another try.
+<p dir="ltr"><span dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;">There could be several reasons why you're unable to log in to your Freshdesk account. Here are some common issues and their solutions:</span></p><p style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><br /></p><ul><li style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><strong dir="ltr">Incorrect Credentials:</strong> Double-check that you're entering the correct email and password. Make sure there are no typos or extra spaces.</span></span></li><li style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-size: 16px;"><span dir="ltr" style="font-family: Helvetica Neue;"><strong>Password Reset:</strong> If you've forgotten your password, use the "Forgot Password" link on the login page to reset it.&nbsp;</span></span>If you're not receiving the password reset email for your Freshdesk account, here are some steps you can take to resolve the issue:<ul style="list-style-type: circle;"><li dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><strong>Check Spam/Junk Folder:</strong> Sometimes, password reset emails can be filtered into your spam or junk folder. Make sure to check these folders in your email account.</li><li dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><strong>Verify Email Address:</strong> Ensure that you're entering the correct email address associated with your Freshdesk account. A typo can prevent the email from being sent to the correct address.</li><li dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><strong>Resend the Email:</strong> Try requesting the password reset email again. Sometimes, there might be a delay, or the email might not have been sent properly the first time.</li><li dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><strong>Whitelist Freshdesk Email Address:</strong> Add the Freshdesk email address (usually support@freshdesk.com or similar) to your email contacts or whitelist to ensure it doesn't get blocked by your email provider.</li><li dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><strong>Check Email Filters:</strong> Ensure that you don't have any email filters set up that might be redirecting the password reset email to another folder or automatically deleting it.</li></ul></li><li style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><strong>Account Locked:</strong> After multiple failed login attempts, your account might be temporarily locked. Wait for a while and try again or contact your admin.</span></span></li><li style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-size: 16px;"><span dir="ltr" style="font-family: Helvetica Neue;"><strong>Browser Issues:</strong> Clear your browser cache and cookies, or try logging in from a different device/browser.</span></span></li><li style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><strong>Network Issues:&nbsp;</strong>Ensure you have a stable internet connection. Sometimes network issues can prevent successful login attempts.</span></span></li><li style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><strong>Account Deactivation:</strong> Check if your account has been deactivated or suspended. Contact your Freshdesk admin or support for assistance.</span></span></li><li style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><strong>Two-Factor Authentication:</strong> If two-factor authentication is enabled, ensure you're entering the correct verification code sent to your email or mobile device.</span></span></li></ul><p style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></span></p><p class="p1" style="font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-family: Helvetica Neue;"><span style="font-size: 16px; font-family: &quot;Helvetica Neue&quot;;"><strong style="font-family: &quot;Helvetica Neue&quot;;">Contact customer support:</strong> If you've tried all of the above and still can't log in, please reach out to <a href="mailto:support@freshdesk.com" style="font-family: &quot;Helvetica Neue&quot;;"><span class="s1" style="color: rgb(220, 161, 13); font-family: &quot;Helvetica Neue&quot;;">support@freshdesk.com</span></a> with the following details,</span></span></p><ul class="ul1" style="font-size: medium;"><li class="li1" style="font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-family: Helvetica Neue;"><span style="font-size: 16px; font-family: &quot;Helvetica Neue&quot;;">Account URL to which you're trying to log in, and&nbsp;</span></span></li><li class="li1" style="font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><span style="font-family: Helvetica Neue;"><span dir="ltr" style="font-size: 16px;">Error message screenshot/video grab highlighting what happens when you try to log in to your account</span></span></li></ul><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>SSO is not working 그리고 getting message 'Session expired. Please 로그인 again'은 무엇인가요?</strong></summary>
+<summary>How does SSO in Freshdesk work?</summary>
 
-We use UTC timestamp 로 generate hash 위해 validation. Before we were allowing hash 로 be valid 위해 30 minutes, 하지만 now we have updated it 로 be valid 위해 30 seconds alone. Please 확인하다 만약 your SSO server is 에서 sync 와 함께 UTC time. 만약 your server is 에서 sync, 그리고 you're still getting session expired 오류, please drop 이메일 로 지원@freshdesk.com.
-
-</details>
-
-<details>
-<summary><strong>SSO 오류: 로그인 was unsuccessful! - Validation Failed : Invalid Signature 에 SAML Response은 무엇인가요?</strong></summary>
-
-This 오류 occurs 언제 there is mismatch 에서 signature. 로 extract SHA signature 에서 Google, - 에서 Google 관리자 console, 이동 로 보안 > Set up single sign 에 그리고 클릭 에 다운로드 Certificate. - Open downloaded .pem extension file using notepad/sublime text editor. - Copy certificate 에서 notepad/sublime text-editor 그리고 paste it 에서 X.509 certificate section 에서 [https://www.samltool.com/fingerprint.php](https://www.samltool.com/fingerprint.php) - Make sure that you’ve selected SHA256 as algorithm 그리고 클릭 에 calculate fingerprint. - 입력 key displayed 에서 formatted fingerprint text box 에서 your Freshdesk 계정 under 관리자 > 보안 > SAML >보안 Certificate Fingerprint > 저장.
+<p>The Single Sign-On capability in Freshdesk lets the users arriving at your support portal login with their credentials saved on your database. </p><p><br /></p><p>This saves them the time and effort involved in creating a separate account for your support portal. You can also set up an<a href="https://support.freshdesk.com/support/solutions/articles/31166-single-sign-on-remote-authentication-in-freshdesk" rel="noreferrer noopener"></a><strong><a href="https://support.freshdesk.com/support/solutions/articles/31166-single-sign-on-remote-authentication-in-freshdesk" rel="noreferrer noopener"></a><a href="https://support.freshdesk.com/support/solutions/articles/50000001658-single-sign-on-in-freshdesk">SSO mechanism </a></strong>to validate users trying to log into your portal for Freshdesk using a locally hosted script. These could be the users who already have an account in your web application or whose information you have stored in your internal application like ActiveDirectory.</p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>There is not secure message 언제 accessing system 에서 Chrome은 무엇인가요?</strong></summary>
+<summary>방법 reset my password?</summary>
 
-만약 this is happening 위해 your vanity URL, 그러면 you have 로 set up SSL certificate 위해 your 사용자 정의 domain. SSL options 위해 사용자 정의 domains are 사용 가능한 에서 Blossom 요금제. Please write 로 us 에서 **지원@freshdesk.com**, 그리고 our 지원 팀 will help you 에서 obtaining SSL certificate.. Once you receive 이메일, please follow instructions 로 confirm your request 위해 SSL certificate. 클릭 [here](https://지원.freshdesk.com/en/지원/solutions/articles/90479-configuring--사용자 정의-SSL-certificate-위해-your-지원-포털) 로 read more 에 Configuring 사용자 정의 SSL certificate 위해 your 지원 포털.
-
-</details>
-
-<details>
-<summary><strong>언제 will 데이터 be deleted once I 취소 my 계정?</strong></summary>
-
-언제 계정 is deleted, all associated 데이터 is destroyed within 14 days.
+<ul ><li >Type your URL in the address bar, hit enter and select Login. Then choose the option <strong >Are you an Agent? Login here</strong> and it will redirect you to the Freshworks page.&nbsp;</li><li >Select <strong >Forgot password</strong> option, enter your email address and a password reset link will be sent to your email.&nbsp;</li><li >Reset the password using the link and you can log in to the account.</li></ul><p ><br /></p><p >Please reach out to <em >support@freshdesk.com</em> for further help and clarifications.</p><p ><br /></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;">If your customers are facing login issues, here's how you can reset their password</p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><a href="If%20your%20customers%20are%20facing%20login%20issues,%20here">https://www.youtube.com/watch?v=oJTcbYch5T8&amp;list=PLsYJ3BsyR4qGFujlW0iDtOBOf4IPVsAqt&amp;index=2</a></p>
 
 </details>
 
 <details>
-<summary><strong>sign up 위해 Freshdesk 계정하는 방법은 무엇인가요?</strong></summary>
+<summary>Where is your data servers located?</summary>
 
-로 open 또는 생성 Freshdesk 계정, start 와 함께 free trial 에서 [https://freshdesk.com/signup](https://freshdesk.com/signup)
+<p dir="ltr">Our Data Centres are located in the US, EEA, UAE, IND, and AU. To learn more about our Data hosting you, refer to <a href="https://www.freshworks.com/privacy/data-hosting/" rel="noreferrer">https://www.freshworks.com/privacy/data-hosting/</a><br /><br />You can choose your preferred data location when you sign up for your account.</p><p dir="ltr"><img src="#" style="width: 339px; max-width: 100%;" class="fr-fil fr-dib fr-bordered" /></p><p dir="ltr"><br />If there are any specific regulatory requirements and performance considerations, and you are looking to migrate your data to a different data center region, contact <a href="mailto:support@freshdesk.com">support@freshdesk.com</a>.</p>
 
 </details>
 
 <details>
-<summary><strong>authenticate WordPress users 로 로그인 로 Freshdesk?하는 방법은 무엇인가요?</strong></summary>
+<summary>무엇인가요 the Remote Login URL?</summary>
 
-You can set up single sign-에 위해 your WordPress users 로 easily log 에서 로 Freshdesk using Freshdesk plugin 위해 WordPress. You can use plugin 로 활성화 your users 로 seamlessly 그리고 securely log 에서 로 Freshdesk. 로 do so, you first need 로 install [Freshdesk WordPress plugin](https://wordpress.org/plugins/freshdesk-지원/). You can install plugin 에서 plugins directory 만약 your site runs 에 self-hosted WordPress. 만약 you use WordPress.com, you need 로 be 에 [Business 요금제 또는 above](https://wordpress.com/pricing/) 로 install this plugin. 클릭 here 로 read step-에 의해-step guide 에 [authenticating WordPress users into your Freshdesk 계정](https://지원.freshdesk.com/en/지원/solutions/articles/50000001053) 에서 more detail.
+<p style=""><span style="font-size: 16px;">While setting up an SSO, the users would have to login from a common login URL, to be authenticated using SSO. The Remote Login URL is that URL to which your users would be redirected when they hit the Login button on your portal after you have set up an SSO.</span></p><p style=""><br /></p><p style=""><span style="font-size: 16px;">You would have to update this field with the common login URL, while setting up SSO for your Freshdesk Account.</span></p>
 
 </details>
 
----
+<details>
+<summary>Why are my agents not able to login through AD SSO?</summary>
 
-## 🔗 관련 자료
+<p style=""><span style="font-size: 16px;">Please check if the agent who is logging in is using their email address which is part of the AD. Also, if they are a user on the AD, you would have to make sure if their user profile on the AD has permissions to use SSO. </span><span style="font-size: 16px;"></span><span style="font-size: 16px;">The email address from your AD is the parameter that Freshdesk checks while authenticating the login, to locate their profile on Freshdesk.</span></p><p style=""><br /></p><p style=""><br /></p>
 
-추가적인 도움이 필요하시면 다음 자료들을 참고해 주세요:
+</details>
 
-- [Freshdesk 도움말 센터](https://support.freshdesk.com)
-- [커뮤니티 포럼](https://community.freshworks.com)
-- [고객지원팀 문의](mailto:support@freshdesk.com)
+<details>
+<summary>Why are the names under my agents' profiles automatically changed every time they 로그 in?</summary>
 
-:::tip 도움말
-더 자세한 정보나 개별 상담이 필요하시면 고객지원팀으로 연락해 주세요.
-:::
+<p style=""><span style="font-size: 16px;">After every login with an SSO, Freshdesk will sync the name of the agents with the names in your SSO database. Hence, the names in Freshdesk would automatically be updated. </span></p><p><span style="font-size: 16px;"><br /></span></p><p style=""><span style="font-size: 16px;">To fix this, please check how the names of the agents are configured on your SSO database.</span></p><p><span style="font-size: 16px;"><br /></span></p><p style=""><span style="font-size: 16px;">Also, we support UTF-8 encoded special characters only; so if the name contains any unsupported special characters, we would change it to the English equivalent.</span></p><p style=""><br /></p><p style=""><span style="font-size: 16px;"><br /></span></p>
+
+</details>
+
+<details>
+<summary>Why are my agents logged back in to the portal automatically after they 로그 out?</summary>
+
+<p style=""><span style="font-size: 16px;">This would be because of an incorrect <strong>Remote Logout URL</strong>.<strong></strong>If you have entered the login page of the portal as the Remote Logout URL, please have that modified and give this another try.</span></p><p style=""><br /></p><p style=""><span style="font-size: 16px;"><br /></span></p>
+
+</details>
+
+<details>
+<summary>There is a not secure message when accessing the system from Chrome</summary>
+
+<p><span style="font-size: 16px;"><span dir="ltr" style="font-family: Helvetica,sans-serif;">If this is happening for your vanity URL, then you have to set up an SSL certificate for your custom domain. </span></span></p><p><span style="font-size: 16px;"><span style="font-family: Helvetica,sans-serif;"><br /></span></span></p><p><span style="font-size: 16px;"><span dir="ltr" style="font-family: Helvetica,sans-serif;">SSL options for custom domains are available from the Blossom Plan. Please write to us at <strong>support@freshdesk.com</strong>, and our support team will help you in obtaining the SSL certificate.. </span></span></p><p><span style="font-size: 16px;"><span style="font-family: Helvetica,sans-serif;"><br style="box-sizing: border-box;">Once you receive the email, please follow the instructions to confirm your request for an SSL certificate. </span></span></p><p><span style="font-size: 16px;"><span style="font-family: Helvetica,sans-serif;"><br style="box-sizing: border-box;"></span></span></p><p><span style="font-size: 16px;"><span style="font-family: Helvetica,sans-serif;">Click <a href="https://support.freshdesk.com/en/support/solutions/articles/90479-configuring-a-custom-ssl-certificate-for-your-support-portal" rel="noreferrer" target="_blank">here</a> to read more on Configuring a custom SSL certificate for your support portal.</span></span></p><p class="attachment-thumb ember-view" style='box-sizing: border-box; word-break: normal; overflow-wrap: break-word; font-size: 13px; line-height: 18px; color: rgb(24, 50, 71); font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-weight: 400; text-align: start; text-indent: 0px;'><span style="font-family: Helvetica, sans-serif; font-size: 16px;"><br class="Apple-interchange-newline"></span></p><p><br /></p>
+
+</details>
+
+<details>
+<summary>When will the data be deleted once I cancel my account?</summary>
+
+<p dir="ltr">When an account is deleted, all associated data is destroyed within 14 days.</p>
+
+</details>
+
+<details>
+<summary>방법 sign up for a Freshdesk Account</summary>
+
+To open or create a Freshdesk account, start with the free trial at <a href="https://freshdesk.com/signup" rel="noreferrer">https://freshdesk.com/signup</a>
+
+</details>
+
+<details>
+<summary>어떻게 할 수 있나요 authenticate WordPress users to login to Freshdesk?</summary>
+
+<p style="text-align: justify;">You can set up single sign-on for your WordPress users to easily log in to Freshdesk using the Freshdesk plugin for WordPress.</p><p style="text-align: justify;"><br /></p><p dir="ltr" style="text-align: justify;">You can use the plugin to enable your users to seamlessly and securely log in to Freshdesk. To do so, you first need to install the <a href="https://wordpress.org/plugins/freshdesk-support/" rel="noopener noreferrer" target="_blank">Freshdesk WordPress plugin</a>. You can install the plugin from the plugins directory if your site runs on self-hosted WordPress. If you use WordPress.com, you need to be on the <a href="https://wordpress.com/pricing/" rel="noreferrer" target="_blank">Business plan or above</a> to install this plugin. </p><p style="text-align: justify;"><br /></p><p dir="ltr" style="text-align: justify;">Click here to read a step-by-step guide on <a href="https://support.freshdesk.com/en/support/solutions/articles/50000001053" rel="noreferrer" target="_blank">authenticating WordPress users into your Freshdesk account</a> in more detail.</p>
+
+</details>
+

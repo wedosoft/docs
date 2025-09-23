@@ -2,703 +2,696 @@
 sidebar_position: 1
 ---
 
-# 티켓 워크플로우 FAQ
+# 티켓 워크플로우
 
-티켓 워크플로우에서 자주 발생하는 질문들과 해결 방법을 정리했습니다. 각 질문을 클릭하여 상세한 답변을 확인하실 수 있습니다.
+이 섹션에서는 티켓 워크플로우와 관련된 자주 묻는 질문들을 다룹니다.
 
-:::info 안내
-이 FAQ는 실제 사용자들이 자주 묻는 질문들을 바탕으로 작성되었습니다. 추가 문의사항이 있으시면 고객지원팀에 문의해 주세요.
+:::info
+각 질문을 클릭하면 상세한 답변을 확인할 수 있습니다.
 :::
 
-<details>
-<summary><strong>생성 사용자 정의 ticket view?하는 방법은 무엇인가요?</strong></summary>
-
-You can 생성 view 에서 **티켓 tab,** where you have 로 필터 out fields that is 필수 그리고 에서 top 의 page you would see **저장 as** option. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/39634555/original/7K5hBnV1Osn-7GCFBROXuqDf2219byXgew.png?1531285257) Once that is clicked you can 저장 new view under different name.
 
-</details>
+## 고급 기능 및 사용법
 
 <details>
-<summary><strong>specify time range 위해 내보내기?하는 방법은 무엇인가요?</strong></summary>
+<summary>어떻게 create a custom ticket view?</summary>
 
-After filtering 티켓 that you need 로 내보내기 에서 티켓 List view page, you would be able 로 클릭 에 내보내기 icon 에서 top 의 page. 에서 popup that appears you would be able 로 입력 date range 위해 which you want 로 내보내기 티켓. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/39634632/original/0f8MK4nlPiBQetPVECn5XyXwM6HEHPcM5w.png?1531285433)
+<p>You can create a view from the <strong>Tickets tab,</strong> where you have to filter out the fields that is required and at the top of the page you would see the <strong>Save as</strong> option. </p><p><br /></p><p><img class="fr-dib fr-draggable fr-bordered" src="#" /></p><p><br /></p>Once that is clicked you can save the new view under a different name.
 
 </details>
 
 <details>
-<summary><strong>Where is option 로 forward ticket ?</strong></summary>
+<summary>방법 close a ticket without sending an email 알림 to the customer?</summary>
 
-**Forward** option 위해 ticket will be inside **Ticket details page** as shown below: ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/39864946/original/r69YoGytSM3eMce1zbAkDEtffdKw9js-2Q.png?1532494295)
+<p ></p><p ><span style="font-size: 16px;">When you are working on tickets, we extend an option to <strong >close </strong>the ticket without an email notification sent out for this.</span></p><p ><span style="font-size: 16px;"><br /></span></p><p ><span style="font-size: 16px;">This can be achieved by clicking on the <strong >"closed"</strong> button inside a ticket (details page) or on the list view which is basically "shift+close" and a notification would not be sent in this case. </span></p><p ><span style="font-size: 16px;"><br /></span></p><p ><span style="font-size: 16px;">When you are completely affirmative that you do not want to send this out at all for any of the tickets, kindly navigate to </span></p><p ><strong ><span dir="ltr" style="font-size: 16px;">Admin &gt; Workflows &gt; Email Notifications &gt; Requester Notifications &gt; Turn OFF "Agent Closes the Ticket."</span></strong></p>
 
 </details>
 
 <details>
-<summary><strong>maximum size 의 file that can be attached 로 ticket ?이란은 무엇인가요?</strong></summary>
+<summary>Can the Admin and Agents view the same system activities in automations?</summary>
 
-You will only be able 로 attach maximum size 의 20MB 언제 receiving 이메일 그리고 위해 replies sent out 의 Freshdesk.
+<p>The view for both the Admin and Agents would be different. When Activities is toggled 'ON', Admins would be able to view the automation along with the name of the rule and a hyperlink redirecting to it. However, Agents and Supervisors<span> can</span> only view the name of the automation rule which was executed.</p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>size limit 위해 attachments 로 ticket reply?이란은 무엇인가요?</strong></summary>
+<summary>방법 exclude the full email thread in each customer reply to a ticket?</summary>
 
-Freshdesk lets you send 그리고 receive emails 와 함께 attachment size limit 의 **20 MB**/conversation 위해 accounts 에 Blossom 그리고 above 요금제. 위해 Sprout 그리고 trial accounts, attachment size limit is 15 MB. 에 의해 기본값, content 의 이메일 (excluding attachments) has 15 MB limit per conversation. However, 만약 you are looking 로 attach bigger files, you can use **Dropbox** as workaround. Once you integrate Freshdesk 와 함께 Dropbox, you can hotlink any file 에서 your Dropbox 계정 (와 함께 unlimited file size), 그리고 use it as attachment inside Freshdesk. This file can be directly opened 에서 Dropbox whenever someone clicks 에 it, 그리고 will not be stored anywhere 에 our end. Another alternative is **OneDrive** which could also help you 추가 files 와 함께 greater MB value. **참고:** We do not recommend that you use heavy HTML content inside your 티켓. Instead, you can attach them as separate files inside ticket just like any other attachment.
+<p>When you are replying to a customer from inside a ticket, you can remove the quoted text manually and the customer will not receive the whole thread. Also, you can make use of the <a href="https://apps.freshdesk.com/remove_quoted_text/" rel="noreferrer noopener" target="_blank">Marketplace app</a> to have the quoted text removed when the reply is added in Freshdesk. </p>
 
 </details>
 
 <details>
-<summary><strong>tags? 추가/merge tags?하는 방법이란은 무엇인가요?</strong></summary>
+<summary>I am not able to add more custom fields to the requester 위젯?</summary>
 
-As agent 언제 you are working 에 티켓 또는 accessing articles, characterizing them 에 의해 adding tag would help 로 track 그리고 segregate them 와 함께 respect 로 issues 또는 requests. Go 로 **관리자 > Agent Productivity > Tags > 추가 tag** 그리고 추가 필수 tags 위해 헬프데스크. Each tag has **character limit 의 32**. Once tag is created, you can associate it 와 함께 티켓, 연락하다, 그리고 Articles. You can merge two tags 에 의해 editing one 의 tags 그리고 giving it same name as other. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/45887725/original/UIQLz8DDhc97PUr-WGyIj4c3hejTjVJtxA.png?1560315549) Upon adding tag: ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/45887734/original/CIPpey0qHA45opF28OJxiBdEwDRrykpgVg.png?1560315603)
+<p>The upper limit to number of fields that could be added to the requester widget is 15. So, it would not be currently possible to add more than 15 fields to the Requester Widget.</p>
 
 </details>
 
 <details>
-<summary><strong>추가 tag 로 ticket?하는 방법은 무엇인가요?</strong></summary>
+<summary>가능한가요 to check the ticket history of a particular customer?</summary>
 
-'**Tag**' 필드 will be 사용 가능한 under '**Ticket Properties**' panel 에 right hand side 의 ticket details page. You can either manually 입력 out 그리고 생성 new tags 또는 추가 existing ones 로 티켓. 만약 you are using Freshdesk 에 Mint, '**추가 tag**' option will be 사용 가능한 above main message/description 의 ticket, 에서 ticket details page: ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/39866627/original/lpPe5SvkQJ19Ib2NYdAssdp_7hmnb2TWhQ.png?1532500753) ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50009244120/original/HADEO8kuQpmRLFbJv9yzfGovgid9AO83Cw.png?1692717064)
+In Freshdesk, you could view the most recent tickets raised by a requester, from within any of the the requester's tickets. To view this list, please click on the<span></span><strong>Recent Tickets</strong><span></span>option present within the requester widget. This would bring up all the past tickets from a particular customer.<p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>추가 tags automatically?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>할 수 있나요 customise the fields under the Tickets tab?</summary>
 
-You can 추가 tags manually 그리고/또는 automatically. 추가 them manually inside ticket 또는 go 로 **관리자 > Agent Productivity > Tags** 로 추가/see list 의 tags 그리고 corresponding ticket count. [추가 tags automatically using automations rules](https://지원.freshdesk.com/en/지원/solutions/articles/207276). 참고 that 에서 Supervisor rule, tag will be added only after hour 만약 there is no other time-related condition.
+<p ><span style="font-size: 16px;">When you are familiar with the tickets tab, sometimes there will be requirements to alter the arrangement of fields on "The Tickets list view" page. Unfortunately, it is not customizable as the design of the page is set by default and is common for all accounts.</span></p><p ><br /></p><p ><span dir="ltr" style="font-size: 16px;">Please note that the custom ticket fields within <strong>Admin &gt; Workflows &gt; Ticket Fields</strong> could be altered in terms of the values and label. These changes would reflect within the filters on the left of the tickets list. </span></p>
 
 </details>
 
 <details>
-<summary><strong>attach 다수의 files while replying 로 ticket?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>Is there a possibility for a customer to check the 상태 of their ticket without logging in?</summary>
 
-You can attach 다수의 files 에서 your system while replying 로 ticket. However, 위해 trial accounts 그리고 accounts that are 에 Sprout 요금제, total file size 의 all attachments together should not exceed 15 MB. 위해 accounts that are 에 Blossom 그리고 above 요금제, attachment size limit is 20 MB.
+<div dir="ltr"><p style="line-height: 1.38;"><span style="font-size: 14.6667px; font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap;">As a customer, it is understandable that they sometimes want to do a quick peruse through the ticket and not log in to the portal. In this scenario, the best recommendation would be to use a <strong>"public ticket URL"</strong> which leads to the ticket and does not require the customer to sign in.</span></p><p style="line-height: 1.38;"><span style="font-size: 14.6667px; font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap;"><br /></span></p><p style="line-height: 1.38;"><span style="font-size: 14.6667px; font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap;">This has a placeholder which when included in the description of the ticket will ensure that the customer can view the ticket status without logging into the portal upon clicking this URL. </span></p><p style="line-height: 1.38;"><span style="font-size: 14.6667px; font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap;"><br /></span></p><p style="line-height: 1.38;"><span style="font-size: 14.6667px; font-family: Arial; color: rgb(0, 0, 0); white-space: pre-wrap;">To have the Public Ticket URL available in all replies, please navigate to <strong dir="ltr">Admin &gt; Workflows &gt; Email Notifications &gt; Templates &gt; </strong></span><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 14.6667px; white-space: pre-wrap;"><strong>Agent Reply Template</strong> -&gt;<strong> insert placeholder </strong>and include the Public Ticket URL placeholder (please find this under the tickets section within the "insert placeholder" window).</span></p><p><br /></p></div>
 
 </details>
 
 <details>
-<summary><strong>Would it be possible 로 추가 attachments that are more than 20 MB 에서 size?</strong></summary>
+<summary>How can the customer change the 우선순위 and type of a ticket?</summary>
 
-attachment size limit 에서 Freshdesk is 20 MB per 이메일 위해 accounts 에 Blossom 그리고 above 요금제 그리고 15 MB 위해 Sprout 그리고 accounts that are 에 Trial. This can be extended 에 의해 making use 의 third party 연동 tools such as [](https://지원.freshdesk.com/지원/solutions/articles/210996--google-drive-app-part-1-developer-console-설정)[Dropbox](https://지원.freshdesk.com/지원/solutions/articles/55359--dropbox-app) 그리고 [OneDrive](https://지원.freshdesk.com/지원/solutions/articles/213938--onedrive-app).
+<div dir="ltr"><p><span style="font-size: 16px; font-family: Helvetica Neue;">When customers raise tickets, you would like to extend the ability for them to choose the priority and type of tickets so that you could plan the assignment and tracking of them. </span></p><p><br /></p><p><span style="font-size: 16px; font-family: Helvetica Neue;">Please navigate<span id="docs-internal-guid-9b6b1c48-6245-0d35-83ef-77e1a3f8db4c"><span dir="ltr" style="color: rgb(0, 0, 0); white-space: pre-wrap;"> to <strong dir="ltr">Admin &gt; Workflows &gt; Ticket fields</strong> &gt; double click on these fields and verify if the priority field is displayed to the customer. If not, kindly choose the option 'Display to the customer' under customers end in ticket properties and the customer will then be able to edit it.</span></span></span></p></div>
 
 </details>
 
 <details>
-<summary><strong>I want 로 insert footer into all my replies. do this?하는 방법은 무엇인가요?</strong></summary>
+<summary>How can customers view their previous conversations after a ticket is closed?</summary>
 
-You can insert **footers**into all ticket replies going out 의 your 헬프데스크, 에 의해 adding them 에서 Agent Reply Template. This template is automatically included 에서 all agent replies, whenever they respond 로 티켓. 로 do this - Please log 에서 로 your Freshdesk 계정 as 관리자 - Go 로 **관리자 > Workflows > 이메일 Notifications** - 클릭 에 **Templates** tab **>** **Agent Reply Template** 그리고 추가 footer message 로 content 의 template
+<div dir="ltr"><div dir="ltr"><p><span style="font-family: Arial; white-space: pre-wrap;"><span style="font-size: medium;">Customers can view the history of tickets if they have access to your customer portal. </span></span></p><p><br /></p><p><span style="font-family: Arial; white-space: pre-wrap;"><span style="font-size: medium;">They could log into your portal using the email address used to raise the tickets and view the status of all the tickets raised. You would be able to determine who could view the tickets by changing the permission to <strong>"Logged in Users"</strong> or to <strong>"Everyone"</strong> with a public ticket URL in <strong dir="ltr">Admin -&gt; Channels -&gt; Portals -&gt; Settings. </strong></span></span></p><p><br /></p><p><span style="font-family: Arial; white-space: pre-wrap;"><span style="font-size: medium;">Customers would also receive an email notification with the ticket details if you have enabled the Requester notifications under </span><strong><span dir="ltr" style="font-size: medium;">Admin -&gt; Workflows -&gt; Email Notifications.</span></strong></span></p></div></div>
 
 </details>
 
 <details>
-<summary><strong>close ticket without sending 이메일 notification 로 고객?하는 방법은 무엇인가요?</strong></summary>
+<summary>어떻게 split a customer response into a new ticket?</summary>
 
-언제 you are working 에 티켓, we extend option 로 **close** ticket without 이메일 notification sent out 위해 this. This can be achieved 에 의해 clicking 에 **"closed"** button inside ticket (details page) 또는 에 list view which is basically "shift+close" 그리고 notification would not be sent 에서 this case. 언제 you are completely affirmative that you do not want 로 send this out 에서 all 위해 any 의 티켓, kindly 이동 로 **관리자 > Workflows > 이메일 Notifications > Requester Notifications > Turn OFF "Agent Closes Ticket."**
+<p >If your customers respond with a new or unrelated query on an existing ticket, you can deal with it separately using the <strong >S</strong><strong >plit</strong><strong >&nbsp;Ticket&nbsp;</strong>option. You can split <strong >only a</strong><strong >customer response</strong> into a new ticket.</p><p ><br /></p><p ><img class="fr-dib fr-bordered" src="#" style="width: 639px; height: 216.141px;" /></p><p ><br /></p><p dir="ltr">This would facilitate better tracking metrics and help regulate your SLA compliance.&nbsp;</p>
 
 </details>
 
 <details>
-<summary><strong>forward ticket 로 이메일 address whenever new ticket is created ?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>할 수 있나요 send bulk emails to customers using Freshdesk?</summary>
 
-Yes, you could either set up new rule under **관리자 > Workflows > Automations > Ticket Creation** 로 추가 CC whenever new ticket is created, 또는 you could 추가 user's 이메일 address under **관리자 > Channels > 이메일 > 고급 설정 > Set 자동 Bcc 이메일.** This 이메일 address would be automatically included 에서 all 헬프데스크 communications.
+<p>No, there isn't an option to send out bulk emails to customers from inside Freshdesk. However, an integration with MailChimp can help you perform this action. </p><p><br /></p><p>Please refer to <a href="https://support.freshdesk.com/support/solutions/articles/41745-the-mailchimp-app" target="_blank" rel="noreferrer noopener">this article</a> on how you can integrate MailChimp with Freshdesk.</p>
 
 </details>
 
 <details>
-<summary><strong>추가 another agent 로 ticket?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>Is there a way to send a 알림 to all customer at once?</summary>
 
-You have workflow set up where 티켓 are assigned 로 particular agent depending upon job description, group this concerned agent belongs 로 그리고 expertise as well. Sometimes agent would need another agent 로 look into something 에서 thread 또는 receive notifications 로 go through discussion. 에서 this case, agent could be added as **"watcher"**who would receive all notifications about thread 에서 time 언제 agent is added as watcher. You could have 다수의 상담원 added 로 ticket as watchers. Only one added as watcher could 제거 oneself 에서 thread. occasional agent without day pass could still follow ticket 에서 이메일 thread 언제 added as watcher 에 티켓.
+<p style="">We do not have an option to bulk email all your customers at once. You can make use of <a href="https://apps.freshdesk.com/mailchimp/" rel="noreferrer noopener"><strong>Mailchimp</strong></a> to send out these emails. </p><p style=""><br /></p><p style="">However, if you are wanting to notify customers who have raised tickets then you can make use of the Bulk Actions present in the <strong>Ticket list view</strong> and send out the emails to 30 tickets at a time. </p>
 
 </details>
 
 <details>
-<summary><strong>How do you 확인하다 만약 agent is looking 에서 same ticket ?</strong></summary>
+<summary>어디서 할 수 있나요 find the customer fields in ticket page?</summary>
 
-언제 agent is looking into same ticket, you could be notified regarding this within ticket. This would help 에서 preventing 다수의 상담원 working 에 same ticket 그리고 로 improve internal communication, using Freshdesk. 에서 top-left, within ticket, you would find "Eye" icon. While hovering upon it, number 의 상담원 viewing ticket would be displayed. You could also 클릭 에 icon 로 view list 의 Agent Names 의 those 상담원 currently viewing ticket. This functionality is called as [Agent Collision detection](https://지원.freshdesk.com/en/지원/solutions/articles/218073) 그리고 is 사용 가능한 에서 Growth 요금제 onwards 에서 Freshdesk.
+<p >You will not be able to filter the tickets using the Customer fields. However, if you want to view the Contact details in the Ticket details page you can make use of the Requester widget available under <strong dir="ltr">Admin &gt; Support Operations &gt; Customer fields &gt; Customize Requester widget</strong>. This is a feature available from the Estate plan.</p>
 
 </details>
+
 
+## 관리 및 유지보수
+
 <details>
-<summary><strong>How do we 확인하다 만약 agent is answering/replying 로 your ticket ?</strong></summary>
+<summary>어떻게 specify time range for 내보내기?</summary>
 
-만약 there are 다수의 상담원 replying 로 ticket, you could be notified regarding that within ticket as well. There would be "Pen" icon 에 top-left side within ticket. 만약 symbol displays number, it would mean that those many 상담원 are currently replying 로 ticket 그리고 you could 클릭 에 icon 로 view 상담원' names.
+<p style="">After filtering the tickets that you need to export from the Tickets List view page, you would be able to click on the Export icon at the top of the page. In the popup that appears you would be able to enter the date range for which you want to export the tickets. </p><p><br /></p><p><img class="fr-dib fr-draggable fr-bordered" src="#" style="width: 279px; height: 263.742px;" /></p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>view updates made 로 ticket?하는 방법은 무엇인가요?</strong></summary>
+<summary>Where is the option to forward a ticket ?</summary>
 
-After clicking 에 ticket, please 클릭 에 Activities option 로 top-right 의 ticket details page. This would display list 의 activities performed 에 ticket 에서 chronological order, which would contain information 에 updates made 에 의해 each 의 these activities.
+<p>The <strong>Forward</strong> option for a ticket will be inside the <strong>Ticket details page</strong> as shown below:</p><p><br /></p><p><img class="fr-dib fr-draggable fr-bordered" src="#" style="width: 473px; height: 211.109px;" /></p>
 
 </details>
 
 <details>
-<summary><strong>Can 관리자 그리고 상담원 view same system activities 에서 automations?</strong></summary>
+<summary>무엇인가요 the maximum size of a file that can be attached to a ticket ?</summary>
 
-view 위해 both 관리자 그리고 상담원 would be different. 언제 Activities is toggled '에', Admins would be able 로 view automation along 와 함께 name 의 rule 그리고 hyperlink redirecting 로 it. However, 상담원 그리고 Supervisors can only view name 의 automation rule which was executed.
+<p style="">You will only be able to attach a maximum size of 20MB when receiving an email and for replies sent out of Freshdesk.</p>
 
 </details>
 
 <details>
-<summary><strong>exclude full 이메일 thread 에서 each 고객 reply 로 ticket?하는 방법은 무엇인가요?</strong></summary>
+<summary>무엇인가요 the size limit for attachments to a ticket reply?</summary>
 
-언제 you are replying 로 고객 에서 inside ticket, you can 제거 quoted text manually 그리고 고객 will not receive whole thread. Also, you can make use 의 [Marketplace app](https://apps.freshdesk.com/remove_quoted_text/) 로 have quoted text removed when reply is added 에서 Freshdesk.
+<p><span id="docs-internal-guid-bffa19b3-0253-fe35-2d9c-5f16432e0d51"></span></p><p dir="ltr"><span rel="tempredactor" style="font-size: 16px;"></span>Freshdesk lets you send and receive emails with an attachment size limit of <strong>20 MB</strong>/conversation for accounts on the Blossom and above plans. For Sprout and trial accounts, the attachment size limit is 15 MB. </p><p><br /></p><p>By default, the content of the email (excluding attachments) has a 15 MB limit per conversation.</p><p><br /></p><p>However, if you are looking to attach bigger files, you can use <strong>Dropbox</strong> as a workaround. Once you integrate Freshdesk with Dropbox, you can hotlink any file from your Dropbox account (with unlimited file size), and use it as an attachment inside Freshdesk. This file can be directly opened from Dropbox whenever someone clicks on it, and will not be stored anywhere on our end. Another alternative is <strong>OneDrive</strong> which could also help you add files with a greater MB value.</p><p><br /></p><p><strong>Note:</strong> We do not recommend that you use heavy HTML content inside your tickets. Instead, you can attach them as separate files inside the ticket just like any other attachment. </p>
 
 </details>
 
 <details>
-<summary><strong>While merging 티켓, change content 의 auto response?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>What are tags? 어떻게 할 수 있나요 add/merge tags?</summary>
 
-Although text that is added as private 참고 언제 two 또는 more 티켓 are merged cannot be modified automatically, it still can be modified 에 의해 agent manually, 에 의해 using "편집 참고" option, while merging 티켓. Agent will also be provided 와 함께 option 로 추가 it as **public 참고** that would be visible 로 requester.
+<p >As an agent when you are working on tickets or accessing articles, characterizing them by adding a tag would help to track and segregate them with respect to issues or requests. </p><p ><br /></p><p >Go to <strong dir="ltr">Admin &gt; Agent Productivity &gt; Tags &gt; Add tag</strong> and add the required tags for the helpdesk. Each tag has a <strong >character limit of 32</strong>. </p><p ><br /></p><p >Once a tag is created, you can associate it with Tickets, Contact, and Articles. You can merge two tags by editing one of the tags and giving it the same name as the other.</p><p ><br /></p><p ><img src="#" style="width: 309px;" class="fr-fic fr-dib fr-bordered" /></p><p ><br /></p><p >Upon adding a tag:</p><p ><br /></p><p ><img src="#" style="width: 309px;" class="fr-fic fr-dib fr-bordered" /></p>
 
 </details>
 
 <details>
-<summary><strong>Is there limit 에서 number 의 티켓 you can have?</strong></summary>
+<summary>어떻게 add a 태그 to a ticket?</summary>
 
-There is no limit 에 number 의 티켓 that can be present inside your Freshdesk 계정, under any 요금제.
+<div dir="ltr"><p>The '<strong>Tag</strong>' field will be available under the '<strong>Ticket Properties</strong>' panel on the right hand side of the ticket details page. You can either manually type out and create new tags or add existing ones to tickets.</p><p><br /></p><p>If you are using <u>Freshdesk on Mint</u>, the '<strong>Add tag</strong>' option will be available above the main message/description of the ticket, in the ticket details page:</p><p><br /></p><p><img class="fr-dib fr-bordered" src="#" style="width: 433px; height: 323.723px;" /><br /></p><p><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></p></div>
 
 </details>
 
 <details>
-<summary><strong>Requester 위젯?이란은 무엇인가요?</strong></summary>
+<summary>할 수 있나요 add tags automatically?</summary>
 
-Requester 위젯 is part 의 ticket details page. This section would contain Requester Information such as Requester Name, 이메일 Address, Company Name 그리고 any 사용자 정의 필드 which could be associated 와 함께 this section. Requester 위젯 gives more context about requester 로 any agent working 에 ticket. This functionality is 사용 가능한 only 에서 Blossom 요금제 onwards 에서 Freshdesk.
+<div dir="ltr"><p dir="ltr">You can add tags manually and/or automatically. Add them manually inside a ticket or go to <strong dir="ltr">Admin &gt; Agent Productivity &gt; Tags</strong> to add/see the list of tags and the corresponding ticket count.</p><p ><br /></p><p ><span dir="ltr" rel="tempredactor"><a href="https://support.freshdesk.com/en/support/solutions/articles/207276" rel="noreferrer" target="_blank">Add tags automatically using automations rules</a>. Note that in a Supervisor rule, the tag will be added only after an hour if there is no other time-related condition.&nbsp;</span></p></div>
 
 </details>
 
 <details>
-<summary><strong>추가/제거 fields 로 be displayed 에 requester 위젯?하는 방법은 무엇인가요?</strong></summary>
+<summary>할 수 있나요 attach multiple files while replying to a ticket?</summary>
 
-You can 추가 또는 제거 fields being displayed as part 의 requester 위젯, 에서 under **관리자 > 지원 Operations > 고객 Fields >****사용자 정의하다 Requester 위젯** option. You can also 추가 company fields 로 be displayed within Requester 위젯. 위해 more details, please refer 로 this article 에 setting up [Requester 위젯](https://지원.freshdesk.com/지원/solutions/articles/37586-driving-additional-context-와 함께-requester-info).
+<p>You can attach multiple files from your system while replying to a ticket. However, for trial accounts and accounts that are on the Sprout plan, the total file size of all the attachments together should not exceed 15 MB. For accounts that are on the Blossom and above plans, the attachment size limit is 20 MB.</p>
 
 </details>
 
 <details>
-<summary><strong>편집 requester details directly 에서 requester 위젯?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>Would it be possible to add attachments that are more than 20 MB in size?</summary>
 
-Except **이메일**, all requester details can directly be edited 에서 위젯. 로 편집 연락하다 필드 values 에서 within Requester 위젯, 클릭 에 "편집" option within Requester Info section. This would open pop-up 와 함께 fields 에 Requester 위젯, 에서 where you could 편집 values 의 those 연락하다/Company Fields.
+<p><span style="font-size: 16px;">The attachment size limit in Freshdesk is 20 MB per email for accounts on the Blossom and above plans and 15 MB for Sprout and accounts that are on Trial. </span></p><p><br /></p><p><span style="font-size: 16px;">This can be extended by making use of third party integration tools such as </span><a href="https://support.freshdesk.com/support/solutions/articles/210996-the-google-drive-app-part-1-developer-console-settings"></a><a href="https://support.freshdesk.com/support/solutions/articles/55359-the-dropbox-app"><span style="font-size: 16px;">Dropbox</span></a><span style="font-size: 16px;"> and </span><a href="https://support.freshdesk.com/support/solutions/articles/213938-the-onedrive-app"><span style="font-size: 16px;">OneDrive</span></a><span style="font-size: 16px;">.</span></p>
 
 </details>
 
 <details>
-<summary><strong>Can public 참고 be changed 로 private?</strong></summary>
+<summary>I want to insert a footer into all my replies. 어떻게 do this?</summary>
 
-No, there is no option 로 change public 참고 that is already added into private 참고. However, you would be able 로 삭제 public 참고 그리고 추가 private 참고 에서 inside ticket.
+<p><span rel="tempredactor">You can insert <strong>footers </strong>into all the ticket replies going out of your helpdesk, by adding them in the Agent Reply Template. This template is automatically included in all agent replies, whenever they respond to tickets. </span>To do this</p><ul><li><span style="line-height: 16px;">Please log in to your Freshdesk account as an Administrator</span></li><li>Go to <strong dir="ltr">Admin &gt; Workflows &gt; Email Notifications</strong></li><li><span style="line-height: 16px;">Click on the<strong> Templates</strong> tab <strong>&gt;</strong><strong>Agent Reply Template</strong> and add the footer message to the content of the template</span></li></ul>
 
 </details>
 
 <details>
-<summary><strong>change requester’s 이메일 address 에서 ticket?하는 방법은 무엇인가요?</strong></summary>
+<summary>가능한가요 to forward the ticket to an email address whenever a new ticket is created ?</summary>
 
-Inside Ticket details page, 클릭 에 **More button -> 선택****편집**로 find option 로 편집 requester's 이메일 address. **편집**option would not be 사용 가능한 위해 티켓 와 함께 Source as **Outbound 이메일.**로 편집 requester 의 Outbound 이메일 ticket, you would have 로 change Source 의 ticket first under ticket properties. 만약 you are using **Freshdesk 에 Mint**, you will find 'More' option against subject 의 ticket. Clicking here will give you option 로 '편집' details 의 ticket. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/45723483/original/8Es7--hzOkdywxmiiQUXQcHlNdAvOk_qKQ.png?1559542511)
+<div style="box-sizing: border-box; color: rgb(24, 50, 71); font-family: -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 14px; font-weight: 400; text-align: start; text-indent: 0px;">Yes, you could either set up a new rule under <strong>Admin &gt; Workflows &gt; Automations &gt; Ticket Creation</strong> to add a CC whenever a new ticket is created, or you could add the user's email address under <strong>Admin &gt; Channels &gt; Email &gt; Advanced Settings &gt; Set automatic Bcc email.</strong></div><div style="box-sizing: border-box; color: rgb(24, 50, 71); font-family: -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 14px; font-weight: 400; text-align: start; text-indent: 0px;"><br style="box-sizing: border-box;"></div><div dir="ltr" style="box-sizing: border-box; color: rgb(24, 50, 71); font-family: -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 14px; font-weight: 400; text-align: start; text-indent: 0px;">This email address would be automatically included in all helpdesk communications.</div><p ><br /></p>
 
 </details>
 
 <details>
-<summary><strong>I am not able 로 추가 more 사용자 정의 fields 로 requester 위젯?</strong></summary>
+<summary>가능한가요 to add another agent to a ticket?</summary>
 
-upper limit 로 number 의 fields that could be added 로 requester 위젯 is 15. So, it would not be currently possible 로 추가 more than 15 fields 로 Requester 위젯.
+<p><span style="font-size: 14px;">You have a workflow set up where tickets are assigned to a particular agent depending upon the job description, the group this concerned agent belongs to and the expertise as well. Sometimes an agent would need another agent to look into something in the thread or receive notifications to go through the discussion. </span></p><p><span style="font-size: 14px;"><br /></span></p><p><span style="font-size: 14px;">In this case, an agent could be added as a <strong>"watcher" </strong>who would receive all the notifications about the thread from the time when the agent is added as a watcher. You could have multiple agents added to a ticket as watchers.</span></p><p><span style="font-size: 14px;"><br /></span></p><p><span style="font-size: 14px;">Only the one added as a watcher could remove oneself from the thread. An occasional agent without a day pass could still follow the ticket in the email thread when added as a watcher on tickets. </span></p>
 
 </details>
 
 <details>
-<summary><strong>확인하다 ticket history 의 particular 고객?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>How do you check if an agent is looking at the same ticket ?</summary>
 
-에서 Freshdesk, you could view most recent 티켓 raised 에 의해 requester, 에서 within any 의 requester's 티켓. 로 view this list, please 클릭 에 **Recent 티켓** option present within requester 위젯. This would bring up all past 티켓 에서 particular 고객.
+<p>When an agent is looking into the same ticket, you could be notified regarding this within the ticket. This would help in preventing multiple agents working on the same ticket and to improve internal communication, using Freshdesk.&nbsp;</p><p><br /></p><p>At the top-left, within a ticket, you would find an "Eye" icon. While hovering upon it, the number of agents viewing the ticket would be displayed. You could also click on the icon to view a list of Agent Names of those agents currently viewing the ticket.</p><p><br /></p><p dir="ltr">This functionality is called as <a href="https://support.freshdesk.com/en/support/solutions/articles/218073">Agent Collision detection</a> and is available from the Growth Plan onwards in Freshdesk.</p>
 
 </details>
 
 <details>
-<summary><strong>see 이메일 after its deleted 에서 trash?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>How do we check if an agent is answering/replying to your ticket ?</summary>
 
-ticket will remain 에서 trash folder inside Freshdesk 위해 30 days 그리고 post which it will be permanently deleted automatically 에서 database. Once ticket is deleted 에서 trash folder manually 또는 automatically there is no option 로 restore ticket.
+<p>If there are multiple agents replying to a ticket, you could be notified regarding that within the ticket as well. There would be a "Pen" icon on the top-left side within a ticket. If the symbol displays a number, it would mean that those many agents are currently replying to the ticket and you could click on the icon to view the agents' names.</p>
 
 </details>
 
 <details>
-<summary><strong>생성 view 로 see only 티켓 I am working 에?하는 방법은 무엇인가요?</strong></summary>
+<summary>어떻게 view the updates made to a ticket?</summary>
 
-Once you start working 와 함께 product 그리고 develop workflow where you are assigned 티켓 에 regular basis, you require organized queue 의 ones that need your attention. This is called "view" - 언제 you get 티켓 assigned 로 you, 필터 can be applied 에 의해 choosing "me" 에서 agent 필드 그리고 other properties could be changed 로 see your prioritized list. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008971548/original/7upAZZmXo-bpQ_MHYq5Oa9_mYR7m8mgsSQ.png?1690199186) Say, 위해 instance, you are agent who works 에 social 티켓 에 high priority - please 선택 filters accordingly 에서 filters pane. You can also 저장 view 만약 needed as **"티켓 I'm working 에"**.
+<p>After clicking on a ticket, please click on the Activities option to the top-right of the ticket details page. This would display the list of activities performed on the ticket in chronological order, which would contain information on updates made by each of these activities.</p>
 
 </details>
 
 <details>
-<summary><strong>notify my 팀 members about proceedings 의 티켓?하는 방법은 무엇인가요?</strong></summary>
+<summary>While merging tickets, 가능한가요 to change the content of the auto response?</summary>
 
-You can 추가 상담원 as watchers 로 ticket so that all members will receive 이메일 notifications about all activities happening 에 ticket. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/41891454/original/AcIgqPZ7mxVrUpOGxMNy_83nIUGcGugg0g.png?1542784473)
+<div dir="ltr"><div dir="ltr"><p><span style="color: rgb(0, 0, 0); font-family: Arial; line-height: normal; white-space: pre-wrap;"><span style="font-size: medium;">Although the text that is added as a private note when two or more tickets are merged cannot be modified automatically, it still can be modified by the agent manually, by using the "Edit Note" option, while merging the tickets. </span></span></p><p><br /></p><p><span style="color: rgb(0, 0, 0); font-family: Arial; line-height: normal; white-space: pre-wrap;"><span style="font-size: medium;">The Agent will also be provided with the option to add it as a <strong>public note</strong> that would be visible to the requester.</span></span></p></div></div>
 
 </details>
 
 <details>
-<summary><strong>view 티켓 에서 my 계정 - sort my queue?하는 방법는 어디서은 무엇인가요?</strong></summary>
+<summary>Is there a limit in the number of tickets you can have?</summary>
 
-We have '**티켓'** section represented 에 의해 ticket icon 그리고 this presents all 티켓 에서 your 헬프데스크. All these 티켓 에서 다양한 'sources' like phone, chat, social, feedback form 그리고 such (internally these channels are called sources) are all 사용 가능한 에 this list within 티켓 section 그리고 we generally address it as **티켓 list view**. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008947864/original/i1cgCDDau7obGMMWPC6W_UmmwWdHlnPeZg.png?1689858492) 로 achieve organized structure 위해 accessing 티켓, we have filters such as date created, last modified, due 에 의해 time 그리고 other ticket properties such as status 또는 priority. Please refer 로 this [**article**](https://지원.freshdesk.com/지원/solutions/articles/37559-working-와 함께--ticket-list-view) 에 how efficiently filters could be used. Further, they can be sorted as well 에서 ascending 또는 descending order. This can be seen 언제 you 클릭 에 header 의 티켓 queue (위해 example, it would say '**All 티켓'**). You can use 사용 가능한 sorting options that is depicted 에서 image below. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008947882/original/PQkZKlgmj8JwTmhrNc0C8MV2mzDpNMUoyQ.png?1689858565)
+<p style="">There is no limit on the number of tickets that can be present inside your Freshdesk Account, under any plan. </p>
 
 </details>
 
 <details>
-<summary><strong>sort my 티켓 such that oldest 티켓 are 에 top 의 티켓 queue?하는 방법은 무엇인가요?</strong></summary>
+<summary>무엇인가요 a Requester 위젯?</summary>
 
-You have good volume 의 티켓 로 handle 에 daily basis 그리고 according 로 you, 티켓 that have been sitting 에서 queue 위해 greater period 의 time would need your immediate attention. 에서 this case, please explore option 의 sorting 에서 티켓 list view where option that needs 로 be chosen is "date created" 그리고 에서 order 로 have oldest 티켓 에 top - please 선택 "ascending" along 와 함께 this 에서 dropdown. Please 참고 that this has many other options such as last modified, status, priority 그리고 due 에 의해 date. Within that, you could 선택 ascending 또는 descending. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008970943/original/vZzg_u5hRyoTmzpQKRmIfglef_jlcxttEw.png?1690196459)
+<p>Requester Widget is a part of the ticket details page. This section would contain Requester Information such as Requester Name, Email Address, Company Name and any custom field which could be associated with this section.</p><p><br /></p><p>The Requester Widget gives more context about the requester to any agent working on the ticket. This functionality is available only from the Blossom plan onwards in Freshdesk.</p>
 
 </details>
 
 <details>
-<summary><strong>How does ticket get marked as spam?</strong></summary>
+<summary>어떻게 add/remove the fields to be displayed on the requester 위젯?</summary>
 
-There are three ways 에서 which ticket can end up 에서 Spam folder - 1. Manually marked as Spam 에 의해 Agent. 2. Ticket marked as Spam 에 의해 Automation rule such as **Ticket creation** 또는 **Ticket 업데이트**rule. 3. Any ticket raised 에서 **deleted user 에서 Freshdesk**would go 로 Spam automatically.
+<p >You can add or remove the fields being displayed as part of the requester widget, from under <strong dir="ltr">Admin &gt; Support Operations &gt; Customer Fields &gt;</strong><strong >Customize Requester Widget</strong> option. You can also add company fields to be displayed within the Requester Widget.</p><p ><br /></p><p >For more details, please refer to this article on setting up the <a href="https://support.freshdesk.com/support/solutions/articles/37586-driving-additional-context-with-requester-info" rel="noreferrer noopener" target="_blank">Requester Widget</a>.</p><p ><br /></p>
 
 </details>
 
 <details>
-<summary><strong>Every ticket 위해 particular user goes 로 Spam. Is there place where we can “clear” user's 이메일?</strong></summary>
+<summary>할 수 있나요 edit the requester details directly from the requester 위젯?</summary>
 
-There are three ways 에 의해 which ticket leads 로 Spam folder - - Manually marked as Spam 에 의해 Agent. - ticket marked as Spam 에 의해 Automation rule such as Ticket Creation 또는 Ticket Updates. - Any ticket raised 에 의해 "deleted 연락하다" 에서 Freshdesk would go 로 Spam automatically. 로 have this resolved, kindly 확인하다 that there are no automation rules that would mark 티켓 as Spam automatically 그리고 also make sure that 연락하다 is restored 에서 Deleted list under Customers tab. 만약 you believe that ticket was not marked as spam 에서 고객 end, you can 이동 로 your spam folder, unspam it, 그리고 확인하다 how ticket was marked as spam 에서 "Show activities" option 에서 top right corner. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008957818/original/ZdjkesiFiU-Hc26qEv95oez9wCxbQrQBQg.png?1689936042)
+<p>Except the<span></span><strong>Email</strong>, all the requester details can directly be edited from the widget. To edit the contact field values from within the Requester Widget, click on the "Edit" option within the Requester Info section. This would open a pop-up with the fields on the Requester Widget, from where you could edit the values of those Contact/Company Fields.</p>
 
 </details>
 
 <details>
-<summary><strong>Will 상담원 be able 로 respond 로 티켓 에 their smartphones using Freshdesk?</strong></summary>
+<summary>Can a public note be changed to private?</summary>
 
-Yes, we do have Agent 특정한 Freshdesk Mobile app 위해 IOS 그리고 Android. You can 다운로드 App 에서 App store/ Play store respectively.
+<p>No, there is no option to change a public note that is already added into a private note. However, you would be able to delete the public note and add a private note from inside the ticket.</p>
 
 </details>
 
 <details>
-<summary><strong>view deleted 티켓?하는 방법은 무엇인가요?</strong></summary>
+<summary>방법 change the requester’s email address in a ticket?</summary>
 
-로 access deleted 티켓 에 헬프데스크, 이동 로 **티켓** section 그리고 클릭 에 hamburger icon 그리고 에서 there, 선택 **Trash** (under "List View Names" dropdown). You can also find conversations 에서 deleted user 에서 **Spam** folder. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/42281994/original/mIF1kqJdy0OZ1mgXrFfHPn5o7XgchlEQSA.png?1544602357) ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/42281997/original/Z-CujD_qFVlRst1x7A3fT86Ni6eDEPeIgA.png?1544602379) You can **Restore, Not spam** 또는 **삭제 Forever** those listed 티켓, under these ticket views. Also, 티켓 에서 **trash** folder 위해 more than 30 days will be permanently removed 에서 포털.
+<p><span style="font-size: 16px;">Inside the Ticket details page, click on the <strong>More button -&gt; choose</strong><strong> Edit </strong>to find the option to edit the requester's email address. </span></p><p><br /></p><p><span style="font-size: 16px;">The <strong>Edit </strong>option would not be available for the tickets with Source as <strong>Outbound email. </strong>To edit the requester of an Outbound email ticket, you would have to change the Source of the ticket first under ticket properties. </span></p><p><br /></p><p><span style="font-size: 16px;">If you are using <strong>Freshdesk on Mint</strong>, you will find the 'More' option against the subject of the ticket. Clicking here will give you an option to 'Edit' the details of the ticket.</span></p><p><br /></p><p><span style="font-size: 16px;"><img src="#" class="fr-fic fr-dib fr-bordered" /></span><br /></p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>view Archived 티켓 에 my 계정?하는 방법은 무엇인가요?</strong></summary>
+<summary>할 수 있나요 see an email after its deleted from trash?</summary>
 
-Any closed ticket 와 함께 no updates 위해 past 120 days would be marked as **Archived**. These 티켓 would be part 의 archived 티켓 list 에 your 헬프데스크. Please go 로 티켓 tab 그리고 클릭 에 view list > 선택 **Archive** (under 'List View Names' dropdown) 로 see all archived 티켓 에서 포털. Alternatively, you can access archived 티켓 에 의해 performing search 에서 your 헬프데스크 또는 에 의해 directly hitting ticket ID 에서 URL. ****Under Global search, 만약 you want Archived 티켓 로 show up, you have 로 manually change search 설정 로 include archived 티켓 만약 필수. 에 의해 기본값, this option will be turned off. 만약 you are using Freshdesk 에 Mint, clicking 에 Archive view will take you 로 page where you can apply 필수 filters 그리고 그러면 내보내기 file 로 your agent mailbox.
+<p style="">A ticket will remain in the trash folder inside Freshdesk for 30 days and post which it will be permanently deleted automatically from the database. Once a ticket is deleted from the trash folder manually or automatically there is no option to restore the ticket.</p>
 
 </details>
 
 <details>
-<summary><strong>필터 티켓 에 의해 creation date?하는 방법은 무엇인가요?</strong></summary>
+<summary>어떻게 할 수 있나요 create a view to see only the tickets I am working on?</summary>
 
-Ticket List Views 활성화 you 로 group 티켓 based 에 defined set 의 criteria. You can 필터 out 티켓 에 의해 source, 입력, status, assigned 상담원, tags, products, 그리고 even 사용자 정의 fields (dropdown 그리고 dependent fields only) you have created. This way, 상담원 can set their priorities 그리고 stay 고객-centric. Besides these, 상담원 can use Ticket List Views 위해 changing ticket owners, deleting 티켓 에서 bulk, 또는 내보내기 ticket list 로 CSV file. 만약 you wish 로 필터 티켓 based 에 their date 의 creation follow steps below, - 이동 로 티켓 tab 에서 menu. - 이동 로 Filters panel 에 right, 그리고 선택 선택 time period option 에서 Created dropdown. - Under Time period option, 선택 에서 그리고 로 dates 그리고 클릭 에 업데이트. - Now 클릭 에 Apply button 로 필터 티켓. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50006768417/original/0VH28kwpn6xAbep0RsHDd2hyLWLXkdc_Jg.png?1666956321) **참고 :** Filtering 티켓 based 에 사용자 정의 date 필드 is not possible.
+<p>Once you start working with the product and develop a workflow where you are assigned tickets on a regular basis, you require an organized queue of the ones that need your attention. This is called a "view" - when you get tickets assigned to you, a filter can be applied by choosing "me" in the agent field and other properties could be changed to see your prioritized list.&nbsp;</p><p><br /></p><p><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></p><p><br /></p><p dir="ltr">Say, for instance, you are an agent who works on social tickets on a high priority - please choose the filters accordingly from the filters pane. You can also save the view if needed as <strong dir="ltr">"Tickets I'm working on"</strong>.</p>
 
 </details>
 
 <details>
-<summary><strong>Is there option 로 추가 more than one 이메일 address 에서 '로' 언제 replying?</strong></summary>
+<summary>어떻게 notify my team members about the proceedings of the tickets?</summary>
 
-Since we map '로' address based 에 requester 의 ticket 그리고 because there can only be one requester 위해 ticket, you will not be able 로 추가 more than one 이메일 address 에서 '로' 필드. You can however 추가 이메일 addresses 에서 CC 필드.
+<p style="">You can add the agents as watchers to the ticket so that all the members will receive email notifications about all the activities happening on a ticket. </p><p style=""><br /></p><p style=""><img class="fr-dib fr-draggable" src="#" style="width: 551px; height: 178.658px;" /></p>
 
 </details>
 
 <details>
-<summary><strong>내보내기 my 티켓 에서 Freshdesk?하는 방법은 무엇인가요?</strong></summary>
+<summary>어디서 할 수 있나요 view the tickets in my account - 어떻게 할 수 있나요 정렬 my queue?</summary>
 
-상담원 can 내보내기 티켓, 연락처, 회사, 또는 granular 계정 데이터 easily, 그리고 quickly 다운로드 it anytime, 에서 centralized window.로 내보내기 티켓 에서 your 헬프데스크, please 이동 로 **티켓** tab 그리고 선택 pre-existing '**All 티켓**' view 에서 ticket list page. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/41727962/original/Hr1KWJMUdP3-Z9BD3VXuTzRCVDHHSvYkog.png?1542003634) You can 그러면 선택 그리고 apply all necessary filters such as created time, 상담원, groups, 입력, status etc 에 right 그리고 set up your 필터 로 display exact set 의 티켓 you want 로 내보내기 그러면 클릭 에 **내보내기** 에서 top right corner. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/41727969/original/o5tA-Po2Nmxnl5onsP0ebYb7o0dtowTS1w.png?1542003706) 언제 you 클릭 '**내보내기**', slider opens out. Here, you can 선택 format 의 file (**CSV 또는 Excel**) along 와 함께 desired ticket fields that should be included 에서 ticket 내보내기. Expand '**Show multiline text fields**' option 에 this slider 로 선택 로 내보내기 '**Description**' 또는 any other 사용자 정의 multiline text 필드. **참고**: time frame set 에 ticket list page has 로 be greater than time frame set 에서 내보내기 window. It is recommended 로 set Created time 필드 as '**Any time**' 에 list page 그리고 apply desired time 에서 내보내기 window. You'll notice that 내보내기 function now fetches 티켓 based 에 필터 you've applied, ensuring you get precisely 데이터 you're looking 위해. This 내보내기 will NOT give you entire conversation 에서 ticket 또는 historical 데이터 (archived 티켓) - 위해 that, you will have 로 perform [계정 내보내기](https://지원.freshdesk.com/지원/solutions/articles/225487-how-do-i-내보내기-my-헬프데스크-데이터-). ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/41727385/original/0eCkQaLvmeMHswPOi-iyaqgVslAuxJjRKg.png?1542000319) 로 view previously exported 데이터 에서 your 헬프데스크, please 이동 로 관리자 > Accounts exports. 에서 here, you can see 내보내기 history. You can also see progress 의 downloads 그리고 directly 다운로드 file 에서 this page. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50007809956/original/Ra68fvQhzU8PUTdBBlPc4HD8KIsAlfAJ9w.png?1678339723) window pops up 언제 you 클릭 에 Details button which provides details about 내보내기. agent can easily see information like selected time period, ticket fields, 연락하다 fields, company fields, 그리고 other information 에서 here. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50007809972/original/RDacW3Db1xj9hFNxKNAvGtc8QRONaVaKSA.png?1678339822) **참고:**만약 '**내보내기**' option is missing 위해 you, it is possible that your 관리자 has restricted it 에 의해 setting up 사용자 정의 role. This setting can be changed under **관리자 > Roles** 에 의해 관리자.
+<p>We have a '<strong>Tickets'</strong> section represented by a ticket icon and this presents all the tickets in your helpdesk. All these tickets from various 'sources' like phone, chat, social, feedback form and such (internally these channels are called sources) are all available on this list within the tickets section and we generally address it as the <strong>tickets list view</strong>.<br /><br /></p><p><img src="#" style="width: 60px; display: block; float: none; vertical-align: top; margin: 5px auto; text-align: center;" class="fr-fic fr-dib" /></p><p><br /></p><p><br /></p><p>To achieve an organized structure for accessing tickets, we have filters such as date created, last modified, due by time and other ticket properties such as status or priority. Please refer to this <a href="https://support.freshdesk.com/support/solutions/articles/37559-working-with-the-ticket-list-view" rel="noreferrer noopener"><strong>article</strong></a> on how efficiently the filters could be used.&nbsp;</p><p><br /></p><p>Further, they can be sorted as well in an ascending or descending order. This can be seen when you click on the header of the tickets queue (for example, it would say '<strong>All tickets'</strong>). You can use the available sorting options that is depicted in the image below.</p><p><br /></p><p><img src="#" style="width: 121px; display: block; float: none; vertical-align: top; margin: 5px auto; text-align: center;" class="fr-fic fr-dib" /></p><p><br /></p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>respond 로 다수의 티켓 와 함께 일반적인 reply?하는 방법은 무엇인가요?</strong></summary>
+<summary>방법 정렬 my tickets such that the oldest tickets are on the top of the tickets queue?</summary>
 
-Freshdesk offers following features 로 respond 로 다수의 티켓 와 함께 일반적인 reply. - Bulk 업데이트 option 에서 Ticket list views - Canned Responses 'Bulk 업데이트’ option 에서 Ticket list view page enables you 로 assign selected set 의 티켓 (maximum 의 30 티켓 per page) 로 Internal group 그리고 agent. Please follow steps below 로 make bulk updates 에 티켓 에서 Freshdesk, - 이동 로 티켓 tab 에서 menu. - 선택 티켓 you want 로 perform bulk actions 에 Ticket List View page. - 클릭 에 Bulk 업데이트 option 에서 top menu bar. - 제공하다 reply message 그리고 업데이트 respective ticket status, internal group, 그리고 agent. - 클릭 에 업데이트 로 execute this action. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008515849/original/7Azi2gqWCIemEjP5HkxRqP2SpOvncJMzSw.gif?1685703522) 와 함께 [Canned Responses](https://지원.freshdesk.com/en/지원/solutions/articles/37579-using-canned-responses-에서-ticket-replies), your 상담원 can 생성 predefined set 의 reply templates they can send out 와 함께 single 클릭. [Using dynamic content placeholders](https://지원.freshdesk.com/en/지원/solutions/articles/52630-understanding-dynamic-content-그리고), 상담원 can 확인하다 customization 의 each response 와 함께 requester's name, agent's signature, 그리고 ticket details. Here is detailed demonstration 의 참고 자료: using canned responses 에서 ticket replies 에 youtube 위해 your reference.
+<p>You have a good volume of tickets to handle on a daily basis and according to you, the tickets that have been sitting in the queue for a greater period of time would need your immediate attention. In this case, please explore the option of sorting in the tickets list view where the option that needs to be chosen is "date created" and in order to have the oldest tickets on top - please choose "ascending" along with this in the dropdown.&nbsp;</p><p><br /></p><p>Please note that this has many other options such as last modified, status, priority and due by date. Within that, you could choose ascending or descending.&nbsp;</p><p><br /></p><p><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></p>
 
 </details>
 
 <details>
-<summary><strong>customise fields under 티켓 tab?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>How does a ticket get marked as spam?</summary>
 
-언제 you are familiar 와 함께 티켓 tab, sometimes there will be requirements 로 alter arrangement 의 fields 에 " 티켓 list view" page. Unfortunately, it is not customizable as design 의 page is set 에 의해 기본값 그리고 is 일반적인 위해 all accounts. Please 참고 that 사용자 정의 ticket fields within **관리자 > Workflows > Ticket Fields** could be altered 에서 terms 의 values 그리고 label. These changes would reflect within filters 에 left 의 티켓 list.
+<p ><span style="font-size: 16px;">There are three ways in which a ticket can end up in the Spam folder -</span></p><p ><span style="font-size: 16px;"><br /></span></p><p ><span style="font-size: 16px;">1. Manually marked as Spam by an Agent.</span></p><p ><span style="font-size: 16px;">2. Ticket marked as Spam by an Automation rule such as the <strong >Ticket creation</strong> or the <strong >Ticket Update </strong>rule.</span></p><p ><span style="font-size: 16px;">3. Any ticket raised from a <strong >deleted user in Freshdesk </strong>would go to Spam automatically.</span></p><p ><br /></p>
 
 </details>
 
 <details>
-<summary><strong>Is there possibility 위해 고객 로 확인하다 status 의 their ticket without logging 에서?</strong></summary>
+<summary>Every ticket for a particular user goes to Spam. Is there a place where we can “clear” the user's email?</summary>
 
-As 고객, it is understandable that they sometimes want 로 do quick peruse through ticket 그리고 not log 에서 로 포털. 에서 this scenario, best recommendation would be 로 use **"public ticket URL"** which leads 로 ticket 그리고 does not require 고객 로 sign 에서. This has placeholder which 언제 included 에서 description 의 ticket will 확인하다 that 고객 can view ticket status without logging into 포털 upon clicking this URL. 로 have Public Ticket URL 사용 가능한 에서 all replies, please 이동 로 **관리자 > Workflows > 이메일 Notifications > Templates >****Agent Reply Template** ->**insert placeholder**그리고 include Public Ticket URL placeholder (please find this under 티켓 section within "insert placeholder" window).
+<div dir="ltr"><div dir="ltr"><div dir="ltr"><p ><br /></p><p >There are three ways by which a ticket leads to the Spam folder -</p><ul ><li >Manually marked as Spam by an Agent.&nbsp;</li><li dir="ltr">A ticket marked as Spam by an Automation rule such as the Ticket Creation or Ticket Updates.&nbsp;</li><li >Any ticket raised by a "deleted contact" in Freshdesk would go to Spam automatically.</li></ul><p dir="ltr">To have this resolved, kindly ensure that there are no automation rules that would mark tickets as Spam automatically and also make sure that the contact is restored from the Deleted list under the Customers tab.<br /><br />If you believe that a ticket was not marked as spam from the customer end, you can navigate to your spam folder, unspam it, and check how the ticket was marked as spam in the "Show activities" option in the top right corner.&nbsp;</p><p ><br /></p><p ><span dir="ltr" style="line-height: normal; white-space: pre-wrap;"><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></span></p></div></div></div>
 
 </details>
 
 <details>
-<summary><strong>How can 고객 change priority 그리고 입력 의 ticket?</strong></summary>
+<summary>Will agents be able to respond to tickets on their smartphones using Freshdesk?</summary>
 
-언제 customers raise 티켓, you would like 로 extend ability 위해 them 로 선택 priority 그리고 입력 의 티켓 so that you could 요금제 assignment 그리고 tracking 의 them. Please 이동 로 **관리자 > Workflows > Ticket fields** > double 클릭 에 these fields 그리고 확인하다 만약 priority 필드 is displayed 로 고객. 만약 not, kindly 선택 option 'Display 로 고객' under customers end 에서 ticket properties 그리고 고객 will 그러면 be able 로 편집 it.
+<p>Yes, we do have an Agent specific Freshdesk Mobile app for IOS and Android. You can download the App from the App store/ Play store respectively.</p>
 
 </details>
 
 <details>
-<summary><strong>How can customers view their previous conversations after ticket is closed?</strong></summary>
+<summary>어떻게 view deleted tickets?</summary>
 
-Customers can view history 의 티켓 만약 they have access 로 your 고객 포털. They could log into your 포털 using 이메일 address used 로 raise 티켓 그리고 view status 의 all 티켓 raised. You would be able 로 determine who could view 티켓 에 의해 changing permission 로 **"Logged 에서 Users"** 또는 로 **"Everyone"** 와 함께 public ticket URL 에서 **관리자 -> Channels -> Portals -> 설정.** Customers would also receive 이메일 notification 와 함께 ticket details 만약 you have enabled Requester notifications under **관리자 -> Workflows -> 이메일 Notifications.**
+<p style=""><span style="font-size: 14px;">To access the deleted tickets on the helpdesk, navigate to the <strong>Tickets</strong> section and click on the hamburger icon and in there, Choose <strong>Trash</strong> (under the "List View Names" dropdown). You can also find the conversations from a deleted user in the <strong>Spam</strong> folder. </span></p><p style=""><br /></p><p style=""><img class="fr-dib fr-draggable fr-bordered" src="#" style="width: 196px; height: 143.519px;" /></p><p style=""><br /></p><p style=""><br /></p><p style=""><span style="font-size: 14px;"></span></p><p style=""><img class="fr-dib fr-draggable fr-bordered" src="#" style="width: 198px; height: 407.227px;" /></p><p style=""><br /></p><p style=""><br /></p><p style=""><br /></p><p style=""><span style="font-size: 14px;">You can <strong>Restore, Not spam</strong> or <strong>Delete Forever</strong> those listed tickets, under these ticket views.</span></p><p style=""><span style="font-size: 14px;">Also, tickets in the <strong>trash</strong> folder for more than 30 days will be permanently removed from the portal.</span></p>
 
 </details>
 
 <details>
-<summary><strong>How many 티켓 link 로 tracker?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>어떻게 view the Archived Tickets on my account?</summary>
 
-You can associate upto 300 티켓 로 single tracker.
+<p>Any closed ticket with no updates for the past 120 days would be marked as <strong>Archived</strong>. These tickets would be part of the archived tickets list on your helpdesk.&nbsp;</p><p><span style="font-size: 14px;"><br /></span></p><p>Please go to the Tickets tab and click on the view list &gt; choose <strong>Archive</strong> (under the 'List View Names' dropdown) to see all the archived tickets in the portal.&nbsp;</p><p><br /></p><p dir="ltr">Alternatively, you can access the archived tickets by performing a search in your helpdesk or by directly hitting the ticket ID in the URL. <strong style="box-sizing: border-box; font-weight: 700;" dir="ltr"></strong>Under the Global search, if you want the Archived tickets to show up, you have to manually change the search settings to include the archived tickets if required. By default, this option will be turned off.</p><p><br /></p><p>If you are using Freshdesk on Mint, clicking on the Archive view will take you to a page where you can apply the required filters and then export the file to your agent mailbox.</p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>다운로드 attachments using Public Ticket URL without being logged 에서?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>방법 필터 tickets by creation date?</summary>
 
-Kindly 참고 that only logged 에서 users would be able 로 다운로드 attachments, even while using Public Ticket URL. This would be 기본값 behavior 의 system 로 확인하다 데이터 보안 그리고 confidentiality.
+<p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span dir="ltr" style="font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;">Ticket List Views enable you to group tickets based on a defined set of criteria. You can filter out tickets by source, type, status, assigned agents, tags, products, and even the custom fields&nbsp;</span><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">(dropdown and dependent fields only)</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;you have created. This way, agents can set their priorities and stay customer-centric. Besides these, agents can use the Ticket List Views for changing ticket owners, deleting tickets in bulk, or export the ticket list to a CSV file.<br style="font-family: &quot;Helvetica Neue&quot;;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">If you wish to filter tickets based on their date of creation follow the steps below,</span></span></p><ol style="margin-bottom: 0px; padding-inline-start: 48px; font-family: &quot;Helvetica Neue&quot;;"><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Navigate to&nbsp;</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Tickets</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;tab from the menu.</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Navigate to the&nbsp;</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Filters</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;panel on the right, and choose the&nbsp;</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Select time period</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;option from the&nbsp;</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Created</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;dropdown.</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Under the Time period option, select the from and to dates and click on&nbsp;</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Update</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">.</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Now click on&nbsp;</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Apply</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;button to filter tickets.</span></span></p></li></ol><p style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><p dir="ltr" style="line-height: 1.38; margin-left: 36pt; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;"><span style="border: none; display: inline-block; overflow: hidden; width: 624px; height: 313px; font-family: &quot;Helvetica Neue&quot;;"><img alt="How to filter tickets based on creation date in Freshdesk?" title="Filter tickets based on creation date in Freshdesk." src="#" width="624" height="313" class="fr-fic fr-dii fr-bordered fr-shadow" style="font-family: &quot;Helvetica Neue&quot;;" /></span></span></span></p><p style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><pre class="fd-callout fd-callout--note" dir="ltr" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-family: Helvetica Neue;"><strong style="font-family: &quot;Helvetica Neue&quot;;">Note :</strong> Filtering tickets based on a custom date field is not possible.</span></pre>
 
 </details>
 
 <details>
-<summary><strong>Can details apart 에서 연락하다 details 에서 Freshdesk be retrieved 위해 particular requester?</strong></summary>
+<summary>Is there an option to add more than one email address in 'TO' when replying?</summary>
 
-Third party tools such as Salesforce.com 또는 Zoho CRM can be integrated into Freshdesk, using which 연락하다 information 에서 those CRM tools could be brought into Freshdesk. This 연락하다 information would be made visible as part 의 Requester Info section as well.
+<p style="">Since we map the 'To' address based on the requester of the ticket and because there can only be one requester for a ticket, you will not be able to add more than one email address in the 'To' field. You can however add the email addresses in the CC field. </p>
 
 </details>
 
 <details>
-<summary><strong>receive sound notification 언제 new ticket comes 에서?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>어떻게 내보내기 my tickets from Freshdesk?</summary>
 
-There is feature called smart notifications 위해 상담원 within 포털 itself which would give real-time audible**notifications**about new 티켓 그리고 updates 에 ones you are working 에. You can open Notification Center 에 의해 clicking 에 bell icon 에서 navigation bar next 로 search. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008982964/original/Mcfm7grDSI0GYQIHt3vQRgj2_rwUjOlvww.png?1690278791) You could 선택 ones you want 로 get these alerts 위해 에 의해 clicking 에 desktop icon 에서 notification center. You could 활성화 **desktop notifications**에서 this window. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008983050/original/p9SJbYc1NxTX7MwYLtnQDKsCUI3N7WhZbA.png?1690279080) Muting is possible 에 의해 turning 에 "silent notifications" within Preferences tab. 위해 detailed information please refer 로 [this](http://%20Built-에서%20smart%20notifications%20for%20Agents) article.
+<p dir="ltr"><br /></p><p dir="ltr">Agents can export tickets, contacts, companies, or granular account data easily, and quickly download it anytime, from a centralized window.To export the tickets from your helpdesk, please navigate to the <strong >Tickets</strong> tab and choose the pre-existing '<strong >All tickets</strong>' view from the ticket list page.</p><p ><br /></p><p ><img class="fr-dib fr-bordered" src="#" style="width: 238px; height: 380.625px;" /></p><p ><br /></p><p ><span dir="ltr" style="color: rgb(0, 0, 0); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-weight: 400; text-align: start; text-indent: 0px;">You can then choose and apply all the necessary filters such as the created time, agents, groups, type, status etc on the right and set up your filter to display the exact set of tickets you want to export then click on&nbsp;</span><strong style="box-sizing: border-box; font-weight: 700; color: rgb(0, 0, 0); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; text-align: start; text-indent: 0px;">Export</strong><span style="color: rgb(0, 0, 0); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-weight: 400; text-align: start; text-indent: 0px;">&nbsp;from the top right corner.</span></p><p ><br /></p><p ><img class="fr-dib fr-bordered" src="#" style="width: 757px; height: 64.9411px;" /></p><p ><br /></p><p >When you click '<strong >Export</strong>', a slider opens out. Here, you can choose the format of the file (<strong >CSV or Excel</strong>) along with desired ticket fields that should be included in the ticket export. Expand the '<strong >Show multiline text fields</strong>' option on this slider to choose to export the '<strong >Description</strong>' or any other custom multiline text field.</p><p ><br /></p><p class="article_note" dir="ltr"><strong >Note</strong>: The time frame set on the ticket list page has to be greater than the time frame set in the Export window. It is recommended to set the Created time field as '<strong >Any time</strong>' on the list page and apply the desired time in the export window. You'll notice that the export function now fetches tickets based on the filter you've applied, ensuring you get precisely the data you're looking for.</p><p ><br /></p><p >This export will NOT give you the entire conversation from the ticket or historical data (archived tickets) - for that, you will have to perform an <a href="https://support.freshdesk.com/support/solutions/articles/225487-how-do-i-export-my-helpdesk-data-" rel="noopener noreferrer" target="_blank">account export</a>.</p><p ><br /></p><p ><img class="fr-dib fr-bordered" src="#" style="width: 509px; height: 584.045px;" /></p><p ><br /></p><p dir="ltr"><br /></p><p dir="ltr">To view previously exported data from your helpdesk, please navigate to Admin &gt; Accounts exports. From here, you can see the export history.&nbsp;</p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;">&nbsp;</p><p dir="ltr">You can also see the progress of downloads and directly download the file from this page.<br />&nbsp;</p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; color: rgb(51, 51, 51); font-weight: 400;"><span style="border:none;display:inline-block;overflow:hidden;width:624px;height:199px;"><img src="#" width="624" height="199" class="fr-fic fr-dii" /></span></span></p><p dir="ltr"><br />A window pops up when you click on the Details button which provides details about the export. The agent can easily see information like the selected time period, ticket fields, contact fields, company fields, and other information from here.&nbsp;</p><p ><br /></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; color: rgb(51, 51, 51); font-weight: 400;"><span style="border:none;display:inline-block;overflow:hidden;width:624px;height:315px;"><img src="#" width="624" height="315" class="fr-fic fr-dii" /></span></span></p><p class="article_note" ><br /></p><p class="article_note" dir="ltr"><strong dir="ltr">Note:&nbsp;</strong>If the '<strong >Export</strong>' option is missing for you, it is possible that your Admin has restricted it by setting up a custom role. This setting can be changed under <strong >Admin &gt; Roles</strong> by an Admin.<br /><br /></p>
 
 </details>
 
 <details>
-<summary><strong>schedule recurring ticket 에서 Freshdesk ?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>방법 respond to multiple tickets with a common reply?</summary>
 
-As 의 now, we do not have ability 로 schedule recurring 티켓. However, as workaround, you could make use 의 any third party event scheduler like [Google Calendar](https://지원.freshdesk.com/지원/solutions/articles/77059--google-calendar-app) 로 trigger 이메일 로 지원 이메일 address whenever event is due. 에서 that way, you wouldn't miss out 에 any notification as they would all come 에서 as new 티켓 에 your 포털.
+<p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span dir="ltr" style="font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;">Freshdesk offers the following features to respond to multiple tickets with a common reply.</span></p><ol style="margin-bottom: 0px; padding-inline-start: 48px; font-family: &quot;Helvetica Neue&quot;;"><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Bulk Update option from Ticket list views</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Canned Responses</span></span></p></li></ol><p style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">The 'Bulk Update’ option from the Ticket list view page enables you to assign a selected set of tickets (maximum of 30 tickets per page) to an Internal group and agent. Please follow the steps below to make bulk updates on tickets in Freshdesk,</span></span></p><ol style="margin-bottom: 0px; padding-inline-start: 48px; font-family: &quot;Helvetica Neue&quot;;"><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Navigate to&nbsp;</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Tickets</span><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;tab from the menu.</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Select the tickets you want to perform bulk actions on the&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Ticket List View page.</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Click on&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Bulk Update&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">option from the top menu bar.</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Provide a&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">reply message</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;and update the respective&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">ticket status</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">,&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">internal group</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">, and&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">agent</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">.</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 11pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span dir="ltr" style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Click on&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Update</span><span dir="ltr" style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;to execute this action.</span>&nbsp;</span><br /><br /></p><p><img src="#" style="width: 655px;" class="fr-fil fr-dib fr-bordered fr-shadow" /></p><p></p></li></ol><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><br /><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">With&nbsp;</span><a href="https://support.freshdesk.com/en/support/solutions/articles/37579-using-canned-responses-in-ticket-replies" style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-size: 12pt; color: rgb(17, 85, 204); font-weight: 400; text-decoration-skip-ink: none; font-family: &quot;Helvetica Neue&quot;;">Canned Responses</span></a><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">, your agents can create a predefined set of reply templates they can send out with a single click.</span></span></p><p style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><a href="https://support.freshdesk.com/en/support/solutions/articles/52630-understanding-dynamic-content-and" style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-size: 12pt; color: rgb(17, 85, 204); font-weight: 400; text-decoration-skip-ink: none; font-family: &quot;Helvetica Neue&quot;;">Using dynamic content placeholders</span></a><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">, agents can ensure customization of each response with the requester's name, agent's signature, and ticket details.&nbsp;</span></span></p><p style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(0, 0, 0); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Here is a detailed demonstration of&nbsp;</span><a href="https://www.youtube.com/watch?v=IlXPXJjsPwc" style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-size: 12pt; color: rgb(17, 85, 204); font-weight: 400; text-decoration-skip-ink: none; font-family: &quot;Helvetica Neue&quot;;">using canned responses in ticket replies</span></a></span><span dir="ltr" style="font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(0, 0, 0); font-weight: 400;">&nbsp;on youtube for your reference.</span></p>
 
 </details>
 
 <details>
-<summary><strong>제거 ticket number that appears 에서 subject?하는 방법은 무엇인가요?</strong></summary>
+<summary>How many tickets 할 수 있나요 link to a tracker?</summary>
 
-Ticket numbers appear 에서 subject 의 이메일 notifications because 의 inclusion 의 ticket ID. 에서 order 로 제거 this, please 이동 로**관리자 -> Workflows -> 이메일 notifications** ->로 modify "Subject" 의 이메일 notification 에 의해 removing placeholder 위해 "Ticket ID" - \{\{ticket.id\}\}.
+<p>You can associate upto 300 tickets to a single tracker.</p>
 
 </details>
 
 <details>
-<summary><strong>undo ticket merging?하는 방법은 무엇인가요?</strong></summary>
+<summary>할 수 있나요 download attachments using a Public Ticket URL without being logged in?</summary>
 
-Merging is irreversible process. Once two 티켓 are merged it cannot be split.
+<div dir="ltr"><div dir="ltr"><p><span style="font-family: Arial; line-height: 18.4px; white-space: pre-wrap;"><span style="font-size: medium;">Kindly note that only logged in users would be able to download attachments, even while using the Public Ticket URL. This would be the default behavior of the system to ensure data security and confidentiality.</span></span></p></div></div>
 
 </details>
 
 <details>
-<summary><strong>automatically stop Time Tracker?하는 방법은 무엇인가요?</strong></summary>
+<summary>Can details apart from the contact details in Freshdesk be retrieved for a particular requester?</summary>
 
-time tracker would automatically **stop** under following instances: - 언제 status 의 ticket is moved 로 Resolved/Closed. - 언제 agent starts replying 에 another ticket. - 언제 agent does 업데이트 로 another ticket.
+<p>Third party tools such as Salesforce.com or Zoho CRM can be integrated into Freshdesk, using which contact information from those CRM tools could be brought into Freshdesk. This contact information would be made visible as part of the Requester Info section as well.</p>
 
 </details>
 
 <details>
-<summary><strong>에 what time zone are ticket counting timers based?</strong></summary>
+<summary>할 수 있나요 receive a sound 알림 when a new ticket comes in?</summary>
 
-timers are based 에 헬프데스크 time zone that can be configured according 로 your location. Please 이동 로 **관리자 -> 계정 -> 헬프데스크 설정** 로 change timezone.
+<div dir="ltr"><div dir="ltr"><p><span dir="ltr" style="font-size: 14px;">There is a feature called smart notifications for agents within the portal itself which would give real-time audible<strong>&nbsp;notifications&nbsp;</strong>about new tickets and updates on the ones you are working on. You can open the Notification Center by clicking on the bell icon from the navigation bar next to search.&nbsp;</span></p><p><br /></p><p><span dir="ltr" style="font-size: 14px;"><img src="#" style="width: 298px;" class="fr-fic fr-fil fr-dib" /></span><br /></p><p><br /></p><p><span dir="ltr" style="font-size: 14px;">You could choose the ones you want to get these alerts for by clicking on the desktop icon in the notification center. You could enable <strong>desktop notifications&nbsp;</strong>in this window.</span></p><p><br /></p><p><img src="#" style="width: 621px;" class="fr-fic fr-fil fr-dib" /></p><p><br /><span style="font-size: 14px;">Muting is possible by turning on the "silent notifications" within the Preferences tab.&nbsp;</span><br /><br /><span dir="ltr" style="font-size: 14px;">For detailed information please refer to <a href="http://%20Built-in%20smart%20notifications%20for%20Agents">this</a> article.</span></p></div></div>
 
 </details>
 
 <details>
-<summary><strong>Ticket 필드 that I created is not present 에서 filters은 무엇인가요?</strong></summary>
+<summary>할 수 있나요 일정 a recurring ticket in Freshdesk ?</summary>
 
-Single line text fields, Multi line text fields, Number fields 그리고 확인하다 boxes will not be 사용 가능한 에서 filters 의 ticket list view page.
+<div dir="ltr"><div dir="ltr"><div dir="ltr"><p><span style="font-family: Arial; white-space: pre-wrap;"><span style="font-size: medium;">As of now, we do not have the ability to schedule recurring tickets. However, as a workaround, you could make use of any third party event scheduler like </span></span><a href="https://support.freshdesk.com/support/solutions/articles/77059-the-google-calendar-app" style="font-size: medium;" target="_blank">Google Calendar</a><span style="font-family: Arial; white-space: pre-wrap;"><span style="font-size: medium;"> to trigger an email to the support email address whenever an event is due.</span></span></p><p><span style="font-family: Arial; white-space: pre-wrap;"><span style="font-size: medium;"><br /></span></span></p><p><span style="font-family: Arial; white-space: pre-wrap;"><span style="font-size: medium;">In that way, you wouldn't miss out on any notification as they would all come in as new tickets on your portal.</span></span></p></div></div></div>
 
 </details>
 
 <details>
-<summary><strong>split 고객 response into new ticket?하는 방법은 무엇인가요?</strong></summary>
+<summary>방법 remove ticket number that appears in the subject?</summary>
 
-만약 your customers respond 와 함께 new 또는 unrelated query 에 existing ticket, you can deal 와 함께 it separately using **S****plit****Ticket**option. You can split **only** **고객 response** into new ticket. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/40878756/original/NYMQmKHUQQ7hJA2spVUrNuFTGefk8Ru1pQ?1537464067) This would facilitate better tracking metrics 그리고 help regulate your SLA compliance.
+<div dir="ltr"><div dir="ltr"><p ><span style="font-family: Arial; white-space: pre-wrap;"><span style="font-size: medium;">Ticket numbers appear in the subject of email notifications because of the inclusion of ticket ID. </span></span></p><p ><br /></p><p ><span style="font-family: Arial; white-space: pre-wrap;"><span style="font-size: medium;">In order to remove this, please navigate to<strong dir="ltr"> Admin -&gt; Workflows -&gt; Email notifications</strong> -&gt;to modify the "Subject" of the email notification by removing the placeholder for "Ticket ID" - {{ticket.id}}.</span></span></p></div></div>
 
 </details>
 
 <details>
-<summary><strong>include ticket thread 언제 forwarding conversation?하는 방법은 무엇인가요?</strong></summary>
+<summary>방법 undo ticket merging?</summary>
 
-You can make sure that entire ticket thread is visible 로 person you forward it 로 에 의해, - enabling 'Public ticket URL' option 그리고 - inserting '**Public ticket URL**' placeholder 에서 **Agent Forward Template**. Once done, 언제 agent clicks 에 'Forward' option, public ticket URL will be visible 로 person you forward it 로, 그리고 they can view complete ticket thread. As 관리자, you can 활성화 'Public ticket URL' option 에 의해 following steps below. - 이동 로 관리자 에서 menu. 클릭 에 Channels. 선택 Portals. - Under 설정 tab, 이동 로 'Who can view 티켓 에 포털' section. - 선택 option 'Anyone 와 함께 public ticket URL.' - 클릭 저장. ![Changing 포털 설정 로](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008501559/original/TAZh1lotmgAGzEleU3u5A4VBHUgRTwmGvA.gif?1685598092) Users can now view 티켓 without logging 에서 로 your 포털 using public ticket URLs. After enabling 'Public ticket URL' option, you should now 활성화 corresponding placeholder 에서 Agent Forward Template. As 관리자 의 your Freshdesk 계정, here is how you can do it. - 이동 로 관리자 에서 menu. 클릭 에 Workflows. 선택 이메일 Notifications. - Under Templates tab, 클릭 에 편집 button next 로 Agent Forward Template. - Place your cursor 에 reply editor where you wish 로 position Public ticket URL. - 클릭 에 ‘Insert Placeholder’ button. Under 티켓 tab, 클릭 에 ‘Public Ticket URL’ placeholder. - 클릭 저장. ![Enabling placeholder 에서 Agent Forward Template](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008501568/original/jBBTVdgN8Hc84xkP8uBDXK-ozHAhxHQssA.gif?1685598145)
+Merging is an irreversible process. Once two tickets are merged it cannot be split.
 
 </details>
 
 <details>
-<summary><strong>link article 로 reply 의 ticket?하는 방법은 무엇인가요?</strong></summary>
+<summary>방법 automatically stop the Time Tracker?</summary>
 
-Please 이동 로 "**티켓**" tab 그리고 open ticket you would like 로 work 에. Kindly 클릭 에 "Reply" button within "**Ticket Details**" page, which will allow you 로 입력 your response. Among 다양한 formatting options, you will find "**book**" symbol that leads 로 해결책 articles. You can either search 위해 관련된 article 또는 선택 에서 ones listed here. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50009243700/original/ZL9Q4cQHkvpo9kbuLWueh5XNiVieZfGW0Q.png?1692715227) 확인하다 article is visible 에서 고객 포털 언제 sharing article link. Articles can also be inserted as link 또는 complete content 에 의해 clicking "**Insert** **Content**" 또는 "**Insert link**" within article suggestion.
+<p><span style="font-size: 14px;">The time tracker would automatically <strong>stop</strong> under the following instances:</span></p><p><span style="font-size: 14px;"></span><span style="font-size: 14px;"></span></p><ul><li><span style="font-size: 14px;">When the status of the ticket is moved to Resolved/Closed.</span></li><li><span style="font-size: 14px;">When the agent starts replying on another ticket.</span></li><li><span style="font-size: 14px;">When the agent does an update to another ticket.</span></li></ul><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>change due 에 의해 date 의 ticket ?하는 방법은 무엇인가요?</strong></summary>
+<summary>On what time zone are the ticket counting timers based?</summary>
 
-에서 ticket details page, above subject 의 ticket, there is option 로 manually 편집 'Due Date' 의 ticket as shown below : ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50000625224/original/2_3uaQnxgU_0Rn2fQTKTLknrOFIOauz1BA.png?1579675067) You can also change SLA applied 로 this ticket under **관리자 > Workflows > SLA Policies.** Once changes are done, you can 업데이트 some properties 위해 that ticket so that new SLA will get applied 그리고 due 에 의해 date will be changed accordingly. **참고:** 1) option 로 change due date will only show up 언제 ticket is assigned 로 statuses that have **SLA timer 에** (example: Open). You can 확인하다 which statuses have their SLA timers 에 또는 OFF under **관리자 > Workflows > Ticket Fields > Status** 필드. Once 수동 change is done 로 Due Time 의 ticket, it will not change again 언제 ticket properties (위해 example, change 에서 priority) are updated. 2) due 에 의해 date 그리고 time can always be updated only 로 value greater than First response time, that is 'Response due' time 에 ticket.
+<p ><span dir="ltr" style="font-size: 16px;">The timers are based on the Helpdesk time zone that can be configured according to your location. Please navigate to <strong>Admin -&gt; Account -&gt; Helpdesk Settings</strong> to change the timezone. </span></p>
 
 </details>
 
 <details>
-<summary><strong>E-commerce channel?이란은 무엇인가요?</strong></summary>
+<summary>Ticket field that I created is not present in the filters</summary>
 
-언제 you are hosted 에 online e-commerce store 그리고 would like 고객 queries 에서 those stores 로 생성 티켓 within your Freshdesk 계정, you can make use 의 E-commerce channel. You will have option 로 [integrate 와 함께 your eBay 계정](https://지원.freshdesk.com/지원/solutions/folders/270315) 그리고 티켓 will get created inside Freshdesk via your eBay shops.
+<p style="">The Single line text fields, Multi line text fields, Number fields and check boxes will not be available in the filters of the ticket list view page. </p>
 
 </details>
 
 <details>
-<summary><strong>flags ? fliter using flags?하는 방법이란은 무엇인가요?</strong></summary>
+<summary>방법 include ticket thread when forwarding conversation?</summary>
 
-Flags are 기본값 labels 에서 Freshdesk. They appear 에서 ticket list view 그리고 inside ticket details page 언제 certain activities occur: **New**: This flag shows 에 ticket 언제 agent's response 로 고객 is pending. It remains until first response/resolution isn't overdue. **고객 Responded:**This flag displays 언제 고객 responds 로 ticket. **Overdue**: This occurs 언제 ticket surpasses its resolution time without being resolved. **Response due:** This flag appears 언제 agent's first response isn't sent within 특정한 time based 에 SLA. These flags are 기본값 그리고 hardcoded, unalterable 또는 removable. Ticket filtering using these flags isn't option as 의 now
+<p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><span dir="ltr" style="font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;">You can make sure that the entire ticket thread is visible to the person you forward it to by,</span></p><ol style="margin-bottom: 0px; padding-inline-start: 48px; font-family: &quot;Helvetica Neue&quot;;"><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">enabling the '</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Public ticket URL</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">' option and&nbsp;</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span dir="ltr" style="font-size: 12pt; color: rgb(14, 16, 26); font-family: &quot;Helvetica Neue&quot;;">inserting '<strong style="font-family: &quot;Helvetica Neue&quot;;">Public ticket URL</strong>' placeholder</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;in <strong style="font-family: &quot;Helvetica Neue&quot;;">Agent Forward Template</strong>.</span></span></p></li></ol><p style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Once done, when an agent clicks on the 'Forward' option, the public ticket URL will be visible to the person you forward it to, and they can view the complete ticket thread.</span></span></p><p style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">As an administrator, you can enable the '</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Public ticket URL</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">' option by following the steps below.</span></span></p><ol style="margin-bottom: 0px; padding-inline-start: 48px; font-family: &quot;Helvetica Neue&quot;;"><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Navigate to&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Admin</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;from the menu. Click on&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Channels</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">. Select&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Portals</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">.</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Under the Settings tab, navigate to the '</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Who can view tickets on portal'</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;section.</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Select the option '</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Anyone with public ticket URL</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">.'</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Click&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Save</span><span dir="ltr" style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">.</span></span></p><p><br /></p><img src="#" style="width: 645px;" class="fr-fil fr-dib fr-bordered fr-shadow" alt="Changing portal settings to 'Anyone with public URL'" /><p></p></li></ol><p style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Users can now view tickets without logging in to your portal using the public ticket URLs.</span></span></p><p style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(51, 51, 51); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">After enabling the</span><span dir="ltr" style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;'Public ticket URL' option, you should now enable the corresponding placeholder in the&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Agent Forward Template</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">. As an administrator of your Freshdesk account, here is how you can do it.</span></span></p><ol style="margin-bottom: 0px; padding-inline-start: 48px; font-family: &quot;Helvetica Neue&quot;;"><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Navigate to&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Admin</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;from the menu. Click on&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Workflows</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">. Select&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Email Notifications</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">.</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Under the&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Templates</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;tab, click on the&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Edit</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;button next to the&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Agent Forward Template</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">.</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Place your cursor on the reply editor where you wish to position the Public ticket URL.</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Click on the ‘</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Insert Placeholder</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">’ button. Under the&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Tickets</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;tab, click on the ‘</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Public Ticket URL’</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">&nbsp;placeholder.</span></span></p></li><li dir="ltr" style="list-style-type: decimal; font-size: 12pt; font-family: &quot;Helvetica Neue&quot;; color: rgb(14, 16, 26); font-weight: 400;"><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><span dir="ltr" style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;"><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">Click&nbsp;</span><span style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 700; font-family: &quot;Helvetica Neue&quot;;">Save</span><span dir="ltr" style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;">.</span></span></span><br /><span style="font-family: Helvetica Neue;"><span dir="ltr" style="font-size: 12pt; color: rgb(14, 16, 26); font-weight: 400; font-family: &quot;Helvetica Neue&quot;;"><img src="#" style="width: auto;" class="fr-fil fr-dib" alt="Enabling the placeholder in the Agent Forward Template" /></span></span><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p></li></ol><p style="font-family: &quot;Helvetica Neue&quot;;"><span style="font-family: Helvetica Neue;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; font-family: Arial, Helvetica, sans-serif;"><span style="font-family: Helvetica Neue;"><br /></span></p><p><span style="font-family: Arial,Helvetica,sans-serif;"><br /></span></p>
 
 </details>
 
 <details>
-<summary><strong>ticket?이란은 무엇인가요?</strong></summary>
+<summary>어떻게 할 수 있나요 link an article to the reply of a ticket?</summary>
 
-Each 고객 query - be it 이메일, 또는 phone call that comes into your 계정 is ticket. agent would 그러면 be able 로 클릭 에 ticket 로 respond 로 고객 about their query. 티켓 raised 에 your 계정 could be viewed under 티켓 tab, 에서 where you could access them.
+<p >Please navigate to the "<strong >Tickets</strong>" tab and open the ticket you would like to work on. Kindly click on the "Reply" button within the "<strong >Ticket Details</strong>" page, which will allow you to type your response. Among the various formatting options, you will find a "<strong >book</strong>" symbol that leads to the solution articles. You can either search for the relevant article or choose from the ones listed here.</p><p ><br /></p><p ><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /><br /></p><p dir="ltr">Ensure the article is visible in the customer portal when sharing an article link. &nbsp;Articles can also be inserted as a link or the complete content by clicking the "<strong>Insert</strong><strong >Content</strong>" or "<strong>Insert link</strong>" within the article suggestion.</p><p ><br /></p>
 
 </details>
 
 <details>
-<summary><strong>왜 is Outbound 이메일 set 로 Close Status automatically?</strong></summary>
+<summary>방법 change due by date of a ticket ?</summary>
 
-Outbound 이메일 에서 Freshdesk is 로 be used 위해 pro-active external communication directed 에서 고객. Only 언제 고객 replies, ticket created 에서 this Outbound 이메일 would be considered as active ticket 그리고 set 로 Open Status. 에서 meanwhile, ticket created 에서 this Outbound 이메일 would be marked Closed.
+<p >In the ticket details page, above the subject of the ticket, there is an option to manually edit the 'Due Date' of the ticket as shown below :</p><p ><br /></p><p ><img src="#" style="width: auto;" class="fr-fic fr-dib fr-bordered" /><br /></p><p ><br /></p><p >You can also change the SLA applied to this ticket under <strong dir="ltr">Admin &gt; Workflows &gt; SLA Policies.</strong> Once the changes are done, you can update some properties for that ticket so that the new SLA will get applied and the due by date will be changed accordingly.<br /><br /><br /></p><p ><strong>Note:</strong></p><p ><br /></p><p >1) The option to change the due date will only show up when the ticket is assigned to statuses that have the <strong>SLA timer ON</strong> (example: Open).</p><p ><br /></p><p dir="ltr">You can check which statuses have their SLA timers ON or OFF under <strong>Admin &gt; Workflows &gt; Ticket Fields &gt; Status</strong> field. Once a manual change is done to the Due Time of a ticket, it will not change again when the ticket properties (for example, a change in priority) are updated.</p><p ><br /></p><p >2) The due by date and time can always be updated only to a value greater than the First response time, that is the 'Response due' time on the ticket.</p><p ><br /></p>
 
 </details>
 
 <details>
-<summary><strong>언제 does 티켓 tab auto-refresh?</strong></summary>
+<summary>무엇인가요 the E-commerce channel?</summary>
 
-에서 Freshdesk, auto-refresh notification gives you non-invasive live updates 에 ticket. This notification would show up 언제 there is property 업데이트 within ticket 또는 when there is reply/참고 added 로 ticket.
+<p>When you are hosted on an online e-commerce store and would like the customer queries from those stores to create tickets within your Freshdesk account, you can make use of the E-commerce channel. You will have the option to <a href="https://support.freshdesk.com/support/solutions/folders/270315" target="_blank" rel="noreferrer noopener">integrate with your eBay account</a> and tickets will get created inside Freshdesk via your eBay shops.</p>
 
 </details>
 
 <details>
-<summary><strong>change '에서' 이메일 address 의 ticket?하는 방법은 무엇인가요?</strong></summary>
+<summary>What are flags ? 어떻게 할 수 있나요 fliter using flags?</summary>
 
-While replying, you can use drop-down arrow mark 로 선택 '에서' 이메일 address as shown 에서 image below: ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/40638603/original/pSgyY0zg3LGGhP44V-y-LfvPOAczWaePlw.png?1536310105) 만약 you want 로 have 일반적인 이메일 에서 which replies are sent out, you can make use 의 App '[일반적인 에서 이메일 address](https://www.freshworks.com/apps/freshdesk/customize_from_email_address/)'
+<p>Flags are default labels in Freshdesk. They appear in the ticket list view and inside the ticket details page when certain activities occur:</p><p><br /></p><p><strong>New</strong>: This flag shows on a ticket when an agent's response to the customer is pending. It remains until the first response/resolution isn't overdue.</p><p><br /></p><p><strong>Customer Responded: </strong>This flag displays when a customer responds to a ticket.</p><p><br /></p><p><strong>Overdue</strong>: This occurs when the ticket surpasses its resolution time without being resolved.</p><p><br /></p><p><strong>Response due:</strong> This flag appears when the agent's first response isn't sent within a specific time based on the SLA.</p><p><br /></p><p dir="ltr">These flags are default and hardcoded, unalterable or removable. Ticket filtering using these flags isn't an option as of now</p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>What happens 언제 attachment size limit goes beyond threshold?</strong></summary>
+<summary>무엇인가요 a ticket?</summary>
 
-Freshdesk will allow 티켓 로 be created even 언제 attachments are exceeding limit - 에서 이메일 서비스, we now allow 티켓 which have attachments upto 50MB 로 come 에서, however, all attachments above 20 MB limit will be dropped 그리고 this alert will be shown 에서 ticket - '**Attachment(s) that exceed 20 MB limit have been dropped. Please 문의하다 로 sender.**' This way, 티켓 get created 그리고 상담원 are also notified about status 의 attachment(s). **참고:** limit is 20 MB 위해 Blossom 그리고 above accounts. 위해 Sprout 그리고 trial accounts, threshold is 15 MB.
+<p dir="ltr">Each customer query - be it an email, or a phone call that comes into your account is a ticket. The agent would then be able to click on the ticket to respond to the customer about their query.</p><p><br /></p><p>Tickets raised on your account could be viewed under the Tickets tab, from where you could access them.</p>
 
 </details>
 
 <details>
-<summary><strong>send bulk emails 로 customers using Freshdesk?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>왜인가요 an Outbound email set to Close 상태 automatically?</summary>
 
-No, there isn't option 로 send out bulk emails 로 customers 에서 inside Freshdesk. However, 연동 와 함께 MailChimp can help you perform this action. Please refer 로 [this article](https://지원.freshdesk.com/지원/solutions/articles/41745--mailchimp-app) 에 how you can integrate MailChimp 와 함께 Freshdesk.
+<p>An Outbound email in Freshdesk is to be used for pro-active external communication directed at the customer. Only when the customer replies, the ticket created from this Outbound email would be considered as an active ticket and set to Open Status. In the meanwhile, the ticket created from this Outbound email would be marked Closed.</p>
 
 </details>
 
 <details>
-<summary><strong>How many child 티켓 추가 로 parent ticket?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>When does a Tickets tab auto-refresh?</summary>
 
-You can 추가 up 로 maximum 의 10 child 티켓 로 parent ticket.
+<p >In Freshdesk, the auto-refresh notification gives you non-invasive live updates on the ticket. This notification would show up when there is a property update within the ticket or when there is a reply/note added to the ticket. </p>
 
 </details>
 
 <details>
-<summary><strong>삭제 archived ticket?하는 방법은 무엇인가요?</strong></summary>
+<summary>방법 change the 'From' email address of a ticket?</summary>
 
-에서 order 로 삭제 archived ticket, please go 로 corresponding ticket page (either 에 의해 performing Search 또는 hitting ticket ID directly 에서 URL). Here, you will find '**삭제 forever**' button. Clicking 에 this button will **permanently 삭제** ticket 에서 헬프데스크. This option is only 사용 가능한 에 Freshdesk Mint.
+<p >While replying, you can use the drop-down arrow mark to choose the 'From' email address as shown in the image below:</p><p ><br /></p><p ><img class="fr-dib" src="#" style="width: 268px; height: 84.6761px;" /></p><p ><br /></p><p >If you want to have a common email from which the replies are sent out, you can make use of the App '<a href="https://www.freshworks.com/apps/freshdesk/customize_from_email_address/" rel="noopener noreferrer" target="_blank">Common From email address</a>'</p>
 
 </details>
 
 <details>
-<summary><strong>change subject 의 ticket?하는 방법은 무엇인가요?</strong></summary>
+<summary>What happens when the attachment size limit goes beyond the threshold?</summary>
 
-Inside ticket details page, 클릭 에 three-dotted icon->선택 '**편집 ticket details**' option 로 편집 subject 의 ticket as shown below: ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50002700818/original/KDCFzZoq1EGoXsL5UpDWWTIY6kQlNg4_4w.png?1616499572)
+<p>Freshdesk will allow tickets to be created even when the attachments are exceeding the limit - from the email service, we now allow tickets which have attachments upto 50MB to come in, however, all attachments above 20 MB limit will be dropped and this alert will be shown in the ticket - '<strong>Attachment(s) that exceed 20 MB limit have been dropped. Please reach out to the sender.</strong>'</p><p><br /></p><p>This way, the tickets get created and the agents are also notified about the status of the attachment(s).</p><p><br /></p><p><strong>Note:</strong> The limit is 20 MB for Blossom and above accounts. For Sprout and trial accounts, the threshold is 15 MB.</p>
 
 </details>
 
 <details>
-<summary><strong>언제 I 내보내기 티켓 위해 certain period 의 time, 왜 don't I get full count 에서 내보내기?</strong></summary>
+<summary>How many child tickets 할 수 있나요 add to a parent ticket?</summary>
 
-ideal way 로 내보내기 티켓 is 로 set time range under '**필터 티켓 에 의해**' section 에서 '**내보내기 티켓**' section. First, 선택 preferred file format, set desired range 선택 필수 fields 로 내보내기 그리고 클릭 '**Ex****port**'. 확인하다 that **FILTERS** section 에서 티켓 list view does not have any date range specified (또는) set as **Any time**. 만약 any date range is set there, 내보내기 will only include 티켓 에서 that specified range. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50011876874/original/XmsMnQj7vffq7poV3McOlSq0AQ443C8Lcw.png?1716134421) ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50011916937/original/YKlL5StwjZ_rOz91BAeP0pDfng8i0kQEdw.png?1716389787)
+<p style="">You can add up to a maximum of 10 child tickets to a parent ticket.</p>
 
 </details>
 
 <details>
-<summary><strong>My ticket shows 'Response Due' though it has response already은 무엇인가요?</strong></summary>
+<summary>어떻게 할 수 있나요 delete an archived ticket?</summary>
 
-Please 확인하다 만약 ticket has private 참고/ Forward (확인하다 위해 lock symbol next 로 참고) 또는 만약 it has public 참고/ reply. 만약 reply is private 그러면 it would not be considered as response 에 의해 Freshdesk, because it is not displayed 로 고객.
+<p>In order to delete an archived ticket, please go to the corresponding ticket page (either by performing a Search or hitting the ticket ID directly in the URL). Here, you will find the '<strong>Delete forever</strong>' button. Clicking on this button will <strong>permanently delete</strong> the ticket from the helpdesk. </p><p><br /></p><p>This option is only available on Freshdesk Mint.</p>
 
 </details>
 
 <details>
-<summary><strong>삭제 다수의 티켓 에서 same person?하는 방법은 무엇인가요?</strong></summary>
+<summary>방법 change the subject of a ticket?</summary>
 
-Using Search bar, search 위해 Requester 이메일 address 그리고 이동 로 **연락처** tab 그리고 클릭 **Show 티켓 에서 **. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008947488/original/tXcWZ6fVzb-F_kFr5Ir-XtDEpCRV66c0sQ.png?1689856866) You can use bulk actions 로 삭제 티켓 (30 티켓 에서 time) 로 삭제 all 티켓 associated 로 requester 이메일 address. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008947493/original/jCO06QajGuoZ2BdIMnITu7gSGEjb8yqWBg.png?1689856910)
+<p dir="ltr">Inside the ticket details page, click on the three-dotted icon-&gt;select the '<strong>Edit ticket details</strong>' option to edit the subject of the ticket as shown below:</p><p><br /></p><p><img src="#" style="width: auto;" class="fr-fil fr-dib fr-bordered" /></p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>제거 CC 에서 ticket?하는 방법은 무엇인가요?</strong></summary>
+<summary>When I 내보내기 the tickets for a certain period of time, why don't I get the full count in 내보내기?</summary>
 
-로 제거 CC 에서 ticket you need 클릭 에 Reply option > 선택 addresses 에서 cc bar 그리고 클릭 에 'x' mark next 로 it 그리고 send reply. Once removed, CC address would not appear 에서 next replies unless added again 에 의해 requester 또는 one 의 상담원 manually. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50008947706/original/jtMDRJ0JdhwZnMBSScRhxCgKnaqxXqKaKw.png?1689857992)
+<p dir="ltr"><span dir="ltr" style="font-size: 14px;">The ideal way to export tickets is to set the time range under the '<strong>Filter Tickets By</strong>' section in the '<strong>Export Tickets</strong>' section. First, choose the preferred file format, set the desired range select the required fields to export and click '<strong>Ex</strong><strong>port</strong>'. Ensure that the <strong>FILTERS</strong> section in the Tickets list view does not have any date range specified (or) set as <strong>Any time</strong>. If any date range is set there, the export will only include tickets from that specified range.</span></p><p><br /></p><p><br /></p><p><br /></p><p dir="ltr">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="#" style="width: 341px; display: block; float: none; vertical-align: top; margin: 5px auto; text-align: center;" class="fr-fic fr-dib" /></p><p><br /></p><p><br /></p><p dir="ltr">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="#" style="width: 549px; display: block; float: none; vertical-align: top; margin: 5px auto; text-align: center;" class="fr-fic fr-dib" /></p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>What will be impact 에 existing 티켓 만약 we 업데이트 some dropdown fields?</strong></summary>
+<summary>My ticket shows 'Response Due' though it has a response already</summary>
 
-언제 you 제거 item 또는 option 에서 Dropdown 필드, this would automatically 제거 value 에서 티켓 그리고 보고서 as well. same happens when you rename 또는 make any changes 로 values 의 필드. process that needs 로 be followed would be 로 생성 new value 에서 same Dropdown 필드 그리고 Bulk change values 에서 all 티켓 that you need. Once this is done, you can 제거 value 에서 **관리자 > Workflows > Ticket fields**.
+<p>Please check if the ticket has a private note/ Forward (Check for a lock symbol next to the note) or if it has a public note/ reply. If the reply is private then it would not be considered as a response by Freshdesk, because it is not displayed to the customer.</p>
 
 </details>
 
 <details>
-<summary><strong>Automatically track time spent 에 티켓은 무엇인가요?</strong></summary>
+<summary>어떻게 delete multiple tickets from same person?</summary>
 
-You can make use 의 **Auto Start Timer** App 로 calculate time spent 에 티켓 based 에 statuses you set. 로 know more about this 확인하다 out [link](https://www.freshworks.com/apps/freshdesk/auto_start_timer/).
+<p dir="ltr">Using Search bar, search for the Requester email address and navigate to <strong>Contacts</strong> tab and click <strong dir="ltr">Show tickets from &lt;contact_name&gt;</strong>.</p><p><br /></p><p><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /><br /><span dir="ltr" style="color: rgb(0, 0, 0); font-family: -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-weight: 400; text-align: left; text-indent: 0px; display: inline !important;">You can use bulk actions to delete the tickets (30 tickets at a time) to delete all the tickets associated to the requester email address.</span><br /><br /><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>re-open archived ticket?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>방법 remove CC from a ticket?</summary>
 
-No, you will not be able 로 change status 또는 reopen Archived ticket.
+<p>To remove the CC from a ticket you need click on the Reply option &gt; select the addresses in the cc bar and click on the 'x' mark next to it and send the reply. Once removed, the CC address would not appear in the next replies unless added again by the requester or one of the agents manually.&nbsp;</p><p><br /></p><p dir="ltr">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></p>
 
 </details>
 
 <details>
-<summary><strong>unsplit ticket?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>What will be the impact on existing tickets if we 업데이트하다 some dropdown fields?</summary>
 
-Make use 의 [merge feature](https://지원.freshdesk.com/en/지원/solutions/articles/80180) 에서 Freshdesk 로 merge conversations 에서 secondary ticket 로 primary ticket. 만약 once split, you can merge reply into original ticket using this feature.
+<p >When you remove an item or option from the Dropdown field, this would automatically remove the value from the tickets and reports as well. The same happens when you rename or make any changes to the values of the field.</p><p ><br /></p><p dir="ltr">The process that needs to be followed would be to create a new value in the same Dropdown field and Bulk change the values in all the tickets that you need. Once this is done, you can remove the value from <strong>Admin &gt; Workflows &gt; Ticket fields</strong>.</p>
 
 </details>
 
 <details>
-<summary><strong>언제 opening ticket page scrolls down 로 latest reply은 무엇인가요?</strong></summary>
+<summary>Automatically track the time spent on tickets</summary>
 
-만약 ticket is assigned 로 you, 그러면 언제 you access that ticket you will be taken 로 latest response automatically. However, this would not be case when you are viewing different agent's ticket.
+<p>You can make use of the <strong>Auto Start Timer</strong> App to calculate the time spent on tickets based on the statuses you set. To know more about this check out the <a href="https://www.freshworks.com/apps/freshdesk/auto_start_timer/" rel="noopener noreferrer" target="_blank">link</a>.</p>
 
 </details>
 
 <details>
-<summary><strong>티켓 page keeps loading 에서 Freshdesk은 무엇인가요?</strong></summary>
+<summary>할 수 있나요 re-open an archived ticket?</summary>
 
-Please follow steps below so that we could identify reason 위해 same. - Try accessing 계정 에서 'Incognito' window 의 your browser. 만약 this works clear cache 그리고 cookies 의 browser 그리고 that should do trick. - Try 에서 different browsers. This will help us identify 만약 this is browser 특정한 문제. - 만약 both above steps do not work 그러면 확인하다 문제 에 different network 그리고 let us know 만약 that helps ( mobile hotspot should help 와 함께 this). - 확인하다 out our status page which is [https://updates.freshdesk.com/](https://updates.freshdesk.com/) 로 know 만약 there are currently any issues. 만약 none 의 above works, please raise ticket 와 함께 us so that we could have this checked 위해 you.
+<p style="">No, you will not be able to change the status or reopen an Archived ticket.</p>
 
 </details>
 
 <details>
-<summary><strong>Where is Spam folder?</strong></summary>
+<summary>할 수 있나요 unsplit a ticket?</summary>
 
-You can access 'Spam' folder 에 의해 clicking 에 hamburger menu 에서 Ticket list page. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50000931217/original/sdZHJSyG8mWo7CUXwtULRGjNewcmEvUKCw.png?1586146473) You'll be able 로 see all 기본값 그리고 사용자 정의 ticket views 의 your 헬프데스크 here. 클릭 에 'Spam' 로 go 로 Spam view. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50000931220/original/SRcoW-AeZSZAQmvO15wscfzc4R1FFAl7LQ.png?1586146590)
+<p>Make use of the <a href="https://support.freshdesk.com/en/support/solutions/articles/80180">merge feature</a> in Freshdesk to merge the conversations from a secondary ticket to the primary ticket. If once split, you can merge the reply into the original ticket using this feature.</p>
 
 </details>
 
 <details>
-<summary><strong>How did ticket land 에서 spam folder?</strong></summary>
+<summary>When opening ticket the page scrolls down to latest reply</summary>
 
-**G****iven below are ways 에서 which ticket gets spammed** : 1) agent can mark ticket as spam manually. 2) automation rule would have acted upon ticket. 3) 연락하다 의 ticket would have been deleted 또는 blocked. Restore ticket > 클릭 에 **Activities** 에서 top right corner 그리고 확인하다 as 로 왜 ticket has been spammed. Once you restore 연락하다, all future emails 에서 연락하다 will come through as 티켓. 만약 none 의 these were reasons 언제 checking Activities please 문의하다 로 지원@freshdesk.com 그리고 we would be glad 로 help you out.
+If a ticket is assigned to you, then when you access that ticket you will be taken to the latest response automatically. However, this would not be the case when you are viewing a different agent's ticket.
 
 </details>
 
 <details>
-<summary><strong>Is there way 로 send notification 로 all 고객 에서 once?</strong></summary>
+<summary>Tickets page keeps loading in Freshdesk</summary>
 
-We do not have option 로 bulk 이메일 all your customers 에서 once. You can make use 의 [**Mailchimp**](https://apps.freshdesk.com/mailchimp/) 로 send out these emails. However, 만약 you are wanting 로 notify customers who have raised 티켓 그러면 you can make use 의 Bulk Actions present 에서 **Ticket list view** 그리고 send out emails 로 30 티켓 에서 time.
+<p style="">Please follow the steps below so that we could identify the reason for the same.</p><ul><li style="">Try accessing the account in the 'Incognito' window of your browser. If this works clear the cache and cookies of the browser and that should do the trick. </li><li style="">Try in different browsers. This will help us identify if this is a browser specific issue. </li><li style="">If both the above steps do not work then check the issue on a different network and let us know if that helps (A mobile hotspot should help with this).</li><li style="">Check out our status page which is <a href="https://updates.freshdesk.com/" rel="noreferrer">https://updates.freshdesk.com/</a> to know if there are currently any issues. </li></ul><p style="">If none of the above works, please raise a ticket with us so that we could have this checked for you. </p>
 
 </details>
 
 <details>
-<summary><strong>내보내기 티켓 including content 의 ticket?하는 방법은 무엇인가요?</strong></summary>
+<summary>Where is the Spam folder?</summary>
 
-There are 다수의 ways you can 내보내기 티켓 와 함께 its content. - You can print ticket 그리고 저장 it as PDF 에 your system. (또는) - 계정 관리자 can 내보내기 all 데이터 within your 계정 (including 티켓, 해결책 articles, etc.) 에서 관리자 section: - 이동 로 관리자 > 계정 > 계정 Details. - 클릭 내보내기 - 데이터 will be exported 로 계정 관리자's 이메일 에서 XML format. You can 그러면 convert XML 데이터 into your preferred format. Watch 참고 자료: this video 위해 steps 로 내보내기 계정 데이터.
+<p>You can access the 'Spam' folder by clicking on the hamburger menu in the Ticket list page. </p><p><br /></p><p><img src="#" style="width: 262px;" class="fr-fic fr-dib fr-bordered" /></p><p><br /></p><p>You'll be able to see all the default and custom ticket views of your helpdesk here. Click on 'Spam' to go to the Spam view.</p><p><br /></p><p><img src="#" style="width: 172px;" class="fr-fic fr-dib fr-bordered" /></p>
 
 </details>
 
 <details>
-<summary><strong>I am not able 로 merge ticket 로 child ticket은 무엇인가요?</strong></summary>
+<summary>How did a ticket land in the spam folder?</summary>
 
-언제 ticket has association such as Parent/Child, you will not be able 로 추가 another association 로 it such as linking ticket 로 tracker 또는 merging.
+<p style=""><strong>G</strong><strong>iven below are the ways in which a ticket gets spammed</strong> :</p><p style="">1) An agent can mark the ticket as spam manually. </p><p style="">2) An automation rule would have acted upon the ticket. </p><p style="">3) The contact of the ticket would have been deleted or blocked. Restore the ticket &gt; click on the <strong>Activities</strong> at the top right corner and check as to why the ticket has been spammed. Once you restore the contact, all future emails from the contact will come through as tickets.</p><p style=""><br /></p><p style="">If none of these were the reasons when checking the Activities please reach out to support@freshdesk.com and we would be glad to help you out.</p>
 
 </details>
 
 <details>
-<summary><strong>Is there possibility 로 lock ticket while one agent is answering 그리고 working 에 that?</strong></summary>
+<summary>어떻게 할 수 있나요 내보내기 tickets including the content of the ticket?</summary>
 
-primary step that needs 로 be taken 에서 such case would be 로 assign ticket 로 agent working 에 ticket 또는 he/she can pick it up 에서 list view itself. Each 의 your 상담원 can have filters 로 view 티켓 that are their names. Agent collision feature would notify anyone 만약 different agent is view 또는 replying 로 that ticket currently.
+<p dir="ltr">There are multiple ways you can export the tickets with its content.</p><ol ><li dir="ltr">You can print the ticket and save it as a PDF on your system. (OR)</li><li dir="ltr">The Account Admin can export all the data within your account (including tickets, solution articles, etc.) from the Admin section:</li></ol><ul style="margin-left: 40px ;"><li dir="ltr">Navigate to Admin &gt; Account &gt; Account Details.</li><li dir="ltr">Click Export</li><li dir="ltr">The data will be exported to the account administrator's email in XML format. You can then convert the XML data into your preferred format.</li></ul><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;">Watch <a href="https://www.youtube.com/watch?v=DTa_LDg8vng&amp;list=PLsYJ3BsyR4qGFujlW0iDtOBOf4IPVsAqt&amp;index=11" rel="noreferrer" target="_blank">this</a> video for steps to export the account data.</p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><br /></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><br /></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 0pt;"><br /></p>
 
 </details>
 
 <details>
-<summary><strong>unarchive ticket?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>I am not able to merge a ticket to a child ticket</summary>
 
-Once ticket is archived you will not be able 로 make any changes 로 ticket. archiving 와 함께 take place only 에 티켓 that has been 에서 Closed status 위해 more than 120 days 와 함께 no activity 에 ticket. 만약 you have 티켓 that need 로 be reopened 에서 future 그러면 set them 에서 different status other than Closed.
+<p style="">When the ticket has an association such as Parent/Child, you will not be able to add another association to it such as linking the ticket to a tracker or merging. </p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>modify parent child association ?하는 방법은 무엇인가요?</strong></summary>
+<summary>Is there a possibility to lock a ticket while one agent is answering and working on that?</summary>
 
-It would not be possible 로 unlink child ticket 또는 link it 와 함께 another parent. Child 티켓 are created 와 함께 association 로 parent ticket 그리고 only option would be 로 have it closed once it is done. You would have 로 생성 new child ticket 로 be associated 와 함께 other parent ticket.
+<p>The primary step that needs to be taken in such a case would be to assign the ticket to the agent working on the ticket or he/she can pick it up from the list view itself. Each of your agents can have filters to view the tickets that are their names. The Agent collision feature would notify anyone if a different agent is view or replying to that ticket currently.</p>
 
 </details>
 
 <details>
-<summary><strong>see drafts 에 의해 another agent?하는 방법은 무엇인가요?</strong></summary>
+<summary>할 수 있나요 unarchive a ticket?</summary>
 
-draft feature is 위해 each agent; draft saved 에 의해 one 의 상담원 cannot be viewed 에 의해 another. **참고:** drafts 에 ticket reply editor will be 사용 가능한 only 위해 **24 hours**. They will not be 사용 가능한 만약 상담원 are drafting response as public/private 참고. Using [Agent Collision](https://지원.freshdesk.com/en/지원/solutions/articles/218073) feature, you can see 만약 another agent is already viewing 또는 replying 로 ticket 에서 real-time. This feature is particularly useful 위해 teams working 에 urgent 또는 complex 티켓, as it allows 다수의 상담원 로 work 에 same ticket simultaneously.
+Once the ticket is archived you will not be able to make any changes to the ticket. The archiving with take place only on tickets that has been in the Closed status for more than 120 days with no activity on the ticket. If you have tickets that need to be reopened in future then set them in a different status other than Closed.
 
 </details>
 
 <details>
-<summary><strong>find 고객 fields 에서 ticket page?는 어디서은 무엇인가요?</strong></summary>
+<summary>방법 modify a parent child association ?</summary>
 
-You will not be able 로 필터 티켓 using 고객 fields. However, 만약 you want 로 view 연락하다 details 에서 Ticket details page you can make use 의 Requester 위젯 사용 가능한 under **관리자 > 지원 Operations > 고객 fields > 사용자 정의하다 Requester 위젯**. This is feature 사용 가능한 에서 Estate 요금제.
+<p>It would not be possible to unlink a child ticket or link it with another parent. Child tickets are created with the association to the parent ticket and the only option would be to have it closed once it is done. You would have to create a new child ticket to be associated with the other parent ticket.</p>
 
 </details>
 
 <details>
-<summary><strong>만약 I resolve tracker ticket, do all 티켓 linked 로 it will become resolved?</strong></summary>
+<summary>어떻게 할 수 있나요 see drafts by another agent?</summary>
 
-No, resolving tracker ticket would not resolve linked 티켓 에 의해 기본값. You have 로 manually resolve this as you might need 로 업데이트 your customers before resolving 티켓.
+<p dir="ltr"><span dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;">The draft feature is for each agent; the draft saved by one of the agents cannot be viewed by another.&nbsp;</span></p><p dir="ltr"><br /></p><pre class="fd-callout fd-callout--note" dir="ltr"><strong>Note:</strong> The drafts on the ticket reply editor will be available only for <strong>24 hours</strong>. They will not be available if the agents are drafting the response as a public/private note.</pre><p><br /></p><p dir="ltr"><span dir="ltr" style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;">Using the <a href="https://support.freshdesk.com/en/support/solutions/articles/218073" rel="noopener noreferrer" style="font-family: &quot;Helvetica Neue&quot;;" target="_blank">Agent Collision</a> feature, you can see if another agent is already viewing or replying to a ticket in real-time. This feature is particularly useful for teams working on urgent or complex tickets, as it allows multiple agents to work on the same ticket simultaneously.</span></p><p><span style="font-family: &quot;Helvetica Neue&quot;; font-size: 16px;"><br style="font-family: &quot;Helvetica Neue&quot;;"></span></p><p dir="ltr"><br /></p>
 
 </details>
 
 <details>
-<summary><strong>protect your 헬프데스크 에서 spam attack?하는 방법은 무엇인가요?</strong></summary>
+<summary>If I resolve a tracker ticket, do all the tickets linked to it will become resolved?</summary>
 
-에서 Freshdesk, we 제공하다 few options 로 protect your 헬프데스크 에서 any possible spam 티켓 coming 에서 sources like 포털 그리고 이메일. 위해 spam 티켓 created via 포털, 활성화 CAPTCHA 에 your 고객 지원 포털. 이동 로 **관리자 > Channels > Portals > 편집 > Manage sections** 그리고 선택 **'활성화 CAPTCHA 로 help avoid spam'** option. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50009297840/original/486-e4ikj4rbeucc4fPJU2vh8SykaIxaWA.png?1693235821) 위해 spam 티켓 coming via 이메일, we 활성화 Proactive Spam 필터 에서 backend. This spam 필터 will 확인하다 all 티켓 coming through 이메일 channel 그리고 based 에 certain pre-defined conditions, spam score will be associated 와 함께 each incoming 이메일 ticket. 만약 spam score 의 이메일 is 6 그리고 above, 티켓 will be marked as spam automatically. purpose 의 this feature is 로 확인하다 that you have optimum spam deflection. However, please 참고 that there are chances that some valid emails can be marked as spam, 만약 에서 case these emails arrive via Spam reporting IP 또는 와 함께 high spam score. You could keep track 의 those 티켓 에서 Spam folder inside 티켓 tab 에서 Freshdesk 그리고 restore them 만약 you deem that they are valid. 만약 you would like this feature 로 be enabled 위해 your 계정, please drop 이메일 로 [지원@freshdesk.com](mailto:지원@freshdesk.com). We'd be glad 로 assist.
+No, resolving the tracker ticket would not resolve the linked tickets by default. You have to manually resolve this as you might need to update your customers before resolving the tickets.
 
 </details>
 
 <details>
-<summary><strong>What each 기본값 SLA flag means 에 ticket page은 무엇인가요?</strong></summary>
+<summary>방법 protect your helpdesk from spam attack?</summary>
 
-Freshdesk, 에 의해 기본값, classifies 티켓 와 함께 4 특정한 flags. These flags help 상담원 quickly take notice 의 ticket 에서 question 그리고 perform necessary actions. **Flag****Description** ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/44096793/original/9TtGfJrq8OZRsX2cl1LOCfdVYlWKqIQWBg.png?1552391023) Represents all new 티켓 created 에 헬프데스크 ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/44096809/original/Sp8823RTqD876IGZdoKGv8hdp0sH9furpA.png?1552391057) Represents 티켓 고객 has responded 로 ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/44096964/original/C_686OnX-gx2hjkq7bNKum2WcddS2u4gbQ.png?1552391326) Represents 티켓 위해 which first response SLA has been violated ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/44097007/original/KNuoMJYa_TqeLwF3A5b32irpha5azGhCjQ.png?1552391407) Represents 티켓 위해 which resolution SLA has been violated **참고:** These flag values are hardcoded 그리고 cannot be edited. You will not be able 로 필터 티켓 based 에 these flags.
+<p >In Freshdesk, we provide few options to protect your helpdesk from any possible spam tickets coming from sources like Portal and Email.</p><p ><br /></p><p dir="ltr">For spam tickets created via Portal, &nbsp;enable CAPTCHA on your customer support portal. Navigate to <strong dir="ltr">Admin &gt; Channels &gt; Portals &gt; Edit &gt; Manage sections</strong> and select the <strong >'Enable CAPTCHA to help avoid spam'</strong> option.</p><p ><br /></p><p ><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></p><p ><br /></p><p >For spam tickets coming via Email, we enable Proactive Spam Filter from the backend. This spam filter will check all the tickets coming through the Email channel and based on certain pre-defined conditions, a spam score will be associated with each incoming email ticket. If the spam score of the email is 6 and above, the tickets will be marked as a spam automatically.&nbsp;</p><p ><br /></p><p >The purpose of this feature is to ensure that you have optimum spam deflection. However, please note that there are chances that some valid emails can be marked as spam, if in case these emails arrive via a Spam reporting IP or with a high spam score. You could keep track of those tickets in the Spam folder inside the Tickets tab in Freshdesk and restore them if you deem that they are valid.</p><p ><br /></p><p >If you would like this feature to be enabled for your account, please drop an email to <a href="mailto:support@freshdesk.com" rel="noreferrer noopener">support@freshdesk.com</a>. We'd be glad to assist.</p>
 
 </details>
 
 <details>
-<summary><strong>Receiving spam emails 로 지원@domain.freshdesk.com, Please help!은 무엇인가요?</strong></summary>
+<summary>What each default SLA flag means on the ticket page</summary>
 
-We have been reported 의 다수의 cases where Russian Spammers usually 생성 spam 티켓 에 의해 sending 이메일 로 generic forwarding address. 그리고 this 문제 is not just 특정한 로 Freshdesk 그리고 it has been prevalent across all 헬프데스크 softwares like Zendesk, HelpScout as well. spammers identify generic forwarding address [like 지원@domain.freshdesk.com 또는 info@domain.freshdesk.com 또는 help@domain.freshdesk.com] 그리고 they 생성 these spam 티켓. So, using generic forwarding address makes 계정 vulnerable 로 spam influx. 로 mitigate such spams, there is feature called **'Prevent Wildcard Ticket 생성'** where only emails directly sent 로 이메일 address configured under 이메일 config page 에서 Freshdesk will be converted into 티켓. Please go 로 **관리자 > Channels > 이메일 > 고급 설정** 그리고 비활성화 **'Allow emails 로 be sent 로 wildcard 지원 address'** Also, we would recommend using domain-특정한 이메일 addresses like 지원@domain.com 또는 help@domain.com [emails having your company's domain name] 로 avoid such issues. Using domain-특정한 이메일 address is going 로 be more advantageous 위해 your business 위해 following reasons - It will help you brand emails 그리고 replies sent 에 의해 your organization 에서 Freshdesk. - It will allow you 로 have greater flexibility 그리고 control as 로 which emails need 로 be converted as 티켓 그리고 so. - It will be 의 help 만약 you would like 로 use your own mail server 로 relay emails 에서 그리고 로 Freshdesk through our 사용자 정의 mail server feature. - Your stakeholders will be able 로 receive emails authenticated 에 의해 your own domain using [DKIM](https://지원.freshdesk.com/en/지원/solutions/articles/223779) feature which ensures proper end-로-end 이메일 delivery. 만약 you have any further queries, please drop us 이메일 에서 지원@freshdesk.com.
+<p>Freshdesk, by default, classifies tickets with 4 specific flags. These flags help agents quickly take notice of the ticket in question and perform necessary actions.</p><p><br /></p><table style="width: 57%; margin-right: calc(43%);"><tbody><tr><td style="width: 33.4773%;"><strong>Flag</strong></td><td style="width: 66.3067%;"><strong>Description</strong></td></tr><tr><td style="width: 33.4773%;"><div><img src="#" class="fr-fic fr-dii" style="width: 43px;" /></div></td><td style="width: 66.3067%;">Represents all new tickets created on the helpdesk</td></tr><tr><td style="width: 33.4773%;"><div><img src="#" class="fr-fic fr-dii fr-fil" style="width: 131px;" /></div></td><td style="width: 66.3067%;">Represents tickets the customer has responded to</td></tr><tr><td style="width: 33.4773%;"><div><img src="#" class="fr-fic fr-dib fr-fil" style="width: 90px;" /></div></td><td style="width: 66.3067%;">Represents tickets for which the first response SLA has been violated</td></tr><tr><td style="width: 33.4773%;"><div><img src="#" class="fr-fic fr-dib fr-fil" style="width: 63px;" /></div></td><td style="width: 66.3067%;">Represents tickets for which the resolution SLA has been violated</td></tr></tbody></table><p><br /></p><p class="article_note"><strong>Note:</strong> These flag values are hardcoded and cannot be edited. You will not be able to filter tickets based on these flags.</p>
 
 </details>
 
 <details>
-<summary><strong>stop 티켓 에서 being redirected 로 Ticket List View every time ticket is closed?하는 방법은 무엇인가요?</strong></summary>
+<summary>Receiving spam emails to support@domain.freshdesk.com, Please help!</summary>
 
-언제 agent sends reply 그리고 resolves 또는 closes ticket using 'Send 그리고 set as resolved' 또는 'Send 그리고 set as closed' options, page will be automatically redirected 로 Ticket List View. This is 기본값 behavior 의 system designed 로 help 상담원 로 view other 티켓 에서 their queue without any additional clicks. 만약 you do not want page 로 be redirected 로 Ticket List View upon closing 티켓, you can 업데이트 status 의 ticket 에서 Ticket Properties section instead 의 using 'Send 그리고 set as Resolved/Closed' options.
+<p >We have been reported of multiple cases where the Russian Spammers usually create spam tickets by sending an email to the generic forwarding address. And this issue is not just specific to Freshdesk and it has been prevalent across all the helpdesk softwares like Zendesk, HelpScout as well. &nbsp;</p><p ><br /></p><p dir="ltr">The spammers identify the generic forwarding address [like support@domain.freshdesk.com or info@domain.freshdesk.com or help@domain.freshdesk.com] and they create these spam tickets. So, using a generic forwarding address makes an account vulnerable to spam influx. &nbsp;</p><p ><br /></p><p dir="ltr">To mitigate such spams, there is a feature called <strong >'Prevent Wildcard Ticket Create'</strong> where only emails directly sent to the email address configured under the Email config page in Freshdesk will be converted into tickets. Please go to <strong>Admin &gt; Channels &gt; Email &gt; Advanced Settings</strong> and disable <strong>'Allow emails to be sent to the wildcard support address'</strong></p><p dir="ltr"><br /></p><p dir="ltr">Also, we would recommend using domain-specific email addresses like support@domain.com or help@domain.com [emails having your company's domain name] to avoid such issues. Using a domain-specific email address is going to be more advantageous for your business for the following reasons</p><ol><li dir="ltr">It will help you brand the emails and replies sent by your organization from Freshdesk.&nbsp;</li><li dir="ltr">It will allow you to have greater flexibility and control as to which emails need to be converted as tickets and so.&nbsp;</li><li dir="ltr">It will be of help if you would like to use your own mail server to relay emails from and to Freshdesk through our Custom mail server feature.&nbsp;</li><li dir="ltr">Your stakeholders will be able to receive emails authenticated by your own domain using the <a href="https://support.freshdesk.com/en/support/solutions/articles/223779">DKIM</a> feature which ensures proper end-to-end email delivery.</li></ol><p dir="ltr"><br /></p><p dir="ltr">If you have any further queries, please drop us an email at support@freshdesk.com.</p>
 
 </details>
 
 <details>
-<summary><strong>Is there option 로 undo sent reply?</strong></summary>
+<summary>방법 stop tickets from being redirected to Ticket List View every time a ticket is closed?</summary>
 
-Clicked 에 ‘**Send**’ even before 이메일 was ready 로 go out 로 고객? 만약 you’re 에 **Blossom 또는 above 요금제**, you can use ‘**Undo Send**’ button **within 10 seconds** 의 replying 로 stop it 에서 going out. 상담원 will have 로 활성화 this option 에 의해 clicking 에 their **profile picture icon 에 top right corner > Profile 설정** 그리고 그러면 toggle feature **에**: ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50007619641/original/mK3EXgATc7y91oWtsqBm3kH8lxUN8rXSyg.png?1676458701) Once this is enabled, 상담원 will start seeing Undo option 에서 reply panel after they send out replies. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50007619660/original/AOQ3H9_UJKqU0EtZpOh9XBjLFiTiVwfIJA.png?1676458923) **참고:** ‘Undo’ option is 사용 가능한 only 위해 replies. 그리고, it will not be possible 로 undo replies sent using 'Send 그리고 set as' option.
+<p>When the agent sends a reply and resolves or closes the ticket using the 'Send and set as resolved' or 'Send and set as closed' options, the page will be automatically redirected to the Ticket List View. </p><p><br /></p><p>This is the default behavior of the system designed to help the agents to view the other tickets in their queue without any additional clicks. <br /><br />If you do not want the page to be redirected to the Ticket List View upon closing the tickets, you can update the status of the ticket from the Ticket Properties section instead of using the 'Send and set as Resolved/Closed' options. </p>
 
 </details>
-
----
 
-## 🔗 관련 자료
+<details>
+<summary>Is there an option to undo a sent reply?</summary>
 
-추가적인 도움이 필요하시면 다음 자료들을 참고해 주세요:
+<p style="box-sizing: border-box; margin-bottom: 0px; margin-left: 0px; font-size: 13px; line-height: 18px; word-break: normal; overflow-wrap: break-word; color: rgb(24, 50, 71); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-weight: 400; text-align: start; text-indent: 0px;">Clicked on ‘<strong style="box-sizing: border-box; font-weight: 700;">Send</strong>’ even before the email was ready to go out to the customer? If you’re on the <strong style="box-sizing: border-box; font-weight: 700;">Blossom or above plan</strong>, you can use the ‘<strong style="box-sizing: border-box; font-weight: 700;">Undo Send</strong>’ button <strong style="box-sizing: border-box; font-weight: 700;">within 10 seconds</strong> of replying to stop it from going out.<br /><br /></p><p ><span style="color: rgb(24, 50, 71); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-weight: 400; text-align: start; text-indent: 0px;">Agents will have to enable this option by clicking on their&nbsp;</span><strong style="box-sizing: border-box; font-weight: 700; color: rgb(24, 50, 71); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; text-align: start; text-indent: 0px;">profile picture icon on the top right corner &gt; Profile settings</strong><span style="color: rgb(24, 50, 71); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-weight: 400; text-align: start; text-indent: 0px;">&nbsp;and then toggle the feature&nbsp;</span><strong style="box-sizing: border-box; font-weight: 700; color: rgb(24, 50, 71); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; text-align: start; text-indent: 0px;">ON</strong><span style="color: rgb(24, 50, 71); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-weight: 400; text-align: start; text-indent: 0px;">:</span></p><p ><span dir="ltr" style="color: rgb(24, 50, 71); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-weight: 400; text-align: start; text-indent: 0px;"><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></span><br /><br /></p><div style="box-sizing: border-box; word-break: normal; overflow-wrap: break-word; font-size: 13px; line-height: 18px; color: rgb(24, 50, 71); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-weight: 400; text-align: start; text-indent: 0px;"><br /></div><p ><span style="color: rgb(24, 50, 71); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-weight: 400; text-align: start; text-indent: 0px;">Once this is enabled, agents will start seeing the Undo option in the reply panel after they send out replies.</span></p><p ><br /></p><p ><span dir="ltr" style="color: rgb(24, 50, 71); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 13px; font-weight: 400; text-align: start; text-indent: 0px;"><img src="#" style="width: auto;" class="fr-fic fr-fil fr-dib" /></span><br /></p><p style="box-sizing: border-box; margin-bottom: 0px; margin-left: 0px; font-size: 13px; line-height: 18px; word-break: normal; overflow-wrap: break-word; color: rgb(24, 50, 71); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-weight: 400; text-align: start; text-indent: 0px;"><br style="box-sizing: border-box;" ></p><p style="box-sizing: border-box; margin-bottom: 0px; margin-left: 0px; font-size: 13px; line-height: 18px; word-break: normal; overflow-wrap: break-word; color: rgb(24, 50, 71); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-weight: 400; text-align: start; text-indent: 0px;"><br /><br /></p><p style="box-sizing: border-box; margin-bottom: 0px; margin-left: 0px; font-size: 13px; line-height: 18px; word-break: normal; overflow-wrap: break-word; color: rgb(24, 50, 71); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-weight: 400; text-align: start; text-indent: 0px;"><strong style="box-sizing: border-box; font-weight: 700;">Note:</strong> The ‘Undo’ option is available only for replies. And, it will not be possible to undo the replies sent using the 'Send and set as' option.</p>
 
-- [Freshdesk 도움말 센터](https://support.freshdesk.com)
-- [커뮤니티 포럼](https://community.freshworks.com)
-- [고객지원팀 문의](mailto:support@freshdesk.com)
+</details>
 
-:::tip 도움말
-더 자세한 정보나 개별 상담이 필요하시면 고객지원팀으로 연락해 주세요.
-:::

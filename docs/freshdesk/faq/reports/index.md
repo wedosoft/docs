@@ -2,374 +2,367 @@
 sidebar_position: 1
 ---
 
-# 보고서 FAQ
+# 보고서
 
-보고서에서 자주 발생하는 질문들과 해결 방법을 정리했습니다. 각 질문을 클릭하여 상세한 답변을 확인하실 수 있습니다.
+이 섹션에서는 보고서와 관련된 자주 묻는 질문들을 다룹니다.
 
-:::info 안내
-이 FAQ는 실제 사용자들이 자주 묻는 질문들을 바탕으로 작성되었습니다. 추가 문의사항이 있으시면 고객지원팀에 문의해 주세요.
+:::info
+각 질문을 클릭하면 상세한 답변을 확인할 수 있습니다.
 :::
 
-<details>
-<summary><strong>different types 의 보고서 사용 가능한 across 다양한 요금제 에서 Freshdesk?이란은 무엇인가요?</strong></summary>
 
-**Current 요금제** **Old 요금제** **보고서** **필터** **Refresh Time** **Free** **Sprout** [](https://지원.freshdesk.com/지원/solutions/articles/213169)[Ticket Volume Trends](https://지원.freshdesk.com/지원/solutions/articles/213203) 필터 에 의해 date range 24 Hours **Growth** **Blossom** [헬프데스크 에서-depth](https://지원.freshdesk.com/해결책/articles/225559-헬프데스크-에서-depth-report-overview), [Ticket Volume Trends](https://지원.freshdesk.com/지원/solutions/articles/213203) All 사용 가능한 filters except agent 그리고 group 에서 헬프데스크 에서-depth Report 24 Hours **Pro** **Garden** [](https://지원.freshdesk.com/지원/solutions/articles/213169) [Agent Performance](https://지원.freshdesk.com/지원/solutions/articles/213169), [Group Performance](https://지원.freshdesk.com/지원/solutions/articles/213172), [헬프데스크 에서-depth](https://지원.freshdesk.com/해결책/articles/225559-헬프데스크-에서-depth-report-overview), [Time Sheet Summary](https://지원.freshdesk.com/지원/solutions/articles/37584-time-sheet-summary-report), [Satisfaction Surveys](https://지원.freshdesk.com/지원/solutions/articles/215321-setting-up-고객-satisfaction-surveys), [Ticket Volume Trends](https://지원.freshdesk.com/지원/solutions/articles/213203) [](https://지원.freshdesk.com/지원/solutions/articles/212988) All 사용 가능한 filters except agent 그리고 group 에서 헬프데스크 에서-depth Report 1 Hour **Pro** **Estate** [](https://지원.freshdesk.com/지원/solutions/articles/213169) [](https://지원.freshdesk.com/지원/solutions/articles/213226) [Agent Performance](https://지원.freshdesk.com/지원/solutions/articles/213169), [Group Performance](https://지원.freshdesk.com/지원/solutions/articles/213172), [헬프데스크 에서-depth](https://지원.freshdesk.com/해결책/articles/225559-헬프데스크-에서-depth-report-overview), [Performance Distribution](https://지원.freshdesk.com/지원/solutions/articles/213226), [Ticket Volume Trends](https://지원.freshdesk.com/지원/solutions/articles/213203), [Top 고객 Analysis](https://지원.freshdesk.com/지원/solutions/articles/214629), [Time Sheet Summary](https://지원.freshdesk.com/지원/solutions/articles/37584-time-sheet-summary-report), [Ticket Lifecycle](https://지원.freshdesk.com/지원/solutions/articles/227095-ticket-lifecycle-report), [Satisfaction Surveys](https://지원.freshdesk.com/지원/solutions/articles/215321-setting-up-고객-satisfaction-surveys) All 사용 가능한 filters 1 Hour **Enterprise** **Forest** [](https://지원.freshdesk.com/지원/solutions/articles/213169) [Agent Performance](https://지원.freshdesk.com/지원/solutions/articles/213169), [Group Performance](https://지원.freshdesk.com/지원/solutions/articles/213172), [헬프데스크 에서-depth](https://지원.freshdesk.com/해결책/articles/225559-헬프데스크-에서-depth-report-overview), [Performance Distribution](https://지원.freshdesk.com/지원/solutions/articles/213226), [Ticket Volume Trends](https://지원.freshdesk.com/지원/solutions/articles/213203), [Top 고객 Analysis](https://지원.freshdesk.com/지원/solutions/articles/214629), [Time Sheet Summary](https://지원.freshdesk.com/지원/solutions/articles/37584-time-sheet-summary-report), [Ticket Lifecycle](https://지원.freshdesk.com/지원/solutions/articles/227095-ticket-lifecycle-report), [Satisfaction Surveys](https://지원.freshdesk.com/지원/solutions/articles/215321-setting-up-고객-satisfaction-surveys) All 사용 가능한 filters 30 minutes Refresh time as mentioned 에서 last 열 의 테이블 is defined as time it would take 로 업데이트 report 와 함께 all 데이터 recorded 에 헬프데스크. Forest 그리고 Estate give updated report every 30 minutes hour respectively. Garden is again hour 그리고 lower 요금제 gives them 에서 24 hours interval.
+## 고급 기능 및 사용법
+
+<details>
+<summary>할 수 있나요 일정 보고서 for other agents or customers?</summary>
+
+<p><span style="font-size: 16px;">Sure, you would be able to schedule the report for other agents or customers. </span></p><p><br /></p><p><span style="font-size: 16px;">Please navigate to the <strong>concerned report -&gt; click on the "schedule report"</strong> icon which is green and add their email addresses along with the already entered email while <a href="https://support.freshdesk.com/support/solutions/articles/218139-scheduling-reports">scheduling a report</a> or making changes to the existing schedule.</span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;"><strong>Note: </strong>Report scheduling is NOT possible for deleted contacts.</span></p>
 
 </details>
 
 <details>
-<summary><strong>periodically schedule 사용 가능한 보고서?하는 방법은 무엇인가요?</strong></summary>
+<summary>가능한가요 to 필터 a 보고서 based on a custom text field?</summary>
 
-option 로 schedule report is 사용 가능한 에서 Garden/Pro 요금제 onwards, 위해 both 에-Demand 그리고 Saved 보고서. Please 이동 로 **보고서 tab -> 클릭 에 report** 위해 which you need 로 set this up **-> 클릭 에 "생성 Schedule"** option 사용 가능한 next 로 Report Name (또는) Report View Title. Kindly 참고 that we do not have this option 위해 **"Satisfaction Survey"**보고서.위해 more details, please make use 의 article which elaborates about [Scheduling 보고서](https://지원.freshdesk.com/지원/solutions/articles/218139-scheduling-보고서).
-
-</details>
-
-<details>
-<summary><strong>내보내기 티켓 로 particular 이메일 address?하는 방법은 무엇인가요?</strong></summary>
-
-상담원 can 내보내기 티켓 에서 under '티켓' tab inside Freshdesk. 필수 filters can be applied 그리고 그러면 '내보내기' button can be clicked 로 generate 내보내기. link 로 내보내기 file would be sent 로 agent's 이메일 address which was used 로 trigger 내보내기.
+<p><span style="font-size: 16px;">As of now, we <strong>do not</strong> have the functionality to filter reports based on custom text fields, in Freshdesk. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">Kindly create this field as a <strong>dropdown</strong> if possible to have them listed in the filters within the reports. </span></p>
 
 </details>
 
 <details>
-<summary><strong>receive PDF format 의 report directly?하는 방법은 무엇인가요?</strong></summary>
+<summary>Do "Waiting on Customer" and "Waiting on Third Party" statuses affect the average response time?</summary>
 
-언제 you have meetings 위해 which you need 로 present 데이터, you would like 로 acquire 보고서 에서 다양한 options presented 에서 보고서 tab. 에서 order 로 document this, we make it 사용 가능한 as pdf. Please 이동 로 report that you require, kindly 필터 information that needs 로 be 사용 가능한 에 paper 그리고 클릭 에 **이메일 PDF**option 에서 top right corner 의 page. This option could be used 로 receive this 에 your 이메일.
-
-</details>
-
-<details>
-<summary><strong>What will happen 로 my 보고서 만약 I 삭제 invalid ticket?</strong></summary>
-
-티켓 that are marked as spam, deleted 그리고 those that are merged will not be considered 에서 보고서. metric 위해 that ticket will not be included.
+<p><span style="font-size: 16px;">The response time does not depend upon the <strong>Status</strong> of a Ticket. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">So, if a ticket is moved to <strong>Waiting on Customer</strong> or <strong>Pending,</strong> the time spent in those statuses would also be considered for response time.</span></p>
 
 </details>
 
 <details>
-<summary><strong>schedule 다수의 exports 의 same report?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>How does the Top-Customer Analysis 보고서 work?</summary>
 
-Yes, you could use same filters 로 generate report under 보고서 tab 그리고 use **"저장 As"**option 로 **저장 report view**, 다수의 times 와 함께 different titles. Within each 의 these saved report views, you would be able 로 **schedule** 보고서 로 be sent 로 **different 이메일 address** 또는 에서 **varied time interval**.
-
-</details>
-
-<details>
-<summary><strong>What do green 그리고 red arrow marks 에서 헬프데스크 에서 depth report denote ?</strong></summary>
-
-Percentage decrease 또는 increase 의 metric that is shown is comparison 로 previous identical time range. 위해 example, 만약 you are looking 에서 metric 의 this month, percentage will be comparison 의 previous month.
+<p><span style="font-size: 16px;">The<strong> Top-Customer Analysis</strong> Report would display metrics on which Company raises the most or least tickets. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">To have ticket metrics displayed on this report, you would first have to associate Customers to Companies. Once this is done, the tickets raised by the requesters from a company would be tracked and the report on<strong> Top five Companies</strong> (based on ticket volume) would be generated. </span></p><p><span style="font-size: 16px;"><br /></span></p><p style=""><span style="font-size: 16px;">There is a<strong> toggle button</strong> to see the <strong>top 5</strong> and<strong> bottom 5</strong> customers in each metric by clicking on the sort button in the top right</span><span style="font-size: 16px;"> corner.</span></p><p style=""><br /></p><p style=""><span style="font-size: 16px;">If you would like to get a report on each/all contacts and companies and not just the top/bottom 5, you can use the<strong> Export</strong> option from the Ticket List View where you can filter the tickets by Contacts or Companies. </span></p>
 
 </details>
 
 <details>
-<summary><strong>저장 my filters 에 보고서 so that I don't have 로 repeat them each time?하는 방법은 무엇인가요?</strong></summary>
+<summary>어떻게 할 수 있나요 get a 보고서 with customised metrics to suit my business requirements?</summary>
 
-Just like 티켓 list views created within **티켓** tab, you could also 생성 그리고 저장 사용자 정의 views 위해 보고서 after applying filters. Once this is done, these are global 그리고 could be accessed 에 every reporting platform 그리고 you could avoid creating views again. Please 이동 로 this[article](https://지원.freshdesk.com/해결책/articles/217295-saving-보고서) which would guide you 로 set up 사용자 정의 report views.
+<p>If you require business-specific metrics to be derived from Tickets in your account, you could make use of the <a href="https://support.freshdesk.com/support/solutions/articles/226460-export-ticket-activities-from-your-helpdesk" rel="noreferrer noopener">Ticket Activities Export feature </a>within Freshdesk. Using this feature, you could extract ticket information as a JSON file into your BI tools and thereby extract metrics from the ticket activities.</p><p><br /></p><p>This way, you could create custom reports containing any metric from ticket activities, based on your business requirements.</p>
+
+</details>
+
+
+## 관리 및 유지보수
+
+<details>
+<summary>What are the different types of 보고서 available across various plans in Freshdesk?</summary>
+
+<table style="width: 99%;"><tbody><tr><td style="width: 13.8397%;"><div style="text-align: center;"><strong dir="ltr">Current Plan</strong></div></td><td dir="ltr" style="width: 20.0000%;"><div style="text-align: center;"><strong dir="ltr">Old Plan</strong></div></td><td style="width: 28.1294%;"><div style="text-align: center;"><strong>Reports</strong></div></td><td style="width: 22.616%;"><div style="text-align: center;"><strong>Filter</strong></div></td><td style="width: 15.4149%;"><div style="text-align: center;"><strong>Refresh Time</strong></div></td></tr><tr><td style="width: 13.8397%;"><div dir="ltr" style="text-align: center;"><strong dir="ltr">Free</strong></div></td><td style="width: 20.0000%;"><div style="text-align: center;"><strong dir="ltr">Sprout</strong></div><br /></td><td style="width: 28.1294%;"><div style="text-align: center;"><a href="https://support.freshdesk.com/support/solutions/articles/213169" target="_blank"></a><a href="https://support.freshdesk.com/support/solutions/articles/213203" rel="noopener noreferrer" target="_blank">Ticket Volume Trends&nbsp;</a></div></td><td style="width: 22.616%;"><div style="text-align: center;">Filter By date range</div></td><td style="width: 15.4149%; text-align: center;"><div style="text-align: center;">24 Hours</div></td></tr><tr><td style="width: 13.8397%;"><div dir="ltr" style="text-align: center;"><strong dir="ltr">Growth</strong></div></td><td style="width: 20.0000%;"><div style="text-align: center;"><strong dir="ltr">Blossom</strong></div><br /></td><td style="width: 28.1294%;"><div><a href="https://support.freshdesk.com/solution/articles/225559-helpdesk-in-depth-report-overview" rel="noopener noreferrer" target="_blank">Helpdesk In-depth</a>, <a href="https://support.freshdesk.com/support/solutions/articles/213203" rel="noopener noreferrer" target="_blank">Ticket Volume Trends&nbsp;</a></div></td><td style="width: 22.616%;"><div style="text-align: center;">All available filters except agent and group in Helpdesk In-depth Report</div></td><td style="text-align: center; width: 15.4149%;"><div style="text-align: center;">24 Hours</div></td></tr><tr><td style="width: 13.8397%;"><div dir="ltr" style="text-align: center;"><strong dir="ltr">Pro</strong></div></td><td style="width: 20.0000%;"><div style="text-align: center;"><strong dir="ltr">Garden</strong></div><br /></td><td style="width: 28.1294%;"><div style="text-align: center;"><span><a href="https://support.freshdesk.com/support/solutions/articles/213169" target="_blank"></a></span></div><div style="text-align: center;"><a href="https://support.freshdesk.com/support/solutions/articles/213169" rel="noopener noreferrer" target="_blank">Agent Performance</a>, <a href="https://support.freshdesk.com/support/solutions/articles/213172" rel="noopener noreferrer" target="_blank">Group Performance</a>, <a href="https://support.freshdesk.com/solution/articles/225559-helpdesk-in-depth-report-overview" rel="noopener noreferrer" target="_blank">Helpdesk In-depth</a>, <a href="https://support.freshdesk.com/support/solutions/articles/37584-time-sheet-summary-report" rel="noopener noreferrer" target="_blank">Time Sheet Summary</a>, <a href="https://support.freshdesk.com/support/solutions/articles/215321-setting-up-customer-satisfaction-surveys" rel="noopener noreferrer" target="_blank">Satisfaction Surveys</a>, <a href="https://support.freshdesk.com/support/solutions/articles/213203" rel="noopener noreferrer" target="_blank">Ticket Volume Trends</a></div><p><br /></p></td><td style="width: 22.616%;"><div style="text-align: center;"><a href="https://support.freshdesk.com/support/solutions/articles/212988" target="_blank"></a></div><div style="text-align: center;">All available filters except agent and group in Helpdesk In-depth Report</div></td><td style="width: 15.4149%; text-align: center;"><div style="text-align: center;">1 Hour</div></td></tr><tr><td style="width: 13.8397%;"><div style="text-align: center;"><strong dir="ltr">Pro</strong></div></td><td style="width: 20.0000%;"><div style="text-align: center;"><strong dir="ltr">Estate</strong></div><br /></td><td style="width: 28.1294%;"><div style="text-align: center;"><a href="https://support.freshdesk.com/support/solutions/articles/213169" target="_blank"></a><a href="https://support.freshdesk.com/support/solutions/articles/213226" target="_blank"></a></div><div style="text-align: center;"><a href="https://support.freshdesk.com/support/solutions/articles/213169" rel="noopener noreferrer" target="_blank">Agent Performance</a>, <a href="https://support.freshdesk.com/support/solutions/articles/213172" rel="noopener noreferrer" target="_blank">Group Performance</a>, <a href="https://support.freshdesk.com/solution/articles/225559-helpdesk-in-depth-report-overview" rel="noopener noreferrer" target="_blank">Helpdesk In-depth</a>, <a href="https://support.freshdesk.com/support/solutions/articles/213226" rel="noopener noreferrer" target="_blank">Performance Distribution</a>, <a href="https://support.freshdesk.com/support/solutions/articles/213203" rel="noopener noreferrer" target="_blank">Ticket Volume Trends</a>, <a href="https://support.freshdesk.com/support/solutions/articles/214629" rel="noopener noreferrer" target="_blank">Top Customer Analysis</a>, <a href="https://support.freshdesk.com/support/solutions/articles/37584-time-sheet-summary-report" rel="noopener noreferrer" target="_blank">Time Sheet Summary</a>, <a href="https://support.freshdesk.com/support/solutions/articles/227095-ticket-lifecycle-report" rel="noopener noreferrer" target="_blank">Ticket Lifecycle</a>, <a href="https://support.freshdesk.com/support/solutions/articles/215321-setting-up-customer-satisfaction-surveys" rel="noopener noreferrer" target="_blank">Satisfaction Surveys</a>&nbsp;</div><p><br /></p></td><td style="width: 22.616%;"><div style="text-align: center;">All available filters</div></td><td style="width: 15.4149%; text-align: center;"><div style="text-align: center;">1 Hour</div></td></tr><tr><td style="width: 13.8397%;"><div style="text-align: center;"><strong dir="ltr">Enterprise</strong></div></td><td style="width: 20.0000%;"><div style="text-align: center;"><strong dir="ltr">Forest</strong></div><br /></td><td style="width: 28.1294%;"><div style="text-align: center;"><a href="https://support.freshdesk.com/support/solutions/articles/213169" target="_blank"></a></div><div style="text-align: center;"><a href="https://support.freshdesk.com/support/solutions/articles/213169" rel="noopener noreferrer" target="_blank">Agent Performance</a>, <a href="https://support.freshdesk.com/support/solutions/articles/213172" rel="noopener noreferrer" target="_blank">Group Performance</a>, <a href="https://support.freshdesk.com/solution/articles/225559-helpdesk-in-depth-report-overview" rel="noopener noreferrer" target="_blank">Helpdesk In-depth</a>, <a href="https://support.freshdesk.com/support/solutions/articles/213226" rel="noopener noreferrer" target="_blank">Performance Distribution</a>, <a href="https://support.freshdesk.com/support/solutions/articles/213203" rel="noopener noreferrer" target="_blank">Ticket Volume Trends</a>, <a href="https://support.freshdesk.com/support/solutions/articles/214629" rel="noopener noreferrer" target="_blank">Top Customer Analysis</a>, <a href="https://support.freshdesk.com/support/solutions/articles/37584-time-sheet-summary-report" rel="noopener noreferrer" target="_blank">Time Sheet Summary</a>, <a href="https://support.freshdesk.com/support/solutions/articles/227095-ticket-lifecycle-report" rel="noopener noreferrer" target="_blank">Ticket Lifecycle</a>, <a href="https://support.freshdesk.com/support/solutions/articles/215321-setting-up-customer-satisfaction-surveys" rel="noopener noreferrer" target="_blank">Satisfaction Surveys</a></div><p><br /></p></td><td style="width: 22.616%;"><div style="text-align: center;">All available filters</div></td><td style="width: 15.4149%;"><br /><div style="text-align: center;">30 minutes</div></td></tr></tbody></table><p><br /></p><p>Refresh time as mentioned in the last column of the table is defined as the time it would take to update the report with all the data recorded on the helpdesk. Forest and Estate give an updated report every 30 minutes an hour respectively. Garden is again an hour and the lower plan gives them at 24 hours interval.&nbsp;</p>
 
 </details>
 
 <details>
-<summary><strong>왜 am I not able 로 view option 위해 scheduling 보고서?</strong></summary>
+<summary>방법 periodically 일정 the available 보고서?</summary>
 
-option 로 schedule 보고서 is 사용 가능한 only 로 **관리자**또는 **Supervisor**의 계정. Please 이동 로 **관리자 -> 팀 -> 상담원 -> 클릭 에 편집**next 로 one who is not able 로 view option 로 schedule 보고서 로 확인하다 role - agent could be assigned supervisor role, 에서 this case, 로 be able 로 view option. **참고:**Feature 로 Schedule 보고서 is 사용 가능한 only 에서 **Garden/Pro 요금제** onwards 에서 Freshdesk.
-
-</details>
-
-<details>
-<summary><strong>Are reporting metrics calculated based 에 Calendar hours 또는 Business hours?</strong></summary>
-
-보고서 would be based 에 Business hours 그리고 SLA-related 보고서 would be based 에 setting under **관리자 > Workflows > SLA Policies.**
+<p ><span dir="ltr" style="font-size: 16px;">The option to schedule a report is available from Garden/Pro Plan onwards, for both On-Demand and Saved Reports.&nbsp;</span></p><p ><span style="font-size: 16px;"><br /></span></p><p ><span style="font-size: 16px;">Please navigate to the <strong >Reports tab -&gt; click on the report</strong> for which you need to set this up <strong >-&gt; click on "Create Schedule"</strong> option available next to the Report Name (or) Report View Title.</span></p><p ><span style="font-size: 16px;"><br /></span></p><p ><span style="font-size: 16px;">Kindly note that we do not have this option for <strong >"Satisfaction Survey"&nbsp;</strong>reports.<br />For more details, please make use of the article which elaborates about <a href="https://support.freshdesk.com/support/solutions/articles/218139-scheduling-reports" target="_blank">Scheduling Reports</a>.</span></p>
 
 </details>
 
 <details>
-<summary><strong>schedule 보고서 위해 other 상담원 또는 customers?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>방법 내보내기 tickets to a particular email address?</summary>
 
-Sure, you would be able 로 schedule report 위해 other 상담원 또는 customers. Please 이동 로 **concerned report -> 클릭 에 "schedule report"** icon which is green 그리고 추가 their 이메일 addresses along 와 함께 already entered 이메일 while [scheduling report](https://지원.freshdesk.com/지원/solutions/articles/218139-scheduling-보고서) 또는 making changes 로 existing schedule. **참고:**Report scheduling is NOT possible 위해 deleted 연락처.
-
-</details>
-
-<details>
-<summary><strong>삭제 scheduled report?하는 방법은 무엇인가요?</strong></summary>
-
-Please go 로 **보고서 tab >** open **concerned report > 클릭 에 green calendar icon**against name 의 report. This green calendar icon indicates that report was earlier scheduled. 에 bottom left corner 의 'Schedule Report' pop-up, **삭제 Schedule** button will be 사용 가능한. Clicking 에 this button will 삭제 report 에서 your 계정.
+<p>Agents can export tickets from under the 'Tickets' tab inside Freshdesk. The required filters can be applied and then the 'Export' button can be clicked to generate the export.</p><p><br /></p><p>A link to the export file would be sent to the agent's email address which was used to trigger the export. </p>
 
 </details>
 
 <details>
-<summary><strong>get 내보내기 의 티켓 that have violated SLA?하는 방법은 무엇인가요?</strong></summary>
+<summary>어떻게 할 수 있나요 receive a PDF format of the 보고서 directly?</summary>
 
-You can get 내보내기 의 티켓 that breached SLA 에 의해 heading 로 보고서>Agent Performance. Apply 필수 filters 그리고 클릭 에 First Response SLA % 그리고 Resolution SLA % 그리고 클릭 에 number 의 티켓. You will see number 의 티켓 that have violated 와 함께 all details. You can 내보내기 it as shown 에서 [link.](https://share.vidyard.com/watch/g8XLULdUuYdPrZaHqDRuFX)
-
-</details>
-
-<details>
-<summary><strong>Are there any limitations 에서 drill-down option 위해 보고서?</strong></summary>
-
-Please find **limitations**에서 number 의 drill down options 사용 가능한 위해 보고서 given below: - maximum 의 **5 filters (fields)** can be applied 에서 each report. - Each 의 these 5 fields can include maximum 의 **50 values**. - maximum 의 **25 티켓** that were most recently modified will be shown 언제 you 클릭 에 bar graph. rest have 로 be exported.
+<p><span style="font-size: 16px;">When you have meetings for which you need to present data, you would like to acquire reports from the various options presented in the reports tab. In order to document this, we make it available as a pdf. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">Please navigate to the report that you require, kindly filter the information that needs to be available on paper and click on the <strong>Email PDF </strong>option at the top right corner of the page. This option could be used to receive this on your email. </span></p>
 
 </details>
 
 <details>
-<summary><strong>필터 report based 에 사용자 정의 text 필드?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>What will happen to my 보고서 if I delete an invalid ticket?</summary>
 
-As 의 now, we **do not** have functionality 로 필터 보고서 based 에 사용자 정의 text fields, 에서 Freshdesk. Kindly 생성 this 필드 as **dropdown** 만약 possible 로 have them listed 에서 filters within 보고서.
-
-</details>
-
-<details>
-<summary><strong>필터 티켓 based 에 ticket status?할 수 있나요은 무엇인가요?</strong></summary>
-
-As 의 now, **status is not 사용 가능한**as 필터 에서 Freshdesk. However, under **"****티켓"** tab, you could 필터 티켓 based 에 Status 그리고 Agent Name 그리고 **내보내기** filtered 티켓.
+<p>Tickets that are marked as spam, deleted and those that are merged will not be considered in the Reports. The metric for that ticket will not be included.</p>
 
 </details>
 
 <details>
-<summary><strong>change 기본값 values while running report?할 수 있나요은 무엇인가요?</strong></summary>
+<summary>할 수 있나요 일정 multiple exports of the same 보고서?</summary>
 
-Freshdesk 보고서 mainly focus 에 다양한 **metrics that can be calculated 에서 티켓** 에서 different sources like 포털, 이메일, social, chat 또는 phone. These values that are displayed 에서 report using which you can 필터 데이터 presented are ones that exist 에서 your ticket form 또는 fields that you use within 포털. **기본값 values 의 ticket form**cannot be changed 에서 order 위해 it 로 be reflected so 에서 보고서. You could always 연락하다 us (지원@freshdesk.com) 로 understand fields you want 로 report 에 그리고 we could guide you accordingly. 이란
-
-</details>
-
-<details>
-<summary><strong>metrics displayed 에서 헬프데스크 에서-depth report?이란은 무엇인가요?</strong></summary>
-
-Please find different metrics 의 **헬프데스크 에서 depth** report displayed are: - **Ticket metrics -**[Created 티켓](https://지원.freshdesk.com/해결책/articles/212988-created-티켓-헬프데스크-에서-depth-), [Resolved 티켓](https://지원.freshdesk.com/해결책/articles/212989-resolved-티켓-헬프데스크-에서-depth-), [Reopened 티켓](https://지원.freshdesk.com/해결책/articles/213067-reopened-티켓-헬프데스크-에서-depth-), [Unresolved 티켓](https://지원.freshdesk.com/해결책/articles/220369-unresolved-티켓-헬프데스크-에서-depth-) - **Performance metrics -**[Average first response time](https://지원.freshdesk.com/해결책/articles/213074-average-first-response-time-헬프데스크-에서-depth-), [Average response time](https://지원.freshdesk.com/해결책/articles/213085-average-response-time-헬프데스크-에서-depth-), [Average resolution time](https://지원.freshdesk.com/해결책/articles/213112-average-resolution-time-헬프데스크-에서-depth-), [Average first assign time](https://지원.freshdesk.com/해결책/articles/213121-average-first-assign-time-헬프데스크-에서-depth-) - **SLA metrics****-**[First response SLA](https://지원.freshdesk.com/해결책/articles/213166-first-response-sla-헬프데스크-에서-depth-), [Resolution SLA](https://지원.freshdesk.com/해결책/articles/213168-resolution-sla-헬프데스크-에서-depth-), [First 연락하다 resolution (FCR)](https://지원.freshdesk.com/해결책/articles/213144-first-연락하다-resolution-헬프데스크-에서-depth-)
+<p><span style="font-size: 16px;">Yes, you could use the same filters to generate the report under the Reports tab and use the <strong>"Save As" </strong>option to <strong>save the report view</strong>, multiple times with different titles. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">Within each of these saved report views, you would be able to <strong>schedule </strong>the reports to be sent to a <strong>different email address</strong> or at a <strong>varied time interval</strong>.</span></p>
 
 </details>
 
 <details>
-<summary><strong>왜 can't I 필터 based 에 Agent 그리고 Group 에서 헬프데스크 에서-depth report?</strong></summary>
+<summary>What do the green and red arrow marks in the Helpdesk in depth 보고서 denote ?</summary>
 
-ability 로 필터 based 에 상담원 그리고 Groups is only 사용 가능한 에서 **Estate/Pro**요금제 onwards. However, **Agent 그리고 Group performance**보고서 have this option 에 all 요금제.
-
-</details>
-
-<details>
-<summary><strong>왜 am I not able 로 필터 헬프데스크 에서-depth Report based 에 group 그리고 agent name?</strong></summary>
-
-ability 로 필터 헬프데스크 에서-depth Report based 에 group 그리고 agent name is 사용 가능한 only 에서 **Estate/Pro 요금제**onwards 에서 Freshdesk. Kindly 확인하다 your 요금제 details 에서 **관리자 -> 계정 -> 요금제 그리고 결제**.
+<p style="">Percentage decrease or increase of the metric that is shown is a comparison to the previous identical time range. For example, if you are looking at a metric of this month, the percentage will be a comparison of the previous month. </p>
 
 </details>
 
 <details>
-<summary><strong>Will automated responses be counted as agent response 에서 therReports?</strong></summary>
+<summary>어떻게 할 수 있나요 save my filters on the 보고서 so that I don't have to repeat them each time?</summary>
 
-No, 이메일 notifications 또는 automated responses will not be counted as agent response 에서 보고서.
-
-</details>
-
-<details>
-<summary><strong>필터 보고서 based 에 country 에서 which they are raised?하는 방법은 무엇인가요?</strong></summary>
-
-Please 이동 로 **관리자 -> Workflows -> Ticket Fields** 로 set up[사용자 정의 dropdown 필드](https://지원.freshdesk.com/지원/solutions/articles/37596-creating-사용자 정의-fields-에서-your-ticket-form) 위해 **Country/Location** which would be 사용 가능한 에 ticket form once saved. Kindly go 로 **보고서 tab -> 클릭 에 필터 within concerned report -> under "more"** this 필드 is 사용 가능한 which could be applied 그리고 report could be generated.
+<p style=""><span style="font-size: 16px;">Just like tickets list views created within the <strong>Tickets</strong> tab, you could also create and save custom views for reports after applying the filters. </span></p><p><br /></p><p style=""><span style="font-size: 16px;">Once this is done, these are global and could be accessed on every reporting platform and you could avoid creating the views again. </span></p><p><br /></p><p style=""><span style="font-size: 16px;">Please navigate to this<a href="https://support.freshdesk.com/solution/articles/217295-saving-reports" target="_blank"> article</a></span><span style="font-size: 16px;"> which would guide you to set up the custom report views. </span></p>
 
 </details>
 
 <details>
-<summary><strong>Is merged ticket taken into consideration while generating 보고서?</strong></summary>
+<summary>Why am I not able to view the option for scheduling 보고서?</summary>
 
-**Merged**티켓 would not be taken into consideration while generating 보고서 에서 **보고서**tab.
-
-</details>
-
-<details>
-<summary><strong>get number 의 티켓 that agent re-assigned 로 another agent?하는 방법은 무엇인가요?</strong></summary>
-
-Please 이동 로 **보고서 -> Agent Performance 보고서**where you could see metric called **"티켓 re-assigned**.**"** This value would be number 의 티켓 that were re-assigned 에서 one agent 로 another. This report could be further filtered 에 의해 상담원 로 see this metric displayed 위해 concerned agent who has been reassigned 티켓 에서 another agent.
+<p ><span style="font-size: 16px;">The option to schedule reports is available only to the <strong >Admin&nbsp;</strong>or <strong >Supervisor&nbsp;</strong>of the account.&nbsp;</span></p><p ><br /></p><p ><span style="font-size: 16px;">Please navigate to <strong dir="ltr">Admin -&gt; Team -&gt; Agents -&gt; click on edit&nbsp;</strong>next to the one who is not able to view the option to schedule reports to verify the role - the agent could be assigned the supervisor role, in this case, to be able to view the option.&nbsp;</span></p><p ><span style="font-size: 16px;"><br /></span></p><p ><span style="font-size: 16px;"><strong >Note:&nbsp;</strong>Feature to Schedule Reports is available only from the <strong dir="ltr">Garden/Pro Plan</strong> onwards in Freshdesk.</span></p>
 
 </details>
 
 <details>
-<summary><strong>What 티켓 are taken into 계정 위해 count 의 Resolved 티켓 에서 보고서?</strong></summary>
+<summary>Are reporting metrics calculated based on Calendar hours or Business hours?</summary>
 
-Both **closed** as well as **resolved**티켓 would be taken into 계정 위해 resolved 티켓 count while generating 보고서.
-
-</details>
-
-<details>
-<summary><strong>How are Resolution SLA 그리고 First Response SLA percentage metrics calculated?</strong></summary>
-
-**First Response SLA%** = percentage 의 number 의 티켓 where first responses were sent within SLA divided 에 의해 total number 의 티켓 에 which first responses were sent 에서 selected time period within filters 에 보고서. **Resolution SLA%** = percentage 의 number 의 티켓 resolved within SLA divided 에 의해 total number 의 티켓 resolved during selected time period within filters.
+<p >The Reports would be based on Business hours and SLA-related reports would be based on the setting under <strong dir="ltr">Admin &gt; Workflows &gt; SLA Policies.</strong></p>
 
 </details>
 
 <details>
-<summary><strong>How many hours do 보고서 take 로 get updated?</strong></summary>
+<summary>방법 delete a scheduled 보고서?</summary>
 
-performance 보고서 take half hour 로 get updated 에 **Forest/Enterprise** 요금제 그리고 hour 에 **Estate/Pro** 요금제. 위해 accounts 에서**Garden/Growth**요금제, it takes four hours 그리고 에 other two - **sprout/Free 그리고 blossom,** it takes 24 hours 위해 업데이트.
-
-</details>
-
-<details>
-<summary><strong>How is "티켓 Re-opened" metric calculated 만약 ticket is reopened 다수의 times?</strong></summary>
-
-언제 ticket is re-opened 다수의 times it is taken as single count during report generation. It would show number 의 티켓 that were reopened during that given time-period upon applying 필터 within concerned report.
+<p>Please go to the <strong>Reports tab &gt;</strong> open the <strong>concerned report &gt; click on the green calendar icon </strong>against the name of the report. This green calendar icon indicates that a report was earlier scheduled.</p><p><br /></p><p>On the bottom left corner of the 'Schedule Report' pop-up, a <strong>Delete Schedule</strong> button will be available. Clicking on this button will delete the report from your account.</p>
 
 </details>
 
 <details>
-<summary><strong>How are FCR%, First Response SLA%, 그리고 Average First response time metrics calculated 위해 Agent Performance Report?</strong></summary>
+<summary>방법 get an 내보내기 of tickets that have violated SLA?</summary>
 
-**FCR%** = % 의 Number 의 티켓 resolved after first 연락하다 made 에 의해 고객 divided 에 의해 total number 의 티켓 resolved 에서 selected time period. **First Response SLA%** = % 의 Number 의 티켓 whose first responses were sent within SLA divided 에 의해 total number 의 티켓 whose first responses were sent 에서 selected time period. **Average 1st response time** = Total time taken 로 send first response during selected time period divided 에 의해 number 의 티켓 whose first responses were sent 에서 selected time period. Kindly go through this [link ](https://지원.freshdesk.com/지원/solutions/articles/213169-agent-performance-report)위해 detailed information about metrics 에서 **Agent Performance Report**.
-
-</details>
-
-<details>
-<summary><strong>Would response time 의 reply sent outside business hours be taken into 계정 에서 Agent Performance 보고서?</strong></summary>
-
-time period within **Business hours**would only be considered 위해 calculating response time metrics 에서 보고서. time period that was elapsed **outside Business hours** is excluded while calculating metrics within 보고서 tab.
+<p style="">You can get an export of tickets that breached the SLA by heading to Reports&gt;Agent Performance. Apply the required filters and click on First Response SLA % and Resolution SLA % and click on the number of tickets. You will see the number of tickets that have violated with all the details. You can export it as shown in the <a href="https://share.vidyard.com/watch/g8XLULdUuYdPrZaHqDRuFX" target="_blank" rel="noreferrer noopener">link.</a></p>
 
 </details>
 
 <details>
-<summary><strong>확인하다 number 의 overdue 티켓 위해 agent?하는 방법은 무엇인가요?</strong></summary>
+<summary>Are there any limitations in the drill-down option for the 보고서?</summary>
 
-number 의 **Overdue** 티켓 위해 agent can be found 에서 within **Agent Performance Report**. metric corresponding 로 Resolution SLA could be clicked upon, which would display list 의 corresponding 티켓. Under **"Violated"**tab 에서 that list, you would get number 그리고 list 의 Overdue 티켓.
-
-</details>
-
-<details>
-<summary><strong>see total number 의 티켓 that were reassigned 에 의해 one group 로 another?는 어디서은 무엇인가요?</strong></summary>
-
-You could have this tracked 와 함께 티켓 re-assigned metric 에서 **"Group Performance"** Report. This would show number 의 티켓 that were re-assigned 로 that group. Please 이동 로 **보고서 -> 클릭 에 group performance report -> 그리고 필터** 에 의해 concerned group 로 see this metric specifically. You could also 클릭 에 that count 로 see that list 의 티켓 that were reassigned 에서 Garden 요금제.
+<p style=""><span style="font-size: 16px;">Please find the<strong> limitations </strong>in the number of drill down options available for reports given below: </span><span style="font-size: 16px;"></span><br /></p><ul><li><span style="font-size: 16px;"></span><span style="font-size: 16px;"><span style='font-family: "Helvetica Neue";'>A maximum of <strong>5 filters (fields)</strong> can be applied in each report.</span></span></li><li><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;">Each of these 5 fields can include a maximum of <strong>50 values</strong>.</span></span></li><li><span style="font-size: 16px;"><span style='font-family: "Helvetica Neue";'>A maximum of <strong>25 tickets</strong> that were most recently modified will be shown when you click on a bar graph. The rest have to be exported.</span></span></li></ul><p><span style="font-family: Helvetica Neue; font-size: 16px;"><br /></span></p>
 
 </details>
 
 <details>
-<summary><strong>find number 의 replies sent 에 의해 my 상담원?하는 방법은 무엇인가요?</strong></summary>
+<summary>가능한가요 to 필터 tickets based on ticket 상태?</summary>
 
-Please 이동 로 **보고서 tab ->클릭 에 Agent Performance Report**로 see this metric. **Responses metric** would denote number 의 replies sent 에 의해 agent. You could also use 필터 option, 로 generate this metric based 에 filtered conditions 그리고 위해 particular 상담원.
-
-</details>
-
-<details>
-<summary><strong>Will non- business hours be counted 에서 calculating resolution time?</strong></summary>
-
-non business hours will not be calculated 에서 보고서. resolution time would be number 의 business hours 에서 ticket creation time 로 resolution time(Not considering SLA running 에 ticket).
+<p><span style="font-size: 16px;">As of now, <strong>status is not available </strong>as a filter in Freshdesk. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">However, under the <strong>"</strong><strong>Tickets"</strong> tab, you could filter tickets based on Status and Agent Name and <strong>Export</strong> the filtered tickets. </span></p>
 
 </details>
 
 <details>
-<summary><strong>에서 Phone Summary Report, what does "Unanswered Call" mean?</strong></summary>
+<summary>할 수 있나요 change the default values while running a 보고서?</summary>
 
-Any call that is not picked up 에 의해 agent would be shown as **Unanswered Call****. **만약 there are no 상담원 로 pick calls unanswered call would be marked under "No Agent". ****
-
-</details>
-
-<details>
-<summary><strong>Do "Waiting 에 고객" 그리고 "Waiting 에 Third Party" statuses affect average response time?</strong></summary>
-
-response time does not depend upon **Status** 의 Ticket. So, 만약 ticket is moved 로 **Waiting 에 고객** 또는 **Pending,** time spent 에서 those statuses would also be considered 위해 response time.
+<p><span style="font-size: 16px;">Freshdesk reports mainly focus on the various <strong>metrics that can be calculated from tickets</strong> from different sources like the portal, email, social, chat or phone. </span></p><p><br /></p><p><span style="font-size: 16px;">These values that are displayed in a report using which you can filter the data presented are the ones that exist in your ticket form or fields that you use within the portal. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">The <strong>default values of the ticket form </strong>cannot be changed in order for it to be reflected so in reports. You could always contact us (support@freshdesk.com) to understand what are the fields you want to report on and we could guide you accordingly. </span></p>
 
 </details>
 
 <details>
-<summary><strong>How does Top-고객 Analysis Report work?</strong></summary>
+<summary>What are the metrics displayed in Helpdesk In-depth 보고서?</summary>
 
-**Top-고객 Analysis** Report would display metrics 에 which Company raises most 또는 least 티켓. 로 have ticket metrics displayed 에 this report, you would first have 로 associate Customers 로 회사. Once this is done, 티켓 raised 에 의해 requesters 에서 company would be tracked 그리고 report 에**Top five 회사** (based 에 ticket volume) would be generated. There is **toggle button** 로 see **top 5** 그리고**bottom 5** customers 에서 each metric 에 의해 clicking 에 sort button 에서 top right corner. 만약 you would like 로 get report 에 each/all 연락처 그리고 회사 그리고 not just top/bottom 5, you can use **내보내기** option 에서 Ticket List View where you can 필터 티켓 에 의해 연락처 또는 회사.
-
-</details>
-
-<details>
-<summary><strong>I see that there is new reporting feature called "Ticket lifecycle" added 로 my panel. Please brief me about this.은 무엇인가요?</strong></summary>
-
-We have newly added report that gives you dynamics 의 resolved 또는 completed ticket 로 track changes made 로 it which include SLA violations, reassignments 그리고 response time recorded 에 them. This is called "Ticket Lifecycle" which aids this 에서 depth studying 의 activity 에 each ticket that can be filtered using these parameters: time period, 고객, source, priority, product, SLA violated, 에서 least once 에서 group, 에서 least once 에서 agent 그리고 에서 least once 에서 status. Kindly 참고 that this is 사용 가능한 에서 **Estate/Pro** 요금제 그리고 above. Documentation 에 this is given below: [https://지원.freshdesk.com/지원/solutions/articles/227095-ticket-lifecycle-report](https://지원.freshdesk.com/지원/solutions/articles/227095-ticket-lifecycle-report)
+<p><span style="font-size: 16px;">Please find the different metrics of the <strong>Helpdesk in depth</strong> report displayed are:</span></p><ol><li><span style="font-size: 16px;"><strong>Ticket metrics - </strong><a href="https://support.freshdesk.com/solution/articles/212988-created-tickets-helpdesk-in-depth-">Created tickets</a>, <a href="https://support.freshdesk.com/solution/articles/212989-resolved-tickets-helpdesk-in-depth-">Resolved tickets</a>, <a href="https://support.freshdesk.com/solution/articles/213067-reopened-tickets-helpdesk-in-depth-">Reopened tickets</a>, <a href="https://support.freshdesk.com/solution/articles/220369-unresolved-tickets-helpdesk-in-depth-">Unresolved tickets</a></span></li><li><span style="font-size: 16px;"><strong>Performance metrics - </strong><a href="https://support.freshdesk.com/solution/articles/213074-average-first-response-time-helpdesk-in-depth-">Average first response time</a>, <a href="https://support.freshdesk.com/solution/articles/213085-average-response-time-helpdesk-in-depth-">Average response time</a>, <a href="https://support.freshdesk.com/solution/articles/213112-average-resolution-time-helpdesk-in-depth-">Average resolution time</a>, <a href="https://support.freshdesk.com/solution/articles/213121-average-first-assign-time-helpdesk-in-depth-">Average first assign time</a></span></li><li><span style="font-size: 16px;"><strong>SLA metrics </strong><strong>- </strong><a href="https://support.freshdesk.com/solution/articles/213166-first-response-sla-helpdesk-in-depth-">First response SLA</a>, <a href="https://support.freshdesk.com/solution/articles/213168-resolution-sla-helpdesk-in-depth-">Resolution SLA</a>, <a href="https://support.freshdesk.com/solution/articles/213144-first-contact-resolution-helpdesk-in-depth-">First contact resolution (FCR)</a></span></li></ol><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>에서 which 요금제 is new 대시보드 사용 가능한?</strong></summary>
+<summary>Why can't I 필터 based on Agent and 그룹 in the Helpdesk in-depth 보고서?</summary>
 
-new 대시보드 contains 관리자, Supervisor 그리고 Agent Snapshot 와 함께 metrics that are role 특정한. These metrics would be made 사용 가능한 에 대시보드, as part 의 drop-down 와 함께 text "Standard". This feature is 사용 가능한 에서 **Estate/Pro** 요금제 onwards 에서 Freshdesk.
-
-</details>
-
-<details>
-<summary><strong>different snapshots 사용 가능한 에서 new 대시보드 ?이란은 무엇인가요?</strong></summary>
-
-대시보드 is 사용 가능한 에서 three types 의 snapshots : 1. 관리자 Snapshot 2. Supervisor Snapshot 3. Agent Snapshot These are role-based snapshot 그리고 would be 사용 가능한 로 agent based 에 their role. i.e 위해 관리자 의 계정, only 관리자 Snapshot would be 사용 가능한.
+<p><span dir="ltr" style="font-size: 16px;">The ability to filter based on the Agents and Groups is only available from the <strong dir="ltr">Estate/Pro&nbsp;</strong>plan onwards.&nbsp;</span></p><p><br /></p><p><span style="font-size: 16px;">However, the <strong>Agent and Group performance&nbsp;</strong>reports have this option on all plans.</span></p>
 
 </details>
 
 <details>
-<summary><strong>change view 의 대시보드 로 관리자 snapshot?하는 방법은 무엇인가요?</strong></summary>
+<summary>Why am I not able to 필터 the Helpdesk In-depth 보고서 based on 그룹 and agent name?</summary>
 
-Please 이동 로 **"대시보드"** 그리고 클릭 에 dropdown 와 함께 label **"Standard"** 그리고 그러면 선택 **"관리자 Snapshot"**에서 drop-down. You could 그러면 view 보고서 위해 관리자 대시보드, 와 함께 metrics 위해 헬프데스크.
-
-</details>
-
-<details>
-<summary><strong>difference between agent 그리고 관리자 snapshot?이란은 무엇인가요?</strong></summary>
-
-agent snapshot would give detailed 보고서 그리고 tasks 위해 that 특정한 agent, while 관리자 snapshot would comprise 의 보고서 그리고 tasks 위해 whole 헬프데스크 (Today's Ticket Trend,사용 가능한 상담원,Top 10 Customers 에 의해 Unresolved 티켓 그리고 so 에).
+<p ><span style="font-size: 16px;">The ability to filter Helpdesk In-depth Report based on group and agent name is available only from the <strong dir="ltr">Estate/Pro Plan&nbsp;</strong>onwards in Freshdesk.&nbsp;</span></p><p ><span style="font-size: 16px;"><br /></span></p><p ><span style="font-size: 16px;">Kindly check your plan details in <strong dir="ltr">Admin -&gt; Account -&gt; Plans and billing</strong>.&nbsp;</span></p>
 
 </details>
 
 <details>
-<summary><strong>time period taken 로 업데이트 sections 에 관리자 대시보드?이란은 무엇인가요?</strong></summary>
+<summary>Will automated responses be counted as an agent response in therReports?</summary>
 
-다양한 sections 의 관리자 대시보드 are not real-time. Today's ticket trends 그리고 Group Performance would be updated once every 30 minutes ( based 에 your 헬프데스크 time zone ). other reporting metrics 위해 헬프데스크 would be updated 10 minutes. 위해 Group Performance section, there is upper limit 의 50 groups that could be displayed. 만약 number 의 groups is more than 50, top 50 groups based 에 ticket volume would be listed first.
-
-</details>
-
-<details>
-<summary><strong>왜 is there difference 에서 ticket count between ticket 내보내기 그리고 보고서?</strong></summary>
-
-**ticket 내보내기** takes into 계정 **merged** 티켓 which are not included 에서 count 위해 보고서. 위해 example, 만약 three 티켓 are merged together, 보고서 will see that as one ticket; whereas ticket 내보내기 would see them as separate 티켓. This is one 의 reasons 위해 discrepancy 에서 ticket count. Merged 티켓 would not be taken into consideration while generating 보고서 에서 분석 Please refer 로 [내보내기 my 티켓 에서 Freshdesk 하는 방법](https://지원.freshdesk.com/en/지원/solutions/articles/225158)로 내보내기 티켓 에서 List view.
+<p>No, the email notifications or automated responses will not be counted as an agent response in the reports.</p>
 
 </details>
 
 <details>
-<summary><strong>왜 can't I see all my fields 에서 filters 에 보고서 tab?</strong></summary>
+<summary>방법 필터 보고서 based on the country from which they are raised?</summary>
 
-Under 보고서 tab, 언제 you 클릭 에 필터 beneath concerned report, you would only see **dropdown**그리고 **dependent dropdown**fields. Fields such as Single line texts, 확인하다-boxes, etc. are**not included**. 위해 데이터 dump 의 all fields, please 이동 로 **티켓 tab ->**그리고 do **내보내기** (highlighted 에서 blue) 에서 right side 의 티켓 list view.
-
-</details>
-
-<details>
-<summary><strong>왜 are my 보고서 not live yet, 그리고 why can't I view today's 데이터?</strong></summary>
-
-로 make new 보고서 more informative, we have made changes 에서 Architecture model 의 its working. As you might have noticed, we have added number 의 new event-based metrics like **Number 의 Ticket Reopened**, **Number 의 Notes Added**, **Number 의 Responses Added**, **Number 의 티켓 Reassigned**, etc. All these metrics could not have been supported 에 의해 previous architecture. 에서 current model, 데이터 위해 accounts 에서 **Forest/Enterprise**요금제 will be pushed out 에서 half hour 그리고 에서 hour 위해 **Estate/Pro.** It is updated every four hours 에서 **arden/Growth**요금제; 위해 **Sprout/free**그리고**Blossom** 요금제, it will be pushed out once every **24 hours.** G
+<p><span style="font-size: 16px;">Please navigate to <strong dir="ltr">Admin -&gt; Workflows -&gt; Ticket Fields</strong> to set up<a href="https://support.freshdesk.com/support/solutions/articles/37596-creating-custom-fields-in-your-ticket-form"> a custom dropdown field</a> for <strong>Country/Location</strong> which would be available on the ticket form once saved. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">Kindly go to the <strong>Reports tab -&gt; click on filter within the concerned report -&gt; under "more"</strong> this field is available which could be applied and the report could be generated. </span></p>
 
 </details>
 
 <details>
-<summary><strong>왜 are changes made 에 ticket not reflecting 에서 보고서?</strong></summary>
+<summary>Is a merged ticket taken into consideration while generating 보고서?</summary>
 
-에서 current reporting model, 데이터 위해 accounts 에서 **Forest/Enterprise**요금제 would be pushed out 에서 half hour 그리고 에서 hour 위해 **Estate/Pro.** It is updated every four hours 위해 **Garden/Growth** 요금제. 언제 you are 에서 other two 요금제**(Blossom 또는 Sprout/Free),** it would be pushed out once every 24 hours. So changes would reflect according 로 **요금제**you are 에 그리고 언제 보고서 are being updated 에서 your system.
-
-</details>
-
-<details>
-<summary><strong>Who would have access 로 보고서 에서 Freshdesk?</strong></summary>
-
-보고서 tab 에 your Freshdesk 계정 would be visible 위해 all 상담원 와 함께 associated Agent Role as Supervisor 그리고 above. Any agent who is associated 와 함께 this role would be able 로 view 보고서 로 get 헬프데스크 Metrics. Also, they would be able 로 schedule 보고서 로 be sent over 로 특정한 이메일 addresses, periodically.
+<p><span style="font-size: 16px;"><strong>Merged </strong>tickets would not be taken into consideration while generating reports in the <strong>Reports </strong>tab. </span></p>
 
 </details>
 
 <details>
-<summary><strong>get 보고서 와 함께 customised metrics 로 suit my business requirements?하는 방법은 무엇인가요?</strong></summary>
+<summary>방법 get the number of tickets that an agent re-assigned to another agent?</summary>
 
-만약 you require business-특정한 metrics 로 be derived 에서 티켓 에서 your 계정, you could make use 의 [Ticket Activities 내보내기 feature](https://지원.freshdesk.com/지원/solutions/articles/226460-내보내기-ticket-activities-에서-your-헬프데스크)within Freshdesk. Using this feature, you could extract ticket information as JSON file into your BI tools 그리고 thereby extract metrics 에서 ticket activities. This way, you could 생성 사용자 정의 보고서 containing any metric 에서 ticket activities, based 에 your business requirements.
+<p><span style="font-size: 16px;">Please navigate to <strong>Reports -&gt; Agent Performance Reports </strong>where you could see the metric called <strong>"Tickets re-assigned</strong>.<strong>"</strong></span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">This value would be the number of tickets that were re-assigned from one agent to another. This report could be further filtered by agents to see this metric displayed for the concerned agent who has been reassigned tickets from another agent. </span></p>
 
 </details>
 
 <details>
-<summary><strong>see number 의 티켓 received 에 daily basis?하는 방법은 무엇인가요?</strong></summary>
+<summary>What tickets are taken into account for the count of Resolved Tickets in 보고서?</summary>
 
-Ticket Volume Trends should help you 와 함께 this metric. 이동 로 **분석 > 큐레이티드 보고서 > Ticket Volume Trends > Load Analysis**. You can view number 의 티켓 received 에 daily basis 위해 set date range. ![이미지](https://s3.amazonaws.com/cdn.freshdesk.com/데이터/헬프데스크/attachments/production/50011877050/original/p9snH5jnq1YFgAVpT9Op8vz4ccEb1M487w.png?1716144887)
+<p><span style="font-size: 16px;">Both <strong>closed</strong> as well as <strong>resolved </strong>tickets would be taken into account for the resolved tickets count while generating reports. </span></p>
 
 </details>
 
----
+<details>
+<summary>How are the Resolution SLA and First Response SLA percentage metrics calculated?</summary>
 
-## 🔗 관련 자료
+<p><strong><span style="font-size: 16px;">First Response SLA%</span></strong><span style="font-size: 16px;"> = The percentage of the number of tickets where the first responses were sent within the SLA divided by the total number of tickets on which the first responses were sent in a selected time period within the filters on the reports. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;"><strong>Resolution SLA%</strong> = The percentage of the number of tickets resolved within the SLA divided by the total number of tickets resolved during the selected time period within the filters. </span></p>
 
-추가적인 도움이 필요하시면 다음 자료들을 참고해 주세요:
+</details>
 
-- [Freshdesk 도움말 센터](https://support.freshdesk.com)
-- [커뮤니티 포럼](https://community.freshworks.com)
-- [고객지원팀 문의](mailto:support@freshdesk.com)
+<details>
+<summary>How many hours do the 보고서 take to get updated?</summary>
 
-:::tip 도움말
-더 자세한 정보나 개별 상담이 필요하시면 고객지원팀으로 연락해 주세요.
-:::
+<p ><span style="font-size: 16px;">The performance reports take half an hour to get updated on the<strong dir="ltr">&nbsp;Forest/Enterprise</strong> plan and an hour on the <strong dir="ltr">Estate/Pro</strong> plan.&nbsp;</span></p><p ><span style="font-size: 16px;"><br /></span></p><p ><span style="font-size: 16px;">For the accounts in<strong dir="ltr">&nbsp;Garden/Growth&nbsp;</strong>plan, it takes four hours and on the other two - <strong dir="ltr">sprout/Free and blossom,</strong> it takes 24 hours for an update.</span></p>
+
+</details>
+
+<details>
+<summary>How is the "Tickets Re-opened" 지표 calculated if a ticket is reopened multiple times?</summary>
+
+<p><span style="font-size: 16px;">When a ticket is re-opened multiple times it is taken as a single count during report generation. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">It would show the number of tickets that were reopened during that given time-period upon applying the filter within the concerned report.</span></p>
+
+</details>
+
+<details>
+<summary>How are FCR%, First Response SLA%, and Average First response time metrics calculated for Agent Performance 보고서?</summary>
+
+<p><span style="font-size: 16px;"><strong>FCR%</strong> = % of Number of tickets resolved after the first contact made by the customer divided by the total number of tickets resolved in the selected time period.</span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;"><strong>First Response SLA%</strong> = % of Number of tickets whose first responses were sent within the SLA divided by the total number of tickets whose first responses were sent in the selected time period.</span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;"><strong>Average 1st response time</strong> = Total time taken to send the first response during the selected time period divided by the number of tickets whose first responses were sent in the selected time period.</span></p><p><br /></p><p><br /></p><p><br /></p><p><span style="font-size: 16px;">Kindly go through this </span><a href="https://support.freshdesk.com/support/solutions/articles/213169-agent-performance-report"><span style="font-size: 16px;">link </span></a><span style="font-size: 16px;">for detailed information about the metrics in <strong>Agent Performance Report</strong>.</span></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p><p><br /></p>
+
+</details>
+
+<details>
+<summary>Would the response time of a reply sent outside business hours be taken into account in Agent Performance 보고서?</summary>
+
+<p><span style="font-size: 16px;">The time period within <strong>Business hours </strong>would only be considered for calculating the response time metrics in the Reports.</span><span style="font-size: 16px;">The time period that was elapsed <strong>outside Business hours</strong> is excluded while calculating metrics within the Reports tab. </span></p>
+
+</details>
+
+<details>
+<summary>어떻게 check the number of overdue tickets for an agent?</summary>
+
+<p><span style="font-size: 16px;">The number of <strong>Overdue</strong> Tickets for an agent can be found from within the <strong>Agent Performance Report</strong>. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">The metric corresponding to Resolution SLA could be clicked upon, which would display the list of corresponding tickets. Under the <strong>"Violated" </strong>tab in that list, you would get the number and list of Overdue Tickets.</span></p>
+
+</details>
+
+<details>
+<summary>어디서 할 수 있나요 see the total number of tickets that were reassigned by one 그룹 to another?</summary>
+
+<p><span style="font-size: 16px;">You could have this tracked with the Tickets re-assigned metric in <strong>"Group Performance"</strong> Report. This would show the number of tickets that were re-assigned to that group. Please navigate to <strong>Reports -&gt; click on group performance report -&gt; and filter</strong> by the concerned group to see this metric specifically. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">You could also click on that count to see that list of tickets that were reassigned from the Garden plan.</span></p>
+
+</details>
+
+<details>
+<summary>어떻게 find the number of replies sent by my agents?</summary>
+
+<p><span style="font-size: 16px;">Please Navigate to the <strong>Reports tab -&gt;click on Agent Performance Report </strong>to see this metric. </span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">The <strong>Responses metric</strong> would denote the number of replies sent by the agent. You could also use the Filter option, to generate this metric based on the filtered conditions and for particular agents. </span></p>
+
+</details>
+
+<details>
+<summary>Will non- business hours be counted in calculating resolution time?</summary>
+
+<p>The non business hours will not be calculated in reports. The resolution time would be the number of business hours from the ticket creation time to the resolution time(Not considering the SLA running on the ticket).</p>
+
+</details>
+
+<details>
+<summary>In the Phone Summary 보고서, what does "Unanswered Call" mean?</summary>
+
+<p><span style="font-size: 16px;">Any call that is not picked up by an agent would be shown as an <strong>Unanswered Call</strong></span><strong><span style="font-size: 16px;">. </span></strong><span style="font-size: 16px;">If there are no agents to pick calls the unanswered call would be marked under "No Agent". </span><span style="font-size: 16px;"></span><strong><span style="font-size: 16px;"></span></strong></p>
+
+</details>
+
+<details>
+<summary>I see that there is a new reporting feature called "Ticket lifecycle" added to my panel. Please brief me about this.</summary>
+
+<p><span style="font-size: 16px;">We have a newly added report that gives you the dynamics of a resolved or completed ticket to track the changes made to it which include SLA violations, reassignments and the response time recorded on them.&nbsp;</span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">This is called "Ticket Lifecycle" which aids this in depth studying of the activity on each ticket that can be filtered using these parameters: time period, customer, source, priority, product, SLA violated, at least once in a group, at least once in agent and at least once in status.</span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">Kindly note that this is available from the<strong dir="ltr">&nbsp;Estate/Pro</strong> plan and above. Documentation on this is given below:&nbsp;</span></p><p><span style="font-size: 16px;"><br /></span></p><p><a href="https://support.freshdesk.com/support/solutions/articles/227095-ticket-lifecycle-report" rel="noreferrer"><span style="font-size: 16px;">https://support.freshdesk.com/support/solutions/articles/227095-ticket-lifecycle-report</span></a></p>
+
+</details>
+
+<details>
+<summary>From which plan is the new 대시보드 available?</summary>
+
+<p dir="ltr">The new dashboard contains Admin, Supervisor and Agent Snapshot with metrics that are role specific. These metrics would be made available on the Dashboard, as part of the drop-down with text "Standard". This feature is available from the <strong>Estate/Pro</strong> Plan onwards in Freshdesk.</p>
+
+</details>
+
+<details>
+<summary>What are the different snapshots available in the new 대시보드 ?</summary>
+
+<p>The dashboard is available in three types of snapshots :</p><p>1. Admin Snapshot</p><p>2. Supervisor Snapshot</p><p>3. Agent Snapshot</p><p><br /></p><p>These are role-based snapshot and would be available to the agent based on their role. i.e for an Admin of the Account, only Admin Snapshot would be available.</p><p><br /></p>
+
+</details>
+
+<details>
+<summary>방법 change the view of 대시보드 to admin snapshot?</summary>
+
+<p>Please navigate to the <strong>"Dashboard"</strong> and click on the dropdown with the label <strong>"Standard"</strong> and then select <strong>"Admin Snapshot" </strong>from the drop-down. You could then view the reports for the Admin Dashboard, with metrics for the Helpdesk.</p>
+
+</details>
+
+<details>
+<summary>무엇인가요 the difference between agent and admin snapshot?</summary>
+
+<p>The agent snapshot would give detailed reports and tasks for that specific agent, while the admin snapshot would comprise of the reports and tasks for the whole Helpdesk (Today's Ticket Trend,Available agents,Top 10 Customers by Unresolved Tickets and so on).</p>
+
+</details>
+
+<details>
+<summary>무엇인가요 the time period taken to 업데이트하다 the sections on Admin 대시보드?</summary>
+
+<p dir="ltr">The various sections of the Admin Dashboard are not real-time. Today's ticket trends and Group Performance would be updated once every 30 minutes ( based on your helpdesk time zone ). The other reporting metrics for the Helpdesk would be updated 10 minutes.</p><p ><br /></p><p >For the Group Performance section, there is an upper limit of 50 groups that could be displayed. If the number of groups is more than 50, the top 50 groups based on ticket volume would be listed first.</p>
+
+</details>
+
+<details>
+<summary>왜인가요 there a difference in the ticket count between a ticket 내보내기 and the 보고서?</summary>
+
+<p><span style="font-size: 16px;">The<strong>&nbsp;ticket export</strong> takes into account the <strong>merged</strong> tickets which are not included in the count for the reports.&nbsp;</span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">For example, if three tickets are merged together, the reports will see that as one ticket; whereas the ticket export would see them as separate tickets.&nbsp;</span><span style="font-size: 16px;">This is one of the reasons for a discrepancy in ticket count.&nbsp;</span></p><p><br /></p><p><span dir="ltr" style="font-size: 16px;">Merged tickets would not be taken into consideration while generating reports in Analytics</span></p><p><br /></p><p><span dir="ltr" style="font-size: 16px;">Please refer to <a href="https://support.freshdesk.com/en/support/solutions/articles/225158" rel="noreferrer" target="_blank">How do I export my tickets from Freshdesk&nbsp;</a>to export tickets from List view.</span></p><p><br /></p><p><span style="font-size: 16px;"><br /></span></p><p><br /></p>
+
+</details>
+
+<details>
+<summary>Why can't I see all my fields in the filters on the 보고서 tab?</summary>
+
+<p style=""><span style="font-size: 16px; font-family: Helvetica Neue;">Under the reports tab, when you click on Filter beneath the concerned report, you would only see the <strong>dropdown </strong>and <strong>dependent dropdown </strong>fields. Fields such as Single line texts, Check-boxes, etc. are<strong> not included</strong>.</span></p><p style=""><span style="font-family: Helvetica Neue;"><span style="font-size: 16px;"><br /></span></span></p><p style=""><span style="font-size: 16px; font-family: Helvetica Neue;">For a data dump of all the fields, please navigate to the <strong>Tickets tab -&gt; </strong>and do an <strong>export</strong> (highlighted in blue) from the right side of the tickets list view. </span></p>
+
+</details>
+
+<details>
+<summary>Why are my 보고서 not live yet, and why can't I view today's data?</summary>
+
+<p><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;">To make the new Reports more informative, we have made changes in the Architecture model of its working.&nbsp;</span></span></p><p><br /></p><p><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;">As you might have noticed, we have added a number of new event-based metrics like <strong>Number of Ticket Reopened</strong>, <strong>Number of Notes Added</strong>, <strong>Number of Responses Added</strong>, <strong>Number of Tickets Reassigned</strong>, etc. All these metrics could not have been supported by the previous architecture.</span></span></p><p><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><br /></span></span></p><p><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;">In the current model, data for the accounts in the <strong dir="ltr">Forest/Enterprise&nbsp;</strong>plans will be pushed out in half an hour and in an hour for the <strong dir="ltr">Estate/Pro.</strong></span></span></p><p><br /></p><p><span style="font-size: 16px;"><span dir="ltr" style="font-family: Helvetica Neue;">It is updated every four hours in the <strong dir="ltr">arden/Growth&nbsp;</strong>plan; for the <strong dir="ltr">Sprout/free&nbsp;</strong>and<strong dir="ltr">&nbsp;Blossom</strong> plans, it will be pushed out once every <strong>24 hours.&nbsp;</strong></span></span></p><p><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><br /></span></span></p><p><span style="font-size: 16px;"><span style="font-family: Helvetica Neue;"><br /></span></span></p><p dir="ltr">G</p>
+
+</details>
+
+<details>
+<summary>Why are the changes made on a ticket not reflecting in the 보고서?</summary>
+
+<p><span dir="ltr" style="font-size: 16px;">In the current reporting model, data for the accounts in the<strong dir="ltr">&nbsp;Forest/Enterprise&nbsp;</strong>plan would be pushed out in half an hour and in an hour for the <strong dir="ltr">Estate/Pro.</strong></span></p><p><span style="font-size: 16px;"><br /></span></p><p><span style="font-size: 16px;">It is updated every four hours for the <strong dir="ltr">Garden/Growth</strong> plan. When you are in the other two plans<strong dir="ltr">&nbsp;(Blossom or Sprout/Free),</strong> it would be pushed out once every 24 hours.&nbsp;</span></p><p><br /></p><p><span style="font-size: 16px;">So the changes would reflect according to the<strong>&nbsp;plan&nbsp;</strong>you are on and when the reports are being updated in your system.&nbsp;</span></p><p><span style="font-size: 16px;"><br /></span></p><p><br /></p>
+
+</details>
+
+<details>
+<summary>Who would have 접근하다 to 보고서 in Freshdesk?</summary>
+
+<p>The reports tab on your Freshdesk Account would be visible for all agents with the associated Agent Role as Supervisor and above. </p><p><br /></p><p>Any agent who is associated with this role would be able to view the Reports to get Helpdesk Metrics. Also, they would be able to schedule reports to be sent over to specific email addresses, periodically.</p>
+
+</details>
+
+<details>
+<summary>어떻게 할 수 있나요 see the number of tickets received on a daily basis?</summary>
+
+<p>Ticket Volume Trends should help you with this metric.</p><p><br /></p><p dir="ltr">Navigate to <strong dir="ltr">Analytics &gt; Curated reports &gt; Ticket Volume Trends &gt; Load Analysis</strong>. You can view the number of tickets received on a daily basis for the set date range.</p><p><br /></p><p><img src="#" style="width: 315px; display: block; float: none; vertical-align: top; margin: 5px auto; text-align: center;" class="fr-fic fr-dib" /></p>
+
+</details>
+

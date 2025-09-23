@@ -2,143 +2,139 @@
 sidebar_position: 1
 ---
 
-# Freshdesk Freshservice 연동 FAQ
+# Freshdesk-Freshservice integration
 
-Freshdesk Freshservice 연동에서 자주 발생하는 질문들과 해결 방법을 정리했습니다. 각 질문을 클릭하여 상세한 답변을 확인하실 수 있습니다.
+이 섹션에서는 Freshdesk-Freshservice integration와 관련된 자주 묻는 질문들을 다룹니다.
 
-:::info 안내
-이 FAQ는 실제 사용자들이 자주 묻는 질문들을 바탕으로 작성되었습니다. 추가 문의사항이 있으시면 고객지원팀에 문의해 주세요.
+:::info
+각 질문을 클릭하면 상세한 답변을 확인할 수 있습니다.
 :::
 
-<details>
-<summary><strong>Which teams need 로 be 에 Freshdesk 그리고 Freshservice?</strong></summary>
 
-Freshdesk is 고객 서비스 software (CSS) that helps businesses track, manage, 그리고 resolve issues that their customers run into while using their product 또는 서비스. 와 함께 Freshdesk, 지원 teams can 제공하다 서비스 across 다수의 channels, including social, get complete context 에서 고객’s timeline 의 events, assign 티켓 로 상담원 via Omniroute™, manage shifts, 그리고 make use 의 other 고객-지원 특정한 capabilities. Freshservice is internal IT 헬프데스크 그리고 서비스 management platform that helps organizations simplify 그리고 automate their internal IT operations.
+## 고급 기능 및 사용법
+
+<details>
+<summary>Will any internal team on Freshservice be able to contact or respond to the customer?</summary>
+
+<p>No. Internal agents on Freshservice are not allowed to respond to customers but can add private notes or responses on the Freshservice incident or service request which will be notified to the customer support agent on Freshdesk. </p>
+
+</details>
+
+
+## 통합 및 연동
+
+<details>
+<summary>Can multiple Freshdesk instances be connected to one Freshservice instance or vice versa?</summary>
+
+<p dir="ltr" style="line-height: 1.8; margin-bottom: 10pt;">No. Currently, the integration only supports linking between one Freshdesk account and one Freshservice account.</p>
 
 </details>
 
 <details>
-<summary><strong>Can 다수의 Freshdesk instances be connected 로 one Freshservice instance 또는 vice versa?</strong></summary>
+<summary>Will the Freshdesk-Freshservice integration use any account API limits?</summary>
 
-No. Currently, 연동 only supports linking between one Freshdesk 계정 그리고 one Freshservice 계정.
-
-</details>
-
-<details>
-<summary><strong>Will Freshdesk-Freshservice 연동 use any 계정 API limits?</strong></summary>
-
-No. Since this is native 연동 그리고 not marketplace app, this will not consume API limit counts.
+<p dir="ltr" style="line-height: 1.8; margin-bottom: 10pt;">No. Since this is a native integration and not a marketplace app, this will not consume the API limit counts.</p>
 
 </details>
 
 <details>
-<summary><strong>Can Freshdesk ticket be linked 로 다수의 Freshservice 티켓?</strong></summary>
+<summary>Will this integration work if the Freshdesk & Freshservice accounts are located in different data centers?</summary>
 
-You can achieve this 에 의해 linking 다수의 티켓 로 tracker 에서 Freshdesk. You can 그러면 link tracker 로 Freshservice incident 또는 서비스 request.
-
-</details>
-
-<details>
-<summary><strong>Can 다수의 Freshdesk 티켓 be linked 로 Freshservice ticket?</strong></summary>
-
-You can achieve this 에 의해 linking 다수의 child 티켓 로 parent ticket. You can 그러면 link parent ticket 로 Freshservice incident 또는 서비스 request.
+<p dir="ltr">No, the integration will work only if the accounts are in the same data center (region).</p>
 
 </details>
 
 <details>
-<summary><strong>Will this 연동 work 만약 Freshdesk & Freshservice accounts are located 에서 different 데이터 centers?</strong></summary>
+<summary>Is this integration available on the Freshdesk and Freshservice 모바일 앱?</summary>
 
-No, 연동 will work only 만약 accounts are 에서 same 데이터 center (region).
-
-</details>
-
-<details>
-<summary><strong>Is this 연동 사용 가능한 에 Freshdesk 그리고 Freshservice mobile apps?</strong></summary>
-
-Currently, it is not 사용 가능한 에 mobile app.
+<p dir="ltr">Currently, it is not available on the mobile app. &nbsp;</p>
 
 </details>
 
 <details>
-<summary><strong>Will any internal 팀 에 Freshservice be able 로 연락하다 또는 respond 로 고객?</strong></summary>
+<summary>Do Freshdesk or Freshservice teams need an additional license to 접근하다 this integration?</summary>
 
-No. Internal 상담원 에 Freshservice are not allowed 로 respond 로 customers 하지만 can 추가 private notes 또는 responses 에 Freshservice incident 또는 서비스 request which will be notified 로 고객 지원 agent 에 Freshdesk.
-
-</details>
-
-<details>
-<summary><strong>Do Freshdesk 또는 Freshservice teams need additional license 로 access this 연동?</strong></summary>
-
-No. No additional costs. It comes free 위해 all paid 요금제.
+<p dir="ltr">No. No additional costs. It comes free for all paid plans.</p>
 
 </details>
 
 <details>
-<summary><strong>Will Freshservice 상담원 be able 로 change status 의 Freshdesk ticket?</strong></summary>
+<summary>Are error logs available for Freshdesk-Freshservice integration?</summary>
 
-Freshservice agent cannot directly change status 의 Freshdesk ticket. However, 만약 ticket 필드 sync is set up 에 Freshdesk, whenever Freshservice agent updates status 의 incident 또는 서비스 request, it updates status 의 Freshdesk ticket automatically.
+<p>No. For audit logs, please reach out to support@freshdesk.com&nbsp;</p><p><br /></p>
+
+</details>
+
+
+## 관리 및 유지보수
+
+<details>
+<summary>Which teams need to be on Freshdesk and Freshservice?</summary>
+
+<p dir="ltr" style="line-height: 1.8; margin-left: 21.6pt; margin-bottom: 10pt;">Freshdesk is a customer service software (CSS) that helps businesses track, manage, and resolve issues that their customers run into while using their product or service. With Freshdesk, the support teams can provide service across multiple channels, including social, get a complete context from a customer’s timeline of events, assign tickets to agents via Omniroute™, manage shifts, and make use of other customer-support specific capabilities.</p><p dir="ltr" style="line-height: 1.8; margin-left: 21.6pt; margin-bottom: 10pt;">Freshservice is an internal IT helpdesk and service management platform that helps organizations simplify and automate their internal IT operations.</p><p dir="ltr" style="line-height: 1.8; margin-left: 21.6pt; margin-bottom: 10pt;"><span dir="ltr" style="background-color: initial; font-family: inherit;">&nbsp;</span></p>
 
 </details>
 
 <details>
-<summary><strong>Will Freshservice agent be able 로 raise Freshdesk ticket?</strong></summary>
+<summary>Can a Freshdesk ticket be linked to multiple Freshservice tickets?</summary>
 
-No. Only 상담원 에 Freshdesk will be able 로 raise incidents 그리고 서비스 requests 에 Freshservice.
-
-</details>
-
-<details>
-<summary><strong>Can ticket be raised 에서 Freshservice 로 Freshdesk?</strong></summary>
-
-No. Freshservice 상담원 cannot raise Freshdesk 티켓 using this 연동.
+<p>You can achieve this by linking multiple tickets to a tracker in Freshdesk. You can then link the tracker to a Freshservice incident or a service request.</p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>Will attachments be 사용 가능한 에 Freshdesk 티켓, Freshservice incidents, 그리고 서비스 requests?</strong></summary>
+<summary>Can multiple Freshdesk tickets be linked to a Freshservice ticket?</summary>
 
-Yes. 상담원 에 Freshdesk 그리고 Freshservice will be able 로 attach files similar 로 how they do it 에 normal 티켓, incidents, 또는 서비스 requests.
-
-</details>
-
-<details>
-<summary><strong>Are 오류 logs 사용 가능한 위해 Freshdesk-Freshservice 연동?</strong></summary>
-
-No. 위해 audit logs, please 문의하다 로 지원@freshdesk.com
+<p>You can achieve this by linking multiple child tickets to a parent ticket. You can then link the parent ticket to a Freshservice incident or a service request. </p>
 
 </details>
 
 <details>
-<summary><strong>Will Freshdesk admins be able 로 draw 분석 위해 티켓 raised 에 Freshservice?</strong></summary>
+<summary>Will Freshservice agents be able to change the 상태 of the Freshdesk ticket?</summary>
 
-Currently, this is not *directly* possible 위해 Freshdesk admins. 에 의해 adding tags & syncing fields 에서 Freshservice, it is possible 로 set up 보고서 에 Freshdesk. However, Freshservice admins will be able 로 draw 분석 에 티켓 raised 에서 Freshdesk using distinct source ‘Freshdesk’
-
-</details>
-
-<details>
-<summary><strong>Will 상담원 be notified via 이메일 위해 any ticket updates 또는 responses 에 Freshdesk 또는 Freshservice?</strong></summary>
-
-만약 상담원 are requesters 에 Freshservice ticket, they will receive 이메일 notifications.
+<p>The Freshservice agent cannot directly change the status of the Freshdesk ticket. However, if the ticket field sync is set up on Freshdesk, whenever the Freshservice agent updates the status of an incident or a service request, it updates the status of the Freshdesk ticket automatically.&nbsp;</p><p><br /></p>
 
 </details>
 
 <details>
-<summary><strong>Will 상담원 에 Freshdesk be notified 에서-product 언제 internal 팀 updates their status?</strong></summary>
+<summary>Will the Freshservice agent be able to raise a Freshdesk ticket?</summary>
 
-만약 ticket 필드 sync has been set up, status 의 Freshdesk ticket will be updated as 그리고 언제 there are updates 에 Freshservice. However, Freshdesk agent will not be notified 의 status updates 하지만 위해 responses 에 incident 또는 서비스 request.
+<p>No. Only agents on Freshdesk will be able to raise incidents and service requests on Freshservice. </p>
 
 </details>
 
----
+<details>
+<summary>Can a ticket be raised from Freshservice to Freshdesk?</summary>
 
-## 🔗 관련 자료
+<p>No. Freshservice agents cannot raise Freshdesk tickets using this integration. </p>
 
-추가적인 도움이 필요하시면 다음 자료들을 참고해 주세요:
+</details>
 
-- [Freshdesk 도움말 센터](https://support.freshdesk.com)
-- [커뮤니티 포럼](https://community.freshworks.com)
-- [고객지원팀 문의](mailto:support@freshdesk.com)
+<details>
+<summary>Will attachments be available on Freshdesk tickets, Freshservice incidents, and service requests?</summary>
 
-:::tip 도움말
-더 자세한 정보나 개별 상담이 필요하시면 고객지원팀으로 연락해 주세요.
-:::
+<p>Yes. Agents on Freshdesk and Freshservice will be able to attach files similar to how they do it on normal tickets, incidents, or service requests.&nbsp;</p><p><br /></p>
+
+</details>
+
+<details>
+<summary>Will Freshdesk admins be able to draw 분석 for tickets raised on Freshservice?</summary>
+
+<p dir="ltr">Currently, this is not *directly* possible for Freshdesk admins. By adding tags &amp; syncing fields from Freshservice, it is possible to set up reports on Freshdesk. However, Freshservice admins will be able to draw analytics on the tickets raised from Freshdesk using the distinct source ‘Freshdesk’&nbsp;</p><p><br /></p>
+
+</details>
+
+<details>
+<summary>Will agents be notified via email for any ticket updates or responses on Freshdesk or Freshservice?</summary>
+
+<p>If the agents are the requesters on the Freshservice ticket, they will receive email notifications.</p><p><br /></p>
+
+</details>
+
+<details>
+<summary>Will agents on Freshdesk be notified in-product when an internal team updates their 상태?</summary>
+
+<p dir="ltr">If the ticket field sync has been set up, the status of the Freshdesk ticket will be updated as and when there are updates on Freshservice. However, the Freshdesk agent will not be notified of status updates but for responses on an incident or a service request. &nbsp;</p>
+
+</details>
+
