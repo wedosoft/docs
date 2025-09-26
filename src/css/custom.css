@@ -1,7 +1,75 @@
 /**
  * WedoSoft Modern SaaS Theme
  * Based on brand colors: Blue #3284D6, Grey #383838
+ * Inspired by https://homepage-mu-henna.vercel.app/
  */
+
+/* Import Pretendard Font - Modern Korean Typography */
+@import url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff2');
+
+/* Pretendard Font Family Declaration */
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
 
 /* Light Mode - WedoSoft Brand Colors */
 :root {
@@ -47,84 +115,212 @@
   --ifm-box-shadow-thin: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   --ifm-box-shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 
-  /* Typography */
+  /* Typography with Pretendard Font */
+  --ifm-font-family-base: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --ifm-font-family-monospace: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
   --ifm-font-size-base: 0.9375rem;
   /* 15px */
+  --ifm-line-height-base: 1.6;
+  
+  /* Enhanced Modern SaaS Background Colors */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f8fafc;
+  --ifm-hover-overlay: rgba(0, 0, 0, 0.05);
+  
+  /* Modern Button Styles */
+  --ifm-button-padding-horizontal: 1.5rem;
+  --ifm-button-padding-vertical: 0.75rem;
+  --ifm-button-font-weight: 600;
+}
+
+/* Enhanced Modern Typography with Pretendard */
+body {
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Pretendard', sans-serif;
+  font-feature-settings: 'kern', 'liga';
+  letter-spacing: -0.02em;
 }
 
 /* Typography hierarchy */
 h1 {
-  font-size: 2.2rem !important;
+  font-size: 2.5rem !important;
   font-weight: 700 !important;
   line-height: 1.2 !important;
-  margin-bottom: 1rem !important;
+  margin-bottom: 1.5rem !important;
   color: var(--ifm-heading-color) !important;
+  background: linear-gradient(135deg, var(--ifm-color-primary), var(--ifm-color-primary-dark));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 h2 {
-  font-size: 1.6rem !important;
-  font-weight: 600 !important;
+  font-size: 1.75rem !important;
+  font-weight: 650 !important;
   line-height: 1.3 !important;
-  margin-bottom: 0.8rem !important;
-  margin-top: 2rem !important;
+  margin-bottom: 1rem !important;
+  margin-top: 2.5rem !important;
   color: var(--ifm-heading-color) !important;
 }
 
 h3 {
-  font-size: 1.3rem !important;
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  margin-bottom: 0.75rem !important;
+  margin-top: 1.5rem !important;
+  color: var(--ifm-heading-color) !important;
+}
+
+h4 {
+  font-size: 1.1rem !important;
   font-weight: 600 !important;
   line-height: 1.4 !important;
   color: var(--ifm-heading-color) !important;
 }
 
-/* Dark Mode - Adjusted for better contrast */
-[data-theme='dark'] {
-  /* Primary Blue Palette - Brighter for dark mode */
-  --ifm-color-primary: #5CA4ED;
-  --ifm-color-primary-dark: #4794E8;
-  --ifm-color-primary-darker: #3284D6;
-  --ifm-color-primary-darkest: #256DB9;
-  --ifm-color-primary-light: #7BB4F2;
-  --ifm-color-primary-lighter: #9AC4F7;
-  --ifm-color-primary-lightest: #B9D4FC;
+/* Improved paragraph styling */
+p {
+  line-height: 1.7;
+  font-size: 0.95rem;
+  color: var(--ifm-text-color);
+  margin-bottom: 1rem;
+}
 
-  /* Dark theme adjustments */
-  --ifm-navbar-background-color: #1e1e1e;
-  --ifm-footer-background-color: #1a1a1a;
-  --ifm-background-color: #0d1117;
-  --ifm-background-surface-color: #161b22;
-  --ifm-heading-color: #f0f6fc;
-  --ifm-text-color: #e6edf3;
-  --ifm-link-color: #7BB4F2;
-  --ifm-link-hover-color: #9AC4F7;
+/* Enhanced link styling */
+a {
+  font-weight: 500;
+  color: var(--ifm-link-color);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: var(--ifm-link-hover-color);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+/* Dark Mode - Enhanced Modern SaaS Theme */
+[data-theme='dark'] {
+  /* Primary Blue Palette - Optimized for dark mode */
+  --ifm-color-primary: #6BA6F7;
+  --ifm-color-primary-dark: #5CA4ED;
+  --ifm-color-primary-darker: #4794E8;
+  --ifm-color-primary-darkest: #3284D6;
+  --ifm-color-primary-light: #7BB4F2;
+  --ifm-color-primary-lighter: #8CC2F8;
+  --ifm-color-primary-lightest: #A3CFFA;
+
+  /* Modern Dark Background Colors */
+  --ifm-navbar-background-color: #0f0f0f;
+  --ifm-footer-background-color: #0a0a0a;
+  --ifm-background-color: #000000;
+  --ifm-background-surface-color: #0c0c0c;
+  --ifm-card-background-color: #111111;
+  
+  /* Enhanced Text Colors for Better Readability */
+  --ifm-heading-color: #ffffff;
+  --ifm-text-color: #e1e5e9;
+  --ifm-text-color-secondary: #b1b5b9;
+  --ifm-link-color: #6BA6F7;
+  --ifm-link-hover-color: #8CC2F8;
+  
+  /* Modern Hover Effects */
+  --ifm-hover-overlay: rgba(255, 255, 255, 0.08);
+  
+  /* Enhanced Shadows for Dark Mode */
+  --ifm-box-shadow-thin: 0 1px 3px 0 rgba(0, 0, 0, 0.5), 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --ifm-box-shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  
+  /* Border Colors */
+  --ifm-border-color: #21262d;
+  --ifm-table-border-color: #21262d;
 
   /* Code styling for dark mode */
   --ifm-code-background: #262626;
   --ifm-code-color: #7BB4F2;
   --docusaurus-highlighted-code-line-bg: rgba(123, 180, 242, 0.15);
+}
 
-  /* Dark shadows */
-  --ifm-box-shadow-thin: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
-  --ifm-box-shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+/* Dark mode typography adjustments */
+[data-theme='dark'] h1 {
+  background: linear-gradient(135deg, var(--ifm-color-primary), var(--ifm-color-primary-light)) !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* ===== MODERN COMPONENT STYLING ===== */
 
-/* Enhanced Navbar */
+/* Enhanced Navbar with Modern SaaS Design */
 .navbar {
   background: var(--ifm-navbar-background-color);
-  box-shadow: var(--ifm-navbar-shadow);
-  border-bottom: 1px solid rgba(50, 132, 214, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(50, 132, 214, 0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 0.5rem 0;
 }
 
 .navbar__title {
   font-weight: 700;
   color: var(--ifm-color-primary);
+  font-family: 'Pretendard', sans-serif;
+  letter-spacing: -0.02em;
 }
 
 .navbar__link {
   font-weight: 500;
-  transition: color 0.2s ease;
+  font-family: 'Pretendard', sans-serif;
+  transition: all 0.2s ease;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+}
+
+.navbar__link:hover {
+  background: var(--ifm-hover-overlay);
+  color: var(--ifm-color-primary);
+}
+
+/* Modern Button Styles */
+.button {
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  transition: all 0.2s ease;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+}
+
+.button--primary {
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-dark) 100%);
+  border: none;
+  box-shadow: 0 2px 4px rgba(50, 132, 214, 0.2);
+}
+
+.button--primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(50, 132, 214, 0.3);
+}
+
+.button--secondary {
+  background: transparent;
+  border: 1px solid var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.button--secondary:hover {
+  background: var(--ifm-color-primary);
+  color: white;
+  transform: translateY(-1px);
 }
 
 /* Search bar center positioning - Fix absolute centering */
@@ -254,17 +450,94 @@ h3 {
   background: linear-gradient(135deg, var(--ifm-color-primary-dark), var(--ifm-color-primary-darkest));
 }
 
-/* Enhanced Cards */
+/* Enhanced Cards with Modern SaaS Design */
 .card {
-  border-radius: var(--ifm-card-border-radius);
-  box-shadow: var(--ifm-box-shadow-thin);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   border: 1px solid rgba(50, 132, 214, 0.1);
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  background: var(--ifm-background-surface-color);
 }
 
 .card:hover {
-  box-shadow: var(--ifm-box-shadow-medium);
-  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(50, 132, 214, 0.15);
+  transform: translateY(-4px);
+  border-color: rgba(50, 132, 214, 0.2);
+}
+
+/* Dark mode card adjustments */
+[data-theme='dark'] .card {
+  background: var(--ifm-card-background-color);
+  border-color: rgba(107, 166, 247, 0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+  border-color: rgba(107, 166, 247, 0.3);
+}
+
+/* Enhanced Search Styling */
+.DocSearch {
+  --docsearch-primary-color: var(--ifm-color-primary);
+  --docsearch-searchbox-background: rgba(50, 132, 214, 0.08);
+  --docsearch-searchbox-focus-background: var(--ifm-background-color);
+  --docsearch-searchbox-shadow: 0 4px 12px rgba(50, 132, 214, 0.15);
+  --docsearch-key-gradient: linear-gradient(135deg, var(--ifm-color-primary-lightest), var(--ifm-color-primary-lighter));
+}
+
+[data-theme='dark'] .DocSearch {
+  --docsearch-searchbox-background: rgba(107, 166, 247, 0.1);
+  --docsearch-searchbox-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Modern Code Block Styling */
+.theme-code-block {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1.5rem 0;
+}
+
+[data-theme='dark'] .theme-code-block {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Enhanced Sidebar Styling */
+.theme-doc-sidebar-container {
+  border-right: 1px solid rgba(50, 132, 214, 0.1);
+  background: var(--ifm-background-surface-color);
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container {
+  border-right-color: rgba(107, 166, 247, 0.15);
+  background: var(--ifm-background-color);
+}
+
+.menu__link {
+  font-weight: 450;
+  font-size: 0.9375rem;
+  padding: 0.5rem 0.75rem;
+  margin: 0.125rem 0;
+  background: transparent !important;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  color: var(--ifm-text-color);
+}
+
+.menu__link:hover {
+  background: var(--ifm-hover-overlay) !important;
+  color: var(--ifm-color-primary);
+}
+
+.menu__link--active {
+  background: rgba(50, 132, 214, 0.1) !important;
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+[data-theme='dark'] .menu__link--active {
+  background: rgba(107, 166, 247, 0.15) !important;
 }
 
 /* Modern Alerts/Callouts - WedoSoft Brand Colors Only */
@@ -430,24 +703,94 @@ h3 {
   transform: translateY(-1px);
 }
 
-/* Footer styling */
+/* Enhanced Modern Footer Styling */
 .footer {
-  background: var(--ifm-footer-background-color);
+  background: linear-gradient(135deg, var(--ifm-footer-background-color) 0%, #2a2a2a 100%);
   color: #ffffff;
+  padding: 2rem 0 1rem;
+  border-top: 1px solid rgba(50, 132, 214, 0.1);
+}
+
+[data-theme='dark'] .footer {
+  background: linear-gradient(135deg, var(--ifm-footer-background-color) 0%, #050505 100%);
+  border-top-color: rgba(107, 166, 247, 0.15);
 }
 
 .footer__title {
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 650;
+  font-family: 'Pretendard', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
 }
 
 .footer__link-item {
-  color: rgba(255, 255, 255, 0.8);
-  transition: color 0.2s ease;
+  color: rgba(255, 255, 255, 0.75);
+  transition: all 0.2s ease;
+  font-weight: 450;
+  padding: 0.25rem 0;
+  border-radius: 4px;
 }
 
 .footer__link-item:hover {
-  color: #ffffff;
+  color: var(--ifm-color-primary-lightest);
+  text-decoration: none;
+  transform: translateX(2px);
+}
+
+.footer__bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875rem;
+}
+
+/* Modern Table Styling */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1.5rem 0;
+}
+
+th {
+  background: linear-gradient(135deg, var(--ifm-color-primary-lightest), var(--ifm-color-primary-lighter));
+  color: var(--ifm-color-primary-darkest);
+  font-weight: 650;
+  padding: 1rem 0.75rem;
+  text-align: left;
+  font-family: 'Pretendard', sans-serif;
+}
+
+td {
+  padding: 0.75rem;
+  border-bottom: 1px solid rgba(50, 132, 214, 0.1);
+  transition: background 0.2s ease;
+}
+
+tr:hover td {
+  background: rgba(50, 132, 214, 0.03);
+}
+
+[data-theme='dark'] table {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme='dark'] th {
+  background: linear-gradient(135deg, rgba(107, 166, 247, 0.2), rgba(107, 166, 247, 0.15));
+  color: var(--ifm-color-primary-lightest);
+}
+
+[data-theme='dark'] td {
+  border-bottom-color: rgba(107, 166, 247, 0.15);
+}
+
+[data-theme='dark'] tr:hover td {
+  background: rgba(107, 166, 247, 0.08);
 }
 
 /* ===== INTRO PAGE PREMIUM STYLING ===== */
