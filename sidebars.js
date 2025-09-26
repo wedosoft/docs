@@ -320,6 +320,14 @@ var sidebars = {
                                 'freshservice/itsm/freddy-ai-agent/launching-microsoft-teams-update-servicebot-upgraded-apis',
                                 'freshservice/itsm/freddy-ai-agent/legal-policies',
                                 'freshservice/itsm/freddy-ai-agent/freddy-ai-agent-overview-report',
+                                'freshservice/itsm/freddy-ai-agent/integrate-workplace-information-from-sharepoint-for-freddy-ai-agent-search',
+                                'freshservice/itsm/freddy-ai-agent/analysing-freddy-ai-agent-performance-using-analytics',
+                                'freshservice/itsm/freddy-ai-agent/how-to-add-the-freddy-ai-agent-to-a-public-channel-on-slack-and-microsoft-teams',
+                                'freshservice/itsm/freddy-ai-agent/pinning-servicebot-on-microsoft-teams',
+                                'freshservice/itsm/freddy-ai-agent/rename-servicebot-in-microsoft-teams',
+                                'freshservice/itsm/freddy-ai-agent/removing-servicebot-from-a-team',
+                                'freshservice/itsm/freddy-ai-agent/renaming-the-servicebot-in-slack',
+                                'freshservice/itsm/freddy-ai-agent/using-the-freddy-ai-agent-for-slack',
                             ],
                         },
                         {
@@ -644,6 +652,15 @@ var sidebars = {
                 },
             ],
         },
+        // Freshdesk - Customer Support (문서가 준비되면 추가 예정)
+        // {
+        //   type: 'category',
+        //   label: '💬 Freshdesk (Customer Support)',
+        //   collapsed: false,
+        //   items: [
+        //     // FAQ 섹션은 문서 준비 후 추가 예정
+        //   ],
+        // },
     ],
 };
 exports.default = sidebars;
